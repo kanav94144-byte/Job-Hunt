@@ -155,6 +155,13 @@
         <option value="india">India</option>
         <option value="international">Abroad</option>
       </select>
+      <select id="src" aria-label="Found on">
+        <option value="">Found on: anywhere</option>
+        <option value="portal">Company careers site</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="naukri">Naukri</option>
+        <option value="iimjobs">iimjobs</option>
+      </select>
       <select id="mba" aria-label="MBA">
         <option value="">MBA: any</option>
         <option value="yes">MBA mentioned</option>
@@ -219,8 +226,10 @@
   const fmtDate = iso => { if(!iso) return ''; const [y,m,d] = iso.split('-'); return `${+d} ${MONTHS[+m-1]}`; };
   const daysAgo = iso => { if(!iso) return 99; return Math.round((Date.parse(latestRun || new Date().toISOString().slice(0,10)) - Date.parse(iso)) / 864e5); };
   const rel = iso => { const n = daysAgo(iso); return n <= 0 ? 'today' : n === 1 ? 'yesterday' : `${n} days ago`; };
-  const shortLoc = l => { if(!l) return '—'; let c = l.split(/[,;]/)[0].replace(/\b(Division|City|District)\b/gi,'').trim();
-    return {Bangalore:'Bengaluru',Gurgaon:'Gurugram','New Delhi':'Delhi'}[c] || c || '—'; };
+  const oneCity = c => { c = c.split(/[,;]/)[0].replace(/\b(Division|City|District)\b/gi,'').trim(); return {Bangalore:'Bengaluru',Gurgaon:'Gurugram','New Delhi':'Delhi'}[c] || c; };
+  const shortLoc = l => { if(!l) return '—'; const cs = [...new Set(l.split(' · ').map(oneCity).filter(Boolean))];
+    return cs.length > 2 ? `${cs.slice(0,2).join(', ')} +${cs.length-2}` : (cs.join(', ') || '—'); };
+  const srcOf = j => (j.sources || [j.source]).map(x => /portal/.test(x) ? 'portal' : x);
   const payMax = j => { if(j.salary_max) return j.currency === 'INR' || !j.currency ? j.salary_max : j.salary_max * 20;
     const m = String(j.salary_label||'').match(/(\d+)\s*LPA/g); return m ? parseFloat(m[m.length-1]) * 1e5 : 0; };
   const hasMba = j => String(j.mba||'').startsWith('Yes');
@@ -245,7 +254,7 @@
   }).catch(() => {});
 
   // ---------- filter state
-  const controls = ['q','posted','group','region','mba','status','sort'];
+  const controls = ['q','posted','group','region','src','mba','status','sort'];
   function state(){ const s = {tier, quick}; controls.forEach(id => s[id] = $(id).value); return s; }
   function restore(){
     const s = store.get('jobFilters', null); if(!s) return;
@@ -264,6 +273,7 @@
       if (/^\d+$/.test(s.posted) && daysAgo(j.posted) >= +s.posted) return false;
       if (s.group && j.group !== s.group) return false;
       if (s.region && j.region !== s.region) return false;
+      if (s.src && !srcOf(j).includes(s.src)) return false;
       if (s.mba === 'yes' && !hasMba(j)) return false;
       if (s.status === 'hide-skip' && mk === 'Skip') return false;
       if (s.status === 'none' && mk) return false;
@@ -290,8 +300,8 @@
     ['A','B','C'].forEach(t => $('t'+t).textContent = visible.filter(j => j.tier === t).length);
     $('tSaved').textContent = Object.values(marks).filter(v => v === 'Saved' || v === 'Applied').length;
     document.querySelectorAll('.tile').forEach(b => b.classList.toggle('on', (b.dataset.quick === quick) || (b.dataset.quick === tier && !quick)));
-    controls.slice(1, 6).forEach(id => $(id).classList.toggle('set', $(id).value !== '' && !(id === 'status' && $(id).value === 'hide-skip')));
-    const active = tier || quick || s.q || s.posted || s.group || s.region || s.mba || (s.status && s.status !== 'hide-skip');
+    controls.slice(1, 7).forEach(id => $(id).classList.toggle('set', $(id).value !== '' && !(id === 'status' && $(id).value === 'hide-skip')));
+    const active = tier || quick || s.q || s.posted || s.group || s.region || s.src || s.mba || (s.status && s.status !== 'hide-skip');
     $('clear').hidden = !active;
     $('count').textContent = `Showing ${Math.min(rows.length, shown)} of ${rows.length} role${rows.length === 1 ? '' : 's'}`;
     $('empty').hidden = rows.length > 0;
@@ -302,7 +312,7 @@
       const est = j.salary_kind === 'estimated';
       const pay = est ? `${esc(String(j.salary_label).replace(/^~/, '').replace(/\s*\(est\.\)/, ''))} <span class="mute small">est.</span>` : esc(j.salary_label || '—');
       const why = (j.reasons || []).concat([`CV match score ${j.relevance ?? 0}`]).map(esc).join(' · ');
-      const srcs = (j.sources || [j.source]).filter(Boolean).map(x => String(x).replace(/\s*\(.*\)/, '')).join(', ');
+      const srcs = [...new Set(srcOf(j))].map(x => ({portal:'company careers site', linkedin:'LinkedIn', naukri:'Naukri', iimjobs:'iimjobs'}[x] || x)).join(', ');
       const btn = (v, label) => `<button class="act ${mk === v ? 'on-' + v.toLowerCase() : ''}" data-k="${esc(j.key)}" data-v="${v}" aria-pressed="${mk === v}">${label}</button>`;
       return `<tr class="${mk === 'Skip' ? 'skipped' : ''}">
         <td class="date">${fmtDate(j.posted)}<small>${rel(j.posted)}</small></td>
