@@ -133,5 +133,10 @@
   "type": "keka",
   "tenant": "kukufm",
   "probed": true
+ },
+ "Country Delight": {
+  "type": "darwinbox",
+  "tenant": "countrydelight",
+  "probed": true
  }
 }

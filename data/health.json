@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 661,
+   "jobs": 659,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -59,13 +59,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 242,
+   "jobs": 240,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 73,
+   "jobs": 72,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -218,6 +218,12 @@
    "jobs": 30,
    "errors": []
   },
+  "portal:darwinbox:Country Delight": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
   "portal:darwinbox:Pocket FM": {
    "ok": 1,
    "failed": 0,
@@ -251,14 +257,26 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 258,
+   "jobs": 260,
+   "errors": []
+  },
+  "iimjobs": {
+   "ok": 19,
+   "failed": 0,
+   "jobs": 1822,
+   "errors": []
+  },
+  "naukri (browser)": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 116,
    "errors": []
   }
  },
  "counts": {
-  "raw": 2286,
-  "after_filters": 517,
-  "kept": 248,
-  "on_dashboard": 352
+  "raw": 4221,
+  "after_filters": 889,
+  "kept": 341,
+  "on_dashboard": 432
  }
 }
