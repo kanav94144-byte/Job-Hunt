@@ -14,7 +14,8 @@
     const sal = q('.sal-wrap span[title], .sal span[title]');
     const m = sal.match(/([\d.]+)\s*-\s*([\d.]+)\s*Lacs/i);
     const id = w.getAttribute('data-job-id');
-    store[id] = { c: q('a.comp-name'), t, l: q('.locWdth'), u: a.href.split('?')[0], d: ago(q('.job-post-day')), e: q('.expwdth'),
+    const prevTs = store[id] && store[id].ts;
+    store[id] = { ts: prevTs || Date.now(), c: q('a.comp-name'), t, l: q('.locWdth'), u: a.href.split('?')[0], d: ago(q('.job-post-day')), e: q('.expwdth'),
       j: q('.job-desc'), k: [...w.querySelectorAll('.tag-li')].map(x => x.textContent.trim()).join(', '),
       smin: m ? +m[1] * 1e5 : null, smax: m ? +m[2] * 1e5 : null };
     added++;
@@ -22,7 +23,3 @@
   localStorage.setItem('jh_naukri', JSON.stringify(store));
   return { page: location.pathname + location.search, cards: seen, matched: added, total: Object.keys(store).length };
 })()
-
-// ---- EXPORT (run once after all searches, on any naukri.com page) ----
-// Returns gzip+base64 of {collected, jobs:[...]} filtered to 1-5 yrs overlap and pay >= 20 LPA when stated.
-// const store=JSON.parse(localStorage.getItem('jh_naukri')||'{}'); ... (see README in this folder)
