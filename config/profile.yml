@@ -56,7 +56,6 @@ title_keywords:
   - marketing
   - brand
   - "\\blead\\b"
-  - "\\bhead\\b"
 
 # Title containing any of these is dropped (tech / core finance / unrelated)
 title_exclude:
@@ -122,6 +121,16 @@ title_exclude:
   - "\\bvp\\b"
   - vice president
   - director
+  - "\\bhead\\b"
+  - leadership
+  - general manager
+  - "\\bgm\\b"
+  - president
+  - "\\bchief (?!of staff)"
+  - "\\bc[eotfm]o\\b"
+  - country manager
+  - senior vice
+  - "\\bpartner\\b(?!ship)"
   - security
   - red team
   - mainframe
