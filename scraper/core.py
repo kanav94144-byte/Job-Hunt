@@ -143,9 +143,7 @@ def classify_location(loc: str, profile) -> Optional[str]:
         return "india"   # unknown location: assume India (searches are India-scoped)
     if any(k in l for k in profile["locations"]["international"]):
         return "international"
-    if any(k in l for k in profile["locations"]["india"]):
-        return "india"
-    return None
+    return "india"   # searches are India-scoped; portal connectors already drop other countries
 
 
 # ----------------------------------------------------------------- evaluation
@@ -230,9 +228,12 @@ class Evaluator:
         job.relevance = min(score, 40)
 
         # discovery results must carry a strong signal
-        if job.group == "discovered" and (not (m or job.salary_kind == "stated")
-                                          or not self.strong_title.search(job.title) or job.relevance < 10):
-            return False
+        if job.group == "discovered":
+            mba_platform = job.source in ("iimjobs", "naukri")   # sites/filters aimed at MBA-level hiring
+            if not self.strong_title.search(job.title) or job.relevance < 8:
+                return False
+            if not (m or job.salary_kind == "stated" or mba_platform):
+                return False
 
         # tiering
         in_range = not stretch
@@ -257,11 +258,43 @@ def fmt_money(lo, hi, cur):
     return f"{cur} {a:.0f}k–{b:.0f}k"
 
 
+_CITY_WORDS = (r"bengaluru|bangalore|gurugram|gurgaon|delhi|new delhi|ncr|noida|mumbai|pune|hyderabad|chennai|kolkata|"
+               r"ahmedabad|jaipur|chandigarh|kochi|cochin|lucknow|indore|surat|siliguri|kanyakumari|coimbatore|nagpur|"
+               r"bhopal|patna|india|remote|hybrid|pan india|multiple locations|division|city|west|east|north|south|central")
+
+
+def norm_title(title: str) -> str:
+    t = (title or "").lower()
+    t = re.sub(r"\(.*?\)|\[.*?\]", " ", t)                  # drop bracketed notes
+    t = re.sub(r"^in[_ -]+", " ", t)                          # PwC style "IN_"
+    t = re.sub(r"[_|/]", " ", t)
+    t = re.sub(rf"\b({_CITY_WORDS})\b", " ", t)
+    t = re.sub(r"\b(sr|snr)\b\.?", "senior", t)
+    return norm(t)
+
+
+def city_of(loc: str) -> str:
+    c = norm((loc or "").split(",")[0].split("/")[0])
+    c = re.sub(r"\b(division|city|district|urban|rural|area|all areas)\b", "", c).strip()
+    return {"bangalore": "Bengaluru", "gurgaon": "Gurugram", "new delhi": "Delhi", "bombay": "Mumbai"}.get(c, c.title())
+
+
 def dedupe_key(job: Job) -> str:
-    city = norm(job.location.split(",")[0]) if job.location else ""
-    city = re.sub(r"\b(division|city|district|urban|rural|area)\b", "", city).strip()
-    city = {"bangalore": "bengaluru", "gurgaon": "gurugram", "new delhi": "delhi", "bombay": "mumbai"}.get(city, city)
-    return f"{norm(job.company)}|{norm(job.title)}|{city}"
+    """Same company + same role = one row, whatever the city (cities are merged)."""
+    return f"{norm(job.company)}|{norm_title(job.title)}"
+
+
+def merge_locations(a: str, b: str) -> str:
+    cities = []
+    for loc in (a, b):
+        if not loc:
+            continue
+        parts = loc.split(" · ") if " · " in loc else [city_of(loc)]
+        for c in parts:
+            c = c.strip()
+            if c and c not in cities:
+                cities.append(c)
+    return " · ".join(cities)
 
 
 def to_iso(d) -> Optional[str]:
