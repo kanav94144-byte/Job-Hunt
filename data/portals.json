@@ -1,0 +1,137 @@
+{
+ "CarDekho": {
+  "type": "darwinbox",
+  "tenant": "cardekho",
+  "probed": true
+ },
+ "The Whole Truth": {
+  "type": "keka",
+  "tenant": "thewholetruthfoods",
+  "probed": true
+ },
+ "boAt": {
+  "type": "darwinbox",
+  "tenant": "boat",
+  "probed": true
+ },
+ "Delhivery": {
+  "type": "darwinbox",
+  "tenant": "delhivery",
+  "probed": true
+ },
+ "GoKwik": {
+  "type": "keka",
+  "tenant": "gokwik",
+  "probed": true
+ },
+ "Pine Labs": {
+  "type": "darwinbox",
+  "tenant": "pinelabs",
+  "probed": true
+ },
+ "Juspay": {
+  "type": "darwinbox",
+  "tenant": "juspay",
+  "probed": true
+ },
+ "PayU": {
+  "type": "darwinbox",
+  "tenant": "payu",
+  "probed": true
+ },
+ "Zepto": {
+  "type": "darwinbox",
+  "tenant": "zepto",
+  "probed": true
+ },
+ "BigBasket": {
+  "type": "darwinbox",
+  "tenant": "bigbasket",
+  "probed": true
+ },
+ "Purplle": {
+  "type": "darwinbox",
+  "tenant": "purplle",
+  "probed": true
+ },
+ "Kapiva": {
+  "type": "darwinbox",
+  "tenant": "kapiva",
+  "probed": true
+ },
+ "Cars24": {
+  "type": "darwinbox",
+  "tenant": "cars24",
+  "probed": true
+ },
+ "Ather Energy": {
+  "type": "darwinbox",
+  "tenant": "atherenergy",
+  "probed": true
+ },
+ "OYO": {
+  "type": "darwinbox",
+  "tenant": "oyo",
+  "probed": true
+ },
+ "NoBroker": {
+  "type": "darwinbox",
+  "tenant": "nobroker",
+  "probed": true
+ },
+ "Snabbit": {
+  "type": "darwinbox",
+  "tenant": "snabbit",
+  "probed": true
+ },
+ "Pristyn Care": {
+  "type": "darwinbox",
+  "tenant": "pristyncare",
+  "probed": true
+ },
+ "CaratLane": {
+  "type": "darwinbox",
+  "tenant": "caratlane",
+  "probed": true
+ },
+ "Licious": {
+  "type": "darwinbox",
+  "tenant": "licious",
+  "probed": true
+ },
+ "Wakefit": {
+  "type": "darwinbox",
+  "tenant": "wakefit",
+  "probed": true
+ },
+ "Snitch": {
+  "type": "keka",
+  "tenant": "snitch",
+  "probed": true
+ },
+ "Pocket FM": {
+  "type": "darwinbox",
+  "tenant": "pocketfm",
+  "probed": true
+ },
+ "Udaan": {
+  "type": "darwinbox",
+  "tenant": "udaan",
+  "probed": true
+ },
+ "Jupiter": {
+  "type": "keka",
+  "tenant": "jupiter",
+  "probed": true
+ },
+ "Zolve": {
+  "type": "darwinbox",
+  "tenant": "zolve",
+  "probed": true
+ },
+ "Kuku FM": {
+  "type": "keka",
+  "tenant": "kukufm",
+  "probed": true
+ }
+}

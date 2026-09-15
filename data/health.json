@@ -2,30 +2,58 @@
  "run_date": "2026-09-15",
  "first_run": true,
  "sources": {
+  "portal:darwinbox:Porter": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 116,
+   "errors": []
+  },
+  "portal:oracle_hcm:American Express": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 42,
+   "errors": []
+  },
+  "portal:avature:Deloitte USI": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 50,
+   "errors": []
+  },
   "linkedin": {
-   "ok": 54,
+   "ok": 99,
    "failed": 0,
-   "jobs": 289,
+   "jobs": 648,
    "errors": []
   },
-  "naukri": {
-   "ok": 54,
+  "portal:darwinbox:CarDekho": {
+   "ok": 1,
    "failed": 0,
-   "jobs": 0,
+   "jobs": 17,
    "errors": []
   },
-  "portal:eightfold:American Express": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 404 Client Error: NOT FOUND for url: https://aexp.eightfold.ai/api/apply/v2/jobs?domain=aexp.com&location=India&start=0&num=10&sort_by=timestamp"
-   ]
+  "portal:keka:The Whole Truth": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 18,
+   "errors": []
   },
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 93,
+   "jobs": 95,
+   "errors": []
+  },
+  "portal:urbancompany:Urban Company": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 11,
+   "errors": []
+  },
+  "portal:google:Google": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 160,
    "errors": []
   },
   "portal:workday:Walmart": {
@@ -42,10 +70,16 @@
    "jobs": 0,
    "errors": []
   },
+  "portal:darwinbox:Tata 1mg": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 30,
+   "errors": []
+  },
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 61,
+   "jobs": 63,
    "errors": []
   },
   "portal:uber:Uber": {
@@ -56,23 +90,185 @@
     "HTTPError: 404 Client Error: Not Found for url: https://www.uber.com/api/loadSearchJobsResults?localeCode=en"
    ]
   },
+  "portal:darwinbox:boAt": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:Rapido": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:makemytrip:MakeMyTrip": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 41,
+   "errors": []
+  },
+  "portal:keka:SolarSquare": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 174,
+   "errors": []
+  },
+  "portal:darwinbox:Delhivery": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 7,
+   "errors": []
+  },
+  "portal:keka:GoKwik": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 24,
+   "errors": []
+  },
+  "portal:darwinbox:Pine Labs": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 3,
+   "errors": []
+  },
+  "portal:darwinbox:Juspay": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:PayU": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:Zepto": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 3,
+   "errors": []
+  },
+  "portal:darwinbox:BigBasket": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 5,
+   "errors": []
+  },
+  "portal:darwinbox:Purplle": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:Kapiva": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 9,
+   "errors": []
+  },
+  "portal:darwinbox:Cars24": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 6,
+   "errors": []
+  },
+  "portal:darwinbox:Ather Energy": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 86,
+   "errors": []
+  },
+  "portal:darwinbox:OYO": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:NoBroker": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 4,
+   "errors": []
+  },
+  "portal:darwinbox:Snabbit": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:Pristyn Care": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:CaratLane": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 6,
+   "errors": []
+  },
+  "portal:darwinbox:Licious": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 3,
+   "errors": []
+  },
+  "portal:darwinbox:Wakefit": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 1,
+   "errors": []
+  },
+  "portal:keka:Snitch": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 30,
+   "errors": []
+  },
+  "portal:darwinbox:Pocket FM": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:darwinbox:Udaan": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 21,
+   "errors": []
+  },
+  "portal:keka:Jupiter": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 12,
+   "errors": []
+  },
+  "portal:darwinbox:Zolve": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
+  "portal:keka:Kuku FM": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 14,
+   "errors": []
+  },
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 309,
-   "errors": []
-  },
-  "discovery:naukri": {
-   "ok": 10,
-   "failed": 0,
-   "jobs": 0,
+   "jobs": 255,
    "errors": []
   }
  },
  "counts": {
-  "raw": 752,
-  "after_filters": 433,
-  "kept": 180,
-  "on_dashboard": 180
+  "raw": 1954,
+  "after_filters": 517,
+  "kept": 285,
+  "on_dashboard": 384
  }
 }
