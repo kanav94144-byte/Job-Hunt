@@ -183,7 +183,7 @@ class Evaluator:
                 return False
             if emax is not None and emax < p["experience"]["min"]:
                 return False          # fresher-only
-            if emin > p["experience"]["max"]:
+            if emin >= p["experience"]["max"]:
                 stretch = True
                 job.reasons.append(f"stretch: asks {job.exp_label}")
 
@@ -230,7 +230,8 @@ class Evaluator:
         job.relevance = min(score, 40)
 
         # discovery results must carry a strong signal
-        if job.group == "discovered" and not (m or job.salary_kind == "stated"):
+        if job.group == "discovered" and (not (m or job.salary_kind == "stated")
+                                          or not self.strong_title.search(job.title) or job.relevance < 10):
             return False
 
         # tiering
@@ -258,6 +259,8 @@ def fmt_money(lo, hi, cur):
 
 def dedupe_key(job: Job) -> str:
     city = norm(job.location.split(",")[0]) if job.location else ""
+    city = re.sub(r"\b(division|city|district|urban|rural|area)\b", "", city).strip()
+    city = {"bangalore": "bengaluru", "gurgaon": "gurugram", "new delhi": "delhi", "bombay": "mumbai"}.get(city, city)
     return f"{norm(job.company)}|{norm(job.title)}|{city}"
 
 
