@@ -35,6 +35,8 @@ class Job:
     tier: str = ""
     reasons: list = field(default_factory=list)
     sources: list = field(default_factory=list)
+    links: list = field(default_factory=list)
+    variants: list = field(default_factory=list)
 
     def to_dict(self):
         d = asdict(self)
@@ -229,10 +231,13 @@ class Evaluator:
 
         # discovery results must carry a strong signal
         if job.group == "discovered":
-            mba_platform = job.source in ("iimjobs", "naukri")   # sites/filters aimed at MBA-level hiring
             if not self.strong_title.search(job.title) or job.relevance < 8:
                 return False
-            if not (m or job.salary_kind == "stated" or mba_platform):
+            if job.source == "naukri":
+                # Naukri has many small-company / mass-hiring posts: keep only if MBA is asked or pay (>= 20 LPA) is stated
+                if not (m or job.salary_kind == "stated"):
+                    return False
+            elif not (m or job.salary_kind == "stated" or job.source == "iimjobs"):
                 return False
 
         # tiering
@@ -258,43 +263,161 @@ def fmt_money(lo, hi, cur):
     return f"{cur} {a:.0f}k–{b:.0f}k"
 
 
-_CITY_WORDS = (r"bengaluru|bangalore|gurugram|gurgaon|delhi|new delhi|ncr|noida|mumbai|pune|hyderabad|chennai|kolkata|"
-               r"ahmedabad|jaipur|chandigarh|kochi|cochin|lucknow|indore|surat|siliguri|kanyakumari|coimbatore|nagpur|"
-               r"bhopal|patna|india|remote|hybrid|pan india|multiple locations|division|city|west|east|north|south|central")
+_CITY_WORDS = (r"bengaluru|bangalore|gurugram|gurgaon|delhi|new delhi|ncr|noida|mumbai|navi mumbai|thane|pune|hyderabad|chennai|kolkata|"
+               r"ahmedabad|jaipur|chandigarh|kochi|cochin|lucknow|indore|surat|siliguri|kanyakumari|coimbatore|nagpur|ludhiana|"
+               r"rourkela|jorhat|guwahati|bhubaneswar|vizag|visakhapatnam|vadodara|nashik|mysore|mysuru|trivandrum|madurai|"
+               r"karnataka|maharashtra|haryana|telangana|tamil nadu|west bengal|uttar pradesh|gujarat|kerala|rajasthan|punjab|"
+               r"bhopal|patna|india|apac|emea|remote|hybrid|onsite|on site|pan india|multiple locations|division|city|west|east|north|south|central")
+
+_CO_NOISE = r"\b(pvt|private|ltd|limited|llp|inc|corp|corporation|co|company|the|india|in|technologies|technology|solutions|services|global|group|labs)\b"
+_TITLE_STOP = {"of", "and", "the", "for", "to", "a", "an", "in", "at", "with", "on", "job", "role", "opening", "opportunity",
+               "hiring", "urgent", "requirement", "immediate", "joiner", "joiners", "wfo", "work", "from", "office", "home"}
+_LEVELS = {"i", "ii", "iii", "iv", "v", "1", "2", "3", "4", "l1", "l2", "l3", "l4", "senior", "sr", "snr", "junior", "jr",
+           "associate_level", "grade", "band"}
 
 
-def norm_title(title: str) -> str:
+def norm_company(name: str) -> str:
+    c = (name or "").lower().replace("&", " and ")
+    c = re.sub(r"\(.*?\)", " ", c)
+    c = re.sub(r"[^a-z0-9 ]+", " ", c)
+    c = re.sub(_CO_NOISE, " ", c)
+    return " ".join(c.split())
+
+
+def title_tokens(title: str, location: str = "", company: str = "") -> frozenset:
+    """Role signature: words of the title without cities, levels, codes and filler."""
     t = (title or "").lower()
-    t = re.sub(r"\(.*?\)|\[.*?\]", " ", t)                  # drop bracketed notes
-    t = re.sub(r"^in[_ -]+", " ", t)                          # PwC style "IN_"
-    t = re.sub(r"[_|/]", " ", t)
+    t = re.sub(r"\(.*?\)|\[.*?\]|\{.*?\}", " ", t)
+    t = re.sub(r"^in[_ -]+", " ", t)
+    t = t.replace("&", " and ")
     t = re.sub(rf"\b({_CITY_WORDS})\b", " ", t)
-    t = re.sub(r"\b(sr|snr)\b\.?", "senior", t)
-    return norm(t)
+    words = re.findall(r"[a-z0-9]+", t)
+    loc_words = {w for w in re.findall(r"[a-z]+", (location or "").lower()) if len(w) >= 4}
+    co_words = set(norm_company(company).split()) if company else set()
+    out = [w for w in words if w not in _TITLE_STOP and w not in _LEVELS and w not in loc_words and w not in co_words
+           and not re.fullmatch(r"\d+|[a-z]\d+|\d+[a-z]", w)]
+    return frozenset(out)
+
+
+def norm_title(title: str, company: str = "") -> str:
+    return " ".join(sorted(title_tokens(title, "", company)))
+
+
+def same_role(a: frozenset, b: frozenset) -> bool:
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    inter, union = len(a & b), len(a | b)
+    # near-identical wording (e.g. "Integrated Marketing Lead" vs "Lead, Integrated Marketing APAC")
+    return union >= 4 and inter / union >= 0.75
+
+
+_REGION_ONLY = re.compile(r"^(india|in|ind|remote|hybrid|anywhere|asia|apac|emea|united states|usa|us|uk|united kingdom|uae|"
+                          r"karnataka|maharashtra|haryana|telangana|tamil nadu|tn|west bengal|wb|uttar pradesh|up|gujarat|kerala|"
+                          r"rajasthan|punjab|delhi ncr|ncr|madhya pradesh|mp|odisha|assam|bihar|andhra pradesh|ap|goa|"
+                          r"hr|ka|mh|dl|tg|ts|wb|rj|gj|kl|pb|chhattisgarh|jharkhand|uttarakhand|himachal pradesh|jammu and kashmir|j and k|tripura|meghalaya|manipur|nagaland|sikkim|mizoram|arunachal pradesh|puducherry|chandigarh ut|"
+                          r"multiple locations|pan india|other|others)$")
+_CITY_FIX = {"bangalore": "Bengaluru", "bengaluru urban": "Bengaluru", "gurgaon": "Gurugram", "new delhi": "Delhi",
+             "bombay": "Mumbai", "navi mumbai": "Navi Mumbai", "cochin": "Kochi"}
+
+
+def cities_of(loc: str) -> list:
+    out = []
+    for part in re.split(r"\s*[,;/·|]\s*|\s+or\s+", loc or ""):
+        c = norm(re.sub(r"\(.*?\)", " ", part))
+        c = re.sub(r"\b(division|city|district|urban|rural|area|all areas|region|mandal|taluk|tehsil)\b", "", c).strip()
+        if not c or _REGION_ONLY.match(c):
+            continue
+        c = _CITY_FIX.get(c, c.title())
+        if c not in out:
+            out.append(c)
+    if not out and re.search(r"remote", loc or "", re.I):
+        out = ["Remote"]
+    return out
 
 
 def city_of(loc: str) -> str:
-    c = norm((loc or "").split(",")[0].split("/")[0])
-    c = re.sub(r"\b(division|city|district|urban|rural|area|all areas)\b", "", c).strip()
-    return {"bangalore": "Bengaluru", "gurgaon": "Gurugram", "new delhi": "Delhi", "bombay": "Mumbai"}.get(c, c.title())
+    cs = cities_of(loc)
+    return cs[0] if cs else ""
 
 
 def dedupe_key(job: Job) -> str:
-    """Same company + same role = one row, whatever the city (cities are merged)."""
-    return f"{norm(job.company)}|{norm_title(job.title)}"
+    """Same company + same role = one row, whatever the city or website (cities and sources are merged)."""
+    return f"{norm_company(job.company)}|{norm_title(job.title, job.company)}"
 
 
 def merge_locations(a: str, b: str) -> str:
     cities = []
     for loc in (a, b):
-        if not loc:
-            continue
-        parts = loc.split(" · ") if " · " in loc else [city_of(loc)]
-        for c in parts:
-            c = c.strip()
-            if c and c not in cities:
+        for c in cities_of(loc):
+            if c not in cities:
                 cities.append(c)
+    if not cities and re.search(r"india", f"{a} {b}", re.I):
+        return "India"
     return " · ".join(cities)
+
+
+SOURCE_RANK = {"careers portal": 0, "iimjobs": 2, "naukri": 3, "linkedin": 1}
+
+
+def _src_rank(d: dict) -> int:
+    s = d.get("source", "")
+    return 0 if "portal" in s else SOURCE_RANK.get(s, 4)
+
+
+def collapse(rows: list[dict]) -> list[dict]:
+    """Final cross-check: fold together rows that are the same opening at the same company,
+    even if found on different websites, in different cities, or with slightly different titles/levels.
+    Keeps the best copy (company site first) and records every website + link it was found on."""
+    groups: dict[str, list[dict]] = {}
+    for d in rows:
+        groups.setdefault(norm_company(d.get("company", "")), []).append(d)
+    out = []
+    tier_rank = {"A": 0, "B": 1, "C": 2}
+    for _, items in groups.items():
+        items.sort(key=lambda d: (_src_rank(d), tier_rank.get(d.get("tier"), 3), -(d.get("relevance") or 0)))
+        clusters: list[list] = []   # [rep_tokens, rep_dict, members]
+        for d in items:
+            tok = title_tokens(d.get("title", ""), d.get("location", ""), d.get("company", ""))
+            for cl in clusters:
+                if same_role(tok, cl[0]):
+                    cl[2].append(d)
+                    break
+            else:
+                clusters.append([tok, d, [d]])
+        for tok, rep, members in clusters:
+            rep = dict(rep)
+            rep["location"] = merge_locations("", rep.get("location", ""))
+            titles, links, srcs = [], [], []
+            for m in members:
+                for tt in (m.get("variants") or []) + [m.get("title") or ""]:
+                    if tt.strip() and tt.strip() not in titles:
+                        titles.append(tt.strip())
+                for s in (m.get("sources") or [m.get("source")]):
+                    if s and s not in srcs:
+                        srcs.append(s)
+                for l in (m.get("links") or [{"source": m.get("source"), "url": m.get("url")}]):
+                    if l.get("url") and l["url"] not in [x["url"] for x in links]:
+                        links.append(l)
+                if m is not members[0]:
+                    rep["location"] = merge_locations(rep.get("location", ""), m.get("location", ""))
+                    if (m.get("posted") or "") > (rep.get("posted") or ""):
+                        rep["posted"] = m["posted"]
+                    if (m.get("first_seen") or "9") < (rep.get("first_seen") or "9"):
+                        rep["first_seen"] = m["first_seen"]
+                    rep["is_new"] = bool(rep.get("is_new")) and bool(m.get("is_new"))
+                    if rep.get("salary_kind") != "stated" and m.get("salary_kind") == "stated":
+                        rep["salary_label"], rep["salary_kind"] = m.get("salary_label"), "stated"
+                    if (rep.get("mba") or "").startswith("Not") and (m.get("mba") or "").startswith("Yes"):
+                        rep["mba"] = m["mba"]
+                    if tier_rank.get(m.get("tier"), 3) < tier_rank.get(rep.get("tier"), 3):
+                        rep["tier"] = m["tier"]
+            if len(titles) > 1:
+                rep["variants"] = titles
+            rep["sources"], rep["links"] = srcs, links
+            out.append(rep)
+    return out
 
 
 def to_iso(d) -> Optional[str]:
