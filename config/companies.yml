@@ -29,7 +29,9 @@ companies:
   - {name: The Whole Truth, aliases: ["The Whole Truth", "The Whole Truth Foods"], group: target, band: d2c, slugs: [thewholetruth, thewholetruthfoods]}
   - {name: SuperYou, aliases: ["SuperYou", "Super You"], group: target, band: d2c}
   - name: Swiggy
-    aliases: ["Swiggy", "Instamart"]
+    aliases: ["Swiggy", "Instamart", "Bundl Technologies"]
+    # only Program Manager / Senior Manager roles for Swiggy, Zepto, Zomato
+    title_only: "\\bprogram(me)?\\s+manager\\b|\\bsenior\\s+manager\\b|\\bsr\\.?\\s+manager\\b"
     group: target
     band: listed_tech
     ats: {type: mynexthire, tenant: swiggy, careers_url: "https://careers.swiggy.com/#/careers"}
@@ -126,8 +128,8 @@ companies:
   - {name: Adobe, aliases: ["Adobe"], group: similar, band: mnc_top}
   - {name: Atlassian, aliases: ["Atlassian"], group: similar, band: mnc_top}
   # quick commerce / food delivery / cloud kitchens (Swiggy, Rebel Foods)
-  - {name: Zepto, aliases: ["Zepto"], group: similar, band: unicorn}
-  - {name: Blinkit / Zomato (Eternal), aliases: ["Blinkit", "Zomato", "Eternal", "District by Zomato"], linkedin_query: "Zomato", group: similar, band: listed_tech}
+  - {name: Zepto, aliases: ["Zepto", "Kiranakart Technologies"], group: similar, band: unicorn, title_only: "\\bprogram(me)?\\s+manager\\b|\\bsenior\\s+manager\\b|\\bsr\\.?\\s+manager\\b"}
+  - {name: Blinkit / Zomato (Eternal), aliases: ["Blinkit", "Zomato", "Eternal", "District by Zomato"], linkedin_query: "Zomato", group: similar, band: listed_tech, title_only: "\\bprogram(me)?\\s+manager\\b|\\bsenior\\s+manager\\b|\\bsr\\.?\\s+manager\\b"}
   - {name: BigBasket, aliases: ["bigbasket", "BigBasket", "bigbasket.com"], group: similar, band: unicorn}
   - {name: Curefoods, aliases: ["Curefoods"], group: similar, band: funded_startup}
   - {name: EatClub, aliases: ["EatClub", "EatClub Brands"], group: similar, band: funded_startup}
