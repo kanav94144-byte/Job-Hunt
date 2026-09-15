@@ -1,0 +1,182 @@
+# ---- Kanav's search profile. Edit freely; the daily run reads this file. ----
+recency_hours_first_run: 168      # 7 days on the very first run
+recency_hours_daily: 48           # daily runs look back 48h (overlap so nothing is missed); "new" = not seen before
+max_age_days_on_dashboard: 7      # roles older than this drop off the "active" view
+
+experience:
+  min: 1
+  max: 5
+  stretch_max_min: 6              # a role asking "min 6 yrs" or less is kept as a stretch (Tier C)
+
+salary_floor:                      # annual, stated OR estimated
+  INR: 2000000                     # 20 LPA
+  AED: 180000
+  SGD: 60000
+  GBP: 35000
+  USD: 55000
+  EUR: 40000
+
+locations:
+  india: [india, bengaluru, bangalore, gurugram, gurgaon, mumbai, delhi, new delhi, noida, pune, hyderabad, chennai, kolkata, ahmedabad, jaipur, chandigarh, remote]
+  international: [dubai, abu dhabi, united arab emirates, uae, singapore, london, united kingdom]
+
+# Title must match at least one of these (case-insensitive regex fragments)
+title_keywords:
+  - program manager
+  - programme manager
+  - growth
+  - strateg
+  - consult
+  - analyst
+  - manager
+  - sales
+  - b2b
+  - "\\bai\\b"
+  - genai
+  - founder
+  - generalist
+  - chief of staff
+  - business operations
+  - bizops
+  - "biz ?ops"
+  - partnership
+  - alliances
+  - corporate development
+  - "\\bgtm\\b"
+  - go[- ]to[- ]market
+  - revenue operations
+  - customer success
+  - transformation
+  - associate
+  - product manager
+  - product owner
+  - business development
+  - category
+  - key account
+  - marketing
+  - brand
+  - "\\blead\\b"
+  - "\\bhead\\b"
+
+# Title containing any of these is dropped (tech / core finance / unrelated)
+title_exclude:
+  - engineer
+  - developer
+  - "\\bsde\\b"
+  - "\\bsre\\b"
+  - devops
+  - data scientist
+  - scientist
+  - machine learning
+  - "\\bml\\b"
+  - architect
+  - designer
+  - "\\bui\\b"
+  - "\\bux\\b"
+  - "\\bqa\\b"
+  - "\\btest(ing)?\\b"
+  - security analyst
+  - cyber
+  - data engineer
+  - python
+  - java
+  - "\\bsap\\b"
+  - salesforce developer
+  - finance
+  - fp&a
+  - financial analyst
+  - investment bank
+  - accountant
+  - accounting
+  - accounts payable
+  - accounts receivable
+  - audit
+  - credit (risk|analyst|underwriting)
+  - "\\btax\\b"
+  - treasury
+  - "\\bctc\\b"
+  - collections?
+  - underwrit
+  - actuar
+  - legal
+  - compliance
+  - "\\bhr\\b"
+  - hrbp
+  - talent acquisition
+  - recruiter
+  - payroll
+  - "\\bintern(ship)?\\b"
+  - trainee
+  - fresher
+  - telecaller
+  - tele ?sales
+  - field sales executive
+  - delivery (boy|executive|partner)
+  - driver
+  - store manager
+  - warehouse
+  - "\\bvp\\b"
+  - vice president
+  - director
+  - principal
+  - "\\bavp\\b"
+
+# Signals that the role asks for / prefers an MBA-type degree
+mba_patterns:
+  - "\\bMBA\\b"
+  - "\\bPGDM\\b"
+  - "\\bPGP\\b"
+  - post[- ]?graduat
+  - "master'?s degree"
+  - "\\bmasters\\b"
+  - tier[- ]?(1|i|one)\\b
+  - "\\bIIMs?\\b"
+  - "\\bISB\\b"
+  - premier (b-?school|institute)
+  - top b-?school
+
+# Words from Kanav's CV used to compute a relevance score on the job description
+cv_keywords:
+  strategy: 3
+  growth: 3
+  founder: 4
+  chief of staff: 4
+  business development: 3
+  b2b: 3
+  b2g: 3
+  enterprise: 2
+  saas: 2
+  account management: 3
+  key account: 3
+  upsell: 2
+  partnerships: 3
+  alliances: 2
+  go-to-market: 3
+  gtm: 3
+  p&l: 3
+  market research: 2
+  rfp: 3
+  proposal: 2
+  public sector: 3
+  government: 2
+  genai: 4
+  generative ai: 4
+  "ai ": 2
+  llm: 3
+  product owner: 3
+  product management: 2
+  roadmap: 2
+  consulting: 3
+  program management: 3
+  stakeholder: 2
+  cross-functional: 2
+  dashboard: 1
+  power bi: 2
+  sql: 1
+  excel: 1
+  analytics: 1
+  d2c: 2
+  fmcg: 2
+  brand: 1
+  marketing: 1
+  mba: 3
