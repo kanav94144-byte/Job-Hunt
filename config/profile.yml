@@ -6,7 +6,7 @@ max_age_days_on_dashboard: 7      # roles older than this drop off the "active" 
 experience:
   min: 1
   max: 5
-  stretch_max_min: 6              # a role asking "min 6 yrs" or less is kept as a stretch (Tier C)
+  stretch_max_min: 5              # roles asking more than 5 yrs minimum are dropped; exactly 5+ is a stretch (Tier C)
 
 salary_floor:                      # annual, stated OR estimated
   INR: 2000000                     # 20 LPA
@@ -118,6 +118,28 @@ title_exclude:
   - "\\bvp\\b"
   - vice president
   - director
+  - security
+  - red team
+  - mainframe
+  - "\\boracle\\b"
+  - "\\bcloud (engineer|architect|consultant)"
+  - financial reporting
+  - "\\bcontrols?\\b"
+  - payroll
+  - records
+  - support associate
+  - "services? support"
+  - coordinator
+  - training manager
+  - "l&d"
+  - commission
+  - "\\bit data\\b"
+  - "\\bservicenow\\b"
+  - "\\bworkday\\b"
+  - "\\bsupply chain.*(senior )?consultant"
+  - transaction execution
+  - working capital
+  - resource management
   - principal
   - "\\bavp\\b"
 
