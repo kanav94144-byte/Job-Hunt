@@ -202,11 +202,13 @@ def main():
         out[k] = d
     # keep roles found in earlier runs for up to max_age days (still visible on dashboard)
     keep_from = src.days_ago(profile.get("max_age_days_on_dashboard", 7))
-    for k, d in prev.items():
+    for _, d in prev.items():
+        k = dedupe_key(Job(company=d.get("company", ""), title=d.get("title", ""), location=d.get("location", "")))
         still_valid = ev.title_ok(d.get("title", "")) and \
             (d.get("exp_min") is None or d["exp_min"] <= profile["experience"]["stretch_max_min"])
         if k not in out and still_valid and d.get("posted", "") >= keep_from:
             d["is_new"] = False
+            d["key"] = k
             out[k] = d
 
     jobs = sorted(out.values(), key=lambda d: (d.get("posted") or "", -{"A": 0, "B": 1, "C": 2}.get(d["tier"], 3), d.get("relevance", 0)), reverse=True)
