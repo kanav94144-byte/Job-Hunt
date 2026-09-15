@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "30 3 * * *"     # every day 03:30 UTC = 9:00 AM IST
   workflow_dispatch:          # lets you press "Run workflow" by hand
+    inputs:
+      full_scan:
+        description: "Look back 7 days instead of 2"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -15,7 +20,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,6 +29,8 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Run scan
+        env:
+          FULL_SCAN: ${{ inputs.full_scan }}
         run: python -m scraper.run
       - name: Publish daily summary
         if: always()
