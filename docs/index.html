@@ -243,7 +243,7 @@
     const up = String(d.updated || '').match(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2})/);
     let when = d.updated;
     if (up) { const t = new Date(Date.UTC(+up[1], +up[2]-1, +up[3], +up[4], +up[5])); when = t.toLocaleString(undefined, {day:'numeric', month:'short', hour:'numeric', minute:'2-digit'}); }
-    $('updated').textContent = `${JOBS.length} roles from the last 7 days · last scan ${when} · refreshes daily at 9 AM IST`;
+    $('updated').textContent = `${JOBS.length} roles from the last 7 days · last scan ${when} · refreshes 3× a day (9 AM, 2 PM, 7 PM IST)`;
     restore(); render();
   }).catch(() => { $('updated').textContent = 'No results yet. The first scan has not finished.'; });
 
@@ -268,7 +268,7 @@
     let rows = JOBS.filter(j => {
       const mk = marks[j.key] || '';
       if (tier && j.tier !== tier) return false;
-      if (q && !(`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q))) return false;
+      if (q && !(`${j.title} ${(j.variants||[]).join(' ')} ${j.company} ${j.location}`.toLowerCase().includes(q))) return false;
       if (s.posted === 'new' && !j.is_new) return false;
       if (/^\d+$/.test(s.posted) && daysAgo(j.posted) >= +s.posted) return false;
       if (s.group && j.group !== s.group) return false;
@@ -313,13 +313,20 @@
       const pay = est ? `${esc(String(j.salary_label).replace(/^~/, '').replace(/\s*\(est\.\)/, ''))} <span class="mute small">est.</span>` : esc(j.salary_label || '—');
       const why = (j.reasons || []).concat([`CV match score ${j.relevance ?? 0}`]).map(esc).join(' · ');
       const srcs = [...new Set(srcOf(j))].map(x => ({portal:'company careers site', linkedin:'LinkedIn', naukri:'Naukri', iimjobs:'iimjobs'}[x] || x)).join(', ');
+      const SRCN = x => /portal/.test(x) ? 'Company site' : ({linkedin:'LinkedIn', naukri:'Naukri', iimjobs:'iimjobs'}[x] || x);
+      const links = (j.links || []).filter(l => l.url && l.url !== j.url);
+      const bySrc = {}; links.forEach(l => { const n = SRCN(l.source); (bySrc[n] = bySrc[n] || []).push(l.url); });
+      const alsoOn = links.length ? '<br>Other links: ' + Object.entries(bySrc).map(([n, us]) => us.slice(0, 3).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}${us.length > 1 ? ' ' + (i + 1) : ''} ↗</a>`).join(' · ')).join(' · ') : '';
+      const nSites = new Set([SRCN(j.source)].concat(links.map(l => SRCN(l.source)))).size;
+      const vars = (j.variants || []).length > 1 ? '<br>Same opening listed as: ' + j.variants.map(esc).join(' / ') : '';
+      const sim = (j.variants || []).length > 1 ? ` <span class="mute small">· ${j.variants.length} listings merged</span>` : (nSites > 1 ? ` <span class="mute small">· on ${nSites} sites</span>` : '');
       const btn = (v, label) => `<button class="act ${mk === v ? 'on-' + v.toLowerCase() : ''}" data-k="${esc(j.key)}" data-v="${v}" aria-pressed="${mk === v}">${label}</button>`;
       return `<tr class="${mk === 'Skip' ? 'skipped' : ''}">
         <td class="date">${fmtDate(j.posted)}<small>${rel(j.posted)}</small></td>
         <td class="role">
           <a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
-          <div class="co">${esc(j.company)}</div>
-          <details class="why"><summary>${j.is_new ? '<span class="tag new">NEW</span>' : ''}<span class="tag">${GROUP[j.group] || j.group}</span>${j.region === 'international' ? '<span class="tag">Abroad</span>' : ''}<span class="whyl">Why this role? ▾</span></summary><div>${why}<br>Found on: ${esc(srcs)}</div></details>
+          <div class="co">${esc(j.company)}${sim}</div>
+          <details class="why"><summary>${j.is_new ? '<span class="tag new">NEW</span>' : ''}<span class="tag">${GROUP[j.group] || j.group}</span>${j.region === 'international' ? '<span class="tag">Abroad</span>' : ''}<span class="whyl">Why this role? ▾</span></summary><div>${why}<br>Found on: ${esc(srcs)}${vars}${alsoOn}</div></details>
         </td>
         <td class="meta" title="${esc(j.location)}">${esc(shortLoc(j.location))}</td>
         <td class="meta">${esc(j.exp_label === 'not stated' ? 'Exp. not stated' : j.exp_label)}</td>
