@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import json
 import re
 import sys
@@ -52,7 +53,7 @@ def main():
     DOCS.mkdir(exist_ok=True)
 
     seen = load(DATA / "seen.json", {})
-    first = args.first_run or not seen
+    first = args.first_run or not seen or os.environ.get("FULL_SCAN") == "true"
     hours = profile["recency_hours_first_run"] if first else profile["recency_hours_daily"]
     health = {"run_date": today(), "first_run": first, "sources": {}}
     raw: list[Job] = []
@@ -69,41 +70,54 @@ def main():
     only = {norm(x) for x in args.only.split(",") if x.strip()}
     companies = [c for c in cfg["companies"] if not only or norm(c["name"]) in only]
 
+    portals_cache = load(DATA / "portals.json", {})
     for c in companies:
         name = c["name"]
         print(f"\n=== {name}", flush=True)
         aliases = c.get("aliases") or [name]
         found: list[Job] = []
 
-        # 1) company's own careers portal
-        ats = c.get("ats")
+        # 1) company's own careers portal (first choice)
+        ats = c.get("ats") or portals_cache.get(name)
+        if not ats and c.get("probe", True):
+            slugs = c.get("slugs") or [re.sub(r"[^a-z0-9]", "", name.lower())]
+            try:
+                ats = src.probe_portals(slugs, global_ats=bool(c.get("slugs")))
+            except Exception:
+                ats = None
+            if ats:
+                portals_cache[name] = ats
+                print(f"  found portal automatically: {ats}")
+        portal_ok = False
         if ats and ats["type"] in src.ATS:
             fetch, _ = src.ATS[ats["type"]]
             try:
                 js = fetch(ats)
                 found += js
+                portal_ok = True
                 record(f"portal:{ats['type']}:{name}", len(js))
-                print(f"  portal: {len(js)}")
+                print(f"  careers portal ({ats['type']}): {len(js)} open roles")
             except Exception as e:
                 record(f"portal:{ats['type']}:{name}", err=f"{type(e).__name__}: {e}")
-                print(f"  portal FAILED: {e}")
+                print(f"  careers portal FAILED: {e}")
 
-        # 2) LinkedIn + Naukri by company name
-        for site in ("linkedin", "naukri"):
+        # 2) LinkedIn by company name (fallback when there is no readable portal, or to add coverage)
+        if not portal_ok or c.get("also_linkedin"):
             try:
-                js = src.jobspy_search(site, name, "India", hours, args.limit_per_search)
+                js = src.jobspy_search("linkedin", c.get("linkedin_query") or name, "India", hours,
+                                        args.limit_per_search if c.get("group") == "target" else 25)
                 js = [j for j in js if company_matches(j.company, aliases)]
                 found += js
-                record(site, len(js))
-                print(f"  {site}: {len(js)}")
+                record("linkedin", len(js))
+                print(f"  linkedin: {len(js)}")
             except Exception as e:
-                record(site, err=f"{name}: {type(e).__name__}: {e}")
-                print(f"  {site} FAILED: {e}")
+                record("linkedin", err=f"{name}: {type(e).__name__}: {e}")
+                print(f"  linkedin FAILED: {e}")
             src.nap(3, 7)
 
         for j in found:
             j.company, j.group, j.band = name, c.get("group", "target"), c.get("band", "unknown")
-            j._ats = ats["type"] if ats else None
+            j._ats = ats["type"] if (ats and j.source == "careers portal") else None
         raw += found
 
     # 3) discovery searches (other startups/companies)
@@ -114,7 +128,7 @@ def main():
                    [(d["term"], d["location"]) for d in disc.get("international", [])]
         for term, loc in searches:
             print(f"\n=== discovery: {term} @ {loc}", flush=True)
-            for site in ("linkedin", "naukri") if loc == "India" else ("linkedin",):
+            for site in ("linkedin",):
                 try:
                     js = src.jobspy_search(site, term, loc, hours, 25)
                     js = [j for j in js if j.company and not company_matches(j.company, known)]
@@ -140,7 +154,7 @@ def main():
 
     # dedupe (prefer careers-portal link over LinkedIn/Naukri)
     merged: dict[str, Job] = {}
-    rank = lambda j: 0 if j.source.startswith("careers") else (1 if j.source == "linkedin" else 2)
+    rank = lambda j: 0 if j.source == "careers portal" else 1
     for j in sorted(stage, key=rank):
         k = dedupe_key(j)
         if k in merged:
@@ -164,7 +178,7 @@ def main():
             if j.source == "linkedin":
                 j.description = src.linkedin_description(j.url)
                 src.nap(1.5, 3.5)
-            elif getattr(j, "_ats", None) and src.ATS.get(j._ats, (None, None))[1] and j.source.startswith("careers"):
+            elif getattr(j, "_ats", None) and src.ATS.get(j._ats, (None, None))[1] and getattr(j, "_detail", None):
                 src.ATS[j._ats][1](j)
                 src.nap(0.5, 1.5)
         except Exception as e:
@@ -193,13 +207,14 @@ def main():
             d["is_new"] = False
             out[k] = d
 
-    jobs = sorted(out.values(), key=lambda d: ({"A": 0, "B": 1, "C": 2}.get(d["tier"], 3), -d.get("relevance", 0), d.get("posted") or ""))
+    jobs = sorted(out.values(), key=lambda d: (d.get("posted") or "", -{"A": 0, "B": 1, "C": 2}.get(d["tier"], 3), d.get("relevance", 0)), reverse=True)
     payload = {"updated": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "count": len(jobs),
                "new_today": sum(1 for d in jobs if d["is_new"]), "jobs": jobs}
     health["counts"] = {"raw": len(raw), "after_filters": len(merged), "kept": len(kept), "on_dashboard": len(jobs)}
 
     (DATA / "jobs.json").write_text(json.dumps(payload, indent=1, ensure_ascii=False))
     (DOCS / "jobs.json").write_text(json.dumps(payload, ensure_ascii=False))
+    (DATA / "portals.json").write_text(json.dumps(portals_cache, indent=1))
     (DATA / "seen.json").write_text(json.dumps(seen, indent=0))
     (DATA / "health.json").write_text(json.dumps(health, indent=1))
     (DOCS / "health.json").write_text(json.dumps(health))
