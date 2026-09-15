@@ -108,7 +108,7 @@ def parse_salary_text(text: str):
 _EST = {
     #               junior(analyst/associate)  mid(manager)  senior(sr mgr/lead)
     "mnc_top":        ((20, 32), (30, 50), (45, 75)),
-    "big4":           ((12, 20), (28, 45), (40, 60)),   # consultant / manager / sr manager
+    "big4":           ((16, 24), (26, 42), (38, 58)),   # consultant / manager / sr manager
     "listed_tech":    ((16, 26), (26, 42), (38, 60)),
     "unicorn":        ((16, 26), (25, 40), (36, 55)),
     "funded_startup": ((12, 20), (20, 32), (30, 45)),
