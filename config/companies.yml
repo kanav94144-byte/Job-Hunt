@@ -239,3 +239,25 @@ discovery_searches:
     - {term: "strategy manager MBA", location: "Dubai, United Arab Emirates"}
     - {term: "strategy manager MBA", location: "Singapore"}
     - {term: "chief of staff", location: "Singapore"}
+
+# Searched on iimjobs every day (roles from any company; your list/competitors are recognised automatically)
+board_searches:
+  - strategy
+  - growth
+  - founder's office
+  - chief of staff
+  - program manager
+  - business development
+  - category manager
+  - product manager
+  - consultant
+  - key account
+  - partnerships
+  - business operations
+  - go to market
+  - generalist
+  - corporate development
+  - revenue
+  - sales manager
+  - marketing manager
+  - AI
