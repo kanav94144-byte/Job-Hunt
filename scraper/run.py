@@ -13,7 +13,7 @@ from pathlib import Path
 import yaml
 
 from . import sources as src
-from .core import Evaluator, Job, dedupe_key, merge_locations, norm, today
+from .core import Evaluator, Job, collapse, dedupe_key, merge_locations, norm, today
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, DOCS = ROOT / "data", ROOT / "docs"
@@ -171,9 +171,21 @@ def main():
 
     # 4) cheap filters first (title, location, recency) -> then fetch descriptions only for survivors
     cutoff = src.days_ago(max(1, hours // 24))
+    # per-company role rules (e.g. Swiggy / Zepto / Zomato: only Program Manager or Senior Manager roles)
+    only_rules = {c["name"]: re.compile(c["title_only"], re.I) for c in cfg["companies"] if c.get("title_only")}
+    only_aliases = [(c["name"], c.get("aliases") or [c["name"]]) for c in cfg["companies"] if c.get("title_only")]
+
+    def company_rule_ok(company, title):
+        for name, aliases in only_aliases:
+            if company == name or company_matches(company, aliases):
+                return bool(only_rules[name].search(title or ""))
+        return True
+
     stage = []
     for j in raw:
         if not ev.title_ok(j.title):
+            continue
+        if not company_rule_ok(j.company, j.title):
             continue
         if j.posted and j.posted < cutoff:
             continue
@@ -181,7 +193,7 @@ def main():
 
     # dedupe (prefer careers-portal link over LinkedIn/Naukri)
     merged: dict[str, Job] = {}
-    rank = lambda j: 0 if j.source == "careers portal" else 1
+    rank = lambda j: {"careers portal": 0, "linkedin": 1, "iimjobs": 2, "naukri": 3}.get(j.source, 4)
     for j in sorted(stage, key=rank):
         k = dedupe_key(j)
         if k in merged:
@@ -190,6 +202,10 @@ def main():
                 merged[k].posted = j.posted
             if j.source not in merged[k].sources:
                 merged[k].sources.append(j.source)
+            if j.title not in merged[k].variants:
+                merged[k].variants.append(j.title)
+            if j.url and j.url not in [x["url"] for x in merged[k].links]:
+                merged[k].links.append({"source": j.source, "url": j.url})
             if not merged[k].exp_text and j.exp_text:
                 merged[k].exp_text = j.exp_text
             if merged[k].salary_max is None and j.salary_max:
@@ -198,6 +214,8 @@ def main():
                 merged[k].description = j.description
         else:
             j.sources = [j.source]
+            j.links = [{"source": j.source, "url": j.url}] if j.url else []
+            j.variants = [j.title]
             j.location = merge_locations("", j.location)
             merged[k] = j
     print(f"after title/recency/dedupe: {len(merged)}", flush=True)
@@ -235,7 +253,7 @@ def main():
     keep_from = src.days_ago(profile.get("max_age_days_on_dashboard", 7))
     for _, d in prev.items():
         k = dedupe_key(Job(company=d.get("company", ""), title=d.get("title", ""), location=d.get("location", "")))
-        still_valid = ev.title_ok(d.get("title", "")) and \
+        still_valid = ev.title_ok(d.get("title", "")) and company_rule_ok(d.get("company", ""), d.get("title", "")) and \
             (d.get("exp_min") is None or d["exp_min"] <= profile["experience"]["stretch_max_min"])
         if not (still_valid and d.get("posted", "") >= keep_from):
             continue
@@ -247,10 +265,16 @@ def main():
         d["location"] = merge_locations("", d.get("location", ""))
         out[k] = d
 
-    jobs = sorted(out.values(), key=lambda d: (d.get("posted") or "", -{"A": 0, "B": 1, "C": 2}.get(d["tier"], 3), d.get("relevance", 0)), reverse=True)
+    # final cross-check for repeats: same opening on several websites / cities / slightly different titles
+    before = len(out)
+    rows = collapse(list(out.values()))
+    for d in rows:
+        seen[d["key"]] = d.get("first_seen") or t
+    print(f"cross-source duplicates folded: {before - len(rows)}", flush=True)
+    jobs = sorted(rows, key=lambda d: (d.get("posted") or "", -{"A": 0, "B": 1, "C": 2}.get(d["tier"], 3), d.get("relevance", 0)), reverse=True)
     payload = {"updated": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "count": len(jobs),
                "new_today": sum(1 for d in jobs if d["is_new"]), "jobs": jobs}
-    health["counts"] = {"raw": len(raw), "after_filters": len(merged), "kept": len(kept), "on_dashboard": len(jobs)}
+    health["counts"] = {"raw": len(raw), "after_filters": len(merged), "kept": len(kept), "duplicates_folded": before - len(rows), "on_dashboard": len(jobs)}
 
     (DATA / "jobs.json").write_text(json.dumps(payload, indent=1, ensure_ascii=False))
     (DOCS / "jobs.json").write_text(json.dumps(payload, ensure_ascii=False))
