@@ -51,12 +51,12 @@ companies:
     aliases: ["Walmart", "Walmart Global Tech India", "Walmart Global Tech"]
     group: target
     band: mnc_top
-    ats: {type: workday, tenant: walmart, site: WalmartExternal, wd: wd5, search: ["strategy", "program manager", "business", "growth", "analyst", "manager", "sourcing"]}
+    ats: {type: workday, tenant: walmart, site: WalmartExternal, wd: wd504, search: ["strategy Bangalore", "program manager Bangalore", "manager Bangalore", "analyst Bangalore", "business Bangalore", "manager Chennai", "manager Gurgaon", "sourcing India"]}
   - name: Visa
     aliases: ["Visa", "Visa Inc."]
     group: target
     band: mnc_top
-    ats: {type: smartrecruiters, company_id: Visa, country: in}
+    ats: {type: workday, tenant: visa, site: Visa, wd: wd5, search: ["India", "Bengaluru", "Mumbai", "Gurugram", "Remote IND"]}
   - name: Tata 1mg
     aliases: ["Tata 1mg", "1mg"]
     group: target
@@ -72,7 +72,7 @@ companies:
     aliases: ["Uber"]
     group: target
     band: mnc_top
-    ats: {type: uber, country: IND}
+    linkedin_query: "Uber India"
   - {name: boAt, aliases: ["boAt", "boAt Lifestyle", "Imagine Marketing"], linkedin_query: "boAt Lifestyle", group: target, band: d2c}
   - name: Rapido
     aliases: ["Rapido", "Roppen Transportation"]
