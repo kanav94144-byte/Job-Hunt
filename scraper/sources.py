@@ -454,6 +454,58 @@ def ashby(cfg: dict) -> list[Job]:
                 description=p.get("descriptionPlain") or "") for p in d.get("jobs", [])]
 
 
+# ------------------------------------------------------------ iimjobs (public search)
+def iimjobs(term: str, days: int) -> list[Job]:
+    posting = 1 if days <= 1 else (3 if days <= 3 else 7)
+    out = []
+    for page in range(0, 5):
+        d = get("https://gladiator.iimjobs.com/job/search",
+                params={"query": term, "page": page, "posting": posting, "industry": ""},
+                headers={"Origin": "https://www.iimjobs.com", "Referer": "https://www.iimjobs.com/"}).json()
+        for p in d.get("data") or []:
+            co = ((p.get("companyData") or {}).get("companyName") or "").strip()
+            title = (p.get("jobdesignation") or p.get("title") or "").strip()
+            locs = [l.get("name", "") for l in p.get("locations") or [] if l.get("name") not in ("Others", "Anywhere in India")]
+            ts = p.get("createdTime") or p.get("createdTimeMs")
+            j = Job(company=co or (p.get("title", "").split(" - ")[0]), title=title,
+                    location=", ".join(locs[:1]) if locs else "India", url=p.get("jobDetailUrl", ""), source="iimjobs",
+                    posted=datetime.fromtimestamp(ts / 1000, timezone.utc).date().isoformat() if ts else None,
+                    description=(p.get("title", "") + ". " + ", ".join(t.get("name", "") for t in p.get("tags") or [])),
+                    exp_text=f"{p.get('min')}-{p.get('max')} years experience" if p.get("max") else "")
+            if not p.get("hideSal") and p.get("maxSal"):
+                j.salary_min, j.salary_max, j.currency = float(p.get("minSal") or 0) * 1e5, float(p["maxSal"]) * 1e5, "INR"
+            j._all_locations = locs
+            out.append(j)
+        if not d.get("hasMore"):
+            break
+        nap(1, 2)
+    return out
+
+
+# ------------------------------------------------------------ Naukri (collected in the browser, saved as data/naukri_inbox.json)
+def naukri_inbox(path, max_age_days: int = 3) -> list[Job]:
+    import json
+    from pathlib import Path
+    p = Path(path)
+    if not p.exists():
+        return []
+    d = json.loads(p.read_text())
+    if (d.get("collected") or "") < days_ago(max_age_days):
+        return []
+    out = []
+    for r in d.get("jobs", []):
+        u = r.get("u", "")
+        if u.startswith("~"):
+            u = "https://www.naukri.com/job-listings-" + u[1:]
+        j = Job(company=r.get("c", ""), title=r.get("t", ""), location=r.get("l", ""),
+                url=u, source="naukri", posted=r.get("d"), exp_text=r.get("e", ""),
+                description=html_to_text(r.get("j", "")) + " " + (r.get("k") or ""))
+        if r.get("smax"):
+            j.salary_min, j.salary_max, j.currency = r.get("smin"), r["smax"], "INR"
+        out.append(j)
+    return out
+
+
 ATS = {
     "smartrecruiters": (smartrecruiters, smartrecruiters_detail),
     "workday": (workday, workday_detail),
