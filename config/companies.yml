@@ -1,92 +1,70 @@
-# Every company is searched on LinkedIn + Naukri by name (results are matched on company name).
-# Where the company's own careers portal has a readable job feed, "ats" pulls it directly too.
-# aliases: other spellings of the company name as they appear on LinkedIn/Naukri.
-# group: "target" = your list, "startup" = funded startups known to hire tier-1 MBAs.
+# HOW THIS LIST WORKS
+# 1. If a company has "ats", its own careers portal is read first (verified connectors).
+# 2. If not, the scanner tries to detect a Darwinbox/Keka portal automatically (and remembers it in data/portals.json).
+# 3. If no portal is readable, LinkedIn is searched by company name as a fallback.
+# aliases = how the company name appears on LinkedIn. group = target (your list) | similar (competitors) | startup
+# band = pay band used to estimate salary when not stated: mnc_top, big4, listed_tech, unicorn, funded_startup, d2c, large_indian
 
 companies:
-  # ---------------- Kanav's target list ----------------
+  # ======================= YOUR LIST =======================
   - name: Porter
-    aliases: ["Porter", "SmartShift Logistics", "porter.in"]
+    aliases: ["Porter", "SmartShift Logistics Solutions"]
+    linkedin_query: "Porter logistics"
     group: target
     band: unicorn
+    ats: {type: darwinbox, tenant: porter}
   - name: American Express
     aliases: ["American Express", "Amex"]
     group: target
     band: mnc_top
-    ats: {type: eightfold, host: aexp.eightfold.ai, domain: aexp.com}
+    ats: {type: oracle_hcm, api_host: egug.fa.us2.oraclecloud.com, site: CX_1, location_id: "300000000228786", public_base: "https://careers.americanexpress.com/en/sites/CX_1"}
   - name: Deloitte USI
-    aliases: ["Deloitte USI", "Deloitte India", "Deloitte", "Deloitte Touche Tohmatsu India LLP", "Deloitte Consulting"]
+    aliases: ["Deloitte USI", "Deloitte India", "Deloitte", "Deloitte Touche Tohmatsu India LLP"]
     group: target
     band: big4
-  - name: Minimalist
-    aliases: ["Minimalist", "Uprising Science"]
-    group: target
-    band: d2c
-  - name: CarDekho
-    aliases: ["CarDekho", "CarDekho Group", "Girnar Software", "InsuranceDekho", "BikeDekho", "Rupyy"]
-    group: target
-    band: unicorn
-  - name: Dot & Key
-    aliases: ["Dot & Key", "Dot and Key", "Dot & Key Skincare"]
-    group: target
-    band: d2c
-  - name: The Whole Truth
-    aliases: ["The Whole Truth", "The Whole Truth Foods", "Whole Truth"]
-    group: target
-    band: d2c
-  - name: SuperYou
-    aliases: ["SuperYou", "Super You"]
-    group: target
-    band: d2c
+    ats: {type: avature, base: "https://usijobs.deloitte.com/en_US/careersUSI", max_jobs: 250}
+  - {name: Minimalist, aliases: ["Minimalist", "Uprising Science"], linkedin_query: "Minimalist skincare", group: target, band: d2c}
+  - {name: CarDekho, aliases: ["CarDekho", "CarDekho Group", "Girnar Software", "InsuranceDekho", "BikeDekho"], group: target, band: unicorn}
+  - {name: Dot & Key, aliases: ["Dot & Key", "Dot and Key", "Dot & Key Skincare"], linkedin_query: "Dot & Key skincare", group: target, band: d2c}
+  - {name: The Whole Truth, aliases: ["The Whole Truth", "The Whole Truth Foods"], group: target, band: d2c, slugs: [thewholetruth, thewholetruthfoods]}
+  - {name: SuperYou, aliases: ["SuperYou", "Super You"], group: target, band: d2c}
   - name: Swiggy
     aliases: ["Swiggy", "Instamart"]
     group: target
     band: listed_tech
-    ats: {type: mynexthire, tenant: swiggy}
-  - name: Nykaa
-    aliases: ["Nykaa", "FSN E-Commerce Ventures", "Nykaa Fashion"]
-    group: target
-    band: listed_tech
-  - name: Lenskart
-    aliases: ["Lenskart", "Lenskart.com", "Lenskart Solutions"]
-    group: target
-    band: unicorn
-  - name: Shiprocket
-    aliases: ["Shiprocket", "Bigfoot Retail Solutions"]
-    group: target
-    band: unicorn
+    ats: {type: mynexthire, tenant: swiggy, careers_url: "https://careers.swiggy.com/#/careers"}
+  - {name: Nykaa, aliases: ["Nykaa", "FSN E-Commerce Ventures", "Nykaa Fashion"], group: target, band: listed_tech}
+  - {name: Lenskart, aliases: ["Lenskart", "Lenskart.com", "Lenskart Solutions"], group: target, band: unicorn}
+  - {name: Shiprocket, aliases: ["Shiprocket", "Bigfoot Retail Solutions"], group: target, band: unicorn}
   - name: Urban Company
     aliases: ["Urban Company", "UrbanClap"]
     group: target
     band: unicorn
+    ats: {type: urbancompany}
   - name: Google
-    aliases: ["Google", "Google Operations Center", "Google Cloud"]
+    aliases: ["Google", "Google Cloud", "YouTube"]
     group: target
     band: mnc_top
-  - name: Flipkart
-    aliases: ["Flipkart", "Myntra", "Cleartrip", "Flipkart Internet", "Shopsy", "super.money"]
-    group: target
-    band: mnc_top
+    ats: {type: google, pages: 8}
+  - {name: Flipkart, aliases: ["Flipkart", "Myntra", "Cleartrip", "Shopsy", "super.money"], group: target, band: mnc_top}
   - name: Walmart
     aliases: ["Walmart", "Walmart Global Tech India", "Walmart Global Tech"]
     group: target
     band: mnc_top
-    ats: {type: workday, tenant: walmart, site: WalmartExternal, wd: wd5, search: ["strategy", "program manager", "business", "growth", "analyst", "manager"]}
+    ats: {type: workday, tenant: walmart, site: WalmartExternal, wd: wd5, search: ["strategy", "program manager", "business", "growth", "analyst", "manager", "sourcing"]}
   - name: Visa
     aliases: ["Visa", "Visa Inc."]
     group: target
     band: mnc_top
     ats: {type: smartrecruiters, company_id: Visa, country: in}
   - name: Tata 1mg
-    aliases: ["Tata 1mg", "1mg", "Tata 1MG"]
+    aliases: ["Tata 1mg", "1mg"]
     group: target
     band: unicorn
-  - name: Rebel Foods
-    aliases: ["Rebel Foods", "Faasos", "Behrouz Biryani"]
-    group: target
-    band: unicorn
+    ats: {type: darwinbox, tenant: 1mg}
+  - {name: Rebel Foods, aliases: ["Rebel Foods", "Faasos"], group: target, band: unicorn, slugs: [rebelfoods]}
   - name: PhonePe
-    aliases: ["PhonePe", "PhonePe Private Limited", "PHONEPE LIMITED", "Indus Appstore", "Share.Market"]
+    aliases: ["PhonePe", "PHONEPE LIMITED", "Indus Appstore", "Share.Market"]
     group: target
     band: unicorn
     ats: {type: smartrecruiters, company_id: PHONEPELIMITED, country: in}
@@ -95,59 +73,156 @@ companies:
     group: target
     band: mnc_top
     ats: {type: uber, country: IND}
-  - name: boAt
-    aliases: ["boAt", "boAt Lifestyle", "Imagine Marketing"]
-    group: target
-    band: d2c
+  - {name: boAt, aliases: ["boAt", "boAt Lifestyle", "Imagine Marketing"], linkedin_query: "boAt Lifestyle", group: target, band: d2c}
   - name: Rapido
     aliases: ["Rapido", "Roppen Transportation"]
     group: target
     band: unicorn
-  - name: CEAT
-    aliases: ["CEAT", "CEAT Tyres", "CEAT Limited"]
-    group: target
-    band: large_indian
+    ats: {type: darwinbox, tenant: rapido}
+  - {name: CEAT, aliases: ["CEAT", "CEAT Tyres", "CEAT Limited"], linkedin_query: "CEAT Tyres", group: target, band: large_indian}
   - name: MakeMyTrip
-    aliases: ["MakeMyTrip", "MakeMyTrip (MMT)", "goibibo", "redBus"]
+    aliases: ["MakeMyTrip", "goibibo", "redBus"]
     group: target
     band: listed_tech
+    ats: {type: makemytrip}
   - name: SolarSquare
     aliases: ["SolarSquare", "SolarSquare Energy"]
     group: target
     band: funded_startup
+    ats: {type: keka, tenant: solarsquare}
 
-  # ---------------- Funded startups that hire tier-1 MBAs (consumer / FMCG first) ----------------
-  - {name: Zepto, aliases: ["Zepto", "Kiranakart"], group: startup, band: unicorn}
-  - {name: Blinkit, aliases: ["Blinkit", "Eternal", "Zomato"], group: startup, band: listed_tech}
-  - {name: Licious, aliases: ["Licious", "Delightful Gourmet"], group: startup, band: unicorn}
-  - {name: Honasa Consumer (Mamaearth), aliases: ["Honasa Consumer", "Mamaearth", "The Derma Co"], group: startup, band: listed_tech}
-  - {name: SUGAR Cosmetics, aliases: ["SUGAR Cosmetics", "Vellvette Lifestyle"], group: startup, band: d2c}
-  - {name: Foxtale, aliases: ["Foxtale", "Foxtale Consumer"], group: startup, band: d2c}
-  - {name: Plix, aliases: ["Plix", "Plix Life"], group: startup, band: d2c}
-  - {name: Pilgrim, aliases: ["Pilgrim", "Heavenly Secrets"], group: startup, band: d2c}
-  - {name: Bombay Shaving Company, aliases: ["Bombay Shaving Company"], group: startup, band: d2c}
+  # ======================= COMPETITORS / SIMILAR COMPANIES =======================
+  # logistics & commerce enablement (Porter, Shiprocket)
+  - {name: Delhivery, aliases: ["Delhivery"], group: similar, band: listed_tech}
+  - {name: Shadowfax, aliases: ["Shadowfax", "Shadowfax Technologies"], group: similar, band: unicorn}
+  - {name: BlackBuck, aliases: ["BlackBuck", "Zinka Logistics"], group: similar, band: listed_tech}
+  - {name: GoKwik, aliases: ["GoKwik"], group: similar, band: funded_startup}
+  # payments / fintech (Amex, Visa, PhonePe)
+  - {name: Mastercard, aliases: ["Mastercard"], group: similar, band: mnc_top}
+  - {name: Paytm, aliases: ["Paytm", "One97 Communications"], group: similar, band: listed_tech}
+  - {name: Razorpay, aliases: ["Razorpay"], group: similar, band: unicorn}
+  - {name: CRED, aliases: ["CRED"], linkedin_query: "CRED fintech", group: similar, band: unicorn}
+  - {name: Pine Labs, aliases: ["Pine Labs"], group: similar, band: unicorn}
+  - {name: Juspay, aliases: ["Juspay"], group: similar, band: unicorn}
+  - {name: PayU, aliases: ["PayU", "PayU India"], group: similar, band: unicorn}
+  - {name: Groww, aliases: ["Groww"], group: similar, band: unicorn}
+  - {name: PayPal, aliases: ["PayPal"], group: similar, band: mnc_top}
+  # consulting (Deloitte USI)
+  - {name: EY GDS, aliases: ["EY", "EY GDS", "Ernst & Young", "EY Global Delivery Services"], group: similar, band: big4}
+  - {name: PwC India, aliases: ["PwC", "PwC India", "PwC Acceleration Centers in India"], group: similar, band: big4}
+  - {name: KPMG India, aliases: ["KPMG", "KPMG India", "KPMG Global Services"], group: similar, band: big4}
+  - {name: ZS Associates, aliases: ["ZS", "ZS Associates"], group: similar, band: big4}
+  - {name: Accenture Strategy, aliases: ["Accenture", "Accenture Strategy & Consulting"], linkedin_query: "Accenture strategy consulting", group: similar, band: big4}
+  - {name: Bain & Company, aliases: ["Bain & Company", "Bain Capability Network"], group: similar, band: mnc_top}
+  - {name: McKinsey & Company, aliases: ["McKinsey & Company", "McKinsey"], group: similar, band: mnc_top}
+  - {name: Boston Consulting Group, aliases: ["Boston Consulting Group (BCG)", "BCG", "Boston Consulting Group"], group: similar, band: mnc_top}
+  - {name: Kearney, aliases: ["Kearney"], group: similar, band: mnc_top}
+  - {name: Alvarez & Marsal, aliases: ["Alvarez & Marsal"], group: similar, band: mnc_top}
+  # big tech (Google, Uber, Walmart)
+  - {name: Amazon, aliases: ["Amazon", "Amazon India", "Amazon Web Services (AWS)", "AWS"], group: similar, band: mnc_top}
+  - {name: Microsoft, aliases: ["Microsoft", "Microsoft India"], group: similar, band: mnc_top}
+  - {name: Meta, aliases: ["Meta"], linkedin_query: "Meta Platforms", group: similar, band: mnc_top}
+  - {name: Salesforce, aliases: ["Salesforce"], group: similar, band: mnc_top}
+  - {name: Adobe, aliases: ["Adobe"], group: similar, band: mnc_top}
+  - {name: Atlassian, aliases: ["Atlassian"], group: similar, band: mnc_top}
+  # quick commerce / food delivery / cloud kitchens (Swiggy, Rebel Foods)
+  - {name: Zepto, aliases: ["Zepto"], group: similar, band: unicorn}
+  - {name: Blinkit / Zomato (Eternal), aliases: ["Blinkit", "Zomato", "Eternal", "District by Zomato"], linkedin_query: "Zomato", group: similar, band: listed_tech}
+  - {name: BigBasket, aliases: ["bigbasket", "BigBasket", "bigbasket.com"], group: similar, band: unicorn}
+  - {name: Curefoods, aliases: ["Curefoods"], group: similar, band: funded_startup}
+  - {name: EatClub, aliases: ["EatClub", "EatClub Brands"], group: similar, band: funded_startup}
+  - {name: Wow! Momo, aliases: ["Wow! Momo", "Wow Momo Foods"], group: similar, band: funded_startup}
+  # e-commerce (Flipkart, Nykaa)
+  - {name: Meesho, aliases: ["Meesho"], group: similar, band: unicorn}
+  - {name: Purplle, aliases: ["Purplle", "Purplle.com"], group: similar, band: unicorn}
+  - {name: FirstCry, aliases: ["FirstCry", "Brainbees Solutions"], group: similar, band: listed_tech}
+  - {name: Tata CLiQ, aliases: ["Tata CLiQ"], group: similar, band: large_indian}
+  - {name: Reliance Retail, aliases: ["Reliance Retail", "JioMart", "Ajio"], group: similar, band: large_indian}
+  # D2C beauty / wellness / food (Minimalist, Dot & Key, SuperYou, The Whole Truth)
+  - {name: Honasa Consumer (Mamaearth), aliases: ["Honasa Consumer", "Mamaearth", "The Derma Co"], group: similar, band: listed_tech}
+  - {name: SUGAR Cosmetics, aliases: ["SUGAR Cosmetics"], group: similar, band: d2c}
+  - {name: Plum, aliases: ["Plum", "Plum Goodness", "Pureplay Skin Sciences"], linkedin_query: "Plum Goodness", group: similar, band: d2c}
+  - {name: Foxtale, aliases: ["Foxtale", "Foxtale Consumer"], group: similar, band: d2c}
+  - {name: Pilgrim, aliases: ["Pilgrim", "Heavenly Secrets"], linkedin_query: "Pilgrim beauty", group: similar, band: d2c}
+  - {name: Deconstruct, aliases: ["Deconstruct"], linkedin_query: "Deconstruct skincare", group: similar, band: d2c}
+  - {name: Wow Skin Science, aliases: ["WOW Skin Science", "Fit & Glow Healthcare"], group: similar, band: d2c}
+  - {name: mCaffeine, aliases: ["mCaffeine", "PEP Technologies"], group: similar, band: d2c}
+  - {name: Kapiva, aliases: ["Kapiva", "Kapiva Ayurveda"], group: similar, band: d2c}
+  - {name: Traya, aliases: ["Traya", "Traya Health"], group: similar, band: d2c}
+  - {name: Mosaic Health (Man Matters/Be Bodywise), aliases: ["Mosaic Health", "Man Matters", "Be Bodywise"], group: similar, band: d2c}
+  - {name: Yoga Bar, aliases: ["Yoga Bar", "Sprout Life Foods"], group: similar, band: d2c}
+  - {name: Epigamia, aliases: ["Epigamia", "Drums Food International"], group: similar, band: d2c}
+  - {name: Bombay Shaving Company, aliases: ["Bombay Shaving Company"], group: similar, band: d2c}
+  - {name: Sleepy Owl, aliases: ["Sleepy Owl", "Sleepy Owl Coffee"], group: similar, band: d2c}
+  - {name: Farmley, aliases: ["Farmley"], group: similar, band: d2c}
+  # large FMCG (tier-1 MBA recruiters)
+  - {name: Hindustan Unilever, aliases: ["Hindustan Unilever Limited", "Unilever", "HUL"], group: similar, band: mnc_top}
+  - {name: ITC, aliases: ["ITC Limited", "ITC"], linkedin_query: "ITC Limited", group: similar, band: large_indian}
+  - {name: Nestle India, aliases: ["Nestlé", "Nestle India", "Nestlé India"], group: similar, band: mnc_top}
+  - {name: Procter & Gamble, aliases: ["Procter & Gamble", "P&G"], group: similar, band: mnc_top}
+  - {name: Marico, aliases: ["Marico", "Marico Limited"], group: similar, band: large_indian}
+  - {name: Dabur, aliases: ["Dabur", "Dabur India Limited"], group: similar, band: large_indian}
+  - {name: Tata Consumer Products, aliases: ["Tata Consumer Products"], group: similar, band: large_indian}
+  - {name: Godrej Consumer Products, aliases: ["Godrej Consumer Products Limited", "Godrej Consumer Products"], group: similar, band: large_indian}
+  - {name: Reckitt, aliases: ["Reckitt"], group: similar, band: mnc_top}
+  - {name: PepsiCo, aliases: ["PepsiCo"], group: similar, band: mnc_top}
+  - {name: Mondelez, aliases: ["Mondelēz International", "Mondelez International"], group: similar, band: mnc_top}
+  - {name: Diageo India, aliases: ["Diageo", "Diageo India"], group: similar, band: mnc_top}
+  # auto marketplaces & EV (CarDekho, CEAT, SolarSquare)
+  - {name: Cars24, aliases: ["CARS24", "Cars24"], group: similar, band: unicorn}
+  - {name: Spinny, aliases: ["Spinny"], group: similar, band: unicorn}
+  - {name: CarTrade Tech (CarWale), aliases: ["CarTrade Tech", "CarWale", "BikeWale"], group: similar, band: listed_tech}
+  - {name: Ather Energy, aliases: ["Ather Energy"], group: similar, band: listed_tech}
+  - {name: Ola Electric, aliases: ["Ola Electric"], group: similar, band: listed_tech}
+  - {name: Apollo Tyres, aliases: ["Apollo Tyres", "Apollo Tyres Ltd"], group: similar, band: large_indian}
+  - {name: MRF, aliases: ["MRF", "MRF Limited"], linkedin_query: "MRF Tyres", group: similar, band: large_indian}
+  - {name: Tata Power Renewables, aliases: ["Tata Power Renewable Energy", "Tata Power"], group: similar, band: large_indian}
+  - {name: ReNew, aliases: ["ReNew", "ReNew Power"], linkedin_query: "ReNew Power", group: similar, band: large_indian}
+  # mobility (Uber, Rapido)
+  - {name: Ola, aliases: ["Ola", "ANI Technologies", "OLA"], linkedin_query: "Ola cabs", group: similar, band: unicorn}
+  - {name: Yulu, aliases: ["Yulu", "Yulu Bikes"], group: similar, band: funded_startup}
+  # travel (MakeMyTrip)
+  - {name: EaseMyTrip, aliases: ["EaseMyTrip", "Easy Trip Planners"], group: similar, band: listed_tech}
+  - {name: ixigo, aliases: ["ixigo", "Le Travenues Technology"], group: similar, band: listed_tech}
+  - {name: OYO, aliases: ["OYO", "OYO Rooms"], group: similar, band: unicorn}
+  - {name: Scapia, aliases: ["Scapia"], group: similar, band: funded_startup}
+  - {name: Booking Holdings (Agoda/Booking.com), aliases: ["Agoda", "Booking.com"], linkedin_query: "Agoda", group: similar, band: mnc_top}
+  # home services / proptech (Urban Company)
+  - {name: NoBroker, aliases: ["NoBroker", "NoBroker.com"], group: similar, band: unicorn}
+  - {name: Livspace, aliases: ["Livspace"], group: similar, band: unicorn}
+  - {name: Snabbit, aliases: ["Snabbit"], group: similar, band: funded_startup}
+  # healthtech (Tata 1mg)
+  - {name: PharmEasy, aliases: ["PharmEasy", "API Holdings"], group: similar, band: unicorn}
+  - {name: Practo, aliases: ["Practo"], group: similar, band: unicorn}
+  - {name: Pristyn Care, aliases: ["Pristyn Care"], group: similar, band: unicorn}
+  - {name: Cult.fit, aliases: ["cult.fit", "Cult.fit", "Curefit"], group: similar, band: unicorn}
+  - {name: HealthifyMe, aliases: ["HealthifyMe", "Healthify"], group: similar, band: funded_startup}
+  # consumer electronics (boAt)
+  - {name: Noise, aliases: ["Noise"], linkedin_query: "Noise wearables", group: similar, band: d2c}
+  - {name: Ultrahuman, aliases: ["Ultrahuman"], group: similar, band: funded_startup}
+  # eyewear / jewellery omnichannel (Lenskart)
+  - {name: CaratLane, aliases: ["CaratLane"], group: similar, band: unicorn}
+  - {name: GIVA, aliases: ["GIVA", "GIVA Jewellery"], group: similar, band: d2c}
+  - {name: Titan Company, aliases: ["Titan Company Limited", "Titan Company"], group: similar, band: large_indian}
+
+  # ======================= FUNDED STARTUPS THAT HIRE TIER-1 MBAs =======================
+  - {name: Licious, aliases: ["Licious"], group: startup, band: unicorn}
   - {name: Wakefit, aliases: ["Wakefit", "Wakefit.co"], group: startup, band: unicorn}
   - {name: Mokobara, aliases: ["Mokobara"], group: startup, band: d2c}
-  - {name: Snitch, aliases: ["Snitch"], group: startup, band: d2c}
-  - {name: GIVA, aliases: ["GIVA", "GIVA Jewellery"], group: startup, band: d2c}
-  - {name: Farmley, aliases: ["Farmley"], group: startup, band: d2c}
+  - {name: Snitch, aliases: ["Snitch"], linkedin_query: "Snitch fashion", group: startup, band: d2c}
   - {name: Country Delight, aliases: ["Country Delight"], group: startup, band: unicorn}
-  - {name: Sleepy Owl, aliases: ["Sleepy Owl", "Sleepy Owl Coffee"], group: startup, band: d2c}
-  - {name: Anveshan, aliases: ["Anveshan"], group: startup, band: d2c}
-  - {name: Meesho, aliases: ["Meesho"], group: startup, band: unicorn}
-  - {name: CRED, aliases: ["CRED"], group: startup, band: unicorn}
-  - {name: Groww, aliases: ["Groww"], group: startup, band: unicorn}
-  - {name: Razorpay, aliases: ["Razorpay"], group: startup, band: unicorn}
-  - {name: Spinny, aliases: ["Spinny"], group: startup, band: unicorn}
-  - {name: Cars24, aliases: ["CARS24", "Cars24"], group: startup, band: unicorn}
   - {name: Pocket FM, aliases: ["Pocket FM"], group: startup, band: unicorn}
-  - {name: Jar, aliases: ["Jar", "Jar App", "Changejar"], group: startup, band: funded_startup}
-  - {name: Scapia, aliases: ["Scapia"], group: startup, band: funded_startup}
+  - {name: Jar, aliases: ["Jar", "Jar App"], linkedin_query: "Jar app", group: startup, band: funded_startup}
   - {name: Udaan, aliases: ["udaan", "Udaan"], group: startup, band: unicorn}
   - {name: OfBusiness, aliases: ["OfBusiness", "OFB Tech"], group: startup, band: unicorn}
+  - {name: Jupiter, aliases: ["Jupiter", "Jupiter Money"], linkedin_query: "Jupiter Money", group: startup, band: funded_startup}
+  - {name: Zolve, aliases: ["Zolve"], group: startup, band: funded_startup}
+  - {name: Stable Money, aliases: ["Stable Money"], group: startup, band: funded_startup}
+  - {name: Kuku FM, aliases: ["Kuku FM", "KUKU"], group: startup, band: funded_startup}
+  - {name: InMobi / Glance, aliases: ["InMobi", "Glance"], linkedin_query: "InMobi", group: startup, band: unicorn}
+  - {name: Rippling India, aliases: ["Rippling"], group: startup, band: mnc_top}
 
-# Open searches (not tied to a company) to discover other startups/companies.
-# Results from these are only kept if they mention MBA/tier-1 OR state salary >= floor.
+# Open searches (not tied to a company) to discover other companies. Kept only if they mention MBA/tier-1 OR state pay >= floor.
 discovery_searches:
   india:
     - "founder's office"
