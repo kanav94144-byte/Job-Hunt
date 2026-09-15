@@ -5,117 +5,355 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Job Hunt Dashboard</title>
 <style>
-  :root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--mute:#6b6b70;--line:#e5e5e2;--a:#0b7a4b;--b:#2856c9;--c:#8a6d00;--new:#d9480f;--chip:#efefec}
-  @media (prefers-color-scheme:dark){:root{--bg:#131314;--card:#1c1c1e;--ink:#ececec;--mute:#9a9aa0;--line:#2e2e31;--a:#3fcf8e;--b:#7ea2ff;--c:#e0b43a;--new:#ff8a4c;--chip:#2a2a2d}}
-  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-  .wrap{max-width:1280px;margin:0 auto;padding:24px 16px 60px}
-  h1{font-size:24px;margin:0 0 4px} .sub{color:var(--mute);margin:0 0 20px}
-  .stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;min-width:130px}
-  .stat b{display:block;font-size:22px} .stat span{color:var(--mute);font-size:12px}
-  .bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
-  input,select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
-  input[type=search]{flex:1;min-width:200px}
-  label.chk{display:flex;gap:6px;align-items:center;color:var(--mute)}
-  .tablewrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
-  table{border-collapse:collapse;width:100%;min-width:980px}
-  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-  th{font-size:12px;color:var(--mute);font-weight:600;position:sticky;top:0;background:var(--card);cursor:pointer;white-space:nowrap}
-  tr:last-child td{border-bottom:none}
-  .tier{display:inline-block;font-weight:700;border-radius:6px;padding:2px 8px;font-size:12px;color:#fff}
-  .tA{background:var(--a)} .tB{background:var(--b)} .tC{background:var(--c)}
-  .new{color:var(--new);font-weight:700;font-size:11px;margin-left:6px}
-  .role a{color:var(--ink);font-weight:600;text-decoration:none} .role a:hover{text-decoration:underline}
-  .mute{color:var(--mute);font-size:12px} .chip{display:inline-block;background:var(--chip);border-radius:6px;padding:1px 6px;font-size:11px;margin:2px 2px 0 0}
-  .why{max-width:260px}
-  select.status{padding:4px 6px;font-size:12px}
-  .empty{padding:40px;text-align:center;color:var(--mute)}
-  details{margin-top:18px;color:var(--mute)} details pre{white-space:pre-wrap;font-size:12px}
+  :root{
+    --bg:#f6f6f3;--card:#fff;--ink:#1c1c1e;--mute:#6a6a70;--line:#e4e4df;--soft:#f0f0ec;
+    --accent:#1f5fd1;--accent-soft:#e7eefc;
+    --a:#0a7a4a;--a-soft:#e3f3ea;--b:#2459c7;--b-soft:#e6edfb;--c:#8a6400;--c-soft:#f7efd9;
+    --new:#c2410c;--new-soft:#fdeee4;--applied:#0a7a4a;--saved:#a15c00;--skip:#8b8b90;
+  }
+  @media (prefers-color-scheme:dark){:root{
+    --bg:#121214;--card:#1b1b1e;--ink:#ececef;--mute:#9c9ca3;--line:#2c2c31;--soft:#232327;
+    --accent:#7aa2ff;--accent-soft:#1f2a44;
+    --a:#43d08f;--a-soft:#15301f;--b:#86a8ff;--b-soft:#1b2745;--c:#e3b64a;--c-soft:#352a12;
+    --new:#ff9a5c;--new-soft:#3a2418;--applied:#43d08f;--saved:#e3b64a;--skip:#77777d;
+  }}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  button,input,select{font:inherit;color:inherit}
+  .wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+  header{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-end;margin-bottom:18px}
+  h1{font-size:26px;margin:0;letter-spacing:-.01em}
+  .sub{color:var(--mute);margin:4px 0 0}
+  .btn{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:7px 12px;cursor:pointer;white-space:nowrap}
+  .btn:hover{border-color:var(--mute)}
+  .btn:focus-visible,.tile:focus-visible,.chip-btn:focus-visible,select:focus-visible,input:focus-visible,.act:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  /* summary tiles = one-click filters */
+  .tiles{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:16px}
+  .tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer}
+  .tile b{display:block;font-size:24px;line-height:1.1}
+  .tile span{color:var(--mute);font-size:12px}
+  .tile.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--accent-soft)}
+  .tile .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+
+  /* filter bar */
+  .filters{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:10px;position:sticky;top:0;z-index:5}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .search{flex:1;min-width:220px;position:relative}
+  .search input{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+  select{padding:8px 30px 8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);appearance:none;-webkit-appearance:none;
+    background-image:linear-gradient(45deg,transparent 50%,var(--mute) 50%),linear-gradient(135deg,var(--mute) 50%,transparent 50%);
+    background-position:calc(100% - 15px) 55%,calc(100% - 10px) 55%;background-size:5px 5px;background-repeat:no-repeat;cursor:pointer}
+  select.set{border-color:var(--accent);background-color:var(--accent-soft)}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .chip-btn{border:0;background:var(--bg);padding:8px 12px;cursor:pointer;border-right:1px solid var(--line)}
+  .chip-btn:last-child{border-right:0}
+  .chip-btn.on{background:var(--ink);color:var(--card)}
+  .count{color:var(--mute);margin-left:auto;white-space:nowrap}
+  .link{background:none;border:0;color:var(--accent);cursor:pointer;padding:4px}
+
+  /* table */
+  .list{margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  table{border-collapse:collapse;width:100%}
+  th{font-size:12px;color:var(--mute);font-weight:600;text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card)}
+  td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  tr.skipped td{opacity:.5}
+  .date{white-space:nowrap;font-variant-numeric:tabular-nums}
+  .date small{display:block;color:var(--mute)}
+  .role a{color:var(--ink);font-weight:600;text-decoration:none}
+  .role a:hover{text-decoration:underline;color:var(--accent)}
+  .co{color:var(--mute);margin-top:2px}
+  .tag{display:inline-block;font-size:11px;border-radius:5px;padding:1px 6px;margin:4px 4px 0 0;background:var(--soft);color:var(--mute)}
+  .tag.new{background:var(--new-soft);color:var(--new);font-weight:700}
+  .tier{display:inline-block;min-width:26px;text-align:center;font-weight:700;border-radius:6px;padding:2px 7px;font-size:12px}
+  .tA{background:var(--a-soft);color:var(--a)} .tB{background:var(--b-soft);color:var(--b)} .tC{background:var(--c-soft);color:var(--c)}
+  .mute{color:var(--mute)} .small{font-size:12px}
+  .yes{color:var(--a);font-weight:600}
+  details.why summary{cursor:pointer;color:var(--accent);font-size:12px;list-style:none;margin-top:4px}
+  details.why summary::-webkit-details-marker{display:none}
+  .whyl{margin-left:4px;white-space:nowrap}
+  details.why div{font-size:12px;color:var(--mute);margin-top:4px;max-width:420px}
+  .acts{display:flex;gap:4px;justify-content:flex-end}
+  .act{border:1px solid var(--line);background:var(--card);border-radius:7px;padding:5px 8px;cursor:pointer;font-size:12px;white-space:nowrap}
+  .act.open{background:var(--ink);color:var(--card);border-color:var(--ink);text-decoration:none}
+  .act.on-saved{border-color:var(--saved);color:var(--saved);font-weight:600}
+  .act.on-applied{border-color:var(--applied);color:var(--applied);font-weight:600}
+  .act.on-skip{border-color:var(--skip);color:var(--skip);font-weight:600}
+  .empty{padding:48px 16px;text-align:center;color:var(--mute)}
+  .more{display:block;margin:12px auto 0}
+  footer{margin-top:22px;color:var(--mute);font-size:12px;display:grid;gap:10px}
+  .legend{display:flex;gap:14px;flex-wrap:wrap}
+
+  /* phones: rows become cards */
+  @media (max-width:820px){
+    .tiles{display:flex;overflow-x:auto;gap:8px;padding-bottom:4px;scrollbar-width:none}
+    .tile{flex:0 0 auto;padding:8px 12px}
+    .tile b{font-size:18px;display:inline;margin-right:4px}
+    .filters{position:static}
+    thead{display:none}
+    table,tbody,tr,td{display:block;width:100%}
+    tr{padding:12px;border-bottom:1px solid var(--line)}
+    td{border:0;padding:2px 0}
+    td.date{display:inline-block;width:auto;margin-right:8px}
+    td.tiercell{display:inline-block;width:auto;float:right}
+    td.meta{display:inline;color:var(--mute)}
+    td.meta:not(:empty)::after{content:" · "}
+    td.meta:last-of-type::after{content:""}
+    .acts{justify-content:flex-start;margin-top:8px}
+    .count{margin-left:0}
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Job Hunt Dashboard</h1>
-  <p class="sub" id="updated">Loading…</p>
+  <header>
+    <div>
+      <h1>Job Hunt</h1>
+      <p class="sub" id="updated">Loading…</p>
+    </div>
+    <div class="row">
+      <button class="btn" id="csv" title="Download the roles currently shown">Download CSV</button>
+    </div>
+  </header>
 
-  <div class="stats">
-    <div class="stat"><b id="sNew">–</b><span>new today</span></div>
-    <div class="stat"><b id="sA">–</b><span>Tier A · MBA asked</span></div>
-    <div class="stat"><b id="sB">–</b><span>Tier B · CV-relevant</span></div>
-    <div class="stat"><b id="sC">–</b><span>Tier C · stretch</span></div>
-    <div class="stat"><b id="sAll">–</b><span>active roles (7 days)</span></div>
+  <div class="tiles" id="tiles">
+    <button class="tile" data-quick="new"><b id="tNew">–</b><span><i class="dot" style="background:var(--new)"></i>New today</span></button>
+    <button class="tile" data-quick="A"><b id="tA">–</b><span><i class="dot" style="background:var(--a)"></i>Tier A · MBA asked</span></button>
+    <button class="tile" data-quick="B"><b id="tB">–</b><span><i class="dot" style="background:var(--b)"></i>Tier B · fits my CV</span></button>
+    <button class="tile" data-quick="C"><b id="tC">–</b><span><i class="dot" style="background:var(--c)"></i>Tier C · stretch</span></button>
+    <button class="tile" data-quick="saved"><b id="tSaved">–</b><span><i class="dot" style="background:var(--saved)"></i>Saved / applied</span></button>
   </div>
 
-  <div class="bar">
-    <input type="search" id="q" placeholder="Search role, company, city…">
-    <select id="tier"><option value="">All tiers</option><option>A</option><option>B</option><option>C</option></select>
-    <select id="group"><option value="">All companies</option><option value="target">My list</option><option value="startup">Startups</option><option value="discovered">Discovered</option></select>
-    <select id="region"><option value="">India + abroad</option><option value="india">India</option><option value="international">International</option></select>
-    <select id="statusF"><option value="">Any status</option><option value="none">Not marked</option><option>Applied</option><option>Interested</option><option>Skip</option></select>
-    <label class="chk"><input type="checkbox" id="onlyNew"> New today only</label>
-  </div>
+  <section class="filters" aria-label="Filters">
+    <div class="row">
+      <div class="search"><input id="q" type="search" placeholder="Search role, company or city" aria-label="Search"></div>
+      <div class="seg" role="group" aria-label="Tier">
+        <button class="chip-btn on" data-tier="">All</button>
+        <button class="chip-btn" data-tier="A">A</button>
+        <button class="chip-btn" data-tier="B">B</button>
+        <button class="chip-btn" data-tier="C">C</button>
+      </div>
+    </div>
+    <div class="row">
+      <select id="posted" aria-label="Posted">
+        <option value="">Posted: any time</option>
+        <option value="new">New today</option>
+        <option value="1">Last 24 hours</option>
+        <option value="3">Last 3 days</option>
+        <option value="7">Last 7 days</option>
+      </select>
+      <select id="group" aria-label="Company type">
+        <option value="">All companies</option>
+        <option value="target">My list</option>
+        <option value="similar">Competitors</option>
+        <option value="startup">Startups</option>
+        <option value="discovered">Other companies</option>
+      </select>
+      <select id="region" aria-label="Location">
+        <option value="">India + abroad</option>
+        <option value="india">India</option>
+        <option value="international">Abroad</option>
+      </select>
+      <select id="mba" aria-label="MBA">
+        <option value="">MBA: any</option>
+        <option value="yes">MBA mentioned</option>
+      </select>
+      <select id="status" aria-label="My status">
+        <option value="hide-skip">Hide skipped</option>
+        <option value="">Show all</option>
+        <option value="none">Not marked yet</option>
+        <option value="Saved">Saved</option>
+        <option value="Applied">Applied</option>
+        <option value="Skip">Skipped</option>
+      </select>
+      <select id="sort" aria-label="Sort">
+        <option value="newest">Sort: newest first</option>
+        <option value="match">Sort: best match</option>
+        <option value="pay">Sort: highest pay</option>
+        <option value="company">Sort: company A–Z</option>
+      </select>
+      <button class="link" id="clear" hidden>Clear filters</button>
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+  </section>
 
-  <div class="tablewrap">
+  <div class="list">
     <table>
       <thead><tr>
-        <th data-k="tier">Tier</th><th data-k="title">Role</th><th data-k="company">Company</th><th data-k="location">Location</th>
-        <th data-k="exp_min">Experience</th><th data-k="mba">MBA</th><th data-k="salary_label">Pay</th>
-        <th data-k="posted">Posted</th><th>Why it fits</th><th>My status</th>
+        <th style="width:78px">Posted</th><th>Role</th><th style="width:130px">Location</th>
+        <th style="width:100px">Experience</th><th style="width:70px">MBA</th><th style="width:140px">Pay</th>
+        <th style="width:52px">Tier</th><th style="width:220px;text-align:right">Actions</th>
       </tr></thead>
       <tbody id="rows"></tbody>
     </table>
-    <div class="empty" id="empty" hidden>No roles match these filters.</div>
+    <div class="empty" id="empty" hidden>No roles match these filters. <button class="link" id="clear2">Clear filters</button></div>
   </div>
-  <details><summary>Source health (last run)</summary><pre id="health">–</pre></details>
+  <button class="btn more" id="more" hidden>Show more</button>
+
+  <footer>
+    <div class="legend">
+      <span><b class="tier tA">A</b> MBA / PG asked or preferred · 1–5 yrs · pay ≥ ₹20 LPA</span>
+      <span><b class="tier tB">B</b> MBA not mentioned, but relevant to my CV</span>
+      <span><b class="tier tC">C</b> Stretch: 5+ yrs asked, lower pay, or weaker match</span>
+    </div>
+    <div>“est.” pay is an estimate for that company and level, not a stated salary. Your Saved / Applied / Skip marks are kept in this browser only.</div>
+    <div id="health"></div>
+  </footer>
 </div>
+
 <script>
-let JOBS=[], sortK=null, sortDir=1;
-const $=id=>document.getElementById(id);
-const st=()=>{try{return JSON.parse(localStorage.getItem('jobStatus')||'{}')}catch(e){return {}}};
-const setSt=(k,v)=>{try{const s=st(); v?s[k]=v:delete s[k]; localStorage.setItem('jobStatus',JSON.stringify(s))}catch(e){}};
-const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+(function(){
+  const $ = id => document.getElementById(id);
+  const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const PAGE = 60;
+  let JOBS = [], latestRun = '', shown = PAGE, tier = '', quick = '';
 
-fetch('jobs.json?'+Date.now()).then(r=>r.json()).then(d=>{
-  JOBS=d.jobs||[];
-  $('updated').textContent=`Updated ${d.updated} · refreshes every morning (9am IST)`;
-  $('sNew').textContent=d.new_today; $('sAll').textContent=d.count;
-  ['A','B','C'].forEach(t=>$('s'+t).textContent=JOBS.filter(j=>j.tier===t).length);
-  render();
-}).catch(()=>{$('updated').textContent='No data yet – the first run has not finished.'});
-fetch('health.json?'+Date.now()).then(r=>r.json()).then(h=>{
-  const lines=Object.entries(h.sources||{}).map(([k,v])=>`${v.failed?'⚠️':'✓'} ${k}: ${v.jobs} jobs${v.failed?` · ${v.failed} failed – ${(v.errors||[]).slice(-1)[0]||''}`:''}`);
-  $('health').textContent=JSON.stringify(h.counts||{})+'\n'+lines.join('\n');
-}).catch(()=>{});
+  const store = {
+    get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+    set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+  };
+  let marks = store.get('jobMarks', store.get('jobStatus', {}));   // key -> Saved | Applied | Skip
 
-['q','tier','group','region','statusF','onlyNew'].forEach(id=>$(id).addEventListener('input',render));
-document.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k; sortDir=sortK===k?-sortDir:1; sortK=k; render();});
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtDate = iso => { if(!iso) return ''; const [y,m,d] = iso.split('-'); return `${+d} ${MONTHS[+m-1]}`; };
+  const daysAgo = iso => { if(!iso) return 99; return Math.round((Date.parse(latestRun || new Date().toISOString().slice(0,10)) - Date.parse(iso)) / 864e5); };
+  const rel = iso => { const n = daysAgo(iso); return n <= 0 ? 'today' : n === 1 ? 'yesterday' : `${n} days ago`; };
+  const shortLoc = l => { if(!l) return '—'; let c = l.split(/[,;]/)[0].replace(/\b(Division|City|District)\b/gi,'').trim();
+    return {Bangalore:'Bengaluru',Gurgaon:'Gurugram','New Delhi':'Delhi'}[c] || c || '—'; };
+  const payMax = j => { if(j.salary_max) return j.currency === 'INR' || !j.currency ? j.salary_max : j.salary_max * 20;
+    const m = String(j.salary_label||'').match(/(\d+)\s*LPA/g); return m ? parseFloat(m[m.length-1]) * 1e5 : 0; };
+  const hasMba = j => String(j.mba||'').startsWith('Yes');
+  const GROUP = {target:'My list', similar:'Competitor', startup:'Startup', discovered:'Other'};
+  const TIERW = {A:3, B:2, C:1};
 
-function render(){
-  const q=$('q').value.toLowerCase(), t=$('tier').value, g=$('group').value, r=$('region').value, sf=$('statusF').value, on=$('onlyNew').checked, S=st();
-  let rows=JOBS.filter(j=>(!t||j.tier===t)&&(!g||j.group===g)&&(!r||j.region===r)&&(!on||j.is_new)
-    &&(!q||(j.title+' '+j.company+' '+j.location).toLowerCase().includes(q))
-    &&(!sf||(sf==='none'?!S[j.key]:S[j.key]===sf)));
-  if(sortK) rows=[...rows].sort((a,b)=>((a[sortK]??'')>(b[sortK]??'')?1:(a[sortK]??'')<(b[sortK]??'')?-1:0)*sortDir);
-  $('empty').hidden=rows.length>0;
-  $('rows').innerHTML=rows.map(j=>{
-    const mba=j.mba&&j.mba.startsWith('Yes')?`<span title="${esc(j.mba)}">✅ Yes</span>`:'<span class="mute">not mentioned</span>';
-    const why=(j.reasons||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join('')+`<div class="mute">CV match score ${j.relevance}</div>`;
-    const src=(j.sources||[]).map(s=>`<span class="chip">${esc(s)}</span>`).join('');
-    const sv=S[j.key]||'';
-    return `<tr>
-      <td><span class="tier t${j.tier}">${j.tier}</span></td>
-      <td class="role"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>${j.is_new?'<span class="new">NEW</span>':''}<div>${src}</div></td>
-      <td>${esc(j.company)}<div class="mute">${j.group==='target'?'my list':j.group}</div></td>
-      <td>${esc(j.location)}</td>
-      <td>${esc(j.exp_label)}</td>
-      <td>${mba}</td>
-      <td>${esc(j.salary_label)}</td>
-      <td>${esc(j.posted||'')}</td>
-      <td class="why">${why}</td>
-      <td><select class="status" data-k="${esc(j.key)}"><option value=""></option>${['Interested','Applied','Skip'].map(o=>`<option ${sv===o?'selected':''}>${o}</option>`).join('')}</select></td>
-    </tr>`}).join('');
-  document.querySelectorAll('select.status').forEach(s=>s.onchange=()=>setSt(s.dataset.k,s.value));
-}
+  // ---------- load
+  fetch('jobs.json?v=' + Date.now()).then(r => r.json()).then(d => {
+    JOBS = d.jobs || [];
+    latestRun = JOBS.reduce((m, j) => (j.first_seen || '') > m ? j.first_seen : m, '');
+    const up = String(d.updated || '').match(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2})/);
+    let when = d.updated;
+    if (up) { const t = new Date(Date.UTC(+up[1], +up[2]-1, +up[3], +up[4], +up[5])); when = t.toLocaleString(undefined, {day:'numeric', month:'short', hour:'numeric', minute:'2-digit'}); }
+    $('updated').textContent = `${JOBS.length} roles from the last 7 days · last scan ${when} · refreshes daily at 9 AM IST`;
+    restore(); render();
+  }).catch(() => { $('updated').textContent = 'No results yet. The first scan has not finished.'; });
+
+  fetch('health.json?v=' + Date.now()).then(r => r.json()).then(h => {
+    const s = Object.entries(h.sources || {});
+    const bad = s.filter(([, v]) => v.failed && !v.jobs).map(([k]) => k.replace(/^portal:[^:]+:/, ''));
+    $('health').textContent = s.length ? `Sources checked on last scan: ${s.length - bad.length} worked` + (bad.length ? ` · not reachable: ${bad.join(', ')}` : '') : '';
+  }).catch(() => {});
+
+  // ---------- filter state
+  const controls = ['q','posted','group','region','mba','status','sort'];
+  function state(){ const s = {tier, quick}; controls.forEach(id => s[id] = $(id).value); return s; }
+  function restore(){
+    const s = store.get('jobFilters', null); if(!s) return;
+    controls.forEach(id => { if (s[id] !== undefined && [...($(id).options || [])].some(o => o.value === s[id]) || id === 'q') $(id).value = s[id] ?? ''; });
+    setTier(s.tier || ''); quick = s.quick || '';
+  }
+  function setTier(t){ tier = t; document.querySelectorAll('[data-tier]').forEach(b => b.classList.toggle('on', b.dataset.tier === t)); }
+
+  function filtered(){
+    const s = state(), q = s.q.trim().toLowerCase();
+    let rows = JOBS.filter(j => {
+      const mk = marks[j.key] || '';
+      if (tier && j.tier !== tier) return false;
+      if (q && !(`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q))) return false;
+      if (s.posted === 'new' && !j.is_new) return false;
+      if (/^\d+$/.test(s.posted) && daysAgo(j.posted) >= +s.posted) return false;
+      if (s.group && j.group !== s.group) return false;
+      if (s.region && j.region !== s.region) return false;
+      if (s.mba === 'yes' && !hasMba(j)) return false;
+      if (s.status === 'hide-skip' && mk === 'Skip') return false;
+      if (s.status === 'none' && mk) return false;
+      if (['Saved','Applied','Skip'].includes(s.status) && mk !== s.status) return false;
+      if (quick === 'new' && !j.is_new) return false;
+      if (quick === 'saved' && !['Saved','Applied'].includes(mk)) return false;
+      return true;
+    });
+    const by = {
+      newest: (a,b) => (b.posted||'').localeCompare(a.posted||'') || TIERW[b.tier]-TIERW[a.tier] || (b.relevance||0)-(a.relevance||0),
+      match: (a,b) => TIERW[b.tier]-TIERW[a.tier] || (b.relevance||0)-(a.relevance||0) || (b.posted||'').localeCompare(a.posted||''),
+      pay: (a,b) => payMax(b)-payMax(a) || (b.posted||'').localeCompare(a.posted||''),
+      company: (a,b) => a.company.localeCompare(b.company) || (b.posted||'').localeCompare(a.posted||'')
+    }[s.sort] || ((a,b)=>0);
+    return rows.sort(by);
+  }
+
+  // ---------- render
+  function render(){
+    const s = state(); store.set('jobFilters', s);
+    const rows = filtered();
+    const visible = JOBS.filter(j => marks[j.key] !== 'Skip');
+    $('tNew').textContent = visible.filter(j => j.is_new).length;
+    ['A','B','C'].forEach(t => $('t'+t).textContent = visible.filter(j => j.tier === t).length);
+    $('tSaved').textContent = Object.values(marks).filter(v => v === 'Saved' || v === 'Applied').length;
+    document.querySelectorAll('.tile').forEach(b => b.classList.toggle('on', (b.dataset.quick === quick) || (b.dataset.quick === tier && !quick)));
+    controls.slice(1, 6).forEach(id => $(id).classList.toggle('set', $(id).value !== '' && !(id === 'status' && $(id).value === 'hide-skip')));
+    const active = tier || quick || s.q || s.posted || s.group || s.region || s.mba || (s.status && s.status !== 'hide-skip');
+    $('clear').hidden = !active;
+    $('count').textContent = `Showing ${Math.min(rows.length, shown)} of ${rows.length} role${rows.length === 1 ? '' : 's'}`;
+    $('empty').hidden = rows.length > 0;
+    $('more').hidden = rows.length <= shown;
+
+    $('rows').innerHTML = rows.slice(0, shown).map(j => {
+      const mk = marks[j.key] || '';
+      const est = j.salary_kind === 'estimated';
+      const pay = est ? `${esc(String(j.salary_label).replace(/^~/, '').replace(/\s*\(est\.\)/, ''))} <span class="mute small">est.</span>` : esc(j.salary_label || '—');
+      const why = (j.reasons || []).concat([`CV match score ${j.relevance ?? 0}`]).map(esc).join(' · ');
+      const srcs = (j.sources || [j.source]).filter(Boolean).map(x => String(x).replace(/\s*\(.*\)/, '')).join(', ');
+      const btn = (v, label) => `<button class="act ${mk === v ? 'on-' + v.toLowerCase() : ''}" data-k="${esc(j.key)}" data-v="${v}" aria-pressed="${mk === v}">${label}</button>`;
+      return `<tr class="${mk === 'Skip' ? 'skipped' : ''}">
+        <td class="date">${fmtDate(j.posted)}<small>${rel(j.posted)}</small></td>
+        <td class="role">
+          <a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+          <div class="co">${esc(j.company)}</div>
+          <details class="why"><summary>${j.is_new ? '<span class="tag new">NEW</span>' : ''}<span class="tag">${GROUP[j.group] || j.group}</span>${j.region === 'international' ? '<span class="tag">Abroad</span>' : ''}<span class="whyl">Why this role? ▾</span></summary><div>${why}<br>Found on: ${esc(srcs)}</div></details>
+        </td>
+        <td class="meta" title="${esc(j.location)}">${esc(shortLoc(j.location))}</td>
+        <td class="meta">${esc(j.exp_label === 'not stated' ? 'Exp. not stated' : j.exp_label)}</td>
+        <td class="meta mbacell">${hasMba(j) ? '<span class="yes" title="' + esc(j.mba) + '">MBA</span>' : ''}</td>
+        <td class="meta">${pay}</td>
+        <td class="tiercell"><span class="tier t${j.tier}" title="Tier ${j.tier}">${j.tier}</span></td>
+        <td><div class="acts">
+          <a class="act open" href="${esc(j.url)}" target="_blank" rel="noopener">Open ↗</a>
+          ${btn('Saved', '☆ Save')}${btn('Applied', '✓ Applied')}${btn('Skip', '✕ Skip')}
+        </div></td>
+      </tr>`;
+    }).join('');
+  }
+
+  // ---------- events (both input + change so every browser reacts)
+  controls.forEach(id => ['input','change'].forEach(ev => $(id).addEventListener(ev, () => { shown = PAGE; if (id !== 'sort') quick = ''; render(); })));
+  document.querySelectorAll('[data-tier]').forEach(b => b.addEventListener('click', () => { setTier(b.dataset.tier); quick = ''; shown = PAGE; render(); }));
+  document.querySelectorAll('.tile').forEach(b => b.addEventListener('click', () => {
+    const v = b.dataset.quick;
+    if (['A','B','C'].includes(v)) { setTier(tier === v ? '' : v); quick = ''; }
+    else { quick = quick === v ? '' : v; setTier(''); }
+    shown = PAGE; render();
+  }));
+  const clearAll = () => { controls.forEach(id => $(id).value = id === 'status' ? 'hide-skip' : id === 'sort' ? $('sort').value : ''); setTier(''); quick = ''; shown = PAGE; render(); };
+  $('clear').addEventListener('click', clearAll); $('clear2').addEventListener('click', clearAll);
+  $('more').addEventListener('click', () => { shown += PAGE; render(); });
+  $('rows').addEventListener('click', e => {
+    const b = e.target.closest('button.act'); if (!b) return;
+    const k = b.dataset.k, v = b.dataset.v;
+    if (marks[k] === v) delete marks[k]; else marks[k] = v;
+    store.set('jobMarks', marks); render();
+  });
+  $('csv').addEventListener('click', () => {
+    const rows = filtered();
+    const cols = [['Posted', j => fmtDate(j.posted)], ['Tier', j => j.tier], ['Role', j => j.title], ['Company', j => j.company],
+      ['Company type', j => GROUP[j.group] || j.group], ['Location', j => j.location], ['Experience', j => j.exp_label],
+      ['MBA', j => hasMba(j) ? 'Yes' : ''], ['Pay', j => j.salary_label], ['My status', j => marks[j.key] || ''], ['Link', j => j.url]];
+    const csv = [cols.map(c => c[0])].concat(rows.map(j => cols.map(c => c[1](j)))).map(r => r.map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(',')).join('\n');
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], {type: 'text/csv'}));
+    a.download = `job-hunt-${new Date().toISOString().slice(0,10)}.csv`;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+})();
 </script>
 </body>
 </html>
