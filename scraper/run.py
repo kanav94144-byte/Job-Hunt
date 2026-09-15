@@ -94,7 +94,7 @@ def main():
             try:
                 js = fetch(ats)
                 found += js
-                portal_ok = True
+                portal_ok = len(js) > 0
                 record(f"portal:{ats['type']}:{name}", len(js))
                 print(f"  careers portal ({ats['type']}): {len(js)} open roles")
             except Exception as e:
