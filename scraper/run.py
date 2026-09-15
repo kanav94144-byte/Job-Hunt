@@ -13,7 +13,7 @@ from pathlib import Path
 import yaml
 
 from . import sources as src
-from .core import Evaluator, Job, dedupe_key, norm, today
+from .core import Evaluator, Job, dedupe_key, merge_locations, norm, today
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, DOCS = ROOT / "data", ROOT / "docs"
@@ -140,6 +140,33 @@ def main():
                     record(f"discovery:{site}", err=f"{term}: {type(e).__name__}: {e}")
                 src.nap(3, 7)
 
+    # 4) job boards aimed at MBA hiring: iimjobs (public search) + Naukri (collected daily in your browser)
+    if not only:
+        known_cos = cfg["companies"]
+        def assign(j):
+            for c in known_cos:
+                if company_matches(j.company, c.get("aliases") or [c["name"]]):
+                    j.company, j.group, j.band = c["name"], c.get("group", "target"), c.get("band", "unknown")
+                    return j
+            j.group, j.band = "discovered", "unknown"
+            return j
+        days = max(1, hours // 24)
+        for term in cfg.get("board_searches", []):
+            try:
+                js = [assign(j) for j in src.iimjobs(term, days)]
+                raw += js
+                record("iimjobs", len(js))
+            except Exception as e:
+                record("iimjobs", err=f"{term}: {type(e).__name__}: {e}")
+            src.nap(1, 3)
+        try:
+            js = [assign(j) for j in src.naukri_inbox(DATA / "naukri_inbox.json", max_age_days=3)]
+            raw += js
+            record("naukri (browser)", len(js))
+            print(f"naukri inbox: {len(js)}")
+        except Exception as e:
+            record("naukri (browser)", err=f"{type(e).__name__}: {e}")
+
     print(f"\nraw jobs: {len(raw)}", flush=True)
 
     # 4) cheap filters first (title, location, recency) -> then fetch descriptions only for survivors
@@ -158,6 +185,9 @@ def main():
     for j in sorted(stage, key=rank):
         k = dedupe_key(j)
         if k in merged:
+            merged[k].location = merge_locations(merged[k].location, j.location)
+            if (j.posted or "") > (merged[k].posted or ""):
+                merged[k].posted = j.posted
             if j.source not in merged[k].sources:
                 merged[k].sources.append(j.source)
             if not merged[k].exp_text and j.exp_text:
@@ -168,6 +198,7 @@ def main():
                 merged[k].description = j.description
         else:
             j.sources = [j.source]
+            j.location = merge_locations("", j.location)
             merged[k] = j
     print(f"after title/recency/dedupe: {len(merged)}", flush=True)
 
@@ -206,10 +237,15 @@ def main():
         k = dedupe_key(Job(company=d.get("company", ""), title=d.get("title", ""), location=d.get("location", "")))
         still_valid = ev.title_ok(d.get("title", "")) and \
             (d.get("exp_min") is None or d["exp_min"] <= profile["experience"]["stretch_max_min"])
-        if k not in out and still_valid and d.get("posted", "") >= keep_from:
-            d["is_new"] = False
-            d["key"] = k
-            out[k] = d
+        if not (still_valid and d.get("posted", "") >= keep_from):
+            continue
+        if k in out:      # same role seen again today: just add any extra cities
+            out[k]["location"] = merge_locations(out[k]["location"], d.get("location", ""))
+            continue
+        d["is_new"] = False
+        d["key"] = k
+        d["location"] = merge_locations("", d.get("location", ""))
+        out[k] = d
 
     jobs = sorted(out.values(), key=lambda d: (d.get("posted") or "", -{"A": 0, "B": 1, "C": 2}.get(d["tier"], 3), d.get("relevance", 0)), reverse=True)
     payload = {"updated": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "count": len(jobs),
