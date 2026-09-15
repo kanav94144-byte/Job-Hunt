@@ -136,7 +136,8 @@ def workday(cfg: dict) -> list[Job]:
                     continue
                 seen.add(path)
                 loc = p.get("locationsText", "")
-                if not re.search(r"\bIN\b|india|bangalore|bengaluru|chennai|gurgaon|gurugram|hyderabad|mumbai|pune|noida|delhi", loc + " " + path, re.I):
+                if not re.search(r"^/job/IN-|\bIndia\b|\bIN[ -]+(KA|TN|HR|MH|TS|DL|UP|GJ|WB)\b|Bengaluru|Bangalore|Chennai|Gurugram|Gurgaon|Hyderabad|Mumbai|Pune|Noida", loc + " " + path, re.I) \
+                        or re.search(r"\(USA\)|, IN$|Indianapolis|Indiana", loc):
                     continue
                 j = Job(company="", title=p.get("title", ""), location=loc if re.search(r"[a-z]{4}", loc.lower()) and "locations" not in loc.lower() else path.split("/")[2].replace("-", " "),
                         url=f"https://{t}.{wd}.myworkdayjobs.com/{site}{path}", source="careers portal",
@@ -342,8 +343,9 @@ def avature(cfg: dict) -> list[Job]:
                 continue
             seen.add(jid); found += 1
             tail = h[m.end(): m.end() + 1500]
-            locm = re.search(r"\|\s*<span>\s*([^<]*India[^<]*|Multiple Locations)\s*</span>", tail)
-            j = Job(company="", title=title, location=(locm.group(1).strip() if locm else "India"), url=url, source="careers portal")
+            spans = [html_to_text(x) for x in re.findall(r"<span>\s*([^<]{2,120}?)\s*</span>", tail)]
+            loc = next((x for x in spans if re.search(r"India|Multiple Locations", x) and not re.search(r"Deloitte|Private Limited|LLP", x)), "India")
+            j = Job(company="", title=title, location=loc, url=url, source="careers portal")
             j._detail = url
             out.append(j)
         if found == 0:
@@ -353,7 +355,13 @@ def avature(cfg: dict) -> list[Job]:
 
 
 def html_detail(job: Job) -> None:
-    job.description = html_to_text(get(job._detail).text)[:20000]
+    text = html_to_text(get(job._detail).text)
+    if job.location in ("India", "Multiple Locations", ""):
+        m = re.search(r"([A-Z][A-Za-z]+(?: [A-Z][a-z]+)?, [A-Z][A-Za-z]+(?: [A-Z][a-z]+)?, India)", text)
+        if m:
+            job.location = m.group(1)
+    k = text.find("Position Summary")
+    job.description = (text[k:] if k >= 0 else text)[:20000]
 
 
 # ------------------------------------------------------------ Google Careers
