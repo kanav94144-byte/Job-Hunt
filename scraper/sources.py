@@ -98,7 +98,7 @@ def smartrecruiters(cfg: dict) -> list[Job]:
                 company="", title=p.get("name", ""),
                 location=", ".join(x for x in [loc.get("city"), loc.get("country", "").upper()] if x),
                 url=f"https://jobs.smartrecruiters.com/{cid}/{p.get('id')}",
-                source="careers portal (SmartRecruiters)",
+                source="careers portal",
                 posted=to_iso(p.get("releasedDate")),
             ))
             out[-1]._detail = p.get("ref")
@@ -139,7 +139,7 @@ def workday(cfg: dict) -> list[Job]:
                 if not re.search(r"\bIN\b|india|bangalore|bengaluru|chennai|gurgaon|gurugram|hyderabad|mumbai|pune|noida|delhi", loc + " " + path, re.I):
                     continue
                 j = Job(company="", title=p.get("title", ""), location=loc if re.search(r"[a-z]{4}", loc.lower()) and "locations" not in loc.lower() else path.split("/")[2].replace("-", " "),
-                        url=f"https://{t}.{wd}.myworkdayjobs.com/{site}{path}", source="careers portal (Workday)",
+                        url=f"https://{t}.{wd}.myworkdayjobs.com/{site}{path}", source="careers portal",
                         posted=_workday_posted(p.get("postedOn", "")))
                 j._detail = f"{base}{path}"
                 out.append(j)
@@ -168,34 +168,6 @@ def workday_detail(job: Job) -> None:
         job.posted = to_iso(info["startDate"])
 
 
-# ------------------------------------------------------------ Eightfold (American Express)
-def eightfold(cfg: dict) -> list[Job]:
-    host, domain = cfg["host"], cfg["domain"]
-    out = []
-    for start in range(0, 300, 10):
-        r = get(f"https://{host}/api/apply/v2/jobs",
-                params={"domain": domain, "location": "India", "start": start, "num": 10, "sort_by": "timestamp"})
-        d = r.json()
-        pos = d.get("positions", [])
-        for p in pos:
-            ts = p.get("t_update") or p.get("t_create")
-            j = Job(company="", title=p.get("name", ""), location=p.get("location", ""),
-                    url=p.get("canonicalPositionUrl") or f"https://{host}/careers/job/{p.get('id')}",
-                    source="careers portal (Eightfold)",
-                    posted=datetime.fromtimestamp(ts, timezone.utc).date().isoformat() if ts else None)
-            j._detail = f"https://{host}/api/apply/v2/jobs/{p.get('id')}?domain={domain}"
-            out.append(j)
-        if len(pos) < 10 or (out and out[-1].posted and out[-1].posted < days_ago(10)):
-            break
-        nap(1, 2)
-    return out
-
-
-def eightfold_detail(job: Job) -> None:
-    d = get(job._detail).json()
-    job.description = html_to_text(d.get("job_description", ""))
-
-
 # ------------------------------------------------------------ Uber
 def uber(cfg: dict) -> list[Job]:
     out = []
@@ -211,7 +183,7 @@ def uber(cfg: dict) -> list[Job]:
             j = Job(company="", title=p.get("title", ""),
                     location=", ".join(x for x in [loc.get("city"), loc.get("countryName")] if x),
                     url=f"https://www.uber.com/global/en/careers/list/{p.get('id')}/",
-                    source="careers portal (Uber)", posted=to_iso(p.get("creationDate") or p.get("updatedDate")),
+                    source="careers portal", posted=to_iso(p.get("creationDate") or p.get("updatedDate")),
                     description=html_to_text(p.get("description", "")))
             out.append(j)
         if len(res) < 50:
@@ -225,27 +197,268 @@ def mynexthire(cfg: dict) -> list[Job]:
     t = cfg["tenant"]
     r = S.post(f"https://{t}.mynexthire.com/employer/careers/reqlist/get",
                json={"source": "careers", "code": "", "filterByBuId": -1},
-               headers={"Content-Type": "application/json"}, timeout=30)
+               headers={"Content-Type": "application/json"}, timeout=40)
     r.raise_for_status()
-    data = r.json()
-    reqs = data.get("reqDetailsBOList") or data.get("reqList") or []
     out = []
-    for p in reqs:
-        rid = p.get("reqId") or p.get("id")
-        out.append(Job(company="", title=p.get("reqTitle") or p.get("title", ""),
-                       location=p.get("location") or p.get("locationName") or "",
-                       url=f"https://{t}.mynexthire.com/employer/jobs?src=careers&p={rid}" if rid else f"https://{t}.mynexthire.com/",
-                       source="careers portal (MyNextHire)",
-                       posted=to_iso(p.get("publishedDate") or p.get("createdDate") or p.get("postedDate")),
-                       description=html_to_text(p.get("jdDisplay") or p.get("jobDescription") or ""),
-                       exp_text=f"{p.get('minExp','')}-{p.get('maxExp','')} years" if p.get("minExp") is not None else ""))
+    for p in r.json().get("reqDetailsBOList") or []:
+        emin, emax = p.get("expMin"), p.get("expMax")
+        out.append(Job(company="", title=p.get("reqTitle") or p.get("designation") or "",
+                       location=p.get("location") or "",
+                       url=cfg.get("careers_url", f"https://{t}.mynexthire.com/employer/jobs/careers#?src=careers&page=careers"),
+                       source="careers portal", posted=to_iso(p.get("approvedOn")),
+                       description=html_to_text(p.get("jdDisplay") or ""),
+                       exp_text=f"{emin:g}-{emax:g} years experience" if emin is not None and emax else ""))
     return out
+
+
+# ------------------------------------------------------------ Oracle HCM Candidate Experience (American Express)
+def oracle_hcm(cfg: dict) -> list[Job]:
+    host, site = cfg["api_host"], cfg["site"]
+    out = []
+    for offset in range(0, 500, 50):
+        finder = (f"findReqs;siteNumber={site},facetsList=NONE,limit=50,offset={offset},"
+                  f"sortBy=POSTING_DATES_DESC" + (f",locationId={cfg['location_id']}" if cfg.get("location_id") else ""))
+        r = get(f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+                params={"onlyData": "true", "expand": "requisitionList.secondaryLocations", "finder": finder})
+        items = (r.json().get("items") or [{}])[0].get("requisitionList") or []
+        for p in items:
+            j = Job(company="", title=p.get("Title", ""), location=p.get("PrimaryLocation", ""),
+                    url=f"{cfg['public_base']}/job/{p.get('Id')}", source="careers portal",
+                    posted=to_iso(p.get("PostedDate")))
+            j._detail = (f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
+                         f"?expand=all&onlyData=true&finder=ById;Id=%22{p.get('Id')}%22,siteNumber={site}")
+            out.append(j)
+        if len(items) < 50 or (items and to_iso(items[-1].get("PostedDate")) and to_iso(items[-1].get("PostedDate")) < days_ago(10)):
+            break
+        nap(1, 2)
+    return out
+
+
+def oracle_hcm_detail(job: Job) -> None:
+    d = (get(job._detail).json().get("items") or [{}])[0]
+    job.description = html_to_text(" ".join(str(d.get(k) or "") for k in
+                                            ("ExternalDescriptionStr", "ExternalResponsibilitiesStr", "ExternalQualificationsStr")))
+
+
+# ------------------------------------------------------------ Darwinbox (Porter, Rapido, Tata 1mg …)
+def darwinbox(cfg: dict) -> list[Job]:
+    t = cfg["tenant"]
+    base = f"https://{t}.darwinbox.in"
+    out = []
+    for page in range(1, 11):
+        r = S.post(f"{base}/ms/candidateapi/job/alljobs?companyId=main", json={"page": page, "limit": 100},
+                   headers={"Content-Type": "application/json", "Accept": "application/json"}, timeout=40)
+        r.raise_for_status()
+        d = r.json()
+        rows = d.get("data") or []
+        for p in rows:
+            ts = p.get("posted_on") or 0
+            loc = (p.get("officelocations_without_area") or [p.get("locations") or ""])[0]
+            sal_min = _num(p.get("salary_min")); sal_max = _num(p.get("salary_max"))
+            out.append(Job(company="", title=p.get("title") or p.get("designation_name") or "",
+                           location=re.sub(r"\s*,\s*", ", ", re.sub(r"\s+", " ", loc)).strip(),
+                           url=f"{base}/ms/candidatev2/main/careers/jobDetails/{p.get('id')}",
+                           source="careers portal",
+                           posted=datetime.fromtimestamp(int(ts), timezone.utc).date().isoformat() if ts else None,
+                           description=html_to_text(html_unescape(p.get("jd") or "")),
+                           exp_text=(p.get("experience") or "") + " experience" if p.get("experience") else "",
+                           salary_min=sal_min, salary_max=sal_max,
+                           currency=(p.get("salary_currency") or "INR") if sal_max else None))
+        if len(rows) < 100 or page * 100 >= (d.get("job_counts") or 0):
+            break
+        nap(1, 2)
+    return out
+
+
+def _num(x):
+    try:
+        v = float(str(x).replace(",", ""))
+        return v if v > 0 else None
+    except Exception:
+        return None
+
+
+def html_unescape(s):
+    import html as _h
+    return _h.unescape(s)
+
+
+# ------------------------------------------------------------ Keka (SolarSquare …)
+def keka(cfg: dict) -> list[Job]:
+    t = cfg["tenant"]
+    r = get(f"https://{t}.keka.com/careers/api/jobs/default/active")
+    out = []
+    for p in r.json() if isinstance(r.json(), list) else []:
+        sr = p.get("salaryRange") or {}
+        lo, hi = _num(sr.get("minimum")), _num(sr.get("maximum"))
+        if hi and hi < 300000:          # monthly figures
+            lo, hi = (lo or 0) * 12 or None, hi * 12
+        locs = p.get("jobLocations") or []
+        loc = ", ".join(filter(None, [(l.get("city") or l.get("name") or "") for l in locs if isinstance(l, dict)])) or "India"
+        out.append(Job(company="", title=p.get("title", ""), location=loc,
+                       url=f"https://{t}.keka.com/careers/jobdetails/{p.get('id')}", source="careers portal",
+                       posted=to_iso(p.get("publishedOn")), description=html_to_text(p.get("description") or ""),
+                       exp_text=(p.get("experience") or "") + " experience" if p.get("experience") else "",
+                       salary_min=lo, salary_max=hi, currency=sr.get("currency") if hi else None))
+    return out
+
+
+# ------------------------------------------------------------ MakeMyTrip careers API
+def makemytrip(cfg: dict) -> list[Job]:
+    d = get("https://careers.makemytrip.com/api/jobs").json()
+    out = []
+    for p in d.get("allJobs") or []:
+        created = p.get("job_created_timestamp") or ""
+        m = re.match(r"(\d{2})-(\d{2})-(\d{4})", created)
+        slug = re.sub(r"\s+", "-", (p.get("job_title") or "").strip().lower())
+        out.append(Job(company="", title=p.get("job_title", ""), location=", ".join(p.get("location_city") or []),
+                       url=f"https://careers.makemytrip.com/prod/opportunity/{p.get('job_id')}/{slug}",
+                       source="careers portal", posted=f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else None,
+                       exp_text=f"{p.get('experience_from')}-{p.get('experience_to')} years experience" if p.get("experience_to") else ""))
+    return out
+
+
+# ------------------------------------------------------------ Urban Company careers API
+def urbancompany(cfg: dict) -> list[Job]:
+    r = S.post("https://www.urbanclap.com/api/v2/platform-gateway/getAllJobs", json={},
+               headers={"Content-Type": "application/json", "Origin": "https://careers.urbancompany.com"}, timeout=30)
+    r.raise_for_status()
+    return [Job(company="", title=p.get("job_title", ""), location=", ".join(p.get("location_city") or []),
+                url=p.get("apply_url") or f"https://careers.urbancompany.com/jobDetail?id={p.get('job_id')}",
+                source="careers portal", description=html_to_text(p.get("job_description") or ""))
+            for p in r.json().get("jobs") or []]
+
+
+# ------------------------------------------------------------ Avature (Deloitte USI)
+def avature(cfg: dict) -> list[Job]:
+    base = cfg["base"]           # e.g. https://usijobs.deloitte.com/en_US/careersUSI
+    out, seen = [], set()
+    for offset in range(0, cfg.get("max_jobs", 200), 50):
+        h = get(f"{base}/SearchJobs/?jobRecordsPerPage=50&jobOffset={offset}").text
+        found = 0
+        for m in re.finditer(r'<a href="(https://[^"]+/JobDetail/[^"]+/(\d+))"[^>]*>\s*([^<]+?)\s*</a>', h):
+            url, jid, title = m.group(1), m.group(2), html_to_text(m.group(3))
+            if jid in seen:
+                continue
+            seen.add(jid); found += 1
+            tail = h[m.end(): m.end() + 1500]
+            locm = re.search(r"\|\s*<span>\s*([^<]*India[^<]*|Multiple Locations)\s*</span>", tail)
+            j = Job(company="", title=title, location=(locm.group(1).strip() if locm else "India"), url=url, source="careers portal")
+            j._detail = url
+            out.append(j)
+        if found == 0:
+            break
+        nap(1, 2)
+    return out
+
+
+def html_detail(job: Job) -> None:
+    job.description = html_to_text(get(job._detail).text)[:20000]
+
+
+# ------------------------------------------------------------ Google Careers
+def google_careers(cfg: dict) -> list[Job]:
+    out, seen = [], set()
+    for page in range(1, cfg.get("pages", 6) + 1):
+        h = get("https://www.google.com/about/careers/applications/jobs/results/",
+                params={"location": "India", "sort_by": "date", "page": page}).text
+        titles = [html_to_text(t) for t in re.findall(r"<h3[^>]*>(.*?)</h3>", h, re.S)]
+        ids = []
+        for m in re.finditer(r'jobs/results/(\d{6,})-([a-z0-9-]+)', h):
+            if m.group(1) not in seen and m.group(1) not in [i for i, _ in ids]:
+                ids.append((m.group(1), m.group(2)))
+        if not ids:
+            break
+        for n, (jid, slug) in enumerate(ids):
+            seen.add(jid)
+            title = titles[n] if n < len(titles) and titles[n] else slug.replace("-", " ").title()
+            j = Job(company="", title=title, location="India",
+                    url=f"https://www.google.com/about/careers/applications/jobs/results/{jid}-{slug}", source="careers portal")
+            j._detail = j.url
+            out.append(j)
+        nap(1, 3)
+    return out
+
+
+def google_detail(job: Job) -> None:
+    t = html_to_text(get(job._detail).text)
+    m = re.search(r"(Bengaluru|Bangalore|Gurugram|Gurgaon|Hyderabad|Mumbai|Pune|Chennai|New Delhi)[^.\n]{0,40}India", t)
+    if m:
+        job.location = m.group(0)
+    k = t.find("Minimum qualifications")
+    job.description = t[k:k + 6000] if k >= 0 else t[:6000]
+
+
+# ------------------------------------------------------------ auto-discovery of portals by slug
+def probe_portals(slugs: list[str], global_ats: bool = False) -> dict | None:
+    """Try common Indian-startup ATS hosts for a company slug. Returns an ats cfg or None."""
+    for slug in slugs:
+        tries = [
+            ("darwinbox", lambda: S.post(f"https://{slug}.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main",
+                                         json={"page": 1, "limit": 1}, timeout=15)),
+            ("keka", lambda: S.get(f"https://{slug}.keka.com/careers/api/jobs/default/active", timeout=15)),
+            ("greenhouse", lambda: S.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", timeout=15)),
+            ("lever", lambda: S.get(f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1", timeout=15)),
+            ("ashby", lambda: S.get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}", timeout=15)),
+        ]
+        for kind, call in tries:
+            if kind in ("greenhouse", "lever", "ashby") and not global_ats:
+                continue
+            try:
+                r = call()
+                if r.status_code != 200 or "json" not in r.headers.get("content-type", ""):
+                    continue
+                d = r.json()
+                ok = (kind == "darwinbox" and d.get("status") == "success") or \
+                     (kind == "keka" and isinstance(d, list) and d) or \
+                     (kind == "greenhouse" and d.get("jobs")) or \
+                     (kind == "lever" and isinstance(d, list) and d) or \
+                     (kind == "ashby" and d.get("jobs"))
+                if ok:
+                    return {"type": kind, "tenant": slug, "probed": True}
+            except Exception:
+                pass
+    return None
+
+
+# ------------------------------------------------------------ Greenhouse / Lever / Ashby (generic)
+def greenhouse(cfg: dict) -> list[Job]:
+    d = get(f"https://boards-api.greenhouse.io/v1/boards/{cfg['tenant']}/jobs", params={"content": "true"}).json()
+    return [Job(company="", title=p.get("title", ""), location=(p.get("location") or {}).get("name", ""),
+                url=p.get("absolute_url", ""), source="careers portal", posted=to_iso(p.get("updated_at")),
+                description=html_to_text(html_unescape(p.get("content") or ""))) for p in d.get("jobs", [])]
+
+
+def lever(cfg: dict) -> list[Job]:
+    d = get(f"https://api.lever.co/v0/postings/{cfg['tenant']}", params={"mode": "json"}).json()
+    return [Job(company="", title=p.get("text", ""), location=(p.get("categories") or {}).get("location", ""),
+                url=p.get("hostedUrl", ""), source="careers portal",
+                posted=datetime.fromtimestamp(p["createdAt"] / 1000, timezone.utc).date().isoformat() if p.get("createdAt") else None,
+                description=html_to_text((p.get("descriptionPlain") or "") + " " + " ".join(
+                    (l.get("content") or "") for l in p.get("lists") or [])))
+            for p in d]
+
+
+def ashby(cfg: dict) -> list[Job]:
+    d = get(f"https://api.ashbyhq.com/posting-api/job-board/{cfg['tenant']}").json()
+    return [Job(company="", title=p.get("title", ""), location=p.get("location", ""), url=p.get("jobUrl", ""),
+                source="careers portal", posted=to_iso(p.get("publishedAt")),
+                description=p.get("descriptionPlain") or "") for p in d.get("jobs", [])]
 
 
 ATS = {
     "smartrecruiters": (smartrecruiters, smartrecruiters_detail),
     "workday": (workday, workday_detail),
-    "eightfold": (eightfold, eightfold_detail),
+    "oracle_hcm": (oracle_hcm, oracle_hcm_detail),
     "uber": (uber, None),
     "mynexthire": (mynexthire, None),
+    "darwinbox": (darwinbox, None),
+    "keka": (keka, None),
+    "makemytrip": (makemytrip, None),
+    "urbancompany": (urbancompany, None),
+    "avature": (avature, html_detail),
+    "google": (google_careers, google_detail),
+    "greenhouse": (greenhouse, None),
+    "lever": (lever, None),
+    "ashby": (ashby, None),
 }
