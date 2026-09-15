@@ -59,6 +59,7 @@ title_keywords:
 
 # Title containing any of these is dropped (tech / core finance / unrelated)
 title_exclude:
+  - "walk[- ]?in"
   - engineer
   - developer
   - "\\bsde\\b"
