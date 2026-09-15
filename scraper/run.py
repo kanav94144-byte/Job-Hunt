@@ -203,7 +203,9 @@ def main():
     # keep roles found in earlier runs for up to max_age days (still visible on dashboard)
     keep_from = src.days_ago(profile.get("max_age_days_on_dashboard", 7))
     for k, d in prev.items():
-        if k not in out and d.get("posted", "") >= keep_from:
+        still_valid = ev.title_ok(d.get("title", "")) and \
+            (d.get("exp_min") is None or d["exp_min"] <= profile["experience"]["stretch_max_min"])
+        if k not in out and still_valid and d.get("posted", "") >= keep_from:
             d["is_new"] = False
             out[k] = d
 
