@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 49,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 370,
+   "jobs": 420,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -59,25 +59,25 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 244,
+   "jobs": 248,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 71,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 27,
    "errors": []
   },
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 73,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -167,7 +167,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 88,
+   "jobs": 89,
    "errors": []
   },
   "portal:darwinbox:OYO": {
@@ -257,13 +257,13 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 281,
+   "jobs": 271,
    "errors": []
   },
   "iimjobs": {
    "ok": 19,
    "failed": 0,
-   "jobs": 1125,
+   "jobs": 1346,
    "errors": []
   },
   "naukri (browser)": {
@@ -274,10 +274,10 @@
   }
  },
  "counts": {
-  "raw": 3275,
-  "after_filters": 579,
-  "kept": 178,
-  "duplicates_folded": 5,
-  "on_dashboard": 455
+  "raw": 3543,
+  "after_filters": 642,
+  "kept": 205,
+  "duplicates_folded": 9,
+  "on_dashboard": 513
  }
 }
