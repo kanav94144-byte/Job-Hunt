@@ -1,15 +1,17 @@
-# Job Hunt – 2026-09-16 09:12 UTC
+# Job Hunt – 2026-09-16 10:08 UTC
 
-**41 new roles today** · 452 active on the dashboard
+**44 new roles today** · 455 active on the dashboard
 
-## Tier A (7)
+## Tier A (9)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
+| Alvarez & Marsal | Senior Associate - GDN Strategy |  | 4-7 yrs | Yes | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4465978014) |
 | truescholarAI | Business Development Manager | Patna | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4464228075) |
 | Bridgegap Management Consultants LLP | Real Estate Consultant | Hyderabad | 1-4 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4467950886) |
 | Deloitte USI | Specialist, Pursuit Center of Excellence (AI Assisted Knowledge Management) | GPS Sales Excellence | Hyderabad | Hyderabad | 3-5 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-EH27-G-P-L35-Specialist-Pursuit-Center-of-Excellence-PCOE-KM-GPS-Sales-Excellence-Hyderabad/363850) |
 | SRB POWER INDIA PVT LTD | Business Development Manager | Jaipur | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4466821719) |
+| Google | Community Development Manager, Strategic Partnerships Office (Telugu) | Hyderabad | 2+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.google.com/about/careers/applications/jobs/results/103220263495049926-software-engineer-iii-full-stack-payments-platform) |
 | PwC India | Job Posting Title IN_Analyst_HR Helpdesk_HR Shared Services_IFS_Gurgaon | Gurugram | 2-4 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4465972493) |
 | Diageo India | Assistant Manager - Quality | Bengaluru | 4-6 yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4466835743) |
 | ITC | Delivery Manager- Cloud Migration & Modernization | Pune | not stated | Yes | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4465520880) |
@@ -34,7 +36,7 @@
 | EY GDS | Associate Consultant - Business Consulting PI - GOV - CNS - BC - Transformation Delivery - New Delhi | Delhi | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4456883747) |
 | EY GDS | TechOps-DE-Automation-AI-Senior | Pune | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4465212221) |
 
-## Tier C (19)
+## Tier C (20)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
@@ -54,6 +56,7 @@
 | Sciative - We Price Right | Manager - Business Development/Sales | Navi Mumbai | 5-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/sciative-solutions-manager-business-developmentsales-saas-5-8-yrs-1732917) |
 | Skillventory | Creative Strategy Professional | Mumbai | 5-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/creative-strategy-professional-performance-marketing-ecommerce-1733028) |
 | Ather Energy | Section Lead - Diagnostics | Bengaluru | 5-8 yrs | – | ~₹38–60 LPA (est.) | [open](https://atherenergy.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6a8d9254677d3) |
+| NoBroker | Inside SaaS Sales Manager | Bengaluru | 4-8 yrs | – | ~₹25–40 LPA (est.) | [open](https://www.iimjobs.com/j/nobrokerhood-inside-saas-sales-manager-1733152) |
 | Porter | Senior Business Associate | Coimbatore · Kolkata | 1-5 yrs | – | ~₹16–26 LPA (est.) | [open](https://porter.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa2a455578a1) |
 | Porter | Assistant Manager | Dehradun | 1-5 yrs | – | ~₹25–40 LPA (est.) | [open](https://porter.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa2a82d982a2) |
 | BigBasket | DESIGN ASSOCIATE | Bengaluru | not stated | – | ~₹16–26 LPA (est.) | [open](https://bigbasket.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aaa43feb6480) |

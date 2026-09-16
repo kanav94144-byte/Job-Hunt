@@ -1,8 +1,50 @@
 {
- "updated": "2026-09-16 09:12 UTC",
- "count": 452,
- "new_today": 41,
+ "updated": "2026-09-16 10:08 UTC",
+ "count": 455,
+ "new_today": 44,
  "jobs": [
+  {
+   "company": "Alvarez & Marsal",
+   "title": "Senior Associate - GDN Strategy",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4465978014",
+   "source": "linkedin",
+   "posted": "2026-09-16",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 4.0,
+   "exp_max": 7.0,
+   "exp_label": "4-7 yrs",
+   "mba": "Yes: …including 3–6 years after completing an MBA, with direct exposure to GBS, GCC or sh…",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 32,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4465978014"
+    }
+   ],
+   "variants": [
+    "Senior Associate - GDN Strategy"
+   ],
+   "key": "alvarez and marsal|associate gdn strategy",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-16",
+   "is_new": true
+  },
   {
    "company": "truescholarAI",
    "title": "Business Development Manager",
@@ -174,6 +216,48 @@
    "is_new": true
   },
   {
+   "company": "Google",
+   "title": "Community Development Manager, Strategic Partnerships Office (Telugu)",
+   "location": "Hyderabad",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/103220263495049926-software-engineer-iii-full-stack-payments-platform",
+   "source": "careers portal",
+   "posted": "2026-09-16",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "target",
+   "band": "mnc_top",
+   "exp_min": 2.0,
+   "exp_max": null,
+   "exp_label": "2+ yrs",
+   "mba": "Yes: …equivalent.  Preferred qualifications:  Master's degree or PhD in Computer Science or related t…",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 10,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "careers portal"
+   ],
+   "links": [
+    {
+     "source": "careers portal",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/103220263495049926-software-engineer-iii-full-stack-payments-platform"
+    }
+   ],
+   "variants": [
+    "Community Development Manager, Strategic Partnerships Office (Telugu)"
+   ],
+   "key": "google|community development manager partnerships strategic",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-16",
+   "is_new": true
+  },
+  {
    "company": "PwC India",
    "title": "Job Posting Title IN_Analyst_HR Helpdesk_HR Shared Services_IFS_Gurgaon",
    "location": "Gurugram",
@@ -299,100 +383,6 @@
    "first_seen": "2026-09-16",
    "last_seen": "2026-09-16",
    "is_new": true
-  },
-  {
-   "company": "Razorpay",
-   "title": "Junior Associate, Enterprise Partnerships",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4467961698",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "unicorn",
-   "exp_min": 1.0,
-   "exp_max": null,
-   "exp_label": "1+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 33,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467961698"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4465010070"
-    }
-   ],
-   "variants": [
-    "Junior Associate, Enterprise Partnerships",
-    "Associate Manager, Enterprise Partnerships"
-   ],
-   "key": "razorpay|associate enterprise partnerships",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-16",
-   "is_new": false
-  },
-  {
-   "company": "Accenture Strategy",
-   "title": "S&C GN - TS&T – Enterprise AI Value Strategy - Analyst",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4465917538",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": 3.0,
-   "exp_max": null,
-   "exp_label": "3+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 28,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4465917538"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4465468667"
-    }
-   ],
-   "variants": [
-    "S&C GN - TS&T – Enterprise AI Value Strategy - Analyst",
-    "S&C GN - TS&T –Enterprise AI Value Strategy - Consultant"
-   ],
-   "key": "accenture strategy|ai analyst c enterprise gn s t ts value",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-16",
-   "is_new": false
   },
   {
    "company": "Booking Holdings (Agoda/Booking.com)",
@@ -1984,10 +1974,6 @@
     },
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4437142458"
-    },
-    {
-     "source": "linkedin",
      "url": "https://www.linkedin.com/jobs/view/4438179596"
     }
    ],
@@ -2193,16 +2179,19 @@
    "sources": [
     "careers portal"
    ],
-   "key": "google|ads ai knowledge strategist",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
    "links": [
     {
      "source": "careers portal",
      "url": "https://www.google.com/about/careers/applications/jobs/results/75076499224306374-data-engineer-data-architecture-and-engineering-gtech-strategy-and-operations"
     }
-   ]
+   ],
+   "variants": [
+    "AI and Knowledge Strategist, Google Ads"
+   ],
+   "key": "google|ads ai knowledge strategist",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-16",
+   "is_new": false
   },
   {
    "company": "PwC India",
@@ -2793,6 +2782,94 @@
    ]
   },
   {
+   "company": "Google",
+   "title": "Account Manager, Large Customer Sales",
+   "location": "Hyderabad",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/135468515409699526-software-engineer-ii-youtube",
+   "source": "careers portal",
+   "posted": "2026-09-15",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "target",
+   "band": "mnc_top",
+   "exp_min": 1.0,
+   "exp_max": null,
+   "exp_label": "1+ yrs",
+   "mba": "Yes: …avaScript).  Preferred qualifications:  Master's degree or PhD in Computer Science or a related…",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "careers portal"
+   ],
+   "links": [
+    {
+     "source": "careers portal",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/135468515409699526-software-engineer-ii-youtube"
+    },
+    {
+     "source": "careers portal",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/87706967249691334-site-reliability-engineer"
+    }
+   ],
+   "variants": [
+    "Account Manager, Large Customer Sales"
+   ],
+   "key": "google|account customer large manager sales",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-16",
+   "is_new": false
+  },
+  {
+   "company": "Razorpay",
+   "title": "Junior Associate, Enterprise Partnerships",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4467961698",
+   "source": "linkedin",
+   "posted": "2026-09-15",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 1.0,
+   "exp_max": null,
+   "exp_label": "1+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–26 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 33,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467961698"
+    }
+   ],
+   "variants": [
+    "Junior Associate, Enterprise Partnerships"
+   ],
+   "key": "razorpay|associate enterprise partnerships",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-16",
+   "is_new": false
+  },
+  {
    "company": "Mastercard",
    "title": "Consultant, Advisors & Consulting Services, Performance Analytics-4",
    "location": "Gurugram",
@@ -2959,6 +3036,48 @@
     "Specialist – Regional Customer Success Operations, Services"
    ],
    "key": "mastercard|customer operations regional services specialist success",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-16",
+   "is_new": false
+  },
+  {
+   "company": "Accenture Strategy",
+   "title": "S&C GN - TS&T – Enterprise AI Value Strategy - Analyst",
+   "location": "Gurugram",
+   "url": "https://www.linkedin.com/jobs/view/4465917538",
+   "source": "linkedin",
+   "posted": "2026-09-15",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 28,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4465917538"
+    }
+   ],
+   "variants": [
+    "S&C GN - TS&T – Enterprise AI Value Strategy - Analyst"
+   ],
+   "key": "accenture strategy|ai analyst c enterprise gn s t ts value",
    "first_seen": "2026-09-15",
    "last_seen": "2026-09-16",
    "is_new": false
@@ -5344,7 +5463,7 @@
    ],
    "key": "itc|customer fulfilment manager product",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
+   "last_seen": "2026-09-16",
    "is_new": false
   },
   {
@@ -6022,46 +6141,6 @@
    ]
   },
   {
-   "company": "Google",
-   "title": "Account Manager, Large Customer Sales",
-   "location": "Hyderabad",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/87706967249691334-site-reliability-engineer",
-   "source": "careers portal",
-   "posted": "2026-09-15",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "mnc_top",
-   "exp_min": 1.0,
-   "exp_max": null,
-   "exp_label": "1+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 4,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "careers portal"
-   ],
-   "links": [
-    {
-     "source": "careers portal",
-     "url": "https://www.google.com/about/careers/applications/jobs/results/87706967249691334-site-reliability-engineer"
-    }
-   ],
-   "variants": [
-    "Account Manager, Large Customer Sales"
-   ],
-   "key": "google|account customer large manager sales",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-16",
-   "is_new": false
-  },
-  {
    "company": "PepsiCo",
    "title": "Sales Sr Associate",
    "location": "Hyderabad",
@@ -6139,6 +6218,46 @@
     "Section Lead - Diagnostics"
    ],
    "key": "ather energy|diagnostics lead section",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-16",
+   "is_new": true
+  },
+  {
+   "company": "NoBroker",
+   "title": "Inside SaaS Sales Manager",
+   "location": "Bengaluru",
+   "url": "https://www.iimjobs.com/j/nobrokerhood-inside-saas-sales-manager-1733152",
+   "source": "iimjobs",
+   "posted": "2026-09-15",
+   "exp_text": "4-8 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 4.0,
+   "exp_max": 8.0,
+   "exp_label": "4-8 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹25–40 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 2,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/nobrokerhood-inside-saas-sales-manager-1733152"
+    }
+   ],
+   "variants": [
+    "Inside SaaS Sales Manager"
+   ],
+   "key": "nobroker|inside manager saas sales",
    "first_seen": "2026-09-16",
    "last_seen": "2026-09-16",
    "is_new": true

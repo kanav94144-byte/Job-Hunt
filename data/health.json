@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 48,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -77,7 +77,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 68,
+   "jobs": 72,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -263,7 +263,7 @@
   "iimjobs": {
    "ok": 19,
    "failed": 0,
-   "jobs": 1109,
+   "jobs": 1125,
    "errors": []
   },
   "naukri (browser)": {
@@ -274,10 +274,10 @@
   }
  },
  "counts": {
-  "raw": 3253,
-  "after_filters": 577,
-  "kept": 177,
-  "duplicates_folded": 7,
-  "on_dashboard": 452
+  "raw": 3275,
+  "after_filters": 579,
+  "kept": 178,
+  "duplicates_folded": 5,
+  "on_dashboard": 455
  }
 }
