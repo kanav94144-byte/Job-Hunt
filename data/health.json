@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 54,
+   "jobs": 56,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 410,
+   "jobs": 406,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -41,7 +41,7 @@
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 91,
+   "jobs": 92,
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
@@ -59,7 +59,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 246,
+   "jobs": 247,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -257,7 +257,7 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 279,
+   "jobs": 278,
    "errors": []
   },
   "iimjobs": {
@@ -274,10 +274,10 @@
   }
  },
  "counts": {
-  "raw": 3887,
-  "after_filters": 538,
-  "kept": 193,
-  "duplicates_folded": 4,
-  "on_dashboard": 605
+  "raw": 3886,
+  "after_filters": 542,
+  "kept": 191,
+  "duplicates_folded": 2,
+  "on_dashboard": 617
  }
 }
