@@ -1,8 +1,93 @@
 {
- "updated": "2026-09-19 09:10 UTC",
- "count": 588,
- "new_today": 19,
+ "updated": "2026-09-19 13:34 UTC",
+ "count": 603,
+ "new_today": 32,
  "jobs": [
+  {
+   "company": "Property Finder",
+   "title": "Senior Product Manager, Growth",
+   "location": "Dubai · United Arab Emirates",
+   "url": "https://www.linkedin.com/jobs/view/4469190584",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …r a similar discipline, ideally with an MBA or comparable business education on top…",
+   "salary_label": "not stated",
+   "salary_kind": "unknown",
+   "region": "international",
+   "relevance": 26,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469190584"
+    }
+   ],
+   "variants": [
+    "Senior Product Manager, Growth"
+   ],
+   "key": "property finder|growth manager product",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Katyayani Organics",
+   "title": "Associate Category Manager - Crop Protection",
+   "location": "Bhopal",
+   "url": "https://www.linkedin.com/jobs/view/4468079811",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 4.0,
+   "exp_max": null,
+   "exp_label": "4+ yrs",
+   "mba": "Yes: …ifications & Experience   Bachelor's or Master's degree in Agriculture, Agronomy, Agri-Business…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 24,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468079811"
+    }
+   ],
+   "variants": [
+    "Associate Category Manager - Crop Protection"
+   ],
+   "key": "katyayani organics|associate category crop manager protection",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
   {
    "company": "Bain & Company",
    "title": "Associate- Enterprise Technology CoE (ET)",
@@ -46,6 +131,49 @@
    "is_new": true
   },
   {
+   "company": "Nexus BIM InfoTech (OPC) Pvt Ltd.",
+   "title": "Business Development Manager",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4466982219",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …tion management, or a related field; an MBA or equivalent business qualification is…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 21,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466982219"
+    }
+   ],
+   "variants": [
+    "Business Development Manager"
+   ],
+   "key": "nexus bim infotech|business development manager",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
    "company": "WELTEC Institute",
    "title": "Manufacturing - Business Development Manager (Plastic, or Polymer)",
    "location": "Vadodara",
@@ -83,6 +211,48 @@
     "Manufacturing - Business Development Manager (Plastic, or Polymer)"
    ],
    "key": "weltec institute|business development manager manufacturing",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Colliers",
+   "title": "Manager /Senior Manager Advisory Services-Real Estate Consulting",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4450302459",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 4.0,
+   "exp_max": 8.0,
+   "exp_label": "4-8 yrs",
+   "mba": "Yes: …consulting, or investment analysis.  A postgraduate degree in Management, Finance, or Urba…",
+   "salary_label": "~₹28–45 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 13,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4450302459"
+    }
+   ],
+   "variants": [
+    "Manager /Senior Manager Advisory Services-Real Estate Consulting"
+   ],
+   "key": "colliers|advisory consulting estate manager real services",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -384,6 +554,128 @@
    "is_new": true
   },
   {
+   "company": "Amazon",
+   "title": "Associate Corporate Counsel - Last Mile, WW Ops",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4460138416",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 5.0,
+   "exp_max": null,
+   "exp_label": "5+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5+ yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4460138416"
+    }
+   ],
+   "variants": [
+    "Associate Corporate Counsel - Last Mile, WW Ops"
+   ],
+   "key": "amazon|associate corporate counsel last mile ops ww",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "PepsiCo",
+   "title": "R&D Digital Platforms Asst Analyst",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4438005338",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 2.0,
+   "exp_max": 3.0,
+   "exp_label": "2-3 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 7,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4438005338"
+    }
+   ],
+   "variants": [
+    "R&D Digital Platforms Asst Analyst"
+   ],
+   "key": "pepsico|analyst asst d digital platforms r",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "PepsiCo",
+   "title": "Assistant Manager- Trade Promotion Management",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4401959816",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": 5.0,
+   "exp_label": "3-5 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 6,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4401959816"
+    }
+   ],
+   "variants": [
+    "Assistant Manager- Trade Promotion Management"
+   ],
+   "key": "pepsico|assistant management manager promotion trade",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
    "company": "Booking Holdings (Agoda/Booking.com)",
    "title": "Senior Analyst, VBA Automation (12 months Contract, India Based) : Contract extension possible based on performance",
    "location": "",
@@ -421,6 +713,46 @@
     "Senior Analyst, VBA Automation (12 months Contract, India Based) : Contract extension possible based on performance"
    ],
    "key": "booking holdings|analyst automation based contract extension performance possible vba",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "KPMG India",
+   "title": "Associate 2 -Trade & Customs",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4468084560",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 2.0,
+   "exp_max": null,
+   "exp_label": "2+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 4,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468084560"
+    }
+   ],
+   "variants": [
+    "Associate 2 -Trade & Customs"
+   ],
+   "key": "kpmg|associate customs trade",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -495,6 +827,48 @@
   },
   {
    "company": "ITC",
+   "title": "Quality Associate Pre Procurement Nawalgarh",
+   "location": "Nawalgarh",
+   "url": "https://www.linkedin.com/jobs/view/4468072398",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "large_indian",
+   "exp_min": 0.0,
+   "exp_max": 2.0,
+   "exp_label": "0-2 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹10–16 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "C",
+   "reasons": [
+    "estimated pay may be below 20 LPA"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468072398"
+    }
+   ],
+   "variants": [
+    "Quality Associate Pre Procurement Nawalgarh"
+   ],
+   "key": "itc|associate nawalgarh pre procurement quality",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "ITC",
    "title": "Quality Associate",
    "location": "Nawalgarh",
    "url": "https://www.linkedin.com/jobs/view/4468072398",
@@ -533,7 +907,7 @@
    "key": "itc|associate quality",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Livspace",
@@ -832,48 +1206,6 @@
    "is_new": false
   },
   {
-   "company": "Tipsons Group",
-   "title": "Associate – Founder’s Office",
-   "location": "Ahmedabad",
-   "url": "https://www.linkedin.com/jobs/view/4469116662",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 1.0,
-   "exp_max": 2.0,
-   "exp_label": "1-2 yrs",
-   "mba": "Yes: …related fields, along with a mandatory MBA/PGDM qualification.  Experience: 1-2 ye…",
-   "salary_label": "~₹10–20 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 27,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469116662"
-    }
-   ],
-   "variants": [
-    "Associate – Founder’s Office"
-   ],
-   "key": "tipsons|associate founder s",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
    "company": "Mygate",
    "title": "Founder's Office - Strategy and Growth",
    "location": "Bengaluru",
@@ -911,6 +1243,48 @@
     "Founder's Office - Strategy and Growth"
    ],
    "key": "mygate|founder growth s strategy",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Tipsons Group",
+   "title": "Associate – Founder’s Office",
+   "location": "Ahmedabad",
+   "url": "https://www.linkedin.com/jobs/view/4469116662",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 1.0,
+   "exp_max": 2.0,
+   "exp_label": "1-2 yrs",
+   "mba": "Yes: …related fields, along with a mandatory MBA/PGDM qualification.  Experience: 1-2 ye…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 27,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469116662"
+    }
+   ],
+   "variants": [
+    "Associate – Founder’s Office"
+   ],
+   "key": "tipsons|associate founder s",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
    "is_new": false
@@ -958,48 +1332,6 @@
    "is_new": false
   },
   {
-   "company": "LH2 AI Labs",
-   "title": "Strategy Analyst",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4466673248",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 2.0,
-   "exp_max": null,
-   "exp_label": "2+ yrs",
-   "mba": "Yes: …dergraduate only) in Engineering from a premier institute such as IITs/ BITS/ NITs.   Up to 2 yea…",
-   "salary_label": "~₹10–20 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 24,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466673248"
-    }
-   ],
-   "variants": [
-    "Strategy Analyst"
-   ],
-   "key": "lh2 ai|analyst strategy",
-   "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
-   "is_new": true
-  },
-  {
    "company": "Opus Wealth",
    "title": "Founder's Office - Growth & Strategy",
    "location": "",
@@ -1040,6 +1372,48 @@
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
    "is_new": false
+  },
+  {
+   "company": "LH2 AI Labs",
+   "title": "Strategy Analyst",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4466673248",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 2.0,
+   "exp_max": null,
+   "exp_label": "2+ yrs",
+   "mba": "Yes: …dergraduate only) in Engineering from a premier institute such as IITs/ BITS/ NITs.   Up to 2 yea…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 24,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466673248"
+    }
+   ],
+   "variants": [
+    "Strategy Analyst"
+   ],
+   "key": "lh2 ai|analyst strategy",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
   },
   {
    "company": "ShopSe Digital Finance",
@@ -1976,6 +2350,48 @@
    "is_new": false
   },
   {
+   "company": "KPMG India",
+   "title": "Associate 1 - AMDC (FTS)",
+   "location": "Bengaluru · Kolkata",
+   "url": "https://www.linkedin.com/jobs/view/4458371580",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 0.0,
+   "exp_max": 2.0,
+   "exp_label": "0-2 yrs",
+   "mba": "Yes: …f the below listed would be considered) Post-graduate in finance and accounting (MBA Finance…",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 4,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4458371580"
+    }
+   ],
+   "variants": [
+    "Associate 1 - AMDC (FTS)"
+   ],
+   "key": "kpmg|amdc associate",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "Visa",
    "title": "Sr. Sourcing Analyst(People and Professional Services Category Management experience mandate)",
    "location": "In Bengaluru",
@@ -2274,6 +2690,49 @@
    "is_new": false
   },
   {
+   "company": "Purplle",
+   "title": "Key Accounts Manager",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4448025772",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹25–40 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 14,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4448025772"
+    }
+   ],
+   "variants": [
+    "Key Accounts Manager"
+   ],
+   "key": "purplle|accounts key manager",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "Rippling India",
    "title": "SSB, Account Manager",
    "location": "Bengaluru",
@@ -2355,49 +2814,6 @@
    "key": "rippling|account consultant platform technical",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
-   "company": "Purplle",
-   "title": "Key Accounts Manager",
-   "location": "Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4448025772",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "unicorn",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 14,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4448025772"
-    }
-   ],
-   "variants": [
-    "Key Accounts Manager"
-   ],
-   "key": "purplle|accounts key manager",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
    "is_new": false
   },
   {
@@ -2570,6 +2986,48 @@
    "is_new": false
   },
   {
+   "company": "HR LOBBY",
+   "title": "Growth Manager - Meta Ads",
+   "location": "Bengaluru",
+   "url": "https://www.iimjobs.com/j/growth-manager-social-media-ads-3-5-yrs-1734101",
+   "source": "iimjobs",
+   "posted": "2026-09-18",
+   "exp_text": "3-5 years experience",
+   "salary_min": 3000000.0,
+   "salary_max": 4000000.0,
+   "currency": "INR",
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 3.0,
+   "exp_max": 5.0,
+   "exp_label": "3-5 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "₹30–40 LPA",
+   "salary_kind": "stated",
+   "region": "india",
+   "relevance": 9,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/growth-manager-social-media-ads-3-5-yrs-1734101"
+    }
+   ],
+   "variants": [
+    "Growth Manager - Meta Ads"
+   ],
+   "key": "hr lobby|ads growth manager meta",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "Honasa Consumer (Mamaearth)",
    "title": "Content Strategist",
    "location": "Gurugram",
@@ -2654,48 +3112,6 @@
    "is_new": false
   },
   {
-   "company": "Manman",
-   "title": "Category Manager - Orthopedic Power Systems",
-   "location": "Pune",
-   "url": "https://www.linkedin.com/jobs/view/4466660663",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 5.0,
-   "exp_max": 10.0,
-   "exp_label": "5-10 yrs",
-   "mba": "Yes: …es, Pharmacy or a related discipline. - MBA in Marketing, Product Management or Bus…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 27,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5-10 yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466660663"
-    }
-   ],
-   "variants": [
-    "Category Manager - Orthopedic Power Systems"
-   ],
-   "key": "manman|category manager orthopedic power systems",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
    "company": "Eon Infotech Limited",
    "title": "Business Development Manager - B2B / Enterprise Sales",
    "location": "Mohali",
@@ -2733,6 +3149,48 @@
     "Business Development Manager - B2B / Enterprise Sales"
    ],
    "key": "eon infotech|b2b business development enterprise manager sales",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Manman",
+   "title": "Category Manager - Orthopedic Power Systems",
+   "location": "Pune",
+   "url": "https://www.linkedin.com/jobs/view/4466660663",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 5.0,
+   "exp_max": 10.0,
+   "exp_label": "5-10 yrs",
+   "mba": "Yes: …es, Pharmacy or a related discipline. - MBA in Marketing, Product Management or Bus…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 27,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-10 yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466660663"
+    }
+   ],
+   "variants": [
+    "Category Manager - Orthopedic Power Systems"
+   ],
+   "key": "manman|category manager orthopedic power systems",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
    "is_new": false
@@ -2776,6 +3234,48 @@
    ],
    "key": "national university of singapore|business development manager strategy",
    "first_seen": "2026-09-16",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Mondelez",
+   "title": "Lead - Digital Strategy & Innovation",
+   "location": "India",
+   "url": "https://www.linkedin.com/jobs/view/4429559153",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 5.0,
+   "exp_max": null,
+   "exp_label": "5+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹45–75 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 25,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5+ yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4429559153"
+    }
+   ],
+   "variants": [
+    "Lead - Digital Strategy & Innovation"
+   ],
+   "key": "mondelez|digital innovation lead strategy",
+   "first_seen": "2026-09-17",
    "last_seen": "2026-09-19",
    "is_new": false
   },
@@ -3022,11 +3522,11 @@
     },
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469165671"
+     "url": "https://www.linkedin.com/jobs/view/4469170463"
     },
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469170463"
+     "url": "https://www.linkedin.com/jobs/view/4469165671"
     }
    ],
    "variants": [
@@ -3162,6 +3662,128 @@
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
    "is_new": false
+  },
+  {
+   "company": "PepsiCo",
+   "title": "Associate Manager - Supply Chain",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4457789937",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 8,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4457789937"
+    }
+   ],
+   "variants": [
+    "Associate Manager - Supply Chain"
+   ],
+   "key": "pepsico|associate chain manager supply",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "PepsiCo",
+   "title": "Deputy Manager - Supply Chain",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4457793982",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 7,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4457793982"
+    }
+   ],
+   "variants": [
+    "Deputy Manager - Supply Chain"
+   ],
+   "key": "pepsico|chain deputy manager supply",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "PepsiCo",
+   "title": "Specification Management Analyst – AOP Spec Writing",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4438008316",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 2.0,
+   "exp_max": 3.0,
+   "exp_label": "2-3 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 7,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4438008316"
+    }
+   ],
+   "variants": [
+    "Specification Management Analyst – AOP Spec Writing"
+   ],
+   "key": "pepsico|analyst aop management spec specification writing",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
   },
   {
    "company": "Mondelez",
@@ -3370,7 +3992,7 @@
    ],
    "key": "livspace|manager service",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3414,6 +4036,46 @@
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
    "is_new": false
+  },
+  {
+   "company": "Livspace",
+   "title": "Validation Lead (2-6 yrs Exp) -  Site Installation and Measurement Stage Modular, civil work and technical knowledge",
+   "location": "Ranchi",
+   "url": "https://www.linkedin.com/jobs/view/4469112107",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹36–55 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469112107"
+    }
+   ],
+   "variants": [
+    "Validation Lead (2-6 yrs Exp) -  Site Installation and Measurement Stage Modular, civil work and technical knowledge"
+   ],
+   "key": "livspace|civil installation knowledge lead measurement modular site stage technical validation",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
   },
   {
    "company": "Anchanto",
@@ -5219,6 +5881,49 @@
   },
   {
    "company": "Amazon",
+   "title": "Area Manager, ACES",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4468689474",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 15,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468689474"
+    }
+   ],
+   "variants": [
+    "Area Manager, ACES"
+   ],
+   "key": "amazon|aces area manager",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Amazon",
    "title": "Sr Product Manager Tech, Amazon Customer Service",
    "location": "Hyderabad",
    "url": "https://www.linkedin.com/jobs/view/4468313683",
@@ -6108,7 +6813,7 @@
    ],
    "key": "purplle|accounts distribution key manager online",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6149,48 +6854,6 @@
     "Chief of Staff"
    ],
    "key": "ajmal perfumes|chief staff",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
-   "company": "Mondelez",
-   "title": "Lead - Digital Strategy & Innovation",
-   "location": "India",
-   "url": "https://www.linkedin.com/jobs/view/4429559153",
-   "source": "linkedin",
-   "posted": "2026-09-17",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 5.0,
-   "exp_max": null,
-   "exp_label": "5+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹45–75 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 25,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5+ yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4429559153"
-    }
-   ],
-   "variants": [
-    "Lead - Digital Strategy & Innovation"
-   ],
-   "key": "mondelez|digital innovation lead strategy",
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-19",
    "is_new": false
@@ -6662,46 +7325,6 @@
    "is_new": false
   },
   {
-   "company": "Rebel Foods",
-   "title": "Senior Executive – Performance Marketing",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4468605435",
-   "source": "linkedin",
-   "posted": "2026-09-17",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": 2.0,
-   "exp_max": 3.0,
-   "exp_label": "2-3 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 10,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4468605435"
-    }
-   ],
-   "variants": [
-    "Senior Executive – Performance Marketing"
-   ],
-   "key": "rebel foods|executive marketing performance",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
    "company": "Taggd",
    "title": "Program Manager - Dealer Loyalty Programs",
    "location": "Mumbai",
@@ -6782,6 +7405,46 @@
    ],
    "key": "page outsourcing|associate consultant corporate manager practice technology",
    "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Rebel Foods",
+   "title": "Senior Executive – Performance Marketing",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4468605435",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "target",
+   "band": "unicorn",
+   "exp_min": 2.0,
+   "exp_max": 3.0,
+   "exp_label": "2-3 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–26 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 10,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468605435"
+    }
+   ],
+   "variants": [
+    "Senior Executive – Performance Marketing"
+   ],
+   "key": "rebel foods|executive marketing performance",
+   "first_seen": "2026-09-17",
    "last_seen": "2026-09-19",
    "is_new": false
   },
@@ -7320,6 +7983,48 @@
    "is_new": false
   },
   {
+   "company": "Livspace",
+   "title": "Validation Manager",
+   "location": "Ahmedabad",
+   "url": "https://www.linkedin.com/jobs/view/4467545527",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 5.0,
+   "exp_max": null,
+   "exp_label": "5+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹25–40 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 4,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5+ yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467545527"
+    }
+   ],
+   "variants": [
+    "Validation Manager"
+   ],
+   "key": "livspace|manager validation",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
    "company": "PepsiCo",
    "title": "Assistant Manager - TPM",
    "location": "Hyderabad",
@@ -7567,50 +8272,6 @@
    "key": "livspace|design interior sales",
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17",
-   "is_new": false
-  },
-  {
-   "company": "KPMG India",
-   "title": "Associate 1 - AMDC (FTS)",
-   "location": "Kolkata · Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4458373588",
-   "source": "linkedin",
-   "posted": "2026-09-17",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": 0.0,
-   "exp_max": 1.0,
-   "exp_label": "0-1 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 1,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4458373588"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4458371580"
-    }
-   ],
-   "variants": [
-    "Associate 1 - AMDC (FTS)"
-   ],
-   "key": "kpmg|amdc associate",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -13011,48 +13672,6 @@
    ],
    "key": "reckitt|gbs governance impact manager",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
-   "company": "PepsiCo",
-   "title": "Deputy Manager - Supply Chain",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4447383921",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 3,
-   "tier": "C",
-   "reasons": [
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4447383921"
-    }
-   ],
-   "variants": [
-    "Deputy Manager - Supply Chain"
-   ],
-   "key": "pepsico|chain deputy manager supply",
-   "first_seen": "2026-09-17",
    "last_seen": "2026-09-18",
    "is_new": false
   },
