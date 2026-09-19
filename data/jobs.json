@@ -1,8 +1,582 @@
 {
- "updated": "2026-09-18 18:05 UTC",
- "count": 617,
- "new_today": 79,
+ "updated": "2026-09-19 09:10 UTC",
+ "count": 588,
+ "new_today": 19,
  "jobs": [
+  {
+   "company": "Bain & Company",
+   "title": "Associate- Enterprise Technology CoE (ET)",
+   "location": "Gurugram",
+   "url": "https://www.linkedin.com/jobs/view/4388749567",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 2.0,
+   "exp_max": 5.0,
+   "exp_label": "2-5 yrs",
+   "mba": "Yes: …YOU:   Candidates should be graduates / post-graduates with strong academic record  Work exp…",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 22,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4388749567"
+    }
+   ],
+   "variants": [
+    "Associate- Enterprise Technology CoE (ET)"
+   ],
+   "key": "bain and|associate coe enterprise technology",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "WELTEC Institute",
+   "title": "Manufacturing - Business Development Manager (Plastic, or Polymer)",
+   "location": "Vadodara",
+   "url": "https://www.linkedin.com/jobs/view/4468071104",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 2.0,
+   "exp_max": 5.0,
+   "exp_label": "2-5 yrs",
+   "mba": "Yes: …tion, Marketing, or a related field; an MBA is often preferred for managerial roles…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 16,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468071104"
+    }
+   ],
+   "variants": [
+    "Manufacturing - Business Development Manager (Plastic, or Polymer)"
+   ],
+   "key": "weltec institute|business development manager manufacturing",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Hindustan Unilever",
+   "title": "Global Fabric Cleaning Powders Senior R&D Associate",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4468037076",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Yes: …elor’s Degree in Chemical Engineering / Masters’ in Physics / Chemistry from a reputed…",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 11,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468037076"
+    }
+   ],
+   "variants": [
+    "Global Fabric Cleaning Powders Senior R&D Associate"
+   ],
+   "key": "hindustan unilever|associate cleaning d fabric global powders r",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Hindustan Unilever",
+   "title": "Assistant Area Sales and Customer Manager,",
+   "location": "Lucknow",
+   "url": "https://www.linkedin.com/jobs/view/4468032225",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …ned aspects.  Key Skills & Requirement  MBA with relevant experience.  Analytical s…",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 9,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468032225"
+    }
+   ],
+   "variants": [
+    "Assistant Area Sales and Customer Manager,"
+   ],
+   "key": "hindustan unilever|area assistant customer manager sales",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Hindustan Unilever",
+   "title": "Key Account Manager, Purplle",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4468018519",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": 5.0,
+   "exp_label": "3-5 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 37,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468018519"
+    }
+   ],
+   "variants": [
+    "Key Account Manager, Purplle"
+   ],
+   "key": "hindustan unilever|account key manager purplle",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Bain & Company",
+   "title": "Associate- Sustainability(S&R)",
+   "location": "Gurugram",
+   "url": "https://www.linkedin.com/jobs/view/4446724324",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 2.0,
+   "exp_max": 5.0,
+   "exp_label": "2-5 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 14,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4446724324"
+    }
+   ],
+   "variants": [
+    "Associate- Sustainability(S&R)"
+   ],
+   "key": "bain and|associate sustainability",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Rippling India",
+   "title": "PEO Operations Analyst",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4469274146",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "startup",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 13,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469274146"
+    }
+   ],
+   "variants": [
+    "PEO Operations Analyst"
+   ],
+   "key": "rippling|analyst operations peo",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Rippling India",
+   "title": "SMB Implementation Manager",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4469274145",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "startup",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469274145"
+    }
+   ],
+   "variants": [
+    "SMB Implementation Manager"
+   ],
+   "key": "rippling|implementation manager smb",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "RECRIVIO",
+   "title": "Growth & Category Manager",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4467899737",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": 1500000.0,
+   "salary_max": 2000000.0,
+   "currency": "INR",
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 5.0,
+   "exp_max": 10.0,
+   "exp_label": "5-10 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "₹15–20 LPA",
+   "salary_kind": "stated",
+   "region": "india",
+   "relevance": 20,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-10 yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467899737"
+    }
+   ],
+   "variants": [
+    "Growth & Category Manager"
+   ],
+   "key": "recrivio|category growth manager",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Booking Holdings (Agoda/Booking.com)",
+   "title": "Senior Analyst, VBA Automation (12 months Contract, India Based) : Contract extension possible based on performance",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4412675115",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 5.0,
+   "exp_max": null,
+   "exp_label": "5+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 5,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5+ yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4412675115"
+    }
+   ],
+   "variants": [
+    "Senior Analyst, VBA Automation (12 months Contract, India Based) : Contract extension possible based on performance"
+   ],
+   "key": "booking holdings|analyst automation based contract extension performance possible vba",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Amazon",
+   "title": "Investigation Associate, Middle Mile Product & Technology",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4469194897",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 1.0,
+   "exp_max": null,
+   "exp_label": "1+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 2,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469194897"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469192908"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469212474"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469213163"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469194902"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469191976"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469199807"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469190996"
+    }
+   ],
+   "variants": [
+    "Investigation Associate, Middle Mile Product & Technology"
+   ],
+   "key": "amazon|associate investigation middle mile product technology",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "ITC",
+   "title": "Quality Associate",
+   "location": "Nawalgarh",
+   "url": "https://www.linkedin.com/jobs/view/4468072398",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "large_indian",
+   "exp_min": 0.0,
+   "exp_max": 2.0,
+   "exp_label": "0-2 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹10–16 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "C",
+   "reasons": [
+    "estimated pay may be below 20 LPA"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468072398"
+    }
+   ],
+   "variants": [
+    "Quality Associate"
+   ],
+   "key": "itc|associate quality",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Livspace",
+   "title": "Design Associate",
+   "location": "Gurugram",
+   "url": "https://www.linkedin.com/jobs/view/4468054976",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–26 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468054976"
+    }
+   ],
+   "variants": [
+    "Design Associate"
+   ],
+   "key": "livspace|associate design",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
   {
    "company": "Nabo.E",
    "title": "Business Development Manager",
@@ -43,8 +617,8 @@
    ],
    "key": "nabo e|business development manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Google",
@@ -85,8 +659,8 @@
    ],
    "key": "google|manager photos product",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Felix Pharmaceuticals Pvt. Ltd.",
@@ -128,8 +702,8 @@
    ],
    "key": "felix pharmaceuticals|ai growth m manager strategy transformation",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "GobbleCube",
@@ -170,8 +744,8 @@
    ],
    "key": "gobblecube|enterprise growth manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Magnet HR Tech Digital",
@@ -212,8 +786,8 @@
    ],
    "key": "magnet hr tech digital|founder s",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Confidential",
@@ -255,49 +829,7 @@
    "key": "confidential|associate consulting consumer retail",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
-  },
-  {
-   "company": "Mygate",
-   "title": "Founder's Office - Strategy and Growth",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4467844329",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 4.0,
-   "exp_max": 6.0,
-   "exp_label": "4-6 yrs",
-   "mba": "Yes: …from top-tier institutions , preferably IIMs, IITs, or ISB .  Strong problem-solving…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 27,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467844329"
-    }
-   ],
-   "variants": [
-    "Founder's Office - Strategy and Growth"
-   ],
-   "key": "mygate|founder growth s strategy",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Tipsons Group",
@@ -338,8 +870,50 @@
    ],
    "key": "tipsons|associate founder s",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Mygate",
+   "title": "Founder's Office - Strategy and Growth",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4467844329",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 4.0,
+   "exp_max": 6.0,
+   "exp_label": "4-6 yrs",
+   "mba": "Yes: …from top-tier institutions , preferably IIMs, IITs, or ISB .  Strong problem-solving…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 27,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467844329"
+    }
+   ],
+   "variants": [
+    "Founder's Office - Strategy and Growth"
+   ],
+   "key": "mygate|founder growth s strategy",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "PwC India",
@@ -380,7 +954,49 @@
    ],
    "key": "pwc|advisory associate chemicals fuels mumbai resources",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "LH2 AI Labs",
+   "title": "Strategy Analyst",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4466673248",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 2.0,
+   "exp_max": null,
+   "exp_label": "2+ yrs",
+   "mba": "Yes: …dergraduate only) in Engineering from a premier institute such as IITs/ BITS/ NITs.   Up to 2 yea…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 24,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466673248"
+    }
+   ],
+   "variants": [
+    "Strategy Analyst"
+   ],
+   "key": "lh2 ai|analyst strategy",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
    "is_new": true
   },
   {
@@ -422,8 +1038,8 @@
    ],
    "key": "opus wealth|founder growth s strategy",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "ShopSe Digital Finance",
@@ -464,8 +1080,8 @@
    ],
    "key": "shopse digital finance|founder s",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Bain & Company",
@@ -506,8 +1122,50 @@
    ],
    "key": "bain and|analytics associate coe ppk reporting",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Aptita",
+   "title": "Founder's Office Associate - Business Strategy",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4468615071",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 1.0,
+   "exp_max": 3.0,
+   "exp_label": "1-3 yrs",
+   "mba": "Yes: …ai Thane (6 days WFO)  Requirements   - MBA from a top-tier institute; 1–3 years of…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 21,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468615071"
+    }
+   ],
+   "variants": [
+    "Founder's Office Associate - Business Strategy"
+   ],
+   "key": "aptita|associate business founder s strategy",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Google",
@@ -548,8 +1206,8 @@
    ],
    "key": "google|cloud manager program storage technical",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "PwC India",
@@ -590,8 +1248,8 @@
    ],
    "key": "pwc|advisory associate gcc hyderabad qa salesforce",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "PwC India",
@@ -632,8 +1290,8 @@
    ],
    "key": "pwc|advisory apps associate bpc enterprise kolkata sap",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "McKinsey & Company",
@@ -674,8 +1332,8 @@
    ],
    "key": "mckinsey and|analyst knowledge mineral operations processing",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "PwC India",
@@ -752,19 +1410,14 @@
     {
      "source": "careers portal",
      "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26014133"
-    },
-    {
-     "source": "careers portal",
-     "url": "https://careers.americanexpress.com/en/sites/CX_1/job/26013850"
     }
    ],
    "variants": [
-    "Senior Analyst/Analyst- Data Analytics",
-    "Analyst-Data Analytics"
+    "Senior Analyst/Analyst- Data Analytics"
    ],
    "key": "american express|analyst analytics data",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -811,8 +1464,8 @@
    ],
    "key": "phonepe|analyst business operations",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Mondelez",
@@ -858,6 +1511,48 @@
    "is_new": false
   },
   {
+   "company": "Jarvis Technology and Strategy Consulting",
+   "title": "Associate Program Manager",
+   "location": "",
+   "url": "https://www.iimjobs.com/j/jarvis-technology-strategy-consulting-associate-program-manager-iitiimmdiisbnitbits-1-3-yrs-1734084",
+   "source": "iimjobs",
+   "posted": "2026-09-18",
+   "exp_text": "1-3 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 1.0,
+   "exp_max": 3.0,
+   "exp_label": "1-3 yrs",
+   "mba": "Yes: …lting - Associate Program Manager - IIT/IIM/MDI/ISB/NIT/BITS. Corporate Strategy, S…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 14,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/jarvis-technology-strategy-consulting-associate-program-manager-iitiimmdiisbnitbits-1-3-yrs-1734084"
+    }
+   ],
+   "variants": [
+    "Associate Program Manager"
+   ],
+   "key": "jarvis and strategy consulting|associate manager program",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
    "company": "Bunge",
    "title": "Senior Manager- BBS Program and Integration",
    "location": "Sahibzada Ajit Singh Nagar",
@@ -896,8 +1591,8 @@
    ],
    "key": "bunge|bbs integration manager program",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "KPMG India",
@@ -939,7 +1634,7 @@
    "key": "kpmg|consultant personal property valuation",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Diageo India",
@@ -980,8 +1675,8 @@
    ],
    "key": "diageo|assistant customer manager marketing",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Paytm",
@@ -1023,8 +1718,8 @@
    ],
    "key": "paytm|area manager sales",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Pocket FM",
@@ -1065,8 +1760,8 @@
    ],
    "key": "pocket fm|associate human resources",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Deloitte USI",
@@ -1108,7 +1803,7 @@
    "key": "deloitte usi|advisor associate engagement financial services spanish",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Livspace",
@@ -1149,7 +1844,7 @@
    ],
    "key": "livspace|interior manager project",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -1191,8 +1886,8 @@
    ],
    "key": "google|growth manager smb",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "PepsiCo",
@@ -1277,8 +1972,8 @@
    ],
    "key": "mondelez|lead star stream value",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Visa",
@@ -1319,8 +2014,8 @@
    ],
    "key": "visa|analyst sourcing",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Microsoft",
@@ -1361,8 +2056,8 @@
    ],
    "key": "microsoft|ai consultant full net stack",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Diageo India",
@@ -1404,8 +2099,8 @@
    ],
    "key": "diageo|chrome manager shopper",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Razorpay",
@@ -1446,8 +2141,8 @@
    ],
    "key": "razorpay|manager product",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Pilgrim",
@@ -1489,8 +2184,8 @@
    ],
    "key": "pilgrim|b2b executive logistics",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Dot & Key",
@@ -1532,8 +2227,8 @@
    ],
    "key": "dot and key|brand manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "PwC India",
@@ -1576,7 +2271,91 @@
    "key": "pwc|consultant msoft rdc tc",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "company": "Rippling India",
+   "title": "SSB, Account Manager",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4332893165",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "startup",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 14,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4332893165"
+    }
+   ],
+   "variants": [
+    "SSB, Account Manager"
+   ],
+   "key": "rippling|account manager ssb",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Rippling India",
+   "title": "Technical Account Consultant - Platform",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4460337282",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "startup",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 14,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4460337282"
+    }
+   ],
+   "variants": [
+    "Technical Account Consultant - Platform"
+   ],
+   "key": "rippling|account consultant platform technical",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Purplle",
@@ -1619,134 +2398,7 @@
    "key": "purplle|accounts key manager",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
-  },
-  {
-   "company": "Rippling India",
-   "title": "SSB, Account Manager",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4332893165",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "startup",
-   "band": "mnc_top",
-   "exp_min": 3.0,
-   "exp_max": null,
-   "exp_label": "3+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 14,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4332893165"
-    }
-   ],
-   "variants": [
-    "SSB, Account Manager"
-   ],
-   "key": "rippling|account manager ssb",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
-  },
-  {
-   "company": "Rippling India",
-   "title": "Technical Account Consultant - Platform",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4460337282",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "startup",
-   "band": "mnc_top",
-   "exp_min": 3.0,
-   "exp_max": null,
-   "exp_label": "3+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 14,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4460337282"
-    }
-   ],
-   "variants": [
-    "Technical Account Consultant - Platform"
-   ],
-   "key": "rippling|account consultant platform technical",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
-  },
-  {
-   "company": "Mastercard",
-   "title": "Senior Analyst, Settlement Operations",
-   "location": "Pune",
-   "url": "https://www.linkedin.com/jobs/view/4466621293",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466621293"
-    }
-   ],
-   "variants": [
-    "Senior Analyst, Settlement Operations"
-   ],
-   "key": "mastercard|analyst operations settlement",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "PepsiCo",
@@ -1787,8 +2439,8 @@
    ],
    "key": "pepsico|executive operations sales",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Rippling India",
@@ -1829,7 +2481,49 @@
    ],
    "key": "rippling|manager sales",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Unison International Consulting",
+   "title": "Senior Manager - Chief of Staff",
+   "location": "Gurugram",
+   "url": "https://www.iimjobs.com/j/senior-manager-chief-of-staff-healthcare-1734072",
+   "source": "iimjobs",
+   "posted": "2026-09-18",
+   "exp_text": "2-5 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 2.0,
+   "exp_max": 5.0,
+   "exp_label": "2-5 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹28–45 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/senior-manager-chief-of-staff-healthcare-1734072"
+    }
+   ],
+   "variants": [
+    "Senior Manager - Chief of Staff"
+   ],
+   "key": "unison international consulting|chief manager staff",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
    "is_new": true
   },
   {
@@ -1872,8 +2566,8 @@
    ],
    "key": "boston consulting|consultant it pla",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Honasa Consumer (Mamaearth)",
@@ -1914,8 +2608,8 @@
    ],
    "key": "honasa consumer|content strategist",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Livspace",
@@ -1960,48 +2654,6 @@
    "is_new": false
   },
   {
-   "company": "Eon Infotech Limited",
-   "title": "Business Development Manager - B2B / Enterprise Sales",
-   "location": "Mohali",
-   "url": "https://www.linkedin.com/jobs/view/4464527305",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 5.0,
-   "exp_max": null,
-   "exp_label": "5+ yrs",
-   "mba": "Yes: …cience, Engineering, or related field ; MBA in Marketing/Business preferred.  5+ ye…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 27,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5+ yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464527305"
-    }
-   ],
-   "variants": [
-    "Business Development Manager - B2B / Enterprise Sales"
-   ],
-   "key": "eon infotech|b2b business development enterprise manager sales",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
-  },
-  {
    "company": "Manman",
    "title": "Category Manager - Orthopedic Power Systems",
    "location": "Pune",
@@ -2040,8 +2692,92 @@
    ],
    "key": "manman|category manager orthopedic power systems",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Eon Infotech Limited",
+   "title": "Business Development Manager - B2B / Enterprise Sales",
+   "location": "Mohali",
+   "url": "https://www.linkedin.com/jobs/view/4464527305",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 5.0,
+   "exp_max": null,
+   "exp_label": "5+ yrs",
+   "mba": "Yes: …cience, Engineering, or related field ; MBA in Marketing/Business preferred.  5+ ye…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 27,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5+ yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4464527305"
+    }
+   ],
+   "variants": [
+    "Business Development Manager - B2B / Enterprise Sales"
+   ],
+   "key": "eon infotech|b2b business development enterprise manager sales",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "National University of Singapore",
+   "title": "Manager, Business and Strategy Development (2yr contract)",
+   "location": "Singapore",
+   "url": "https://www.linkedin.com/jobs/view/4467984574",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 5.0,
+   "exp_max": null,
+   "exp_label": "5+ yrs",
+   "mba": "Yes: …n 5 years of working experience  Degree/Post-graduate degree in Business, Education, Social…",
+   "salary_label": "not stated",
+   "salary_kind": "unknown",
+   "region": "international",
+   "relevance": 27,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5+ yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467984574"
+    }
+   ],
+   "variants": [
+    "Manager, Business and Strategy Development (2yr contract)"
+   ],
+   "key": "national university of singapore|business development manager strategy",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "RECRIVIO",
@@ -2082,8 +2818,8 @@
    ],
    "key": "recrivio|d2c growth lead marketing performance",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Meesho",
@@ -2124,8 +2860,8 @@
    ],
    "key": "meesho|fne manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Haworth",
@@ -2208,8 +2944,8 @@
    ],
    "key": "visa|manager travel",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Atlassian",
@@ -2250,8 +2986,8 @@
    ],
    "key": "atlassian|manager product",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Accenture Strategy",
@@ -2298,8 +3034,8 @@
    ],
    "key": "accenture strategy|advisory analyst business",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Amazon",
@@ -2341,7 +3077,7 @@
    "key": "amazon|account analyst business integrity",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "PepsiCo",
@@ -2382,8 +3118,8 @@
    ],
    "key": "pepsico|associate consumer insights manager shop",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Traya",
@@ -2424,8 +3160,8 @@
    ],
    "key": "traya|assurance manager quality",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Mondelez",
@@ -2466,8 +3202,8 @@
    ],
    "key": "mondelez|lead star techno",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "American Express",
@@ -2508,7 +3244,7 @@
    ],
    "key": "american express|associate customer service",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -2550,8 +3286,8 @@
    ],
    "key": "google|ads customer delivery experience gtech manager service",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Bain & Company",
@@ -2592,8 +3328,8 @@
    ],
    "key": "bain and|associate batch goa institute management",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Livspace",
@@ -2635,7 +3371,7 @@
    "key": "livspace|manager service",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "KPMG India",
@@ -2676,50 +3412,8 @@
    ],
    "key": "kpmg|associate core gms grs",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
-  },
-  {
-   "company": "Amazon",
-   "title": "Quality Service Associate",
-   "location": "Chennai",
-   "url": "https://www.linkedin.com/jobs/view/4468673896",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 0,
-   "tier": "C",
-   "reasons": [
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4468673896"
-    }
-   ],
-   "variants": [
-    "Quality Service Associate"
-   ],
-   "key": "amazon|associate quality service",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Anchanto",
@@ -2930,7 +3624,7 @@
    ],
    "key": "everpure|insights manager strategic",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3100,7 +3794,7 @@
    ],
    "key": "mondelez|analytics growth lead",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3143,7 +3837,50 @@
    ],
    "key": "mastercard|analysis analyst financial planning",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Cherry Bekaert",
+   "title": "Senior Consultant – Strategic Initiatives (Manager Level)",
+   "location": "Chennai",
+   "url": "https://www.linkedin.com/jobs/view/4467550991",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …ce   Master of Business Administration (MBA) from a recognized institution is manda…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 23,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467550991"
+    }
+   ],
+   "variants": [
+    "Senior Consultant – Strategic Initiatives (Manager Level)"
+   ],
+   "key": "cherry bekaert|consultant initiatives strategic",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3232,48 +3969,6 @@
    "is_new": false
   },
   {
-   "company": "Aptita",
-   "title": "Founder's Office Associate - Business Strategy",
-   "location": "Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4468615071",
-   "source": "linkedin",
-   "posted": "2026-09-17",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 1.0,
-   "exp_max": 3.0,
-   "exp_label": "1-3 yrs",
-   "mba": "Yes: …ai Thane (6 days WFO)  Requirements   - MBA from a top-tier institute; 1–3 years of…",
-   "salary_label": "~₹10–20 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 21,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4468615071"
-    }
-   ],
-   "variants": [
-    "Founder's Office Associate - Business Strategy"
-   ],
-   "key": "aptita|associate business founder s strategy",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
    "company": "Lubrizol IMEA",
    "title": "Specialist - Strategy",
    "location": "Mumbai",
@@ -3312,7 +4007,7 @@
    ],
    "key": "lubrizol imea|specialist strategy",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3354,7 +4049,7 @@
    ],
    "key": "lubrizol|specialist strategy",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3396,7 +4091,7 @@
    ],
    "key": "pwc|advisory associate azure digital integration kolkata microsoft",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3439,7 +4134,7 @@
    ],
    "key": "pwc|advisory associate energy gurgaon renewable transformation utility",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3498,7 +4193,7 @@
    ],
    "key": "pwc|associate",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3584,7 +4279,7 @@
    "key": "pwc|advisory carbon decarbonization green gurgaon hydrogen manager",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "PwC India",
@@ -3668,8 +4363,8 @@
    ],
    "key": "samvid search|business development international manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Google",
@@ -3753,7 +4448,7 @@
    ],
    "key": "pepsico|area manager sales",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3795,8 +4490,8 @@
    ],
    "key": "atacana|competitive consultant intelligence",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "KPMG India",
@@ -3838,6 +4533,48 @@
    "key": "kpmg|consultant m uk",
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17",
+   "is_new": false
+  },
+  {
+   "company": "ProSapiens",
+   "title": "Manager - Founder Engagement & Events",
+   "location": "Hyderabad",
+   "url": "https://www.iimjobs.com/j/manager-founder-engagement-events-eventscommunity-building-iim-1733779",
+   "source": "iimjobs",
+   "posted": "2026-09-17",
+   "exp_text": "0-1 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 0.0,
+   "exp_max": 1.0,
+   "exp_label": "0-1 yrs",
+   "mba": "Yes: …& Events - Events/Community Building - IIM. Event Management, Community Management…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/manager-founder-engagement-events-eventscommunity-building-iim-1733779"
+    }
+   ],
+   "variants": [
+    "Manager - Founder Engagement & Events"
+   ],
+   "key": "prosapiens|engagement events founder manager",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -3883,8 +4620,8 @@
    ],
    "key": "ather energy|m manager zonal",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Mankind Pharma Ltd.",
@@ -3925,8 +4662,8 @@
    ],
    "key": "mankind pharma|business fms iim isb strategy xlri",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Deloitte USI",
@@ -4009,7 +4746,53 @@
    ],
    "key": "zs associates|analytics associate decision",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "RANKGURU TECHNOLOGY SOLUTIONS PRIVATE LIMITED",
+   "title": "Product Manager - Growth",
+   "location": "Bengaluru",
+   "url": "https://www.iimjobs.com/j/product-manager-growth-edutech-1733815",
+   "source": "iimjobs",
+   "posted": "2026-09-17",
+   "exp_text": "4-6 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 4.0,
+   "exp_max": 6.0,
+   "exp_label": "4-6 yrs",
+   "mba": "Yes: …Product Manager - Growth - EdTech - IIT/IIM. IT Product Management, Artificial Inte…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 10,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/product-manager-growth-edutech-1733815"
+    },
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/infinity-learn-product-manager-growth-edtech-iitiim-1733789"
+    }
+   ],
+   "variants": [
+    "Product Manager - Growth"
+   ],
+   "key": "rankguru|growth manager product",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4045,10 +4828,6 @@
     {
      "source": "linkedin",
      "url": "https://www.linkedin.com/jobs/view/4446677339"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4446678319"
     }
    ],
    "variants": [
@@ -4056,7 +4835,7 @@
    ],
    "key": "pepsico|customer executive sales",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4140,7 +4919,7 @@
    ],
    "key": "google|debug manager partnerships",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4182,7 +4961,7 @@
    ],
    "key": "salesforce|consultant fluency japanese technical",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4266,8 +5045,8 @@
    ],
    "key": "grayquest|business development manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Amazon",
@@ -4308,7 +5087,7 @@
    ],
    "key": "amazon|account management manager strategic",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4350,7 +5129,7 @@
    ],
    "key": "meesho|dau growth manager",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4392,7 +5171,50 @@
    ],
    "key": "all things talent|business development manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "EY GDS",
+   "title": "Managed Services TechOps Lead",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4385049182",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹38–58 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 15,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4385049182"
+    }
+   ],
+   "variants": [
+    "Managed Services TechOps Lead"
+   ],
+   "key": "ey gds|lead managed services techops",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
    "is_new": true
   },
   {
@@ -4477,7 +5299,7 @@
    ],
    "key": "scapia|analyst business",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4519,7 +5341,7 @@
    ],
    "key": "walmart|analyst planning strategy workforce",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4566,7 +5388,7 @@
    ],
    "key": "inmobi glance|associate content marketing",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4613,8 +5435,8 @@
    ],
    "key": "high impact talent|growth manager network",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Dash Hire",
@@ -4655,7 +5477,49 @@
    ],
    "key": "dash hire|lending manager product",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Page Outsourcing",
+   "title": "Senior Consultant/Consultant",
+   "location": "Gurugram",
+   "url": "https://www.iimjobs.com/j/michael-page-senior-consultantconsultant-3-7-yrs-1733916",
+   "source": "iimjobs",
+   "posted": "2026-09-17",
+   "exp_text": "3-7 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 3.0,
+   "exp_max": 7.0,
+   "exp_label": "3-7 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 14,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/michael-page-senior-consultantconsultant-3-7-yrs-1733916"
+    }
+   ],
+   "variants": [
+    "Senior Consultant/Consultant"
+   ],
+   "key": "page outsourcing|consultant",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
    "is_new": true
   },
   {
@@ -4697,7 +5561,50 @@
    ],
    "key": "deloitte usi|consultant forgerock",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Mastercard",
+   "title": "Senior Analyst, Settlement Operations",
+   "location": "Pune",
+   "url": "https://www.linkedin.com/jobs/view/4466621293",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466621293"
+    }
+   ],
+   "variants": [
+    "Senior Analyst, Settlement Operations"
+   ],
+   "key": "mastercard|analyst operations settlement",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4739,7 +5646,7 @@
    ],
    "key": "steps|innovation manager strategy technology",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -4781,8 +5688,8 @@
    ],
    "key": "dash hire|manager product",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Dash Hire",
@@ -4823,27 +5730,27 @@
    ],
    "key": "dash hire|manager product transactions",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
-   "company": "RANKGURU TECHNOLOGY SOLUTIONS PRIVATE LIMITED",
-   "title": "Product Manager - Growth",
-   "location": "Bengaluru",
-   "url": "https://www.iimjobs.com/j/product-manager-growth-edutech-1733815",
-   "source": "iimjobs",
+   "company": "Amazon",
+   "title": "Manager II, Program Management, DPWI FIAT team",
+   "location": "Hyderabad · Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4459174696",
+   "source": "linkedin",
    "posted": "2026-09-17",
-   "exp_text": "4-6 years experience",
+   "exp_text": "",
    "salary_min": null,
    "salary_max": null,
    "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 4.0,
-   "exp_max": 6.0,
-   "exp_label": "4-6 yrs",
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
    "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_label": "~₹30–50 LPA (est.)",
    "salary_kind": "estimated",
    "region": "india",
    "relevance": 11,
@@ -4852,21 +5759,21 @@
     "relevant to CV (MBA not mentioned)"
    ],
    "sources": [
-    "iimjobs"
+    "linkedin"
    ],
    "links": [
     {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/product-manager-growth-edutech-1733815"
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4459174696"
     }
    ],
    "variants": [
-    "Product Manager - Growth"
+    "Manager II, Program Management, DPWI FIAT team"
    ],
-   "key": "rankguru|growth manager product",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "key": "amazon|dpwi fiat management manager program team",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Uni Cards",
@@ -4907,14 +5814,14 @@
    ],
    "key": "uni cards|business development manager program",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "I2b technologies",
    "title": "Performance Marketing & Growth Manager",
    "location": "Hyderabad",
-   "url": "https://www.iimjobs.com/j/performance-marketing-growth-manager-1733964",
+   "url": "https://www.iimjobs.com/j/i2b-performance-marketing-growth-manager-1733964",
    "source": "iimjobs",
    "posted": "2026-09-17",
    "exp_text": "3-5 years experience",
@@ -4941,7 +5848,7 @@
    "links": [
     {
      "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/performance-marketing-growth-manager-1733964"
+     "url": "https://www.iimjobs.com/j/i2b-performance-marketing-growth-manager-1733964"
     }
    ],
    "variants": [
@@ -4949,8 +5856,8 @@
    ],
    "key": "i2b|growth manager marketing performance",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Supertails",
@@ -4991,8 +5898,8 @@
    ],
    "key": "supertails|clinics growth manager",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Uni Cards",
@@ -5033,7 +5940,49 @@
    ],
    "key": "uni cards|manager product",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Page Outsourcing",
+   "title": "Consultant/Senior Consultant - Digital & Analytics",
+   "location": "Bengaluru",
+   "url": "https://www.iimjobs.com/j/michael-page-consultantsenior-consultant-digital-analytics-practice-3-8-yrs-1733921",
+   "source": "iimjobs",
+   "posted": "2026-09-17",
+   "exp_text": "3-8 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 3.0,
+   "exp_max": 8.0,
+   "exp_label": "3-8 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 9,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/michael-page-consultantsenior-consultant-digital-analytics-practice-3-8-yrs-1733921"
+    }
+   ],
+   "variants": [
+    "Consultant/Senior Consultant - Digital & Analytics"
+   ],
+   "key": "page outsourcing|analytics consultant digital",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
    "is_new": true
   },
   {
@@ -5076,6 +6025,48 @@
    "key": "google|climate manager operations program",
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17",
+   "is_new": false
+  },
+  {
+   "company": "Procter & Gamble",
+   "title": "Digital Product Manager - Band 2",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4453416438",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 5.0,
+   "exp_max": 8.0,
+   "exp_label": "5-8 yrs",
+   "mba": "Yes: …Business, Marketing, or related field.  MBA from a recognized institution, in Marke…",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 34,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-8 yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4453416438"
+    }
+   ],
+   "variants": [
+    "Digital Product Manager - Band 2"
+   ],
+   "key": "procter and gamble|digital manager product",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5159,7 +6150,7 @@
    ],
    "key": "ajmal perfumes|chief staff",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5201,7 +6192,7 @@
    ],
    "key": "mondelez|digital innovation lead strategy",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5243,7 +6234,7 @@
    ],
    "key": "paytm|manager",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5289,7 +6280,7 @@
    ],
    "key": "itc|analyst business",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5331,7 +6322,7 @@
    ],
    "key": "diageo|assistant commercial manager operations pricing",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5415,8 +6406,8 @@
    ],
    "key": "pepsico|analyst assoc sales support",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Google",
@@ -5457,7 +6448,7 @@
    ],
    "key": "google|data manager privacy workforce",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5499,7 +6490,7 @@
    ],
    "key": "mondelez|amea manager rgm",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5541,14 +6532,14 @@
    ],
    "key": "to new|analyst growth intelligence market research strategy",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "OYO",
    "title": "Senior Product Manager",
    "location": "Gurugram",
-   "url": "https://www.iimjobs.com/j/oyo-senior-product-manager-iitnitiimmdi-1733987",
+   "url": "https://www.iimjobs.com/j/oyo-senior-product-manager-1733987",
    "source": "iimjobs",
    "posted": "2026-09-17",
    "exp_text": "5-8 years experience",
@@ -5560,7 +6551,7 @@
    "exp_min": 5.0,
    "exp_max": 8.0,
    "exp_label": "5-8 yrs",
-   "mba": "Yes: …OYO - Senior Product Manager - IIT/NIT/IIM/MDI. IT Product Strategy, Product Roadm…",
+   "mba": "Not mentioned",
    "salary_label": "~₹25–40 LPA (est.)",
    "salary_kind": "estimated",
    "region": "india",
@@ -5575,7 +6566,7 @@
    "links": [
     {
      "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/oyo-senior-product-manager-iitnitiimmdi-1733987"
+     "url": "https://www.iimjobs.com/j/oyo-senior-product-manager-1733987"
     }
    ],
    "variants": [
@@ -5583,8 +6574,8 @@
    ],
    "key": "oyo|manager product",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Diageo India",
@@ -5625,7 +6616,7 @@
    ],
    "key": "diageo|excellence manager manufacturing",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5667,50 +6658,8 @@
    ],
    "key": "sortedhat|associate execution manager strategy",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
-  },
-  {
-   "company": "Page Outsourcing",
-   "title": "Associate Manager/Senior Consultant - Corporate Technology Practice",
-   "location": "Gurugram",
-   "url": "https://www.iimjobs.com/j/michael-page-associate-managersenior-consultant-corporate-technology-practice-1733719",
-   "source": "iimjobs",
-   "posted": "2026-09-17",
-   "exp_text": "5-10 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 5.0,
-   "exp_max": 10.0,
-   "exp_label": "5-10 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 11,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5-10 yrs"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/michael-page-associate-managersenior-consultant-corporate-technology-practice-1733719"
-    }
-   ],
-   "variants": [
-    "Associate Manager/Senior Consultant - Corporate Technology Practice"
-   ],
-   "key": "page outsourcing|associate consultant corporate manager practice technology",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
   },
   {
    "company": "Rebel Foods",
@@ -5749,7 +6698,7 @@
    ],
    "key": "rebel foods|executive marketing performance",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5791,8 +6740,50 @@
    ],
    "key": "taggd|dealer loyalty manager program programs",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Page Outsourcing",
+   "title": "Associate Manager/Senior Consultant - Corporate Technology Practice",
+   "location": "Gurugram",
+   "url": "https://www.iimjobs.com/j/associate-managersenior-consultant-corporate-technology-practice-saas-1733719",
+   "source": "iimjobs",
+   "posted": "2026-09-17",
+   "exp_text": "5-10 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 5.0,
+   "exp_max": 10.0,
+   "exp_label": "5-10 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 10,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-10 yrs"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/associate-managersenior-consultant-corporate-technology-practice-saas-1733719"
+    }
+   ],
+   "variants": [
+    "Associate Manager/Senior Consultant - Corporate Technology Practice"
+   ],
+   "key": "page outsourcing|associate consultant corporate manager practice technology",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "Deloitte USI",
@@ -5913,7 +6904,7 @@
    ],
    "key": "google|analyst detection enforcement safety trust youtube",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -5955,7 +6946,7 @@
    ],
    "key": "walmart|analyst business support",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6037,8 +7028,8 @@
    ],
    "key": "crescendo leadership hiring l|consultant operations planning sales",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
+   "last_seen": "2026-09-19",
+   "is_new": false
   },
   {
    "company": "GIVA",
@@ -6077,7 +7068,7 @@
    ],
    "key": "giva|influencer marketing specialist",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6159,7 +7150,7 @@
    ],
    "key": "pwc|advisory aml associate coe fincrime kyc",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6201,7 +7192,7 @@
    ],
    "key": "pepsico|assoc global manager proc",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6367,7 +7358,7 @@
    ],
    "key": "pepsico|assistant manager tpm",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6409,7 +7400,7 @@
    ],
    "key": "livspace|execution experiences interior lead modular operation site",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6451,7 +7442,7 @@
    ],
    "key": "pocket fm|asset management manager",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6493,7 +7484,49 @@
    ],
    "key": "itc|cld cloud manager ops ser",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Livspace",
+   "title": "Business Manager Sales",
+   "location": "Bhubaneswar · Ahmedabad",
+   "url": "https://www.linkedin.com/jobs/view/4467509414",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹25–40 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 2,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467509414"
+    }
+   ],
+   "variants": [
+    "Business Manager Sales"
+   ],
+   "key": "livspace|business manager sales",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6577,7 +7610,7 @@
    ],
    "key": "kpmg|amdc associate",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6617,7 +7650,7 @@
    ],
    "key": "kpmg|associate canada fts",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6657,7 +7690,7 @@
    ],
    "key": "hindustan unilever|asst delivery manager project",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6667,22 +7700,24 @@
    "url": "https://porter.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aad117238872",
    "source": "careers portal",
    "posted": "2026-09-17",
-   "exp_text": "1 - 3 Years experience",
+   "exp_text": "",
    "salary_min": null,
    "salary_max": null,
    "currency": null,
    "group": "target",
    "band": "unicorn",
-   "exp_min": 1.0,
-   "exp_max": 3.0,
-   "exp_label": "1-3 yrs",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
    "mba": "Not mentioned",
    "salary_label": "~₹16–26 LPA (est.)",
    "salary_kind": "estimated",
    "region": "india",
    "relevance": 0,
    "tier": "C",
-   "reasons": [],
+   "reasons": [
+    "experience not stated"
+   ],
    "sources": [
     "careers portal"
    ],
@@ -6690,10 +7725,6 @@
     {
      "source": "careers portal",
      "url": "https://porter.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aad117238872"
-    },
-    {
-     "source": "careers portal",
-     "url": "https://porter.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa388f190e21"
     }
    ],
    "variants": [
@@ -6701,7 +7732,49 @@
    ],
    "key": "porter|associate business",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Amazon",
+   "title": "Quality Service Associate",
+   "location": "Chennai",
+   "url": "https://www.linkedin.com/jobs/view/4468673896",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468673896"
+    }
+   ],
+   "variants": [
+    "Quality Service Associate"
+   ],
+   "key": "amazon|associate quality service",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6865,16 +7938,21 @@
     },
     {
      "source": "careers portal",
+     "url": "https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-EH27-Consulting-S-T-Strategy-Senior-Consultant-TS-Consumer/365522"
+    },
+    {
+     "source": "careers portal",
      "url": "https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-EH27-Consulting-S-T-Strategy-Senior-Consultant-BS-HC/365528"
     }
    ],
    "variants": [
     "EH-FY27-Consulting-S&T-Strategy-Senior Consultant-BS-Consumer",
+    "EH-FY27-Consulting-S&T-Strategy-Senior Consultant-TS-Consumer",
     "EH-FY27-Consulting-S&T-Strategy-Senior Consultant-BS-HC"
    ],
    "key": "deloitte usi|bs consultant consulting consumer eh fy27 s strategy t",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -6916,49 +7994,7 @@
    ],
    "key": "deloitte usi|consultant consulting eh fsi fy27 imre s strategy t ts",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
-   "company": "Alvarez & Marsal",
-   "title": "Senior Associate - GDN Strategy",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4465978014",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 4.0,
-   "exp_max": 7.0,
-   "exp_label": "4-7 yrs",
-   "mba": "Yes: …including 3–6 years after completing an MBA, with direct exposure to GBS, GCC or sh…",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 32,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4465978014"
-    }
-   ],
-   "variants": [
-    "Senior Associate - GDN Strategy"
-   ],
-   "key": "alvarez and marsal|associate gdn strategy",
-   "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -7001,6 +8037,48 @@
    "key": "lh2 ai|founder operations s strategy",
    "first_seen": "2026-09-16",
    "last_seen": "2026-09-17",
+   "is_new": false
+  },
+  {
+   "company": "Alvarez & Marsal",
+   "title": "Senior Associate - GDN Strategy",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4465978014",
+   "source": "linkedin",
+   "posted": "2026-09-16",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 4.0,
+   "exp_max": 7.0,
+   "exp_label": "4-7 yrs",
+   "mba": "Yes: …including 3–6 years after completing an MBA, with direct exposure to GBS, GCC or sh…",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 32,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4465978014"
+    }
+   ],
+   "variants": [
+    "Senior Associate - GDN Strategy"
+   ],
+   "key": "alvarez and marsal|associate gdn strategy",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-18",
    "is_new": false
   },
   {
@@ -7979,54 +9057,6 @@
    "is_new": false
   },
   {
-   "company": "Cherry Bekaert",
-   "title": "Senior Consultant – Strategic Initiatives (Manager Level)",
-   "location": "Chennai",
-   "url": "https://www.linkedin.com/jobs/view/4467550991",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "3-8 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 3.0,
-   "exp_max": 8.0,
-   "exp_label": "3-8 yrs",
-   "mba": "Yes: …or Consultant - Strategic Initiatives - MBA. Corporate Strategy, Change Delivery, P…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 14,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin",
-    "iimjobs"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467550991"
-    },
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/dotkonnect-senior-consultant-strategic-initiatives-mba-1733655"
-    }
-   ],
-   "variants": [
-    "Senior Consultant – Strategic Initiatives (Manager Level)",
-    "Senior Consultant - Strategic Initiatives"
-   ],
-   "key": "cherry bekaert|consultant initiatives strategic",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
    "company": "American Express",
    "title": "Senior Lead Analyst",
    "location": "Gurugram",
@@ -8107,48 +9137,6 @@
    ],
    "key": "pwc|advisory app associate enterprise ppqm pune sap",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
-   "company": "Livspace",
-   "title": "Business Sales Manager",
-   "location": "Ahmedabad",
-   "url": "https://www.linkedin.com/jobs/view/4466848854",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "unicorn",
-   "exp_min": 4.0,
-   "exp_max": 5.0,
-   "exp_label": "4-5 yrs",
-   "mba": "Yes: …h, B.Tech, Commerce) or Master’s degree/MBA from a Tier 2 institute or  above  ● 4–…",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 13,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466848854"
-    }
-   ],
-   "variants": [
-    "Business Sales Manager"
-   ],
-   "key": "livspace|business manager sales",
-   "first_seen": "2026-09-17",
    "last_seen": "2026-09-18",
    "is_new": false
   },
@@ -8401,7 +9389,7 @@
    ],
    "key": "deloitte usi|associate business ele isu preboarding processes services support talent",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -8488,48 +9476,6 @@
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17",
    "is_new": false
-  },
-  {
-   "company": "ProSapiens",
-   "title": "Manager - Founder Engagement & Events",
-   "location": "Hyderabad",
-   "url": "https://www.iimjobs.com/j/manager-founder-engagement-events-iim-1733318",
-   "source": "iimjobs",
-   "posted": "2026-09-16",
-   "exp_text": "0-1 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 0.0,
-   "exp_max": 1.0,
-   "exp_label": "0-1 yrs",
-   "mba": "Yes: …Manager - Founder Engagement & Events - IIM. Client Engagement, Community Managemen…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 9,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/manager-founder-engagement-events-iim-1733318"
-    }
-   ],
-   "variants": [
-    "Manager - Founder Engagement & Events"
-   ],
-   "key": "prosapiens|engagement events founder manager",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
-   "is_new": true
   },
   {
    "company": "Diageo India",
@@ -9129,7 +10075,7 @@
    ],
    "key": "deloitte usi|advisor analytics business consulting insights specialist",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -10217,48 +11163,6 @@
    "is_new": false
   },
   {
-   "company": "Amazon",
-   "title": "Manager II, Program Management, DPWI FIAT team",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4459187615",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 3.0,
-   "exp_max": null,
-   "exp_label": "3+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 11,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4459187615"
-    }
-   ],
-   "variants": [
-    "Manager II, Program Management, DPWI FIAT team"
-   ],
-   "key": "amazon|dpwi fiat management manager program team",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
    "company": "AuxoAI",
    "title": "AI Strategist",
    "location": "Bengaluru",
@@ -10639,48 +11543,6 @@
    "is_new": false
   },
   {
-   "company": "National University of Singapore",
-   "title": "Manager, Business and Strategy Development (2yr contract)",
-   "location": "Singapore",
-   "url": "https://www.linkedin.com/jobs/view/4467984574",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 5.0,
-   "exp_max": null,
-   "exp_label": "5+ yrs",
-   "mba": "Yes: …n 5 years of working experience  Degree/Post-graduate degree in Business, Education, Social…",
-   "salary_label": "not stated",
-   "salary_kind": "unknown",
-   "region": "international",
-   "relevance": 27,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5+ yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467984574"
-    }
-   ],
-   "variants": [
-    "Manager, Business and Strategy Development (2yr contract)"
-   ],
-   "key": "national university of singapore|business development manager strategy",
-   "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
    "company": "Visa",
    "title": "Technical Program Manager",
    "location": "In Bengaluru",
@@ -10929,7 +11791,7 @@
    ],
    "key": "deloitte usi|advisor business consulting services specialist",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -11013,7 +11875,7 @@
    ],
    "key": "deloitte usi|center digital employer global management manager release services technology",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -11433,7 +12295,7 @@
    ],
    "key": "google|community development manager partnerships strategic",
    "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -12059,48 +12921,6 @@
    "is_new": false
   },
   {
-   "company": "Reckitt",
-   "title": "Manager Governance - IMPACT, GBS",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4421640020",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 4,
-   "tier": "C",
-   "reasons": [
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4421640020"
-    }
-   ],
-   "variants": [
-    "Manager Governance - IMPACT, GBS"
-   ],
-   "key": "reckitt|gbs governance impact manager",
-   "first_seen": "2026-09-16",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
    "company": "Booking Holdings (Agoda/Booking.com)",
    "title": "Customer Experience Team Manager (Pune)",
    "location": "Hyderabad · Delhi · Bengaluru",
@@ -12150,6 +12970,48 @@
    "key": "booking holdings|customer experience manager team",
    "first_seen": "2026-09-16",
    "last_seen": "2026-09-16",
+   "is_new": false
+  },
+  {
+   "company": "Reckitt",
+   "title": "Manager Governance - IMPACT, GBS",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4421640020",
+   "source": "linkedin",
+   "posted": "2026-09-16",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 4,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4421640020"
+    }
+   ],
+   "variants": [
+    "Manager Governance - IMPACT, GBS"
+   ],
+   "key": "reckitt|gbs governance impact manager",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-18",
    "is_new": false
   },
   {
@@ -13147,6 +14009,48 @@
    "is_new": false
   },
   {
+   "company": "Flexiple",
+   "title": "Category Manager",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4469516117",
+   "source": "linkedin",
+   "posted": "2026-09-15",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 3.0,
+   "exp_max": 7.0,
+   "exp_label": "3-7 yrs",
+   "mba": "Yes: …r negotiation and vendor management  An MBA or postgraduate qualification in busine…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 25,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469516117"
+    }
+   ],
+   "variants": [
+    "Category Manager"
+   ],
+   "key": "flexiple|category manager",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "Alvarez & Marsal",
    "title": "Senior Associate, GDN Advisory - Global Capability Center",
    "location": "Gurugram",
@@ -13503,7 +14407,7 @@
    "company": "sparkle★minds",
    "title": "Business Consultant",
    "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4468892835",
+   "url": "https://www.linkedin.com/jobs/view/4469294569",
    "source": "linkedin",
    "posted": "2026-09-15",
    "exp_text": "",
@@ -13530,7 +14434,7 @@
    "links": [
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4468892835"
+     "url": "https://www.linkedin.com/jobs/view/4469294569"
     }
    ],
    "variants": [
@@ -13538,7 +14442,7 @@
    ],
    "key": "sparkle minds|business consultant",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -13587,7 +14491,7 @@
    "company": "Flexiple",
    "title": "Business Consultant",
    "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4469127165",
+   "url": "https://www.linkedin.com/jobs/view/4469526003",
    "source": "linkedin",
    "posted": "2026-09-15",
    "exp_text": "",
@@ -13614,7 +14518,7 @@
    "links": [
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469127165"
+     "url": "https://www.linkedin.com/jobs/view/4469526003"
     }
    ],
    "variants": [
@@ -13622,7 +14526,7 @@
    ],
    "key": "flexiple|business consultant",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -13703,7 +14607,7 @@
    ],
    "key": "google|ads ai knowledge strategist",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -14255,7 +15159,7 @@
    ],
    "key": "google|manager memorystore reliability site",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -14425,7 +15329,7 @@
    ],
    "key": "google|account customer large manager sales",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -14681,7 +15585,7 @@
    ],
    "key": "google|ads business gtech manager program solutions",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -14733,9 +15637,9 @@
   },
   {
    "company": "Hindustan Unilever",
-   "title": "Sr. Key Account Executive",
+   "title": "Key Account Executive",
    "location": "Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4466530710",
+   "url": "https://www.linkedin.com/jobs/view/4468013995",
    "source": "linkedin",
    "posted": "2026-09-15",
    "exp_text": "",
@@ -14744,17 +15648,18 @@
    "currency": null,
    "group": "similar",
    "band": "mnc_top",
-   "exp_min": 3.0,
+   "exp_min": null,
    "exp_max": null,
-   "exp_label": "3+ yrs",
+   "exp_label": "not stated",
    "mba": "Not mentioned",
    "salary_label": "~₹20–32 LPA (est.)",
    "salary_kind": "estimated",
    "region": "india",
-   "relevance": 22,
+   "relevance": 23,
    "tier": "B",
    "reasons": [
-    "relevant to CV (MBA not mentioned)"
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
    ],
    "sources": [
     "linkedin"
@@ -14762,15 +15667,15 @@
    "links": [
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466530710"
+     "url": "https://www.linkedin.com/jobs/view/4468013995"
     }
    ],
    "variants": [
-    "Sr. Key Account Executive"
+    "Key Account Executive"
    ],
    "key": "hindustan unilever|account executive key",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -14896,7 +15801,7 @@
    ],
    "key": "urban|category growth manager sbc",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -17268,48 +18173,6 @@
    "is_new": false
   },
   {
-   "company": "Procter & Gamble",
-   "title": "Digital Product Manager - Band 2",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4453416438",
-   "source": "linkedin",
-   "posted": "2026-09-15",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 5.0,
-   "exp_max": 8.0,
-   "exp_label": "5-8 yrs",
-   "mba": "Yes: …Business, Marketing, or related field.  MBA from a recognized institution, in Marke…",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 34,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5-8 yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4453416438"
-    }
-   ],
-   "variants": [
-    "Digital Product Manager - Band 2"
-   ],
-   "key": "procter and gamble|digital manager product",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
-   "is_new": false
-  },
-  {
    "company": "Google",
    "title": "Vendor Performance Manager, SMB Growth",
    "location": "Hyderabad",
@@ -17349,48 +18212,6 @@
    "key": "google|growth manager performance smb vendor",
    "first_seen": "2026-09-15",
    "last_seen": "2026-09-16",
-   "is_new": false
-  },
-  {
-   "company": "Flexiple",
-   "title": "Category Manager",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4469100849",
-   "source": "linkedin",
-   "posted": "2026-09-15",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 5.0,
-   "exp_max": 9.0,
-   "exp_label": "5-9 yrs",
-   "mba": "Yes: …engineering or business degree, with an MBA or supply chain certification a plus  W…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 17,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5-9 yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469100849"
-    }
-   ],
-   "variants": [
-    "Category Manager"
-   ],
-   "key": "flexiple|category manager",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
    "is_new": false
   },
   {
@@ -17676,7 +18497,7 @@
    ],
    "key": "urban|category manager",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -17935,7 +18756,7 @@
    ],
    "key": "pepsico|deputy manager operations sales",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -18351,7 +19172,7 @@
    ],
    "key": "google|ads content manager safety shopping trust",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -18890,46 +19711,6 @@
    "is_new": false
   },
   {
-   "company": "Tata 1mg",
-   "title": "Lead Associate",
-   "location": "Gurugram",
-   "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aaa7ef55cb1f",
-   "source": "careers portal",
-   "posted": "2026-09-15",
-   "exp_text": "2 - 4 Years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": 2.0,
-   "exp_max": 4.0,
-   "exp_label": "2-4 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹36–55 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 0,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "careers portal"
-   ],
-   "links": [
-    {
-     "source": "careers portal",
-     "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aaa7ef55cb1f"
-    }
-   ],
-   "variants": [
-    "Lead Associate"
-   ],
-   "key": "tata 1mg|associate lead",
-   "first_seen": "2026-09-16",
-   "last_seen": "2026-09-17",
-   "is_new": false
-  },
-  {
    "company": "KPMG India",
    "title": "Associate 2 - GDC One",
    "location": "Bengaluru",
@@ -19050,6 +19831,46 @@
    ],
    "key": "accenture strategy|associate operations pay procure",
    "first_seen": "2026-09-15",
+   "last_seen": "2026-09-17",
+   "is_new": false
+  },
+  {
+   "company": "Tata 1mg",
+   "title": "Lead Associate",
+   "location": "Gurugram",
+   "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aaa7ef55cb1f",
+   "source": "careers portal",
+   "posted": "2026-09-15",
+   "exp_text": "2 - 4 Years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "target",
+   "band": "unicorn",
+   "exp_min": 2.0,
+   "exp_max": 4.0,
+   "exp_label": "2-4 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹36–55 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "careers portal"
+   ],
+   "links": [
+    {
+     "source": "careers portal",
+     "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aaa7ef55cb1f"
+    }
+   ],
+   "variants": [
+    "Lead Associate"
+   ],
+   "key": "tata 1mg|associate lead",
+   "first_seen": "2026-09-16",
    "last_seen": "2026-09-17",
    "is_new": false
   },
@@ -21952,48 +22773,6 @@
    "is_new": false
   },
   {
-   "company": "Tata 1mg",
-   "title": "Business Analyst",
-   "location": "Gurugram",
-   "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa3b58a1fceb",
-   "source": "careers portal",
-   "posted": "2026-09-14",
-   "exp_text": "6 - 18 Months experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 0,
-   "tier": "C",
-   "reasons": [
-    "experience not stated"
-   ],
-   "sources": [
-    "careers portal"
-   ],
-   "links": [
-    {
-     "source": "careers portal",
-     "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa3b58a1fceb"
-    }
-   ],
-   "variants": [
-    "Business Analyst"
-   ],
-   "key": "tata 1mg|analyst business",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-16",
-   "is_new": false
-  },
-  {
    "company": "Accenture Strategy",
    "title": "Order To Cash Operations New Associate",
    "location": "Gurugram",
@@ -22069,6 +22848,48 @@
     "Supply Chain Operations Associate"
    ],
    "key": "accenture strategy|associate chain operations supply",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-16",
+   "is_new": false
+  },
+  {
+   "company": "Tata 1mg",
+   "title": "Business Analyst",
+   "location": "Gurugram",
+   "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa3b58a1fceb",
+   "source": "careers portal",
+   "posted": "2026-09-14",
+   "exp_text": "6 - 18 Months experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "target",
+   "band": "unicorn",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–26 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 0,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "careers portal"
+   ],
+   "links": [
+    {
+     "source": "careers portal",
+     "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa3b58a1fceb"
+    }
+   ],
+   "variants": [
+    "Business Analyst"
+   ],
+   "key": "tata 1mg|analyst business",
    "first_seen": "2026-09-15",
    "last_seen": "2026-09-16",
    "is_new": false
@@ -23891,1894 +24712,6 @@
     {
      "source": "naukri",
      "url": "https://www.naukri.com/job-listings-senior-operations-manager-urban-company-uc-kolkata-2-to-5-years-090926029495"
-    }
-   ]
-  },
-  {
-   "company": "Firework",
-   "title": "Chief of Staff (Office of the CBO)",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4466417194",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 2.0,
-   "exp_max": 3.0,
-   "exp_label": "2-3 yrs",
-   "mba": "Yes: …university. Examples may include IITs, IIMs, ISB, BITS Pilani, Delhi University, NI…",
-   "salary_label": "~₹28–45 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 34,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "firework|chief staff",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466417194"
-    }
-   ]
-  },
-  {
-   "company": "Procter & Gamble",
-   "title": "Communications Manager",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4450135994",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 2.0,
-   "exp_max": null,
-   "exp_label": "2+ yrs",
-   "mba": "Yes: …ication campaigns.  Job Qualifications  MBA / Postgraduate in Communication / Digit…",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 28,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "procter and gamble|communications manager",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4450135994"
-    }
-   ]
-  },
-  {
-   "company": "Bain & Company",
-   "title": "Associate (CCA) - Customer CoE",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4466054017",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 2.0,
-   "exp_max": 5.0,
-   "exp_label": "2-5 yrs",
-   "mba": "Yes: …field) with 2–5 years of experience, or Postgraduate degree (MBA preferred) with 1-3 years…",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 26,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "bain and|associate coe customer",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466054017"
-    }
-   ]
-  },
-  {
-   "company": "MakeMyTrip",
-   "title": "Assistant Manager- Holiday Sales",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4466063916",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "listed_tech",
-   "exp_min": 4.0,
-   "exp_max": 7.0,
-   "exp_label": "4-7 yrs",
-   "mba": "Yes: …osure.  Qualifications and Experience   Postgraduate degree from a reputed institute.  4 to…",
-   "salary_label": "~₹26–42 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 26,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "makemytrip|assistant holiday manager sales",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466063916"
-    }
-   ]
-  },
-  {
-   "company": "Bain & Company",
-   "title": "Project Leader (IP & Delivery) - Strategy & Transformation CoE",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4466057433",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 4.0,
-   "exp_max": 7.0,
-   "exp_label": "4-7 yrs",
-   "mba": "Yes: …rofessional experience after a Master’s/postgraduate degree , ideally in consulting, strate…",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 24,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "bain and|coe leader project strategy transformation",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466057433"
-    }
-   ]
-  },
-  {
-   "company": "Pioneer Management Consultant Pvt Ltd",
-   "title": "Business Development Manager",
-   "location": "Navi Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4464859711",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 3.0,
-   "exp_max": null,
-   "exp_label": "3+ yrs",
-   "mba": "Yes: …r  Criteria: Graduate/ Master’s Degree (MBA Preferred) with 3+ years of experience…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 23,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "pioneer management consultant|business development manager",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464859711"
-    }
-   ]
-  },
-  {
-   "company": "Milliman India",
-   "title": "Healthcare Consultant",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4429053139",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 2.0,
-   "exp_max": 6.0,
-   "exp_label": "2-6 yrs",
-   "mba": "Yes: …arm / Nursing / Allied Health  Or MPH / MBA (Healthcare) / Health Economics or rela…",
-   "salary_label": "~₹10–20 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 21,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "milliman|consultant healthcare",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4429053139"
-    }
-   ]
-  },
-  {
-   "company": "PwC India",
-   "title": "IN_Associate_IA_Managed Services_Advisory_Bangalore",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4454576593",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Yes: …Year s    Education qualification :    MBA/ M.Com/ B.Com/ M.Com / CA  Education (i…",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 20,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "pwc|advisory associate bangalore ia managed services",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4454576593"
-    }
-   ]
-  },
-  {
-   "company": "Licious",
-   "title": "Manager - User Experience",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4464851663",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "startup",
-   "band": "unicorn",
-   "exp_min": 2.0,
-   "exp_max": null,
-   "exp_label": "2+ yrs",
-   "mba": "Yes: …nments.  Tier-1 engineering graduate or MBA from a Tier-1 institute  Track record o…",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 20,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "licious|experience manager user",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464851663"
-    }
-   ]
-  },
-  {
-   "company": "Independent Consultant",
-   "title": "Senior Strategist",
-   "location": "Chennai",
-   "url": "https://www.linkedin.com/jobs/view/4464873358",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 3.0,
-   "exp_max": 4.0,
-   "exp_label": "3-4 yrs",
-   "mba": "Yes: …tegy Consulting role with Auto Major - (IIM, ISB, FMS XLRI only)   Location - Chenn…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 19,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "independent consultant|strategist",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464873358"
-    }
-   ]
-  },
-  {
-   "company": "Tata Play Ltd",
-   "title": "Manager - Digital Marketing",
-   "location": "Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4464220681",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 4.0,
-   "exp_max": 7.0,
-   "exp_label": "4-7 yrs",
-   "mba": "Yes: …ational Qualification - Full-time PGDBA/MBA…",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 19,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "tata play|digital manager marketing",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464220681"
-    }
-   ]
-  },
-  {
-   "company": "Google",
-   "title": "Technical Program Manager, Cloud Silicon",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4456062797",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "mnc_top",
-   "exp_min": 5.0,
-   "exp_max": null,
-   "exp_label": "5+ yrs",
-   "mba": "Yes: …l projects.  Preferred qualifications:  Master's degree or PhD in Engineering, or a related fie…",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 15,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "google|cloud manager program silicon technical",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4456062797"
-    }
-   ]
-  },
-  {
-   "company": "Procter & Gamble",
-   "title": "Manager, Human Resources",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4464205091",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Yes: …excellence.  Job Qualifications  Tier 1 MBA  Demonstrated experience in Human Resou…",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 13,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "procter and gamble|human manager resources",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464205091"
-    }
-   ]
-  },
-  {
-   "company": "PepsiCo",
-   "title": "CRM & Consumer Journey Lead (DTC)",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4463987096",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Yes: …retention  Qualifications  Experience : MBA candidates preferred 9+ years in:  CRM…",
-   "salary_label": "~₹45–75 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 11,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "pepsico|consumer crm journey lead",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4463987096"
-    }
-   ]
-  },
-  {
-   "company": "Lenskart",
-   "title": "Program Manager",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4463984448",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": 4.0,
-   "exp_max": null,
-   "exp_label": "4+ yrs",
-   "mba": "Yes: …jectives.  Qualifications and Skills:   MBA from Tier 1 Institute  Strong analytica…",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 11,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "lenskart|manager program",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4463984448"
-    }
-   ]
-  },
-  {
-   "company": "McKinsey & Company",
-   "title": "Knowledge Analyst - Manufacturing & Supply Chain",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4466353065",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 1.0,
-   "exp_max": null,
-   "exp_label": "1+ yrs",
-   "mba": "Yes: …jects.  Your Qualifications and Skills  Postgraduate degree in operations management, stati…",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 7,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "mckinsey and|analyst chain knowledge manufacturing supply",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466353065"
-    }
-   ]
-  },
-  {
-   "company": "Purplle",
-   "title": "Manager – Performance / Growth Marketing",
-   "location": "Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4454118119",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "unicorn",
-   "exp_min": 3.0,
-   "exp_max": 6.0,
-   "exp_label": "3-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 21,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "purplle|growth manager marketing performance",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4454118119"
-    }
-   ]
-  },
-  {
-   "company": "Lenskart",
-   "title": "Product@Lenskart -  HRTech & AI-Native Platform",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4463977035",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": 3.0,
-   "exp_max": 5.0,
-   "exp_label": "3-5 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 20,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "lenskart|ai hrtech native platform product",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4463977035"
-    }
-   ]
-  },
-  {
-   "company": "Boston Consulting Group",
-   "title": "Global Digital Marketing Specialist - SEO/GEO/AEO",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4464871457",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 3.0,
-   "exp_max": 5.0,
-   "exp_label": "3-5 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 18,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "boston consulting|aeo digital geo global marketing seo specialist",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "variants": [
-    "Global Digital Marketing Specialist - SEO/GEO/AEO",
-    "Global Digital Marketing Manager - SEO/AEO/GEO"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464871457"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464868487"
-    }
-   ]
-  },
-  {
-   "company": "USHRAMEDGE TECHNOLOGIES PRIVATE LIMITED",
-   "title": "Business Development Manager - India Staffing & Recruitment",
-   "location": "Remote",
-   "url": "https://www.iimjobs.com/j/business-development-manager-india-staffing-recruitment-1732251",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "2-5 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 2.0,
-   "exp_max": 5.0,
-   "exp_label": "2-5 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 17,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "ushramedge|business development manager recruitment staffing",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "variants": [
-    "Business Development Manager - India Staffing & Recruitment",
-    "Business Development Manager - US Staffing & Recruitment"
-   ],
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/business-development-manager-india-staffing-recruitment-1732251"
-    },
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/business-development-manager-us-staffing-recruitment-1732250"
-    }
-   ]
-  },
-  {
-   "company": "PhonePe",
-   "title": "Associate Manager- CRM ",
-   "location": "Bengaluru",
-   "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001989-associate-manager-crm-",
-   "source": "careers portal",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": 1.0,
-   "exp_max": 3.0,
-   "exp_label": "1-3 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 16,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "careers portal"
-   ],
-   "key": "phonepe|associate crm manager",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "careers portal",
-     "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000001989-associate-manager-crm-"
-    }
-   ]
-  },
-  {
-   "company": "Boston Consulting Group",
-   "title": "Global Digital Marketing Data Senior Specialist",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4464879385",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 4.0,
-   "exp_max": 6.0,
-   "exp_label": "4-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 16,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "boston consulting|data digital global marketing specialist",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464879385"
-    }
-   ]
-  },
-  {
-   "company": "Meesho",
-   "title": "Senior Associate - Monetisation",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4466064839",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "unicorn",
-   "exp_min": 2.0,
-   "exp_max": 6.0,
-   "exp_label": "2-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 16,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "meesho|associate monetisation",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466064839"
-    }
-   ]
-  },
-  {
-   "company": "Search Unicorn",
-   "title": "Key Account Manager",
-   "location": "Pune",
-   "url": "https://www.iimjobs.com/j/key-account-manager-ecommerce-quick-commerce-fmcgfoodsbeverage-4-8-yrs-1732305",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "4-8 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 4.0,
-   "exp_max": 8.0,
-   "exp_label": "4-8 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 16,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "search unicorn|account key manager",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/key-account-manager-ecommerce-quick-commerce-fmcgfoodsbeverage-4-8-yrs-1732305"
-    }
-   ]
-  },
-  {
-   "company": "Purplle",
-   "title": "Manager – Reporting",
-   "location": "Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4454187724",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "unicorn",
-   "exp_min": 4.0,
-   "exp_max": 6.0,
-   "exp_label": "4-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 15,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "purplle|manager reporting",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4454187724"
-    }
-   ]
-  },
-  {
-   "company": "Mastercard",
-   "title": "Lead Project Manager",
-   "location": "Pune",
-   "url": "https://www.linkedin.com/jobs/view/4463491717",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹45–75 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 14,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "mastercard|lead manager project",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4463491717"
-    }
-   ]
-  },
-  {
-   "company": "Rippling India",
-   "title": "Product Operations Senior Analyst, Health Benefits",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4446923973",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "startup",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 14,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "rippling|analyst benefits health operations product",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4446923973"
-    }
-   ]
-  },
-  {
-   "company": "Booking Holdings (Agoda/Booking.com)",
-   "title": "Associate Data Analyst (New Graduate, Thai Speaking) (Marketing Analytics, Bangkok Based)",
-   "location": "Chennai · Pune · Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4466063511",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 0.0,
-   "exp_max": 1.0,
-   "exp_label": "0-1 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 13,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "booking holdings|analyst associate data",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466063511"
-    }
-   ]
-  },
-  {
-   "company": "CredFlow",
-   "title": "Business Development Manager - Enterprise Sales",
-   "location": "Noida",
-   "url": "https://www.iimjobs.com/j/credflow-business-development-manager-enterprise-sales-1732310",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "0-3 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 0.0,
-   "exp_max": 3.0,
-   "exp_label": "0-3 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 13,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "credflow|business development enterprise manager sales",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/credflow-business-development-manager-enterprise-sales-1732310"
-    }
-   ]
-  },
-  {
-   "company": "Boston Consulting Group",
-   "title": "Global Digital Marketing Analytics Senior Analyst",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4464880263",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 3.0,
-   "exp_max": 5.0,
-   "exp_label": "3-5 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "boston consulting|analyst analytics digital global marketing",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464880263"
-    }
-   ]
-  },
-  {
-   "company": "Atlassian",
-   "title": "Manager, Account Executives, Mid-Market",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4466334062",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "atlassian|account executives manager market mid",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466334062"
-    }
-   ]
-  },
-  {
-   "company": "Diageo India",
-   "title": "Customer Collaboration Manager",
-   "location": "Gurugram",
-   "url": "https://www.linkedin.com/jobs/view/4466346006",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 3.0,
-   "exp_max": null,
-   "exp_label": "3+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "diageo|collaboration customer manager",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466346006"
-    }
-   ]
-  },
-  {
-   "company": "Joveo Technologies",
-   "title": "Associate - Growth & Supply Partnerships",
-   "location": "Bengaluru",
-   "url": "https://www.iimjobs.com/j/joveo-associate-growth-supply-partnerships-adtech-0-6-yrs-1732371",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "0-6 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 0.0,
-   "exp_max": 6.0,
-   "exp_label": "0-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹10–20 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "joveo|associate growth partnerships supply",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/joveo-associate-growth-supply-partnerships-adtech-0-6-yrs-1732371"
-    }
-   ]
-  },
-  {
-   "company": "Lucidity Cloud Services",
-   "title": "Founder's Office Role",
-   "location": "Bengaluru",
-   "url": "https://www.iimjobs.com/j/lucidity-founders-office-role-1732274",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "2-5 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 2.0,
-   "exp_max": 5.0,
-   "exp_label": "2-5 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "lucidity cloud|founder s",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/lucidity-founders-office-role-1732274"
-    }
-   ]
-  },
-  {
-   "company": "Mesitus",
-   "title": "Data Partnerships Manager",
-   "location": "Bengaluru",
-   "url": "https://www.iimjobs.com/j/data-partnerships-manager-ai-healthcare-3-6-yrs-1732387",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "3-6 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 3.0,
-   "exp_max": 6.0,
-   "exp_label": "3-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "mesitus|data manager partnerships",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/data-partnerships-manager-ai-healthcare-3-6-yrs-1732387"
-    }
-   ]
-  },
-  {
-   "company": "A.V.E.QUEST TALENT SOLUTIONS (OPC) PRIVATE LIMITED",
-   "title": "Digital Marketing Manager - Lead Generation & Partnerships",
-   "location": "Bengaluru",
-   "url": "https://www.iimjobs.com/j/manager-digital-marketing-saas-manufacturing-1-4-yrs-1732388",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "1-4 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 1.0,
-   "exp_max": 4.0,
-   "exp_label": "1-4 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹28–45 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 11,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "a v e quest talent|digital generation lead manager marketing partnerships",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/manager-digital-marketing-saas-manufacturing-1-4-yrs-1732388"
-    }
-   ]
-  },
-  {
-   "company": "Contactx Resource Management",
-   "title": "Area Manager/Business Development Manager - Sales",
-   "location": "Chennai",
-   "url": "https://www.iimjobs.com/j/area-managerbusiness-development-manager-sales-tilesceramics-1732255",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "2-15 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 2.0,
-   "exp_max": 15.0,
-   "exp_label": "2-15 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 11,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "contactx resource management|area business development manager sales",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/area-managerbusiness-development-manager-sales-tilesceramics-1732255"
-    }
-   ]
-  },
-  {
-   "company": "Skillventory",
-   "title": "Product Manager - Digital Transformation",
-   "location": "Pune",
-   "url": "https://www.iimjobs.com/j/product-manager-digital-transformation-consumer-durable-lending-1732239",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "2-7 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 2.0,
-   "exp_max": 7.0,
-   "exp_label": "2-7 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 9,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "skillventory|digital manager product transformation",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/product-manager-digital-transformation-consumer-durable-lending-1732239"
-    }
-   ]
-  },
-  {
-   "company": "Tata 1mg",
-   "title": "Consultant",
-   "location": "Mumbai",
-   "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa0193c41628",
-   "source": "careers portal",
-   "posted": "2026-09-11",
-   "exp_text": "3 - 12 Years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": 3.0,
-   "exp_max": 12.0,
-   "exp_label": "3-12 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 5,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "careers portal"
-   ],
-   "key": "tata 1mg|consultant",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "careers portal",
-     "url": "https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6aa0193c41628"
-    }
-   ]
-  },
-  {
-   "company": "PhonePe",
-   "title": "Manager, Brand Marketing",
-   "location": "Bengaluru",
-   "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002015-manager-brand-marketing",
-   "source": "careers portal",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": 5.0,
-   "exp_max": 8.0,
-   "exp_label": "5-8 yrs",
-   "mba": "Yes: …iate, re-pivot if needed.  Must haves   MBA from Tier 1 college with at least 5-8 y…",
-   "salary_label": "~₹25–40 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 21,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5-8 yrs"
-   ],
-   "sources": [
-    "careers portal"
-   ],
-   "key": "phonepe|brand manager marketing",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "careers portal",
-     "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002015-manager-brand-marketing"
-    }
-   ]
-  },
-  {
-   "company": "Good People Consulting",
-   "title": "Chief of Staff",
-   "location": "Mumbai",
-   "url": "https://www.iimjobs.com/j/chief-of-staff-fmcgconsumer-durables-south-1732356",
-   "source": "iimjobs",
-   "posted": "2026-09-11",
-   "exp_text": "5-7 years experience",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 5.0,
-   "exp_max": 7.0,
-   "exp_label": "5-7 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹28–45 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 17,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5-7 yrs"
-   ],
-   "sources": [
-    "iimjobs"
-   ],
-   "key": "good people consulting|chief staff",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "iimjobs",
-     "url": "https://www.iimjobs.com/j/chief-of-staff-fmcgconsumer-durables-south-1732356"
-    }
-   ]
-  },
-  {
-   "company": "Rebel Foods",
-   "title": "Data Analyst",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4466064929",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "target",
-   "band": "unicorn",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 11,
-   "tier": "C",
-   "reasons": [
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "rebel foods|analyst data",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466064929"
-    }
-   ]
-  },
-  {
-   "company": "PepsiCo",
-   "title": "Global Transportation Change Management Assoc Manager",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4464225373",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 5.0,
-   "exp_max": null,
-   "exp_label": "5+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 10,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5+ yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "pepsico|assoc change global management manager transportation",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464225373"
-    }
-   ]
-  },
-  {
-   "company": "PepsiCo",
-   "title": "Manager -  ECommerce",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4463967947",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 5.0,
-   "exp_max": null,
-   "exp_label": "5+ yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 7,
-   "tier": "C",
-   "reasons": [
-    "stretch: asks 5+ yrs"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "pepsico|ecommerce manager",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4463967947"
-    }
-   ]
-  },
-  {
-   "company": "Paytm",
-   "title": "Backround Verification- Associate",
-   "location": "Noida",
-   "url": "https://www.linkedin.com/jobs/view/4466080734",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "listed_tech",
-   "exp_min": 3.0,
-   "exp_max": 5.0,
-   "exp_label": "3-5 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 4,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "paytm|associate backround verification",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466080734"
-    }
-   ]
-  },
-  {
-   "company": "PepsiCo",
-   "title": "Assistant Manager- FLNA-MDM",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4464218392",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 4,
-   "tier": "C",
-   "reasons": [
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "pepsico|assistant flna manager mdm",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4464218392"
-    }
-   ]
-  },
-  {
-   "company": "GIVA",
-   "title": "Manager – Last Mile Operations | Quick Commerce",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4466057647",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "d2c",
-   "exp_min": 4.0,
-   "exp_max": 8.0,
-   "exp_label": "4-8 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹18–30 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 4,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "giva|commerce last manager mile operations quick",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466057647"
-    }
-   ]
-  },
-  {
-   "company": "KPMG India",
-   "title": "Associate 2",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4455660010",
-   "source": "linkedin",
-   "posted": "2026-09-11",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": 0.0,
-   "exp_max": 1.0,
-   "exp_label": "0-1 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 1,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "kpmg|associate",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4455660010"
     }
    ]
   }

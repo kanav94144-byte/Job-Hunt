@@ -1,5 +1,5 @@
 {
- "run_date": "2026-09-18",
+ "run_date": "2026-09-19",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 54,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 406,
+   "jobs": 411,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -41,7 +41,7 @@
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 92,
+   "jobs": 91,
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
@@ -167,7 +167,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 91,
+   "jobs": 90,
    "errors": []
   },
   "portal:darwinbox:OYO": {
@@ -257,27 +257,27 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 278,
+   "jobs": 273,
    "errors": []
   },
   "iimjobs": {
    "ok": 19,
    "failed": 0,
-   "jobs": 1673,
+   "jobs": 1448,
    "errors": []
   },
   "naukri (browser)": {
    "ok": 1,
    "failed": 0,
-   "jobs": 116,
+   "jobs": 0,
    "errors": []
   }
  },
  "counts": {
-  "raw": 3886,
-  "after_filters": 542,
-  "kept": 191,
-  "duplicates_folded": 2,
-  "on_dashboard": 617
+  "raw": 3541,
+  "after_filters": 457,
+  "kept": 164,
+  "duplicates_folded": 3,
+  "on_dashboard": 588
  }
 }
