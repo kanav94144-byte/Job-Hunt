@@ -1,33 +1,32 @@
 {
- "updated": "2026-09-19 13:34 UTC",
- "count": 603,
- "new_today": 32,
+ "updated": "2026-09-19 17:35 UTC",
+ "count": 612,
+ "new_today": 37,
  "jobs": [
   {
-   "company": "Property Finder",
-   "title": "Senior Product Manager, Growth",
-   "location": "Dubai · United Arab Emirates",
-   "url": "https://www.linkedin.com/jobs/view/4469190584",
+   "company": "Purplle",
+   "title": "Associate Product Manager/ Product Manager – Supply Chain",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4448796602",
    "source": "linkedin",
    "posted": "2026-09-19",
    "exp_text": "",
    "salary_min": null,
    "salary_max": null,
    "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 1.0,
    "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Yes: …r a similar discipline, ideally with an MBA or comparable business education on top…",
-   "salary_label": "not stated",
-   "salary_kind": "unknown",
-   "region": "international",
-   "relevance": 26,
+   "exp_label": "1+ yrs",
+   "mba": "Yes: …. BE / B.Tech from a reputed institute. MBA is a plus but not mandatory. Working kn…",
+   "salary_label": "~₹16–26 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 25,
    "tier": "A",
    "reasons": [
-    "MBA/PG asked or preferred",
-    "experience not stated"
+    "MBA/PG asked or preferred"
    ],
    "sources": [
     "linkedin"
@@ -35,13 +34,13 @@
    "links": [
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469190584"
+     "url": "https://www.linkedin.com/jobs/view/4448796602"
     }
    ],
    "variants": [
-    "Senior Product Manager, Growth"
+    "Associate Product Manager/ Product Manager – Supply Chain"
    ],
-   "key": "property finder|growth manager product",
+   "key": "purplle|associate chain manager product supply",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -174,6 +173,49 @@
    "is_new": true
   },
   {
+   "company": "PwC India",
+   "title": "Associate_Advisory_IA_GRC_Risk Consulting_Mumbai",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4291065673",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …2+ years  Education qualification:  CA/MBA/Bcom  Education (if blank, degree and/o…",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 17,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291065673"
+    }
+   ],
+   "variants": [
+    "Associate_Advisory_IA_GRC_Risk Consulting_Mumbai"
+   ],
+   "key": "pwc|advisory associate consulting grc ia mumbai risk",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
    "company": "WELTEC Institute",
    "title": "Manufacturing - Business Development Manager (Plastic, or Polymer)",
    "location": "Vadodara",
@@ -211,6 +253,48 @@
     "Manufacturing - Business Development Manager (Plastic, or Polymer)"
    ],
    "key": "weltec institute|business development manager manufacturing",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "Purplle",
+   "title": "Area Manager - Visual Merchandiser",
+   "location": "Bhubaneswar",
+   "url": "https://www.linkedin.com/jobs/view/4441617213",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 2.0,
+   "exp_max": 5.0,
+   "exp_label": "2-5 yrs",
+   "mba": "Yes: …Qualifications & Experience  Graduate / Postgraduate in Visual Merchandising, Retail Manage…",
+   "salary_label": "~₹25–40 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 13,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4441617213"
+    }
+   ],
+   "variants": [
+    "Area Manager - Visual Merchandiser"
+   ],
+   "key": "purplle|area manager merchandiser visual",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -255,7 +339,7 @@
    "key": "colliers|advisory consulting estate manager real services",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Hindustan Unilever",
@@ -380,6 +464,95 @@
     "Key Account Manager, Purplle"
    ],
    "key": "hindustan unilever|account key manager purplle",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "Purplle",
+   "title": "Marketing - Growth & Analytics",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4419672848",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 1.0,
+   "exp_max": 6.0,
+   "exp_label": "1-6 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹25–40 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 32,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4419672848"
+    }
+   ],
+   "variants": [
+    "Marketing - Growth & Analytics"
+   ],
+   "key": "purplle|analytics growth marketing",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "EY GDS",
+   "title": "FS - RC - FSRM - QTB - MRM - AI - SENIOR",
+   "location": "Pune · Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4458086719",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹26–42 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 30,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4458086719"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4458404592"
+    }
+   ],
+   "variants": [
+    "FS - RC - FSRM - QTB - MRM - AI - SENIOR"
+   ],
+   "key": "ey gds|ai fs fsrm mrm qtb rc",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -554,6 +727,48 @@
    "is_new": true
   },
   {
+   "company": "IDFC FIRST Bank",
+   "title": "Strategy Manager-Debt Management",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4431244869",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 5.0,
+   "exp_max": 10.0,
+   "exp_label": "5-10 yrs",
+   "mba": "Yes: …on: Engineering, Statistics, Economics. Post-graduation: MBA in Finance, Marketing, Economic…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 13,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-10 yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4431244869"
+    }
+   ],
+   "variants": [
+    "Strategy Manager-Debt Management"
+   ],
+   "key": "idfc first bank|debt management manager strategy",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
    "company": "Amazon",
    "title": "Associate Corporate Counsel - Last Mile, WW Ops",
    "location": "Bengaluru",
@@ -597,46 +812,6 @@
   },
   {
    "company": "PepsiCo",
-   "title": "R&D Digital Platforms Asst Analyst",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4438005338",
-   "source": "linkedin",
-   "posted": "2026-09-19",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 2.0,
-   "exp_max": 3.0,
-   "exp_label": "2-3 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 7,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4438005338"
-    }
-   ],
-   "variants": [
-    "R&D Digital Platforms Asst Analyst"
-   ],
-   "key": "pepsico|analyst asst d digital platforms r",
-   "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
-   "is_new": true
-  },
-  {
-   "company": "PepsiCo",
    "title": "Assistant Manager- Trade Promotion Management",
    "location": "Hyderabad",
    "url": "https://www.linkedin.com/jobs/view/4401959816",
@@ -671,6 +846,48 @@
     "Assistant Manager- Trade Promotion Management"
    ],
    "key": "pepsico|assistant management manager promotion trade",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "PwC India",
+   "title": "Associate-AWS-Kolkata-RDC",
+   "location": "Kolkata",
+   "url": "https://www.linkedin.com/jobs/view/4291068113",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 5,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291068113"
+    }
+   ],
+   "variants": [
+    "Associate-AWS-Kolkata-RDC"
+   ],
+   "key": "pwc|associate aws rdc",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -753,6 +970,48 @@
     "Associate 2 -Trade & Customs"
    ],
    "key": "kpmg|associate customs trade",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "PepsiCo",
+   "title": "Onsite FS & Qlty Ops Team Lead",
+   "location": "Guwahati",
+   "url": "https://www.linkedin.com/jobs/view/4439209894",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 5.0,
+   "exp_max": 10.0,
+   "exp_label": "5-10 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹45–75 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 4,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-10 yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4439209894"
+    }
+   ],
+   "variants": [
+    "Onsite FS & Qlty Ops Team Lead"
+   ],
+   "key": "pepsico|fs lead ops qlty team",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -1290,6 +1549,49 @@
    "is_new": false
   },
   {
+   "company": "Property Finder",
+   "title": "Senior Product Manager, Growth",
+   "location": "Dubai · United Arab Emirates",
+   "url": "https://www.linkedin.com/jobs/view/4469190584",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …r a similar discipline, ideally with an MBA or comparable business education on top…",
+   "salary_label": "not stated",
+   "salary_kind": "unknown",
+   "region": "international",
+   "relevance": 26,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469190584"
+    }
+   ],
+   "variants": [
+    "Senior Product Manager, Growth"
+   ],
+   "key": "property finder|growth manager product",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
    "company": "PwC India",
    "title": "IN-Associate _Chemicals_Fuels & Resources_Advisory_Mumbai",
    "location": "Mumbai",
@@ -1749,7 +2051,7 @@
    ],
    "key": "pwc|advisory associate automation bangalore gcc qa",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -2434,48 +2736,6 @@
    "is_new": false
   },
   {
-   "company": "Microsoft",
-   "title": "Consultant - .Net Full Stack & AI",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4469151523",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 4.0,
-   "exp_max": 10.0,
-   "exp_label": "4-10 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹20–32 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 19,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469151523"
-    }
-   ],
-   "variants": [
-    "Consultant - .Net Full Stack & AI"
-   ],
-   "key": "microsoft|ai consultant full net stack",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
    "company": "Diageo India",
    "title": "Shopper Manager - Chrome",
    "location": "Mysore",
@@ -2519,6 +2779,48 @@
    "is_new": false
   },
   {
+   "company": "Microsoft",
+   "title": "Consultant - .Net Full Stack & AI",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4469151523",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 4.0,
+   "exp_max": 10.0,
+   "exp_label": "4-10 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 19,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469151523"
+    }
+   ],
+   "variants": [
+    "Consultant - .Net Full Stack & AI"
+   ],
+   "key": "microsoft|ai consultant full net stack",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "Razorpay",
    "title": "Product Manager II",
    "location": "Bengaluru",
@@ -2556,6 +2858,49 @@
     "Product Manager II"
    ],
    "key": "razorpay|manager product",
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "PwC India",
+   "title": "Consultant - RDC TC MSOFT",
+   "location": "Kolkata",
+   "url": "https://www.linkedin.com/jobs/view/4291060947",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 17,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291060947"
+    }
+   ],
+   "variants": [
+    "Consultant - RDC TC MSOFT"
+   ],
+   "key": "pwc|consultant msoft rdc tc",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
    "is_new": false
@@ -2644,49 +2989,6 @@
    "key": "dot and key|brand manager",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
-   "company": "PwC India",
-   "title": "Consultant - RDC TC MSOFT",
-   "location": "Kolkata",
-   "url": "https://www.linkedin.com/jobs/view/4291060945",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 15,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)",
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4291060945"
-    }
-   ],
-   "variants": [
-    "Consultant - RDC TC MSOFT"
-   ],
-   "key": "pwc|consultant msoft rdc tc",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
    "is_new": false
   },
   {
@@ -3490,10 +3792,50 @@
    "is_new": false
   },
   {
+   "company": "InMobi / Glance",
+   "title": "Senior Associate -Content Marketing",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4467867249",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "startup",
+   "band": "unicorn",
+   "exp_min": 2.0,
+   "exp_max": 4.0,
+   "exp_label": "2-4 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–26 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 11,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467867249"
+    }
+   ],
+   "variants": [
+    "Senior Associate -Content Marketing"
+   ],
+   "key": "inmobi glance|associate content marketing",
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "Accenture Strategy",
    "title": "Business Advisory Analyst",
    "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4469168437",
+   "url": "https://www.linkedin.com/jobs/view/4469170463",
    "source": "linkedin",
    "posted": "2026-09-18",
    "exp_text": "",
@@ -3518,11 +3860,11 @@
    "links": [
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469168437"
+     "url": "https://www.linkedin.com/jobs/view/4469170463"
     },
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469170463"
+     "url": "https://www.linkedin.com/jobs/view/4469168437"
     },
     {
      "source": "linkedin",
@@ -3581,6 +3923,46 @@
   },
   {
    "company": "PepsiCo",
+   "title": "Deputy Manager - Sales & Operations",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4457792959",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 4.0,
+   "exp_max": 6.0,
+   "exp_label": "4-6 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 10,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4457792959"
+    }
+   ],
+   "variants": [
+    "Deputy Manager - Sales & Operations"
+   ],
+   "key": "pepsico|deputy manager operations sales",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "PepsiCo",
    "title": "Consumer & Shop Insights Associate Manager",
    "location": "Hyderabad",
    "url": "https://www.linkedin.com/jobs/view/4438010240",
@@ -3620,6 +4002,46 @@
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-19",
    "is_new": false
+  },
+  {
+   "company": "PwC India",
+   "title": "Operations Reporting & Analytics - Associate",
+   "location": "Bengaluru East",
+   "url": "https://www.linkedin.com/jobs/view/4466902726",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 1.0,
+   "exp_max": null,
+   "exp_label": "1+ yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 8,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466902726"
+    }
+   ],
+   "variants": [
+    "Operations Reporting & Analytics - Associate"
+   ],
+   "key": "pwc|analytics associate operations reporting",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
   },
   {
    "company": "Traya",
@@ -3706,6 +4128,54 @@
    "is_new": true
   },
   {
+   "company": "PwC India",
+   "title": "Associate",
+   "location": "Jaipur · Chennai · Ahmedabad · Mumbai · Delhi",
+   "url": "https://www.linkedin.com/jobs/view/4291066596",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 3.0,
+   "exp_max": 4.0,
+   "exp_label": "3-4 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 7,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291066596"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291070005"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467872930"
+    }
+   ],
+   "variants": [
+    "Associate"
+   ],
+   "key": "pwc|associate",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "PepsiCo",
    "title": "Deputy Manager - Supply Chain",
    "location": "Hyderabad",
@@ -3781,6 +4251,46 @@
     "Specification Management Analyst – AOP Spec Writing"
    ],
    "key": "pepsico|analyst aop management spec specification writing",
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "is_new": true
+  },
+  {
+   "company": "PepsiCo",
+   "title": "R&D Digital Platforms Asst Analyst",
+   "location": "Hyderabad",
+   "url": "https://www.linkedin.com/jobs/view/4438005338",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 2.0,
+   "exp_max": 3.0,
+   "exp_label": "2-3 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 7,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4438005338"
+    }
+   ],
+   "variants": [
+    "R&D Digital Platforms Asst Analyst"
+   ],
+   "key": "pepsico|analyst asst d digital platforms r",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
    "is_new": true
@@ -4800,65 +5310,6 @@
    "is_new": false
   },
   {
-   "company": "PwC India",
-   "title": "Senior Associate",
-   "location": "Jaipur · Chennai · Ahmedabad · Mumbai · Delhi",
-   "url": "https://www.linkedin.com/jobs/view/4291062919",
-   "source": "linkedin",
-   "posted": "2026-09-17",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": 3.0,
-   "exp_max": 5.0,
-   "exp_label": "3-5 yrs",
-   "mba": "Yes: …B.E., B. TECH, M. TECH, MCA, BCA, CA, MBA  Experience in technology audit, risk m…",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 18,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4291062919"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4291066596"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4291070005"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467872930"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4373213844"
-    }
-   ],
-   "variants": [
-    "Senior Associate",
-    "Associate"
-   ],
-   "key": "pwc|associate",
-   "first_seen": "2026-09-16",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
    "company": "Lumov",
    "title": "Founders Office",
    "location": "Bengaluru",
@@ -5370,48 +5821,6 @@
    "is_new": false
   },
   {
-   "company": "ZS Associates",
-   "title": "Decision Analytics Associate",
-   "location": "Pune",
-   "url": "https://www.linkedin.com/jobs/view/4466281203",
-   "source": "linkedin",
-   "posted": "2026-09-17",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": 3.0,
-   "exp_max": null,
-   "exp_label": "3+ yrs",
-   "mba": "Yes: …ams.   What You’ll Bring  Bachelor's or master's degree required in any discipline with strong…",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 10,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466281203"
-    }
-   ],
-   "variants": [
-    "Decision Analytics Associate"
-   ],
-   "key": "zs associates|analytics associate decision",
-   "first_seen": "2026-09-17",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
    "company": "RANKGURU TECHNOLOGY SOLUTIONS PRIVATE LIMITED",
    "title": "Product Manager - Growth",
    "location": "Bengaluru",
@@ -5454,6 +5863,48 @@
    ],
    "key": "rankguru|growth manager product",
    "first_seen": "2026-09-18",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
+   "company": "ZS Associates",
+   "title": "Decision Analytics Associate",
+   "location": "Pune",
+   "url": "https://www.linkedin.com/jobs/view/4466281203",
+   "source": "linkedin",
+   "posted": "2026-09-17",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 3.0,
+   "exp_max": null,
+   "exp_label": "3+ yrs",
+   "mba": "Yes: …ams.   What You’ll Bring  Bachelor's or master's degree required in any discipline with strong…",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 10,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466281203"
+    }
+   ],
+   "variants": [
+    "Decision Analytics Associate"
+   ],
+   "key": "zs associates|analytics associate decision",
+   "first_seen": "2026-09-17",
    "last_seen": "2026-09-19",
    "is_new": false
   },
@@ -5877,7 +6328,7 @@
    "key": "ey gds|lead managed services techops",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Amazon",
@@ -6046,53 +6497,6 @@
    ],
    "key": "walmart|analyst planning strategy workforce",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-09-19",
-   "is_new": false
-  },
-  {
-   "company": "InMobi / Glance",
-   "title": "Senior Associate -Content Marketing.",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4468654672",
-   "source": "linkedin",
-   "posted": "2026-09-17",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "startup",
-   "band": "unicorn",
-   "exp_min": 2.0,
-   "exp_max": 4.0,
-   "exp_label": "2-4 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 14,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4468654672"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467867249"
-    }
-   ],
-   "variants": [
-    "Senior Associate -Content Marketing.",
-    "Senior Associate -Content Marketing"
-   ],
-   "key": "inmobi glance|associate content marketing",
-   "first_seen": "2026-09-17",
    "last_seen": "2026-09-19",
    "is_new": false
   },
@@ -8022,7 +8426,7 @@
    "key": "livspace|manager validation",
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-19",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "PepsiCo",
@@ -9634,48 +10038,6 @@
    "is_new": false
   },
   {
-   "company": "ZS Associates",
-   "title": "Decision Analytics Associate Consultant - Advanced Analytics",
-   "location": "Pune",
-   "url": "https://www.linkedin.com/jobs/view/4466209033",
-   "source": "linkedin",
-   "posted": "2026-09-16",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "big4",
-   "exp_min": 2.0,
-   "exp_max": 4.0,
-   "exp_label": "2-4 yrs",
-   "mba": "Yes: …ams.   What You’ll Bring  Bachelor's or master's degree required in any discipline with strong…",
-   "salary_label": "~₹16–24 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 15,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466209033"
-    }
-   ],
-   "variants": [
-    "Decision Analytics Associate Consultant - Advanced Analytics"
-   ],
-   "key": "zs associates|advanced analytics associate consultant decision",
-   "first_seen": "2026-09-16",
-   "last_seen": "2026-09-17",
-   "is_new": false
-  },
-  {
    "company": "IDFC FIRST Bank",
    "title": "Transformation Manager - Operations",
    "location": "Mumbai",
@@ -9715,6 +10077,48 @@
    "key": "idfc first bank|manager operations transformation",
    "first_seen": "2026-09-16",
    "last_seen": "2026-09-18",
+   "is_new": false
+  },
+  {
+   "company": "ZS Associates",
+   "title": "Decision Analytics Associate Consultant - Advanced Analytics",
+   "location": "Pune",
+   "url": "https://www.linkedin.com/jobs/view/4466209033",
+   "source": "linkedin",
+   "posted": "2026-09-16",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 2.0,
+   "exp_max": 4.0,
+   "exp_label": "2-4 yrs",
+   "mba": "Yes: …ams.   What You’ll Bring  Bachelor's or master's degree required in any discipline with strong…",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 15,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466209033"
+    }
+   ],
+   "variants": [
+    "Decision Analytics Associate Consultant - Advanced Analytics"
+   ],
+   "key": "zs associates|advanced analytics associate consultant decision",
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-17",
    "is_new": false
   },
   {
@@ -15400,6 +15804,48 @@
    "is_new": false
   },
   {
+   "company": "Purplle",
+   "title": "Executive / Senior Executive  - Marketing",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4441969148",
+   "source": "linkedin",
+   "posted": "2026-09-15",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "unicorn",
+   "exp_min": 1.0,
+   "exp_max": 3.0,
+   "exp_label": "1-3 yrs",
+   "mba": "Yes: …al care, FMCG or e-commerce preferred.  MBA/PGDM in Marketing preferred.  Strong in…",
+   "salary_label": "~₹16–26 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 13,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4441969148"
+    }
+   ],
+   "variants": [
+    "Executive / Senior Executive  - Marketing"
+   ],
+   "key": "purplle|executive marketing",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-19",
+   "is_new": false
+  },
+  {
    "company": "AVSAR",
    "title": "Founder's Office",
    "location": "Gurugram",
@@ -19336,46 +19782,6 @@
    "key": "pwc|advisory aem bangalore full gcc manager stack",
    "first_seen": "2026-09-15",
    "last_seen": "2026-09-16",
-   "is_new": false
-  },
-  {
-   "company": "PepsiCo",
-   "title": "Deputy Manager - Sales & Operations",
-   "location": "Hyderabad",
-   "url": "https://www.linkedin.com/jobs/view/4457792959",
-   "source": "linkedin",
-   "posted": "2026-09-15",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "mnc_top",
-   "exp_min": 4.0,
-   "exp_max": 6.0,
-   "exp_label": "4-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 10,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4457792959"
-    }
-   ],
-   "variants": [
-    "Deputy Manager - Sales & Operations"
-   ],
-   "key": "pepsico|deputy manager operations sales",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-19",
    "is_new": false
   },
   {
@@ -24197,43 +24603,6 @@
     {
      "source": "linkedin",
      "url": "https://www.linkedin.com/jobs/view/4418948375"
-    }
-   ]
-  },
-  {
-   "company": "Purplle",
-   "title": "Senior Executive - Marketing",
-   "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4447755104",
-   "source": "linkedin",
-   "posted": "2026-09-13",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "unicorn",
-   "exp_min": 3.0,
-   "exp_max": 6.0,
-   "exp_label": "3-6 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹16–26 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 9,
-   "tier": "C",
-   "reasons": [],
-   "sources": [
-    "linkedin"
-   ],
-   "key": "purplle|executive marketing",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15",
-   "is_new": false,
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4447755104"
     }
    ]
   },

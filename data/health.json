@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 378,
+   "jobs": 364,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -257,13 +257,13 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 280,
+   "jobs": 285,
    "errors": []
   },
   "iimjobs": {
    "ok": 19,
    "failed": 0,
-   "jobs": 1487,
+   "jobs": 1489,
    "errors": []
   },
   "naukri (browser)": {
@@ -274,10 +274,10 @@
   }
  },
  "counts": {
-  "raw": 3556,
-  "after_filters": 454,
-  "kept": 159,
+  "raw": 3549,
+  "after_filters": 455,
+  "kept": 156,
   "duplicates_folded": 3,
-  "on_dashboard": 603
+  "on_dashboard": 612
  }
 }
