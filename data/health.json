@@ -1,5 +1,5 @@
 {
- "run_date": "2026-09-19",
+ "run_date": "2026-09-20",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 54,
+   "jobs": 52,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 364,
+   "jobs": 330,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -257,13 +257,13 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 285,
+   "jobs": 278,
    "errors": []
   },
   "iimjobs": {
    "ok": 19,
    "failed": 0,
-   "jobs": 1489,
+   "jobs": 933,
    "errors": []
   },
   "naukri (browser)": {
@@ -274,10 +274,10 @@
   }
  },
  "counts": {
-  "raw": 3549,
-  "after_filters": 455,
-  "kept": 156,
+  "raw": 2950,
+  "after_filters": 357,
+  "kept": 124,
   "duplicates_folded": 3,
-  "on_dashboard": 612
+  "on_dashboard": 607
  }
 }
