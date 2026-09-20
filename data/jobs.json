@@ -1,8 +1,50 @@
 {
- "updated": "2026-09-20 09:42 UTC",
- "count": 607,
- "new_today": 22,
+ "updated": "2026-09-20 14:04 UTC",
+ "count": 620,
+ "new_today": 30,
  "jobs": [
+  {
+   "company": "HuntingCube",
+   "title": "Founder's Office Associate/Chief of Staff",
+   "location": "Bengaluru East",
+   "url": "https://www.linkedin.com/jobs/view/4469801429",
+   "source": "linkedin",
+   "posted": "2026-09-20",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 2.0,
+   "exp_max": 5.0,
+   "exp_label": "2-5 yrs",
+   "mba": "Yes: …ns, strategy or Founder's Office role | MBA/Master’s degree from a reputed Tier 1/2…",
+   "salary_label": "~₹28–45 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 40,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4469801429"
+    }
+   ],
+   "variants": [
+    "Founder's Office Associate/Chief of Staff"
+   ],
+   "key": "huntingcube|associate chief founder s staff",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
   {
    "company": "Confidential",
    "title": "Senior Associate - GDN Strategy",
@@ -41,6 +83,49 @@
     "Senior Associate - GDN Strategy"
    ],
    "key": "confidential|associate gdn strategy",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
+  {
+   "company": "Minimac Systems Pvt. Ltd.",
+   "title": "Senior Business Development Associate",
+   "location": "Pune",
+   "url": "https://www.linkedin.com/jobs/view/4467319373",
+   "source": "linkedin",
+   "posted": "2026-09-20",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …eering, Business or a related field; an MBA is a plus  - Experience in strategy, co…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 32,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467319373"
+    }
+   ],
+   "variants": [
+    "Senior Business Development Associate"
+   ],
+   "key": "minimac systems|associate business development",
    "first_seen": "2026-09-20",
    "last_seen": "2026-09-20",
    "is_new": true
@@ -88,48 +173,6 @@
    "is_new": true
   },
   {
-   "company": "Cancer Healer Center",
-   "title": "Executive Assistant (EA) to the Founder",
-   "location": "South Delhi · Delhi",
-   "url": "https://www.linkedin.com/jobs/view/4466971650",
-   "source": "linkedin",
-   "posted": "2026-09-20",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "discovered",
-   "band": "unknown",
-   "exp_min": 4.0,
-   "exp_max": 10.0,
-   "exp_label": "4-10 yrs",
-   "mba": "Yes: …ileQualifications  Bachelor's Degree or MBA in Business Administration, Management,…",
-   "salary_label": "~₹10–20 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 27,
-   "tier": "A",
-   "reasons": [
-    "MBA/PG asked or preferred"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466971650"
-    }
-   ],
-   "variants": [
-    "Executive Assistant (EA) to the Founder"
-   ],
-   "key": "cancer healer center|assistant executive founder",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-20",
-   "is_new": true
-  },
-  {
    "company": "Pozer International",
    "title": "Business Development Manager",
    "location": "Dubai · United Arab Emirates",
@@ -169,7 +212,7 @@
    "key": "pozer international|business development manager",
    "first_seen": "2026-09-20",
    "last_seen": "2026-09-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Creators Mind™",
@@ -212,7 +255,7 @@
    "key": "creators mind|business development manager",
    "first_seen": "2026-09-20",
    "last_seen": "2026-09-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Amazon",
@@ -261,6 +304,48 @@
     "Risk Manager I, Relay Product Excellence"
    ],
    "key": "amazon|excellence manager product relay risk",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
+  {
+   "company": "PwC India",
+   "title": "IN_Associate _Node JS_Advisory Corporate_Advisory _Bangalore",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4291063782",
+   "source": "linkedin",
+   "posted": "2026-09-20",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 3.0,
+   "exp_max": 5.0,
+   "exp_label": "3-5 yrs",
+   "mba": "Yes: …5 yrs Education qualification-BE/B.Tech/MBA  Education (if blank, degree and/or fie…",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 11,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291063782"
+    }
+   ],
+   "variants": [
+    "IN_Associate _Node JS_Advisory Corporate_Advisory _Bangalore"
+   ],
+   "key": "pwc|advisory associate bangalore corporate js node",
    "first_seen": "2026-09-20",
    "last_seen": "2026-09-20",
    "is_new": true
@@ -517,6 +602,88 @@
    "is_new": true
   },
   {
+   "company": "Alvarez & Marsal",
+   "title": "Associate, Data Foundation & Governance",
+   "location": "",
+   "url": "https://www.linkedin.com/jobs/view/4467319982",
+   "source": "linkedin",
+   "posted": "2026-09-20",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": 4.0,
+   "exp_max": 8.0,
+   "exp_label": "4-8 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹20–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 11,
+   "tier": "C",
+   "reasons": [],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467319982"
+    }
+   ],
+   "variants": [
+    "Associate, Data Foundation & Governance"
+   ],
+   "key": "alvarez and marsal|associate data foundation governance",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
+  {
+   "company": "PwC India",
+   "title": "Associate - MSOFT - GDC",
+   "location": "Kolkata",
+   "url": "https://www.linkedin.com/jobs/view/4291061894",
+   "source": "linkedin",
+   "posted": "2026-09-20",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 10,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291061894"
+    }
+   ],
+   "variants": [
+    "Associate - MSOFT - GDC"
+   ],
+   "key": "pwc|associate gdc msoft",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
+  {
    "company": "Mondelez",
    "title": "Manufacturing Excellence Lead",
    "location": "Pune",
@@ -601,6 +768,48 @@
    "is_new": true
   },
   {
+   "company": "KPMG India",
+   "title": "Assistant Manager - Portfolio Valuations (Equity)",
+   "location": "Gurugram",
+   "url": "https://www.linkedin.com/jobs/view/4423243102",
+   "source": "linkedin",
+   "posted": "2026-09-20",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": 5.0,
+   "exp_max": 8.0,
+   "exp_label": "5-8 yrs",
+   "mba": "Yes: …Educational qualifications  CA / CFA / MBA (Specialization in Finance & Investment…",
+   "salary_label": "~₹26–42 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 6,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-8 yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4423243102"
+    }
+   ],
+   "variants": [
+    "Assistant Manager - Portfolio Valuations (Equity)"
+   ],
+   "key": "kpmg|assistant manager portfolio valuations",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
+  {
    "company": "ITC",
    "title": "Sales And Marketing Specialist",
    "location": "Muzaffarpur",
@@ -639,6 +848,48 @@
     "Sales And Marketing Specialist"
    ],
    "key": "itc|marketing sales specialist",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": false
+  },
+  {
+   "company": "Cancer Healer Center",
+   "title": "Executive Assistant (EA) to the Founder",
+   "location": "South Delhi · Delhi",
+   "url": "https://www.linkedin.com/jobs/view/4466971650",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 4.0,
+   "exp_max": 10.0,
+   "exp_label": "4-10 yrs",
+   "mba": "Yes: …ileQualifications  Bachelor's Degree or MBA in Business Administration, Management,…",
+   "salary_label": "~₹10–20 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 27,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4466971650"
+    }
+   ],
+   "variants": [
+    "Executive Assistant (EA) to the Founder"
+   ],
+   "key": "cancer healer center|assistant executive founder",
    "first_seen": "2026-09-20",
    "last_seen": "2026-09-20",
    "is_new": true
@@ -684,6 +935,48 @@
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-20",
    "is_new": false
+  },
+  {
+   "company": "MediaF5™",
+   "title": "Business Development Manager(3 to 5 Years) (Science City, Ahmedabad)",
+   "location": "Ahmedabad",
+   "url": "https://www.linkedin.com/jobs/view/4461890655",
+   "source": "linkedin",
+   "posted": "2026-09-19",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 3.0,
+   "exp_max": 5.0,
+   "exp_label": "3-5 yrs",
+   "mba": "Yes: …Communications, or a related field; an MBA or equivalent is an advantage.  Profici…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 24,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4461890655"
+    }
+   ],
+   "variants": [
+    "Business Development Manager(3 to 5 Years) (Science City, Ahmedabad)"
+   ],
+   "key": "mediaf5|business development manager",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
   },
   {
    "company": "Katyayani Organics",
@@ -809,7 +1102,7 @@
    "key": "4p collectives|business consultant",
    "first_seen": "2026-09-20",
    "last_seen": "2026-09-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Nexus BIM InfoTech (OPC) Pvt Ltd.",
@@ -978,7 +1271,7 @@
    ],
    "key": "weltec institute|business development manager manufacturing",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
    "is_new": false
   },
   {
@@ -1148,6 +1441,48 @@
    "first_seen": "2026-09-19",
    "last_seen": "2026-09-20",
    "is_new": false
+  },
+  {
+   "company": "Mesitus",
+   "title": "Business Development Manager",
+   "location": "Anywhere In India",
+   "url": "https://www.iimjobs.com/j/manager-business-development-marketing-agency-1-4-yrs-1734142",
+   "source": "iimjobs",
+   "posted": "2026-09-19",
+   "exp_text": "1-4 years experience",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 1.0,
+   "exp_max": 4.0,
+   "exp_label": "1-4 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "iimjobs"
+   ],
+   "links": [
+    {
+     "source": "iimjobs",
+     "url": "https://www.iimjobs.com/j/manager-business-development-marketing-agency-1-4-yrs-1734142"
+    }
+   ],
+   "variants": [
+    "Business Development Manager"
+   ],
+   "key": "mesitus|business development manager",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
   },
   {
    "company": "IDFC FIRST Bank",
@@ -2542,6 +2877,48 @@
    "is_new": false
   },
   {
+   "company": "Faurecia",
+   "title": "Program Manager",
+   "location": "Pune",
+   "url": "https://www.linkedin.com/jobs/view/4468693799",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 4.0,
+   "exp_max": null,
+   "exp_label": "4+ yrs",
+   "mba": "Yes: …s to succeed  Bachelors degree minimum, Masters degree, ideally in engineering highly preferre…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468693799"
+    }
+   ],
+   "variants": [
+    "Program Manager"
+   ],
+   "key": "faurecia|manager program",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
+  {
    "company": "Bunge",
    "title": "Senior Manager- BBS Program and Integration",
    "location": "Sahibzada Ajit Singh Nagar",
@@ -2582,6 +2959,49 @@
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-20",
    "is_new": false
+  },
+  {
+   "company": "PwC India",
+   "title": "IN_Senior Associate-_Angular Tech Stack_Advisory Corporate_Advisory_ Bangalore",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4291061864",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …: 5+ Education qualification: BE/B.Tech/MBA  Education (if blank, degree and/or fie…",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 11,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291061864"
+    }
+   ],
+   "variants": [
+    "IN_Senior Associate-_Angular Tech Stack_Advisory Corporate_Advisory_ Bangalore"
+   ],
+   "key": "pwc|advisory angular associate corporate stack tech",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
   },
   {
    "company": "KPMG India",
@@ -3005,6 +3425,49 @@
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18",
    "is_new": false
+  },
+  {
+   "company": "Tata Advanced Systems Limited",
+   "title": "Strategic Sourcing Lead",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4467880037",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Yes: …years  Educational qualification: BE & MBA  Preferred industry: Avionics / Electro…",
+   "salary_label": "~₹28–45 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 8,
+   "tier": "A",
+   "reasons": [
+    "MBA/PG asked or preferred",
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467880037"
+    }
+   ],
+   "variants": [
+    "Strategic Sourcing Lead"
+   ],
+   "key": "tata advanced systems|lead sourcing strategic",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
   },
   {
    "company": "Mondelez",
@@ -3773,48 +4236,6 @@
   },
   {
    "company": "Rippling India",
-   "title": "Sales Manager",
-   "location": "Bengaluru",
-   "url": "https://www.linkedin.com/jobs/view/4467850511",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "startup",
-   "band": "mnc_top",
-   "exp_min": 2.0,
-   "exp_max": 5.0,
-   "exp_label": "2-5 yrs",
-   "mba": "Not mentioned",
-   "salary_label": "~₹30–50 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 12,
-   "tier": "B",
-   "reasons": [
-    "relevant to CV (MBA not mentioned)"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467850511"
-    }
-   ],
-   "variants": [
-    "Sales Manager"
-   ],
-   "key": "rippling|manager sales",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-20",
-   "is_new": false
-  },
-  {
-   "company": "Rippling India",
    "title": "SMB Implementation Manager",
    "location": "Bengaluru",
    "url": "https://www.linkedin.com/jobs/view/4469274145",
@@ -3852,6 +4273,48 @@
    ],
    "key": "rippling|implementation manager smb",
    "first_seen": "2026-09-19",
+   "last_seen": "2026-09-20",
+   "is_new": false
+  },
+  {
+   "company": "Rippling India",
+   "title": "Sales Manager",
+   "location": "Bengaluru",
+   "url": "https://www.linkedin.com/jobs/view/4467850511",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "startup",
+   "band": "mnc_top",
+   "exp_min": 2.0,
+   "exp_max": 5.0,
+   "exp_label": "2-5 yrs",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 12,
+   "tier": "B",
+   "reasons": [
+    "relevant to CV (MBA not mentioned)"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467850511"
+    }
+   ],
+   "variants": [
+    "Sales Manager"
+   ],
+   "key": "rippling|manager sales",
+   "first_seen": "2026-09-18",
    "last_seen": "2026-09-20",
    "is_new": false
   },
@@ -4148,7 +4611,7 @@
    "key": "mastercard|manager product specialist",
    "first_seen": "2026-09-20",
    "last_seen": "2026-09-20",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Eon Infotech Limited",
@@ -4529,6 +4992,48 @@
    "is_new": true
   },
   {
+   "company": "DHL Global Forwarding",
+   "title": "Business Development Manager- Field Sales",
+   "location": "Gurugram",
+   "url": "https://www.linkedin.com/jobs/view/4468628963",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "discovered",
+   "band": "unknown",
+   "exp_min": 5.0,
+   "exp_max": 6.0,
+   "exp_label": "5-6 yrs",
+   "mba": "Yes: …dress concerns effectively.  Preferred  Post-graduate degree with a focus on sales/marketing…",
+   "salary_label": "~₹18–32 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 15,
+   "tier": "C",
+   "reasons": [
+    "stretch: asks 5-6 yrs"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4468628963"
+    }
+   ],
+   "variants": [
+    "Business Development Manager- Field Sales"
+   ],
+   "key": "dhl forwarding|business development field manager sales",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
+  },
+  {
    "company": "Visa",
    "title": "Senior Manager, Travel",
    "location": "In Bengaluru",
@@ -4656,7 +5161,7 @@
    "company": "Accenture Strategy",
    "title": "Business Advisory Analyst",
    "location": "",
-   "url": "https://www.linkedin.com/jobs/view/4469170463",
+   "url": "https://www.linkedin.com/jobs/view/4469168437",
    "source": "linkedin",
    "posted": "2026-09-18",
    "exp_text": "",
@@ -4681,11 +5186,11 @@
    "links": [
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469170463"
+     "url": "https://www.linkedin.com/jobs/view/4469168437"
     },
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4469168437"
+     "url": "https://www.linkedin.com/jobs/view/4469170463"
     },
     {
      "source": "linkedin",
@@ -4827,7 +5332,7 @@
   {
    "company": "PwC India",
    "title": "Operations Reporting & Analytics - Associate",
-   "location": "Kolkata · Bengaluru East",
+   "location": "Bengaluru East · Kolkata",
    "url": "https://www.linkedin.com/jobs/view/4466902726",
    "source": "linkedin",
    "posted": "2026-09-18",
@@ -4861,48 +5366,6 @@
    ],
    "key": "pwc|analytics associate operations reporting",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-09-20",
-   "is_new": false
-  },
-  {
-   "company": "Traya",
-   "title": "Senior Manager - Quality Assurance",
-   "location": "Mumbai",
-   "url": "https://www.linkedin.com/jobs/view/4466684684",
-   "source": "linkedin",
-   "posted": "2026-09-18",
-   "exp_text": "",
-   "salary_min": null,
-   "salary_max": null,
-   "currency": null,
-   "group": "similar",
-   "band": "d2c",
-   "exp_min": null,
-   "exp_max": null,
-   "exp_label": "not stated",
-   "mba": "Not mentioned",
-   "salary_label": "~₹28–42 LPA (est.)",
-   "salary_kind": "estimated",
-   "region": "india",
-   "relevance": 8,
-   "tier": "C",
-   "reasons": [
-    "experience not stated"
-   ],
-   "sources": [
-    "linkedin"
-   ],
-   "links": [
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4466684684"
-    }
-   ],
-   "variants": [
-    "Senior Manager - Quality Assurance"
-   ],
-   "key": "traya|assurance manager quality",
-   "first_seen": "2026-09-18",
    "last_seen": "2026-09-20",
    "is_new": false
   },
@@ -4949,10 +5412,10 @@
    "is_new": false
   },
   {
-   "company": "PwC India",
-   "title": "Associate",
-   "location": "Jaipur · Chennai · Ahmedabad · Mumbai · Delhi",
-   "url": "https://www.linkedin.com/jobs/view/4291066596",
+   "company": "Traya",
+   "title": "Senior Manager - Quality Assurance",
+   "location": "Mumbai",
+   "url": "https://www.linkedin.com/jobs/view/4466684684",
    "source": "linkedin",
    "posted": "2026-09-18",
    "exp_text": "",
@@ -4960,43 +5423,33 @@
    "salary_max": null,
    "currency": null,
    "group": "similar",
-   "band": "big4",
-   "exp_min": 3.0,
-   "exp_max": 4.0,
-   "exp_label": "3-4 yrs",
+   "band": "d2c",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
    "mba": "Not mentioned",
-   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_label": "~₹28–42 LPA (est.)",
    "salary_kind": "estimated",
    "region": "india",
-   "relevance": 7,
+   "relevance": 8,
    "tier": "C",
-   "reasons": [],
+   "reasons": [
+    "experience not stated"
+   ],
    "sources": [
     "linkedin"
    ],
    "links": [
     {
      "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4291066596"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4291070005"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4467872930"
-    },
-    {
-     "source": "linkedin",
-     "url": "https://www.linkedin.com/jobs/view/4373213844"
+     "url": "https://www.linkedin.com/jobs/view/4466684684"
     }
    ],
    "variants": [
-    "Associate"
+    "Senior Manager - Quality Assurance"
    ],
-   "key": "pwc|associate",
-   "first_seen": "2026-09-16",
+   "key": "traya|assurance manager quality",
+   "first_seen": "2026-09-18",
    "last_seen": "2026-09-20",
    "is_new": false
   },
@@ -5159,6 +5612,60 @@
    ],
    "key": "mondelez|lead star techno",
    "first_seen": "2026-09-18",
+   "last_seen": "2026-09-20",
+   "is_new": false
+  },
+  {
+   "company": "PwC India",
+   "title": "Associate",
+   "location": "Chennai · Ahmedabad · Mumbai · Gurugram · Jaipur · Delhi",
+   "url": "https://www.linkedin.com/jobs/view/4291070005",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "big4",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹16–24 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 5,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4291070005"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467872930"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4373231183"
+    },
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4383468676"
+    }
+   ],
+   "variants": [
+    "Associate"
+   ],
+   "key": "pwc|associate",
+   "first_seen": "2026-09-16",
    "last_seen": "2026-09-20",
    "is_new": false
   },
@@ -5563,6 +6070,48 @@
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-20",
    "is_new": false
+  },
+  {
+   "company": "Diageo India",
+   "title": "Junior Manager 5C",
+   "location": "Gurugram",
+   "url": "https://www.linkedin.com/jobs/view/4467890073",
+   "source": "linkedin",
+   "posted": "2026-09-18",
+   "exp_text": "",
+   "salary_min": null,
+   "salary_max": null,
+   "currency": null,
+   "group": "similar",
+   "band": "mnc_top",
+   "exp_min": null,
+   "exp_max": null,
+   "exp_label": "not stated",
+   "mba": "Not mentioned",
+   "salary_label": "~₹30–50 LPA (est.)",
+   "salary_kind": "estimated",
+   "region": "india",
+   "relevance": 1,
+   "tier": "C",
+   "reasons": [
+    "experience not stated"
+   ],
+   "sources": [
+    "linkedin"
+   ],
+   "links": [
+    {
+     "source": "linkedin",
+     "url": "https://www.linkedin.com/jobs/view/4467890073"
+    }
+   ],
+   "variants": [
+    "Junior Manager 5C"
+   ],
+   "key": "diageo|manager",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-09-20",
+   "is_new": true
   },
   {
    "company": "Livspace",
