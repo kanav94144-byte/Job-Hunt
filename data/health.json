@@ -1,5 +1,5 @@
 {
- "run_date": "2026-09-20",
+ "run_date": "2026-09-21",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 249,
+   "jobs": 209,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -59,19 +59,19 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 251,
+   "jobs": 238,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 76,
+   "jobs": 71,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 30,
    "errors": []
   },
   "portal:smartrecruiters:PhonePe": {
@@ -95,7 +95,7 @@
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 41,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -113,7 +113,7 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 24,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -167,7 +167,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 90,
+   "jobs": 91,
    "errors": []
   },
   "portal:darwinbox:OYO": {
@@ -257,13 +257,13 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 275,
+   "jobs": 288,
    "errors": []
   },
   "iimjobs": {
    "ok": 19,
    "failed": 0,
-   "jobs": 979,
+   "jobs": 498,
    "errors": []
   },
   "naukri (browser)": {
@@ -271,13 +271,21 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "Deloitte USI Global Rates Management-Services Assistant Manager-Hyderabad: 403 Client Error: Forbidden for url: https://usijobs.deloitte.com/en_US/careersUSI/Error"
+   ]
   }
  },
  "counts": {
-  "raw": 2911,
-  "after_filters": 335,
-  "kept": 104,
+  "raw": 2386,
+  "after_filters": 332,
+  "kept": 101,
   "duplicates_folded": 4,
-  "on_dashboard": 630
+  "on_dashboard": 641
  }
 }
