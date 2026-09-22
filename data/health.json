@@ -23,7 +23,7 @@
   "linkedin": {
    "ok": 108,
    "failed": 0,
-   "jobs": 333,
+   "jobs": 366,
    "errors": []
   },
   "portal:darwinbox:CarDekho": {
@@ -65,7 +65,7 @@
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 73,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -257,13 +257,13 @@
   "discovery:linkedin": {
    "ok": 13,
    "failed": 0,
-   "jobs": 279,
+   "jobs": 272,
    "errors": []
   },
   "iimjobs": {
    "ok": 19,
    "failed": 0,
-   "jobs": 1047,
+   "jobs": 1039,
    "errors": []
   },
   "naukri (browser)": {
@@ -274,10 +274,10 @@
   }
  },
  "counts": {
-  "raw": 3059,
-  "after_filters": 497,
-  "kept": 162,
+  "raw": 3078,
+  "after_filters": 505,
+  "kept": 170,
   "duplicates_folded": 3,
-  "on_dashboard": 698
+  "on_dashboard": 724
  }
 }
