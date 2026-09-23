@@ -1,62 +1,130 @@
 {
- "CarDekho": {
+ "Accenture Strategy": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Acko": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Alvarez & Marsal": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Amagi": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Apollo Tyres": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Ather Energy": {
   "type": "darwinbox",
-  "tenant": "cardekho",
+  "tenant": "atherenergy",
   "probed": true
  },
- "The Whole Truth": {
-  "type": "keka",
-  "tenant": "thewholetruthfoods",
-  "probed": true
+ "Atlan": {
+  "type": "ashby",
+  "tenant": "atlan",
+  "probed": true,
+  "checked": "2026-09-23"
  },
- "boAt": {
+ "Atlassian": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Bain & Company": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Bewakoof": {
   "type": "darwinbox",
-  "tenant": "boat",
-  "probed": true
+  "tenant": "bewakoof",
+  "probed": true,
+  "checked": "2026-09-23"
  },
- "Delhivery": {
+ "BharatPe": {
   "type": "darwinbox",
-  "tenant": "delhivery",
-  "probed": true
- },
- "GoKwik": {
-  "type": "keka",
-  "tenant": "gokwik",
-  "probed": true
- },
- "Pine Labs": {
-  "type": "darwinbox",
-  "tenant": "pinelabs",
-  "probed": true
- },
- "Juspay": {
-  "type": "darwinbox",
-  "tenant": "juspay",
-  "probed": true
- },
- "PayU": {
-  "type": "darwinbox",
-  "tenant": "payu",
-  "probed": true
- },
- "Zepto": {
-  "type": "darwinbox",
-  "tenant": "zepto",
-  "probed": true
+  "tenant": "bharatpe",
+  "probed": true,
+  "checked": "2026-09-23"
  },
  "BigBasket": {
   "type": "darwinbox",
   "tenant": "bigbasket",
   "probed": true
  },
- "Purplle": {
+ "Bira 91": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Bizongo": {
   "type": "darwinbox",
-  "tenant": "purplle",
+  "tenant": "bizongo",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "BlackBuck": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Blinkit / Zomato (Eternal)": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Blue Tokai": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "BlueStone": {
+  "type": "greenhouse",
+  "tenant": "bluestone",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Bombay Shaving Company": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Booking Holdings (Agoda/Booking.com)": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Boston Consulting Group": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "BrowserStack": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "CEAT": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "CRED": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Capillary Technologies": {
+  "type": "darwinbox",
+  "tenant": "capillarytech",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "CarDekho": {
+  "type": "darwinbox",
+  "tenant": "cardekho",
   "probed": true
  },
- "Kapiva": {
+ "CarTrade Tech (CarWale)": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "CaratLane": {
   "type": "darwinbox",
-  "tenant": "kapiva",
+  "tenant": "caratlane",
   "probed": true
  },
  "Cars24": {
@@ -64,44 +132,734 @@
   "tenant": "cars24",
   "probed": true
  },
- "Ather Energy": {
+ "Cashfree Payments": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Chaayos": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Chargebee": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "CityMall": {
   "type": "darwinbox",
-  "tenant": "atherenergy",
+  "tenant": "citymall",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "CleverTap": {
+  "type": "darwinbox",
+  "tenant": "clevertap",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "CoinDCX": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Country Delight": {
+  "type": "darwinbox",
+  "tenant": "countrydelight",
   "probed": true
  },
- "OYO": {
+ "Cult.fit": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Curefoods": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Dabur": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Darwinbox": {
   "type": "darwinbox",
-  "tenant": "oyo",
+  "tenant": "darwinbox",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "DeHaat": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "DealShare": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Deconstruct": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Delhivery": {
+  "type": "darwinbox",
+  "tenant": "delhivery",
   "probed": true
  },
- "NoBroker": {
+ "Ditto Insurance": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Dot & Key": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Dream Sports (Dream11)": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Duroflex": {
   "type": "darwinbox",
-  "tenant": "nobroker",
+  "tenant": "duroflex",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "EY GDS": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "EaseMyTrip": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "EatClub": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Ecom Express": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Eka Care": {
+  "type": "keka",
+  "tenant": "ekacare",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "ElasticRun": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Emeritus": {
+  "type": "darwinbox",
+  "tenant": "emeritus",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Epigamia": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Exotel": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Farmley": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Fi Money": {
+  "type": "lever",
+  "tenant": "epifi",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "FirstCry": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Flipkart": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Foxtale": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Freshworks": {
+  "type": "smartrecruiters",
+  "tenant": "freshworks",
+  "probed": true,
+  "company_id": "freshworks",
+  "country": "in",
+  "checked": "2026-09-23"
+ },
+ "Fyle": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "GIVA": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Games24x7": {
+  "type": "darwinbox",
+  "tenant": "games24x7",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Go Digit": {
+  "type": "darwinbox",
+  "tenant": "godigit",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "GoKwik": {
+  "type": "keka",
+  "tenant": "gokwik",
   "probed": true
  },
- "Snabbit": {
+ "Godrej Consumer Products": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Groww": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Gupshup": {
   "type": "darwinbox",
-  "tenant": "snabbit",
+  "tenant": "gupshup",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Haptik": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "HealthKart": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "HealthifyMe": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Hector Beverages (Paper Boat)": {
+  "type": "darwinbox",
+  "tenant": "hectorbeverages",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Hevo Data": {
+  "type": "lever",
+  "tenant": "hevodata",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "HighRadius": {
+  "type": "darwinbox",
+  "tenant": "highradius",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Hindustan Unilever": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Honasa Consumer (Mamaearth)": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "INDmoney": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "ITC": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Icertis": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "InMobi / Glance": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Indifi": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Infra.Market": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Innovaccer": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Jar": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Jumbotail": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Jupiter": {
+  "type": "keka",
+  "tenant": "jupiter",
   "probed": true
  },
- "Pristyn Care": {
+ "Juspay": {
   "type": "darwinbox",
-  "tenant": "pristyncare",
+  "tenant": "juspay",
   "probed": true
  },
- "CaratLane": {
+ "KPMG India": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Kapiva": {
   "type": "darwinbox",
-  "tenant": "caratlane",
+  "tenant": "kapiva",
   "probed": true
+ },
+ "Kapture CX": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Kearney": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Keka HR": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Khatabook": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Kissflow": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "KreditBee": {
+  "type": "darwinbox",
+  "tenant": "kreditbee",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Krutrim": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Kuku FM": {
+  "type": "keka",
+  "tenant": "kukufm",
+  "probed": true
+ },
+ "Lahori Zeera": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "LeadSquared": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Leap Finance": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Lendingkart": {
+  "type": "smartrecruiters",
+  "tenant": "lendingkart",
+  "probed": true,
+  "company_id": "lendingkart",
+  "country": "in",
+  "checked": "2026-09-23"
+ },
+ "Lenskart": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Lentra": {
+  "type": "darwinbox",
+  "tenant": "lentra",
+  "probed": true,
+  "checked": "2026-09-23"
  },
  "Licious": {
   "type": "darwinbox",
   "tenant": "licious",
   "probed": true
  },
- "Wakefit": {
+ "Livspace": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "LoadShare": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "M2P Fintech": {
   "type": "darwinbox",
-  "tenant": "wakefit",
+  "tenant": "m2p",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "MPL": {
+  "type": "darwinbox",
+  "tenant": "mpl",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "MRF": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Marico": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "McKinsey & Company": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Medhavi": {
+  "type": "keka",
+  "tenant": "medhavi",
+  "harvested": true,
+  "checked": "2026-09-23"
+ },
+ "MediBuddy": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Meesho": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Meta": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Microsoft": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Mindtickle": {
+  "type": "lever",
+  "tenant": "mindtickle",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Minimalist": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Mintifi": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "MoEngage": {
+  "type": "darwinbox",
+  "tenant": "moengage",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Moglix": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Mokobara": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Mondelez": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Mosaic Health (Man Matters/Be Bodywise)": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Nat Habit": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Navi Technologies": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Nestle India": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Netcore Cloud": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Ninjacart": {
+  "type": "darwinbox",
+  "tenant": "ninjacart",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "NoBroker": {
+  "type": "darwinbox",
+  "tenant": "nobroker",
+  "probed": true
+ },
+ "Noise": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Nua": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Nykaa": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "OYO": {
+  "type": "darwinbox",
+  "tenant": "oyo",
+  "probed": true
+ },
+ "OZiva": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Observe.AI": {
+  "type": "greenhouse",
+  "tenant": "observeai",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "OfBusiness": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "OkCredit": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Ola": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Ola Electric": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "OneCard": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Open Financial Technologies": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "PB Fintech (Policybazaar)": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Park+": {
+  "type": "darwinbox",
+  "tenant": "parkplus",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "PayU": {
+  "type": "darwinbox",
+  "tenant": "payu",
+  "probed": true
+ },
+ "Paytm": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Pepperfry": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "PepsiCo": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Perfios": {
+  "type": "darwinbox",
+  "tenant": "perfios",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "PharmEasy": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Physics Wallah": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Pilgrim": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Pine Labs": {
+  "type": "darwinbox",
+  "tenant": "pinelabs",
+  "probed": true
+ },
+ "Plum": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "PlumHQ": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Pocket FM": {
+  "type": "darwinbox",
+  "tenant": "pocketfm",
+  "probed": true
+ },
+ "Postman": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Practo": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Pratilipi": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Pristyn Care": {
+  "type": "darwinbox",
+  "tenant": "pristyncare",
+  "probed": true
+ },
+ "Procter & Gamble": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Purplle": {
+  "type": "darwinbox",
+  "tenant": "purplle",
+  "probed": true
+ },
+ "PwC India": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Qure.ai": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Razorpay": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "ReNew": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Rebel Foods": {
+  "type": "smartrecruiters",
+  "tenant": "rebelfoods",
+  "probed": true,
+  "company_id": "rebelfoods",
+  "country": "in",
+  "checked": "2026-09-23"
+ },
+ "Reckitt": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Reliance Retail": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Rippling India": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Rocketlane": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Rupeek": {
+  "type": "darwinbox",
+  "tenant": "rupeek",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "STAGE OTT": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "SUGAR Cosmetics": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Sarvam AI": {
+  "type": "ashby",
+  "tenant": "sarvam",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Scaler": {
+  "type": "darwinbox",
+  "tenant": "interviewbit",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Scapia": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Seekho": {
+  "type": "workable",
+  "tenant": "seekho",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Setu": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Shadowfax": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "ShareChat": {
+  "type": "darwinbox",
+  "tenant": "sharechat",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Shiprocket": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Shipsy": {
+  "type": "keka",
+  "tenant": "shipsy",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Signzy": {
+  "type": "keka",
+  "tenant": "signzy",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Sleepy Owl": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Snabbit": {
+  "type": "darwinbox",
+  "tenant": "snabbit",
   "probed": true
  },
  "Snitch": {
@@ -109,34 +867,248 @@
   "tenant": "snitch",
   "probed": true
  },
- "Pocket FM": {
+ "Spinny": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Sprinklr": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Spyne": {
+  "type": "keka",
+  "tenant": "spyneai",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Stable Money": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "SuperYou": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Tata CLiQ": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Tata Consumer Products": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Tata Power Renewables": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "The Man Company": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "The Sleep Company": {
   "type": "darwinbox",
-  "tenant": "pocketfm",
+  "tenant": "thesleepcompany",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "The Souled Store": {
+  "type": "keka",
+  "tenant": "thesouledstore",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "The Whole Truth": {
+  "type": "keka",
+  "tenant": "thewholetruthfoods",
   "probed": true
+ },
+ "Third Wave Coffee": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Titan Company": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Traya": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Truemeds": {
+  "type": "keka",
+  "tenant": "truemeds",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Turtlemint": {
+  "type": "darwinbox",
+  "tenant": "turtlemint",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Uber": {
+  "type": null,
+  "checked": "2026-09-23"
  },
  "Udaan": {
   "type": "darwinbox",
   "tenant": "udaan",
   "probed": true
  },
- "Jupiter": {
+ "Ultrahuman": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Unacademy": {
+  "type": "darwinbox",
+  "tenant": "unacademy",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Uni Cards": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Uniphore": {
+  "type": "darwinbox",
+  "tenant": "uniphore",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Urban Ladder": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "VerSe Innovation (Dailyhunt)": {
+  "type": "greenhouse",
+  "tenant": "verse",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Vyapar": {
   "type": "keka",
-  "tenant": "jupiter",
+  "tenant": "vyaparapp",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Wakefit": {
+  "type": "darwinbox",
+  "tenant": "wakefit",
   "probed": true
+ },
+ "WebEngage": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Wellbeing Nutrition": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Whatfix": {
+  "type": "smartrecruiters",
+  "tenant": "whatfix",
+  "probed": true,
+  "company_id": "whatfix",
+  "country": "in",
+  "checked": "2026-09-23"
+ },
+ "Wow Skin Science": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Wow! Momo": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Xpressbees": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Yellow.ai": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Yoga Bar": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Yulu": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "ZS Associates": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Zenoti": {
+  "type": "greenhouse",
+  "tenant": "zenoti",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "Zepto": {
+  "type": "darwinbox",
+  "tenant": "zepto",
+  "probed": true
+ },
+ "Zerodha": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Zeta": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Zetwerk": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Zluri": {
+  "type": "keka",
+  "tenant": "zluri",
+  "probed": true,
+  "checked": "2026-09-23"
  },
  "Zolve": {
   "type": "darwinbox",
   "tenant": "zolve",
   "probed": true
  },
- "Kuku FM": {
-  "type": "keka",
-  "tenant": "kukufm",
+ "Zouk": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "apna.co": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "boAt": {
+  "type": "darwinbox",
+  "tenant": "boat",
   "probed": true
  },
- "Country Delight": {
+ "ixigo": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "mCaffeine": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "slice": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "smallcase": {
   "type": "darwinbox",
-  "tenant": "countrydelight",
-  "probed": true
+  "tenant": "smallcase",
+  "probed": true,
+  "checked": "2026-09-23"
+ },
+ "upGrad": {
+  "type": "darwinbox",
+  "tenant": "upgrad",
+  "probed": true,
+  "checked": "2026-09-23"
  }
 }
