@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 61,
+   "jobs": 62,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -53,13 +53,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 249,
+   "jobs": 251,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 76,
+   "jobs": 74,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -119,7 +119,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 128,
+   "jobs": 127,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -143,7 +143,7 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 13,
+   "jobs": 12,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -204,6 +204,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 104,
+   "errors": []
+  },
+  "portal:smartrecruiters:ixigo": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 10,
    "errors": []
   },
   "portal:darwinbox:OYO": {
@@ -377,7 +383,7 @@
   "portal:ashby:Sarvam AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 60,
+   "jobs": 61,
    "errors": []
   },
   "portal:greenhouse:Observe.AI": {
@@ -419,7 +425,7 @@
   "portal:darwinbox:M2P Fintech": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 31,
    "errors": []
   },
   "portal:darwinbox:BharatPe": {
@@ -602,16 +608,40 @@
    "jobs": 0,
    "errors": []
   },
+  "portal:keka:DocOnline": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 19,
+   "errors": []
+  },
+  "portal:workday:Genpact": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 291,
+   "errors": []
+  },
+  "portal:workday:Huron Consulting Group": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 64,
+   "errors": []
+  },
   "portal:keka:Medhavi": {
    "ok": 1,
    "failed": 0,
    "jobs": 71,
    "errors": []
   },
-  "linkedin": {
-   "ok": 102,
+  "portal:keka:Sioniq": {
+   "ok": 1,
    "failed": 0,
-   "jobs": 358,
+   "jobs": 31,
+   "errors": []
+  },
+  "linkedin": {
+   "ok": 101,
+   "failed": 0,
+   "jobs": 352,
    "errors": []
   },
   "discovery:linkedin": {
@@ -623,7 +653,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1037,
+   "jobs": 1071,
    "errors": []
   },
   "discovery:google": {
@@ -635,7 +665,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1749,
+   "jobs": 1414,
    "errors": []
   },
   "naukri (browser)": {
@@ -643,94 +673,61 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "Infosys Senior Consultant/Consultant \u2013 Program Manager: HTTPSConnectionPool(host='www.linkedin.com', port=443): Read timed out. (read timeout=30)"
-   ]
   }
  },
  "descriptions": {
-  "careers portal": 6,
-  "linkedin": 175,
-  "iimjobs": 7
+  "careers portal": 17,
+  "linkedin": 89,
+  "iimjobs": 8
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 1,
+ "portals_learned_from_links": 2,
  "funnel": {
   "careers portal": {
-   "raw": 2943,
-   "after_filters": 462,
-   "kept_new": 19
+   "raw": 3359,
+   "after_filters": 525,
+   "kept_new": 23
   },
   "linkedin": {
-   "raw": 1708,
-   "after_filters": 857,
-   "kept_new": 60
+   "raw": 1702,
+   "after_filters": 839,
+   "kept_new": 32
   },
   "indeed": {
-   "raw": 1037,
-   "after_filters": 292,
-   "kept_new": 13
+   "raw": 1071,
+   "after_filters": 303,
+   "kept_new": 17
   },
   "iimjobs": {
-   "raw": 1749,
-   "after_filters": 178,
-   "kept_new": 3
+   "raw": 1414,
+   "after_filters": 203,
+   "kept_new": 5
   }
  },
  "watchlist": {
-  "size": 62,
+  "size": 69,
   "added_this_run": [
-   "Multiplier AI",
-   "Blue Matter",
-   "Dun & Bradstreet",
-   "Autonex AI",
-   "YNOS Venture Engine",
-   "Praveedh D\u00e9cor | Premium High Quality Panels & Laminates",
-   "Commutec Luxury",
-   "Welspun Enterprises Ltd",
-   "DocOnline",
-   "Conquer Technologies",
-   "cargo-partner",
-   "Faceecho.ai",
-   "TurnB",
-   "IDFC FIRST Bank",
-   "JioStar",
-   "Clearwater Analytics",
-   "Smart Food Safe",
-   "Pharmed Limited",
-   "Ripple",
-   "Remitly",
-   "Bluecrux",
-   "Nextbigbox",
-   "Kharesiya Brands pvt ltd",
-   "Genpact",
-   "Payoneer",
-   "MINTREE PREMIER LIFESTYLE AND BEAUTY PRIVATE LIMITED",
-   "Sioniq",
-   "Pooja Pooja",
-   "ampus solutions Pvt Ltd",
-   "SpaceDraft India Pvt Ltd.,",
-   "Huron Consulting Group",
-   "D2F"
+   "Nandaka Real Asset Advisory",
+   "Michael Page",
+   "Vansun Mediatech",
+   "Oliveboard Comptech",
+   "RoadMate",
+   "Vodafone",
+   "Delta Exchange"
   ],
-  "with_portal": 4
+  "with_portal": 5
  },
  "counts": {
-  "raw": 7437,
-  "after_filters": 1789,
-  "judged": 468,
-  "kept": 95,
-  "duplicates_folded": 17,
-  "on_dashboard": 973,
+  "raw": 7546,
+  "after_filters": 1870,
+  "judged": 379,
+  "kept": 77,
+  "duplicates_folded": 21,
+  "on_dashboard": 1027,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 30
+   "auto": 62
   }
  }
 }
