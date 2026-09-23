@@ -1,7 +1,10 @@
 # HOW THIS LIST WORKS
-# 1. If a company has "ats", its own careers portal is read first (verified connectors).
-# 2. If not, the scanner tries to detect a Darwinbox/Keka portal automatically (and remembers it in data/portals.json).
+# 1. If a company has "ats", its own careers portal is read first.
+# 2. If not, the scanner learns the portal from apply links it sees (Lever, Greenhouse, Workday, Darwinbox …) or
+#    tries to detect a Darwinbox/Keka portal from the name, and remembers it in data/portals.json.
 # 3. If no portal is readable, LinkedIn is searched by company name as a fallback.
+# Wider, portal-only lists live in config/seed_companies.yml; companies the scan finds on its own go to
+# data/companies_auto.json (auto-watchlist). Only companies in THIS file get their own LinkedIn search.
 # aliases = how the company name appears on LinkedIn. group = target (your list) | similar (competitors) | startup
 # band = pay band used to estimate salary when not stated: mnc_top, big4, listed_tech, unicorn, funded_startup, d2c, large_indian
 
@@ -100,7 +103,10 @@ companies:
   - {name: BlackBuck, aliases: ["BlackBuck", "Zinka Logistics"], group: similar, band: listed_tech}
   - {name: GoKwik, aliases: ["GoKwik"], group: similar, band: funded_startup}
   # payments / fintech (Amex, Visa, PhonePe)
-  - {name: Mastercard, aliases: ["Mastercard"], group: similar, band: mnc_top}
+  # ats lines marked "unverified" were added from memory: if health.json shows them failing, delete the ats part
+  # (LinkedIn fallback still runs when a portal fails, and the link harvester will learn the right portal).
+  - {name: Mastercard, aliases: ["Mastercard"], group: similar, band: mnc_top,
+     ats: {type: workday, tenant: mastercard, site: CorporateCareers, wd: wd1, search: ["India", "Pune", "Gurugram", "Bengaluru", "Mumbai"]}}  # unverified
   - {name: Paytm, aliases: ["Paytm", "One97 Communications"], group: similar, band: listed_tech}
   - {name: Razorpay, aliases: ["Razorpay"], group: similar, band: unicorn}
   - {name: CRED, aliases: ["CRED"], linkedin_query: "CRED fintech", group: similar, band: unicorn}
@@ -108,7 +114,8 @@ companies:
   - {name: Juspay, aliases: ["Juspay"], group: similar, band: unicorn}
   - {name: PayU, aliases: ["PayU", "PayU India"], group: similar, band: unicorn}
   - {name: Groww, aliases: ["Groww"], group: similar, band: unicorn}
-  - {name: PayPal, aliases: ["PayPal"], group: similar, band: mnc_top}
+  - {name: PayPal, aliases: ["PayPal"], group: similar, band: mnc_top,
+     ats: {type: workday, tenant: paypal, site: jobs, wd: wd1, search: ["India", "Bengaluru", "Chennai", "Hyderabad"]}}  # unverified
   # consulting (Deloitte USI)
   - {name: EY GDS, aliases: ["EY", "EY GDS", "Ernst & Young", "EY Global Delivery Services"], group: similar, band: big4}
   - {name: PwC India, aliases: ["PwC", "PwC India", "PwC Acceleration Centers in India"], group: similar, band: big4}
@@ -121,11 +128,14 @@ companies:
   - {name: Kearney, aliases: ["Kearney"], group: similar, band: mnc_top}
   - {name: Alvarez & Marsal, aliases: ["Alvarez & Marsal"], group: similar, band: mnc_top}
   # big tech (Google, Uber, Walmart)
-  - {name: Amazon, aliases: ["Amazon", "Amazon India", "Amazon Web Services (AWS)", "AWS"], group: similar, band: mnc_top}
+  - {name: Amazon, aliases: ["Amazon", "Amazon India", "Amazon Web Services (AWS)", "AWS"], group: similar, band: mnc_top,
+     ats: {type: amazon, max_jobs: 500}}  # amazon.jobs public search, India only
   - {name: Microsoft, aliases: ["Microsoft", "Microsoft India"], group: similar, band: mnc_top}
   - {name: Meta, aliases: ["Meta"], linkedin_query: "Meta Platforms", group: similar, band: mnc_top}
-  - {name: Salesforce, aliases: ["Salesforce"], group: similar, band: mnc_top}
-  - {name: Adobe, aliases: ["Adobe"], group: similar, band: mnc_top}
+  - {name: Salesforce, aliases: ["Salesforce"], group: similar, band: mnc_top,
+     ats: {type: workday, tenant: salesforce, site: External_Career_Site, wd: wd12, search: ["India", "Bengaluru", "Hyderabad", "Mumbai", "Gurugram"]}}  # unverified
+  - {name: Adobe, aliases: ["Adobe"], group: similar, band: mnc_top,
+     ats: {type: workday, tenant: adobe, site: external_experienced, wd: wd5, search: ["India", "Noida", "Bengaluru", "Mumbai"]}}  # unverified
   - {name: Atlassian, aliases: ["Atlassian"], group: similar, band: mnc_top}
   # quick commerce / food delivery / cloud kitchens (Swiggy, Rebel Foods)
   - {name: Zepto, aliases: ["Zepto", "Kiranakart Technologies"], group: similar, band: unicorn, title_only: "\\bprogram(me)?\\s+manager\\b|\\bsenior\\s+manager\\b|\\bsr\\.?\\s+manager\\b"}
@@ -169,7 +179,8 @@ companies:
   - {name: Reckitt, aliases: ["Reckitt"], group: similar, band: mnc_top}
   - {name: PepsiCo, aliases: ["PepsiCo"], group: similar, band: mnc_top}
   - {name: Mondelez, aliases: ["Mondelēz International", "Mondelez International"], group: similar, band: mnc_top}
-  - {name: Diageo India, aliases: ["Diageo", "Diageo India"], group: similar, band: mnc_top}
+  - {name: Diageo India, aliases: ["Diageo", "Diageo India"], group: similar, band: mnc_top,
+     ats: {type: workday, tenant: diageo, site: Diageo_Careers, wd: wd3, search: ["India", "Bengaluru", "Mumbai", "Gurugram"]}}  # unverified
   # auto marketplaces & EV (CarDekho, CEAT, SolarSquare)
   - {name: Cars24, aliases: ["CARS24", "Cars24"], group: similar, band: unicorn}
   - {name: Spinny, aliases: ["Spinny"], group: similar, band: unicorn}
@@ -225,6 +236,13 @@ companies:
   - {name: Rippling India, aliases: ["Rippling"], group: startup, band: mnc_top}
 
 # Open searches (not tied to a company) to discover other companies. Kept only if they mention MBA/tier-1 OR state pay >= floor.
+# Each search runs on every site below; the number is how many results to read per search on that site.
+# (LinkedIn used to read only 25 per search, so busy searches like "category manager" showed the same top 25 every run.)
+discovery_sites:
+  linkedin: 50
+  indeed: 50
+  google: 30
+
 discovery_searches:
   india:
     - "founder's office"
@@ -237,6 +255,22 @@ discovery_searches:
     - "category manager"
     - "AI strategy"
     - "MBA strategy"
+    # SaaS / B2B / VC-backed startups
+    - "GTM strategy manager"
+    - "revenue operations manager"
+    - "strategic partnerships manager"
+    - "strategic alliances manager"
+    - "business operations manager"
+    - "enterprise account manager SaaS"
+    - "business development SaaS"
+    - "corporate development associate"
+    - "growth product manager"
+    - "strategy associate startup"
+    - "chief of staff CEO office"
+    # consumer / D2C / e-commerce (same sectors as your list)
+    - "brand manager D2C"
+    - "category lead e-commerce"
+    - "program manager business operations"
   international:
     - {term: "strategy manager MBA", location: "Dubai, United Arab Emirates"}
     - {term: "strategy manager MBA", location: "Singapore"}
@@ -263,3 +297,10 @@ board_searches:
   - sales manager
   - marketing manager
   - AI
+  - saas
+  - b2b
+  - alliances
+  - revenue operations
+  - brand manager
+  - d2c
+  - e-commerce

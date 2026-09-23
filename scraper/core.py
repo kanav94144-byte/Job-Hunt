@@ -148,6 +148,22 @@ def classify_location(loc: str, profile) -> Optional[str]:
     return "india"   # searches are India-scoped; portal connectors already drop other countries
 
 
+_INDIA_PLACES = re.compile(r"\b(india|ind|bengaluru|bangalore|gurugram|gurgaon|delhi|ncr|noida|mumbai|pune|hyderabad|chennai|"
+                           r"kolkata|ahmedabad|jaipur|chandigarh|kochi|indore|coimbatore|lucknow|thane|karnataka|maharashtra|"
+                           r"haryana|telangana|tamil nadu)\b", re.I)
+
+
+def in_scope_location(loc: str, profile) -> bool:
+    """For global ATS boards (Greenhouse, Lever, Ashby, Workable, Recruitee) that list every country:
+    keep India roles and the international cities in profile.yml; drop the rest (incl. bare 'Remote')."""
+    l = (loc or "").lower()
+    if not l.strip():
+        return True
+    if _INDIA_PLACES.search(l):
+        return True
+    return any(k in l for k in profile["locations"]["international"])
+
+
 # ----------------------------------------------------------------- evaluation
 class Evaluator:
     def __init__(self, profile: dict):
@@ -163,6 +179,15 @@ class Evaluator:
 
     def title_ok(self, title: str) -> bool:
         return bool(self.kw.search(title or "")) and not self.ex.search(title or "")
+
+    @staticmethod
+    def gate(job) -> str:
+        return getattr(job, "_gate", None) or ("strict" if job.group == "discovered" else "lenient")
+
+    def worth_details(self, job) -> bool:
+        """Cheap pre-check before spending a request on the job description:
+        strict/medium roles are dropped later anyway unless the title is strong."""
+        return self.gate(job) == "lenient" or bool(self.strong_title.search(job.title or ""))
 
     def evaluate(self, job: Job) -> bool:
         """Fill derived fields. Returns False if the job should be dropped."""
@@ -214,7 +239,7 @@ class Evaluator:
             job.salary_kind = "estimated"
             job.salary_label = "~" + fmt_money(lo, hi, "INR") + " (est.)"
             if hi < 0.9 * floor["INR"]:
-                if job.group == "discovered":
+                if self.gate(job) != "lenient":
                     return False
                 low_salary = True
                 job.reasons.append("estimated pay may be below 20 LPA")
@@ -229,10 +254,15 @@ class Evaluator:
             score += 5
         job.relevance = min(score, 40)
 
-        # discovery results must carry a strong signal
-        if job.group == "discovered":
+        # How strict to be depends on how much we already trust the company:
+        #   lenient = your curated list (config/companies.yml)
+        #   medium  = seed list / auto-watchlist companies (vetted company, but their whole portal is read)
+        #   strict  = any other company found through open searches
+        gate = self.gate(job)
+        if gate in ("strict", "medium"):
             if not self.strong_title.search(job.title) or job.relevance < 8:
                 return False
+        if gate == "strict":
             if job.source == "naukri":
                 # Naukri has many small-company / mass-hiring posts: keep only if MBA is asked or pay (>= 20 LPA) is stated
                 if not (m or job.salary_kind == "stated"):
@@ -358,7 +388,7 @@ def merge_locations(a: str, b: str) -> str:
     return " · ".join(cities)
 
 
-SOURCE_RANK = {"careers portal": 0, "iimjobs": 2, "naukri": 3, "linkedin": 1}
+SOURCE_RANK = {"careers portal": 0, "linkedin": 1, "iimjobs": 2, "naukri": 3, "indeed": 4, "google": 5}
 
 
 def _src_rank(d: dict) -> int:

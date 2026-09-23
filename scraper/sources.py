@@ -2,10 +2,13 @@
 (the runner catches errors per source and records them in data/health.json)."""
 from __future__ import annotations
 
+import json
 import random
 import re
+import threading
 import time
 from datetime import datetime, timedelta, timezone
+from urllib.parse import parse_qs, unquote, urlparse
 
 import requests
 
@@ -13,8 +16,25 @@ from .core import Job, html_to_text, to_iso
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
-S = requests.Session()
-S.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+
+
+class _ThreadSession:
+    """One requests.Session per thread (portals are fetched in parallel; Session isn't thread-safe)."""
+    _local = threading.local()
+
+    def _s(self) -> requests.Session:
+        s = getattr(self._local, "s", None)
+        if s is None:
+            s = requests.Session()
+            s.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+            self._local.s = s
+        return s
+
+    def __getattr__(self, k):
+        return getattr(self._s(), k)
+
+
+S = _ThreadSession()
 
 
 def nap(a=2.0, b=5.0):
@@ -37,17 +57,23 @@ def days_ago(n: int) -> str:
     return (datetime.now(timezone.utc) - timedelta(days=n)).date().isoformat()
 
 
-# ------------------------------------------------------------ LinkedIn + Naukri (via JobSpy)
+# ------------------------------------------------------------ LinkedIn / Indeed / Google Jobs / Naukri (via JobSpy)
+_INDEED_COUNTRY = {"india": "India", "united arab emirates": "United Arab Emirates", "dubai": "United Arab Emirates",
+                   "singapore": "Singapore", "united kingdom": "UK", "london": "UK"}
+
+
 def jobspy_search(site: str, term: str, location: str, hours_old: int, results: int) -> list[Job]:
     from jobspy import scrape_jobs
+    loc_l = (location or "").lower()
+    country = next((v for k, v in _INDEED_COUNTRY.items() if k in loc_l), "India")
     df = scrape_jobs(
         site_name=[site],
         search_term=term,
         location=location,
         hours_old=hours_old,
         results_wanted=results,
-        country_indeed="India",
-        linkedin_fetch_description=(site == "naukri"),  # naukri descriptions come free with search
+        country_indeed=country,
+        linkedin_fetch_description=False,  # we fetch LinkedIn details ourselves, only for roles that survive filters
         description_format="markdown",
         verbose=0,
     )
@@ -71,17 +97,105 @@ def jobspy_search(site: str, term: str, location: str, hours_old: int, results: 
         )
         if site == "linkedin":
             j.url = str(val("job_url") or j.url)
+        j._apply_url = str(val("job_url_direct") or "")   # often the company's own ATS link -> portal discovery
         jobs.append(j)
     return jobs
 
 
-def linkedin_description(job_url: str) -> str:
-    m = re.search(r"(\d{8,})", job_url or "")
+# LinkedIn's guest pages rate-limit per IP. Instead of sleeping 20s+40s on every 429 (which stalls the run),
+# stop asking LinkedIn for details after a few 429s in a row and let the rest of the run finish.
+LINKEDIN = {"consecutive_429": 0, "blocked": False, "fetched": 0}
+
+
+def linkedin_detail(job: Job) -> None:
+    """Fill job.description (and job._apply_url when the role applies on the company's own site)."""
+    if LINKEDIN["blocked"]:
+        return
+    m = re.search(r"(\d{8,})", job.url or "")
     if not m:
-        return ""
-    r = get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{m.group(1)}")
+        return
+    r = S.get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{m.group(1)}", timeout=30)
+    if r.status_code == 429:
+        LINKEDIN["consecutive_429"] += 1
+        if LINKEDIN["consecutive_429"] >= 4:
+            LINKEDIN["blocked"] = True
+        time.sleep(8)
+        return
+    r.raise_for_status()
+    LINKEDIN["consecutive_429"] = 0
+    LINKEDIN["fetched"] += 1
     mm = re.search(r'show-more-less-html__markup[^>]*>(.*?)</div>', r.text, re.S)
-    return html_to_text(mm.group(1)) if mm else ""
+    job.description = html_to_text(mm.group(1)) if mm else ""
+    am = re.search(r'id="applyUrl"[^>]*>\s*<!--\s*"?([^"<]+)', r.text)
+    if am:
+        q = parse_qs(urlparse(am.group(1)).query).get("url")
+        job._apply_url = unquote(q[0]) if q else am.group(1)
+
+
+def linkedin_description(job_url: str) -> str:      # kept for backwards compatibility
+    j = Job(company="", title="", url=job_url)
+    linkedin_detail(j)
+    return j.description
+
+
+# ------------------------------------------------------------ any job page with schema.org JobPosting (iimjobs, Google Jobs links …)
+def jsonld_detail(job: Job) -> None:
+    """Read the JobPosting JSON-LD block most job pages embed for Google for Jobs.
+    Deliberately does NOT fall back to the whole page text: site menus often say "MBA jobs",
+    which would falsely mark every role as MBA-asked."""
+    url = getattr(job, "_detail", None) or job.url
+    if not url:
+        return
+    h = get(url).text
+    post = _jobposting_from_html(h)
+    if post:
+        desc = html_to_text(html_unescape(str(post.get("description") or "")))
+        edu = post.get("educationRequirements")
+        if isinstance(edu, dict):
+            edu = edu.get("credentialCategory") or edu.get("name")
+        exp = post.get("experienceRequirements")
+        if isinstance(exp, dict):
+            months = exp.get("monthsOfExperience")
+            exp = f"{float(months) / 12:g}+ years experience" if months else exp.get("description")
+        job.description = "\n".join(x for x in [desc, f"Education: {edu}" if edu else "", str(exp or "")] if x)
+        if not job.exp_text and exp:
+            job.exp_text = str(exp)
+        return
+    # Next.js pages: look for the longest "...description" string in the page data
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
+    if m:
+        try:
+            best = max(_strings_under(json.loads(m.group(1)), re.compile(r"desc|^jd$", re.I)), key=len, default="")
+            if len(best) > 200:
+                job.description = html_to_text(html_unescape(best))
+        except ValueError:
+            pass
+
+
+def _jobposting_from_html(h: str) -> dict | None:
+    for m in re.finditer(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', h, re.S | re.I):
+        try:
+            d = json.loads(m.group(1).strip())
+        except ValueError:
+            continue
+        for item in (d if isinstance(d, list) else d.get("@graph", [d]) if isinstance(d, dict) else []):
+            if isinstance(item, dict) and "JobPosting" in str(item.get("@type", "")):
+                return item
+    return None
+
+
+def _strings_under(o, key_re, depth=0):
+    if depth > 12:
+        return
+    if isinstance(o, dict):
+        for k, v in o.items():
+            if isinstance(v, str) and key_re.search(k):
+                yield v
+            else:
+                yield from _strings_under(v, key_re, depth + 1)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _strings_under(v, key_re, depth + 1)
 
 
 # ------------------------------------------------------------ SmartRecruiters (Visa, PhonePe)
@@ -398,19 +512,28 @@ def google_detail(job: Job) -> None:
 
 
 # ------------------------------------------------------------ auto-discovery of portals by slug
+GLOBAL_ATS = ("greenhouse", "lever", "ashby", "workable", "recruitee", "smartrecruiters")
+
+
 def probe_portals(slugs: list[str], global_ats: bool = False) -> dict | None:
-    """Try common Indian-startup ATS hosts for a company slug. Returns an ats cfg or None."""
+    """Try common ATS hosts for a company slug. Returns an ats cfg or None.
+    Indian ATSs (Darwinbox, Keka) are always tried; global ones only when the company has explicit slugs,
+    because a generic slug on Lever/Greenhouse often belongs to a different company abroad."""
     for slug in slugs:
         tries = [
             ("darwinbox", lambda: S.post(f"https://{slug}.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main",
-                                         json={"page": 1, "limit": 1}, timeout=15)),
-            ("keka", lambda: S.get(f"https://{slug}.keka.com/careers/api/jobs/default/active", timeout=15)),
-            ("greenhouse", lambda: S.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", timeout=15)),
-            ("lever", lambda: S.get(f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1", timeout=15)),
-            ("ashby", lambda: S.get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}", timeout=15)),
+                                         json={"page": 1, "limit": 1}, timeout=10)),
+            ("keka", lambda: S.get(f"https://{slug}.keka.com/careers/api/jobs/default/active", timeout=10)),
+            ("greenhouse", lambda: S.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", timeout=10)),
+            ("lever", lambda: S.get(f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1", timeout=10)),
+            ("ashby", lambda: S.get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}", timeout=10)),
+            ("workable", lambda: S.get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}", timeout=10)),
+            ("recruitee", lambda: S.get(f"https://{slug}.recruitee.com/api/offers/", timeout=10)),
+            ("smartrecruiters", lambda: S.get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings",
+                                              params={"limit": 1}, timeout=10)),
         ]
         for kind, call in tries:
-            if kind in ("greenhouse", "lever", "ashby") and not global_ats:
+            if kind in GLOBAL_ATS and not global_ats:
                 continue
             try:
                 r = call()
@@ -421,12 +544,107 @@ def probe_portals(slugs: list[str], global_ats: bool = False) -> dict | None:
                      (kind == "keka" and isinstance(d, list) and d) or \
                      (kind == "greenhouse" and d.get("jobs")) or \
                      (kind == "lever" and isinstance(d, list) and d) or \
-                     (kind == "ashby" and d.get("jobs"))
+                     (kind == "ashby" and d.get("jobs")) or \
+                     (kind == "workable" and d.get("jobs")) or \
+                     (kind == "recruitee" and d.get("offers")) or \
+                     (kind == "smartrecruiters" and d.get("totalFound"))
                 if ok:
-                    return {"type": kind, "tenant": slug, "probed": True}
+                    cfg = {"type": kind, "tenant": slug, "probed": True}
+                    if kind == "smartrecruiters":
+                        cfg.update(company_id=slug, country="in")
+                    return cfg
             except Exception:
                 pass
     return None
+
+
+# ------------------------------------------------------------ recognise a company's ATS from any job/apply link
+_ATS_URL = [
+    ("lever", re.compile(r"https?://jobs\.(?:eu\.)?lever\.co/([A-Za-z0-9._-]+)", re.I)),
+    ("greenhouse", re.compile(r"https?://(?:boards|job-boards)(?:\.eu)?\.greenhouse\.io/(?:embed/job_app\?for=)?([A-Za-z0-9_-]+)", re.I)),
+    ("ashby", re.compile(r"https?://jobs\.ashbyhq\.com/([A-Za-z0-9._%-]+)", re.I)),
+    ("darwinbox", re.compile(r"https?://([a-z0-9-]+)\.darwinbox\.in/", re.I)),
+    ("keka", re.compile(r"https?://([a-z0-9-]+)\.keka\.com/careers", re.I)),
+    ("workable", re.compile(r"https?://apply\.workable\.com/([A-Za-z0-9_-]+)", re.I)),
+    ("recruitee", re.compile(r"https?://([a-z0-9-]+)\.recruitee\.com/", re.I)),
+    ("smartrecruiters", re.compile(r"https?://(?:jobs|careers)\.smartrecruiters\.com/([A-Za-z0-9_-]+)", re.I)),
+    ("mynexthire", re.compile(r"https?://([a-z0-9-]+)\.mynexthire\.com/", re.I)),
+    ("workday", re.compile(r"https?://([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)", re.I)),
+]
+_NOT_TENANT = {"embed", "api", "v1", "jobs", "job", "careers", "www", "app", "apply", "boards", "wday", "o", "j"}
+
+
+def ats_from_url(url: str) -> dict | None:
+    """'https://jobs.lever.co/acme/123…' -> {'type': 'lever', 'tenant': 'acme'}. None if not a known ATS link."""
+    if not url:
+        return None
+    for kind, rx in _ATS_URL:
+        m = rx.search(url)
+        if not m:
+            continue
+        tenant = m.group(1)
+        if tenant.lower() in _NOT_TENANT:
+            return None
+        if kind == "workday":
+            site = m.group(3)
+            if site.lower() in ("job", "wday", "api"):     # "jobs" is a real site name (e.g. PayPal)
+                return None
+            return {"type": "workday", "tenant": tenant.lower(), "wd": m.group(2).lower(), "site": site,
+                    "search": ["India", "Bengaluru", "Gurugram", "Mumbai", "Hyderabad"], "harvested": True}
+        cfg = {"type": kind, "tenant": tenant if kind in ("smartrecruiters", "ashby") else tenant.lower(), "harvested": True}
+        if kind == "smartrecruiters":
+            cfg.update(company_id=tenant, country="in")
+        if kind == "mynexthire":
+            cfg["careers_url"] = f"https://{tenant.lower()}.mynexthire.com/employer/jobs/careers"
+        return cfg
+    return None
+
+
+# ------------------------------------------------------------ Workable / Recruitee (generic; common with Indian SaaS startups)
+def workable(cfg: dict) -> list[Job]:
+    d = get(f"https://apply.workable.com/api/v1/widget/accounts/{cfg['tenant']}", params={"details": "true"}).json()
+    out = []
+    for p in d.get("jobs", []):
+        locs = p.get("locations") or [{"city": p.get("city"), "country": p.get("country")}]
+        loc = " / ".join(", ".join(x for x in [l.get("city"), l.get("country")] if x) for l in locs if isinstance(l, dict))
+        out.append(Job(company="", title=p.get("title", ""), location=loc,
+                       url=p.get("url") or p.get("shortlink") or f"https://apply.workable.com/{cfg['tenant']}/j/{p.get('shortcode')}/",
+                       source="careers portal", posted=to_iso(p.get("published_on") or p.get("created_at")),
+                       description=html_to_text(p.get("description") or ""),
+                       exp_text=p.get("experience") or ""))
+    return out
+
+
+def recruitee(cfg: dict) -> list[Job]:
+    d = get(f"https://{cfg['tenant']}.recruitee.com/api/offers/").json()
+    return [Job(company="", title=p.get("title", ""),
+                location=p.get("location") or ", ".join(x for x in [p.get("city"), p.get("country")] if x),
+                url=p.get("careers_url") or "", source="careers portal", posted=to_iso(p.get("published_at") or p.get("created_at")),
+                description=html_to_text((p.get("description") or "") + " " + (p.get("requirements") or "")))
+            for p in d.get("offers", [])]
+
+
+# ------------------------------------------------------------ Amazon (amazon.jobs public search; India only)
+def amazon_jobs(cfg: dict) -> list[Job]:
+    out = []
+    for offset in range(0, cfg.get("max_jobs", 500), 100):
+        d = get("https://www.amazon.jobs/en/search.json",
+                params={"normalized_country_code[]": "IND", "result_limit": 100, "offset": offset, "sort": "recent",
+                        "base_query": cfg.get("query", "")}).json()
+        rows = d.get("jobs") or []
+        for p in rows:
+            try:
+                posted = datetime.strptime(p.get("posted_date", ""), "%B %d, %Y").date().isoformat()
+            except ValueError:
+                posted = None
+            out.append(Job(company="", title=p.get("title", ""), location=p.get("normalized_location") or p.get("location", ""),
+                           url="https://www.amazon.jobs" + (p.get("job_path") or ""), source="careers portal", posted=posted,
+                           description=html_to_text(" ".join(str(p.get(k) or "") for k in
+                                                             ("description", "basic_qualifications", "preferred_qualifications")))))
+        if len(rows) < 100:
+            break
+        nap(1, 2)
+    return out
 
 
 # ------------------------------------------------------------ Greenhouse / Lever / Ashby (generic)
@@ -521,4 +739,7 @@ ATS = {
     "greenhouse": (greenhouse, None),
     "lever": (lever, None),
     "ashby": (ashby, None),
+    "workable": (workable, None),
+    "recruitee": (recruitee, None),
+    "amazon": (amazon_jobs, None),
 }

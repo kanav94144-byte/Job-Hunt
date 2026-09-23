@@ -1,0 +1,149 @@
+# WIDER COMPANY LIST — careers portals only (no LinkedIn search per company, so adding 100s here is cheap).
+#
+# How it works: each run, a company here without a known portal is checked on Darwinbox, Keka, Greenhouse, Lever,
+# Ashby, Workable, Recruitee and SmartRecruiters using the slugs listed (the part of the portal address that
+# names the company, e.g. jobs.lever.co/<slug>). A portal found is remembered in data/portals.json and read
+# fully every run after that; a company with no portal found is re-checked every 14 days. Portals are also
+# learned automatically from apply links on LinkedIn / Indeed / Google Jobs, which fixes wrong or missing slugs.
+#
+# Roles from these companies need a strong title (strategy, growth, founder's office, program, BD, GTM …) and a
+# decent CV match to be kept, but — unlike random companies — they don't also need "MBA" or a stated salary.
+#
+# group: saas = SaaS / B2B tech / fintech infra (shows as "SaaS & B2B"); startup = consumer & other startups
+# band: pay band used to estimate salary when it isn't stated (see config/companies.yml)
+#
+# This list was assembled from general knowledge, not verified against each portal. After the first run,
+# health.json shows which ones resolved. Add or delete freely.
+
+companies:
+  # ======================= SaaS / B2B SOFTWARE =======================
+  - {name: Freshworks, slugs: [freshworks], group: saas, band: listed_tech}
+  - {name: Chargebee, slugs: [chargebee], group: saas, band: unicorn}
+  - {name: Postman, slugs: [postman], group: saas, band: unicorn}
+  - {name: BrowserStack, slugs: [browserstack], group: saas, band: unicorn}
+  - {name: Whatfix, slugs: [whatfix], group: saas, band: funded_startup}
+  - {name: Mindtickle, aliases: ["Mindtickle", "MindTickle"], slugs: [mindtickle], group: saas, band: unicorn}
+  - {name: LeadSquared, slugs: [leadsquared], group: saas, band: unicorn}
+  - {name: Innovaccer, slugs: [innovaccer], group: saas, band: unicorn}
+  - {name: Icertis, slugs: [icertis], group: saas, band: unicorn}
+  - {name: HighRadius, slugs: [highradius], group: saas, band: unicorn}
+  - {name: Capillary Technologies, aliases: ["Capillary Technologies", "Capillary Tech"], slugs: [capillarytech, capillary], group: saas, band: funded_startup}
+  - {name: Yellow.ai, aliases: ["Yellow.ai", "Yellow AI"], slugs: [yellowai, yellow-ai], group: saas, band: funded_startup}
+  - {name: Haptik, slugs: [haptik], group: saas, band: funded_startup}
+  - {name: Gupshup, slugs: [gupshup], group: saas, band: unicorn}
+  - {name: Sprinklr, slugs: [sprinklr], group: saas, band: mnc_top}
+  - {name: MoEngage, slugs: [moengage], group: saas, band: funded_startup}
+  - {name: CleverTap, slugs: [clevertap], group: saas, band: funded_startup}
+  - {name: WebEngage, slugs: [webengage], group: saas, band: funded_startup}
+  - {name: Netcore Cloud, aliases: ["Netcore Cloud", "Netcore"], slugs: [netcorecloud, netcore], group: saas, band: funded_startup}
+  - {name: Uniphore, slugs: [uniphore], group: saas, band: unicorn}
+  - {name: Amagi, aliases: ["Amagi", "Amagi Media Labs"], slugs: [amagi, amagimedialabs], group: saas, band: unicorn}
+  - {name: Kissflow, slugs: [kissflow], group: saas, band: funded_startup}
+  - {name: Zenoti, slugs: [zenoti], group: saas, band: unicorn}
+  - {name: Hevo Data, slugs: [hevodata], group: saas, band: funded_startup}
+  - {name: Exotel, slugs: [exotel], group: saas, band: funded_startup}
+  - {name: Fyle, aliases: ["Fyle", "Fyle Technologies"], slugs: [fylehq, fyle], group: saas, band: funded_startup}
+  - {name: Rocketlane, slugs: [rocketlane], group: saas, band: funded_startup}
+  - {name: Zluri, slugs: [zluri], group: saas, band: funded_startup}
+  - {name: Atlan, aliases: ["Atlan"], slugs: [atlan, atlanhq], group: saas, band: unicorn}
+  - {name: Spyne, aliases: ["Spyne", "Spyne AI"], slugs: [spyneai, spyne], group: saas, band: funded_startup}
+  - {name: Sarvam AI, slugs: [sarvamai, sarvam], group: saas, band: funded_startup}
+  - {name: Krutrim, aliases: ["Krutrim", "Ola Krutrim"], slugs: [krutrim], group: saas, band: unicorn}
+  - {name: Observe.AI, aliases: ["Observe.AI", "Observe AI"], slugs: [observeai], group: saas, band: funded_startup}
+  - {name: Darwinbox, aliases: ["Darwinbox", "Darwinbox Digital Solutions"], slugs: [darwinbox], group: saas, band: unicorn}
+  - {name: Keka HR, aliases: ["Keka", "Keka HR", "Keka Technologies"], slugs: [kekahr, keka], group: saas, band: funded_startup}
+  - {name: Lentra, aliases: ["Lentra", "Lentra AI"], slugs: [lentra, lentraai], group: saas, band: funded_startup}
+  - {name: Shipsy, slugs: [shipsy], group: saas, band: funded_startup}
+  - {name: Kapture CX, slugs: [kapturecx, kapture], group: saas, band: funded_startup}
+
+  # ======================= FINTECH / INSURTECH (infra + consumer) =======================
+  - {name: Perfios, slugs: [perfios], group: saas, band: unicorn}
+  - {name: Signzy, slugs: [signzy], group: saas, band: funded_startup}
+  - {name: M2P Fintech, aliases: ["M2P Fintech", "M2P"], slugs: [m2pfintech, m2p], group: saas, band: funded_startup}
+  - {name: Zeta, aliases: ["Zeta Suite", "Zeta India"], slugs: [zetasuite, zeta-tech], group: saas, band: unicorn}
+  - {name: Setu, aliases: ["Setu", "Setu (Pine Labs)"], slugs: [setu, setuco], group: saas, band: funded_startup}
+  - {name: Cashfree Payments, aliases: ["Cashfree Payments", "Cashfree"], slugs: [cashfree, cashfreepayments], group: saas, band: funded_startup}
+  - {name: Open Financial Technologies, aliases: ["Open Financial Technologies", "Open Money"], slugs: [bankopen, openmoney], group: saas, band: unicorn}
+  - {name: Mintifi, slugs: [mintifi], group: saas, band: funded_startup}
+  - {name: BharatPe, slugs: [bharatpe], group: startup, band: unicorn}
+  - {name: Navi Technologies, aliases: ["Navi Technologies"], slugs: [navitechnologies, navi-technologies], group: startup, band: unicorn}
+  - {name: slice, aliases: ["slice", "Slice", "Garagepreneurs Internet"], slugs: [sliceit, slice-it], group: startup, band: unicorn}
+  - {name: OneCard, aliases: ["OneCard", "FPL Technologies"], slugs: [onecard, fpltechnologies], group: startup, band: unicorn}
+  - {name: Uni Cards, aliases: ["Uni Cards", "UNI Cards"], slugs: [unicards, uni-cards], group: startup, band: funded_startup}
+  - {name: Fi Money, aliases: ["Fi Money", "epiFi", "Epifi Technologies"], slugs: [epifi, fimoney], group: startup, band: funded_startup}
+  - {name: Zerodha, slugs: [zerodha], group: startup, band: unicorn}
+  - {name: INDmoney, slugs: [indmoney], group: startup, band: funded_startup}
+  - {name: smallcase, slugs: [smallcase], group: startup, band: funded_startup}
+  - {name: KreditBee, slugs: [kreditbee], group: startup, band: unicorn}
+  - {name: Lendingkart, slugs: [lendingkart], group: startup, band: funded_startup}
+  - {name: Rupeek, slugs: [rupeek], group: startup, band: funded_startup}
+  - {name: Indifi, aliases: ["Indifi", "Indifi Technologies"], slugs: [indifi], group: startup, band: funded_startup}
+  - {name: Acko, aliases: ["ACKO", "Acko General Insurance"], slugs: [acko], group: startup, band: unicorn}
+  - {name: Go Digit, aliases: ["Go Digit", "Digit Insurance", "Go Digit General Insurance"], slugs: [godigit], group: startup, band: listed_tech}
+  - {name: PB Fintech (Policybazaar), aliases: ["Policybazaar", "PolicyBazaar", "PB Fintech", "Paisabazaar"], slugs: [policybazaar, pbfintech], group: startup, band: listed_tech}
+  - {name: Ditto Insurance, aliases: ["Ditto Insurance"], slugs: [joinditto, dittoinsurance], group: startup, band: funded_startup}
+  - {name: PlumHQ, aliases: ["PlumHQ"], slugs: [plumhq], group: saas, band: funded_startup}
+  - {name: Turtlemint, slugs: [turtlemint], group: startup, band: funded_startup}
+  - {name: CoinDCX, slugs: [coindcx], group: startup, band: unicorn}
+  - {name: Khatabook, slugs: [khatabook], group: saas, band: funded_startup}
+  - {name: OkCredit, slugs: [okcredit], group: saas, band: funded_startup}
+  - {name: Vyapar, aliases: ["Vyapar", "Vyapar App"], slugs: [vyapar, vyaparapp], group: saas, band: funded_startup}
+
+  # ======================= B2B COMMERCE / SUPPLY CHAIN =======================
+  - {name: Zetwerk, slugs: [zetwerk], group: saas, band: unicorn}
+  - {name: Infra.Market, aliases: ["Infra.Market", "Infra Market"], slugs: [inframarket], group: saas, band: unicorn}
+  - {name: Moglix, slugs: [moglix], group: saas, band: unicorn}
+  - {name: Bizongo, slugs: [bizongo], group: saas, band: funded_startup}
+  - {name: Jumbotail, slugs: [jumbotail], group: saas, band: funded_startup}
+  - {name: ElasticRun, slugs: [elasticrun], group: saas, band: unicorn}
+  - {name: Ninjacart, slugs: [ninjacart], group: saas, band: funded_startup}
+  - {name: DeHaat, aliases: ["DeHaat", "Green Agrevolution"], slugs: [dehaat, agrevolution], group: saas, band: funded_startup}
+  - {name: Xpressbees, slugs: [xpressbees], group: startup, band: unicorn}
+  - {name: Ecom Express, slugs: [ecomexpress], group: startup, band: unicorn}
+  - {name: LoadShare, aliases: ["LoadShare", "LoadShare Networks"], slugs: [loadshare], group: startup, band: funded_startup}
+
+  # ======================= CONSUMER INTERNET / EDTECH / HEALTHTECH =======================
+  - {name: Dream Sports (Dream11), aliases: ["Dream Sports", "Dream11", "FanCode"], slugs: [dreamsports, dream11], group: startup, band: unicorn}
+  - {name: Games24x7, slugs: [games24x7], group: startup, band: unicorn}
+  - {name: MPL, aliases: ["Mobile Premier League", "MPL"], slugs: [mpl, mobilepremierleague], group: startup, band: unicorn}
+  - {name: ShareChat, aliases: ["ShareChat", "Mohalla Tech"], slugs: [sharechat, mohallatech], group: startup, band: unicorn}
+  - {name: VerSe Innovation (Dailyhunt), aliases: ["VerSe Innovation", "Dailyhunt"], slugs: [verse, dailyhunt], group: startup, band: unicorn}
+  - {name: apna.co, aliases: ["apna.co"], slugs: [apnaco, apnatime], group: startup, band: unicorn}
+  - {name: Pratilipi, slugs: [pratilipi], group: startup, band: funded_startup}
+  - {name: Seekho, slugs: [seekho], group: startup, band: funded_startup}
+  - {name: STAGE OTT, aliases: ["STAGE", "STAGE OTT", "Stage Technologies"], slugs: [stage-ott, stageott], group: startup, band: funded_startup}
+  - {name: Park+, aliases: ["Park+", "Park Plus"], slugs: [parkplus], group: startup, band: funded_startup}
+  - {name: DealShare, slugs: [dealshare], group: startup, band: unicorn}
+  - {name: CityMall, slugs: [citymall], group: startup, band: funded_startup}
+  - {name: upGrad, slugs: [upgrad], group: startup, band: unicorn}
+  - {name: Physics Wallah, aliases: ["Physics Wallah", "PhysicsWallah"], slugs: [physicswallah, pw], group: startup, band: unicorn}
+  - {name: Unacademy, slugs: [unacademy], group: startup, band: unicorn}
+  - {name: Scaler, aliases: ["Scaler", "InterviewBit", "Scaler Academy"], slugs: [scaler, interviewbit], group: startup, band: funded_startup}
+  - {name: Leap Finance, aliases: ["Leap Finance", "LeapScholar"], slugs: [leapfinance, leapscholar], group: startup, band: unicorn}
+  - {name: Emeritus, slugs: [emeritus], group: startup, band: unicorn}
+  - {name: MediBuddy, slugs: [medibuddy], group: startup, band: funded_startup}
+  - {name: Truemeds, slugs: [truemeds], group: startup, band: funded_startup}
+  - {name: Eka Care, slugs: [ekacare], group: startup, band: funded_startup}
+  - {name: Qure.ai, aliases: ["Qure.ai", "Qure ai"], slugs: [qureai, qure], group: saas, band: funded_startup}
+
+  # ======================= D2C / CONSUMER BRANDS (same sectors as your list) =======================
+  - {name: The Souled Store, slugs: [thesouledstore], group: startup, band: d2c}
+  - {name: Bewakoof, aliases: ["Bewakoof", "Bewakoof Brands"], slugs: [bewakoof], group: startup, band: d2c}
+  - {name: Bira 91, aliases: ["Bira 91", "B9 Beverages"], slugs: [bira91, b9beverages], group: startup, band: d2c}
+  - {name: Hector Beverages (Paper Boat), aliases: ["Hector Beverages", "Paper Boat"], slugs: [hectorbeverages, paperboat], group: startup, band: d2c}
+  - {name: Blue Tokai, aliases: ["Blue Tokai", "Blue Tokai Coffee Roasters"], slugs: [bluetokai], group: startup, band: d2c}
+  - {name: Third Wave Coffee, slugs: [thirdwavecoffee], group: startup, band: d2c}
+  - {name: Chaayos, slugs: [chaayos], group: startup, band: d2c}
+  - {name: HealthKart, slugs: [healthkart], group: startup, band: d2c}
+  - {name: OZiva, slugs: [oziva], group: startup, band: d2c}
+  - {name: Wellbeing Nutrition, slugs: [wellbeingnutrition], group: startup, band: d2c}
+  - {name: The Man Company, slugs: [themancompany], group: startup, band: d2c}
+  - {name: Nat Habit, slugs: [nathabit], group: startup, band: d2c}
+  - {name: The Sleep Company, slugs: [thesleepcompany], group: startup, band: d2c}
+  - {name: Duroflex, slugs: [duroflex], group: startup, band: d2c}
+  - {name: Pepperfry, slugs: [pepperfry], group: startup, band: unicorn}
+  - {name: Urban Ladder, slugs: [urbanladder], group: startup, band: d2c}
+  - {name: BlueStone, slugs: [bluestone], group: startup, band: d2c}
+  - {name: Zouk, slugs: [zouk], group: startup, band: d2c}
+  - {name: Nua, aliases: ["Nua", "Nua Woman"], slugs: [nuawoman], group: startup, band: d2c}
+  - {name: Lahori Zeera, aliases: ["Lahori", "Lahori Zeera", "Archian Foods"], slugs: [lahori, archianfoods], group: startup, band: d2c}

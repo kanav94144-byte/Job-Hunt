@@ -2,6 +2,18 @@
 recency_hours_first_run: 168      # 7 days on the very first run
 recency_hours_daily: 48           # daily runs look back 48h (overlap so nothing is missed); "new" = not seen before
 max_age_days_on_dashboard: 7      # roles older than this drop off the "active" view
+portal_max_age_days: 30           # careers portals list only open roles: show ones posted up to 30 days ago
+portal_recheck_days: 14           # a company with no readable portal is re-checked after this many days
+portal_workers: 8                 # portals read in parallel (different websites, so no rate-limit issue)
+rejected_memory_days: 5           # a role judged "not relevant" is not fetched / judged again for this long
+
+# Auto-watchlist: a company found through open searches that posts a Tier A/B role is remembered in
+# data/companies_auto.json; its careers portal (if found) is then read every run.
+watchlist:
+  enabled: true
+  add_tiers: [A, B]
+  expire_days: 45                 # dropped if no good role from it for this long
+  max_companies: 400
 
 experience:
   min: 1

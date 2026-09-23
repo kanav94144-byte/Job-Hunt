@@ -148,6 +148,8 @@
         <option value="target">My list</option>
         <option value="similar">Competitors</option>
         <option value="startup">Startups</option>
+        <option value="saas">SaaS &amp; B2B</option>
+        <option value="watchlist">Auto-tracked</option>
         <option value="discovered">Other companies</option>
       </select>
       <select id="region" aria-label="Location">
@@ -161,6 +163,8 @@
         <option value="linkedin">LinkedIn</option>
         <option value="naukri">Naukri</option>
         <option value="iimjobs">iimjobs</option>
+        <option value="indeed">Indeed</option>
+        <option value="google">Google Jobs</option>
       </select>
       <select id="mba" aria-label="MBA">
         <option value="">MBA: any</option>
@@ -233,7 +237,7 @@
   const payMax = j => { if(j.salary_max) return j.currency === 'INR' || !j.currency ? j.salary_max : j.salary_max * 20;
     const m = String(j.salary_label||'').match(/(\d+)\s*LPA/g); return m ? parseFloat(m[m.length-1]) * 1e5 : 0; };
   const hasMba = j => String(j.mba||'').startsWith('Yes');
-  const GROUP = {target:'My list', similar:'Competitor', startup:'Startup', discovered:'Other'};
+  const GROUP = {target:'My list', similar:'Competitor', startup:'Startup', saas:'SaaS & B2B', watchlist:'Auto-tracked', discovered:'Other'};
   const TIERW = {A:3, B:2, C:1};
 
   // ---------- load
@@ -243,7 +247,7 @@
     const up = String(d.updated || '').match(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2})/);
     let when = d.updated;
     if (up) { const t = new Date(Date.UTC(+up[1], +up[2]-1, +up[3], +up[4], +up[5])); when = t.toLocaleString(undefined, {day:'numeric', month:'short', hour:'numeric', minute:'2-digit'}); }
-    $('updated').textContent = `${JOBS.length} roles from the last 7 days · last scan ${when} · refreshes 3× a day (9 AM, 2 PM, 7 PM IST)`;
+    $('updated').textContent = `${JOBS.length} open roles (job boards: last 7 days · company sites: up to 30 days) · last scan ${when} · refreshes 3× a day (9 AM, 2 PM, 7 PM IST)`;
     restore(); render();
   }).catch(() => { $('updated').textContent = 'No results yet. The first scan has not finished.'; });
 
@@ -313,7 +317,7 @@
       const pay = est ? `${esc(String(j.salary_label).replace(/^~/, '').replace(/\s*\(est\.\)/, ''))} <span class="mute small">est.</span>` : esc(j.salary_label || '—');
       const why = (j.reasons || []).concat([`CV match score ${j.relevance ?? 0}`]).map(esc).join(' · ');
       const srcs = [...new Set(srcOf(j))].map(x => ({portal:'company careers site', linkedin:'LinkedIn', naukri:'Naukri', iimjobs:'iimjobs'}[x] || x)).join(', ');
-      const SRCN = x => /portal/.test(x) ? 'Company site' : ({linkedin:'LinkedIn', naukri:'Naukri', iimjobs:'iimjobs'}[x] || x);
+      const SRCN = x => /portal/.test(x) ? 'Company site' : ({linkedin:'LinkedIn', naukri:'Naukri', iimjobs:'iimjobs', indeed:'Indeed', google:'Google Jobs'}[x] || x);
       const links = (j.links || []).filter(l => l.url && l.url !== j.url);
       const bySrc = {}; links.forEach(l => { const n = SRCN(l.source); (bySrc[n] = bySrc[n] || []).push(l.url); });
       const alsoOn = links.length ? '<br>Other links: ' + Object.entries(bySrc).map(([n, us]) => us.slice(0, 3).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}${us.length > 1 ? ' ' + (i + 1) : ''} ↗</a>`).join(' · ')).join(' · ') : '';
