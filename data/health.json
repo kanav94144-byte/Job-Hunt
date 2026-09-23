@@ -29,13 +29,13 @@
   "portal:keka:The Whole Truth": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 20,
    "errors": []
   },
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 89,
+   "jobs": 88,
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
@@ -53,7 +53,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 248,
+   "jobs": 249,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -65,7 +65,7 @@
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 32,
    "errors": []
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -77,7 +77,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 76,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -251,7 +251,7 @@
   "portal:keka:Snitch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 29,
    "errors": []
   },
   "portal:darwinbox:Country Delight": {
@@ -371,7 +371,7 @@
   "portal:keka:Spyne": {
    "ok": 1,
    "failed": 0,
-   "jobs": 22,
+   "jobs": 24,
    "errors": []
   },
   "portal:ashby:Sarvam AI": {
@@ -413,7 +413,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 32,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -593,7 +593,7 @@
   "portal:darwinbox:Duroflex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 32,
    "errors": []
   },
   "portal:greenhouse:BlueStone": {
@@ -602,10 +602,16 @@
    "jobs": 0,
    "errors": []
   },
+  "portal:keka:Medhavi": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 71,
+   "errors": []
+  },
   "linkedin": {
    "ok": 102,
    "failed": 0,
-   "jobs": 336,
+   "jobs": 358,
    "errors": []
   },
   "discovery:linkedin": {
@@ -617,7 +623,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 984,
+   "jobs": 1037,
    "errors": []
   },
   "discovery:google": {
@@ -629,7 +635,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1706,
+   "jobs": 1749,
    "errors": []
   },
   "naukri (browser)": {
@@ -637,83 +643,94 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "Infosys Senior Consultant/Consultant \u2013 Program Manager: HTTPSConnectionPool(host='www.linkedin.com', port=443): Read timed out. (read timeout=30)"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 134,
-  "linkedin": 372,
-  "iimjobs": 49
+  "careers portal": 6,
+  "linkedin": 175,
+  "iimjobs": 7
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 0,
+ "portals_learned_from_links": 1,
  "funnel": {
   "careers portal": {
-   "raw": 2865,
-   "after_filters": 451,
-   "kept_new": 189
+   "raw": 2943,
+   "after_filters": 462,
+   "kept_new": 19
   },
   "linkedin": {
-   "raw": 1686,
-   "after_filters": 819,
-   "kept_new": 61
+   "raw": 1708,
+   "after_filters": 857,
+   "kept_new": 60
   },
   "indeed": {
-   "raw": 984,
-   "after_filters": 297,
-   "kept_new": 21
+   "raw": 1037,
+   "after_filters": 292,
+   "kept_new": 13
   },
   "iimjobs": {
-   "raw": 1706,
-   "after_filters": 167,
-   "kept_new": 6
+   "raw": 1749,
+   "after_filters": 178,
+   "kept_new": 3
   }
  },
  "watchlist": {
-  "size": 30,
+  "size": 62,
   "added_this_run": [
-   "AppsForBharat",
-   "e-GMAT",
-   "Virya Autonomous Technologies",
-   "Genius Minds Consulting & Services",
-   "JVS Technologies Pvt. Ltd.",
-   "Omneity Group (India)",
-   "Flexiple",
-   "Rempact",
-   "CRE Matrix",
-   "QuickShift",
-   "VerbaFlo.AI",
-   "Svaya Robotics",
-   "Aditya Birla Renewables Limited",
-   "ARIS",
-   "Objectways",
-   "YASH Technologies",
-   "Infineon Technologies",
-   "call 2 connect pvt ltd",
-   "Mantra Care",
-   "Medhavi",
-   "HavStrategy",
-   "Feemonk",
-   "Codevidhya",
-   "Crazy Pencilz Studio",
-   "Varistor Group",
-   "Encrypted Infoweb",
-   "MTI Industries",
-   "Womennnovator",
-   "Ebizon",
-   "INNOVATIQ TECHNOLOGIES PTE. LTD."
+   "Multiplier AI",
+   "Blue Matter",
+   "Dun & Bradstreet",
+   "Autonex AI",
+   "YNOS Venture Engine",
+   "Praveedh D\u00e9cor | Premium High Quality Panels & Laminates",
+   "Commutec Luxury",
+   "Welspun Enterprises Ltd",
+   "DocOnline",
+   "Conquer Technologies",
+   "cargo-partner",
+   "Faceecho.ai",
+   "TurnB",
+   "IDFC FIRST Bank",
+   "JioStar",
+   "Clearwater Analytics",
+   "Smart Food Safe",
+   "Pharmed Limited",
+   "Ripple",
+   "Remitly",
+   "Bluecrux",
+   "Nextbigbox",
+   "Kharesiya Brands pvt ltd",
+   "Genpact",
+   "Payoneer",
+   "MINTREE PREMIER LIFESTYLE AND BEAUTY PRIVATE LIMITED",
+   "Sioniq",
+   "Pooja Pooja",
+   "ampus solutions Pvt Ltd",
+   "SpaceDraft India Pvt Ltd.,",
+   "Huron Consulting Group",
+   "D2F"
   ],
-  "with_portal": 1
+  "with_portal": 4
  },
  "counts": {
-  "raw": 7241,
-  "after_filters": 1734,
-  "judged": 1514,
-  "kept": 277,
-  "duplicates_folded": 15,
-  "on_dashboard": 896,
+  "raw": 7437,
+  "after_filters": 1789,
+  "judged": 468,
+  "kept": 95,
+  "duplicates_folded": 17,
+  "on_dashboard": 973,
   "companies_scanned": {
    "curated": 138,
-   "seed": 122
+   "seed": 122,
+   "auto": 30
   }
  }
 }

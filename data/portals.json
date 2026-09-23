@@ -1,9 +1,17 @@
 {
+ "ARIS": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Accenture Strategy": {
   "type": null,
   "checked": "2026-09-23"
  },
  "Acko": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Aditya Birla Renewables Limited": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -16,6 +24,10 @@
   "checked": "2026-09-23"
  },
  "Apollo Tyres": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "AppsForBharat": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -103,6 +115,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "CRE Matrix": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "CRED": {
   "type": null,
   "checked": "2026-09-23"
@@ -156,6 +172,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Codevidhya": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "CoinDCX": {
   "type": null,
   "checked": "2026-09-23"
@@ -164,6 +184,10 @@
   "type": "darwinbox",
   "tenant": "countrydelight",
   "probed": true
+ },
+ "Crazy Pencilz Studio": {
+  "type": null,
+  "checked": "2026-09-23"
  },
  "Cult.fit": {
   "type": null,
@@ -230,6 +254,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Ebizon": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Ecom Express": {
   "type": null,
   "checked": "2026-09-23"
@@ -250,6 +278,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Encrypted Infoweb": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Epigamia": {
   "type": null,
   "checked": "2026-09-23"
@@ -262,6 +294,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Feemonk": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Fi Money": {
   "type": "lever",
   "tenant": "epifi",
@@ -269,6 +305,10 @@
   "checked": "2026-09-23"
  },
  "FirstCry": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Flexiple": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -302,6 +342,25 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Genius Minds Consulting & Services": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Genpact": {
+  "type": "workday",
+  "tenant": "genpact",
+  "wd": "wd108",
+  "site": "External_Careers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-23"
+ },
  "Go Digit": {
   "type": "darwinbox",
   "tenant": "godigit",
@@ -328,6 +387,10 @@
   "checked": "2026-09-23"
  },
  "Haptik": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "HavStrategy": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -365,7 +428,26 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Huron Consulting Group": {
+  "type": "workday",
+  "tenant": "huron",
+  "wd": "wd1",
+  "site": "huroncareers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-23"
+ },
  "INDmoney": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "INNOVATIQ TECHNOLOGIES PTE. LTD.": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -385,11 +467,19 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Infineon Technologies": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Infra.Market": {
   "type": null,
   "checked": "2026-09-23"
  },
  "Innovaccer": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "JVS Technologies Pvt. Ltd.": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -514,6 +604,14 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "MTI Industries": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Mantra Care": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Marico": {
   "type": null,
   "checked": "2026-09-23"
@@ -628,6 +726,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Objectways": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Observe.AI": {
   "type": "greenhouse",
   "tenant": "observeai",
@@ -647,6 +749,10 @@
   "checked": "2026-09-23"
  },
  "Ola Electric": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Omneity Group (India)": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -751,6 +857,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "QuickShift": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Qure.ai": {
   "type": null,
   "checked": "2026-09-23"
@@ -776,6 +886,10 @@
   "checked": "2026-09-23"
  },
  "Reliance Retail": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Rempact": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -853,6 +967,12 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Sioniq": {
+  "type": "keka",
+  "tenant": "sioniq",
+  "harvested": true,
+  "checked": "2026-09-23"
+ },
  "Sleepy Owl": {
   "type": null,
   "checked": "2026-09-23"
@@ -886,6 +1006,10 @@
   "checked": "2026-09-23"
  },
  "SuperYou": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Svaya Robotics": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -979,10 +1103,22 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Varistor Group": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "VerSe Innovation (Dailyhunt)": {
   "type": "greenhouse",
   "tenant": "verse",
   "probed": true,
+  "checked": "2026-09-23"
+ },
+ "VerbaFlo.AI": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "Virya Autonomous Technologies": {
+  "type": null,
   "checked": "2026-09-23"
  },
  "Vyapar": {
@@ -1012,6 +1148,10 @@
   "country": "in",
   "checked": "2026-09-23"
  },
+ "Womennnovator": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
  "Wow Skin Science": {
   "type": null,
   "checked": "2026-09-23"
@@ -1021,6 +1161,10 @@
   "checked": "2026-09-23"
  },
  "Xpressbees": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "YASH Technologies": {
   "type": null,
   "checked": "2026-09-23"
  },
@@ -1087,8 +1231,20 @@
   "tenant": "boat",
   "probed": true
  },
- "ixigo": {
+ "call 2 connect pvt ltd": {
   "type": null,
+  "checked": "2026-09-23"
+ },
+ "e-GMAT": {
+  "type": null,
+  "checked": "2026-09-23"
+ },
+ "ixigo": {
+  "type": "smartrecruiters",
+  "tenant": "ixigo",
+  "harvested": true,
+  "company_id": "ixigo",
+  "country": "in",
   "checked": "2026-09-23"
  },
  "mCaffeine": {
