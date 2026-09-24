@@ -263,6 +263,10 @@
   "tenant": "delhivery",
   "probed": true
  },
+ "Delta Exchange": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Ditto Insurance": {
   "type": null,
   "checked": "2026-09-23"
@@ -290,6 +294,12 @@
   "tenant": "duroflex",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "EBANX": {
+  "type": "greenhouse",
+  "tenant": "ebanx",
+  "harvested": true,
+  "checked": "2026-09-24"
  },
  "EY GDS": {
   "type": null,
@@ -532,6 +542,21 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Ingram Micro": {
+  "type": "workday",
+  "tenant": "ingrammicro",
+  "wd": "wd5",
+  "site": "IngramMicro",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-24"
+ },
  "Innovaccer": {
   "type": null,
   "checked": "2026-09-23"
@@ -609,6 +634,12 @@
   "type": "keka",
   "tenant": "kukufm",
   "probed": true
+ },
+ "LETITBEX AI TECH SOLUTIONS": {
+  "type": "keka",
+  "tenant": "letitbexai",
+  "harvested": true,
+  "checked": "2026-09-24"
  },
  "Lahori Zeera": {
   "type": null,
@@ -709,6 +740,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Michael Page": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Microsoft": {
   "type": null,
   "checked": "2026-09-23"
@@ -752,6 +787,10 @@
  "Multiplier AI": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Nandaka Real Asset Advisory": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Nat Habit": {
   "type": null,
@@ -830,6 +869,10 @@
  "Ola Electric": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Oliveboard Comptech": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Omneity Group (India)": {
   "type": null,
@@ -999,6 +1042,10 @@
  "Rippling India": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "RoadMate": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Rocketlane": {
   "type": null,
@@ -1218,6 +1265,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Vansun Mediatech": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Varistor Group": {
   "type": null,
   "checked": "2026-09-23"
@@ -1235,6 +1286,10 @@
  "Virya Autonomous Technologies": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Vodafone": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Vyapar": {
   "type": "keka",
