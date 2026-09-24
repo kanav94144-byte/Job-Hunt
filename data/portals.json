@@ -15,6 +15,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Allium IQ": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Alvarez & Marsal": {
   "type": null,
   "checked": "2026-09-23"
@@ -22,6 +26,10 @@
  "Amagi": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Ancient Roots": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Apollo Tyres": {
   "type": null,
@@ -53,6 +61,18 @@
  "Bain & Company": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Bajaj Finserv": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
+ "Believe": {
+  "type": "smartrecruiters",
+  "tenant": "Believe",
+  "harvested": true,
+  "company_id": "Believe",
+  "country": "in",
+  "checked": "2026-09-24"
  },
  "Bewakoof": {
   "type": "darwinbox",
@@ -88,6 +108,10 @@
  "Blinkit / Zomato (Eternal)": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Blissclub": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Blue Matter": {
   "type": null,
@@ -134,9 +158,21 @@
   "harvested": true,
   "checked": "2026-09-23"
  },
+ "CARTRADE.COM": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "CEAT": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "CESTA Enterprise pvt. ltd.": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
+ "CG-VAK Software & Exports": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "CRE Matrix": {
   "type": null,
@@ -214,6 +250,10 @@
  "Conquer Technologies": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Constems-AI Systems (CAI)": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Country Delight": {
   "type": "darwinbox",
@@ -341,13 +381,25 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Endgame": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Epigamia": {
   "type": null,
   "checked": "2026-09-23"
  },
+ "Epoch Living- Shrish Life Style @ Harington Road": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Exotel": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "FRND": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Faceecho.ai": {
   "type": null,
@@ -378,6 +430,10 @@
  "Flipkart": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Floatex Solar": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Foxtale": {
   "type": null,
@@ -514,6 +570,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "INK IN CAPS": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "INNOVATIQ TECHNOLOGIES PTE. LTD.": {
   "type": null,
   "checked": "2026-09-23"
@@ -533,6 +593,10 @@
  "Indifi": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "IndoFast Energy": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Infineon Technologies": {
   "type": null,
@@ -712,6 +776,21 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Manulife": {
+  "type": "workday",
+  "tenant": "manulife",
+  "wd": "wd3",
+  "site": "MFCJH_Jobs",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-24"
+ },
  "Marico": {
   "type": null,
   "checked": "2026-09-23"
@@ -787,6 +866,10 @@
  "Multiplier AI": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Muthoot FinCorp ONE": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Nandaka Real Asset Advisory": {
   "type": null,
@@ -1111,6 +1194,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Shroff Eye Centre": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Signzy": {
   "type": "keka",
   "tenant": "signzy",
@@ -1123,9 +1210,19 @@
   "harvested": true,
   "checked": "2026-09-23"
  },
+ "SkillLabs": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Sleepy Owl": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Smarsh": {
+  "type": "lever",
+  "tenant": "smarsh",
+  "harvested": true,
+  "checked": "2026-09-24"
  },
  "Smart Food Safe": {
   "type": null,
@@ -1171,6 +1268,18 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "T&A Consulting": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
+ "TECEZE": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
+ "TRADEGENIUZ CAPITAL PRIVATE LIMITED": {
+  "type": null,
+  "checked": "2026-09-24"
+ },
  "Tata CLiQ": {
   "type": null,
   "checked": "2026-09-23"
@@ -1203,6 +1312,10 @@
   "type": "keka",
   "tenant": "thewholetruthfoods",
   "probed": true
+ },
+ "The news-keeper": {
+  "type": null,
+  "checked": "2026-09-24"
  },
  "Third Wave Coffee": {
   "type": null,
