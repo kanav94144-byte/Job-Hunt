@@ -3,6 +3,14 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "AbbVie": {
+  "type": "smartrecruiters",
+  "tenant": "AbbVie",
+  "harvested": true,
+  "company_id": "AbbVie",
+  "country": "in",
+  "checked": "2026-09-25"
+ },
  "Accenture Strategy": {
   "type": null,
   "checked": "2026-09-23"
@@ -10,6 +18,10 @@
  "Acko": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Acuity knowledge Partners": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Aditya Birla Renewables Limited": {
   "type": null,
@@ -341,6 +353,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Dubai Holding": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Dun & Bradstreet": {
   "type": null,
   "checked": "2026-09-23"
@@ -479,6 +495,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "GVITechnology": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Games24x7": {
   "type": "darwinbox",
   "tenant": "games24x7",
@@ -518,6 +538,10 @@
  "Godrej Consumer Products": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Growth Avenues": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Groww": {
   "type": null,
@@ -734,6 +758,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Kroll": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Krutrim": {
   "type": null,
   "checked": "2026-09-23"
@@ -820,6 +848,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "MantraCare": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Manulife": {
   "type": "workday",
   "tenant": "manulife",
@@ -838,6 +870,10 @@
  "Marico": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Maven Fly Media": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "McGraw Hill": {
   "type": null,
@@ -864,6 +900,10 @@
   "checked": "2026-09-23"
  },
  "Merck Group": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
+ "Meritto": {
   "type": null,
   "checked": "2026-09-25"
  },
@@ -939,9 +979,17 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Navalt Green Mobility Private Limited": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Navi Technologies": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Nervescape Analytics": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Nestle India": {
   "type": null,
@@ -950,6 +998,10 @@
  "Netcore Cloud": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Neulish": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Nextbigbox": {
   "type": null,
@@ -1201,6 +1253,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Rhizobee Innovations Private Limited": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Ripple": {
   "type": null,
   "checked": "2026-09-23"
@@ -1230,6 +1286,14 @@
  "SUGAR Cosmetics": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Saeed & Mohammed Al Naboodah Group": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
+ "Sageo Consulting LLP": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Sarvam AI": {
   "type": "ashby",
@@ -1329,6 +1393,10 @@
   "tenant": "snitch",
   "probed": true
  },
+ "Soham Freight Service Pvt Ltd": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "SpaceDraft India Pvt Ltd.,": {
   "type": null,
   "checked": "2026-09-23"
@@ -1423,6 +1491,10 @@
  "Third Wave Coffee": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Time Hack Consulting": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Titan Company": {
   "type": null,
