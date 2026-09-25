@@ -523,11 +523,19 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "GuiRes Solutions Pvt Ltd": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Gupshup": {
   "type": "darwinbox",
   "tenant": "gupshup",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "GyroHR": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "HappieHire": {
   "type": null,
@@ -831,6 +839,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "McGraw Hill": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "McKinsey & Company": {
   "type": null,
   "checked": "2026-09-23"
@@ -851,9 +863,17 @@
   "harvested": true,
   "checked": "2026-09-23"
  },
+ "Merck Group": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Meta": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Mevive International Trading Company": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Michael Page": {
   "type": null,
@@ -906,6 +926,10 @@
  "Muthoot FinCorp ONE": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "NITCO LIMITED": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Nandaka Real Asset Advisory": {
   "type": null,
@@ -1123,8 +1147,19 @@
   "probed": true
  },
  "PwC India": {
-  "type": null,
-  "checked": "2026-09-23"
+  "type": "workday",
+  "tenant": "pwc",
+  "wd": "wd3",
+  "site": "Global_Experienced_Careers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-25"
  },
  "QuickShift": {
   "type": null,
@@ -1262,6 +1297,10 @@
   "harvested": true,
   "checked": "2026-09-23"
  },
+ "Skill Veda": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "SkillLabs": {
   "type": null,
   "checked": "2026-09-24"
@@ -1312,6 +1351,14 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Sumanel Technology Ventures": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
+ "Sun King": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "SuperYou": {
   "type": null,
   "checked": "2026-09-23"
@@ -1327,6 +1374,10 @@
  "TECEZE": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "TELUS Digital": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "TRADEGENIUZ CAPITAL PRIVATE LIMITED": {
   "type": null,
@@ -1438,6 +1489,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Vantrock": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Varistor Group": {
   "type": null,
   "checked": "2026-09-23"
@@ -1522,6 +1577,10 @@
  "Yellow.ai": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "YesMadam": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Yoga Bar": {
   "type": null,
@@ -1619,6 +1678,10 @@
   "tenant": "smallcase",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "sparkle\u2605minds": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "upGrad": {
   "type": "darwinbox",
