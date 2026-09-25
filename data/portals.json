@@ -255,6 +255,12 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "CloudThat": {
+  "type": "keka",
+  "tenant": "cloudthat",
+  "probed": true,
+  "checked": "2026-09-25"
+ },
  "Codevidhya": {
   "type": null,
   "checked": "2026-09-23"
@@ -295,6 +301,10 @@
  "D2F": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "DBMCI One": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "DRONACHARYA EVENTS PRIVATE LIMITED": {
   "type": null,
@@ -385,6 +395,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Eaton": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Ebizon": {
   "type": null,
   "checked": "2026-09-23"
@@ -440,6 +454,10 @@
  "Faceecho.ai": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Fareportal": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Farmley": {
   "type": null,
@@ -539,6 +557,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "GreyLabs AI": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Growth Avenues": {
   "type": null,
   "checked": "2026-09-25"
@@ -587,6 +609,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Hero Moto Corp": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Hevo Data": {
   "type": "lever",
   "tenant": "hevodata",
@@ -625,6 +651,10 @@
  "IDFC FIRST Bank": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "IMTS Enterprise Solutions Pvt Ltd": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "INDmoney": {
   "type": null,
@@ -771,6 +801,10 @@
   "tenant": "kukufm",
   "probed": true
  },
+ "LCF (Lighthouse Communities Foundation)": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "LETITBEX AI TECH SOLUTIONS": {
   "type": "keka",
   "tenant": "letitbexai",
@@ -788,6 +822,10 @@
  "Leap Finance": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Legal Corporate Solution": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Lendingkart": {
   "type": "smartrecruiters",
@@ -826,6 +864,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "MACROTECH DEVELOPERS LIMITED": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "MINTREE PREMIER LIFESTYLE AND BEAUTY PRIVATE LIMITED": {
   "type": null,
   "checked": "2026-09-23"
@@ -843,6 +885,10 @@
  "MTI Industries": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Mahindra & Mahindra Ltd": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Mantra Care": {
   "type": null,
@@ -898,6 +944,10 @@
   "tenant": "meesho",
   "harvested": true,
   "checked": "2026-09-23"
+ },
+ "Megma Services": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Merck Group": {
   "type": null,
@@ -974,6 +1024,10 @@
  "Nandaka Real Asset Advisory": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Nap Chief": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Nat Habit": {
   "type": null,
@@ -1094,6 +1148,10 @@
   "tenant": "parkplus",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Parviom Technologies Private Limited": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "PayU": {
   "type": "darwinbox",
@@ -1220,6 +1278,10 @@
  "Qure.ai": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "RAC IT Solutions": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Razorpay": {
   "type": null,
@@ -1349,6 +1411,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Siemens": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Signzy": {
   "type": "keka",
   "tenant": "signzy",
@@ -1463,6 +1529,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Tenvic Sports Education Pvt LTD": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "The Man Company": {
   "type": null,
   "checked": "2026-09-23"
@@ -1500,6 +1570,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Toreta": {
+  "type": null,
+  "checked": "2026-09-25"
+ },
  "Trademo": {
   "type": null,
   "checked": "2026-09-24"
@@ -1507,6 +1581,10 @@
  "Traya": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "TrueFan AI": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Truemeds": {
   "type": "keka",
@@ -1688,6 +1766,10 @@
  "Zetwerk": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Zinier": {
+  "type": null,
+  "checked": "2026-09-25"
  },
  "Zluri": {
   "type": "keka",
