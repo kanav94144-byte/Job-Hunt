@@ -1,5 +1,5 @@
 {
- "run_date": "2026-09-25",
+ "run_date": "2026-09-26",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 71,
+   "jobs": 65,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -53,7 +53,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 261,
+   "jobs": 245,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -77,7 +77,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 83,
+   "jobs": 84,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -149,7 +149,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 381,
+   "jobs": 379,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -161,7 +161,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 100,
+   "jobs": 98,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -203,7 +203,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 36,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -575,7 +575,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 41,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -707,7 +707,7 @@
   "linkedin": {
    "ok": 99,
    "failed": 0,
-   "jobs": 320,
+   "jobs": 292,
    "errors": []
   },
   "discovery:linkedin": {
@@ -717,10 +717,12 @@
    "errors": []
   },
   "discovery:indeed": {
-   "ok": 27,
-   "failed": 0,
-   "jobs": 978,
-   "errors": []
+   "ok": 26,
+   "failed": 1,
+   "jobs": 891,
+   "errors": [
+    "growth manager: ChunkedEncodingError: Response ended prematurely"
+   ]
   },
   "discovery:google": {
    "ok": 27,
@@ -731,7 +733,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1624,
+   "jobs": 1803,
    "errors": []
   },
   "naukri (browser)": {
@@ -742,60 +744,71 @@
   }
  },
  "descriptions": {
-  "careers portal": 28,
-  "linkedin": 82,
-  "iimjobs": 17
+  "careers portal": 22,
+  "linkedin": 95,
+  "iimjobs": 13
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4056,
-   "after_filters": 732,
-   "kept_new": 40
+   "raw": 4027,
+   "after_filters": 727,
+   "kept_new": 31
   },
   "linkedin": {
-   "raw": 1670,
-   "after_filters": 798,
-   "kept_new": 26
+   "raw": 1642,
+   "after_filters": 777,
+   "kept_new": 34
   },
   "indeed": {
-   "raw": 978,
-   "after_filters": 269,
-   "kept_new": 7
+   "raw": 891,
+   "after_filters": 262,
+   "kept_new": 20
   },
   "iimjobs": {
-   "raw": 1624,
-   "after_filters": 213,
-   "kept_new": 7
+   "raw": 1803,
+   "after_filters": 148,
+   "kept_new": 11
   }
  },
  "watchlist": {
-  "size": 170,
+  "size": 190,
   "added_this_run": [
-   "Allergan Aesthetics, an AbbVie Company",
-   "Jash Data Sciences",
-   "The Spice Brand",
-   "Nextenti Tech Private Limited",
-   "Varsal Terra Technology Pvt. Ltd.",
-   "SUN PHARMA",
-   "Aventure Innovations",
-   "Talengage",
-   "FusionEdge"
+   "Newfund",
+   "British Safety Council India",
+   "Elite Elevators",
+   "LearningShala",
+   "AVEVA",
+   "PharmaACE",
+   "Wonderchef Home Appliances Pvt Ltd.",
+   "Zenopsys",
+   "Angel One",
+   "Sattva Consulting",
+   "Flexing It\u00ae",
+   "Triple",
+   "EnergyBridge Tech India Pvt Ltd",
+   "Fx31 Labs",
+   "Amgen",
+   "Finplify Technologies Private Limited",
+   "Biyani Technologies",
+   "Saket Communications Pvt Ltd",
+   "Aldous Glare Tech and Energy",
+   "Power Build Batteries - Assoc. of Time Technoplast Ltd"
   ],
   "with_portal": 13
  },
  "counts": {
-  "raw": 8328,
-  "after_filters": 2012,
-  "judged": 331,
-  "kept": 80,
-  "duplicates_folded": 35,
-  "on_dashboard": 1260,
+  "raw": 8363,
+  "after_filters": 1914,
+  "judged": 402,
+  "kept": 96,
+  "duplicates_folded": 40,
+  "on_dashboard": 1236,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 161
+   "auto": 170
   }
  }
 }
