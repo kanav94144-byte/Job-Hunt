@@ -53,7 +53,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 252,
+   "jobs": 196,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -203,7 +203,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 37,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -426,6 +426,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 3,
+   "errors": []
+  },
+  "portal:keka:Kapture CX": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 31,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -713,19 +719,19 @@
   "linkedin": {
    "ok": 99,
    "failed": 0,
-   "jobs": 262,
+   "jobs": 244,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1349,
+   "jobs": 1348,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 920,
+   "jobs": 900,
    "errors": []
   },
   "discovery:google": {
@@ -748,27 +754,26 @@
   }
  },
  "descriptions": {
-  "careers portal": 21,
-  "linkedin": 114,
-  "iimjobs": 1
+  "careers portal": 20,
+  "linkedin": 74
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 1,
+ "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4029,
-   "after_filters": 718,
-   "kept_new": 28
+   "raw": 4005,
+   "after_filters": 727,
+   "kept_new": 30
   },
   "linkedin": {
-   "raw": 1611,
-   "after_filters": 736,
-   "kept_new": 36
+   "raw": 1592,
+   "after_filters": 735,
+   "kept_new": 31
   },
   "indeed": {
-   "raw": 920,
-   "after_filters": 260,
-   "kept_new": 6
+   "raw": 900,
+   "after_filters": 232,
+   "kept_new": 2
   },
   "iimjobs": {
    "raw": 1815,
@@ -776,31 +781,24 @@
   }
  },
  "watchlist": {
-  "size": 199,
+  "size": 201,
   "added_this_run": [
-   "Tech Data APAC",
-   "CoSage Advisors",
-   "SetuBridge Solutions Pvt Ltd",
-   "Venttura BIOceuticals Pvt Ltd",
-   "Chirix ERP",
-   "Impex",
-   "Qualitek Labs",
-   "Toolsvilla.com",
-   "Finlite Technologies Pvt. Ltd."
+   "Adani Enterprises Limited",
+   "ABC - Aditya Birla Housing Finance Limited"
   ],
   "with_portal": 14
  },
  "counts": {
-  "raw": 8375,
-  "after_filters": 1866,
-  "judged": 360,
-  "kept": 70,
-  "duplicates_folded": 39,
-  "on_dashboard": 1265,
+  "raw": 8312,
+  "after_filters": 1846,
+  "judged": 247,
+  "kept": 63,
+  "duplicates_folded": 41,
+  "on_dashboard": 1287,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 190
+   "auto": 199
   }
  }
 }
