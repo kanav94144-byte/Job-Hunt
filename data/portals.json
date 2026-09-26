@@ -3,6 +3,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "AVEVA": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "AbbVie": {
   "type": "smartrecruiters",
   "tenant": "AbbVie",
@@ -31,6 +35,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Aldous Glare Tech and Energy": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Allergan Aesthetics, an AbbVie Company": {
   "type": null,
   "checked": "2026-09-26"
@@ -47,9 +55,19 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Amgen": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Ancient Roots": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Angel One": {
+  "type": "darwinbox",
+  "tenant": "angelone",
+  "probed": true,
+  "checked": "2026-09-26"
  },
  "Antino Labs": {
   "type": null,
@@ -123,6 +141,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Biyani Technologies": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Bizongo": {
   "type": "darwinbox",
   "tenant": "bizongo",
@@ -170,6 +192,10 @@
  "Boston Consulting Group": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "British Safety Council India": {
+  "type": null,
+  "checked": "2026-09-26"
  },
  "BrowserStack": {
   "type": "workday",
@@ -425,6 +451,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Elite Elevators": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Emeritus": {
   "type": "darwinbox",
   "tenant": "emeritus",
@@ -438,6 +468,10 @@
  "Endgame": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "EnergyBridge Tech India Pvt Ltd": {
+  "type": null,
+  "checked": "2026-09-26"
  },
  "Epigamia": {
   "type": null,
@@ -485,9 +519,17 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Finplify Technologies Private Limited": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "FirstCry": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Flexing It\u00ae": {
+  "type": null,
+  "checked": "2026-09-26"
  },
  "Flexiple": {
   "type": null,
@@ -514,6 +556,10 @@
   "checked": "2026-09-23"
  },
  "FusionEdge": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
+ "Fx31 Labs": {
   "type": null,
   "checked": "2026-09-26"
  },
@@ -775,8 +821,10 @@
   "probed": true
  },
  "Kapture CX": {
-  "type": null,
-  "checked": "2026-09-23"
+  "type": "keka",
+  "tenant": "kapturecrm",
+  "harvested": true,
+  "checked": "2026-09-26"
  },
  "Kearney": {
   "type": null,
@@ -838,6 +886,10 @@
  "Leap Finance": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "LearningShala": {
+  "type": null,
+  "checked": "2026-09-26"
  },
  "Legal Corporate Solution": {
   "type": null,
@@ -1073,6 +1125,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Newfund": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Nextbigbox": {
   "type": null,
   "checked": "2026-09-23"
@@ -1204,6 +1260,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "PharmaACE": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Pharmed Limited": {
   "type": null,
   "checked": "2026-09-23"
@@ -1241,6 +1301,10 @@
  "Postman": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Power Build Batteries - Assoc. of Time Technoplast Ltd": {
+  "type": null,
+  "checked": "2026-09-26"
  },
  "Practo": {
   "type": null,
@@ -1381,11 +1445,19 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Saket Communications Pvt Ltd": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Sarvam AI": {
   "type": "ashby",
   "tenant": "sarvam",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Sattva Consulting": {
+  "type": null,
+  "checked": "2026-09-26"
  },
  "Scaler": {
   "type": "darwinbox",
@@ -1614,6 +1686,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Triple": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "TrueFan AI": {
   "type": null,
   "checked": "2026-09-25"
@@ -1740,6 +1816,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Wonderchef Home Appliances Pvt Ltd.": {
+  "type": null,
+  "checked": "2026-09-26"
+ },
  "Wow Skin Science": {
   "type": null,
   "checked": "2026-09-23"
@@ -1779,6 +1859,10 @@
  "ZS Associates": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Zenopsys": {
+  "type": null,
+  "checked": "2026-09-26"
  },
  "Zenoti": {
   "type": "greenhouse",

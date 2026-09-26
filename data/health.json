@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 65,
+   "jobs": 64,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -53,7 +53,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 245,
+   "jobs": 252,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -149,7 +149,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 379,
+   "jobs": 378,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -167,7 +167,7 @@
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 92,
+   "jobs": 89,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -407,7 +407,7 @@
   "portal:greenhouse:Observe.AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 7,
+   "jobs": 6,
    "errors": []
   },
   "portal:darwinbox:Darwinbox": {
@@ -632,6 +632,12 @@
    "jobs": 21,
    "errors": []
   },
+  "portal:darwinbox:Angel One": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
+   "errors": []
+  },
   "portal:smartrecruiters:Believe": {
    "ok": 1,
    "failed": 0,
@@ -659,7 +665,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 305,
+   "jobs": 306,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -707,22 +713,20 @@
   "linkedin": {
    "ok": 99,
    "failed": 0,
-   "jobs": 292,
+   "jobs": 262,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1350,
+   "jobs": 1349,
    "errors": []
   },
   "discovery:indeed": {
-   "ok": 26,
-   "failed": 1,
-   "jobs": 891,
-   "errors": [
-    "growth manager: ChunkedEncodingError: Response ended prematurely"
-   ]
+   "ok": 27,
+   "failed": 0,
+   "jobs": 920,
+   "errors": []
   },
   "discovery:google": {
    "ok": 27,
@@ -733,7 +737,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1803,
+   "jobs": 1815,
    "errors": []
   },
   "naukri (browser)": {
@@ -744,71 +748,59 @@
   }
  },
  "descriptions": {
-  "careers portal": 22,
-  "linkedin": 95,
-  "iimjobs": 13
+  "careers portal": 21,
+  "linkedin": 114,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 0,
+ "portals_learned_from_links": 1,
  "funnel": {
   "careers portal": {
-   "raw": 4027,
-   "after_filters": 727,
-   "kept_new": 31
+   "raw": 4029,
+   "after_filters": 718,
+   "kept_new": 28
   },
   "linkedin": {
-   "raw": 1642,
-   "after_filters": 777,
-   "kept_new": 34
+   "raw": 1611,
+   "after_filters": 736,
+   "kept_new": 36
   },
   "indeed": {
-   "raw": 891,
-   "after_filters": 262,
-   "kept_new": 20
+   "raw": 920,
+   "after_filters": 260,
+   "kept_new": 6
   },
   "iimjobs": {
-   "raw": 1803,
-   "after_filters": 148,
-   "kept_new": 11
+   "raw": 1815,
+   "after_filters": 152
   }
  },
  "watchlist": {
-  "size": 190,
+  "size": 199,
   "added_this_run": [
-   "Newfund",
-   "British Safety Council India",
-   "Elite Elevators",
-   "LearningShala",
-   "AVEVA",
-   "PharmaACE",
-   "Wonderchef Home Appliances Pvt Ltd.",
-   "Zenopsys",
-   "Angel One",
-   "Sattva Consulting",
-   "Flexing It\u00ae",
-   "Triple",
-   "EnergyBridge Tech India Pvt Ltd",
-   "Fx31 Labs",
-   "Amgen",
-   "Finplify Technologies Private Limited",
-   "Biyani Technologies",
-   "Saket Communications Pvt Ltd",
-   "Aldous Glare Tech and Energy",
-   "Power Build Batteries - Assoc. of Time Technoplast Ltd"
+   "Tech Data APAC",
+   "CoSage Advisors",
+   "SetuBridge Solutions Pvt Ltd",
+   "Venttura BIOceuticals Pvt Ltd",
+   "Chirix ERP",
+   "Impex",
+   "Qualitek Labs",
+   "Toolsvilla.com",
+   "Finlite Technologies Pvt. Ltd."
   ],
-  "with_portal": 13
+  "with_portal": 14
  },
  "counts": {
-  "raw": 8363,
-  "after_filters": 1914,
-  "judged": 402,
-  "kept": 96,
-  "duplicates_folded": 40,
-  "on_dashboard": 1236,
+  "raw": 8375,
+  "after_filters": 1866,
+  "judged": 360,
+  "kept": 70,
+  "duplicates_folded": 39,
+  "on_dashboard": 1265,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 170
+   "auto": 190
   }
  }
 }
