@@ -1,47 +1,45 @@
-# Job Hunt – 2026-09-27 15:07 UTC
+# Job Hunt – 2026-09-27 18:44 UTC
 
-**20 new roles today** · 1299 active on the dashboard
+**18 new roles today** · 1318 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4016 | 735 | 28 |
-| iimjobs | 1282 | 56 | 0 |
-| indeed | 832 | 185 | 5 |
-| linkedin | 1518 | 620 | 19 |
+| careers portal | 4015 | 735 | 27 |
+| iimjobs | 391 | 58 | 1 |
+| indeed | 780 | 183 | 7 |
+| linkedin | 1489 | 570 | 17 |
 
-Auto-watchlist: 214 companies (15 with a readable portal) · added: Aphrodite Global Ingredients Pvt Ltd, Big Steps Ventures Pvt. Ltd., Infosys, Brose Group, BIM Arcavion Private Limited
+Auto-watchlist: 219 companies (15 with a readable portal) · added: Handshake, SKIPS University, vCare Denmark, Zlan Creations Pvt. Ltd., RekNomics
 
-## Tier A (9)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Booking Holdings (Agoda/Booking.com) | Senior Lead, Strategy & Operations - North Asia (Seoul Based) | Singapore | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4390305417) |
-| BIM Arcavion Private Limited | IT Business Development Executive |  | 1+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4472440884) |
-| Aphrodite Global Ingredients Pvt Ltd | Business Development Manager | Mumbai | 2+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4470810068) |
-| Brose Group | Financial Research Analyst_1-3 Years_Corporate Development | Pune | 0-1 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4470819082) |
-| Big Steps Ventures Pvt. Ltd. | Business Development Manager -Retail leasing | Gurugram | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471078684) |
-| Infosys | Energy and Utilities Management Consultant | Bengaluru East | 3+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4443187644) |
-| Accenture Strategy | AI & Agentic Transformation Consultant (CL9) | Singapore | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4470734098) |
-| PwC India | Senior Associate- Marketing Operations | Bengaluru East | 4+ yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4451202693) |
-| Accenture Strategy | I&P GN - SC&E –  Consultant - S&P - Sustainability | Bengaluru | 4-5 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4472069967) |
-
-## Tier B (5)
+## Tier A (6)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| IDFC FIRST Bank | Program Lead-2 Wheeler Loan | Mumbai | not stated | – | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4462650064) |
-| TRADEGENIUZ CAPITAL PRIVATE LIMITED | 🚀 WE’RE HIRING — SOCIAL MEDIA & CONTENT GROWTH MANAGER | Kumbakonam | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471074650) |
-| EY GDS | Secretary - Business Consulting PI - National - CBS - AWS - CNS Executive Assistants - Kolkata | Kolkata | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4461803570) |
-| HealthifyMe | Sales Consultant |  | not stated | – | ~₹12–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4472442672) |
-| Techdome | Growth Lead (SaaS Marketing & Sales) | Hyderabad · Indore | 2+ yrs | – | ~₹28–45 LPA (est.) | [open](https://techdome.keka.com/careers/jobdetails/161082) |
+| Handshake | Growth Operations Lead (India) | Bengaluru | 3-4 yrs | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4463761097) |
+| PwC India | IN_Senior Associate_Infra Transformation_Capital Projects & Infrastructure_Advisory_Ahmedabad | Ahmedabad | 2-10 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4448878092) |
+| RekNomics | Senior Enterprise Sales Manager – B2B Solutions |  | not stated | Yes | ~₹18–32 LPA (est.) | [open](http://in.indeed.com/job/senior-enterprise-sales-manager-b2b-solutions-18fca64ab7d42685) |
+| Zlan Creations Pvt. Ltd. | Founder's Office Associate – Strategy & Research |  | 0-2 yrs | Yes | ~₹10–20 LPA (est.) | [open](http://in.indeed.com/job/founders-office-associate-strategy-research-198b176f0b58fa9e) |
+| SKIPS University | Business Development Manager | Ahmedabad | 4-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471017638) |
+| vCare Denmark | Business Development Executive (BDE) | Ahmedabad | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471191984) |
 
-## Tier C (6)
+## Tier B (9)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| SonicWall | Senior Product Manager – ZTNA or VPN experience is required | Bengaluru | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4416324077) |
-| Deloitte USI | Senior Consultant | S&T - BPR | Chennai | Supply Chain & Network Operations |  | 5+ yrs | Yes | ~₹26–42 LPA (est.) | [open](https://southasiacareers.deloitte.com/job/Chennai-Senior-Consultant-S&T-BPR-Chennai-Supply-Chain-&-Network-Operations/60137244/) |
-| Vynamic | Transformation Delivery Consultant - LifeSciences | Gurugram | 5+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4435852390) |
-| Regeneron | Senior Specialist, Global Partnerships & Trial Optimization |  | 5+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4461988598) |
-| Meta | Asia Logistics Program Manager | Singapore | 5+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4444270387) |
-| Livspace | Interior Sales Manager | Coimbatore | 4+ yrs | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471009152) |
+| Boston Consulting Group | Senior Creative (Hybrid) - AI Technologist | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4444385387) |
+| PwC India | Manufacturing Excellence - Senior Associate | Bengaluru East | 4+ yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4433111223) |
+| Flipkart | Udaan Category Management | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4454575149) |
+| JPMorganChase | Data Management Lead - Agentic AI for Data | Hyderabad | not stated | – | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4472241542) |
+| Amazon | Delivery Practice Manager, ASEAN Professional Services | Singapore | not stated | – | not stated | [open](https://www.linkedin.com/jobs/view/4463607413) |
+| Kapiva | Creative Lead | Bengaluru | 4+ yrs | – | ~₹28–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471040341) |
+| cargo-partner | Manager Business Development - Baroda, Gujarat | Matar | 3-5 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4101140527) |
+| Talent Destination | Chief Of Staff - Business Management Consultant | Mumbai | 2-4 yrs | – | ~₹28–45 LPA (est.) | [open](https://www.iimjobs.com/j/chief-of-staff-business-management-consultant-medical-crowdfunding-2-4-yrs-1736226) |
+| Accenture Strategy | IMU Sales Capture Senior Manager (Aerospace) | Bengaluru | not stated | – | ~₹38–58 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4472092131) |
+
+## Tier C (3)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Kotak Securities Ltd | Product Manager-ILG (Infrastructure & Logistics Group)-Product Manager |  | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://hcbt.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/preview/258905) |
+| ITC | Service delivery manager | Mumbai | not stated | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471097289) |
+| AU SMALL FINANCE BANK | Product Manager Two Wheeler | Mumbai | 5-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471066227) |
