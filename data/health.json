@@ -1,5 +1,5 @@
 {
- "run_date": "2026-09-26",
+ "run_date": "2026-09-27",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 64,
+   "jobs": 60,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -119,7 +119,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 127,
+   "jobs": 128,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -149,7 +149,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 378,
+   "jobs": 376,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -203,7 +203,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 36,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -431,7 +431,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 30,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -623,7 +623,7 @@
   "portal:darwinbox:Duroflex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 40,
    "errors": []
   },
   "portal:greenhouse:BlueStone": {
@@ -671,7 +671,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 306,
+   "jobs": 305,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -719,19 +719,19 @@
   "linkedin": {
    "ok": 99,
    "failed": 0,
-   "jobs": 244,
+   "jobs": 233,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1348,
+   "jobs": 1338,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 900,
+   "jobs": 847,
    "errors": []
   },
   "discovery:google": {
@@ -743,7 +743,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1815,
+   "jobs": 1276,
    "errors": []
   },
   "naukri (browser)": {
@@ -755,50 +755,57 @@
  },
  "descriptions": {
   "careers portal": 20,
-  "linkedin": 74
+  "linkedin": 99,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4005,
-   "after_filters": 727,
-   "kept_new": 30
+   "raw": 4001,
+   "after_filters": 729,
+   "kept_new": 27
   },
   "linkedin": {
-   "raw": 1592,
-   "after_filters": 735,
-   "kept_new": 31
+   "raw": 1571,
+   "after_filters": 652,
+   "kept_new": 26
   },
   "indeed": {
-   "raw": 900,
-   "after_filters": 232,
-   "kept_new": 2
+   "raw": 847,
+   "after_filters": 247,
+   "kept_new": 8
   },
   "iimjobs": {
-   "raw": 1815,
-   "after_filters": 152
+   "raw": 1276,
+   "after_filters": 55
   }
  },
  "watchlist": {
-  "size": 201,
+  "size": 209,
   "added_this_run": [
-   "Adani Enterprises Limited",
-   "ABC - Aditya Birla Housing Finance Limited"
+   "Techdome",
+   "Digantara",
+   "Alter Domus",
+   "Linc Limited",
+   "ZONIX BPM",
+   "Chat360",
+   "LE JOLLY HEALTHCARE PRIVATE LIMITED",
+   "Analytics Station"
   ],
   "with_portal": 14
  },
  "counts": {
-  "raw": 8312,
-  "after_filters": 1846,
-  "judged": 247,
-  "kept": 63,
-  "duplicates_folded": 41,
-  "on_dashboard": 1287,
+  "raw": 7695,
+  "after_filters": 1683,
+  "judged": 314,
+  "kept": 61,
+  "duplicates_folded": 34,
+  "on_dashboard": 1281,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 199
+   "auto": 201
   }
  }
 }
