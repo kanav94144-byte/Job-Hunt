@@ -41,7 +41,7 @@
   "portal:urbancompany:Urban Company": {
    "ok": 1,
    "failed": 0,
-   "jobs": 12,
+   "jobs": 11,
    "errors": []
   },
   "portal:google:Google": {
@@ -161,7 +161,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 98,
+   "jobs": 97,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -671,7 +671,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 305,
+   "jobs": 304,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -716,34 +716,44 @@
    "jobs": 5,
    "errors": []
   },
+  "portal:keka:Techdome": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 18,
+   "errors": []
+  },
   "linkedin": {
    "ok": 99,
    "failed": 0,
-   "jobs": 233,
+   "jobs": 188,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1338,
+   "jobs": 1330,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 847,
+   "jobs": 832,
    "errors": []
   },
   "discovery:google": {
-   "ok": 27,
-   "failed": 0,
+   "ok": 3,
+   "failed": 24,
    "jobs": 0,
-   "errors": []
+   "errors": [
+    "brand manager D2C: RetryError: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /sorry/index?continue=https://www.google.com/search%3Fq%3Dbrand%2Bmanager%2BD2C%2Bjobs%2Bnear%2BIndia%2Bin%2Bthe%2Blast%2B3%2Bdays%26udm%3D8&q=EgQUMT03GIff5NUGIjAW4axood2cmSLnpEW3jC2th",
+    "category lead e-commerce: RetryError: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /sorry/index?continue=https://www.google.com/search%3Fq%3Dcategory%2Blead%2Be-commerce%2Bjobs%2Bnear%2BIndia%2Bin%2Bthe%2Blast%2B3%2Bdays%26udm%3D8&q=EgQUMT03GJDf5NUGIjBQPLd-pA1",
+    "program manager business operations: RetryError: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /sorry/index?continue=https://www.google.com/search%3Fq%3Dprogram%2Bmanager%2Bbusiness%2Boperations%2Bjobs%2Bnear%2BIndia%2Bin%2Bthe%2Blast%2B3%2Bdays%26udm%3D8&q=EgQ"
+   ]
   },
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1276,
+   "jobs": 1282,
    "errors": []
   },
   "naukri (browser)": {
@@ -754,58 +764,54 @@
   }
  },
  "descriptions": {
-  "careers portal": 20,
-  "linkedin": 99,
-  "iimjobs": 1
+  "careers portal": 19,
+  "linkedin": 85
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4001,
-   "after_filters": 729,
-   "kept_new": 27
+   "raw": 4016,
+   "after_filters": 735,
+   "kept_new": 28
   },
   "linkedin": {
-   "raw": 1571,
-   "after_filters": 652,
-   "kept_new": 26
+   "raw": 1518,
+   "after_filters": 620,
+   "kept_new": 19
   },
   "indeed": {
-   "raw": 847,
-   "after_filters": 247,
-   "kept_new": 8
+   "raw": 832,
+   "after_filters": 185,
+   "kept_new": 5
   },
   "iimjobs": {
-   "raw": 1276,
-   "after_filters": 55
+   "raw": 1282,
+   "after_filters": 56
   }
  },
  "watchlist": {
-  "size": 209,
+  "size": 214,
   "added_this_run": [
-   "Techdome",
-   "Digantara",
-   "Alter Domus",
-   "Linc Limited",
-   "ZONIX BPM",
-   "Chat360",
-   "LE JOLLY HEALTHCARE PRIVATE LIMITED",
-   "Analytics Station"
+   "Aphrodite Global Ingredients Pvt Ltd",
+   "Big Steps Ventures Pvt. Ltd.",
+   "Infosys",
+   "Brose Group",
+   "BIM Arcavion Private Limited"
   ],
-  "with_portal": 14
+  "with_portal": 15
  },
  "counts": {
-  "raw": 7695,
-  "after_filters": 1683,
-  "judged": 314,
-  "kept": 61,
-  "duplicates_folded": 34,
-  "on_dashboard": 1281,
+  "raw": 7648,
+  "after_filters": 1596,
+  "judged": 269,
+  "kept": 52,
+  "duplicates_folded": 32,
+  "on_dashboard": 1299,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 201
+   "auto": 209
   }
  }
 }

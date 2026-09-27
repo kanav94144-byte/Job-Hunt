@@ -55,6 +55,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Alter Domus": {
+  "type": null,
+  "checked": "2026-09-27"
+ },
  "Alvarez & Marsal": {
   "type": null,
   "checked": "2026-09-23"
@@ -66,6 +70,10 @@
  "Amgen": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Analytics Station": {
+  "type": null,
+  "checked": "2026-09-27"
  },
  "Ancient Roots": {
   "type": null,
@@ -281,6 +289,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Chat360": {
+  "type": null,
+  "checked": "2026-09-27"
+ },
  "Chirix ERP": {
   "type": null,
   "checked": "2026-09-26"
@@ -390,6 +402,10 @@
  "Delta Exchange": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Digantara": {
+  "type": null,
+  "checked": "2026-09-27"
  },
  "Ditto Insurance": {
   "type": null,
@@ -893,6 +909,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "LE JOLLY HEALTHCARE PRIVATE LIMITED": {
+  "type": null,
+  "checked": "2026-09-27"
+ },
  "LETITBEX AI TECH SOLUTIONS": {
   "type": "keka",
   "tenant": "letitbexai",
@@ -941,6 +961,10 @@
   "type": "darwinbox",
   "tenant": "licious",
   "probed": true
+ },
+ "Linc Limited": {
+  "type": null,
+  "checked": "2026-09-27"
  },
  "Livspace": {
   "type": null,
@@ -1665,6 +1689,12 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "Techdome": {
+  "type": "keka",
+  "tenant": "techdome",
+  "probed": true,
+  "checked": "2026-09-27"
+ },
  "Tenvic Sports Education Pvt LTD": {
   "type": null,
   "checked": "2026-09-25"
@@ -1899,6 +1929,10 @@
  "Yulu": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "ZONIX BPM": {
+  "type": null,
+  "checked": "2026-09-27"
  },
  "ZS Associates": {
   "type": null,
