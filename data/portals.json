@@ -7,9 +7,24 @@
   "type": null,
   "checked": "2026-09-23"
  },
- "AVEVA": {
+ "ASUS": {
   "type": null,
-  "checked": "2026-09-26"
+  "checked": "2026-09-28"
+ },
+ "AVEVA": {
+  "type": "workday",
+  "tenant": "aveva",
+  "wd": "wd3",
+  "site": "AVEVA_careers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-28"
  },
  "AbbVie": {
   "type": "smartrecruiters",
@@ -100,6 +115,10 @@
  "AppsForBharat": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Athena Investment Advisers": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Ather Energy": {
   "type": "darwinbox",
@@ -244,6 +263,14 @@
   "harvested": true,
   "checked": "2026-09-23"
  },
+ "Buildesk": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
+ "Business Sweden": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "CARTRADE.COM": {
   "type": null,
   "checked": "2026-09-24"
@@ -320,6 +347,10 @@
   "tenant": "citymall",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Clearsulting": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Clearwater Analytics": {
   "type": null,
@@ -425,6 +456,10 @@
   "type": null,
   "checked": "2026-09-27"
  },
+ "Digilock Europe | Global Leader in Electronic Locks": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Ditto Insurance": {
   "type": null,
   "checked": "2026-09-23"
@@ -454,6 +489,10 @@
  "Dun & Bradstreet": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Duplex Technology": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Duroflex": {
   "type": "darwinbox",
@@ -531,6 +570,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Ericson Insurance TPA Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Exotel": {
   "type": null,
   "checked": "2026-09-23"
@@ -581,6 +624,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "FlexiLoans": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Flexing It\u00ae": {
   "type": null,
   "checked": "2026-09-26"
@@ -601,6 +648,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Fractal": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Freshworks": {
   "type": "smartrecruiters",
   "tenant": "freshworks",
@@ -608,6 +659,10 @@
   "company_id": "freshworks",
   "country": "in",
   "checked": "2026-09-23"
+ },
+ "Frontier Group": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "FusionEdge": {
   "type": null,
@@ -654,6 +709,10 @@
   "harvested": true,
   "checked": "2026-09-23"
  },
+ "Giggso": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Go Digit": {
   "type": "darwinbox",
   "tenant": "godigit",
@@ -669,9 +728,17 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "GrayQuest": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "GreyLabs AI": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "Growqai": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Growth Avenues": {
   "type": null,
@@ -690,6 +757,12 @@
   "tenant": "gupshup",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Gushwork": {
+  "type": "lever",
+  "tenant": "gushwork",
+  "harvested": true,
+  "checked": "2026-09-28"
  },
  "GyroHR": {
   "type": null,
@@ -745,6 +818,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Hirepedia": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Honasa Consumer (Mamaearth)": {
   "type": null,
   "checked": "2026-09-23"
@@ -763,6 +840,10 @@
   ],
   "harvested": true,
   "checked": "2026-09-23"
+ },
+ "IBM": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "IDFC FIRST Bank": {
   "type": null,
@@ -877,9 +958,21 @@
   "tenant": "juspay",
   "probed": true
  },
+ "K7 Computing": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
+ "KETTO ONLINE VENTURES PRIVATE LIMITED": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "KPMG India": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "KRISATWORK": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Kapiva": {
   "type": "darwinbox",
@@ -950,8 +1043,10 @@
   "checked": "2026-09-23"
  },
  "LeadSquared": {
-  "type": null,
-  "checked": "2026-09-23"
+  "type": "darwinbox",
+  "tenant": "leadsquaredhrms",
+  "harvested": true,
+  "checked": "2026-09-28"
  },
  "Leap Finance": {
   "type": null,
@@ -988,6 +1083,10 @@
   "tenant": "licious",
   "probed": true
  },
+ "LifeCell International Pvt.Ltd": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Linc Limited": {
   "type": null,
   "checked": "2026-09-27"
@@ -1005,6 +1104,10 @@
   "tenant": "m2p",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "M3M India Private Limited": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "MACROTECH DEVELOPERS LIMITED": {
   "type": null,
@@ -1062,6 +1165,10 @@
  "Maven Fly Media": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "McCain Foods": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "McGraw Hill": {
   "type": null,
@@ -1342,6 +1449,21 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Philips": {
+  "type": "workday",
+  "tenant": "philips",
+  "wd": "wd3",
+  "site": "jobs-and-careers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-28"
+ },
  "Physics Wallah": {
   "type": null,
   "checked": "2026-09-23"
@@ -1428,6 +1550,10 @@
   ],
   "harvested": true,
   "checked": "2026-09-25"
+ },
+ "Qikberry Technology Pvt Ltd": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Qualitek Labs": {
   "type": null,
@@ -1534,6 +1660,10 @@
  "Saket Communications Pvt Ltd": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Samast Technologies Private Limited": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Sarvam AI": {
   "type": "ashby",
@@ -1670,6 +1800,14 @@
  "Stable Money": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "StelleHire": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
+ "Steps India Technology": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Sumanel Technology Ventures": {
   "type": null,
@@ -1814,6 +1952,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "T\u00dcV S\u00dcD": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Uber": {
   "type": null,
   "checked": "2026-09-23"
@@ -1822,6 +1964,10 @@
   "type": "darwinbox",
   "tenant": "udaan",
   "probed": true
+ },
+ "Ultimutt\u2122": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Ultrahuman": {
   "type": null,
@@ -1847,6 +1993,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "ValetEZ": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Vansun Mediatech": {
   "type": null,
   "checked": "2026-09-24"
@@ -1854,6 +2004,10 @@
  "Vantrock": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "Varaha": {
+  "type": null,
+  "checked": "2026-09-28"
  },
  "Varistor Group": {
   "type": null,
@@ -1877,6 +2031,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "ViNi Tech": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Virya Autonomous Technologies": {
   "type": null,
   "checked": "2026-09-23"
@@ -1899,6 +2057,12 @@
  "Waste 2 Resource India": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Way2News": {
+  "type": "keka",
+  "tenant": "way2news",
+  "probed": true,
+  "checked": "2026-09-28"
  },
  "WebEngage": {
   "type": null,
@@ -1987,6 +2151,10 @@
   "tenant": "zepto",
   "probed": true
  },
+ "Zerobro India": {
+  "type": null,
+  "checked": "2026-09-28"
+ },
  "Zerodha": {
   "type": null,
   "checked": "2026-09-23"
@@ -2072,6 +2240,12 @@
  "sparkle\u2605minds": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "sugar.fit": {
+  "type": "darwinbox",
+  "tenant": "sugarfit",
+  "probed": true,
+  "checked": "2026-09-28"
  },
  "upGrad": {
   "type": "darwinbox",
