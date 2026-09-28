@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 67,
+   "jobs": 61,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -53,13 +53,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 187,
+   "jobs": 179,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 74,
+   "jobs": 75,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -119,7 +119,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 125,
+   "jobs": 126,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -155,7 +155,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 377,
+   "jobs": 368,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -167,7 +167,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 102,
+   "jobs": 99,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -323,7 +323,7 @@
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 31,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -336,6 +336,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 17,
+   "errors": []
+  },
+  "portal:darwinbox:LeadSquared": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 32,
    "errors": []
   },
   "portal:darwinbox:HighRadius": {
@@ -638,6 +644,12 @@
    "jobs": 0,
    "errors": []
   },
+  "portal:workday:AVEVA": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 73,
+   "errors": []
+  },
   "portal:smartrecruiters:AbbVie": {
    "ok": 1,
    "failed": 0,
@@ -677,13 +689,19 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 310,
+   "jobs": 312,
+   "errors": []
+  },
+  "portal:lever:Gushwork": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 9,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 64,
+   "jobs": 68,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
@@ -708,6 +726,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 68,
+   "errors": []
+  },
+  "portal:workday:Philips": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 58,
    "errors": []
   },
   "portal:keka:Sioniq": {
@@ -743,7 +767,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 202,
+   "jobs": 210,
    "errors": []
   },
   "discovery:linkedin": {
@@ -755,7 +779,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 865,
+   "jobs": 892,
    "errors": []
   },
   "discovery:google": {
@@ -767,7 +791,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 931,
+   "jobs": 720,
    "errors": []
   },
   "naukri (browser)": {
@@ -778,63 +802,60 @@
   }
  },
  "descriptions": {
-  "careers portal": 33,
-  "linkedin": 174,
-  "iimjobs": 8
+  "careers portal": 35,
+  "linkedin": 54,
+  "iimjobs": 6
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 3,
+ "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4041,
-   "after_filters": 733,
-   "kept_new": 44
+   "raw": 4194,
+   "after_filters": 773,
+   "kept_new": 41
   },
   "linkedin": {
-   "raw": 1542,
-   "after_filters": 709,
-   "kept_new": 52
+   "raw": 1550,
+   "after_filters": 722,
+   "kept_new": 19
   },
   "indeed": {
-   "raw": 865,
-   "after_filters": 241,
+   "raw": 892,
+   "after_filters": 207,
    "kept_new": 7
   },
   "iimjobs": {
-   "raw": 931,
-   "after_filters": 68,
-   "kept_new": 5
+   "raw": 720,
+   "after_filters": 86,
+   "kept_new": 4
   }
  },
  "watchlist": {
-  "size": 266,
+  "size": 275,
   "added_this_run": [
-   "Pernod Ricard India",
-   "T-Hub",
-   "Philips",
-   "IIFL Capital Services Limited",
-   "CertifyMe",
-   "Give",
-   "Micron Technology",
-   "Anika Industries",
-   "LH2 AI Labs",
-   "IDfy",
-   "Brandworks Technologies pvt. ltd.",
-   "Kotak Securities Ltd"
+   "Viami Logistics and Consulting LLP",
+   "Veradigm\u00ae",
+   "K-HUB INDIA",
+   "Kaar Ventures",
+   "Baadalsoft LLC",
+   "Colliers",
+   "SalesMonk.ai",
+   "ConglomerateIT Services",
+   "Two99"
   ],
-  "with_portal": 20
+  "with_portal": 21
  },
  "counts": {
-  "raw": 7379,
-  "after_filters": 1751,
-  "judged": 570,
-  "kept": 108,
+  "raw": 7356,
+  "after_filters": 1788,
+  "judged": 255,
+  "kept": 71,
   "duplicates_folded": 32,
-  "on_dashboard": 1408,
+  "on_dashboard": 1441,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 254
+   "auto": 266
   }
  }
 }
