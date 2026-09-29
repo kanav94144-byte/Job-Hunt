@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 65,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -53,13 +53,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 210,
+   "jobs": 169,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 68,
+   "jobs": 66,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -77,7 +77,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 85,
+   "jobs": 86,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -113,13 +113,13 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 21,
+   "jobs": 22,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 124,
+   "jobs": 117,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -149,13 +149,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 14,
+   "jobs": 11,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 382,
+   "jobs": 365,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -167,7 +167,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 99,
+   "jobs": 90,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -209,7 +209,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 42,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -323,7 +323,7 @@
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 29,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -383,7 +383,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 34,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -668,6 +668,12 @@
    "jobs": 7,
    "errors": []
   },
+  "portal:keka:Cautio": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 3,
+   "errors": []
+  },
   "portal:keka:CloudThat": {
    "ok": 1,
    "failed": 0,
@@ -695,7 +701,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 310,
+   "jobs": 294,
    "errors": []
   },
   "portal:lever:Gushwork": {
@@ -743,7 +749,7 @@
   "portal:workday:Philips": {
    "ok": 1,
    "failed": 0,
-   "jobs": 67,
+   "jobs": 64,
    "errors": []
   },
   "portal:keka:Sioniq": {
@@ -755,7 +761,7 @@
   "portal:lever:Smarsh": {
    "ok": 1,
    "failed": 0,
-   "jobs": 4,
+   "jobs": 5,
    "errors": []
   },
   "portal:keka:Techdome": {
@@ -779,7 +785,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 264,
+   "jobs": 275,
    "errors": []
   },
   "discovery:linkedin": {
@@ -791,7 +797,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 980,
+   "jobs": 992,
    "errors": []
   },
   "discovery:google": {
@@ -803,7 +809,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1216,
+   "jobs": 1255,
    "errors": []
   },
   "naukri (browser)": {
@@ -811,77 +817,64 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "PayPal Manager, Customer Care: 403 Client Error: Forbidden for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/job/Bangalore-Karnataka-India/Manager--Customer-Care_R0137849"
-   ]
   }
  },
  "descriptions": {
-  "careers portal": 104,
-  "linkedin": 155,
-  "iimjobs": 11
+  "careers portal": 32,
+  "linkedin": 60,
+  "iimjobs": 7
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4470,
-   "after_filters": 784,
-   "kept_new": 58
+   "raw": 4368,
+   "after_filters": 773,
+   "kept_new": 41
   },
   "linkedin": {
-   "raw": 1614,
-   "after_filters": 783,
-   "kept_new": 49
+   "raw": 1625,
+   "after_filters": 797,
+   "kept_new": 26
   },
   "indeed": {
-   "raw": 980,
-   "after_filters": 263,
+   "raw": 992,
+   "after_filters": 266,
    "kept_new": 9
   },
   "iimjobs": {
-   "raw": 1216,
-   "after_filters": 160,
-   "kept_new": 3
+   "raw": 1255,
+   "after_filters": 169,
+   "kept_new": 4
   }
  },
  "watchlist": {
-  "size": 313,
+  "size": 323,
   "added_this_run": [
-   "Antino",
-   "QualySec | Beyond Cybersecurity",
-   "Baltic Control Middle East | Affirm Control",
-   "GagnaPro Solutions",
-   "Tupperware India",
-   "MantriAI",
-   "Tetrahedron Manufacturing Services Pvt. Ltd.",
-   "Mytecsys.in",
-   "Solarc Ventures",
-   "Inventive Software Solutions Pvt. Ltd",
-   "LOGTECH BUSINESS PVT LTD",
-   "MANIL TEXFAB",
-   "KOITA FOUNDATION",
-   "Vplak India Pvt. Ltd.",
-   "Cautio"
+   "LightYears Health",
+   "Alstom",
+   "Alignerr",
+   "Bachatt",
+   "Deccan AI",
+   "PeopleX Ventures",
+   "Schneider Electric",
+   "Punekar Group",
+   "Expedia Group",
+   "Cognizant"
   ],
-  "with_portal": 22
+  "with_portal": 24
  },
  "counts": {
-  "raw": 8280,
-  "after_filters": 1990,
-  "judged": 717,
-  "kept": 119,
+  "raw": 8240,
+  "after_filters": 2005,
+  "judged": 260,
+  "kept": 80,
   "duplicates_folded": 39,
-  "on_dashboard": 1519,
+  "on_dashboard": 1553,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 298
+   "auto": 313
   }
  }
 }

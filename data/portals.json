@@ -112,6 +112,10 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "Antino": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "Antino Labs": {
   "type": null,
   "checked": "2026-09-24"
@@ -170,6 +174,10 @@
  "Bajaj Finserv": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Baltic Control Middle East | Affirm Control": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "Believe": {
   "type": "smartrecruiters",
@@ -349,6 +357,12 @@
  "Cashfree Payments": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Cautio": {
+  "type": "keka",
+  "tenant": "cautio",
+  "probed": true,
+  "checked": "2026-09-29"
  },
  "CertifyMe": {
   "type": null,
@@ -618,6 +632,21 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Expedia Group": {
+  "type": "workday",
+  "tenant": "expedia",
+  "wd": "wd108",
+  "site": "search",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-29"
+ },
  "FACE IT SYSTEMS LLP": {
   "type": null,
   "checked": "2026-09-29"
@@ -727,6 +756,10 @@
  "GVITechnology": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "GagnaPro Solutions": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "Games24x7": {
   "type": "darwinbox",
@@ -1000,6 +1033,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Inventive Software Solutions Pvt. Ltd": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "IserveU": {
   "type": null,
   "checked": "2026-09-24"
@@ -1049,6 +1086,10 @@
  "KETTO ONLINE VENTURES PRIVATE LIMITED": {
   "type": null,
   "checked": "2026-09-28"
+ },
+ "KOITA FOUNDATION": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "KPMG India": {
   "type": null,
@@ -1134,6 +1175,10 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "LOGTECH BUSINESS PVT LTD": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "Lahori Zeera": {
   "type": null,
   "checked": "2026-09-23"
@@ -1209,6 +1254,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "MANIL TEXFAB": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "MINTREE PREMIER LIFESTYLE AND BEAUTY PRIVATE LIMITED": {
   "type": null,
   "checked": "2026-09-23"
@@ -1238,6 +1287,10 @@
  "MantraCare": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "MantriAI": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "Manulife": {
   "type": "workday",
@@ -1365,6 +1418,10 @@
  "Muthoot FinCorp ONE": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Mytecsys.in": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "NITCO LIMITED": {
   "type": null,
@@ -1686,6 +1743,10 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "QualySec | Beyond Cybersecurity": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "QuickShift": {
   "type": null,
   "checked": "2026-09-23"
@@ -1922,6 +1983,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Solarc Ventures": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "SpaceDraft India Pvt Ltd.,": {
   "type": null,
   "checked": "2026-09-23"
@@ -2030,6 +2095,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Tetrahedron Manufacturing Services Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "The Man Company": {
   "type": null,
   "checked": "2026-09-23"
@@ -2108,6 +2177,10 @@
   "tenant": "truemeds",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Tupperware India": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "TurnB": {
   "type": null,
@@ -2225,6 +2298,10 @@
  "Vodafone": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Vplak India Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "Vyapar": {
   "type": "keka",
