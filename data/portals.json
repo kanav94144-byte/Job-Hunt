@@ -151,6 +151,10 @@
   "type": null,
   "checked": "2026-09-27"
  },
+ "Baadalsoft LLC": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "Bain & Company": {
   "type": null,
   "checked": "2026-09-23"
@@ -403,6 +407,10 @@
  "Commutec Luxury": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "ConglomerateIT Services": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "Conquer Technologies": {
   "type": null,
@@ -990,6 +998,10 @@
   "tenant": "juspay",
   "probed": true
  },
+ "K-HUB INDIA": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "K7 Computing": {
   "type": null,
   "checked": "2026-09-28"
@@ -1005,6 +1017,10 @@
  "KRISATWORK": {
   "type": null,
   "checked": "2026-09-28"
+ },
+ "Kaar Ventures": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "Kapiva": {
   "type": "darwinbox",
@@ -1313,6 +1329,21 @@
  "NITCO LIMITED": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "NVIDIA": {
+  "type": "workday",
+  "tenant": "nvidia",
+  "wd": "wd5",
+  "site": "NVIDIAExternalCareerSite",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-09-29"
  },
  "Nandaka Real Asset Advisory": {
   "type": null,
@@ -1709,6 +1740,10 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "SalesMonk.ai": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "Samast Technologies Private Limited": {
   "type": null,
   "checked": "2026-09-28"
@@ -2004,6 +2039,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Two99": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "T\u00dcV S\u00dcD": {
   "type": null,
   "checked": "2026-09-28"
@@ -2079,6 +2118,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Veradigm\u00ae": {
+  "type": null,
+  "checked": "2026-09-29"
+ },
  "VerbaFlo.AI": {
   "type": null,
   "checked": "2026-09-23"
@@ -2086,6 +2129,10 @@
  "ViNi Tech": {
   "type": null,
   "checked": "2026-09-28"
+ },
+ "Viami Logistics and Consulting LLP": {
+  "type": null,
+  "checked": "2026-09-29"
  },
  "Virya Autonomous Technologies": {
   "type": null,
