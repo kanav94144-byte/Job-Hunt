@@ -1,5 +1,5 @@
 {
- "run_date": "2026-09-29",
+ "run_date": "2026-09-30",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 65,
+   "jobs": 69,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -35,7 +35,7 @@
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 84,
+   "jobs": 83,
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
@@ -53,19 +53,19 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 169,
+   "jobs": 170,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 66,
+   "jobs": 75,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 34,
    "errors": []
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -77,7 +77,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 86,
+   "jobs": 90,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -95,7 +95,7 @@
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 49,
+   "jobs": 50,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -113,13 +113,13 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 22,
+   "jobs": 23,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 117,
+   "jobs": 127,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -149,13 +149,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 11,
+   "jobs": 10,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 365,
+   "jobs": 371,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -167,13 +167,13 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 90,
+   "jobs": 88,
    "errors": []
   },
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 84,
+   "jobs": 81,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -209,7 +209,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 45,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -221,7 +221,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 104,
+   "jobs": 105,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -317,7 +317,7 @@
   "portal:smartrecruiters:Freshworks": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 29,
    "errors": []
   },
   "portal:workday:BrowserStack": {
@@ -341,7 +341,7 @@
   "portal:darwinbox:LeadSquared": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 34,
    "errors": []
   },
   "portal:darwinbox:HighRadius": {
@@ -383,13 +383,13 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 33,
    "errors": []
   },
   "portal:lever:Hevo Data": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 52,
    "errors": []
   },
   "portal:keka:Zluri": {
@@ -443,7 +443,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 28,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -455,7 +455,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 29,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -593,7 +593,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 47,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -647,13 +647,13 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 71,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
    "ok": 1,
    "failed": 0,
-   "jobs": 21,
+   "jobs": 16,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -665,7 +665,7 @@
   "portal:smartrecruiters:Believe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 7,
+   "jobs": 6,
    "errors": []
   },
   "portal:keka:Cautio": {
@@ -698,10 +698,16 @@
    "jobs": 6,
    "errors": []
   },
+  "portal:workday:Expedia Group": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 22,
+   "errors": []
+  },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 294,
+   "jobs": 297,
    "errors": []
   },
   "portal:lever:Gushwork": {
@@ -713,13 +719,13 @@
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 65,
+   "jobs": 66,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 74,
+   "jobs": 75,
    "errors": []
   },
   "portal:keka:LETITBEX AI TECH SOLUTIONS": {
@@ -737,7 +743,7 @@
   "portal:keka:Medhavi": {
    "ok": 1,
    "failed": 0,
-   "jobs": 68,
+   "jobs": 74,
    "errors": []
   },
   "portal:workday:NVIDIA": {
@@ -749,25 +755,25 @@
   "portal:workday:Philips": {
    "ok": 1,
    "failed": 0,
-   "jobs": 64,
+   "jobs": 71,
    "errors": []
   },
   "portal:keka:Sioniq": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 32,
    "errors": []
   },
   "portal:lever:Smarsh": {
    "ok": 1,
    "failed": 0,
-   "jobs": 5,
+   "jobs": 6,
    "errors": []
   },
   "portal:keka:Techdome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 18,
    "errors": []
   },
   "portal:keka:Way2News": {
@@ -785,7 +791,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 275,
+   "jobs": 274,
    "errors": []
   },
   "discovery:linkedin": {
@@ -797,7 +803,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 992,
+   "jobs": 972,
    "errors": []
   },
   "discovery:google": {
@@ -809,7 +815,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1255,
+   "jobs": 1652,
    "errors": []
   },
   "naukri (browser)": {
@@ -820,61 +826,78 @@
   }
  },
  "descriptions": {
-  "careers portal": 32,
-  "linkedin": 60,
-  "iimjobs": 7
+  "careers portal": 48,
+  "linkedin": 132,
+  "iimjobs": 26
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4368,
-   "after_filters": 773,
-   "kept_new": 41
+   "raw": 4436,
+   "after_filters": 804,
+   "kept_new": 69
   },
   "linkedin": {
-   "raw": 1625,
-   "after_filters": 797,
-   "kept_new": 26
+   "raw": 1624,
+   "after_filters": 767,
+   "kept_new": 38
   },
   "indeed": {
-   "raw": 992,
-   "after_filters": 266,
-   "kept_new": 9
+   "raw": 972,
+   "after_filters": 254,
+   "kept_new": 17
   },
   "iimjobs": {
-   "raw": 1255,
-   "after_filters": 169,
-   "kept_new": 4
+   "raw": 1652,
+   "after_filters": 148,
+   "kept_new": 15
   }
  },
  "watchlist": {
-  "size": 323,
+  "size": 350,
   "added_this_run": [
-   "LightYears Health",
-   "Alstom",
-   "Alignerr",
-   "Bachatt",
-   "Deccan AI",
-   "PeopleX Ventures",
-   "Schneider Electric",
-   "Punekar Group",
-   "Expedia Group",
-   "Cognizant"
+   "VEGROW",
+   "Talking Point Communications",
+   "Gartner",
+   "Samraj Polytex LTD",
+   "NoBrokerHood",
+   "Katyayani Organics",
+   "Vortex Consulting Group",
+   "Black Box",
+   "MyTravaly",
+   "Nation with NaMo",
+   "Vegrow",
+   "Kalliope Consulting",
+   "Fourth Partner Energy",
+   "Lagrange Point International",
+   "Deepa Gurnani",
+   "Terkar Capital",
+   "Web Infotech",
+   "Exaguru",
+   "IVM technologies",
+   "Alps Distributors Pvt Ltd",
+   "Hopezen International Private Ltd",
+   "CDN Agencies",
+   "WHALEXY",
+   "NIKE",
+   "Zixflow",
+   "AI MILL",
+   "Hancod Digital"
   ],
-  "with_portal": 24
+  "with_portal": 25
  },
  "counts": {
-  "raw": 8240,
-  "after_filters": 2005,
-  "judged": 260,
-  "kept": 80,
-  "duplicates_folded": 39,
-  "on_dashboard": 1553,
+  "raw": 8684,
+  "after_filters": 1973,
+  "judged": 547,
+  "kept": 139,
+  "duplicates_folded": 41,
+  "on_dashboard": 1531,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 313
+   "auto": 323
   }
  }
 }
