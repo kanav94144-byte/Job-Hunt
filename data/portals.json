@@ -716,6 +716,10 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "Enking International": {
+  "type": null,
+  "checked": "2026-10-01"
+ },
  "Epigamia": {
   "type": null,
   "checked": "2026-09-23"
@@ -1036,6 +1040,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Harvinn Technologies": {
+  "type": null,
+  "checked": "2026-10-01"
+ },
  "HavStrategy": {
   "type": null,
   "checked": "2026-09-23"
@@ -1081,6 +1089,10 @@
  "Hindustan Unilever": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "HireFlexperts": {
+  "type": null,
+  "checked": "2026-10-01"
  },
  "Hirepedia": {
   "type": null,
@@ -1597,6 +1609,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Microban International": {
+  "type": null,
+  "checked": "2026-10-01"
+ },
  "Micron Technology": {
   "type": null,
   "checked": "2026-09-28"
@@ -1732,6 +1748,10 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "Newton School": {
+  "type": null,
+  "checked": "2026-10-01"
+ },
  "Nextbigbox": {
   "type": null,
   "checked": "2026-09-23"
@@ -1801,6 +1821,10 @@
  "OkCredit": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Okta": {
+  "type": null,
+  "checked": "2026-10-01"
  },
  "Ola": {
   "type": null,
@@ -2526,6 +2550,10 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "US Pharmacopeia": {
+  "type": null,
+  "checked": "2026-10-01"
+ },
  "Uber": {
   "type": null,
   "checked": "2026-09-23"
@@ -2567,6 +2595,10 @@
   "type": null,
   "checked": "2026-09-30"
  },
+ "Vacancy factor": {
+  "type": null,
+  "checked": "2026-10-01"
+ },
  "ValetEZ": {
   "type": null,
   "checked": "2026-09-28"
@@ -2602,8 +2634,19 @@
   "checked": "2026-09-23"
  },
  "Veradigm\u00ae": {
-  "type": null,
-  "checked": "2026-09-29"
+  "type": "workday",
+  "tenant": "veradigm",
+  "wd": "wd12",
+  "site": "VR",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-01"
  },
  "VerbaFlo.AI": {
   "type": null,
@@ -2701,6 +2744,10 @@
  "Wow! Momo": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Xneeti Tech": {
+  "type": null,
+  "checked": "2026-10-01"
  },
  "Xpressbees": {
   "type": null,
@@ -2842,6 +2889,10 @@
  "i4 Consulting": {
   "type": null,
   "checked": "2026-09-30"
+ },
+ "iDream Education": {
+  "type": null,
+  "checked": "2026-10-01"
  },
  "iT Gurus Software": {
   "type": null,
