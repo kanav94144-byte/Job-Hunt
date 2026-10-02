@@ -1,5 +1,5 @@
 {
- "run_date": "2026-10-01",
+ "run_date": "2026-10-02",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 62,
+   "jobs": 61,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -35,7 +35,7 @@
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 78,
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
@@ -59,7 +59,7 @@
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 78,
+   "jobs": 77,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -155,7 +155,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 365,
+   "jobs": 366,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -179,7 +179,7 @@
   "portal:darwinbox:Zepto": {
    "ok": 1,
    "failed": 0,
-   "jobs": 2,
+   "jobs": 1,
    "errors": []
   },
   "portal:darwinbox:BigBasket": {
@@ -323,7 +323,7 @@
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 29,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -341,7 +341,7 @@
   "portal:darwinbox:LeadSquared": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 32,
    "errors": []
   },
   "portal:darwinbox:HighRadius": {
@@ -695,7 +695,7 @@
   "portal:greenhouse:EBANX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 5,
+   "jobs": 6,
    "errors": []
   },
   "portal:workday:Expedia Group": {
@@ -713,7 +713,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 300,
+   "jobs": 310,
    "errors": []
   },
   "portal:lever:Gushwork": {
@@ -770,12 +770,6 @@
    "jobs": 71,
    "errors": []
   },
-  "portal:keka:Sioniq": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 32,
-   "errors": []
-  },
   "portal:lever:Smarsh": {
    "ok": 1,
    "failed": 0,
@@ -788,6 +782,12 @@
    "jobs": 13,
    "errors": []
   },
+  "portal:workday:Veradigm\u00ae": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 86,
+   "errors": []
+  },
   "portal:keka:Way2News": {
    "ok": 1,
    "failed": 0,
@@ -797,7 +797,7 @@
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 55,
    "errors": []
   },
   "portal:darwinbox:sugar.fit": {
@@ -809,7 +809,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 303,
+   "jobs": 295,
    "errors": []
   },
   "discovery:linkedin": {
@@ -821,7 +821,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 996,
+   "jobs": 937,
    "errors": []
   },
   "discovery:google": {
@@ -833,7 +833,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1034,
+   "jobs": 1087,
    "errors": []
   },
   "naukri (browser)": {
@@ -841,54 +841,68 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "Il Borgo Felice Digital Transformation MANAGER: 404 Client Error: Not Found for url: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4472873433"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 29,
-  "linkedin": 56,
-  "iimjobs": 1
+  "careers portal": 34,
+  "linkedin": 112,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 1,
+ "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4499,
-   "after_filters": 815,
-   "kept_new": 37
+   "raw": 4560,
+   "after_filters": 828,
+   "kept_new": 44
   },
   "linkedin": {
-   "raw": 1653,
-   "after_filters": 791,
-   "kept_new": 25
+   "raw": 1645,
+   "after_filters": 772,
+   "kept_new": 34
   },
   "indeed": {
-   "raw": 996,
-   "after_filters": 256,
-   "kept_new": 18
+   "raw": 937,
+   "after_filters": 269,
+   "kept_new": 4
   },
   "iimjobs": {
-   "raw": 1034,
-   "after_filters": 144,
+   "raw": 1087,
+   "after_filters": 62,
    "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Skyros Solar",
-   "Durozen Technologies",
-   "GE HealthCare",
-   "U.S. Pharmacopeia"
+   "Dot Tech Hub",
+   "Varun Gupta",
+   "Zydus Group",
+   "Wigope",
+   "BU Soft Tech",
+   "Route Mobile Limited",
+   "Acuitas360",
+   "Property Finder",
+   "Menarini Asia-Pacific",
+   "Net Benefit"
   ],
   "with_portal": 27
  },
  "counts": {
-  "raw": 8182,
-  "after_filters": 2006,
-  "judged": 220,
-  "kept": 81,
-  "duplicates_folded": 44,
-  "on_dashboard": 1616,
+  "raw": 8229,
+  "after_filters": 1931,
+  "judged": 394,
+  "kept": 83,
+  "duplicates_folded": 41,
+  "on_dashboard": 1491,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
