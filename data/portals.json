@@ -66,6 +66,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Acuitas360": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "Acuity knowledge Partners": {
   "type": null,
   "checked": "2026-09-25"
@@ -202,6 +206,10 @@
  "BIM Arcavion Private Limited": {
   "type": null,
   "checked": "2026-09-27"
+ },
+ "BU Soft Tech": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Baadalsoft LLC": {
   "type": null,
@@ -619,6 +627,10 @@
  "Dot & Key": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Dot Tech Hub": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Dream Sports (Dream11)": {
   "type": null,
@@ -1597,6 +1609,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Menarini Asia-Pacific": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "Merck Group": {
   "type": null,
   "checked": "2026-09-25"
@@ -1743,6 +1759,10 @@
  "Nestle India": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Net Benefit": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Netcore Cloud": {
   "type": null,
@@ -2013,6 +2033,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Property Finder": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "ProtoTech Solutions": {
   "type": null,
   "checked": "2026-09-29"
@@ -2124,6 +2148,10 @@
  "Rocketlane": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Route Mobile Limited": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Rupeek": {
   "type": "darwinbox",
@@ -2639,6 +2667,10 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "Varun Gupta": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "Venttura BIOceuticals Pvt Ltd": {
   "type": null,
   "checked": "2026-09-26"
@@ -2744,6 +2776,10 @@
   "company_id": "whatfix",
   "country": "in",
   "checked": "2026-09-23"
+ },
+ "Wigope": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Womennnovator": {
   "type": null,
@@ -2866,6 +2902,12 @@
  "Zouk": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Zydus Group": {
+  "type": "darwinbox",
+  "tenant": "zydusgroup",
+  "probed": true,
+  "checked": "2026-10-02"
  },
  "airtel": {
   "type": "darwinbox",

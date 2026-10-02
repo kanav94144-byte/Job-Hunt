@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 61,
+   "jobs": 60,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -383,7 +383,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 32,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -455,7 +455,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 26,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -779,7 +779,7 @@
   "portal:keka:Techdome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 13,
+   "jobs": 15,
    "errors": []
   },
   "portal:workday:Veradigm\u00ae": {
@@ -792,6 +792,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 5,
+   "errors": []
+  },
+  "portal:darwinbox:Zydus Group": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 44,
    "errors": []
   },
   "portal:darwinbox:airtel": {
@@ -809,7 +815,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 295,
+   "jobs": 261,
    "errors": []
   },
   "discovery:linkedin": {
@@ -821,7 +827,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 937,
+   "jobs": 900,
    "errors": []
   },
   "discovery:google": {
@@ -833,7 +839,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1087,
+   "jobs": 1175,
    "errors": []
   },
   "naukri (browser)": {
@@ -841,68 +847,61 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "Il Borgo Felice Digital Transformation MANAGER: 404 Client Error: Not Found for url: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4472873433"
-   ]
   }
  },
  "descriptions": {
-  "careers portal": 34,
-  "linkedin": 112,
+  "careers portal": 25,
+  "linkedin": 76,
   "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4560,
-   "after_filters": 828,
-   "kept_new": 44
-  },
-  "linkedin": {
-   "raw": 1645,
-   "after_filters": 772,
+   "raw": 4604,
+   "after_filters": 832,
    "kept_new": 34
   },
+  "linkedin": {
+   "raw": 1611,
+   "after_filters": 734,
+   "kept_new": 36
+  },
   "indeed": {
-   "raw": 937,
-   "after_filters": 269,
-   "kept_new": 4
+   "raw": 900,
+   "after_filters": 249,
+   "kept_new": 1
   },
   "iimjobs": {
-   "raw": 1087,
-   "after_filters": 62,
+   "raw": 1175,
+   "after_filters": 73,
    "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Dot Tech Hub",
-   "Varun Gupta",
-   "Zydus Group",
-   "Wigope",
-   "BU Soft Tech",
-   "Route Mobile Limited",
-   "Acuitas360",
-   "Property Finder",
-   "Menarini Asia-Pacific",
-   "Net Benefit"
+   "Tycom Technology LLP",
+   "Unistanz Software Private Limited",
+   "Infomatics Corp",
+   "Bunge",
+   "Ameira Consulting",
+   "Travellers Kitty",
+   "Mocha Technologies India",
+   "GoVivace Inc.",
+   "Adani Electricity",
+   "Priceline",
+   "Zippee"
   ],
-  "with_portal": 27
+  "with_portal": 28
  },
  "counts": {
-  "raw": 8229,
-  "after_filters": 1931,
-  "judged": 394,
-  "kept": 83,
-  "duplicates_folded": 41,
-  "on_dashboard": 1491,
+  "raw": 8290,
+  "after_filters": 1888,
+  "judged": 239,
+  "kept": 72,
+  "duplicates_folded": 42,
+  "on_dashboard": 1521,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
