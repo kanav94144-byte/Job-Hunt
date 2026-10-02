@@ -74,6 +74,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Adani Electricity": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "Adani Enterprises Limited": {
   "type": null,
   "checked": "2026-09-27"
@@ -129,6 +133,10 @@
  "Amagi": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Ameira Consulting": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Amgen": {
   "type": null,
@@ -358,6 +366,10 @@
  "BuiltX Sustainable Design & Construction": {
   "type": null,
   "checked": "2026-10-01"
+ },
+ "Bunge": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Business Sweden": {
   "type": null,
@@ -992,6 +1004,10 @@
   "tenant": "gokwik",
   "probed": true
  },
+ "GoVivace Inc.": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "Godrej Consumer Products": {
   "type": null,
   "checked": "2026-09-23"
@@ -1228,6 +1244,10 @@
  "Infineon Technologies": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Infomatics Corp": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Infosys": {
   "type": null,
@@ -1665,6 +1685,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Mocha Technologies India": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "Moglix": {
   "type": null,
   "checked": "2026-09-23"
@@ -2019,6 +2043,10 @@
  "Praveedh D\u00e9cor | Premium High Quality Panels & Laminates": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Priceline": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Pristyn Care": {
   "type": "darwinbox",
@@ -2546,6 +2574,10 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "Travellers Kitty": {
+  "type": null,
+  "checked": "2026-10-02"
+ },
  "Traya": {
   "type": null,
   "checked": "2026-09-23"
@@ -2585,6 +2617,10 @@
  "Two99": {
   "type": null,
   "checked": "2026-09-29"
+ },
+ "Tycom Technology LLP": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "T\u00dcV S\u00dcD": {
   "type": null,
@@ -2630,6 +2666,10 @@
   "tenant": "uniphore",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Unistanz Software Private Limited": {
+  "type": null,
+  "checked": "2026-10-02"
  },
  "Urban Ladder": {
   "type": null,
@@ -2879,6 +2919,12 @@
  "Zinier": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "Zippee": {
+  "type": "keka",
+  "tenant": "zippee",
+  "probed": true,
+  "checked": "2026-10-02"
  },
  "Zixflow": {
   "type": null,
