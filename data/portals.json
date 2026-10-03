@@ -15,6 +15,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "AMD": {
+  "type": null,
+  "checked": "2026-10-03"
+ },
  "AMKA Aerospace and Defence Pvt. Ltd.": {
   "type": null,
   "checked": "2026-10-01"
@@ -172,6 +176,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Aon": {
+  "type": null,
+  "checked": "2026-10-03"
+ },
  "Aphrodite Global Ingredients Pvt Ltd": {
   "type": null,
   "checked": "2026-09-27"
@@ -210,6 +218,10 @@
  "Aventure Innovations": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Azentyx": {
+  "type": null,
+  "checked": "2026-10-03"
  },
  "BIM Arcavion Private Limited": {
   "type": null,
@@ -262,6 +274,10 @@
   "tenant": "bharatpe",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Bhoomi Farms": {
+  "type": null,
+  "checked": "2026-10-03"
  },
  "Big Steps Ventures Pvt. Ltd.": {
   "type": null,
@@ -684,6 +700,12 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "EXL": {
+  "type": "darwinbox",
+  "tenant": "exl",
+  "probed": true,
+  "checked": "2026-10-03"
+ },
  "EY GDS": {
   "type": null,
   "checked": "2026-09-23"
@@ -868,6 +890,10 @@
  "Flipkart": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Flipspaces": {
+  "type": null,
+  "checked": "2026-10-03"
  },
  "Flo Mattress": {
   "type": null,
@@ -1503,6 +1529,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Locus Fire & Security India Pvt Ltd": {
+  "type": null,
+  "checked": "2026-10-03"
+ },
  "M2P Fintech": {
   "type": "darwinbox",
   "tenant": "m2p",
@@ -1812,6 +1842,10 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "NextDimension AI": {
+  "type": null,
+  "checked": "2026-10-03"
+ },
  "Nextbigbox": {
   "type": null,
   "checked": "2026-09-23"
@@ -1931,6 +1965,10 @@
  "PathnSitu Biotechnologies": {
   "type": null,
   "checked": "2026-10-01"
+ },
+ "Patient Planet": {
+  "type": null,
+  "checked": "2026-10-03"
  },
  "Paving+": {
   "type": null,
@@ -2125,6 +2163,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Raj Packagings": {
+  "type": null,
+  "checked": "2026-10-03"
+ },
  "Rasna International": {
   "type": null,
   "checked": "2026-10-01"
@@ -2316,6 +2358,10 @@
  "Siemens": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "SigmaIT Software Designers Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-10-03"
  },
  "Signzy": {
   "type": "keka",
@@ -2582,6 +2628,12 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "TransGanization": {
+  "type": "keka",
+  "tenant": "transganization",
+  "probed": true,
+  "checked": "2026-10-03"
+ },
  "Travellers Kitty": {
   "type": null,
   "checked": "2026-10-02"
@@ -2768,6 +2820,14 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Vizza Fintech Private Limited": {
+  "type": null,
+  "checked": "2026-10-03"
+ },
+ "Vkollab Technologies": {
+  "type": null,
+  "checked": "2026-10-03"
+ },
  "Vodafone": {
   "type": null,
   "checked": "2026-09-24"
@@ -2832,6 +2892,10 @@
  "Wigope": {
   "type": null,
   "checked": "2026-10-02"
+ },
+ "Wolters Kluwer": {
+  "type": null,
+  "checked": "2026-10-03"
  },
  "Womennnovator": {
   "type": null,
