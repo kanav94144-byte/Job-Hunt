@@ -821,7 +821,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 251,
+   "jobs": 237,
    "errors": []
   },
   "discovery:linkedin": {
@@ -833,7 +833,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 813,
+   "jobs": 789,
    "errors": []
   },
   "discovery:google": {
@@ -845,7 +845,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 744,
+   "jobs": 746,
    "errors": []
   },
   "naukri (browser)": {
@@ -856,9 +856,8 @@
   }
  },
  "descriptions": {
-  "careers portal": 25,
-  "linkedin": 89,
-  "iimjobs": 1
+  "careers portal": 24,
+  "linkedin": 65
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
@@ -866,41 +865,43 @@
   "careers portal": {
    "raw": 4568,
    "after_filters": 817,
-   "kept_new": 32
+   "kept_new": 33
   },
   "linkedin": {
-   "raw": 1601,
-   "after_filters": 661,
-   "kept_new": 37
+   "raw": 1587,
+   "after_filters": 637,
+   "kept_new": 30
   },
   "indeed": {
-   "raw": 813,
-   "after_filters": 240
+   "raw": 789,
+   "after_filters": 230,
+   "kept_new": 1
   },
   "iimjobs": {
-   "raw": 744,
+   "raw": 746,
    "after_filters": 38
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "AeliusParallel Holdings Pvt Ltd",
-   "Porcellia",
-   "INDOWORLD EXPORT HOUSE",
-   "Milliman India",
-   "Johnson & Johnson MedTech",
-   "AIMLEAP"
+   "Nexapp Technologies Private Limited",
+   "Tabpack Technologies Private limited",
+   "Skybound Projects",
+   "Peko",
+   "Nielsen",
+   "Nextpower",
+   "Adrij Software Private Limited"
   ],
-  "with_portal": 29
+  "with_portal": 28
  },
  "counts": {
-  "raw": 7726,
-  "after_filters": 1756,
-  "judged": 295,
-  "kept": 69,
-  "duplicates_folded": 41,
-  "on_dashboard": 1410,
+  "raw": 7690,
+  "after_filters": 1722,
+  "judged": 190,
+  "kept": 64,
+  "duplicates_folded": 39,
+  "on_dashboard": 1434,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
