@@ -1,5 +1,5 @@
 {
- "run_date": "2026-10-03",
+ "run_date": "2026-10-04",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 48,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -119,7 +119,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 138,
+   "jobs": 137,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -173,7 +173,7 @@
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 80,
+   "jobs": 79,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -221,7 +221,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 88,
+   "jobs": 87,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -707,7 +707,7 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 28,
    "errors": []
   },
   "portal:workday:Genpact": {
@@ -761,13 +761,7 @@
   "portal:workday:Philips": {
    "ok": 1,
    "failed": 0,
-   "jobs": 70,
-   "errors": []
-  },
-  "portal:lever:Smarsh": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 6,
+   "jobs": 69,
    "errors": []
   },
   "portal:keka:Techdome": {
@@ -797,13 +791,13 @@
   "portal:keka:Zippee": {
    "ok": 1,
    "failed": 0,
-   "jobs": 62,
+   "jobs": 59,
    "errors": []
   },
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 49,
    "errors": []
   },
   "portal:darwinbox:airtel": {
@@ -821,7 +815,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 237,
+   "jobs": 206,
    "errors": []
   },
   "discovery:linkedin": {
@@ -833,7 +827,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 789,
+   "jobs": 738,
    "errors": []
   },
   "discovery:google": {
@@ -845,7 +839,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 746,
+   "jobs": 426,
    "errors": []
   },
   "naukri (browser)": {
@@ -856,52 +850,56 @@
   }
  },
  "descriptions": {
-  "careers portal": 24,
-  "linkedin": 65
+  "careers portal": 27,
+  "linkedin": 94,
+  "iimjobs": 3
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4568,
-   "after_filters": 817,
-   "kept_new": 33
+   "raw": 4551,
+   "after_filters": 808,
+   "kept_new": 35
   },
   "linkedin": {
-   "raw": 1587,
-   "after_filters": 637,
-   "kept_new": 30
+   "raw": 1556,
+   "after_filters": 588,
+   "kept_new": 29
   },
   "indeed": {
-   "raw": 789,
-   "after_filters": 230,
-   "kept_new": 1
+   "raw": 738,
+   "after_filters": 219
   },
   "iimjobs": {
-   "raw": 746,
-   "after_filters": 38
+   "raw": 426,
+   "after_filters": 31,
+   "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Nexapp Technologies Private Limited",
-   "Tabpack Technologies Private limited",
-   "Skybound Projects",
-   "Peko",
-   "Nielsen",
-   "Nextpower",
-   "Adrij Software Private Limited"
+   "AgniKul Cosmos",
+   "Valyx",
+   "Keshava Elite Projects",
+   "LIXIL",
+   "Empower",
+   "Infor",
+   "apna",
+   "Crystamond Global",
+   "Weneura FutureTech Pvt Ltd",
+   "Concentrix"
   ],
-  "with_portal": 28
+  "with_portal": 27
  },
  "counts": {
-  "raw": 7690,
-  "after_filters": 1722,
-  "judged": 190,
-  "kept": 64,
-  "duplicates_folded": 39,
-  "on_dashboard": 1434,
+  "raw": 7271,
+  "after_filters": 1646,
+  "judged": 272,
+  "kept": 65,
+  "duplicates_folded": 37,
+  "on_dashboard": 1376,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
