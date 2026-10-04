@@ -1,51 +1,46 @@
-# Job Hunt – 2026-10-04 10:53 UTC
+# Job Hunt – 2026-10-04 15:09 UTC
 
-**24 new roles today** · 1376 active on the dashboard
+**19 new roles today** · 1398 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4551 | 808 | 35 |
-| iimjobs | 426 | 31 | 1 |
-| indeed | 738 | 219 | 0 |
-| linkedin | 1556 | 588 | 29 |
+| careers portal | 4532 | 804 | 35 |
+| iimjobs | 439 | 32 | 0 |
+| indeed | 672 | 215 | 0 |
+| linkedin | 1542 | 577 | 24 |
 
-Auto-watchlist: 400 companies (27 with a readable portal) · added: AgniKul Cosmos, Valyx, Keshava Elite Projects, LIXIL, Empower, Infor, apna, Crystamond Global, Weneura FutureTech Pvt Ltd, Concentrix
+Auto-watchlist: 400 companies (28 with a readable portal) · added: Parentology by JJW, Mrida Greens & Development Pvt. Ltd., ITL FREIGHTBIZ PRIVATE LIMITED, Ceeco International, Castellum Labs, CodeRound AI, American University of Sharjah
 
-## Tier A (12)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| apna | Business Development Executive | Kolkata | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473486020) |
-| Crystamond Global | Business Development - ERP Sales | Delhi | 2-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473467435) |
-| Valyx | Growth Marketing Manager | Greater Bengaluru | 4+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4474213193) |
-| Rapido | Regional Manager -Strategy & Operations | Pune | 4-8 yrs | Yes | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4474202687) |
-| Keshava Elite Projects | Manager – Institutional Sales & Business Development | Hyderabad | 3-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473471802) |
-| Infor | Manager, Software Development - AI Governance Platform | Hyderabad | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4464709573) |
-| AgniKul Cosmos | Founder's Office Associate | Greater Chennai | 1-5 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473898089) |
-| Weneura FutureTech Pvt Ltd | Business Development Executive | India | 0-3 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473435631) |
-| EY GDS | Senior Manager - Tech Consulting - National - CNS - TC - TECHNOLOGY CONSULTING OTHER - Bangalore | Bengaluru | not stated | Yes | ~₹38–58 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4463945893) |
-| LIXIL | Business Development Manager | Mumbai | 3-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475319976) |
-| Empower | Business Development Manager – B2B Client Servicing | Mumbai Metropolitan | 4-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473364466) |
-| Concentrix | Senior Consultant | Dubai · United Arab Emirates | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4473187677) |
-
-## Tier B (3)
+## Tier A (8)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Johnson & Johnson MedTech | Associate Business Development Manager | Singapore | not stated | – | not stated | [open](https://www.linkedin.com/jobs/view/4475042212) |
-| LH2 AI Labs | Founding Product Manager - Data Marketplace | Bengaluru | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473171360) |
-| Deloitte USI | RCM - Operations Associate | Chennai | 3-5 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4472898058) |
+| Parentology by JJW | Growth Manager | Gurugram | 3-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4474204367) |
+| ITL FREIGHTBIZ PRIVATE LIMITED | Business Development Manager | Ahmedabad | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4474210444) |
+| Ceeco International | Business Development Manager | Mangaluru | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4473899997) |
+| Mrida Greens & Development Pvt. Ltd. | Business Development Manager | Mumbai | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4474213325) |
+| KPMG India | Consultant - Integration and Separation (M&A) | Mumbai | 3-5 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4405312803) |
+| Castellum Labs | Business Development Manager | Hyderabad | 1-3 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4464701503) |
+| Alvarez & Marsal | Manager, Transaction Advisory Group (TAG) Singapore | Singapore | 2+ yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4438674219) |
+| American University of Sharjah | Assistant Professor of Management, Strategy and Entrepreneurship (Multiple Tracks) | Sharjah · Sharjah Emirate · United Arab Emirates | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4319005456) |
 
-## Tier C (9)
+## Tier B (9)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Amazon | Business Development Lead-PhysAds, Physical Ads | Mumbai Metropolitan | 5+ yrs | Yes | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475361202) |
-| Accenture Strategy | I&F Decision Sci Practitioner Sr Analyst | Gurugram | 5-8 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4474211299) |
-| EY GDS | Senior Associate | Bengaluru | 5-6 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4436597418) |
-| Alpha Orion Consultants | Senior Product Manager - Digital Assets | Navi Mumbai | 5-7 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/senior-product-managerproduct-manager-digital-channels-mobile-banking-1737638) |
-| Reckitt | Systems Associate | Gurugram | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475351205) |
-| Nielsen | Senior Product Manager II | Bengaluru | 5+ yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4463470704) |
-| Amazon | Senior Program Manager, Refunds CX, WW Refunds Experience | Hyderabad | 5+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4466001083) |
-| PwC India | FMS- Transition Management- Senior Associate | Bengaluru East | 5+ yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4427342642) |
-| KPMG India | Manager - RRA | Dubai · United Arab Emirates | not stated | – | not stated | [open](https://www.linkedin.com/jobs/view/4456020487) |
+| LeadSquared | Senior Executive - Key Accounts | Mumbai · Bengaluru | 4-7 yrs | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4429260277) |
+| Amazon | SBS - Assistant Brand Manager, Home Entertainment | Bengaluru | 3+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4457386048) |
+| Purplle | Key Accounts Executive | Gurugram | 0-3 yrs | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4447740990) |
+| Rippling India | Manager, Implementation - IT Product | Bengaluru | 2+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4439059217) |
+| Alvarez & Marsal | Manager (Senior), Performance Improvement | Singapore | 3-4 yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4438673226) |
+| PwC India | Senior Consultant | Bengaluru | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4439001416) |
+| CodeRound AI | Product Manager (Fintech | Up to 35LPA) | India | 2+ yrs | – | ₹35 LPA | [open](https://www.linkedin.com/jobs/view/4475312602) |
+| Veradigm® | Training Consultant | Pune | 2-4 yrs | – | ~₹10–20 LPA (est.) | [open](https://veradigm.wd12.myworkdayjobs.com/VR/job/Pune-India/Training-Consultant_JR11057) |
+| EXL | B2/Consultant II | Ahmedabad | not stated | – | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4446740103) |
+
+## Tier C (2)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| PepsiCo | Deputy Manager - Routing Intelligence | Hyderabad | 3-4 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4431063318) |
+| Aon | Senior Manager - Business Development | Ahmedabad | 5-10 yrs | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475043899) |
