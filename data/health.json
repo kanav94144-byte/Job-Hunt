@@ -47,7 +47,7 @@
   "portal:google:Google": {
    "ok": 1,
    "failed": 0,
-   "jobs": 160,
+   "jobs": 159,
    "errors": []
   },
   "portal:workday:Walmart": {
@@ -59,7 +59,7 @@
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 78,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -113,7 +113,7 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 23,
    "errors": []
   },
   "portal:workday:Mastercard": {
@@ -815,19 +815,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 192,
+   "jobs": 178,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1350,
+   "jobs": 1307,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 672,
+   "jobs": 656,
    "errors": []
   },
   "discovery:google": {
@@ -839,7 +839,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 439,
+   "jobs": 291,
    "errors": []
   },
   "naukri (browser)": {
@@ -847,54 +847,56 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 2,
+   "jobs": 0,
+   "errors": [
+    "PwC India IN_Senior Associate_SAP ABAP_Enterprise Apps SAP_Advisory_Bangalore: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-SAP-ABAP-Enterprise-Apps-SAP-Advisory-Gurugram_744261WD-1",
+    "PwC India IN_Sr Associate_SAP Opentext_Enterprise Apps-SAP_Advisory_Bangalore: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Sr-Associate-SAP-Opentext-Enterprise-Apps-SAP-Advisory-Kolkata_755633WD-1"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 37,
-  "linkedin": 59
+  "careers portal": 24,
+  "linkedin": 33
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4532,
-   "after_filters": 804,
+   "raw": 4527,
+   "after_filters": 803,
    "kept_new": 35
   },
   "linkedin": {
-   "raw": 1542,
-   "after_filters": 577,
-   "kept_new": 24
+   "raw": 1485,
+   "after_filters": 560,
+   "kept_new": 12
   },
   "indeed": {
-   "raw": 672,
-   "after_filters": 215
+   "raw": 656,
+   "after_filters": 194,
+   "kept_new": 2
   },
   "iimjobs": {
-   "raw": 439,
+   "raw": 291,
    "after_filters": 32
   }
  },
  "watchlist": {
   "size": 400,
-  "added_this_run": [
-   "Parentology by JJW",
-   "Mrida Greens & Development Pvt. Ltd.",
-   "ITL FREIGHTBIZ PRIVATE LIMITED",
-   "Ceeco International",
-   "Castellum Labs",
-   "CodeRound AI",
-   "American University of Sharjah"
-  ],
+  "added_this_run": [],
   "with_portal": 28
  },
  "counts": {
-  "raw": 7185,
-  "after_filters": 1628,
-  "judged": 230,
-  "kept": 59,
+  "raw": 6959,
+  "after_filters": 1589,
+  "judged": 130,
+  "kept": 49,
   "duplicates_folded": 34,
-  "on_dashboard": 1398,
+  "on_dashboard": 1409,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
