@@ -3,6 +3,10 @@
   "type": null,
   "checked": "2026-09-30"
  },
+ "A.P. Moller - Maersk": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "ABC - Aditya Birla Housing Finance Limited": {
   "type": null,
   "checked": "2026-09-27"
@@ -114,6 +118,10 @@
   "type": null,
   "checked": "2026-09-30"
  },
+ "Air India": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Aldous Glare Tech and Energy": {
   "type": null,
   "checked": "2026-09-26"
@@ -121,6 +129,10 @@
  "Alignerr": {
   "type": null,
   "checked": "2026-09-30"
+ },
+ "Allegis Global Solutions": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Allergan Aesthetics, an AbbVie Company": {
   "type": null,
@@ -169,6 +181,10 @@
  "Amoga": {
   "type": null,
   "checked": "2026-10-01"
+ },
+ "AmpereHour Energy": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Analytics Station": {
   "type": null,
@@ -445,6 +461,10 @@
   "harvested": true,
   "checked": "2026-09-28"
  },
+ "CRY - Child Rights & You": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Cactus Communications": {
   "type": null,
   "checked": "2026-09-29"
@@ -586,6 +606,10 @@
   "type": null,
   "checked": "2026-10-04"
  },
+ "Concret.io": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "ConglomerateIT Services": {
   "type": null,
   "checked": "2026-09-29"
@@ -640,6 +664,10 @@
   "tenant": "darwinbox",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Dataman Computer Systems (P) Ltd.": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "DeHaat": {
   "type": null,
@@ -704,9 +732,19 @@
   "type": null,
   "checked": "2026-10-02"
  },
+ "Dozee": {
+  "type": "lever",
+  "tenant": "dozee",
+  "harvested": true,
+  "checked": "2026-10-05"
+ },
  "Dream Sports (Dream11)": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "DreamStreet": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Dubai Holding": {
   "type": null,
@@ -1574,6 +1612,14 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "LexisNexis": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
+ "LexisNexis Legal & Professional": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Licious": {
   "type": "darwinbox",
   "tenant": "licious",
@@ -1616,6 +1662,21 @@
  "MACROTECH DEVELOPERS LIMITED": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "MAERSK": {
+  "type": "workday",
+  "tenant": "maersk",
+  "wd": "wd3",
+  "site": "Maersk_Careers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-05"
  },
  "MANIL TEXFAB": {
   "type": null,
@@ -1797,6 +1858,12 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "MobiKwik": {
+  "type": "darwinbox",
+  "tenant": "mobikwik",
+  "probed": true,
+  "checked": "2026-10-05"
+ },
  "Mocha Technologies India": {
   "type": null,
   "checked": "2026-10-02"
@@ -1863,6 +1930,10 @@
   ],
   "harvested": true,
   "checked": "2026-09-29"
+ },
+ "Namma Yatri": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Nandaka Real Asset Advisory": {
   "type": null,
@@ -1945,8 +2016,12 @@
   "checked": "2026-10-04"
  },
  "Nielsen": {
-  "type": null,
-  "checked": "2026-10-04"
+  "type": "smartrecruiters",
+  "tenant": "TheNielsenCompany",
+  "harvested": true,
+  "company_id": "TheNielsenCompany",
+  "country": "in",
+  "checked": "2026-10-05"
  },
  "Ninjacart": {
   "type": "darwinbox",
@@ -2022,6 +2097,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Omega Softwares Mumbai": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Omneity Group (India)": {
   "type": null,
   "checked": "2026-09-23"
@@ -2041,6 +2120,10 @@
  "PB Fintech (Policybazaar)": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Palette Hire": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Parentology by JJW": {
   "type": null,
@@ -2471,6 +2554,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Sion Advisors": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Sioniq": {
   "type": "keka",
   "tenant": "sioniq",
@@ -2511,6 +2598,10 @@
   "type": "darwinbox",
   "tenant": "snabbit",
   "probed": true
+ },
+ "Snapmint": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Snitch": {
   "type": "keka",
@@ -2619,6 +2710,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "Talasha": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Talengage": {
   "type": null,
   "checked": "2026-09-26"
@@ -2669,6 +2764,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "Texas School of Mental Health": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "The Glove": {
   "type": null,
   "checked": "2026-10-01"
@@ -2692,6 +2791,10 @@
  "The Spice Brand": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "The Test Tribe": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "The Whole Truth": {
   "type": "keka",
@@ -3089,6 +3192,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Zepcruit": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Zepto": {
   "type": "darwinbox",
   "tenant": "zepto",
@@ -3211,6 +3318,10 @@
  "mCaffeine": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "olifer": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "slice": {
   "type": null,
