@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 54,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,7 +59,7 @@
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 78,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -155,7 +155,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 368,
+   "jobs": 358,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -167,7 +167,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 98,
+   "jobs": 95,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -209,7 +209,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 42,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -680,6 +680,12 @@
    "jobs": 38,
    "errors": []
   },
+  "portal:lever:Dozee": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 16,
+   "errors": []
+  },
   "portal:greenhouse:EBANX": {
    "ok": 1,
    "failed": 0,
@@ -701,7 +707,13 @@
   "portal:workday:Expedia Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 21,
+   "jobs": 13,
+   "errors": []
+  },
+  "portal:keka:Furlenco": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 45,
    "errors": []
   },
   "portal:workday:Gartner": {
@@ -713,7 +725,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 309,
+   "jobs": 305,
    "errors": []
   },
   "portal:lever:Gushwork": {
@@ -726,6 +738,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 73,
+   "errors": []
+  },
+  "portal:workday:MAERSK": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 144,
    "errors": []
   },
   "portal:workday:MKS": {
@@ -749,19 +767,25 @@
   "portal:workday:NVIDIA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 182,
+   "jobs": 183,
+   "errors": []
+  },
+  "portal:smartrecruiters:Nielsen": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 54,
    "errors": []
   },
   "portal:workday:Philips": {
    "ok": 1,
    "failed": 0,
-   "jobs": 69,
+   "jobs": 66,
    "errors": []
   },
   "portal:keka:Techdome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 11,
+   "jobs": 14,
    "errors": []
   },
   "portal:keka:TransGanization": {
@@ -795,10 +819,12 @@
    "errors": []
   },
   "portal:darwinbox:airtel": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 61,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "ChunkedEncodingError: Response ended prematurely"
+   ]
   },
   "portal:darwinbox:sugar.fit": {
    "ok": 1,
@@ -809,7 +835,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 237,
+   "jobs": 245,
    "errors": []
   },
   "discovery:linkedin": {
@@ -821,7 +847,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 865,
+   "jobs": 899,
    "errors": []
   },
   "discovery:google": {
@@ -833,7 +859,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 786,
+   "jobs": 576,
    "errors": []
   },
   "naukri (browser)": {
@@ -844,63 +870,51 @@
   }
  },
  "descriptions": {
-  "careers portal": 94,
-  "linkedin": 156,
-  "iimjobs": 9
+  "careers portal": 30,
+  "linkedin": 25,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 1,
  "funnel": {
   "careers portal": {
-   "raw": 4540,
-   "after_filters": 822,
-   "kept_new": 52
+   "raw": 4707,
+   "after_filters": 827,
+   "kept_new": 34
   },
   "linkedin": {
-   "raw": 1587,
-   "after_filters": 677,
-   "kept_new": 64
+   "raw": 1595,
+   "after_filters": 685,
+   "kept_new": 16
   },
   "indeed": {
-   "raw": 865,
-   "after_filters": 235,
-   "kept_new": 12
+   "raw": 899,
+   "after_filters": 207,
+   "kept_new": 6
   },
   "iimjobs": {
-   "raw": 786,
-   "after_filters": 81,
-   "kept_new": 4
+   "raw": 576,
+   "after_filters": 82,
+   "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Dozee",
-   "Makers Hive Innovations",
-   "FRND",
-   "Nomadz Digital and Innovation",
-   "Mosaic9",
-   "BrightEdge",
-   "IndiGo (InterGlobe Aviation Ltd)",
-   "Uplers",
-   "Magnus India Consulting Services",
-   "PhotonX Technologies",
-   "Commutec : Corporate Mobility",
-   "Furlenco",
-   "Airwallex",
-   "Siliciom Technologies",
-   "Unicraft Tech",
-   "MAERSK"
+   "SEOM Project and Engineering Services Pvt Ltd",
+   "Lenovo",
+   "Disseqt AI",
+   "Weekday"
   ],
-  "with_portal": 30
+  "with_portal": 32
  },
  "counts": {
-  "raw": 7778,
-  "after_filters": 1815,
-  "judged": 653,
-  "kept": 132,
-  "duplicates_folded": 38,
-  "on_dashboard": 1508,
+  "raw": 7777,
+  "after_filters": 1801,
+  "judged": 162,
+  "kept": 57,
+  "duplicates_folded": 30,
+  "on_dashboard": 1525,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

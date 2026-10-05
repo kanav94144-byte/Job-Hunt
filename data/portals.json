@@ -122,6 +122,10 @@
   "type": null,
   "checked": "2026-10-05"
  },
+ "Airwallex": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Aldous Glare Tech and Energy": {
   "type": null,
   "checked": "2026-09-26"
@@ -392,6 +396,10 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "BrightEdge": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "British Safety Council India": {
   "type": null,
   "checked": "2026-09-26"
@@ -593,6 +601,10 @@
   "company_id": "Colliers1",
   "country": "in",
   "checked": "2026-09-28"
+ },
+ "Commutec : Corporate Mobility": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Commutec Luxury": {
   "type": null,
@@ -1011,6 +1023,12 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "Furlenco": {
+  "type": "keka",
+  "tenant": "furlenco",
+  "probed": true,
+  "checked": "2026-10-05"
+ },
  "FusionEdge": {
   "type": null,
   "checked": "2026-09-26"
@@ -1355,6 +1373,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "IndiGo (InterGlobe Aviation Ltd)": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Indifi": {
   "type": null,
   "checked": "2026-09-23"
@@ -1603,8 +1625,10 @@
   "checked": "2026-09-23"
  },
  "Lenskart": {
-  "type": null,
-  "checked": "2026-09-23"
+  "type": "recruitee",
+  "tenant": "lenskartcareers",
+  "harvested": true,
+  "checked": "2026-10-05"
  },
  "Lentra": {
   "type": "darwinbox",
@@ -1727,9 +1751,17 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "Magnus India Consulting Services": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Mahindra & Mahindra Ltd": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "Makers Hive Innovations": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Mantra Care": {
   "type": null,
@@ -1883,6 +1915,10 @@
  "Mosaic Health (Man Matters/Be Bodywise)": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Mosaic9": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Mrida Greens & Development Pvt. Ltd.": {
   "type": null,
@@ -2045,6 +2081,10 @@
  "Noise": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Nomadz Digital and Innovation": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Nua": {
   "type": null,
@@ -2216,6 +2256,10 @@
   ],
   "harvested": true,
   "checked": "2026-09-28"
+ },
+ "PhotonX Technologies": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Physics Wallah": {
   "type": null,
@@ -2553,6 +2597,10 @@
   "tenant": "signzy",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Siliciom Technologies": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Sion Advisors": {
   "type": null,
@@ -2938,6 +2986,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Unicraft Tech": {
+  "type": null,
+  "checked": "2026-10-05"
+ },
  "Uniphore": {
   "type": "darwinbox",
   "tenant": "uniphore",
@@ -2947,6 +2999,10 @@
  "Unistanz Software Private Limited": {
   "type": null,
   "checked": "2026-10-02"
+ },
+ "Uplers": {
+  "type": null,
+  "checked": "2026-10-05"
  },
  "Urban Ladder": {
   "type": null,
@@ -3089,6 +3145,12 @@
  "WebEngage": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Weekday": {
+  "type": "lever",
+  "tenant": "weekdayworks",
+  "harvested": true,
+  "checked": "2026-10-05"
  },
  "Wellbeing Nutrition": {
   "type": null,
