@@ -332,15 +332,6 @@
   ],
   "last_hit": "2026-09-27"
  },
- "Angel One": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Strategy Specialist"
-  ],
-  "last_hit": "2026-09-26"
- },
  "Anika Industries": {
   "first_seen": "2026-09-28",
   "hits": 1,
@@ -376,6 +367,15 @@
    "Business Development Manager"
   ],
   "last_hit": "2026-09-27"
+ },
+ "Appstean": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business Development Representative"
+  ],
+  "last_hit": "2026-10-06"
  },
  "Aptita": {
   "first_seen": "2026-10-06",
@@ -475,15 +475,6 @@
    "Business Development Manager -Retail leasing"
   ],
   "last_hit": "2026-09-27"
- },
- "Biyani Technologies": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager (BDM)"
-  ],
-  "last_hit": "2026-09-26"
  },
  "Black Box": {
   "first_seen": "2026-09-30",
@@ -693,14 +684,14 @@
   ],
   "last_hit": "2026-09-27"
  },
- "Chirix ERP": {
-  "first_seen": "2026-09-26",
+ "Circular Angle": {
+  "first_seen": "2026-10-06",
   "hits": 1,
   "band": "unknown",
   "titles": [
-   "Business Development Executive"
+   "Consultant/Senior Consultant - Business Strategy"
   ],
-  "last_hit": "2026-09-26"
+  "last_hit": "2026-10-06"
  },
  "Clearsulting": {
   "first_seen": "2026-09-28",
@@ -710,15 +701,6 @@
    "Order to Cash, Associate Consulting Manager"
   ],
   "last_hit": "2026-09-28"
- },
- "CoSage Advisors": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager"
-  ],
-  "last_hit": "2026-09-26"
  },
  "CodeRound AI": {
   "first_seen": "2026-10-04",
@@ -731,12 +713,12 @@
  },
  "Cognizant": {
   "first_seen": "2026-09-29",
-  "hits": 3,
+  "hits": 4,
   "band": "unknown",
   "titles": [
    "OCM Consultant- Transformation Consulting"
   ],
-  "last_hit": "2026-10-02"
+  "last_hit": "2026-10-06"
  },
  "Colliers": {
   "first_seen": "2026-09-28",
@@ -1009,15 +991,6 @@
   ],
   "last_hit": "2026-09-30"
  },
- "Elite Elevators": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager"
-  ],
-  "last_hit": "2026-09-26"
- },
  "Empower": {
   "first_seen": "2026-10-04",
   "hits": 1,
@@ -1026,15 +999,6 @@
    "Business Development Manager – B2B Client Servicing"
   ],
   "last_hit": "2026-10-04"
- },
- "EnergyBridge Tech India Pvt Ltd": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Associate Program Manager"
-  ],
-  "last_hit": "2026-09-26"
  },
  "Enking International": {
   "first_seen": "2026-10-01",
@@ -1099,6 +1063,15 @@
   ],
   "last_hit": "2026-09-30"
  },
+ "Expertrons": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business/ Revenue Co-founder"
+  ],
+  "last_hit": "2026-10-06"
+ },
  "FACE IT SYSTEMS LLP": {
   "first_seen": "2026-09-29",
   "hits": 1,
@@ -1126,23 +1099,14 @@
   ],
   "last_hit": "2026-10-05"
  },
- "Finlite Technologies Pvt. Ltd.": {
-  "first_seen": "2026-09-26",
+ "Ferrero": {
+  "first_seen": "2026-10-06",
   "hits": 1,
   "band": "unknown",
   "titles": [
-   "Associate Product Manager"
+   "Key Account Manager - E.Commerce"
   ],
-  "last_hit": "2026-09-26"
- },
- "Finplify Technologies Private Limited": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Real Estate Business Development"
-  ],
-  "last_hit": "2026-09-26"
+  "last_hit": "2026-10-06"
  },
  "FlexiLoans": {
   "first_seen": "2026-09-28",
@@ -1272,7 +1236,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 23,
+  "hits": 24,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1290,7 +1254,7 @@
  },
  "Genpact": {
   "first_seen": "2026-09-23",
-  "hits": 10,
+  "hits": 11,
   "band": "unknown",
   "titles": [
    "Consultant - Enterprise Risk Advisory 4B"
@@ -1515,12 +1479,12 @@
  },
  "IDFC FIRST Bank": {
   "first_seen": "2026-09-23",
-  "hits": 15,
+  "hits": 16,
   "band": "unknown",
   "titles": [
    "Senior Product Manager-Digital Lending (Consumer Loans)"
   ],
-  "last_hit": "2026-10-05"
+  "last_hit": "2026-10-06"
  },
  "IDfy": {
   "first_seen": "2026-09-28",
@@ -1621,6 +1585,15 @@
   ],
   "last_hit": "2026-10-06"
  },
+ "Indo Internet": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Entrepreneur in Residence - Founder's Office"
+  ],
+  "last_hit": "2026-10-06"
+ },
  "IndoFast Energy": {
   "first_seen": "2026-09-24",
   "hits": 2,
@@ -1668,7 +1641,7 @@
  },
  "Ingram Micro": {
   "first_seen": "2026-09-24",
-  "hits": 27,
+  "hits": 28,
   "band": "unknown",
   "titles": [
    "Key Account Manager"
@@ -1856,14 +1829,14 @@
   ],
   "last_hit": "2026-09-30"
  },
- "LearningShala": {
-  "first_seen": "2026-09-26",
+ "LeapSwitch Networks": {
+  "first_seen": "2026-10-06",
   "hits": 1,
   "band": "unknown",
   "titles": [
-   "Business Development Manager"
+   "Junior Business Development Executive"
   ],
-  "last_hit": "2026-09-26"
+  "last_hit": "2026-10-06"
  },
  "Lenovo": {
   "first_seen": "2026-10-05",
@@ -2165,6 +2138,15 @@
   ],
   "last_hit": "2026-10-05"
  },
+ "Mobileye": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Strategic Account Manager – India"
+  ],
+  "last_hit": "2026-10-06"
+ },
  "Mocha Technologies India": {
   "first_seen": "2026-10-02",
   "hits": 1,
@@ -2282,23 +2264,32 @@
   ],
   "last_hit": "2026-10-02"
  },
- "Newfund": {
-  "first_seen": "2026-09-26",
+ "Net Solutions India": {
+  "first_seen": "2026-10-06",
   "hits": 1,
   "band": "unknown",
   "titles": [
-   "Associate / Member - Founder's Office"
+   "Growth Specialist"
   ],
-  "last_hit": "2026-09-26"
+  "last_hit": "2026-10-06"
+ },
+ "NetSysCon Consulting": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Chief of Staff"
+  ],
+  "last_hit": "2026-10-06"
  },
  "Newton School": {
   "first_seen": "2026-10-01",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Team Lead- Key Account Manager"
   ],
-  "last_hit": "2026-10-05"
+  "last_hit": "2026-10-06"
  },
  "Nexapp Technologies Private Limited": {
   "first_seen": "2026-10-03",
@@ -2356,7 +2347,7 @@
  },
  "NoBrokerHood": {
   "first_seen": "2026-09-30",
-  "hits": 3,
+  "hits": 4,
   "band": "unknown",
   "titles": [
    "Business Development Manager (B2B Sales)"
@@ -2398,6 +2389,15 @@
    "Key Account Manager"
   ],
   "last_hit": "2026-09-30"
+ },
+ "Open Links Foundation": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Associate – Founder's Office"
+  ],
+  "last_hit": "2026-10-06"
  },
  "Palette Hire": {
   "first_seen": "2026-10-05",
@@ -2472,15 +2472,6 @@
   ],
   "last_hit": "2026-09-28"
  },
- "PharmaACE": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Pharma Forecasting- Consultant/ Sr Consultant/ Project Manager"
-  ],
-  "last_hit": "2026-09-26"
- },
  "Philips": {
   "first_seen": "2026-09-28",
   "hits": 2,
@@ -2508,14 +2499,14 @@
   ],
   "last_hit": "2026-10-03"
  },
- "Power Build Batteries - Assoc. of Time Technoplast Ltd": {
-  "first_seen": "2026-09-26",
+ "PrepLadder": {
+  "first_seen": "2026-10-06",
   "hits": 1,
   "band": "unknown",
   "titles": [
-   "Business Development Executive (Gujarat)"
+   "Business Development Manager"
   ],
-  "last_hit": "2026-09-26"
+  "last_hit": "2026-10-06"
  },
  "Priceline": {
   "first_seen": "2026-10-02",
@@ -2570,15 +2561,6 @@
    "Business Development Executive (BDE)"
   ],
   "last_hit": "2026-09-28"
- },
- "Qualitek Labs": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Manager - Business Development"
-  ],
-  "last_hit": "2026-09-26"
  },
  "QualySec | Beyond Cybersecurity": {
   "first_seen": "2026-09-29",
@@ -2688,15 +2670,6 @@
   ],
   "last_hit": "2026-10-03"
  },
- "Saket Communications Pvt Ltd": {
-  "first_seen": "2026-09-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager – Technology & Digital Solutions"
-  ],
-  "last_hit": "2026-09-26"
- },
  "SalesMonk.ai": {
   "first_seen": "2026-09-28",
   "hits": 1,
@@ -2747,12 +2720,12 @@
  },
  "Siemens": {
   "first_seen": "2026-09-25",
-  "hits": 5,
+  "hits": 6,
   "band": "unknown",
   "titles": [
    "Lead Product Owner (R&D) – Energy Distribution Digitalization"
   ],
-  "last_hit": "2026-10-05"
+  "last_hit": "2026-10-06"
  },
  "SigmaIT Software Designers Pvt. Ltd.": {
   "first_seen": "2026-10-03",
@@ -3050,6 +3023,15 @@
    "Mergers and Acquisitions Consultant"
   ],
   "last_hit": "2026-10-01"
+ },
+ "The Hackett Group": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Senior Consultant / Manager - S&BT"
+  ],
+  "last_hit": "2026-10-06"
  },
  "The Test Tribe": {
   "first_seen": "2026-10-05",
@@ -3366,6 +3348,15 @@
   ],
   "last_hit": "2026-10-01"
  },
+ "WSP": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Senior Consultant – Digital Strategy"
+  ],
+  "last_hit": "2026-10-06"
+ },
  "Way2News": {
   "first_seen": "2026-09-28",
   "hits": 1,
@@ -3410,6 +3401,15 @@
    "Business Development Executive (B2B Sales)"
   ],
   "last_hit": "2026-10-02"
+ },
+ "Withum": {
+  "first_seen": "2026-10-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Consultant - TAS (FDD) - Advisory"
+  ],
+  "last_hit": "2026-10-06"
  },
  "Wolters Kluwer": {
   "first_seen": "2026-10-03",
