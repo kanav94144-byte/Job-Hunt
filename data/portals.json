@@ -244,6 +244,10 @@
   "type": null,
   "checked": "2026-10-06"
  },
+ "Aprazer Healthcare Private Limited": {
+  "type": null,
+  "checked": "2026-10-07"
+ },
  "Aptita": {
   "type": null,
   "checked": "2026-10-06"
@@ -1441,6 +1445,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "Incresco": {
+  "type": null,
+  "checked": "2026-10-07"
+ },
  "Indegene": {
   "type": null,
   "checked": "2026-09-29"
@@ -2193,6 +2201,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Niva Bupa Health Insurance": {
+  "type": null,
+  "checked": "2026-10-07"
+ },
  "NoBroker": {
   "type": "darwinbox",
   "tenant": "nobroker",
@@ -2221,6 +2233,10 @@
  "Nykaa": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "OLX India": {
+  "type": null,
+  "checked": "2026-10-07"
  },
  "OYO": {
   "type": "darwinbox",
@@ -2531,6 +2547,10 @@
  "RAC IT Solutions": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "RSM US LLP": {
+  "type": null,
+  "checked": "2026-10-07"
  },
  "Raj Packagings": {
   "type": null,
@@ -3053,6 +3073,12 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "Top Rankers": {
+  "type": "keka",
+  "tenant": "toprankers",
+  "harvested": true,
+  "checked": "2026-10-07"
+ },
  "Toreta": {
   "type": null,
   "checked": "2026-09-25"
@@ -3134,6 +3160,10 @@
  "US Pharmacopeia": {
   "type": null,
   "checked": "2026-10-01"
+ },
+ "USHRAMEDGE TECHNOLOGIES PRIVATE LIMITED": {
+  "type": null,
+  "checked": "2026-10-07"
  },
  "USP": {
   "type": null,
@@ -3227,6 +3257,10 @@
  "Varun Gupta": {
   "type": null,
   "checked": "2026-10-02"
+ },
+ "VayuJal Technologies Private Limited": {
+  "type": null,
+  "checked": "2026-10-07"
  },
  "Venttura BIOceuticals Pvt Ltd": {
   "type": null,
@@ -3416,6 +3450,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "YourDOST": {
+  "type": null,
+  "checked": "2026-10-07"
+ },
  "Youth for seva": {
   "type": null,
   "checked": "2026-10-01"
@@ -3580,6 +3618,12 @@
  "mCaffeine": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "nference": {
+  "type": "keka",
+  "tenant": "nference",
+  "probed": true,
+  "checked": "2026-10-07"
  },
  "olifer": {
   "type": null,
