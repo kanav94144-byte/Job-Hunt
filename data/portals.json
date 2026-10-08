@@ -142,6 +142,10 @@
   "type": null,
   "checked": "2026-09-30"
  },
+ "All Things Baby": {
+  "type": null,
+  "checked": "2026-10-08"
+ },
  "Allegis Global Solutions": {
   "type": null,
   "checked": "2026-10-05"
@@ -318,6 +322,10 @@
  "Baltic Control Middle East | Affirm Control": {
   "type": null,
   "checked": "2026-09-29"
+ },
+ "Be Seo Technologies": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "Believe": {
   "type": "smartrecruiters",
@@ -584,6 +592,10 @@
   "type": null,
   "checked": "2026-10-06"
  },
+ "Citi": {
+  "type": null,
+  "checked": "2026-10-08"
+ },
  "CityMall": {
   "type": "darwinbox",
   "tenant": "citymall",
@@ -703,9 +715,17 @@
   "type": null,
   "checked": "2026-10-07"
  },
+ "DATAFLOW SERVICES": {
+  "type": null,
+  "checked": "2026-10-08"
+ },
  "DBMCI One": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "DESRI": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "DHL": {
   "type": null,
@@ -836,6 +856,10 @@
   "type": null,
   "checked": "2026-10-02"
  },
+ "Dvara KGFS": {
+  "type": null,
+  "checked": "2026-10-08"
+ },
  "EBANX": {
   "type": "greenhouse",
   "tenant": "ebanx",
@@ -907,6 +931,10 @@
   "tenant": "emeritus",
   "probed": true,
   "checked": "2026-09-23"
+ },
+ "Emotorad": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "Empower": {
   "type": "darwinbox",
@@ -1078,6 +1106,10 @@
  "Fractal": {
   "type": null,
   "checked": "2026-09-28"
+ },
+ "Freelance Adiba": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "Freshworks": {
   "type": "smartrecruiters",
@@ -1267,6 +1299,10 @@
  "HOT PACK PACKAGING INDUSTRIES L.L.C": {
   "type": null,
   "checked": "2026-09-29"
+ },
+ "HRforU": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "Hancod Digital": {
   "type": null,
@@ -1664,6 +1700,10 @@
   "type": null,
   "checked": "2026-10-07"
  },
+ "LCB fertilizers private limited\u00ae": {
+  "type": null,
+  "checked": "2026-10-08"
+ },
  "LCF (Lighthouse Communities Foundation)": {
   "type": null,
   "checked": "2026-09-25"
@@ -1914,6 +1954,12 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Masters Union": {
+  "type": "darwinbox",
+  "tenant": "mastersunion",
+  "probed": true,
+  "checked": "2026-10-08"
+ },
  "Maven Fly Media": {
   "type": null,
   "checked": "2026-09-25"
@@ -2050,7 +2096,7 @@
  },
  "Multiplier AI": {
   "type": null,
-  "checked": "2026-09-23"
+  "checked": "2026-10-08"
  },
  "Multyfi": {
   "type": null,
@@ -2144,6 +2190,10 @@
   "checked": "2026-10-06"
  },
  "Netcore Cloud": {
+  "type": null,
+  "checked": "2026-10-08"
+ },
+ "Nethority Technologies Pvt. Ltd.": {
   "type": null,
   "checked": "2026-10-08"
  },
@@ -2560,6 +2610,10 @@
   "type": null,
   "checked": "2026-10-07"
  },
+ "Raise Financial Services": {
+  "type": null,
+  "checked": "2026-10-08"
+ },
  "Raj Packagings": {
   "type": null,
   "checked": "2026-10-03"
@@ -2599,6 +2653,10 @@
  "Remitly": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "RemoteEngine": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "Rempact": {
   "type": null,
@@ -2785,6 +2843,10 @@
  "Siliciom Technologies": {
   "type": null,
   "checked": "2026-10-05"
+ },
+ "Simpplr": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "Sion Advisors": {
   "type": null,
@@ -3086,6 +3148,12 @@
   "tenant": "toprankers",
   "harvested": true,
   "checked": "2026-10-07"
+ },
+ "Toprankers": {
+  "type": "keka",
+  "tenant": "toprankers",
+  "probed": true,
+  "checked": "2026-10-08"
  },
  "Toreta": {
   "type": null,
@@ -3598,6 +3666,10 @@
  "cargo-partner": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "coursefinder.ai": {
+  "type": null,
+  "checked": "2026-10-08"
  },
  "craft media hub": {
   "type": null,
