@@ -102,6 +102,10 @@
   "type": null,
   "checked": "2026-09-27"
  },
+ "Adisseo": {
+  "type": null,
+  "checked": "2026-10-09"
+ },
  "Aditya Birla Renewables Limited": {
   "type": null,
   "checked": "2026-09-23"
@@ -711,6 +715,12 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Cybrain Software Solutions Pvt.Ltd.": {
+  "type": "keka",
+  "tenant": "cybrain",
+  "harvested": true,
+  "checked": "2026-10-09"
+ },
  "D2F": {
   "type": null,
   "checked": "2026-09-23"
@@ -1019,7 +1029,7 @@
  },
  "FRND": {
   "type": null,
-  "checked": "2026-09-24"
+  "checked": "2026-10-09"
  },
  "FTI Consulting": {
   "type": null,
@@ -1268,6 +1278,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "Grocliq AI": {
+  "type": null,
+  "checked": "2026-10-09"
+ },
  "Growqai": {
   "type": null,
   "checked": "2026-09-28"
@@ -1511,7 +1525,7 @@
  },
  "IndoFast Energy": {
   "type": null,
-  "checked": "2026-09-24"
+  "checked": "2026-10-09"
  },
  "Infineon Technologies": {
   "type": null,
@@ -1566,7 +1580,7 @@
  },
  "JPMorganChase": {
   "type": null,
-  "checked": "2026-09-24"
+  "checked": "2026-10-09"
  },
  "JVS Technologies Pvt. Ltd.": {
   "type": null,
@@ -1617,6 +1631,12 @@
  "KC OVERSEAS EDUCATION PRIVATE LIMITED": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "KC Overseas Education": {
+  "type": "recruitee",
+  "tenant": "kcoverseaseducation",
+  "harvested": true,
+  "checked": "2026-10-09"
  },
  "KETTO ONLINE VENTURES PRIVATE LIMITED": {
   "type": null,
@@ -2034,7 +2054,7 @@
  },
  "Michael Page": {
   "type": null,
-  "checked": "2026-09-24"
+  "checked": "2026-10-09"
  },
  "Microban International": {
   "type": null,
@@ -2681,6 +2701,12 @@
  "Rempact": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Revspot": {
+  "type": "keka",
+  "tenant": "revspottechnologiesprivatelimited",
+  "harvested": true,
+  "checked": "2026-10-09"
  },
  "Rhizobee Innovations Private Limited": {
   "type": null,
