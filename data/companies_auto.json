@@ -116,6 +116,15 @@
   ],
   "last_hit": "2026-10-01"
  },
+ "Abbott": {
+  "first_seen": "2026-10-09",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Product Manager - Mumbai - GI Prospera"
+  ],
+  "last_hit": "2026-10-09"
+ },
  "Acuitas360": {
   "first_seen": "2026-10-02",
   "hits": 1,
@@ -776,7 +785,7 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 1,
+  "hits": 11,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
@@ -1217,7 +1226,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 33,
+  "hits": 34,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1368,15 +1377,6 @@
   ],
   "last_hit": "2026-09-30"
  },
- "Hike Education": {
-  "first_seen": "2026-09-29",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager"
-  ],
-  "last_hit": "2026-09-29"
- },
  "HireFlexperts": {
   "first_seen": "2026-10-01",
   "hits": 3,
@@ -1484,15 +1484,6 @@
    "Business Development Associate"
   ],
   "last_hit": "2026-09-30"
- },
- "ImpactGuru": {
-  "first_seen": "2026-09-29",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Chief of Staff"
-  ],
-  "last_hit": "2026-09-29"
  },
  "Impex": {
   "first_seen": "2026-09-26",
@@ -1604,21 +1595,12 @@
  },
  "Ingram Micro": {
   "first_seen": "2026-09-24",
-  "hits": 39,
+  "hits": 40,
   "band": "unknown",
   "titles": [
    "Key Account Manager"
   ],
   "last_hit": "2026-10-09"
- },
- "Inventive Software Solutions Pvt. Ltd": {
-  "first_seen": "2026-09-29",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Executive (BDE)"
-  ],
-  "last_hit": "2026-09-29"
  },
  "JPMorganChase": {
   "first_seen": "2026-09-24",
@@ -1809,6 +1791,15 @@
    "Consultant - Executive Search & Business Development"
   ],
   "last_hit": "2026-10-07"
+ },
+ "Landmark Group": {
+  "first_seen": "2026-10-09",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Associate Product Owner"
+  ],
+  "last_hit": "2026-10-09"
  },
  "LeapSwitch Networks": {
   "first_seen": "2026-10-06",
@@ -2062,6 +2053,15 @@
    "Senior Manager, FE Materials Global Industrial Gas Category"
   ],
   "last_hit": "2026-10-01"
+ },
+ "Midtronics": {
+  "first_seen": "2026-10-09",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Product Manager - India"
+  ],
+  "last_hit": "2026-10-09"
  },
  "Milliman India": {
   "first_seen": "2026-10-03",
@@ -3333,7 +3333,7 @@
  },
  "Wells Fargo": {
   "first_seen": "2026-10-07",
-  "hits": 3,
+  "hits": 4,
   "band": "unknown",
   "titles": [
    "Senior Quantitative Analytics Specialist( Gen AI)"

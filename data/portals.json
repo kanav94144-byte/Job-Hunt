@@ -216,7 +216,7 @@
  },
  "Ancient Roots": {
   "type": null,
-  "checked": "2026-09-24"
+  "checked": "2026-10-09"
  },
  "Angel One": {
   "type": "darwinbox",
@@ -728,6 +728,10 @@
   "checked": "2026-10-08"
  },
  "Cushman & Wakefield": {
+  "type": null,
+  "checked": "2026-10-09"
+ },
+ "Cvali": {
   "type": null,
   "checked": "2026-10-09"
  },
@@ -1756,6 +1760,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Knorr-Bremse": {
+  "type": null,
+  "checked": "2026-10-09"
+ },
  "Kotak Securities Ltd": {
   "type": null,
   "checked": "2026-09-28"
@@ -2243,6 +2251,10 @@
  "Nandaka Real Asset Advisory": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "Nanonets": {
+  "type": null,
+  "checked": "2026-10-09"
  },
  "Nap Chief": {
   "type": null,
@@ -2773,6 +2785,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "Revent Labs": {
+  "type": null,
+  "checked": "2026-10-09"
+ },
  "Revspot": {
   "type": "keka",
   "tenant": "revspottechnologiesprivatelimited",
@@ -2986,6 +3002,10 @@
  "Skillskarma Services": {
   "type": null,
   "checked": "2026-10-06"
+ },
+ "Skipzy": {
+  "type": null,
+  "checked": "2026-10-09"
  },
  "Skybound Projects": {
   "type": null,
@@ -3778,6 +3798,10 @@
   "type": "darwinbox",
   "tenant": "zolve",
   "probed": true
+ },
+ "Zorpa.Ai": {
+  "type": null,
+  "checked": "2026-10-09"
  },
  "Zouk": {
   "type": null,
