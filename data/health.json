@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 64,
+   "jobs": 66,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,19 +59,19 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 225,
+   "jobs": 227,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 87,
+   "jobs": 89,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 22,
+   "jobs": 23,
    "errors": []
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -119,13 +119,13 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 24,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 131,
+   "jobs": 133,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -161,7 +161,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 354,
+   "jobs": 355,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -173,7 +173,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 100,
+   "jobs": 107,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -215,7 +215,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 53,
+   "jobs": 54,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -389,7 +389,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 36,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -461,7 +461,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 21,
+   "jobs": 22,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -599,7 +599,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 27,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -653,7 +653,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 71,
+   "jobs": 72,
    "errors": []
   },
   "portal:keka:Cautio": {
@@ -666,6 +666,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 38,
+   "errors": []
+  },
+  "portal:keka:Cybrain Software Solutions Pvt.Ltd.": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 8,
    "errors": []
   },
   "portal:lever:Dozee": {
@@ -695,7 +701,7 @@
   "portal:workday:Expedia Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 16,
+   "jobs": 19,
    "errors": []
   },
   "portal:keka:Furlenco": {
@@ -719,7 +725,13 @@
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 74,
+   "errors": []
+  },
+  "portal:recruitee:KC Overseas Education": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 11,
    "errors": []
   },
   "portal:workday:MAERSK": {
@@ -755,37 +767,37 @@
   "portal:workday:NVIDIA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 183,
+   "jobs": 181,
    "errors": []
   },
   "portal:smartrecruiters:Nielsen": {
    "ok": 1,
    "failed": 0,
-   "jobs": 52,
+   "jobs": 51,
    "errors": []
   },
-  "portal:workday:Philips": {
+  "portal:keka:Revspot": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 6,
    "errors": []
   },
   "portal:keka:Techdome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 12,
+   "jobs": 15,
    "errors": []
   },
   "portal:keka:Top Rankers": {
    "ok": 1,
    "failed": 0,
-   "jobs": 66,
+   "jobs": 67,
    "errors": []
   },
   "portal:keka:Toprankers": {
    "ok": 1,
    "failed": 0,
-   "jobs": 66,
+   "jobs": 67,
    "errors": []
   },
   "portal:keka:TransGanization": {
@@ -815,7 +827,7 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 49,
+   "jobs": 50,
    "errors": []
   },
   "portal:darwinbox:airtel": {
@@ -839,7 +851,7 @@
   "linkedin": {
    "ok": 97,
    "failed": 0,
-   "jobs": 333,
+   "jobs": 346,
    "errors": []
   },
   "discovery:linkedin": {
@@ -851,7 +863,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1002,
+   "jobs": 1005,
    "errors": []
   },
   "discovery:google": {
@@ -863,7 +875,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1388,
+   "jobs": 1454,
    "errors": []
   },
   "naukri (browser)": {
@@ -874,72 +886,54 @@
   }
  },
  "descriptions": {
-  "careers portal": 36,
-  "linkedin": 130,
-  "iimjobs": 29
+  "careers portal": 40,
+  "linkedin": 93,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4947,
-   "after_filters": 867,
-   "kept_new": 39
+   "raw": 4959,
+   "after_filters": 868,
+   "kept_new": 40
   },
   "linkedin": {
-   "raw": 1683,
-   "after_filters": 793,
-   "kept_new": 46
+   "raw": 1696,
+   "after_filters": 810,
+   "kept_new": 32
   },
   "indeed": {
-   "raw": 1002,
-   "after_filters": 420,
-   "kept_new": 9
+   "raw": 1005,
+   "after_filters": 392,
+   "kept_new": 5
   },
   "iimjobs": {
-   "raw": 1388,
-   "after_filters": 131,
-   "kept_new": 14
+   "raw": 1454,
+   "after_filters": 140
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Revspot",
-   "Z47",
-   "Muktha laboratories pvt. ltd",
-   "Lupin",
-   "Levenus Projects",
-   "Cushman & Wakefield",
-   "AUTO INCENSE",
-   "KEC AGRITECH PVT LTD",
-   "Yabx",
-   "piCake",
-   "Tata Communications",
-   "K.R. Mangalam University",
-   "Soch Street",
-   "KAI Nest",
-   "BioBrain Insights",
-   "HEVO TECHNOLOGIES INDIA PRIVATE LIMITED",
-   "Ziff Davis Performance Marketing",
-   "Polestar Analytics",
-   "StelleHire",
-   "Athenaeum Jupiter",
-   "Ennoventure Technologies",
-   "ReelSaga",
-   "TrueFan AI",
-   "KC Overseas Education",
-   "Cybrain Software Solutions Pvt.Ltd."
+   "Zorpa.Ai",
+   "Ancient Roots",
+   "Skipzy",
+   "Revent Labs",
+   "Cvali",
+   "DBS Bank",
+   "Nanonets",
+   "Knorr-Bremse"
   ],
   "with_portal": 33
  },
  "counts": {
-  "raw": 9020,
-  "after_filters": 2211,
-  "judged": 542,
-  "kept": 108,
-  "duplicates_folded": 24,
-  "on_dashboard": 1336,
+  "raw": 9114,
+  "after_filters": 2210,
+  "judged": 347,
+  "kept": 77,
+  "duplicates_folded": 26,
+  "on_dashboard": 1380,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
