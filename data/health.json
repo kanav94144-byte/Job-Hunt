@@ -1,5 +1,5 @@
 {
- "run_date": "2026-10-09",
+ "run_date": "2026-10-10",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -35,7 +35,7 @@
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 78,
+   "jobs": 79,
    "errors": []
   },
   "portal:recruitee:Lenskart": {
@@ -59,7 +59,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 226,
+   "jobs": 224,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -71,7 +71,7 @@
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 22,
    "errors": []
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -83,7 +83,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 95,
+   "jobs": 96,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -161,7 +161,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 355,
+   "jobs": 356,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -173,7 +173,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 99,
+   "jobs": 98,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -227,13 +227,13 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 88,
+   "jobs": 87,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 9,
+   "jobs": 10,
    "errors": []
   },
   "portal:darwinbox:OYO": {
@@ -599,7 +599,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 29,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -641,7 +641,7 @@
   "portal:darwinbox:Duroflex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 31,
    "errors": []
   },
   "portal:greenhouse:BlueStone": {
@@ -689,7 +689,7 @@
   "portal:greenhouse:EBANX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 6,
+   "jobs": 7,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -743,7 +743,7 @@
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 143,
+   "jobs": 142,
    "errors": []
   },
   "portal:workday:MKS": {
@@ -827,13 +827,13 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 51,
    "errors": []
   },
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 67,
+   "jobs": 62,
    "errors": []
   },
   "portal:keka:nference": {
@@ -851,7 +851,7 @@
   "linkedin": {
    "ok": 97,
    "failed": 0,
-   "jobs": 329,
+   "jobs": 294,
    "errors": []
   },
   "discovery:linkedin": {
@@ -863,7 +863,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 998,
+   "jobs": 964,
    "errors": []
   },
   "discovery:google": {
@@ -875,7 +875,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 892,
+   "jobs": 1012,
    "errors": []
   },
   "naukri (browser)": {
@@ -886,48 +886,53 @@
   }
  },
  "descriptions": {
-  "careers portal": 26,
-  "linkedin": 28
+  "careers portal": 20,
+  "linkedin": 61,
+  "iimjobs": 10
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4897,
-   "after_filters": 903,
-   "kept_new": 31
+   "raw": 4895,
+   "after_filters": 897,
+   "kept_new": 29
   },
   "linkedin": {
-   "raw": 1679,
-   "after_filters": 788,
-   "kept_new": 12
+   "raw": 1644,
+   "after_filters": 757,
+   "kept_new": 15
   },
   "indeed": {
-   "raw": 998,
-   "after_filters": 414,
-   "kept_new": 2
+   "raw": 964,
+   "after_filters": 399,
+   "kept_new": 3
   },
   "iimjobs": {
-   "raw": 892,
-   "after_filters": 140
+   "raw": 1012,
+   "after_filters": 87,
+   "kept_new": 4
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Midtronics",
-   "Landmark Group",
-   "Abbott"
+   "ReBAT",
+   "Skyy Rider Electric",
+   "ROADEXPRESS FREIGHT",
+   "Honda Digital Innovation, India",
+   "Stashfin",
+   "VisioApps"
   ],
-  "with_portal": 33
+  "with_portal": 32
  },
  "counts": {
-  "raw": 8466,
-  "after_filters": 2245,
-  "judged": 181,
-  "kept": 45,
-  "duplicates_folded": 26,
-  "on_dashboard": 1396,
+  "raw": 8515,
+  "after_filters": 2140,
+  "judged": 291,
+  "kept": 51,
+  "duplicates_folded": 25,
+  "on_dashboard": 1332,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
