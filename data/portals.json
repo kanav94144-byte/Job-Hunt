@@ -1112,6 +1112,10 @@
   "type": null,
   "checked": "2026-09-26"
  },
+ "Finovista": {
+  "type": null,
+  "checked": "2026-10-10"
+ },
  "Finplify Technologies Private Limited": {
   "type": null,
   "checked": "2026-09-26"
@@ -1686,6 +1690,10 @@
  "KAI Nest": {
   "type": null,
   "checked": "2026-10-09"
+ },
+ "KARL STORZ": {
+  "type": null,
+  "checked": "2026-10-10"
  },
  "KC OVERSEAS EDUCATION PRIVATE LIMITED": {
   "type": null,
@@ -2403,9 +2411,19 @@
   "type": null,
   "checked": "2026-10-05"
  },
+ "Novus Insights": {
+  "type": null,
+  "checked": "2026-10-10"
+ },
  "Nua": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "Nudge": {
+  "type": "keka",
+  "tenant": "nudge",
+  "probed": true,
+  "checked": "2026-10-10"
  },
  "Nuuk": {
   "type": null,
@@ -3101,6 +3119,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "SpeedMart": {
+  "type": null,
+  "checked": "2026-10-10"
+ },
  "Spinny": {
   "type": null,
   "checked": "2026-10-08"
@@ -3420,6 +3442,10 @@
   "type": null,
   "checked": "2026-10-02"
  },
+ "UEIBI": {
+  "type": null,
+  "checked": "2026-10-10"
+ },
  "US Pharmacopeia": {
   "type": null,
   "checked": "2026-10-01"
@@ -3668,6 +3694,10 @@
   "company_id": "whatfix",
   "country": "in",
   "checked": "2026-09-23"
+ },
+ "Wife": {
+  "type": null,
+  "checked": "2026-10-10"
  },
  "Wigope": {
   "type": null,
