@@ -1455,6 +1455,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Honda Digital Innovation, India": {
+  "type": null,
+  "checked": "2026-10-10"
+ },
  "Hopezen International Private Ltd": {
   "type": null,
   "checked": "2026-09-30"
@@ -2737,6 +2741,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "ROADEXPRESS FREIGHT": {
+  "type": null,
+  "checked": "2026-10-10"
+ },
  "RSM US LLP": {
   "type": null,
   "checked": "2026-10-07"
@@ -2756,6 +2764,10 @@
  "Razorpay": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "ReBAT": {
+  "type": null,
+  "checked": "2026-10-10"
  },
  "ReNew": {
   "type": null,
@@ -2990,8 +3002,10 @@
   "checked": "2026-10-05"
  },
  "Simpplr": {
-  "type": null,
-  "checked": "2026-10-08"
+  "type": "greenhouse",
+  "tenant": "simpplr",
+  "harvested": true,
+  "checked": "2026-10-10"
  },
  "Sion Advisors": {
   "type": null,
@@ -3026,6 +3040,10 @@
  "Skyros Solar": {
   "type": null,
   "checked": "2026-10-02"
+ },
+ "Skyy Rider Electric": {
+  "type": null,
+  "checked": "2026-10-10"
  },
  "Skyy Skill Academy": {
   "type": null,
@@ -3108,6 +3126,10 @@
  "StarCharge APAC": {
   "type": null,
   "checked": "2026-09-29"
+ },
+ "Stashfin": {
+  "type": null,
+  "checked": "2026-10-10"
  },
  "StelleHire": {
   "type": null,
@@ -3551,6 +3573,10 @@
  "Virya Autonomous Technologies": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "VisioApps": {
+  "type": null,
+  "checked": "2026-10-10"
  },
  "Vizza Fintech Private Limited": {
   "type": null,
