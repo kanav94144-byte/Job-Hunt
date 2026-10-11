@@ -59,7 +59,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 224,
+   "jobs": 221,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -161,7 +161,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 354,
+   "jobs": 356,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -701,7 +701,7 @@
   "portal:workday:Expedia Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 17,
+   "jobs": 16,
    "errors": []
   },
   "portal:keka:Furlenco": {
@@ -719,7 +719,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 306,
+   "jobs": 308,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
@@ -857,19 +857,19 @@
   "linkedin": {
    "ok": 97,
    "failed": 0,
-   "jobs": 144,
+   "jobs": 137,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1260,
+   "jobs": 1120,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 843,
+   "jobs": 836,
    "errors": []
   },
   "discovery:google": {
@@ -881,7 +881,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 677,
+   "jobs": 246,
    "errors": []
   },
   "naukri (browser)": {
@@ -889,53 +889,64 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 2,
+   "jobs": 0,
+   "errors": [
+    "PwC India IN_Sr Associate\u2013 Data Management,Data Governance\u2013 GCC\u2013 Advisory \u2013 Kolkata: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Kolkata-DN-57/IN-Senior-Associate---AWS-Data-Engineer---Data-and-Analytics---Advisory---Bangalore_74",
+    "PwC India IN_Senior\u00a0Associate_SAP SD_Enterprise\u00a0Apps SAP_Advisory_\u00a0Bangalore: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Manager-SAP-MM-Enterprise-Apps-SAP-Advisory--Mumbai-_748119WD-1"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 61,
-  "linkedin": 100
+  "careers portal": 18,
+  "linkedin": 51
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
    "raw": 4888,
-   "after_filters": 898,
-   "kept_new": 28
+   "after_filters": 900,
+   "kept_new": 25
   },
   "linkedin": {
-   "raw": 1404,
-   "after_filters": 572,
-   "kept_new": 32
+   "raw": 1257,
+   "after_filters": 517,
+   "kept_new": 23
   },
   "indeed": {
-   "raw": 843,
-   "after_filters": 321
+   "raw": 836,
+   "after_filters": 309,
+   "kept_new": 1
   },
   "iimjobs": {
-   "raw": 677,
-   "after_filters": 37
+   "raw": 246,
+   "after_filters": 38
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "SCEAIMS",
-   "Simero Ceramic",
-   "Lamiwood Designer Floors",
-   "Hashtag Infosystem",
-   "Stellosys",
-   "SwiftSku (YC W21)"
+   "Trendio Automation",
+   "British Safety Council India",
+   "Ember Cookware",
+   "Bajaj Finserv",
+   "TENCYS",
+   "ICE",
+   "WallstreetINDIA"
   ],
   "with_portal": 34
  },
  "counts": {
-  "raw": 7812,
-  "after_filters": 1828,
-  "judged": 458,
-  "kept": 60,
-  "duplicates_folded": 33,
-  "on_dashboard": 1346,
+  "raw": 7227,
+  "after_filters": 1764,
+  "judged": 171,
+  "kept": 49,
+  "duplicates_folded": 32,
+  "on_dashboard": 1363,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
