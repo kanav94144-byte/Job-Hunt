@@ -1,46 +1,47 @@
-# Job Hunt – 2026-10-11 10:58 UTC
+# Job Hunt – 2026-10-11 15:52 UTC
 
-**19 new roles today** · 1319 active on the dashboard
+**20 new roles today** · 1346 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4887 | 897 | 27 |
-| iimjobs | 677 | 37 | 1 |
-| indeed | 897 | 349 | 3 |
-| linkedin | 1301 | 533 | 26 |
+| careers portal | 4888 | 898 | 28 |
+| iimjobs | 677 | 37 | 0 |
+| indeed | 843 | 321 | 0 |
+| linkedin | 1404 | 572 | 32 |
 
-Auto-watchlist: 400 companies (34 with a readable portal) · added: Mojro, TAAS Partners
+Auto-watchlist: 400 companies (34 with a readable portal) · added: SCEAIMS, Simero Ceramic, Lamiwood Designer Floors, Hashtag Infosystem, Stellosys, SwiftSku (YC W21)
 
-## Tier A (3)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Accenture Strategy | #ACN GN-I&E-Strategy-Transaction Advisory - Consultant | Gurugram | 3+ yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477246859) |
-| Mojro | Product Manager - I | Bengaluru | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477225258) |
-| Amazon | Manager, Operations as a Service, North America Supply Chain (NASC)  | Bengaluru | 3+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10574385/manager-operations-as-a-service-north-america-supply-chain-nasc) |
-
-## Tier B (10)
+## Tier A (8)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Accenture Strategy | I&P GN - Song – Marketing- Consultant - Process Excellence-PE | Gurugram | 2-8 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477268079) |
-| Accenture Strategy | I&P- GN- I&E-Retail- Relex-Consultant | Gurugram | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477264203) |
-| Cvali | Business Development Executive (Upto 6.5lpa) | Delhi | not stated | – | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475654052) |
-| Accenture Strategy | #ACN GN-I&E-Strategy- CVS - Consultant | Gurugram | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477259342) |
-| Accenture Strategy | #ACN   GN-I&E-Strategy-Corporate Strategy & Growth - Manager | Gurugram | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477266128) |
-| Accenture Strategy | #ACN GN-I&E- Strategy - Corporate Strategy & Growth - Consultant | Gurugram | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477248778) |
-| PayU | Consultant | Gurugram | 0-2 yrs | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475648723) |
-| Nestle India | Assistant Manager - Key Accounts | Gurugram | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478071529) |
-| GE HealthCare | Senior Staff Technical Product Manager | India | not stated | – | ~₹18–32 LPA (est.) | [open](https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4047422EXTERNALENGLOBAL/Senior-Staff-Technical-Product-Manager?utm_source=indeed&utm_medium=phenom-feeds) |
-| Deloitte USI | Deputy Manager | Forensic Crime | Mumbai | Forensic & Financial Crime | India | not stated | – | ~₹26–42 LPA (est.) | [open](https://southasiacareers.deloitte.com/job/Mumbai-Deputy-Manager-Forensic-Crime-Mumbai-Forensic-&-Financial-Crime/60557544/) |
+| Stellosys | B2B SaaS Sales Lead | Kozhikode | not stated | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477258371) |
+| Lamiwood Designer Floors | Business Development Manager | North Delhi · Delhi | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477264373) |
+| Simero Ceramic | Business Development Manager | Kochi | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477239658) |
+| SCEAIMS | Business Development Manager | Salem | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475648465) |
+| Hashtag Infosystem | Marketing Business Development Executive | Surat | 3-5 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475612680) |
+| EY GDS | EY Parthenon Strategy Senior Consultant - Emirati Talent - Dubai | Dubai · United Arab Emirates | 3+ yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4458094746) |
+| Abbott | Key Account Manager | Dubai · United Arab Emirates | 3-5 yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4477826406) |
+| DBS Bank | Officer, Branch Relationship Manager Growth, Consumer Banking Group | Regional Office Chennai · Mehdipatnam · Hyderabad | 2+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Regional-Office-Chennai/Officer--Branch-Relationship-Manager-Growth--Consumer-Banking-Group_WD89230) |
 
-## Tier C (6)
+## Tier B (8)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Nestle India | Edge Computing Tech Lead | Bengaluru | not stated | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478063781) |
-| ReNew | Branch manager | India | 5+ yrs | Yes | ~₹16–26 LPA (est.) | [open](https://in.indeed.com/viewjob?jk=b6fc942f6018761b) |
-| Nestle India | Sales Admin | Gurugram | 2-5 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478062848) |
-| D. E. Shaw India Private Limited | Program Manager | Hyderabad | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477841221) |
-| Amazon | Manager, Account management, RBS - AVS Account Management | Bengaluru | 3+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4468689451) |
-| Accenture Strategy | Commercial - Competitive & Market Intelligence Manager | Mumbai Metropolitan | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477808479) |
+| Micron Technology | Senior Manager, GPCOE AI Transformation | Hyderabad | not stated | – | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4441184638) |
+| PinnacleU | Founders Office | Greater Delhi | 1-5 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4475661468) |
+| SwiftSku (YC W21) | Business Development Executive | Ahmedabad | 3+ yrs | – | ₹8–20 LPA | [open](https://www.linkedin.com/jobs/view/4478314621) |
+| Cognizant | Sr. Consultant | Chennai | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477254752) |
+| Siemens | Commodity Manager - Strategic Procurement for Metallics | Bengaluru | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4423946367) |
+| MAERSK | Customer Experience Consultant | Mumbai · 400079 | 2+ yrs | – | ~₹10–20 LPA (est.) | [open](https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/India-Mumbai-400079/Customer-Experience-Consultant_R199717) |
+| Wells Fargo | Business Execution Consultant | Greater Hyderabad | 2+ yrs | – | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477828039) |
+| Uplers | Digital Growth Strategist & Marketing Operations Lead | India | not stated | – | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477815326) |
+
+## Tier C (4)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Google | Field Sales Representative, Startups, Growth, Google Cloud | Bengaluru | 5+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.google.com/about/careers/applications/jobs/results/121538506244661958-senior-software-engineer-core) |
+| PwC India | Senior Analyst - Deals - TS | Mumbai | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4291060943) |
+| EY GDS | Manager-TD&E-PM-PMO(CF) | Hyderabad | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4417250628) |
+| Amazon | Change Manager, AMZL UAE | Dubai · United Arab Emirates | 2+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4459862941) |
