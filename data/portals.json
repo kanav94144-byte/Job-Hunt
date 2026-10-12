@@ -333,7 +333,7 @@
  },
  "Bajaj Finserv": {
   "type": null,
-  "checked": "2026-09-24"
+  "checked": "2026-10-12"
  },
  "Bajaj Life": {
   "type": null,
@@ -462,7 +462,7 @@
  },
  "British Safety Council India": {
   "type": null,
-  "checked": "2026-09-26"
+  "checked": "2026-10-12"
  },
  "Brose Group": {
   "type": null,
@@ -883,6 +883,12 @@
   "harvested": true,
   "checked": "2026-10-05"
  },
+ "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
+  "type": "keka",
+  "tenant": "drblal",
+  "harvested": true,
+  "checked": "2026-10-12"
+ },
  "Dream Sports (Dream11)": {
   "type": null,
   "checked": "2026-10-08"
@@ -982,6 +988,10 @@
  "Elite Elevators": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Ember Cookware": {
+  "type": null,
+  "checked": "2026-10-12"
  },
  "Emeritus": {
   "type": "darwinbox",
@@ -1502,6 +1512,10 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "ICE": {
+  "type": null,
+  "checked": "2026-10-12"
+ },
  "IDFC FIRST Bank": {
   "type": null,
   "checked": "2026-10-08"
@@ -1612,7 +1626,7 @@
  },
  "Infosys": {
   "type": null,
-  "checked": "2026-09-27"
+  "checked": "2026-10-12"
  },
  "Infra.Market": {
   "type": null,
@@ -3249,6 +3263,10 @@
   "type": null,
   "checked": "2026-10-10"
  },
+ "TENCYS": {
+  "type": null,
+  "checked": "2026-10-12"
+ },
  "THT Contracting LLC": {
   "type": null,
   "checked": "2026-10-08"
@@ -3437,6 +3455,10 @@
  "Traya": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "Trendio Automation": {
+  "type": null,
+  "checked": "2026-10-12"
  },
  "Trendlyne.com": {
   "type": null,
@@ -3690,6 +3712,10 @@
   "type": "darwinbox",
   "tenant": "wakefit",
   "probed": true
+ },
+ "WallstreetINDIA": {
+  "type": null,
+  "checked": "2026-10-12"
  },
  "Waste 2 Resource India": {
   "type": null,
