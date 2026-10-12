@@ -1,60 +1,38 @@
-# Job Hunt – 2026-10-12 18:48 UTC
+# Job Hunt – 2026-10-12 22:25 UTC
 
-**33 new roles today** · 1433 active on the dashboard
+**11 new roles today** · 1441 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4724 | 887 | 54 |
-| iimjobs | 551 | 68 | 1 |
-| indeed | 930 | 374 | 9 |
-| linkedin | 775 | 350 | 31 |
+| careers portal | 4700 | 877 | 37 |
+| iimjobs | 555 | 69 | 0 |
+| indeed | 936 | 385 | 3 |
+| linkedin | 684 | 357 | 10 |
 
-Auto-watchlist: 400 companies (33 with a readable portal) · added: Meolaa, Krayr Solutions, Strivex Consulting, GrowthBuddy
+Auto-watchlist: 400 companies (35 with a readable portal)
 
-## Tier A (5)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Meolaa | Founder's Office | Bengaluru | 4-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477586028) |
-| EY GDS | GDS Microsoft Co-Investments Lead Analyst - Supervising Associate - India | India | not stated | Yes | ~₹38–58 LPA (est.) | [open](https://careers.ey.com/ey/job/Kochi-GDS-Microsoft-Co-Investments-Lead-Analyst-Supervising-Associate-India-KL-682313/1446370233/) |
-| Krayr Solutions | Manager – Strategy, Project Management & NPD JIS151887 | Bengaluru | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478516936) |
-| Accenture Strategy | S&C GN - TS&T – TTD - TO VRO - Manager | Bengaluru | not stated | Yes | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478533668) |
-| Google | Manager, Customer Success Acceleration, gTech Ads, GCS | Gurugram | 1+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.google.com/about/careers/applications/jobs/results/77695403851424454-software-engineer-ii-google-cloud) |
-
-## Tier B (15)
+## Tier A (1)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Siemens | Strategy & Pricing Manager (ASEAN) | Singapore | 2-3 yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4424236183) |
-| Deloitte USI | Manager | Social | Delhi | Operations, Industry & Domain Solutions | GPS Industry Solution | India | not stated | – | ~₹26–42 LPA (est.) | [open](https://southasiacareers.deloitte.com/job/Delhi-Manager-Social-Delhi-Operations%2C-Industry-&-Domain-Solutions-GPS-Industry-Solution/60602744/) |
-| GrowthBuddy | Growth Marketing Manager | Remote | 4+ yrs | – | ₹25 LPA | [open](https://in.indeed.com/viewjob?jk=4d8a38d1685284bd) |
-| AbbVie | Key Account Specialist, Neuro | Delhi | not stated | – | ~₹10–20 LPA (est.) | [open](https://jobs.smartrecruiters.com/AbbVie/3743990016049436-key-account-specialist-neuro) |
-| A.P. Moller - Maersk | Platform Product Owner-AI Enablement & Vendor Experience | Mumbai | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478551631) |
-| PepsiCo | Sr Manager - Indirects Procurement – Hardware/Telecom/Cloud | Gurugram | 4-5 yrs | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4476045066) |
-| EY GDS | Project Consultant - PAS WKFA - National - CNS-PC-Talent - New Delhi | India | not stated | – | ~₹16–24 LPA (est.) | [open](https://careers.ey.com/ey/job/New-Delhi-Project-Consultant-PAS-WKFA-National-CNS-PC-Talent-New-Delhi-Nati-110037/1409067433/) |
-| Wells Fargo | Product Manager | India | 2+ yrs | – | ~₹18–32 LPA (est.) | [open](https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Product-Manager_R-575502-1) |
-| Amazon | Technical Account Manager, ES - INDIA | Gurugram | 3+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10575716/technical-account-manager-es-india) |
-| Amazon | Program Manager, GSF Last Mile Program | Bengaluru | 3+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4461074982) |
-| Razorpay | Technical Consultant | Bengaluru | not stated | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478530776) |
-| EY GDS | Physical AI - PMO - Growth and Innovation- Supervising Associate | Bengaluru | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4468701540) |
-| Mastercard | Lead Product Manager Tech | Pune | not stated | – | ~₹45–75 LPA (est.) | [open](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Product-Manager-Tech_R-288293) |
-| Razorpay | Analyst, Business Operations | Bengaluru | not stated | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478541290) |
-| Strivex Consulting | Financial Modelling Analyst/Consulting Manager | Gurugram | 4-10 yrs | – | ~₹10–20 LPA (est.) | [open](https://www.iimjobs.com/j/financial-modelling-analystconsulting-manager-investment-banking-4-10-yrs-1739307) |
+| PwC India | IN_Associate_SAP Datasphere_D&A_Advisory_Bangalore | Bengaluru Millenia | 4-8 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-SAP-Datasphere-D-A-Advisory-Gurgaon_569967WD-1) |
 
-## Tier C (13)
+## Tier B (6)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Carrier | Product Manager – Product Strategy & Growth | India | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://jobs.carrier.com/job/-/-/29289/101856366048) |
-| Accenture Strategy | S&C GN - TS&T – Strategic Technology Effectiveness - GCC - Manager | Bengaluru | 5+ yrs | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478527896) |
-| Lagrange Point International | Chief of Staff (Silicon Valley based AI Start up) | India | 5+ yrs | – | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477597025) |
-| Amazon | Sr Program Manager, Amazon Now | Dubai · Du · United Arab Emirates | 5+ yrs | Yes | not stated | [open](https://www.amazon.jobs/jobs/10483213/sr-program-manager-amazon-now?cmpid=DA_INAD200785B) |
-| EY GDS | BCM-Business Analyst - Cards and Payments-Senior-GDSF02 | India | 5+ yrs | Yes | ~₹16–24 LPA (est.) | [open](https://careers.ey.com/ey/job/Kochi-BCM-Business-Analyst-Cards-and-Payments-Senior-GDSF02-KL-682313/1446325333/) |
-| EY GDS | Assistant Manager-Deputy Manager-Service Excellence | Gurugram | 5-8 yrs | Yes | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477575360) |
-| Amazon | Business Analyst , NCC- Remedy | Hyderabad | 1+ yrs | – | ~₹20–32 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10575702/business-analyst-ncc-remedy) |
-| Amazon | Area Manager-Fulfillment Centre, Operations | Gurugram | 2+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10576119/area-manager-fulfillment-centre-operations) |
-| PepsiCo | Assistant Manager -Volume Reporting | Hyderabad | 3-5 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4476043198) |
-| Amazon | Sr.FinOps Analyst- AR  | Hyderabad | 3+ yrs | – | ~₹20–32 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10575663/sr-finops-analyst-ar) |
-| KPMG India | KGS-Analyst-Bangalore | Bengaluru | 1-3 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477595699) |
-| Diageo India | Process Analyst, CN DN | Bengaluru | not stated | – | ~₹20–32 LPA (est.) | [open](https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Bangalore-India/Process-Analyst--CN-DN_JR1130870) |
-| Boston Consulting Group | Talent Insights Manager - Global Businesses & Functions | Gurugram | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477906031) |
+| Gartner | Project Manager (2-4 years exp in Strategic Portfolio Management/SPM) | Gurugram | 2-4 yrs | – | ~₹18–32 LPA (est.) | [open](https://gartner.wd5.myworkdayjobs.com/EXT/job/Gurgaon/Project-Manager---IT--2-4-years-_112527) |
+| EVERSANA | Sr Business Analyst (Pharmacovigilance & AI Systems) | India | not stated | – | ~₹10–20 LPA (est.) | [open](https://jobs.smartrecruiters.com/EVERSANA1/744000155025629-sr-business-analyst-pharmacovigilance-ai-systems-) |
+| Flipkart | Lead Associate - Loyalty Programme | India | 3-4 yrs | – | ~₹45–75 LPA (est.) | [open](https://jobs.myntra.com/jobs/3639281688) |
+| ZS Associates | Decision Analytics Associate Consultant - Primary Market Research | Gurugram | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4476028251) |
+| Innovaccer | Strategic Business Development Manager | Noida | not stated | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477559585) |
+| EY GDS | Strategy & Transactions - Financial Services Sector - EY Parthenon Manager/ Senior Manager - Dubai | Dubai · United Arab Emirates | not stated | – | not stated | [open](https://www.linkedin.com/jobs/view/4441053212) |
+
+## Tier C (4)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Deloitte USI | Deputy Manager | Bengaluru | S&P - Payment Terms Adherence Reporting | India | 5+ yrs | – | ~₹26–42 LPA (est.) | [open](https://southasiacareers.deloitte.com/job/Bengaluru-Deputy-Manager-Bengaluru-S&P-Payment-Terms-Adherence-Reporting/60601544/) |
+| Purplle | E-Commerce Executive - Private Brands(Online Distribution) | Mumbai Metropolitan | not stated | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4476030295) |
+| Mondelez | Plant Maintenance & Reliability Lead | Chennai | not stated | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4464035125) |
+| Mondelez | Site Maintenance and Utilities Lead | Baddi | not stated | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478711106) |

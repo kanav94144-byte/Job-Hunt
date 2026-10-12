@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 81,
+   "jobs": 73,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -35,7 +35,7 @@
   "portal:mynexthire:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 78,
    "errors": []
   },
   "portal:recruitee:Lenskart": {
@@ -161,7 +161,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 353,
+   "jobs": 346,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -173,7 +173,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 107,
+   "jobs": 104,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -215,7 +215,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 53,
+   "jobs": 48,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -713,13 +713,13 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 35,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 287,
+   "jobs": 285,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
@@ -750,6 +750,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 0,
+   "errors": []
+  },
+  "portal:keka:Meolaa": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 1,
    "errors": []
   },
   "portal:darwinbox:MobiKwik": {
@@ -857,13 +863,13 @@
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 640,
+   "jobs": 549,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 930,
+   "jobs": 936,
    "errors": []
   },
   "discovery:google": {
@@ -875,7 +881,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 551,
+   "jobs": 555,
    "errors": []
   },
   "naukri (browser)": {
@@ -883,64 +889,47 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 5,
-   "jobs": 0,
-   "errors": [
-    "Diageo India Manager \u2013 Order Enquiries/ Resolution: 403 Client Error: Forbidden for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/job/Bangalore-India/Manager---Order-Enquiries--Resolution_JR1129907",
-    "Diageo India Manager- Customer Experience & Queries: 403 Client Error: Forbidden for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/job/GURUGRAM-INDIA/Manager--Customer-Experience---Queries_JR1129904",
-    "Diageo India Process Analyst, CN DN: 403 Client Error: Forbidden for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/job/Bangalore-India/Process-Analyst--CN-DN_JR1130870"
-   ]
   }
  },
  "descriptions": {
-  "careers portal": 57,
-  "linkedin": 75,
-  "iimjobs": 4
+  "careers portal": 35,
+  "linkedin": 0
  },
- "linkedin_detail_blocked": false,
- "portals_learned_from_links": 0,
+ "linkedin_detail_blocked": true,
+ "portals_learned_from_links": 1,
  "funnel": {
   "careers portal": {
-   "raw": 4724,
-   "after_filters": 887,
-   "kept_new": 54
+   "raw": 4700,
+   "after_filters": 877,
+   "kept_new": 37
   },
   "linkedin": {
-   "raw": 775,
-   "after_filters": 350,
-   "kept_new": 31
+   "raw": 684,
+   "after_filters": 357,
+   "kept_new": 10
   },
   "indeed": {
-   "raw": 930,
-   "after_filters": 374,
-   "kept_new": 9
+   "raw": 936,
+   "after_filters": 385,
+   "kept_new": 3
   },
   "iimjobs": {
-   "raw": 551,
-   "after_filters": 68,
-   "kept_new": 1
+   "raw": 555,
+   "after_filters": 69
   }
  },
  "watchlist": {
   "size": 400,
-  "added_this_run": [
-   "Meolaa",
-   "Krayr Solutions",
-   "Strivex Consulting",
-   "GrowthBuddy"
-  ],
-  "with_portal": 33
+  "added_this_run": [],
+  "with_portal": 35
  },
  "counts": {
-  "raw": 6980,
-  "after_filters": 1679,
-  "judged": 412,
-  "kept": 95,
-  "duplicates_folded": 34,
-  "on_dashboard": 1433,
+  "raw": 6875,
+  "after_filters": 1688,
+  "judged": 156,
+  "kept": 50,
+  "duplicates_folded": 32,
+  "on_dashboard": 1441,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

@@ -950,8 +950,12 @@
   "checked": "2026-10-06"
  },
  "EVERSANA": {
-  "type": null,
-  "checked": "2026-10-01"
+  "type": "smartrecruiters",
+  "tenant": "EVERSANA1",
+  "harvested": true,
+  "company_id": "EVERSANA1",
+  "country": "in",
+  "checked": "2026-10-12"
  },
  "EXL": {
   "type": "darwinbox",
@@ -1382,6 +1386,10 @@
  "Growth Avenues": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "GrowthBuddy": {
+  "type": null,
+  "checked": "2026-10-12"
  },
  "Groww": {
   "type": null,
@@ -1850,6 +1858,10 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "Krayr Solutions": {
+  "type": null,
+  "checked": "2026-10-12"
+ },
  "KreditBee": {
   "type": "darwinbox",
   "tenant": "kreditbee",
@@ -2200,6 +2212,12 @@
  "Menarini Asia-Pacific": {
   "type": null,
   "checked": "2026-10-02"
+ },
+ "Meolaa": {
+  "type": "keka",
+  "tenant": "meolaa",
+  "probed": true,
+  "checked": "2026-10-12"
  },
  "Merck Group": {
   "type": null,
@@ -3290,6 +3308,10 @@
  "Steps India Technology": {
   "type": null,
   "checked": "2026-09-28"
+ },
+ "Strivex Consulting": {
+  "type": null,
+  "checked": "2026-10-12"
  },
  "Sugar360": {
   "type": null,
