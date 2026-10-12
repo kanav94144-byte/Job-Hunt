@@ -19,7 +19,7 @@
  },
  "A.P. Moller - Maersk": {
   "first_seen": "2026-10-05",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Category Manager- Terminal Procurement"
@@ -91,7 +91,7 @@
  },
  "AbbVie": {
   "first_seen": "2026-10-12",
-  "hits": 1,
+  "hits": 5,
   "band": "unknown",
   "titles": [
    "AA Product Manager"
@@ -705,7 +705,7 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 27,
+  "hits": 29,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
@@ -777,7 +777,7 @@
  },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "first_seen": "2026-10-12",
-  "hits": 1,
+  "hits": 2,
   "band": "unknown",
   "titles": [
    "Business Development Manager/Area Business Manager - Kota"
@@ -930,12 +930,12 @@
  },
  "Expertrons": {
   "first_seen": "2026-10-06",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Business/ Revenue Co-founder"
   ],
-  "last_hit": "2026-10-09"
+  "last_hit": "2026-10-12"
  },
  "FRND": {
   "first_seen": "2026-10-05",
@@ -1092,7 +1092,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 41,
+  "hits": 42,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1179,6 +1179,15 @@
    "Business Development Manager"
   ],
   "last_hit": "2026-10-08"
+ },
+ "GrowthBuddy": {
+  "first_seen": "2026-10-12",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Growth Marketing Manager"
+  ],
+  "last_hit": "2026-10-12"
  },
  "HDFC Bank": {
   "first_seen": "2026-10-06",
@@ -1425,7 +1434,7 @@
  },
  "Ingram Micro": {
   "first_seen": "2026-09-24",
-  "hits": 47,
+  "hits": 48,
   "band": "unknown",
   "titles": [
    "Key Account Manager"
@@ -1577,6 +1586,15 @@
   ],
   "last_hit": "2026-10-09"
  },
+ "Krayr Solutions": {
+  "first_seen": "2026-10-12",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Manager – Strategy, Project Management & NPD JIS151887"
+  ],
+  "last_hit": "2026-10-12"
+ },
  "Kroll": {
   "first_seen": "2026-09-25",
   "hits": 8,
@@ -1633,12 +1651,12 @@
  },
  "Lagrange Point International": {
   "first_seen": "2026-09-30",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Consultant - Executive Search & Business Development"
   ],
-  "last_hit": "2026-10-07"
+  "last_hit": "2026-10-12"
  },
  "Lamiwood Designer Floors": {
   "first_seen": "2026-10-11",
@@ -1883,6 +1901,15 @@
    "Senior Regional Business Development Manager"
   ],
   "last_hit": "2026-10-02"
+ },
+ "Meolaa": {
+  "first_seen": "2026-10-12",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Founder's Office"
+  ],
+  "last_hit": "2026-10-12"
  },
  "Meritto": {
   "first_seen": "2026-09-25",
@@ -2620,12 +2647,12 @@
  },
  "Siemens": {
   "first_seen": "2026-09-25",
-  "hits": 8,
+  "hits": 9,
   "band": "unknown",
   "titles": [
    "Lead Product Owner (R&D) – Energy Distribution Digitalization"
   ],
-  "last_hit": "2026-10-11"
+  "last_hit": "2026-10-12"
  },
  "SigmaIT Software Designers Pvt. Ltd.": {
   "first_seen": "2026-10-03",
@@ -2842,6 +2869,15 @@
    "B2B SaaS Sales Lead"
   ],
   "last_hit": "2026-10-11"
+ },
+ "Strivex Consulting": {
+  "first_seen": "2026-10-12",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Financial Modelling Analyst/Consulting Manager"
+  ],
+  "last_hit": "2026-10-12"
  },
  "Sugar360": {
   "first_seen": "2026-10-01",
@@ -3352,12 +3388,12 @@
  },
  "Wells Fargo": {
   "first_seen": "2026-10-07",
-  "hits": 5,
+  "hits": 6,
   "band": "unknown",
   "titles": [
    "Senior Quantitative Analytics Specialist( Gen AI)"
   ],
-  "last_hit": "2026-10-11"
+  "last_hit": "2026-10-12"
  },
  "Weneura FutureTech Pvt Ltd": {
   "first_seen": "2026-10-04",
@@ -3404,15 +3440,6 @@
   ],
   "last_hit": "2026-10-03"
  },
- "Xneeti Tech": {
-  "first_seen": "2026-10-01",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Growth & GTM Lead"
-  ],
-  "last_hit": "2026-10-01"
- },
  "YASH Technologies": {
   "first_seen": "2026-09-23",
   "hits": 3,
@@ -3440,15 +3467,6 @@
   ],
   "last_hit": "2026-10-07"
  },
- "Youth for seva": {
-  "first_seen": "2026-10-01",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Executive Assistant – Founder’s Office"
-  ],
-  "last_hit": "2026-10-01"
- },
  "Z47": {
   "first_seen": "2026-10-09",
   "hits": 1,
@@ -3457,15 +3475,6 @@
    "Founder's Office - For a Software/AI portfolio company"
   ],
   "last_hit": "2026-10-09"
- },
- "ZET": {
-  "first_seen": "2026-10-01",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Senior Associate - Growth Marketing"
-  ],
-  "last_hit": "2026-10-01"
  },
  "ZO Play": {
   "first_seen": "2026-10-07",
@@ -3565,15 +3574,6 @@
    "Senior Product Manager"
   ],
   "last_hit": "2026-10-08"
- },
- "iDream Education": {
-  "first_seen": "2026-10-01",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Assistant Manager - Business Operations and Impact, South India Region"
-  ],
-  "last_hit": "2026-10-01"
  },
  "nference": {
   "first_seen": "2026-10-07",

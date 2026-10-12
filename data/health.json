@@ -5,16 +5,14 @@
   "portal:darwinbox:Porter": {
    "ok": 1,
    "failed": 0,
-   "jobs": 119,
+   "jobs": 40,
    "errors": []
   },
   "portal:oracle_hcm:American Express": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "ReadTimeout: HTTPSConnectionPool(host='egug.fa.us2.oraclecloud.com', port=443): Read timed out. (read timeout=30)"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 81,
+   "errors": []
   },
   "portal:avature:Deloitte USI": {
    "ok": 1,
@@ -61,13 +59,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 214,
+   "jobs": 212,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 87,
+   "jobs": 86,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -121,19 +119,19 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 25,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 133,
+   "jobs": 135,
    "errors": []
   },
   "portal:lever:CRED": {
    "ok": 1,
    "failed": 0,
-   "jobs": 8,
+   "jobs": 7,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -157,13 +155,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 12,
+   "jobs": 14,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 349,
+   "jobs": 353,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -175,7 +173,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 102,
+   "jobs": 107,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -199,7 +197,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 57,
+   "jobs": 56,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -229,7 +227,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 87,
+   "jobs": 88,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -325,7 +323,7 @@
   "portal:smartrecruiters:Freshworks": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 32,
    "errors": []
   },
   "portal:workday:BrowserStack": {
@@ -655,13 +653,13 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 71,
    "errors": []
   },
-  "portal:smartrecruiters:Colliers": {
+  "portal:smartrecruiters:AbbVie": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 25,
    "errors": []
   },
   "portal:keka:Cybrain Software Solutions Pvt.Ltd.": {
@@ -682,6 +680,12 @@
    "jobs": 14,
    "errors": []
   },
+  "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 7,
+   "errors": []
+  },
   "portal:greenhouse:EBANX": {
    "ok": 1,
    "failed": 0,
@@ -700,16 +704,10 @@
    "jobs": 0,
    "errors": []
   },
-  "portal:workday:Expedia Group": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 18,
-   "errors": []
-  },
   "portal:keka:Furlenco": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 46,
    "errors": []
   },
   "portal:workday:Gartner": {
@@ -721,13 +719,13 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 322,
+   "jobs": 287,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 74,
+   "jobs": 73,
    "errors": []
   },
   "portal:recruitee:KC Overseas Education": {
@@ -739,7 +737,7 @@
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 143,
+   "jobs": 142,
    "errors": []
   },
   "portal:workday:MKS": {
@@ -754,12 +752,6 @@
    "jobs": 0,
    "errors": []
   },
-  "portal:keka:Medhavi": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 59,
-   "errors": []
-  },
   "portal:darwinbox:MobiKwik": {
    "ok": 1,
    "failed": 0,
@@ -769,7 +761,7 @@
   "portal:smartrecruiters:Nielsen": {
    "ok": 1,
    "failed": 0,
-   "jobs": 51,
+   "jobs": 54,
    "errors": []
   },
   "portal:keka:Nudge": {
@@ -817,13 +809,13 @@
   "portal:workday:Veradigm\u00ae": {
    "ok": 1,
    "failed": 0,
-   "jobs": 87,
+   "jobs": 85,
    "errors": []
   },
   "portal:lever:Weekday": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 57,
    "errors": []
   },
   "portal:keka:Zippee": {
@@ -841,7 +833,7 @@
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 58,
+   "jobs": 59,
    "errors": []
   },
   "portal:keka:nference": {
@@ -857,21 +849,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 98,
+   "ok": 97,
    "failed": 0,
-   "jobs": 170,
+   "jobs": 135,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1350,
+   "jobs": 640,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 884,
+   "jobs": 930,
    "errors": []
   },
   "discovery:google": {
@@ -883,7 +875,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 666,
+   "jobs": 551,
    "errors": []
   },
   "naukri (browser)": {
@@ -891,77 +883,64 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 5,
+   "jobs": 0,
+   "errors": [
+    "Diageo India Manager \u2013 Order Enquiries/ Resolution: 403 Client Error: Forbidden for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/job/Bangalore-India/Manager---Order-Enquiries--Resolution_JR1129907",
+    "Diageo India Manager- Customer Experience & Queries: 403 Client Error: Forbidden for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/job/GURUGRAM-INDIA/Manager--Customer-Experience---Queries_JR1129904",
+    "Diageo India Process Analyst, CN DN: 403 Client Error: Forbidden for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/job/Bangalore-India/Process-Analyst--CN-DN_JR1130870"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 44,
-  "linkedin": 186,
-  "iimjobs": 23
+  "careers portal": 57,
+  "linkedin": 75,
+  "iimjobs": 4
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4833,
-   "after_filters": 897,
-   "kept_new": 50
+   "raw": 4724,
+   "after_filters": 887,
+   "kept_new": 54
   },
   "linkedin": {
-   "raw": 1520,
-   "after_filters": 640,
-   "kept_new": 64
+   "raw": 775,
+   "after_filters": 350,
+   "kept_new": 31
   },
   "indeed": {
-   "raw": 884,
-   "after_filters": 362,
-   "kept_new": 15
+   "raw": 930,
+   "after_filters": 374,
+   "kept_new": 9
   },
   "iimjobs": {
-   "raw": 666,
-   "after_filters": 61,
-   "kept_new": 10
+   "raw": 551,
+   "after_filters": 68,
+   "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "LearningBIX",
-   "PW (PhysicsWallah)",
-   "Good Health Company",
-   "Solh Wellness",
-   "Frost Free Ventures Private Limited",
-   "Travsetgo.com",
-   "Social Beat",
-   "Sunboost Energy",
-   "BharatEdge Services Private Limited",
-   "Tata Advanced Systems Limited",
-   "TRIVARA INFRAVENTURES PVT LTD",
-   "SkillDzire",
-   "Staff On Air",
-   "Ratan Technologies",
-   "NalandaWay Foundation",
-   "Makerspace Masters",
-   "Kansal Corporate Solutions",
-   "KWAN VENTURES",
-   "Foodstories",
-   "Anlage Infotech",
-   "ImmverseAI",
-   "AbbVie",
-   "Qualysec Technologies Pvt Ltd",
-   "13SQFT",
-   "Constems-AI",
-   "Qualwebs",
-   "Dr. B. Lal Clinical Laboratory Pvt. Ltd."
+   "Meolaa",
+   "Krayr Solutions",
+   "Strivex Consulting",
+   "GrowthBuddy"
   ],
   "with_portal": 33
  },
  "counts": {
-  "raw": 7903,
-  "after_filters": 1960,
-  "judged": 754,
-  "kept": 139,
-  "duplicates_folded": 31,
-  "on_dashboard": 1391,
+  "raw": 6980,
+  "after_filters": 1679,
+  "judged": 412,
+  "kept": 95,
+  "duplicates_folded": 34,
+  "on_dashboard": 1433,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
