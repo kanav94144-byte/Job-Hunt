@@ -1,17 +1,17 @@
 {
- "run_date": "2026-10-12",
+ "run_date": "2026-10-13",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 42,
    "errors": []
   },
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 73,
+   "jobs": 69,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,13 +59,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 212,
+   "jobs": 216,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 86,
+   "jobs": 89,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -83,7 +83,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 97,
+   "jobs": 100,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -119,13 +119,13 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 24,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 135,
+   "jobs": 132,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -155,13 +155,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 14,
+   "jobs": 18,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 346,
+   "jobs": 355,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -173,13 +173,13 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 104,
+   "jobs": 108,
    "errors": []
   },
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 62,
+   "jobs": 58,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -197,7 +197,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 57,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -215,7 +215,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 49,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -227,7 +227,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 88,
+   "jobs": 95,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -323,13 +323,13 @@
   "portal:smartrecruiters:Freshworks": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 33,
    "errors": []
   },
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 31,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -401,7 +401,7 @@
   "portal:keka:Zluri": {
    "ok": 1,
    "failed": 0,
-   "jobs": 10,
+   "jobs": 12,
    "errors": []
   },
   "portal:ashby:Atlan": {
@@ -419,7 +419,7 @@
   "portal:ashby:Sarvam AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 42,
    "errors": []
   },
   "portal:greenhouse:Observe.AI": {
@@ -449,7 +449,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 31,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -461,7 +461,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 21,
+   "jobs": 18,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -599,7 +599,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 30,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -671,7 +671,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 133,
+   "jobs": 138,
    "errors": []
   },
   "portal:lever:Dozee": {
@@ -683,13 +683,19 @@
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
    "ok": 1,
    "failed": 0,
-   "jobs": 7,
+   "jobs": 6,
    "errors": []
   },
   "portal:greenhouse:EBANX": {
    "ok": 1,
    "failed": 0,
    "jobs": 7,
+   "errors": []
+  },
+  "portal:smartrecruiters:EVERSANA": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 31,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -707,25 +713,25 @@
   "portal:keka:Furlenco": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 25,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 35,
+   "jobs": 36,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 285,
+   "jobs": 276,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 73,
+   "jobs": 74,
    "errors": []
   },
   "portal:recruitee:KC Overseas Education": {
@@ -737,7 +743,7 @@
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 142,
+   "jobs": 143,
    "errors": []
   },
   "portal:workday:MKS": {
@@ -767,7 +773,7 @@
   "portal:smartrecruiters:Nielsen": {
    "ok": 1,
    "failed": 0,
-   "jobs": 54,
+   "jobs": 50,
    "errors": []
   },
   "portal:keka:Nudge": {
@@ -785,7 +791,7 @@
   "portal:greenhouse:Simpplr": {
    "ok": 1,
    "failed": 0,
-   "jobs": 1,
+   "jobs": 3,
    "errors": []
   },
   "portal:keka:Techdome": {
@@ -839,7 +845,7 @@
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 59,
+   "jobs": 60,
    "errors": []
   },
   "portal:keka:nference": {
@@ -863,13 +869,13 @@
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 549,
+   "jobs": 460,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 936,
+   "jobs": 979,
    "errors": []
   },
   "discovery:google": {
@@ -881,7 +887,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 555,
+   "jobs": 1084,
    "errors": []
   },
   "naukri (browser)": {
@@ -889,47 +895,68 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "Deloitte USI Specialist Assistant Manager - Change/Training Communications - Hyderabad: 403 Client Error: Forbidden for url: https://usijobs.deloitte.com/en_US/careersUSI/Error"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 35,
-  "linkedin": 0
+  "careers portal": 42,
+  "linkedin": 27,
+  "iimjobs": 24
  },
  "linkedin_detail_blocked": true,
- "portals_learned_from_links": 1,
+ "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4700,
-   "after_filters": 877,
-   "kept_new": 37
+   "raw": 4734,
+   "after_filters": 890,
+   "kept_new": 64
   },
   "linkedin": {
-   "raw": 684,
-   "after_filters": 357,
-   "kept_new": 10
+   "raw": 595,
+   "after_filters": 317,
+   "kept_new": 23
   },
   "indeed": {
-   "raw": 936,
-   "after_filters": 385,
-   "kept_new": 3
+   "raw": 979,
+   "after_filters": 426,
+   "kept_new": 7
   },
   "iimjobs": {
-   "raw": 555,
-   "after_filters": 69
+   "raw": 1084,
+   "after_filters": 132,
+   "kept_new": 14
   }
  },
  "watchlist": {
   "size": 400,
-  "added_this_run": [],
-  "with_portal": 35
+  "added_this_run": [
+   "consultative assignments",
+   "Spencer's Retail",
+   "Enabling leadership Global",
+   "i2k2 Networks",
+   "Neuberg Diagnostics",
+   "Way2News",
+   "Emitrr",
+   "Fire & Smoke Systems",
+   "Colliers",
+   "ZEISS Group"
+  ],
+  "with_portal": 38
  },
  "counts": {
-  "raw": 6875,
-  "after_filters": 1688,
-  "judged": 156,
-  "kept": 50,
-  "duplicates_folded": 32,
-  "on_dashboard": 1441,
+  "raw": 7392,
+  "after_filters": 1765,
+  "judged": 428,
+  "kept": 108,
+  "duplicates_folded": 33,
+  "on_dashboard": 1337,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

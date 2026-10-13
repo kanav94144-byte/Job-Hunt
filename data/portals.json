@@ -1507,7 +1507,7 @@
  },
  "Hirepedia": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "Hm technology": {
   "type": null,
@@ -1546,7 +1546,7 @@
  },
  "IBM": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "ICE": {
   "type": null,
@@ -1558,7 +1558,7 @@
  },
  "IDfy": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "IIFL Capital Services Limited": {
   "type": null,
@@ -1905,7 +1905,7 @@
  },
  "LH2 AI Labs": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "LIXIL": {
   "type": null,
@@ -2175,7 +2175,7 @@
  },
  "McCain Foods": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "McGraw Hill": {
   "type": null,
@@ -2245,7 +2245,7 @@
  },
  "Micron Technology": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "Microsoft": {
   "type": null,
@@ -2929,7 +2929,7 @@
  },
  "RekNomics": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "Reliance Retail": {
   "type": null,
@@ -3049,7 +3049,7 @@
  },
  "Samast Technologies Private Limited": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "Samraj Polytex LTD": {
   "type": null,
@@ -3299,7 +3299,7 @@
  },
  "StelleHire": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-13"
  },
  "Stellosys": {
   "type": null,
@@ -3966,6 +3966,21 @@
  "Z47": {
   "type": null,
   "checked": "2026-10-09"
+ },
+ "ZEISS Group": {
+  "type": "workday",
+  "tenant": "zeissgroup",
+  "wd": "wd3",
+  "site": "External",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-13"
  },
  "ZET": {
   "type": null,
