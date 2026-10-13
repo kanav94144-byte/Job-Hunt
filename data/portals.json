@@ -1019,6 +1019,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Emitrr": {
+  "type": null,
+  "checked": "2026-10-13"
+ },
  "Emotorad": {
   "type": null,
   "checked": "2026-10-08"
@@ -1028,6 +1032,10 @@
   "tenant": "empower",
   "probed": true,
   "checked": "2026-10-04"
+ },
+ "Enabling leadership Global": {
+  "type": null,
+  "checked": "2026-10-13"
  },
  "Encrypted Infoweb": {
   "type": null,
@@ -1153,6 +1161,10 @@
  "Finplify Technologies Private Limited": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Fire & Smoke Systems": {
+  "type": null,
+  "checked": "2026-10-13"
  },
  "FirstCry": {
   "type": null,
@@ -2368,6 +2380,12 @@
   "harvested": true,
   "checked": "2026-09-29"
  },
+ "NYU SOFT SOLUTIONS": {
+  "type": "keka",
+  "tenant": "nyusoft",
+  "harvested": true,
+  "checked": "2026-10-13"
+ },
  "NalandaWay Foundation": {
   "type": null,
   "checked": "2026-10-12"
@@ -2435,6 +2453,10 @@
  "Nethority Technologies Pvt. Ltd.": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "Neuberg Diagnostics": {
+  "type": null,
+  "checked": "2026-10-13"
  },
  "Neulish": {
   "type": null,
@@ -3263,13 +3285,28 @@
   "type": null,
   "checked": "2026-10-11"
  },
+ "Spencer's Retail": {
+  "type": null,
+  "checked": "2026-10-13"
+ },
  "Spinny": {
   "type": null,
   "checked": "2026-10-08"
  },
  "Sprinklr": {
-  "type": null,
-  "checked": "2026-10-08"
+  "type": "workday",
+  "tenant": "sprinklr",
+  "wd": "wd1",
+  "site": "careers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-13"
  },
  "Spyne": {
   "type": "keka",
@@ -4119,6 +4156,10 @@
   "type": null,
   "checked": "2026-09-23"
  },
+ "consultative assignments": {
+  "type": null,
+  "checked": "2026-10-13"
+ },
  "coursefinder.ai": {
   "type": null,
   "checked": "2026-10-08"
@@ -4130,6 +4171,10 @@
  "e-GMAT": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "i2k2 Networks": {
+  "type": null,
+  "checked": "2026-10-13"
  },
  "i4 Consulting": {
   "type": null,
