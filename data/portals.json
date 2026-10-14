@@ -222,6 +222,10 @@
   "type": null,
   "checked": "2026-09-27"
  },
+ "Anchanto": {
+  "type": null,
+  "checked": "2026-10-14"
+ },
  "Ancient Roots": {
   "type": null,
   "checked": "2026-10-09"
@@ -234,7 +238,7 @@
  },
  "Anika Industries": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-14"
  },
  "Anlage Infotech": {
   "type": null,
@@ -1128,6 +1132,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "FLIXSTOCK INDIA PRIVATE LIMITED": {
+  "type": null,
+  "checked": "2026-10-14"
+ },
  "FRND": {
   "type": null,
   "checked": "2026-10-09"
@@ -1424,8 +1432,10 @@
   "checked": "2026-10-12"
  },
  "Groww": {
-  "type": null,
-  "checked": "2026-10-08"
+  "type": "greenhouse",
+  "tenant": "groww",
+  "harvested": true,
+  "checked": "2026-10-14"
  },
  "GuiRes Solutions Pvt Ltd": {
   "type": null,
@@ -2450,6 +2460,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Neemtree": {
+  "type": null,
+  "checked": "2026-10-14"
+ },
  "Nervescape Analytics": {
   "type": null,
   "checked": "2026-09-25"
@@ -2569,6 +2583,10 @@
   "type": null,
   "checked": "2026-10-10"
  },
+ "Ntech IT Solutions Private Limited": {
+  "type": null,
+  "checked": "2026-10-14"
+ },
  "Nua": {
   "type": null,
   "checked": "2026-10-08"
@@ -2578,6 +2596,12 @@
   "tenant": "nudge",
   "probed": true,
   "checked": "2026-10-10"
+ },
+ "Nutrabay": {
+  "type": "keka",
+  "tenant": "nutrabay",
+  "probed": true,
+  "checked": "2026-10-14"
  },
  "Nuuk": {
   "type": null,
@@ -2896,6 +2920,10 @@
   ],
   "harvested": true,
   "checked": "2026-09-25"
+ },
+ "QAARYA": {
+  "type": null,
+  "checked": "2026-10-14"
  },
  "Qikberry Technology Pvt Ltd": {
   "type": null,
@@ -3786,6 +3814,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "VAYUZ Technologies": {
+  "type": null,
+  "checked": "2026-10-14"
+ },
  "VEGROW": {
   "type": null,
   "checked": "2026-09-30"
@@ -3890,6 +3922,10 @@
  "VisioApps": {
   "type": null,
   "checked": "2026-10-10"
+ },
+ "Vital Insights": {
+  "type": null,
+  "checked": "2026-10-14"
  },
  "Vizza Fintech Private Limited": {
   "type": null,
@@ -4180,6 +4216,10 @@
   "type": "darwinbox",
   "tenant": "zolve",
   "probed": true
+ },
+ "Zoomies Petcare": {
+  "type": null,
+  "checked": "2026-10-14"
  },
  "Zorpa.Ai": {
   "type": null,
