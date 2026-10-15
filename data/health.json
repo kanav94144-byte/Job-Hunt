@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 81,
+   "jobs": 82,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,7 +59,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 210,
+   "jobs": 211,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -125,7 +125,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 131,
+   "jobs": 130,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -161,13 +161,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 17,
+   "jobs": 18,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 349,
+   "jobs": 350,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -221,7 +221,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 45,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -749,7 +749,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 319,
+   "jobs": 317,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -773,7 +773,13 @@
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 145,
+   "jobs": 147,
+   "errors": []
+  },
+  "portal:workday:Manulife": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
    "errors": []
   },
   "portal:darwinbox:Masters Union": {
@@ -848,16 +854,10 @@
    "jobs": 62,
    "errors": []
   },
-  "portal:keka:TransGanization": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 1,
-   "errors": []
-  },
   "portal:workday:Veradigm\u00ae": {
    "ok": 1,
    "failed": 0,
-   "jobs": 83,
+   "jobs": 85,
    "errors": []
   },
   "portal:keka:Way2News": {
@@ -899,19 +899,19 @@
   "linkedin": {
    "ok": 96,
    "failed": 0,
-   "jobs": 231,
+   "jobs": 239,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 730,
+   "jobs": 940,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1013,
+   "jobs": 1034,
    "errors": []
   },
   "discovery:google": {
@@ -934,61 +934,54 @@
   }
  },
  "descriptions": {
-  "careers portal": 49,
-  "linkedin": 73,
-  "iimjobs": 12
+  "careers portal": 28,
+  "linkedin": 79
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 0,
+ "portals_learned_from_links": 1,
  "funnel": {
   "careers portal": {
-   "raw": 4955,
+   "raw": 4960,
    "after_filters": 977,
-   "kept_new": 50
+   "kept_new": 32
   },
   "linkedin": {
-   "raw": 961,
-   "after_filters": 475,
-   "kept_new": 37
+   "raw": 1179,
+   "after_filters": 591,
+   "kept_new": 30
   },
   "indeed": {
-   "raw": 1013,
-   "after_filters": 408,
+   "raw": 1034,
+   "after_filters": 425,
    "kept_new": 9
   },
   "iimjobs": {
    "raw": 1558,
-   "after_filters": 118,
-   "kept_new": 5
+   "after_filters": 119
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Birlasoft",
-   "The Whiteboard",
-   "Rentilium",
-   "AKIRA Advisors LLP",
-   "CashFlo",
-   "GBM",
-   "Manulife",
-   "Growing Product based Fintech - B2B",
-   "PRP",
-   "TransCurators",
-   "Jhr Solutions",
-   "Inventiway Solutions",
-   "Aditya Birla Group",
-   "WebMobril Technologies Pvt. Ltd."
+   "Paramverse BIO Pvt Ltd",
+   "Suvera Software Solutions Pvt Ltd",
+   "P&S Innovation",
+   "ManoRaksha\u2122",
+   "iT Gurus Software",
+   "InXiteOut",
+   "Nuraltech",
+   "FTI Consulting",
+   "Optimized Solutions"
   ],
-  "with_portal": 39
+  "with_portal": 40
  },
  "counts": {
-  "raw": 8487,
-  "after_filters": 1978,
-  "judged": 391,
-  "kept": 101,
-  "duplicates_folded": 35,
-  "on_dashboard": 1378,
+  "raw": 8731,
+  "after_filters": 2112,
+  "judged": 278,
+  "kept": 71,
+  "duplicates_folded": 34,
+  "on_dashboard": 1408,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

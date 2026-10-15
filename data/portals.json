@@ -39,6 +39,10 @@
   "type": null,
   "checked": "2026-10-03"
  },
+ "AKIRA Advisors LLP": {
+  "type": null,
+  "checked": "2026-10-15"
+ },
  "AL AMEEN CLINICS": {
   "type": null,
   "checked": "2026-09-29"
@@ -125,6 +129,10 @@
  "Adisseo": {
   "type": null,
   "checked": "2026-10-09"
+ },
+ "Aditya Birla Group": {
+  "type": null,
+  "checked": "2026-10-15"
  },
  "Aditya Birla Renewables Limited": {
   "type": null,
@@ -424,6 +432,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Birlasoft": {
+  "type": null,
+  "checked": "2026-10-15"
+ },
  "Biyani Technologies": {
   "type": null,
   "checked": "2026-09-26"
@@ -626,6 +638,10 @@
   "tenant": "cars24",
   "probed": true
  },
+ "CashFlo": {
+  "type": null,
+  "checked": "2026-10-15"
+ },
  "Cashfree Payments": {
   "type": null,
   "checked": "2026-10-08"
@@ -683,8 +699,10 @@
   "checked": "2026-09-23"
  },
  "ClearTax": {
-  "type": null,
-  "checked": "2026-10-13"
+  "type": "darwinbox",
+  "tenant": "clear",
+  "harvested": true,
+  "checked": "2026-10-15"
  },
  "Clearsulting": {
   "type": null,
@@ -1334,6 +1352,10 @@
   "type": null,
   "checked": "2026-10-06"
  },
+ "GBM": {
+  "type": null,
+  "checked": "2026-10-15"
+ },
  "GE HealthCare": {
   "type": null,
   "checked": "2026-10-02"
@@ -1468,6 +1490,10 @@
  "Grocliq AI": {
   "type": null,
   "checked": "2026-10-09"
+ },
+ "Growing Product based Fintech - B2B": {
+  "type": null,
+  "checked": "2026-10-15"
  },
  "Growqai": {
   "type": null,
@@ -1803,6 +1829,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "Inventiway Solutions": {
+  "type": null,
+  "checked": "2026-10-15"
+ },
  "IserveU": {
   "type": null,
   "checked": "2026-09-24"
@@ -1822,6 +1852,10 @@
  "Jash Data Sciences": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Jhr Solutions": {
+  "type": null,
+  "checked": "2026-10-15"
  },
  "JioStar": {
   "type": null,
@@ -2760,6 +2794,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "PRP": {
+  "type": null,
+  "checked": "2026-10-15"
+ },
  "PW (PhysicsWallah)": {
   "type": null,
   "checked": "2026-10-12"
@@ -3114,6 +3152,10 @@
  "Rempact": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Rentilium": {
+  "type": null,
+  "checked": "2026-10-15"
  },
  "Revent Labs": {
   "type": null,
@@ -3710,6 +3752,10 @@
   "type": null,
   "checked": "2026-10-05"
  },
+ "The Whiteboard": {
+  "type": null,
+  "checked": "2026-10-15"
+ },
  "The Whole Truth": {
   "type": "keka",
   "tenant": "thewholetruthfoods",
@@ -3780,6 +3826,10 @@
  "Trail": {
   "type": null,
   "checked": "2026-10-01"
+ },
+ "TransCurators": {
+  "type": null,
+  "checked": "2026-10-15"
  },
  "TransGanization": {
   "type": "keka",
@@ -4101,6 +4151,10 @@
  "WebEngage": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "WebMobril Technologies Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-10-15"
  },
  "Weekday": {
   "type": "lever",
