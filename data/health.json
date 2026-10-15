@@ -1,17 +1,17 @@
 {
- "run_date": "2026-10-14",
+ "run_date": "2026-10-15",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 45,
    "errors": []
   },
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 77,
+   "jobs": 80,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,19 +59,19 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 208,
+   "jobs": 204,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 94,
+   "jobs": 93,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 24,
    "errors": []
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -83,14 +83,16 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 99,
+   "jobs": 100,
    "errors": []
   },
   "portal:darwinbox:boAt": {
-   "ok": 1,
-   "failed": 0,
+   "ok": 0,
+   "failed": 1,
    "jobs": 0,
-   "errors": []
+   "errors": [
+    "HTTPError: 502 Server Error: Bad Gateway for url: https://boat.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+   ]
   },
   "portal:darwinbox:Rapido": {
    "ok": 1,
@@ -101,7 +103,7 @@
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 26,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -119,7 +121,7 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 24,
    "errors": []
   },
   "portal:workday:Mastercard": {
@@ -152,6 +154,12 @@
    "jobs": 0,
    "errors": []
   },
+  "portal:greenhouse:Groww": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 10,
+   "errors": []
+  },
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
@@ -161,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 349,
+   "jobs": 343,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -179,7 +187,7 @@
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 59,
+   "jobs": 58,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -197,7 +205,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 57,
+   "jobs": 59,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -215,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 43,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -329,7 +337,7 @@
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 28,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -395,7 +403,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 37,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -431,7 +439,7 @@
   "portal:greenhouse:Observe.AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 5,
+   "jobs": 4,
    "errors": []
   },
   "portal:darwinbox:Darwinbox": {
@@ -659,7 +667,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 71,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
@@ -671,7 +679,7 @@
   "portal:smartrecruiters:Colliers": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 39,
    "errors": []
   },
   "portal:keka:Cybrain Software Solutions Pvt.Ltd.": {
@@ -683,7 +691,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 142,
+   "jobs": 139,
    "errors": []
   },
   "portal:lever:Dozee": {
@@ -731,13 +739,13 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 33,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 315,
+   "jobs": 316,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -749,7 +757,7 @@
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 64,
+   "jobs": 60,
    "errors": []
   },
   "portal:recruitee:KC Overseas Education": {
@@ -791,7 +799,7 @@
   "portal:smartrecruiters:Nielsen": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 47,
    "errors": []
   },
   "portal:keka:Nudge": {
@@ -815,7 +823,7 @@
   "portal:greenhouse:Simpplr": {
    "ok": 1,
    "failed": 0,
-   "jobs": 4,
+   "jobs": 5,
    "errors": []
   },
   "portal:keka:Techdome": {
@@ -851,7 +859,7 @@
   "portal:workday:Veradigm\u00ae": {
    "ok": 1,
    "failed": 0,
-   "jobs": 85,
+   "jobs": 83,
    "errors": []
   },
   "portal:keka:Way2News": {
@@ -891,21 +899,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 97,
+   "ok": 96,
    "failed": 0,
-   "jobs": 290,
+   "jobs": 304,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1180,
+   "jobs": 1150,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1011,
+   "jobs": 1013,
    "errors": []
   },
   "discovery:google": {
@@ -917,7 +925,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1205,
+   "jobs": 1398,
    "errors": []
   },
   "naukri (browser)": {
@@ -925,74 +933,62 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 3,
-   "jobs": 0,
-   "errors": [
-    "Mastercard Senior Product Manager - Technical: 403 Client Error: Forbidden for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Senior-Product-Manager---Technical_R-291717-1",
-    "PwC India IN_Senior Associate_Saviynt _GCC_Advisory_Bangalore: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-Saviynt--GCC-Advisory-Bangalore_759004WD-1",
-    "PwC India IN_Senior Associate_SAP GR_Enterprise Apps-SAP_Advisory_Mumbai: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Mumbai-Goregaon/IN-Associate-SAP-BPC---SAC-SAP-Advisory-Mumbai_749306WD-1"
-   ]
   }
  },
  "descriptions": {
   "careers portal": 46,
-  "linkedin": 181
+  "linkedin": 88,
+  "iimjobs": 11
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 1,
+ "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4922,
-   "after_filters": 976,
-   "kept_new": 51
+   "raw": 4904,
+   "after_filters": 964,
+   "kept_new": 47
   },
   "linkedin": {
-   "raw": 1470,
-   "after_filters": 679,
-   "kept_new": 69
+   "raw": 1454,
+   "after_filters": 646,
+   "kept_new": 42
   },
   "indeed": {
-   "raw": 1011,
-   "after_filters": 431,
-   "kept_new": 7
+   "raw": 1013,
+   "after_filters": 409,
+   "kept_new": 8
   },
   "iimjobs": {
-   "raw": 1205,
-   "after_filters": 169
+   "raw": 1398,
+   "after_filters": 98,
+   "kept_new": 6
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "CAB Experiences",
-   "RagaAI Inc",
-   "7sailors.in",
-   "A Business Studio",
-   "IBR InfoTech",
-   "PlanetLink Solutions",
-   "CNOX",
-   "Brilliant Info Systems Pvt. Ltd.",
-   "Rainbow Children's Hospitals",
-   "Truvit",
-   "ShopDeck",
-   "Reach",
-   "Tatva Fintech Private Limited",
-   "Chirix ERP",
-   "We+ Asia",
-   "Boehringer Ingelheim"
+   "Growth Valley Community",
+   "IndaPoint Technologies Pvt. Ltd",
+   "Astam Diagnostics",
+   "Fundscart",
+   "Supernova AI",
+   "MetaComp",
+   "Tiger Brokers Singapore",
+   "GRAMA STRATEGY PRIVATE LIMITED",
+   "FILUET INDIA PRIVATE LIMITED",
+   "Fynd",
+   "Jolly Technologies",
+   "Azeus Convene"
   ],
   "with_portal": 39
  },
  "counts": {
-  "raw": 8608,
-  "after_filters": 2255,
-  "judged": 460,
-  "kept": 127,
-  "duplicates_folded": 43,
-  "on_dashboard": 1415,
+  "raw": 8769,
+  "after_filters": 2117,
+  "judged": 396,
+  "kept": 103,
+  "duplicates_folded": 32,
+  "on_dashboard": 1319,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
