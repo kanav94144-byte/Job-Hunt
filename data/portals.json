@@ -603,7 +603,7 @@
  },
  "Capgemini": {
   "type": null,
-  "checked": "2026-10-01"
+  "checked": "2026-10-16"
  },
  "Capgemini Invent": {
   "type": null,
@@ -762,7 +762,7 @@
  },
  "Comviva": {
   "type": null,
-  "checked": "2026-10-01"
+  "checked": "2026-10-16"
  },
  "Concentrix": {
   "type": null,
@@ -1196,7 +1196,7 @@
  },
  "FTI Consulting": {
   "type": null,
-  "checked": "2026-09-24"
+  "checked": "2026-10-16"
  },
  "Faceecho.ai": {
   "type": null,
@@ -1625,7 +1625,7 @@
  },
  "HireFlexperts": {
   "type": null,
-  "checked": "2026-10-01"
+  "checked": "2026-10-16"
  },
  "Hirepedia": {
   "type": null,
@@ -1749,6 +1749,12 @@
  "InMobi / Glance": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "InXiteOut": {
+  "type": "keka",
+  "tenant": "inxiteout",
+  "probed": true,
+  "checked": "2026-10-16"
  },
  "Inceptial Technologies": {
   "type": null,
@@ -2274,6 +2280,10 @@
   "type": null,
   "checked": "2026-10-12"
  },
+ "ManoRaksha\u2122": {
+  "type": null,
+  "checked": "2026-10-16"
+ },
  "Mantra Care": {
   "type": null,
   "checked": "2026-10-08"
@@ -2618,7 +2628,7 @@
  },
  "Newton School": {
   "type": null,
-  "checked": "2026-10-01"
+  "checked": "2026-10-16"
  },
  "Nexapp Technologies Private Limited": {
   "type": null,
@@ -2700,6 +2710,10 @@
   "tenant": "nudge",
   "probed": true,
   "checked": "2026-10-10"
+ },
+ "Nuraltech": {
+  "type": null,
+  "checked": "2026-10-16"
  },
  "Nutrabay": {
   "type": "keka",
@@ -2790,6 +2804,14 @@
   "type": null,
   "checked": "2026-10-06"
  },
+ "Optimized Solutions": {
+  "type": null,
+  "checked": "2026-10-16"
+ },
+ "P&S Innovation": {
+  "type": null,
+  "checked": "2026-10-16"
+ },
  "PB Fintech (Policybazaar)": {
   "type": null,
   "checked": "2026-10-08"
@@ -2805,6 +2827,10 @@
  "Palette Hire": {
   "type": null,
   "checked": "2026-10-05"
+ },
+ "Paramverse BIO Pvt Ltd": {
+  "type": null,
+  "checked": "2026-10-16"
  },
  "Parentology by JJW": {
   "type": null,
@@ -3574,6 +3600,10 @@
   "type": null,
   "checked": "2026-10-15"
  },
+ "Suvera Software Solutions Pvt Ltd": {
+  "type": null,
+  "checked": "2026-10-16"
+ },
  "Svaya Robotics": {
   "type": null,
   "checked": "2026-09-23"
@@ -3600,7 +3630,7 @@
  },
  "TE Connectivity": {
   "type": null,
-  "checked": "2026-10-01"
+  "checked": "2026-10-16"
  },
  "TECEZE": {
   "type": null,
@@ -4464,7 +4494,7 @@
  },
  "iT Gurus Software": {
   "type": null,
-  "checked": "2026-09-29"
+  "checked": "2026-10-16"
  },
  "ixigo": {
   "type": "smartrecruiters",
