@@ -5,13 +5,13 @@
   "portal:darwinbox:Porter": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 46,
    "errors": []
   },
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 85,
+   "jobs": 86,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,7 +59,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 205,
+   "jobs": 204,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -83,7 +83,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 102,
+   "jobs": 105,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -101,7 +101,7 @@
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 28,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -125,7 +125,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 129,
+   "jobs": 131,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -167,7 +167,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 356,
+   "jobs": 358,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -185,7 +185,7 @@
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 54,
+   "jobs": 52,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -203,7 +203,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 57,
+   "jobs": 58,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -221,7 +221,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 44,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -407,7 +407,7 @@
   "portal:lever:Hevo Data": {
    "ok": 1,
    "failed": 0,
-   "jobs": 53,
+   "jobs": 52,
    "errors": []
   },
   "portal:keka:Zluri": {
@@ -461,7 +461,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 28,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -611,7 +611,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 33,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -653,7 +653,7 @@
   "portal:darwinbox:Duroflex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 35,
    "errors": []
   },
   "portal:greenhouse:BlueStone": {
@@ -671,7 +671,7 @@
   "portal:smartrecruiters:AbbVie": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 26,
    "errors": []
   },
   "portal:darwinbox:ClearTax": {
@@ -695,7 +695,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 143,
+   "jobs": 142,
    "errors": []
   },
   "portal:lever:Dozee": {
@@ -728,12 +728,6 @@
    "jobs": 0,
    "errors": []
   },
-  "portal:darwinbox:Empower": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 0,
-   "errors": []
-  },
   "portal:keka:Furlenco": {
    "ok": 1,
    "failed": 0,
@@ -749,19 +743,19 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 36,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 305,
+   "jobs": 296,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 73,
+   "jobs": 71,
    "errors": []
   },
   "portal:keka:InXiteOut": {
@@ -773,7 +767,7 @@
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 60,
+   "jobs": 61,
    "errors": []
   },
   "portal:recruitee:KC Overseas Education": {
@@ -809,7 +803,7 @@
   "portal:darwinbox:MobiKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 0,
+   "jobs": 1,
    "errors": []
   },
   "portal:keka:NYU SOFT SOLUTIONS": {
@@ -845,7 +839,7 @@
   "portal:greenhouse:Simpplr": {
    "ok": 1,
    "failed": 0,
-   "jobs": 4,
+   "jobs": 3,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
@@ -869,7 +863,7 @@
   "portal:workday:Veradigm\u00ae": {
    "ok": 1,
    "failed": 0,
-   "jobs": 85,
+   "jobs": 91,
    "errors": []
   },
   "portal:keka:Way2News": {
@@ -881,19 +875,19 @@
   "portal:lever:Weekday": {
    "ok": 1,
    "failed": 0,
-   "jobs": 53,
+   "jobs": 56,
    "errors": []
   },
   "portal:workday:ZEISS Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 89,
+   "jobs": 90,
    "errors": []
   },
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 60,
+   "jobs": 63,
    "errors": []
   },
   "portal:keka:nference": {
@@ -911,19 +905,19 @@
   "linkedin": {
    "ok": 96,
    "failed": 0,
-   "jobs": 278,
+   "jobs": 268,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 800,
+   "jobs": 1020,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1007,
+   "jobs": 1026,
    "errors": []
   },
   "discovery:google": {
@@ -935,7 +929,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1122,
+   "jobs": 1263,
    "errors": []
   },
   "naukri (browser)": {
@@ -946,53 +940,58 @@
   }
  },
  "descriptions": {
-  "careers portal": 44,
-  "linkedin": 59,
+  "careers portal": 43,
+  "linkedin": 104,
   "iimjobs": 12
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4962,
-   "after_filters": 969,
-   "kept_new": 50
+   "raw": 4978,
+   "after_filters": 978,
+   "kept_new": 43
   },
   "linkedin": {
-   "raw": 1078,
-   "after_filters": 495,
-   "kept_new": 32
+   "raw": 1288,
+   "after_filters": 609,
+   "kept_new": 45
   },
   "indeed": {
-   "raw": 1007,
-   "after_filters": 385,
-   "kept_new": 4
+   "raw": 1026,
+   "after_filters": 410,
+   "kept_new": 14
   },
   "iimjobs": {
-   "raw": 1122,
-   "after_filters": 83,
-   "kept_new": 6
+   "raw": 1263,
+   "after_filters": 104,
+   "kept_new": 7
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "yuj | a global design company",
-   "Loop AI",
-   "Bharathi Meraki",
-   "Soultrove India Private Limited",
-   "iPrime Services Pvt Ltd , NCR India",
-   "SoftSensor.ai"
+   "Blissclub",
+   "Zydus Group",
+   "Growqai",
+   "Foiwe Info Global Solutions",
+   "AdmitKard",
+   "Randstad India",
+   "Impex",
+   "Piramal Pharma Limited",
+   "Neyyar Technologies Private Limited",
+   "Alencure Biotech Pvt.LTD",
+   "COCPIT"
   ],
-  "with_portal": 40
+  "with_portal": 39
  },
  "counts": {
-  "raw": 8169,
-  "after_filters": 1932,
-  "judged": 315,
-  "kept": 92,
-  "duplicates_folded": 40,
-  "on_dashboard": 1320,
+  "raw": 8555,
+  "after_filters": 2101,
+  "judged": 439,
+  "kept": 109,
+  "duplicates_folded": 37,
+  "on_dashboard": 1389,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

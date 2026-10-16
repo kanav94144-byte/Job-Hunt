@@ -1,61 +1,81 @@
-# Job Hunt – 2026-10-16 09:09 UTC
+# Job Hunt – 2026-10-16 14:13 UTC
 
-**34 new roles today** · 1320 active on the dashboard
+**54 new roles today** · 1389 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4962 | 969 | 50 |
-| iimjobs | 1122 | 83 | 6 |
-| indeed | 1007 | 385 | 4 |
-| linkedin | 1078 | 495 | 32 |
+| careers portal | 4978 | 978 | 43 |
+| iimjobs | 1263 | 104 | 7 |
+| indeed | 1026 | 410 | 14 |
+| linkedin | 1288 | 609 | 45 |
 
-Auto-watchlist: 400 companies (40 with a readable portal) · added: yuj | a global design company, Loop AI, Bharathi Meraki, Soultrove India Private Limited, iPrime Services Pvt Ltd , NCR India, SoftSensor.ai
+Auto-watchlist: 400 companies (39 with a readable portal) · added: Blissclub, Zydus Group, Growqai, Foiwe Info Global Solutions, AdmitKard, Randstad India, Impex, Piramal Pharma Limited, Neyyar Technologies Private Limited, Alencure Biotech Pvt.LTD, COCPIT
 
-## Tier A (11)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| SKS Enterpprises | Chief of Staff | Mumbai | 2-4 yrs | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478764026) |
-| yuj | a global design company | Founder's Oﬃce – Business & Strategy Associate | Pune | 0-3 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477343986) |
-| iPrime Services Pvt Ltd , NCR India | GTM Analyst | Noida | 0-3 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479340232) |
-| PwC India | IN_Manager_SAP FSCM FICO_SAP_Advisory_Hyderabad | Hyderabad Salarpuria | 4-7 yrs | Yes | ~₹26–42 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Hyderabad---Salarpuria/IN-Senior-Associate--SAP-FSCM-FICO-SAP-Advisory-Bangalore_746575WD-1) |
-| Genpact | Product Manager 4D | 1401 Gipl Prestige Technology Park Iv · Bengaluru | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://genpact.wd108.myworkdayjobs.com/External_Careers/job/1401-GIPL-Prestige-Technology-Park-IV-Bangalore/Product-Manager-4D_JR10020038) |
-| Soultrove India Private Limited | Business Partnership and Strategic Alliance Executive | Bengaluru | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479331057) |
-| Bharathi Meraki | Jr/Sr - Product and Business Development | Chennai | 0-3 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479332148) |
-| Loop AI | Strategist II - Product Operations & Strategy | Bengaluru | 4-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479814047) |
-| PepsiCo | Key Accounts Executive | Ahmedabad | 2+ yrs | Yes | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4469723122) |
-| SoftSensor.ai | Program Manager – Supply Chain & Margin Improvement | South Mumbai | 4-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478486804) |
-| Accenture Strategy | GN-I&E-Banking-Lending-Analyst | Gurugram | 4-15 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478811280) |
-
-## Tier B (10)
+## Tier A (17)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| GoKwik | Manager - AI GTM and Market Intelligence | Bengaluru | 4-6 yrs | – | ₹20–25 LPA | [open](https://gokwik.keka.com/careers/jobdetails/166936) |
-| Flipkart | Business Development Manager | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479347178) |
-| PwC India | IN_Sr Associate_Scrum Master_GCC_Advisroy_Bangalore | Bengaluru Millenia | not stated | – | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-GenAI-Integration-Engineer-GCC-Advisroy-Bangalore_742993WD-1) |
-| Amazon | Software Development Manager , Amazon Supply Chain Services | Hyderabad | 3+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10581120/software-development-manager-amazon-supply-chain-services) |
-| Accenture Strategy | GN-I&E- Comms and Media Growth B2B | Bengaluru | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479038276) |
-| Accenture Strategy | GN-I&E- S&P DC Manager | Bengaluru | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479031615) |
-| Amazon | Program Manager, WW Returns, WW Returns | Hyderabad | 3+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10580498/program-manager-ww-returns-ww-returns) |
-| Swabhav Techlabs | Business Consultant | Mumbai | 3-6 yrs | – | ~₹10–20 LPA (est.) | [open](https://www.iimjobs.com/j/swabhav-techlabs-business-consultant-martech-1740239) |
-| Deloitte USI | Consultant/Senior Consultant - Organization Transformation | Coimbatore | 4-7 yrs | – | ~₹26–42 LPA (est.) | [open](https://www.iimjobs.com/j/deloitte-consultantsenior-consultant-organization-transformation-1740232) |
-| Accenture Strategy | S&C GN - TS&T – Enterpise Advisory - Analyst | Gurugram | 3+ yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478810307) |
+| Mastercard | Manager, Account Management | Gurugram | not stated | Yes | ~₹30–50 LPA (est.) | [open](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Gurgaon-India/Manager--Account-Management_R-293575) |
+| COCPIT | Growth and Marketing Manager | India | 2-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://in.indeed.com/viewjob?jk=829c37d64b7042e9) |
+| Lenovo | Strategic Projects Manager – Lenovo India Commercial | Bengaluru | 4-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479361412) |
+| Zydus Group | Executive / Senior Executive/Assistant Manager– Business & Strategy | Ahmedabad | 3-4 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480346773) |
+| PwC India | IN_Senior Associate_SAP TRM_Enterprise Apps-SAP_Advisory_Mumbai | Mumbai Goregaon | 4-10 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Mumbai-Goregaon/IN-Senior-Associate-SAP-TRM-Enterprise-Apps-SAP-Advisory-Mumbai_754104WD-1) |
+| Aditya Birla Group | Assistant Manager Quality, Emerging Growth Opportunities | India | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://careers.adityabirla.com/job-search/job-details/ABG114336) |
+| Aditya Birla Group | Assistant Manager Quality, Emerging Growth Opportunites | India | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://careers.adityabirla.com/job-search/job-details/ABG114331) |
+| Hindustan Unilever | Area Sales Manager | Madurai | not stated | Yes | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479363353) |
+| AdmitKard | Business Development Manager-Education Loan | Noida | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479326607) |
+| Growqai | Business Development Manager – Real Estate Valuation & Advisory | Pune | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479337214) |
+| Talent Toppers | Associate – Technology Strategy | Gurugram | 2-5 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479774803) |
+| Randstad India | Program Manager | Gurugram | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479347658) |
+| Foiwe Info Global Solutions | Business Development Manager | Bengaluru | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480356507) |
+| KWAN VENTURES | Manager - Business Development (C&I) | Gurugram | 3-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479357498) |
+| PwC India | IN_Senior Associate_Power BI_Data & Analytics_Advisory_Mumbai | Mumbai Shivaji Park | 3-10 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Mumbai-Shivaji-Park/IN-Senior-Associate-Power-BI-Data---Analytics-Advisory-Bangalore_717999WD-1) |
+| Alencure Biotech Pvt.LTD | Business Development Manager (BDM) | Ch | 2-3 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://in.indeed.com/viewjob?jk=73c1b55a0816c67b) |
+| Blissclub | Executive Assistant to Founder | Bengaluru | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479356418) |
 
-## Tier C (13)
+## Tier B (18)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Moody's Corporation | Asst Dir-Strategist | Bengaluru | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480306832) |
-| Taggd | Program Manager - CHRO Office | Gurugram | 5-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477354973) |
-| Avnet Technology Solutions (India) Pvt. Ltd | Key Account Manager | India | 5+ yrs | – | ₹20 LPA | [open](https://in.indeed.com/viewjob?jk=3c8b38af6bc50908) |
-| Mastercard | Associate Specialist, Implementation | Pune | 1-2 yrs | – | ~₹20–32 LPA (est.) | [open](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Associate-Specialist--Implementation_R-292849) |
-| Amazon | Critical Projects Manager, Critical Projects Implementation | Hyderabad | 4+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10581095/critical-projects-manager-critical-projects-implementation) |
-| PhonePe | AM - Branded Content & Education | Bengaluru | not stated | – | ~₹25–40 LPA (est.) | [open](https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004289-am-branded-content-education) |
-| boAt | Product Marketing | Gurugram | not stated | – | ~₹18–30 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480339068) |
-| PhonePe | Area Sales Manager - Tiruchirappalli | Chennai | not stated | – | ~₹25–40 LPA (est.) | [open](https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004325-area-sales-manager-tiruchirappalli) |
-| Amazon | Program Manager III, SEPO | India | 5+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/jobs/10511753/program-manager-iii-sepo?cmpid=DA_INAD200785B) |
-| Sita Corp Private Limited | Project & Program Manager | Bengaluru | 5-10 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/project-program-manager-5-10-yrs-1740263) |
-| J.P. Morgan | Product Manager - Enterprise Data Platform | Hyderabad | 5-10 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/jp-morgan-chase-product-manager-enterprise-data-platform-1740276) |
-| Cargill | Senior Consultant - People Data Governance & Enablement | Bengaluru | 5-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/cargill-senior-consultant-people-data-governance-enablement-1740225) |
-| Procter & Gamble | CF HSE Manager | Hyderabad | 4+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477323396) |
+| Mars | Product Manager- Digital Products & AI | Delhi | 3-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480351467) |
+| HireFlexperts | Business Development Manager - Government & Enterprise Sales | Mumbai | 3-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480343810) |
+| Nat Habit | Founder's Office Associate | Gurugram | 0-2 yrs | – | ~₹10–18 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480361017) |
+| Aditya Birla Group | Lead Quality Assurance, Emerging Growth Opportunites | India | 3-5 yrs | – | ~₹28–45 LPA (est.) | [open](https://careers.adityabirla.com/job-search/job-details/ABG114329) |
+| Aditya Birla Group | Business Development Manager - Pune | India | not stated | – | ~₹18–32 LPA (est.) | [open](https://careers.adityabirla.com/job-search/job-details/ABG106629) |
+| Amazon | Planning and Ops Manager, Account Management Excellence | Bengaluru | 2+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10581224/planning-and-ops-manager-account-management-excellence) |
+| EY GDS | Associate Consultant - Tech Consulting - National - CNS - TC - MICROSOFT - Bangalore | Bengaluru | 3-5 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479364421) |
+| i2k2 Networks | Business Development Manager (AWS) | India | 3+ yrs | – | ₹12–20 LPA | [open](https://in.indeed.com/viewjob?jk=2f842550e6039f09) |
+| Google | Design Verification Manager, Silicon | Gurugram | 2+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.google.com/about/careers/applications/jobs/results/91534918055535302-engineering-analyst-payments-trust-and-safety) |
+| Weekday | Founder's Office | Bengaluru | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4461851420) |
+| Bain & Company | Senior Analyst, PPK Operations | India | 4-6 yrs | – | ~₹20–32 LPA (est.) | [open](https://www.bain.com/careers/find-a-role/position/?jobid=110264) |
+| Alvarez & Marsal | Senior Associate, Taxonomy & Metadata Specialist, GESS - Global Capability Center | Gurugram | 3-5 yrs | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4471446704) |
+| Deconstruct | Marketplace Senior Associate | Bengaluru | 1-3 yrs | – | ~₹10–18 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480356251) |
+| Neyyar Technologies Private Limited | Growth Manager | Ch | 2-5 yrs | – | ₹7–22 LPA | [open](https://in.indeed.com/viewjob?jk=dea86f3635f391ea) |
+| smallcase | Product Manager - AI | Bengaluru | 3-6 yrs | – | ~₹20–32 LPA (est.) | [open](https://www.iimjobs.com/j/smallcase-product-manager-ai-1740406) |
+| Cognizant | Program Manager | Chennai | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4469614280) |
+| MakeMyTrip | Associate Product Manager - Flights Funnel | Gurugram | 1-3 yrs | – | ~₹16–26 LPA (est.) | [open](https://www.iimjobs.com/j/makemytrip-associate-product-manager-flights-funnel-1740428) |
+| Piramal Pharma Limited | Product Manager | Bengaluru | 1-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/piramal-product-manager-1740408) |
+
+## Tier C (19)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| palakkatiyar@simprosys.com | Product Owner/ Product Manager | India | 5+ yrs | Yes | ₹15–23 LPA | [open](https://in.indeed.com/viewjob?jk=970b1d411f1176d7) |
+| Aldica Technologies Pvt Ltd | Business Strategy Manager | India | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://in.indeed.com/viewjob?jk=7bb3eb3d92d09bbb) |
+| Ingram Micro | Sr. Product Manager - Master Data Management | Mumbai | 5-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Mumbai-India/Sr-Product-Manager---Master-Data-Management_R-116678) |
+| Attero | Business Development Manager | Noida | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480327645) |
+| Marico | Key Account Executive-B2B | Mumbai | not stated | – | ~₹10–16 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477377953) |
+| IDFC FIRST Bank | Program Manager | Mumbai | 5-10 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477380616) |
+| Siemens | Strategy Leader | Dubai · United Arab Emirates | 5+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4479344952) |
+| Girnar Machine Pvt. Ltd. | Sales Business Development Manager | Ahmedabad | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477350772) |
+| Mondelez | Sales Executive- TT Gandhidham | India | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480350270) |
+| Mondelez | Sales Executive - TT Rajkot | India | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480338816) |
+| PhonePe | Junior Area Sales Manager, Offline sales and account management | Bhubaneshwar | not stated | – | ~₹25–40 LPA (est.) | [open](https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004332-junior-area-sales-manager-offline-sales-and-account-management) |
+| PepsiCo | Associate Manager - Trade Promotion Management | Hyderabad | 2-4 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4460762841) |
+| Cult.fit | Event Production Manager | Bengaluru | 3-5 yrs | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477379920) |
+| Pocket FM | Lead Asset Manager | Bengaluru | 5-6 yrs | – | ~₹36–55 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477382841) |
+| GIVA | Buying Manager | Bengaluru | 3+ yrs | – | ~₹18–30 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480362258) |
+| Apollo Tyres | Associate | Gurugram | 1-2 yrs | – | ~₹10–16 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479359188) |
+| Headsup Corporation | Manager/Senior Manager - Brand Partnerships | Bengaluru | 5-8 yrs | – | ~₹28–45 LPA (est.) | [open](https://www.iimjobs.com/j/managersenior-manager-brand-partnerships-advertising-1740443) |
+| Wave HR Advisory | Business Development Manager - Mutual Funds and ETFs | Mumbai | 5-10 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/business-development-manager-mutual-funds-etfs-1740375) |
+| Career Point | Group Product Manager/Product Manager | Hyderabad | 5-10 yrs | – | ₹35–40 LPA | [open](https://www.iimjobs.com/j/group-product-managerproduct-manager-pharma-1740381) |
