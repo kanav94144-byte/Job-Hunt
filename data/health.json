@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 86,
+   "jobs": 89,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -33,10 +33,12 @@
    "errors": []
   },
   "portal:mynexthire:Swiggy": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 78,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 402 Client Error: Payment Required for url: https://swiggy.mynexthire.com/employer/careers/reqlist/get"
+   ]
   },
   "portal:recruitee:Lenskart": {
    "ok": 1,
@@ -59,14 +61,16 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 204,
+   "jobs": 202,
    "errors": []
   },
   "portal:workday:Visa": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 94,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 502 Server Error: Bad Gateway for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
+   ]
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
@@ -83,7 +87,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 105,
+   "jobs": 108,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -125,7 +129,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 131,
+   "jobs": 130,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -161,7 +165,7 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 16,
+   "jobs": 15,
    "errors": []
   },
   "portal:workday:PwC India": {
@@ -179,13 +183,13 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 114,
+   "jobs": 115,
    "errors": []
   },
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 52,
+   "jobs": 51,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -221,7 +225,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 45,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -335,7 +339,7 @@
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 25,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -353,7 +357,7 @@
   "portal:darwinbox:LeadSquared": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 30,
    "errors": []
   },
   "portal:darwinbox:HighRadius": {
@@ -623,7 +627,7 @@
   "portal:keka:Eka Care": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 26,
    "errors": []
   },
   "portal:keka:The Souled Store": {
@@ -722,12 +726,6 @@
    "jobs": 29,
    "errors": []
   },
-  "portal:darwinbox:EXL": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 0,
-   "errors": []
-  },
   "portal:keka:Furlenco": {
    "ok": 1,
    "failed": 0,
@@ -749,13 +747,13 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 296,
+   "jobs": 293,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 71,
+   "jobs": 75,
    "errors": []
   },
   "portal:keka:InXiteOut": {
@@ -767,7 +765,7 @@
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 61,
+   "jobs": 62,
    "errors": []
   },
   "portal:recruitee:KC Overseas Education": {
@@ -815,7 +813,7 @@
   "portal:smartrecruiters:Nielsen": {
    "ok": 1,
    "failed": 0,
-   "jobs": 47,
+   "jobs": 48,
    "errors": []
   },
   "portal:keka:Nudge": {
@@ -860,12 +858,6 @@
    "jobs": 62,
    "errors": []
   },
-  "portal:workday:Veradigm\u00ae": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 91,
-   "errors": []
-  },
   "portal:keka:Way2News": {
    "ok": 1,
    "failed": 0,
@@ -882,6 +874,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 90,
+   "errors": []
+  },
+  "portal:darwinbox:Zydus Group": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 54,
    "errors": []
   },
   "portal:darwinbox:airtel": {
@@ -903,21 +901,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 96,
+   "ok": 98,
    "failed": 0,
-   "jobs": 268,
+   "jobs": 255,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1020,
+   "jobs": 799,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1026,
+   "jobs": 1025,
    "errors": []
   },
   "discovery:google": {
@@ -929,7 +927,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1263,
+   "jobs": 1278,
    "errors": []
   },
   "naukri (browser)": {
@@ -940,58 +938,49 @@
   }
  },
  "descriptions": {
-  "careers portal": 43,
-  "linkedin": 104,
-  "iimjobs": 12
+  "careers portal": 39,
+  "linkedin": 45
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4978,
-   "after_filters": 978,
-   "kept_new": 43
+   "raw": 4776,
+   "after_filters": 968,
+   "kept_new": 41
   },
   "linkedin": {
-   "raw": 1288,
-   "after_filters": 609,
-   "kept_new": 45
+   "raw": 1054,
+   "after_filters": 527,
+   "kept_new": 27
   },
   "indeed": {
-   "raw": 1026,
-   "after_filters": 410,
-   "kept_new": 14
+   "raw": 1025,
+   "after_filters": 390,
+   "kept_new": 2
   },
   "iimjobs": {
-   "raw": 1263,
-   "after_filters": 104,
-   "kept_new": 7
+   "raw": 1278,
+   "after_filters": 105
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Blissclub",
-   "Zydus Group",
-   "Growqai",
-   "Foiwe Info Global Solutions",
-   "AdmitKard",
-   "Randstad India",
-   "Impex",
-   "Piramal Pharma Limited",
-   "Neyyar Technologies Private Limited",
-   "Alencure Biotech Pvt.LTD",
-   "COCPIT"
+   "Stalwart Alloys India Limited",
+   "LifeCell International Pvt.Ltd",
+   "Honeywell Technologies",
+   "TechDome"
   ],
-  "with_portal": 39
+  "with_portal": 40
  },
  "counts": {
-  "raw": 8555,
-  "after_filters": 2101,
-  "judged": 439,
-  "kept": 109,
-  "duplicates_folded": 37,
-  "on_dashboard": 1389,
+  "raw": 8133,
+  "after_filters": 1990,
+  "judged": 196,
+  "kept": 70,
+  "duplicates_folded": 33,
+  "on_dashboard": 1417,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
