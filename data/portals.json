@@ -1378,7 +1378,7 @@
  },
  "GE HealthCare": {
   "type": null,
-  "checked": "2026-10-02"
+  "checked": "2026-10-17"
  },
  "GIVA": {
   "type": null,
@@ -1662,6 +1662,10 @@
  "Honda Digital Innovation, India": {
   "type": null,
   "checked": "2026-10-10"
+ },
+ "Honeywell Technologies": {
+  "type": null,
+  "checked": "2026-10-17"
  },
  "Hopezen International Private Ltd": {
   "type": null,
@@ -2176,7 +2180,7 @@
  },
  "LifeCell International Pvt.Ltd": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-17"
  },
  "LightYears Health": {
   "type": null,
@@ -3588,6 +3592,10 @@
   "type": null,
   "checked": "2026-10-12"
  },
+ "Stalwart Alloys India Limited": {
+  "type": null,
+  "checked": "2026-10-17"
+ },
  "StarCharge APAC": {
   "type": null,
   "checked": "2026-09-29"
@@ -4605,6 +4613,12 @@
  "vCare Denmark": {
   "type": null,
   "checked": "2026-09-28"
+ },
+ "within": {
+  "type": "ashby",
+  "tenant": "within.ai",
+  "harvested": true,
+  "checked": "2026-10-17"
  },
  "yuj | a global design company": {
   "type": null,
