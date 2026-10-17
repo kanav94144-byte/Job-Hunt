@@ -91,12 +91,12 @@
  },
  "AVEVA": {
   "first_seen": "2026-09-26",
-  "hits": 10,
+  "hits": 17,
   "band": "unknown",
   "titles": [
    "Strategic Sales Business Analyst"
   ],
-  "last_hit": "2026-10-13"
+  "last_hit": "2026-10-17"
  },
  "AbbVie": {
   "first_seen": "2026-10-12",
@@ -136,12 +136,12 @@
  },
  "Aditya Birla Group": {
   "first_seen": "2026-10-15",
-  "hits": 5,
+  "hits": 6,
   "band": "unknown",
   "titles": [
    "Lead Sourcing, Emerging Growth Opportunities"
   ],
-  "last_hit": "2026-10-16"
+  "last_hit": "2026-10-17"
  },
  "AdmitKard": {
   "first_seen": "2026-10-16",
@@ -732,12 +732,12 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 74,
+  "hits": 87,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
   ],
-  "last_hit": "2026-10-16"
+  "last_hit": "2026-10-17"
  },
  "DESRI": {
   "first_seen": "2026-10-08",
@@ -1137,7 +1137,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 58,
+  "hits": 61,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1308,12 +1308,12 @@
  },
  "Huron Consulting Group": {
   "first_seen": "2026-10-14",
-  "hits": 8,
+  "hits": 11,
   "band": "unknown",
   "titles": [
    "Associate Consultant-SCM"
   ],
-  "last_hit": "2026-10-14"
+  "last_hit": "2026-10-17"
  },
  "IBM": {
   "first_seen": "2026-09-28",
@@ -1461,12 +1461,12 @@
  },
  "Ingram Micro": {
   "first_seen": "2026-09-24",
-  "hits": 73,
+  "hits": 76,
   "band": "unknown",
   "titles": [
    "Key Account Manager"
   ],
-  "last_hit": "2026-10-16"
+  "last_hit": "2026-10-17"
  },
  "Inventiway Solutions": {
   "first_seen": "2026-10-15",
@@ -1479,12 +1479,12 @@
  },
  "JPMorganChase": {
   "first_seen": "2026-09-24",
-  "hits": 18,
+  "hits": 19,
   "band": "unknown",
   "titles": [
    "Product Manager"
   ],
-  "last_hit": "2026-10-15"
+  "last_hit": "2026-10-17"
  },
  "Jhr Solutions": {
   "first_seen": "2026-10-15",
@@ -1633,12 +1633,12 @@
  },
  "Kroll": {
   "first_seen": "2026-09-25",
-  "hits": 9,
+  "hits": 10,
   "band": "unknown",
   "titles": [
    "Consultant, Transaction Advisory Services"
   ],
-  "last_hit": "2026-10-14"
+  "last_hit": "2026-10-17"
  },
  "L&T Technology Services Ltd.": {
   "first_seen": "2026-10-07",
@@ -1786,12 +1786,12 @@
  },
  "MAERSK": {
   "first_seen": "2026-10-05",
-  "hits": 4,
+  "hits": 5,
   "band": "unknown",
   "titles": [
    "Category Manager- Terminal Procurement"
   ],
-  "last_hit": "2026-10-12"
+  "last_hit": "2026-10-17"
  },
  "MSN Laboratories": {
   "first_seen": "2026-10-06",
@@ -1983,6 +1983,15 @@
    "Product Manager - I"
   ],
   "last_hit": "2026-10-11"
+ },
+ "Moody's Corporation": {
+  "first_seen": "2026-10-17",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Associate Strategist"
+  ],
+  "last_hit": "2026-10-17"
  },
  "Mosaic9": {
   "first_seen": "2026-10-05",
@@ -2262,15 +2271,6 @@
    "Associate Product Manager (CarTrade Tech Mumbai)"
   ],
   "last_hit": "2026-10-07"
- },
- "Omega Softwares Mumbai": {
-  "first_seen": "2026-10-05",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager"
-  ],
-  "last_hit": "2026-10-05"
  },
  "Open Links Foundation": {
   "first_seen": "2026-10-06",
@@ -3396,12 +3396,12 @@
  },
  "ZEISS Group": {
   "first_seen": "2026-10-13",
-  "hits": 7,
+  "hits": 9,
   "band": "unknown",
   "titles": [
    "Eyewear Category Manager – MEA"
   ],
-  "last_hit": "2026-10-13"
+  "last_hit": "2026-10-17"
  },
  "ZO Play": {
   "first_seen": "2026-10-07",
@@ -3594,7 +3594,7 @@
  },
  "within": {
   "first_seen": "2026-10-17",
-  "hits": 1,
+  "hits": 2,
   "band": "unknown",
   "titles": [
    "Business Development Representative Manager - US Market"
