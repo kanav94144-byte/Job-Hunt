@@ -69,7 +69,7 @@
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 94,
+   "jobs": 95,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -183,7 +183,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 112,
+   "jobs": 111,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -699,7 +699,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 143,
+   "jobs": 142,
    "errors": []
   },
   "portal:lever:Dozee": {
@@ -747,7 +747,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 298,
+   "jobs": 300,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -777,7 +777,7 @@
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 151,
+   "jobs": 152,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -915,19 +915,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 212,
+   "jobs": 239,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 589,
+   "jobs": 1130,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 977,
+   "jobs": 951,
    "errors": []
   },
   "discovery:google": {
@@ -950,48 +950,52 @@
   }
  },
  "descriptions": {
-  "careers portal": 150,
-  "linkedin": 57,
-  "iimjobs": 6
+  "careers portal": 27,
+  "linkedin": 96
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4678,
-   "after_filters": 981,
-   "kept_new": 132
+   "raw": 4680,
+   "after_filters": 980,
+   "kept_new": 32
   },
   "linkedin": {
-   "raw": 801,
-   "after_filters": 387,
-   "kept_new": 18
+   "raw": 1369,
+   "after_filters": 604,
+   "kept_new": 37
   },
   "indeed": {
-   "raw": 977,
-   "after_filters": 375,
+   "raw": 951,
+   "after_filters": 336,
    "kept_new": 1
   },
   "iimjobs": {
    "raw": 905,
-   "after_filters": 86,
-   "kept_new": 4
+   "after_filters": 87
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Moody's Corporation"
+   "Allergan Aesthetics, an AbbVie Company",
+   "Astam Diagno",
+   "Eaton",
+   "FlixStock",
+   "McGraw Hill",
+   "Merck Group",
+   "Infomatics Technologies"
   ],
-  "with_portal": 41
+  "with_portal": 40
  },
  "counts": {
-  "raw": 7361,
-  "after_filters": 1829,
-  "judged": 411,
-  "kept": 155,
+  "raw": 7905,
+  "after_filters": 2007,
+  "judged": 226,
+  "kept": 70,
   "duplicates_folded": 34,
-  "on_dashboard": 1341,
+  "on_dashboard": 1377,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
