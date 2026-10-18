@@ -1,40 +1,41 @@
-# Job Hunt – 2026-10-18 08:59 UTC
+# Job Hunt – 2026-10-18 13:31 UTC
 
-**13 new roles today** · 1334 active on the dashboard
+**14 new roles today** · 1364 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4845 | 970 | 32 |
-| iimjobs | 577 | 31 | 0 |
-| indeed | 884 | 313 | 1 |
-| linkedin | 1146 | 558 | 18 |
+| careers portal | 4828 | 969 | 36 |
+| iimjobs | 584 | 32 | 0 |
+| indeed | 824 | 260 | 4 |
+| linkedin | 1321 | 524 | 24 |
 
-Auto-watchlist: 400 companies (39 with a readable portal) · added: Green Portfolio, ABC - Aditya Birla Housing Finance Limited
+Auto-watchlist: 400 companies (39 with a readable portal) · added: SingX
 
-## Tier A (4)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| SAA Consultancy | IT Sales Executive - B2B Telecalling & Lead Generation | Bhopal | 1-4 yrs | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477769612) |
-| Purplle | Senior Brand Manager (Lips) - Faces | Mumbai Metropolitan | 1-2 yrs | Yes | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480840748) |
-| EY GDS | Senior Consultant - Assurance - National - ASU - CCaSS - CCaSS Services - Chennai | India | 4+ yrs | Yes | ~₹26–42 LPA (est.) | [open](https://careers.ey.com/ey/job/Chennai-Senior-Consultant-Assurance-National-ASU-CCaSS-CCaSS-Services-Chennai-TN-600113/1448721333/) |
-| Green Portfolio | Product Manager | Gurugram | 3-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477703203) |
-
-## Tier B (5)
+## Tier A (3)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| PW (PhysicsWallah) | YouTube Manager – CA Category | Noida | 3-5 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479906915) |
-| Alvarez & Marsal | Knowledge Management Associate | Greater Delhi | 3-5 yrs | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478211506) |
-| Accenture Strategy | I&P GN - I&E - Software & Platforms - Consultant - Process Excellence-PE | Gurugram | 3-7 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479674448) |
-| Meesho | Creative Manager | Bengaluru | not stated | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4453693623) |
-| Google | Program Management Lead - Quality Assurance | Greater Hyderabad | not stated | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479349622) |
+| SingX | Business Development Manager | Pune | 1-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479926233) |
+| KPMG India | Assistant Manager - Asset Management | Gurugram | 4-6 yrs | Yes | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479922806) |
+| SingX | Business Development Manager-Financial Institutions | Pune | 3-10 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479930179) |
 
-## Tier C (4)
+## Tier B (8)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Amazon | Business Analyst, Support, Supply Chain | Bengaluru | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10582081/business-analyst-support-supply-chain) |
-| Merck Healthcare | Product Manager - Fertility & Endocrinology | Singapore | 5+ yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4454027254) |
-| PepsiCo | Tech Bus Engagement Asst Analyst | Hyderabad | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477385512) |
-| PepsiCo | Franchise Supply Chain Sr Manager | Dhaka | not stated | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477379745) |
+| BrowserStack | Lead - Marketing Strategist | Mumbai | 3-6 yrs | – | ~₹36–55 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4478206265) |
+| Deloitte USI | Associate Services Specialist I - CTS ODC- Bangalore | Bengaluru | not stated | – | ~₹16–24 LPA (est.) | [open](https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-EH27-L25-Associate-Services-Specialist-I-CTS-ODC-Bangalore/371969) |
+| EY GDS | Executive - Business Consulting Risk - National - CBS - RM - Proj & Operations - Pune | India | 2-4 yrs | – | ~₹16–24 LPA (est.) | [open](https://careers.ey.com/ey/job/Pune-Executive-Business-Consulting-Risk-National-CBS-RM-Proj-&-Operations-Pune-MH-411001/1448723133/) |
+| Newton School | Business Development Manager | Bengaluru | 3-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479369467) |
+| Microsoft | Consulting Program Management | Singapore | not stated | – | not stated | [open](https://www.linkedin.com/jobs/view/4470922954) |
+| Ingram Micro | Product Manager | Mumbai · Delhi · South Delhi | not stated | – | ~₹18–32 LPA (est.) | [open](https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Mumbai-India/Product-Manager_R-113135) |
+| ABC - Aditya Birla Housing Finance Limited | Team Member - Strategy | India | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4463369336) |
+| Citi | Senior Product Manager - Deposit Strategy & Analytics, BSM – Asia Clusters | Singapore | not stated | – | not stated | [open](https://www.linkedin.com/jobs/view/4452705950) |
+
+## Tier C (3)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Accenture Strategy | Customer Contact Comms Analyst | India | 3-5 yrs | – | ~₹16–24 LPA (est.) | [open](https://accenture.com/in-en/careers/jobdetails?id=AIOC-S01670818_en) |
+| Accenture Strategy | Customer Contact Comms Associate | India | 1-3 yrs | – | ~₹16–24 LPA (est.) | [open](https://accenture.com/in-en/careers/jobdetails?id=AIOC-S01670836_en) |
+| Accenture Strategy | AI Product Management Practitioner | Pune | 5+ yrs | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480562308) |
