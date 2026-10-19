@@ -312,6 +312,10 @@
   "type": null,
   "checked": "2026-10-06"
  },
+ "Aryan Security Service": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "Astam Diagno": {
   "type": null,
   "checked": "2026-10-18"
@@ -994,6 +998,12 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Doceree": {
+  "type": "darwinbox",
+  "tenant": "doceree",
+  "probed": true,
+  "checked": "2026-10-19"
+ },
  "Dorle Controls": {
   "type": null,
   "checked": "2026-09-24"
@@ -1187,6 +1197,10 @@
   "checked": "2026-09-28"
  },
  "ErigoIndia FinServ Pvt Ltd": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
+ "Estee Advisors Private Limited": {
   "type": null,
   "checked": "2026-10-19"
  },
@@ -1427,6 +1441,10 @@
   "type": null,
   "checked": "2026-10-17"
  },
+ "GE Vernova": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "GIVA": {
   "type": null,
   "checked": "2026-10-08"
@@ -1638,7 +1656,7 @@
  },
  "Handshake": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-19"
  },
  "HappieHire": {
   "type": null,
@@ -1870,6 +1888,10 @@
  "IndiGo (InterGlobe Aviation Ltd)": {
   "type": null,
   "checked": "2026-10-05"
+ },
+ "Indian School of Business": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Indifi": {
   "type": null,
@@ -2318,6 +2340,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "MAVI IT SERV LLP": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "MGB Advisors": {
   "type": null,
   "checked": "2026-10-01"
@@ -2457,6 +2483,10 @@
  "MediBuddy": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "Medispec (I) Ltd": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Meesho": {
   "type": "lever",
@@ -2931,6 +2961,10 @@
   "type": null,
   "checked": "2026-10-16"
  },
+ "Opus Solutions": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "P&S Innovation": {
   "type": null,
   "checked": "2026-10-16"
@@ -3153,6 +3187,10 @@
  "Procter & Gamble": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "Project Annapoorna": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Property Finder": {
   "type": null,
@@ -3748,6 +3786,10 @@
  "Sun King": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "Sun Pharmaceutical Industries, Inc.": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Sunboost Energy": {
   "type": null,
@@ -4528,6 +4570,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Zavya": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "Zenopsys": {
   "type": null,
   "checked": "2026-09-26"
@@ -4615,6 +4661,10 @@
  "ZunRoof Tech": {
   "type": null,
   "checked": "2026-10-14"
+ },
+ "Zunpulse": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Zydus Group": {
   "type": "darwinbox",
