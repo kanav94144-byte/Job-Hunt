@@ -250,6 +250,10 @@
   "type": null,
   "checked": "2026-09-27"
  },
+ "Ananant Systems Private Limited": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "Anchanto": {
   "type": null,
   "checked": "2026-10-14"
@@ -350,6 +354,21 @@
  "Aventure Innovations": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Ayvens": {
+  "type": "workday",
+  "tenant": "ayvens",
+  "wd": "wd3",
+  "site": "AyvensCareers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-19"
  },
  "Azentyx": {
   "type": null,
@@ -1167,6 +1186,10 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "ErigoIndia FinServ Pvt Ltd": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "Ethos": {
   "type": null,
   "checked": "2026-09-30"
@@ -1267,6 +1290,10 @@
  "Finplify Technologies Private Limited": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "Finteract AI": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Fire & Smoke Systems": {
   "type": null,
@@ -1388,6 +1415,10 @@
   "type": null,
   "checked": "2026-10-06"
  },
+ "GARIMA ECC PVT LTD": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "GBM": {
   "type": null,
   "checked": "2026-10-15"
@@ -1460,6 +1491,10 @@
   "harvested": true,
   "checked": "2026-09-23"
  },
+ "GetFive": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "Getfive Advisors": {
   "type": null,
   "checked": "2026-10-15"
@@ -1510,6 +1545,10 @@
  "Good Health Company": {
   "type": null,
   "checked": "2026-10-12"
+ },
+ "GradRight Inc.": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Gradeon Global Business School": {
   "type": null,
@@ -1639,6 +1678,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "HelpMobileApp": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "Hero Moto Corp": {
   "type": null,
   "checked": "2026-09-25"
@@ -1674,6 +1717,10 @@
  "Hirepedia": {
   "type": null,
   "checked": "2026-10-13"
+ },
+ "HiroJet": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "Hm technology": {
   "type": null,
@@ -2481,6 +2528,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Mingrow\u2122": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "Minimalist": {
   "type": null,
   "checked": "2026-10-08"
@@ -2593,6 +2644,10 @@
   "tenant": "nyusoft",
   "harvested": true,
   "checked": "2026-10-13"
+ },
+ "Nabors Industries": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "NalandaWay Foundation": {
   "type": null,
@@ -3167,6 +3222,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "REN\u00c9E Cosmetics": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "ROADEXPRESS FREIGHT": {
   "type": null,
   "checked": "2026-10-10"
@@ -3230,6 +3289,14 @@
  "Reckitt": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "Recykal": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
+ "Recykal.com": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "ReelSaga": {
   "type": null,
@@ -3746,6 +3813,10 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "TMRW House of Brands": {
+  "type": null,
+  "checked": "2026-10-19"
+ },
  "TRADEGENIUZ CAPITAL PRIVATE LIMITED": {
   "type": null,
   "checked": "2026-09-24"
@@ -3853,6 +3924,10 @@
  "Texas School of Mental Health": {
   "type": null,
   "checked": "2026-10-05"
+ },
+ "The Brand Bee": {
+  "type": null,
+  "checked": "2026-10-19"
  },
  "The Glove": {
   "type": null,
@@ -4086,6 +4161,12 @@
   "type": null,
   "checked": "2026-10-08"
  },
+ "Unicommerce": {
+  "type": "keka",
+  "tenant": "unicommerce",
+  "probed": true,
+  "checked": "2026-10-19"
+ },
  "Unicraft Tech": {
   "type": null,
   "checked": "2026-10-05"
@@ -4138,7 +4219,7 @@
  },
  "Valyx": {
   "type": null,
-  "checked": "2026-10-04"
+  "checked": "2026-10-19"
  },
  "Vansun Mediatech": {
   "type": null,

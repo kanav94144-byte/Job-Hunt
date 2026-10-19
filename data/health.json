@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 84,
+   "jobs": 85,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -43,7 +43,7 @@
   "portal:recruitee:Lenskart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 80,
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
@@ -67,7 +67,7 @@
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 95,
+   "jobs": 96,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -121,13 +121,13 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 28,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 133,
+   "jobs": 131,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -163,13 +163,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 15,
+   "jobs": 14,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 356,
+   "jobs": 358,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -189,7 +189,7 @@
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 47,
+   "jobs": 48,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -225,7 +225,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 49,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -339,7 +339,7 @@
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 26,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -477,7 +477,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 20,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -657,7 +657,7 @@
   "portal:darwinbox:Duroflex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 35,
+   "jobs": 36,
    "errors": []
   },
   "portal:greenhouse:BlueStone": {
@@ -699,7 +699,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 146,
+   "jobs": 147,
    "errors": []
   },
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
@@ -723,25 +723,25 @@
   "portal:keka:Fynd": {
    "ok": 1,
    "failed": 0,
-   "jobs": 54,
+   "jobs": 56,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 39,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 305,
+   "jobs": 304,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 74,
    "errors": []
   },
   "portal:keka:InXiteOut": {
@@ -753,7 +753,7 @@
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 62,
+   "jobs": 56,
    "errors": []
   },
   "portal:recruitee:KC Overseas Education": {
@@ -786,22 +786,10 @@
    "jobs": 1,
    "errors": []
   },
-  "portal:darwinbox:MobiKwik": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 1,
-   "errors": []
-  },
   "portal:keka:NYU SOFT SOLUTIONS": {
    "ok": 1,
    "failed": 0,
    "jobs": 9,
-   "errors": []
-  },
-  "portal:smartrecruiters:Nielsen": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 48,
    "errors": []
   },
   "portal:keka:Nudge": {
@@ -813,7 +801,13 @@
   "portal:keka:Nutrabay": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 29,
+   "errors": []
+  },
+  "portal:keka:Renee Cosmetics": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 17,
    "errors": []
   },
   "portal:keka:Revspot": {
@@ -825,7 +819,7 @@
   "portal:greenhouse:Simpplr": {
    "ok": 1,
    "failed": 0,
-   "jobs": 3,
+   "jobs": 4,
    "errors": []
   },
   "portal:keka:TechDome": {
@@ -852,6 +846,12 @@
    "jobs": 62,
    "errors": []
   },
+  "portal:keka:Unicommerce": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 2,
+   "errors": []
+  },
   "portal:keka:Way2News": {
    "ok": 1,
    "failed": 0,
@@ -861,25 +861,25 @@
   "portal:lever:Weekday": {
    "ok": 1,
    "failed": 0,
-   "jobs": 57,
+   "jobs": 58,
    "errors": []
   },
   "portal:workday:ZEISS Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 90,
+   "jobs": 89,
    "errors": []
   },
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 52,
    "errors": []
   },
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 61,
+   "jobs": 63,
    "errors": []
   },
   "portal:keka:nference": {
@@ -903,19 +903,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 133,
+   "jobs": 186,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1019,
+   "jobs": 980,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 829,
+   "jobs": 895,
    "errors": []
   },
   "discovery:google": {
@@ -927,7 +927,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 291,
+   "jobs": 425,
    "errors": []
   },
   "naukri (browser)": {
@@ -938,66 +938,61 @@
   }
  },
  "descriptions": {
-  "careers portal": 42,
-  "linkedin": 132,
-  "iimjobs": 5
+  "careers portal": 63,
+  "linkedin": 108,
+  "iimjobs": 12
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 0,
+ "portals_learned_from_links": 1,
  "funnel": {
   "careers portal": {
-   "raw": 4733,
-   "after_filters": 939,
-   "kept_new": 44
+   "raw": 4715,
+   "after_filters": 941,
+   "kept_new": 48
   },
   "linkedin": {
-   "raw": 1152,
-   "after_filters": 530,
-   "kept_new": 44
+   "raw": 1166,
+   "after_filters": 549,
+   "kept_new": 39
   },
   "indeed": {
-   "raw": 829,
-   "after_filters": 254,
-   "kept_new": 8
+   "raw": 895,
+   "after_filters": 259,
+   "kept_new": 3
   },
   "iimjobs": {
-   "raw": 291,
-   "after_filters": 22,
-   "kept_new": 3
+   "raw": 425,
+   "after_filters": 42,
+   "kept_new": 6
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Unicommerce",
-   "Ananant Systems Private Limited",
-   "Recykal.com",
-   "Ayvens",
-   "Valyx",
-   "TMRW House of Brands",
-   "ErigoIndia FinServ Pvt Ltd",
-   "GARIMA ECC PVT LTD",
-   "Nabors Industries",
-   "Finteract AI",
-   "GetFive",
-   "GradRight Inc.",
-   "REN\u00c9E Cosmetics",
-   "Mingrow\u2122",
-   "HiroJet",
-   "HelpMobileApp",
-   "Recykal",
-   "The Brand Bee",
-   "Renee Cosmetics"
+   "Project Annapoorna",
+   "Zavya",
+   "Handshake",
+   "MAVI IT SERV LLP",
+   "Aryan Security Service",
+   "Namma Yatri",
+   "Indian School of Business",
+   "Estee Advisors Private Limited",
+   "Doceree",
+   "Opus Solutions",
+   "Zunpulse",
+   "Sun Pharmaceutical Industries, Inc.",
+   "GE Vernova",
+   "Medispec (I) Ltd"
   ],
-  "with_portal": 38
+  "with_portal": 40
  },
  "counts": {
-  "raw": 7005,
-  "after_filters": 1745,
-  "judged": 496,
-  "kept": 99,
-  "duplicates_folded": 31,
-  "on_dashboard": 1385,
+  "raw": 7201,
+  "after_filters": 1791,
+  "judged": 488,
+  "kept": 96,
+  "duplicates_folded": 33,
+  "on_dashboard": 1429,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
