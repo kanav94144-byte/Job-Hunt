@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 194,
+   "jobs": 193,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -127,7 +127,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 129,
+   "jobs": 130,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -163,7 +163,7 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 14,
+   "jobs": 15,
    "errors": []
   },
   "portal:workday:PwC India": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 114,
+   "jobs": 113,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 51,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -745,7 +745,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 309,
+   "jobs": 311,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -763,7 +763,7 @@
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 58,
    "errors": []
   },
   "portal:recruitee:KC Overseas Education": {
@@ -880,6 +880,12 @@
    "jobs": 88,
    "errors": []
   },
+  "portal:keka:Zippee": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 59,
+   "errors": []
+  },
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
@@ -892,40 +898,36 @@
    "jobs": 62,
    "errors": []
   },
-  "portal:keka:nference": {
+  "portal:darwinbox:sugar.fit": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "ReadTimeout: HTTPSConnectionPool(host='sugarfit.darwinbox.in', port=443): Read timed out. (read timeout=40)"
+   ]
+  },
+  "portal:ashby:within": {
    "ok": 1,
    "failed": 0,
    "jobs": 4,
    "errors": []
   },
-  "portal:darwinbox:sugar.fit": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 0,
-   "errors": []
-  },
-  "portal:ashby:within": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 3,
-   "errors": []
-  },
   "linkedin": {
    "ok": 97,
    "failed": 0,
-   "jobs": 220,
+   "jobs": 252,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 830,
+   "jobs": 1350,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 939,
+   "jobs": 946,
    "errors": []
   },
   "discovery:google": {
@@ -937,7 +939,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 401,
+   "jobs": 354,
    "errors": []
   },
   "naukri (browser)": {
@@ -945,54 +947,61 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "PwC India IN_Associate_FinCrime Managed Services (COE\u00a0& KYC)_Advisory_Bangalore: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Bengaluru-Brigade-Magnum/IN-Associate-FinCrime-Managed-Services--COE---KYC--Advisory-Bangalore_DB_006175"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 52,
-  "linkedin": 73,
-  "iimjobs": 1
+  "careers portal": 29,
+  "linkedin": 81
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4834,
-   "after_filters": 947,
-   "kept_new": 36
+   "raw": 4895,
+   "after_filters": 943,
+   "kept_new": 35
   },
   "linkedin": {
-   "raw": 1050,
-   "after_filters": 462,
-   "kept_new": 25
+   "raw": 1602,
+   "after_filters": 671,
+   "kept_new": 24
   },
   "indeed": {
-   "raw": 939,
-   "after_filters": 329,
-   "kept_new": 6
+   "raw": 946,
+   "after_filters": 327,
+   "kept_new": 10
   },
   "iimjobs": {
-   "raw": 401,
+   "raw": 354,
    "after_filters": 43
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Redington Limited",
-   "DotConn Foods",
-   "Zippee",
-   "Adfinity Global Solutions (P) Ltd",
-   "TechUp Labs"
+   "Golden Opportunities",
+   "ASHVYA SERVICES PRIVATE LIMITED",
+   "RMODO",
+   "Tascbusinesslearning",
+   "Withum"
   ],
-  "with_portal": 41
+  "with_portal": 40
  },
  "counts": {
-  "raw": 7224,
-  "after_filters": 1781,
-  "judged": 285,
-  "kept": 67,
-  "duplicates_folded": 35,
-  "on_dashboard": 1358,
+  "raw": 7797,
+  "after_filters": 1984,
+  "judged": 213,
+  "kept": 69,
+  "duplicates_folded": 38,
+  "on_dashboard": 1387,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
