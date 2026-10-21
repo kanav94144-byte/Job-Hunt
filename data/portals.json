@@ -178,6 +178,12 @@
   "type": null,
   "checked": "2026-10-05"
  },
+ "Airbound": {
+  "type": "ashby",
+  "tenant": "airbound",
+  "harvested": true,
+  "checked": "2026-10-21"
+ },
  "Airwallex": {
   "type": null,
   "checked": "2026-10-20"
@@ -761,6 +767,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Cleangrid Energy": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "ClearTax": {
   "type": "darwinbox",
   "tenant": "clear",
@@ -854,6 +864,10 @@
  "Constems-AI Systems (CAI)": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "ConsultBae": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "Country Delight": {
   "type": "darwinbox",
@@ -1377,6 +1391,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "FlowDesk Technologies India Private Limited": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "Foiwe Info Global Solutions": {
   "type": null,
   "checked": "2026-10-16"
@@ -1543,7 +1561,7 @@
  },
  "Give": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-21"
  },
  "Glide Brands": {
   "type": null,
@@ -1794,6 +1812,10 @@
   ],
   "harvested": true,
   "checked": "2026-09-23"
+ },
+ "HyrMe": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "Hyrfast": {
   "type": null,
@@ -2174,6 +2196,10 @@
   "tenant": "kukufm",
   "probed": true
  },
+ "Kushals Fashion Jewellery": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "L&T Technology Services Ltd.": {
   "type": null,
   "checked": "2026-10-07"
@@ -2227,6 +2253,10 @@
  "Landmark Group": {
   "type": null,
   "checked": "2026-10-10"
+ },
+ "Le M\u00e9dia Positif - Djibouti": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "LeadSquared": {
   "type": "darwinbox",
@@ -3260,6 +3290,10 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "Qrata": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "Qualitek Labs": {
   "type": null,
   "checked": "2026-09-26"
@@ -3291,6 +3325,10 @@
  "REN\u00c9E Cosmetics": {
   "type": null,
   "checked": "2026-10-19"
+ },
+ "RK Interiors Pvt Ltd": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "RMODO": {
   "type": null,
@@ -3402,6 +3440,10 @@
   "harvested": true,
   "checked": "2026-10-19"
  },
+ "Rentalgini PMS": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "Rentilium": {
   "type": null,
   "checked": "2026-10-15"
@@ -3470,9 +3512,17 @@
   "type": null,
   "checked": "2026-10-07"
  },
+ "SLO Technologies": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "SMC Group": {
   "type": null,
   "checked": "2026-09-29"
+ },
+ "SRV Media": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "STAGE OTT": {
   "type": null,
@@ -3767,6 +3817,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Squad 7 Security & Allied Services": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "Sri Garima Publicity Private Limited": {
   "type": null,
   "checked": "2026-10-06"
@@ -3790,6 +3844,10 @@
  "Stashfin": {
   "type": null,
   "checked": "2026-10-10"
+ },
+ "Stedaxis": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "StelleHire": {
   "type": null,
@@ -4073,6 +4131,10 @@
  "Third Wave Coffee": {
   "type": null,
   "checked": "2026-10-08"
+ },
+ "Thrivus Partners": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "Tiger Brokers Singapore": {
   "type": null,
@@ -4453,6 +4515,10 @@
   "type": null,
   "checked": "2026-09-30"
  },
+ "WebAshlar Software Solution Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-10-21"
+ },
  "WebEngage": {
   "type": null,
   "checked": "2026-10-08"
@@ -4518,6 +4584,10 @@
  "World Bank Group": {
   "type": null,
   "checked": "2026-10-14"
+ },
+ "World Food Programme": {
+  "type": null,
+  "checked": "2026-10-21"
  },
  "Wow Skin Science": {
   "type": null,
