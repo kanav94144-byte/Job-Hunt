@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 194,
+   "jobs": 195,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -121,7 +121,7 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 29,
    "errors": []
   },
   "portal:workday:Mastercard": {
@@ -163,13 +163,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 14,
+   "jobs": 15,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 354,
+   "jobs": 355,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -185,10 +185,12 @@
    "errors": []
   },
   "portal:workday:Adobe": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 44,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 502 Server Error: Bad Gateway for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
+   ]
   },
   "portal:darwinbox:Zepto": {
    "ok": 1,
@@ -403,7 +405,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 39,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -736,6 +738,12 @@
    "jobs": 0,
    "errors": []
   },
+  "portal:keka:Eloelo": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 38,
+   "errors": []
+  },
   "portal:keka:Fynd": {
    "ok": 1,
    "failed": 0,
@@ -751,7 +759,7 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 303,
+   "jobs": 299,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -820,12 +828,6 @@
    "jobs": 17,
    "errors": []
   },
-  "portal:keka:Revspot": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 3,
-   "errors": []
-  },
   "portal:workday:Seatrium": {
    "ok": 1,
    "failed": 0,
@@ -877,7 +879,7 @@
   "portal:lever:Weekday": {
    "ok": 1,
    "failed": 0,
-   "jobs": 54,
+   "jobs": 57,
    "errors": []
   },
   "portal:workday:ZEISS Group": {
@@ -901,7 +903,7 @@
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 62,
+   "jobs": 61,
    "errors": []
   },
   "portal:darwinbox:sugar.fit": {
@@ -913,13 +915,13 @@
   "portal:ashby:within": {
    "ok": 1,
    "failed": 0,
-   "jobs": 4,
+   "jobs": 6,
    "errors": []
   },
   "linkedin": {
-   "ok": 97,
+   "ok": 98,
    "failed": 0,
-   "jobs": 291,
+   "jobs": 307,
    "errors": []
   },
   "discovery:linkedin": {
@@ -931,7 +933,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 993,
+   "jobs": 1013,
    "errors": []
   },
   "discovery:google": {
@@ -943,7 +945,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1175,
+   "jobs": 1067,
    "errors": []
   },
   "naukri (browser)": {
@@ -951,64 +953,59 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "PwC India IN_Associate_SAP BPC / SAC_SAP_Advisory_Mumbai: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Mumbai-Goregaon/IN-Associate-SAP-BPC---SAC-SAP-Advisory-Mumbai_749591WD-2"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 54,
-  "linkedin": 134,
-  "iimjobs": 12
+  "careers portal": 28,
+  "linkedin": 54,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4812,
-   "after_filters": 946,
-   "kept_new": 49
+   "raw": 4809,
+   "after_filters": 937,
+   "kept_new": 33
   },
   "linkedin": {
-   "raw": 1641,
-   "after_filters": 754,
-   "kept_new": 48
+   "raw": 1657,
+   "after_filters": 765,
+   "kept_new": 26
   },
   "indeed": {
-   "raw": 993,
-   "after_filters": 344,
-   "kept_new": 6
+   "raw": 1013,
+   "after_filters": 350,
+   "kept_new": 3
   },
   "iimjobs": {
-   "raw": 1175,
-   "after_filters": 156,
-   "kept_new": 7
+   "raw": 1067,
+   "after_filters": 159,
+   "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "OneMetric",
-   "SalesMonk.ai",
-   "Everpure",
-   "navAjna Technologies Private Limited",
-   "Apple",
-   "Interview Kickstart",
-   "Bekaert",
-   "VOIS",
-   "Eloelo",
-   "SVECTOR",
-   "HireVeda",
-   "HiLabs",
-   "Startoon Labs Pvt. Ltd",
-   "Marsh"
+   "Talengage"
   ],
-  "with_portal": 41
+  "with_portal": 42
  },
  "counts": {
-  "raw": 8621,
-  "after_filters": 2200,
-  "judged": 446,
-  "kept": 110,
-  "duplicates_folded": 36,
-  "on_dashboard": 1380,
+  "raw": 8546,
+  "after_filters": 2211,
+  "judged": 224,
+  "kept": 63,
+  "duplicates_folded": 39,
+  "on_dashboard": 1392,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
