@@ -196,6 +196,10 @@
   "type": null,
   "checked": "2026-10-20"
  },
+ "Alchemy Medicine": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
  "Aldous Glare Tech and Energy": {
   "type": null,
   "checked": "2026-09-26"
@@ -505,6 +509,10 @@
   "tenant": "bigbasket",
   "probed": true
  },
+ "Binariq": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
  "BioBrain Insights": {
   "type": null,
   "checked": "2026-10-09"
@@ -542,6 +550,10 @@
  "Blissclub": {
   "type": null,
   "checked": "2026-10-16"
+ },
+ "Blitz": {
+  "type": null,
+  "checked": "2026-10-23"
  },
  "Blue Matter": {
   "type": null,
@@ -1102,6 +1114,14 @@
   "harvested": true,
   "checked": "2026-10-12"
  },
+ "Dr. Reddy's Laboratories": {
+  "type": "smartrecruiters",
+  "tenant": "DrReddysLaboratoriesLimited",
+  "harvested": true,
+  "company_id": "DrReddysLaboratoriesLimited",
+  "country": "in",
+  "checked": "2026-10-23"
+ },
  "Dream Sports (Dream11)": {
   "type": null,
   "checked": "2026-10-23"
@@ -1346,6 +1366,21 @@
  "Faceecho.ai": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "FactSet": {
+  "type": "workday",
+  "tenant": "factset",
+  "wd": "wd108",
+  "site": "FactSetCareers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-23"
  },
  "Fareportal": {
   "type": null,
@@ -1613,6 +1648,10 @@
   "type": null,
   "checked": "2026-10-21"
  },
+ "Gleeds": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
  "Glide Brands": {
   "type": null,
   "checked": "2026-10-15"
@@ -1639,6 +1678,10 @@
  "GoVivace Inc.": {
   "type": null,
   "checked": "2026-10-02"
+ },
+ "Godrej Agrovet Limited": {
+  "type": null,
+  "checked": "2026-10-23"
  },
  "Godrej Consumer Products": {
   "type": null,
@@ -1724,7 +1767,7 @@
  },
  "HDFC Bank": {
   "type": null,
-  "checked": "2026-10-06"
+  "checked": "2026-10-23"
  },
  "HEVO TECHNOLOGIES INDIA PRIVATE LIMITED": {
   "type": null,
@@ -2077,6 +2120,10 @@
   "checked": "2026-09-23"
  },
  "Jar": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
+ "Jarvis Technology and Strategy Consulting": {
   "type": null,
   "checked": "2026-10-23"
  },
@@ -3111,6 +3158,10 @@
   "type": null,
   "checked": "2026-10-19"
  },
+ "Ownly": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
  "P&S Innovation": {
   "type": null,
   "checked": "2026-10-16"
@@ -3346,6 +3397,10 @@
   "type": null,
   "checked": "2026-10-02"
  },
+ "Prosperr.io": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
  "ProtoTech Solutions": {
   "type": null,
   "checked": "2026-09-29"
@@ -3505,6 +3560,14 @@
  "Recykal.com": {
   "type": null,
   "checked": "2026-10-19"
+ },
+ "Red Bull": {
+  "type": "smartrecruiters",
+  "tenant": "RedBull",
+  "harvested": true,
+  "company_id": "RedBull",
+  "country": "in",
+  "checked": "2026-10-23"
  },
  "Redington Limited": {
   "type": null,
@@ -4018,7 +4081,7 @@
  },
  "Steps India Technology": {
   "type": null,
-  "checked": "2026-09-28"
+  "checked": "2026-10-23"
  },
  "Strivex Consulting": {
   "type": null,
@@ -4035,6 +4098,10 @@
  "Sumanel Technology Ventures": {
   "type": null,
   "checked": "2026-09-25"
+ },
+ "Summit Works": {
+  "type": null,
+  "checked": "2026-10-23"
  },
  "Sun King": {
   "type": null,
@@ -4095,6 +4162,10 @@
  "TECEZE": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "TECHOLAS TECHNOLOGIES": {
+  "type": null,
+  "checked": "2026-10-23"
  },
  "TELUS Digital": {
   "type": null,
@@ -4409,6 +4480,10 @@
   "type": null,
   "checked": "2026-10-15"
  },
+ "Tstar Aerosol - India": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
  "Tungsten Automation": {
   "type": null,
   "checked": "2026-10-22"
@@ -4442,6 +4517,10 @@
  "U.S. Pharmacopeia": {
   "type": null,
   "checked": "2026-10-02"
+ },
+ "UDYOGTECH VENTURES PRIVATE LIMITED": {
+  "type": null,
+  "checked": "2026-10-23"
  },
  "UEIBI": {
   "type": null,
@@ -4537,6 +4616,10 @@
  "Vacancy factor": {
   "type": null,
   "checked": "2026-10-01"
+ },
+ "Valarr": {
+  "type": null,
+  "checked": "2026-10-23"
  },
  "ValetEZ": {
   "type": null,
@@ -5026,6 +5109,10 @@
   "type": null,
   "checked": "2026-09-30"
  },
+ "crenovent": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
  "e-GMAT": {
   "type": null,
   "checked": "2026-09-23"
@@ -5059,6 +5146,10 @@
   "checked": "2026-09-23"
  },
  "mCaffeine": {
+  "type": null,
+  "checked": "2026-10-23"
+ },
+ "mediEND": {
   "type": null,
   "checked": "2026-10-23"
  },
