@@ -1,5 +1,5 @@
 {
- "run_date": "2026-10-23",
+ "run_date": "2026-10-24",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 49,
+   "jobs": 36,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,10 +59,12 @@
    "errors": []
   },
   "portal:workday:Walmart": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 189,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 500 Server Error: Internal Server Error for url: https://walmart.wd504.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+   ]
   },
   "portal:workday:Visa": {
    "ok": 1,
@@ -169,7 +171,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 357,
+   "jobs": 354,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +183,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 104,
+   "jobs": 100,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -193,7 +195,7 @@
   "portal:darwinbox:Zepto": {
    "ok": 1,
    "failed": 0,
-   "jobs": 2,
+   "jobs": 1,
    "errors": []
   },
   "portal:darwinbox:BigBasket": {
@@ -223,7 +225,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 45,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -235,7 +237,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 98,
+   "jobs": 94,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -727,7 +729,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 43,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -745,7 +747,7 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 24,
+   "jobs": 22,
    "errors": []
   },
   "portal:keka:Fynd": {
@@ -757,13 +759,13 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 29,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 298,
+   "jobs": 296,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -883,7 +885,7 @@
   "portal:lever:Weekday": {
    "ok": 1,
    "failed": 0,
-   "jobs": 58,
+   "jobs": 60,
    "errors": []
   },
   "portal:workday:ZEISS Group": {
@@ -907,7 +909,7 @@
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 65,
+   "jobs": 64,
    "errors": []
   },
   "portal:darwinbox:sugar.fit": {
@@ -923,21 +925,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 97,
+   "ok": 98,
    "failed": 0,
-   "jobs": 229,
+   "jobs": 220,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1030,
+   "jobs": 730,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 996,
+   "jobs": 990,
    "errors": []
   },
   "discovery:google": {
@@ -949,7 +951,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1046,
+   "jobs": 1252,
    "errors": []
   },
   "naukri (browser)": {
@@ -957,62 +959,57 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "PwC India IN_Senior Associate_SAP ABAP Hana  _GCC_Advisory_Bangalore: 403 Client Error: Forbidden for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-SAP-ABAP-Hana-GCC-Advisory-Bangalore_725270WD-1"
-   ]
   }
  },
  "descriptions": {
-  "careers portal": 30,
-  "linkedin": 59,
-  "iimjobs": 1
+  "careers portal": 36,
+  "linkedin": 47,
+  "iimjobs": 7
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4885,
-   "after_filters": 963,
-   "kept_new": 35
+   "raw": 4664,
+   "after_filters": 947,
+   "kept_new": 39
   },
   "linkedin": {
-   "raw": 1259,
-   "after_filters": 618,
-   "kept_new": 36
+   "raw": 950,
+   "after_filters": 501,
+   "kept_new": 24
   },
   "indeed": {
-   "raw": 996,
-   "after_filters": 348,
-   "kept_new": 5
+   "raw": 990,
+   "after_filters": 367,
+   "kept_new": 6
   },
   "iimjobs": {
-   "raw": 1046,
-   "after_filters": 188,
-   "kept_new": 1
+   "raw": 1252,
+   "after_filters": 129,
+   "kept_new": 5
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "MetAntz",
-   "Boston Scientific",
-   "The news-keeper",
-   "Zyxware Technologies"
+   "Shooting Stars Foundation",
+   "Staybook.in",
+   "Skybound Projects",
+   "Avalon Technologies Limited",
+   "Neuraleap Group",
+   "Route Mobile Limited",
+   "CA Monk"
   ],
   "with_portal": 42
  },
  "counts": {
-  "raw": 8186,
-  "after_filters": 2117,
-  "judged": 239,
-  "kept": 77,
-  "duplicates_folded": 42,
-  "on_dashboard": 1393,
+  "raw": 7856,
+  "after_filters": 1944,
+  "judged": 260,
+  "kept": 74,
+  "duplicates_folded": 43,
+  "on_dashboard": 1254,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
