@@ -1,45 +1,47 @@
-# Job Hunt – 2026-10-24 13:31 UTC
+# Job Hunt – 2026-10-24 17:39 UTC
 
-**18 new roles today** · 1278 active on the dashboard
+**20 new roles today** · 1316 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4857 | 957 | 34 |
-| iimjobs | 1337 | 136 | 0 |
-| indeed | 972 | 358 | 7 |
-| linkedin | 813 | 416 | 26 |
+| careers portal | 4848 | 959 | 37 |
+| iimjobs | 1368 | 142 | 3 |
+| indeed | 954 | 334 | 2 |
+| linkedin | 1634 | 697 | 40 |
 
-Auto-watchlist: 400 companies (41 with a readable portal) · added: Anand Rathi Share and Stock Brokers Ltd, FEUKEM INDIA PVT LTD, Eunoia Designtech, The Big Assets Corporation Private Limited, Milliman India, AssetsAdm, Vervotech, A Constellation Inc Company, Euler Motors, Smart Food Safe, GMG, Hirezy, Cavitak Marketing
+Auto-watchlist: 400 companies (42 with a readable portal) · added: BuildMyInfra, XGDS (Xpress Global Delivery Services), Mardamed Healthcare, Precision Development (PxD), EXL, HYrEzy Tech Solutions, Leadspire, Standard Chartered Bank
 
-## Tier A (12)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Citi | Business Analytics Analyst- Generative AI | India | 00+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://jobs.citi.com/job/bengaluru/business-analytics-analyst-generative-ai/287/102321779392) |
-| FEUKEM INDIA PVT LTD | Manager - Technical Business Development | Mumbai | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481036869) |
-| The Big Assets Corporation Private Limited | Business Development Manager | Pune · Pimpri Chinchwad | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480671987) |
-| Eunoia Designtech | Business Development Manager | Ahmedabad | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481041333) |
-| Euler Motors | Associate Product Manager | Delhi | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483333219) |
-| Smart Food Safe | B2B SaaS Marketing Manager | Bengaluru | 2-4 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481034538) |
-| Cavitak Marketing | Business Development Associate - VDP and Intrusion | India | 2+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://career.cavitak.com/) |
-| AssetsAdm | Business Development Executive (Software - Inhouse) | Kochi | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482614824) |
-| Vervotech, A Constellation Inc Company | Business Development Manager | Pune | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481694609) |
-| FirstCry | Assistant Manager- Brand Partnership | Pune | 2-4 yrs | Yes | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482823984) |
-| GMG | Category Manager - Sports | Dubai · United Arab Emirates | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4481931922) |
-| Anand Rathi Share and Stock Brokers Ltd | Deputy Manager - Growth Marketing | Mumbai | 3+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480654128) |
-
-## Tier B (1)
+## Tier A (6)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Hirezy | AI Agent Product Manager | India | 2-5 yrs | – | ₹12–24 LPA | [open](https://in.indeed.com/viewjob?jk=4db75a5db5ed8252) |
+| BuildMyInfra | Manager- Founder Office | Gurugram | 4-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482654338) |
+| XGDS (Xpress Global Delivery Services) | Chief of Staff | Kochi | not stated | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482648223) |
+| Mardamed Healthcare | TPA & Business Development Manager – Healthcare Diagnostics | Bengaluru South | 3-15 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482661156) |
+| Standard Chartered Bank | Business Development Manager - SME BIL | India | 2-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://jobs.standardchartered.com/job/Business-Development-Manager-SME-BIL/64351-en_GB) |
+| Precision Development (PxD) | Program Manager (Heat Forecast) | Delhi | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483131934) |
+| EY GDS | Associate Analyst-RMS Personal Independence-GMS | Gurugram | 1+ yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481680733) |
+
+## Tier B (9)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| HYrEzy Tech Solutions | Sales & Channel Partnerships Manager (ERP / Supply Chain SaaS) | Gurugram | 4-8 yrs | – | ₹20 LPA | [open](https://www.linkedin.com/jobs/view/4482634992) |
+| Paytm | Senior Manager Analytics | Mumbai | not stated | – | ~₹38–60 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482639889) |
+| Cult.fit | Membership Sales Consultant | Noida · Bengaluru · Bandra | 1+ yrs | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481038846) |
+| HiringBlaze | Product Manager - Payments & Core Ledger Systems | Bengaluru | 4-8 yrs | – | ₹25–35 LPA | [open](https://www.iimjobs.com/j/product-manager-payments-core-ledger-systems-fintech-1741760) |
+| Leadspire | Key Account Manager | Mumbai | 2-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/leadspire-key-account-manager-1741752) |
+| HireFlexperts | Business Development Manager – Affiliate (International) | Gurugram | 2-5 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482834942) |
+| Flipspaces | Product Manager | Mumbai | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482867017) |
+| HireVeda | Product Manager/Senior Product Manager - Data & Integrations | Noida | 4-7 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/senior-product-managerproduct-manager-data-integrations-healthcare-1741750) |
+| EY GDS | Associate - SaT - FS - SaT - TCF - Financial Diligence - Mumbai | Mumbai | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4463037687) |
 
 ## Tier C (5)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Manikaran Power Limited | Manager -Business Development and Strategy | Delhi | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483314262) |
-| Talent Corner HR Services Pvt Ltd | Business Development Manager | Navi Mumbai | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481029824) |
-| Tiger Food Ingredients Private Limited | Key Accounts Manager | India | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://in.indeed.com/viewjob?jk=c2c31b5c0edc5667) |
-| Maruti Suzuki | Fermented Organic Manure - FOM Utilization & Partnerships | India | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://maruti.app.param.ai/jobs/fermented-organic-manure-fom-utilization-partnerships/) |
-| Reckitt | IT&D Senior Business Analyst, Rewards & Benefits | Hyderabad | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4438828173) |
+| Thermo Fisher Scientific | Sr Product Manager | Singapore | 5-7 yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4481047545) |
+| Trustin Analytical solution | Manager of Sales and business development | Hyderabad | 5-10 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482653399) |
+| Amazon | Sr. Product Manager, MENA CX Improvements, Amazon Customer Service | Dubai · United Arab Emirates | 5+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4455796424) |
+| PayPay India | Senior Technical Program Manager | Gurugram | 5-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482862414) |
+| PepsiCo | Manager - Sales | Hyderabad | 2-4 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4454187052) |

@@ -47,10 +47,12 @@
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 13,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 500 Server Error: Internal Server Error for url: https://www.urbanclap.com/api/v2/platform-gateway/getAllJobs"
+   ]
   },
   "portal:google:Google": {
    "ok": 1,
@@ -181,7 +183,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 99,
+   "jobs": 98,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -745,7 +747,7 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 22,
+   "jobs": 23,
    "errors": []
   },
   "portal:keka:Fynd": {
@@ -796,12 +798,6 @@
    "jobs": 0,
    "errors": []
   },
-  "portal:keka:Meolaa": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 1,
-   "errors": []
-  },
   "portal:keka:NYU SOFT SOLUTIONS": {
    "ok": 1,
    "failed": 0,
@@ -847,7 +843,7 @@
   "portal:keka:TechDome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 13,
+   "jobs": 18,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
@@ -923,21 +919,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 97,
+   "ok": 98,
    "failed": 0,
-   "jobs": 193,
+   "jobs": 284,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 620,
+   "jobs": 1350,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 972,
+   "jobs": 954,
    "errors": []
   },
   "discovery:google": {
@@ -949,7 +945,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1337,
+   "jobs": 1368,
    "errors": []
   },
   "naukri (browser)": {
@@ -960,58 +956,55 @@
   }
  },
  "descriptions": {
-  "careers portal": 41,
-  "linkedin": 42,
-  "iimjobs": 2
+  "careers portal": 28,
+  "linkedin": 107,
+  "iimjobs": 3
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4857,
-   "after_filters": 957,
-   "kept_new": 34
+   "raw": 4848,
+   "after_filters": 959,
+   "kept_new": 37
   },
   "linkedin": {
-   "raw": 813,
-   "after_filters": 416,
-   "kept_new": 26
+   "raw": 1634,
+   "after_filters": 697,
+   "kept_new": 40
   },
   "indeed": {
-   "raw": 972,
-   "after_filters": 358,
-   "kept_new": 7
+   "raw": 954,
+   "after_filters": 334,
+   "kept_new": 2
   },
   "iimjobs": {
-   "raw": 1337,
-   "after_filters": 136
+   "raw": 1368,
+   "after_filters": 142,
+   "kept_new": 3
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Anand Rathi Share and Stock Brokers Ltd",
-   "FEUKEM INDIA PVT LTD",
-   "Eunoia Designtech",
-   "The Big Assets Corporation Private Limited",
-   "Milliman India",
-   "AssetsAdm",
-   "Vervotech, A Constellation Inc Company",
-   "Euler Motors",
-   "Smart Food Safe",
-   "GMG",
-   "Hirezy",
-   "Cavitak Marketing"
+   "BuildMyInfra",
+   "XGDS (Xpress Global Delivery Services)",
+   "Mardamed Healthcare",
+   "Precision Development (PxD)",
+   "EXL",
+   "HYrEzy Tech Solutions",
+   "Leadspire",
+   "Standard Chartered Bank"
   ],
-  "with_portal": 41
+  "with_portal": 42
  },
  "counts": {
-  "raw": 7979,
-  "after_filters": 1867,
-  "judged": 276,
-  "kept": 67,
-  "duplicates_folded": 38,
-  "on_dashboard": 1278,
+  "raw": 8804,
+  "after_filters": 2132,
+  "judged": 280,
+  "kept": 82,
+  "duplicates_folded": 43,
+  "on_dashboard": 1316,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
