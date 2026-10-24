@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 37,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,12 +59,10 @@
    "errors": []
   },
   "portal:workday:Walmart": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 500 Server Error: Internal Server Error for url: https://walmart.wd504.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 189,
+   "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
@@ -171,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 354,
+   "jobs": 356,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -183,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 100,
+   "jobs": 99,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -711,7 +709,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 149,
+   "jobs": 150,
    "errors": []
   },
   "portal:darwinbox:Doceree": {
@@ -729,7 +727,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 44,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -925,21 +923,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 98,
+   "ok": 97,
    "failed": 0,
-   "jobs": 220,
+   "jobs": 193,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 730,
+   "jobs": 620,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 990,
+   "jobs": 972,
    "errors": []
   },
   "discovery:google": {
@@ -951,7 +949,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1252,
+   "jobs": 1337,
    "errors": []
   },
   "naukri (browser)": {
@@ -962,54 +960,58 @@
   }
  },
  "descriptions": {
-  "careers portal": 36,
-  "linkedin": 47,
-  "iimjobs": 7
+  "careers portal": 41,
+  "linkedin": 42,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4664,
-   "after_filters": 947,
-   "kept_new": 39
+   "raw": 4857,
+   "after_filters": 957,
+   "kept_new": 34
   },
   "linkedin": {
-   "raw": 950,
-   "after_filters": 501,
-   "kept_new": 24
+   "raw": 813,
+   "after_filters": 416,
+   "kept_new": 26
   },
   "indeed": {
-   "raw": 990,
-   "after_filters": 367,
-   "kept_new": 6
+   "raw": 972,
+   "after_filters": 358,
+   "kept_new": 7
   },
   "iimjobs": {
-   "raw": 1252,
-   "after_filters": 129,
-   "kept_new": 5
+   "raw": 1337,
+   "after_filters": 136
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Shooting Stars Foundation",
-   "Staybook.in",
-   "Skybound Projects",
-   "Avalon Technologies Limited",
-   "Neuraleap Group",
-   "Route Mobile Limited",
-   "CA Monk"
+   "Anand Rathi Share and Stock Brokers Ltd",
+   "FEUKEM INDIA PVT LTD",
+   "Eunoia Designtech",
+   "The Big Assets Corporation Private Limited",
+   "Milliman India",
+   "AssetsAdm",
+   "Vervotech, A Constellation Inc Company",
+   "Euler Motors",
+   "Smart Food Safe",
+   "GMG",
+   "Hirezy",
+   "Cavitak Marketing"
   ],
-  "with_portal": 42
+  "with_portal": 41
  },
  "counts": {
-  "raw": 7856,
-  "after_filters": 1944,
-  "judged": 260,
-  "kept": 74,
-  "duplicates_folded": 43,
-  "on_dashboard": 1254,
+  "raw": 7979,
+  "after_filters": 1867,
+  "judged": 276,
+  "kept": 67,
+  "duplicates_folded": 38,
+  "on_dashboard": 1278,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
