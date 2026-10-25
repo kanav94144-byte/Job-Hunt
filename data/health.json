@@ -1,5 +1,5 @@
 {
- "run_date": "2026-10-24",
+ "run_date": "2026-10-25",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 33,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -47,12 +47,10 @@
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 500 Server Error: Internal Server Error for url: https://www.urbanclap.com/api/v2/platform-gateway/getAllJobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 9,
+   "errors": []
   },
   "portal:google:Google": {
    "ok": 1,
@@ -123,7 +121,7 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 27,
    "errors": []
   },
   "portal:workday:Mastercard": {
@@ -171,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 356,
+   "jobs": 352,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -429,7 +427,7 @@
   "portal:keka:Spyne": {
    "ok": 1,
    "failed": 0,
-   "jobs": 14,
+   "jobs": 15,
    "errors": []
   },
   "portal:ashby:Sarvam AI": {
@@ -729,13 +727,19 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 42,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
    "ok": 1,
    "failed": 0,
    "jobs": 3,
+   "errors": []
+  },
+  "portal:darwinbox:EXL": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 0,
    "errors": []
   },
   "portal:keka:Eloelo": {
@@ -759,13 +763,13 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 28,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 296,
+   "jobs": 297,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -789,7 +793,7 @@
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 153,
+   "jobs": 152,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -885,7 +889,7 @@
   "portal:workday:ZEISS Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 81,
+   "jobs": 82,
    "errors": []
   },
   "portal:keka:Zippee": {
@@ -897,13 +901,13 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 52,
+   "jobs": 50,
    "errors": []
   },
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 64,
+   "jobs": 62,
    "errors": []
   },
   "portal:darwinbox:sugar.fit": {
@@ -919,9 +923,9 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 98,
+   "ok": 97,
    "failed": 0,
-   "jobs": 284,
+   "jobs": 245,
    "errors": []
   },
   "discovery:linkedin": {
@@ -933,7 +937,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 954,
+   "jobs": 884,
    "errors": []
   },
   "discovery:google": {
@@ -945,7 +949,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1368,
+   "jobs": 957,
    "errors": []
   },
   "naukri (browser)": {
@@ -956,55 +960,51 @@
   }
  },
  "descriptions": {
-  "careers portal": 28,
-  "linkedin": 107,
-  "iimjobs": 3
+  "careers portal": 27,
+  "linkedin": 77
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4848,
-   "after_filters": 959,
-   "kept_new": 37
+   "raw": 4845,
+   "after_filters": 946,
+   "kept_new": 36
   },
   "linkedin": {
-   "raw": 1634,
-   "after_filters": 697,
-   "kept_new": 40
+   "raw": 1595,
+   "after_filters": 634,
+   "kept_new": 28
   },
   "indeed": {
-   "raw": 954,
-   "after_filters": 334,
-   "kept_new": 2
+   "raw": 884,
+   "after_filters": 296,
+   "kept_new": 4
   },
   "iimjobs": {
-   "raw": 1368,
-   "after_filters": 142,
-   "kept_new": 3
+   "raw": 957,
+   "after_filters": 43
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "BuildMyInfra",
-   "XGDS (Xpress Global Delivery Services)",
-   "Mardamed Healthcare",
-   "Precision Development (PxD)",
-   "EXL",
-   "HYrEzy Tech Solutions",
-   "Leadspire",
-   "Standard Chartered Bank"
+   "ALPLA Group",
+   "Kohinoor Group Pune",
+   "Growthora Advisory Private Limited",
+   "Hidden Brains InfoTech",
+   "Onfinity Technologies",
+   "RekNomics"
   ],
   "with_portal": 42
  },
  "counts": {
-  "raw": 8804,
-  "after_filters": 2132,
-  "judged": 280,
-  "kept": 82,
-  "duplicates_folded": 43,
-  "on_dashboard": 1316,
+  "raw": 8281,
+  "after_filters": 1919,
+  "judged": 247,
+  "kept": 68,
+  "duplicates_folded": 41,
+  "on_dashboard": 1274,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

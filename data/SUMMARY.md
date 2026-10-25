@@ -1,47 +1,42 @@
-# Job Hunt – 2026-10-24 17:39 UTC
+# Job Hunt – 2026-10-25 09:28 UTC
 
-**20 new roles today** · 1316 active on the dashboard
+**15 new roles today** · 1274 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4848 | 959 | 37 |
-| iimjobs | 1368 | 142 | 3 |
-| indeed | 954 | 334 | 2 |
-| linkedin | 1634 | 697 | 40 |
+| careers portal | 4845 | 946 | 36 |
+| iimjobs | 957 | 43 | 0 |
+| indeed | 884 | 296 | 4 |
+| linkedin | 1595 | 634 | 28 |
 
-Auto-watchlist: 400 companies (42 with a readable portal) · added: BuildMyInfra, XGDS (Xpress Global Delivery Services), Mardamed Healthcare, Precision Development (PxD), EXL, HYrEzy Tech Solutions, Leadspire, Standard Chartered Bank
+Auto-watchlist: 400 companies (42 with a readable portal) · added: ALPLA Group, Kohinoor Group Pune, Growthora Advisory Private Limited, Hidden Brains InfoTech, Onfinity Technologies, RekNomics
 
-## Tier A (6)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| BuildMyInfra | Manager- Founder Office | Gurugram | 4-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482654338) |
-| XGDS (Xpress Global Delivery Services) | Chief of Staff | Kochi | not stated | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482648223) |
-| Mardamed Healthcare | TPA & Business Development Manager – Healthcare Diagnostics | Bengaluru South | 3-15 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482661156) |
-| Standard Chartered Bank | Business Development Manager - SME BIL | India | 2-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://jobs.standardchartered.com/job/Business-Development-Manager-SME-BIL/64351-en_GB) |
-| Precision Development (PxD) | Program Manager (Heat Forecast) | Delhi | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483131934) |
-| EY GDS | Associate Analyst-RMS Personal Independence-GMS | Gurugram | 1+ yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481680733) |
-
-## Tier B (9)
+## Tier A (10)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| HYrEzy Tech Solutions | Sales & Channel Partnerships Manager (ERP / Supply Chain SaaS) | Gurugram | 4-8 yrs | – | ₹20 LPA | [open](https://www.linkedin.com/jobs/view/4482634992) |
-| Paytm | Senior Manager Analytics | Mumbai | not stated | – | ~₹38–60 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482639889) |
-| Cult.fit | Membership Sales Consultant | Noida · Bengaluru · Bandra | 1+ yrs | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481038846) |
-| HiringBlaze | Product Manager - Payments & Core Ledger Systems | Bengaluru | 4-8 yrs | – | ₹25–35 LPA | [open](https://www.iimjobs.com/j/product-manager-payments-core-ledger-systems-fintech-1741760) |
-| Leadspire | Key Account Manager | Mumbai | 2-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/leadspire-key-account-manager-1741752) |
-| HireFlexperts | Business Development Manager – Affiliate (International) | Gurugram | 2-5 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482834942) |
-| Flipspaces | Product Manager | Mumbai | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482867017) |
-| HireVeda | Product Manager/Senior Product Manager - Data & Integrations | Noida | 4-7 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/senior-product-managerproduct-manager-data-integrations-healthcare-1741750) |
-| EY GDS | Associate - SaT - FS - SaT - TCF - Financial Diligence - Mumbai | Mumbai | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4463037687) |
+| IDFC FIRST Bank | Senior Digital Product Manager | Mumbai | 4+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481082219) |
+| Growthora Advisory Private Limited | Business Development Manager | Ahmedabad | 3-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481043294) |
+| Kohinoor Group Pune | Product Strategy Manager | Pune | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483373309) |
+| PwC India | IN_Senior Associate_Scrum Master_GCC_Advisory_Bangalore | Bengaluru Millenia | not stated | Yes | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-Enovia-Developer-GCC-Advisory-Bangalore_743256WD-1) |
+| PwC India | IN_Senior Manager_SAP ABAP Hana _GCC_Advisory_Bangalore | Bengaluru Millenia | 3-10 yrs | Yes | ~₹38–58 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-SAP-ABAP-Hana--GCC-Advisory-Bangalore_739714WD-1) |
+| Hidden Brains InfoTech | Business Development Executive-ERP Sales | Ahmedabad | 3+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4416226436) |
+| Onfinity Technologies | Business Development Manager (BDM) | India | 3-4 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://in.indeed.com/viewjob?jk=1402928a4e3b9785) |
+| Supertails | Marketplace Growth Manager | Bengaluru | 1-3 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4480646544) |
+| Ananant Systems Private Limited | Technical Program Manager | Noida | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482870124) |
+| ALPLA Group | Executive – Business Development | Patancheru | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482866291) |
 
-## Tier C (5)
+## Tier B (2)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Thermo Fisher Scientific | Sr Product Manager | Singapore | 5-7 yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4481047545) |
-| Trustin Analytical solution | Manager of Sales and business development | Hyderabad | 5-10 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482653399) |
-| Amazon | Sr. Product Manager, MENA CX Improvements, Amazon Customer Service | Dubai · United Arab Emirates | 5+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4455796424) |
-| PayPay India | Senior Technical Program Manager | Gurugram | 5-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482862414) |
-| PepsiCo | Manager - Sales | Hyderabad | 2-4 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4454187052) |
+| RekNomics | Senior Product Manager | India | 4-7 yrs | – | ₹30–36 LPA | [open](https://join.com/companies/talentriseintcom/16870459-senior-product-manager?pid=a13795120131dbe48464) |
+| Accenture Strategy | IMU Strategy Senior Manager | Mumbai Metropolitan | not stated | – | ~₹38–58 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482881689) |
+
+## Tier C (3)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Kearney | Technology Intelligence Analyst, Electronics | Bengaluru | 5-10 yrs | Yes | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482679529) |
+| Amazon | Area Manager, Fulfilment centre | Hyderabad | 2+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10588211/area-manager-fulfilment-centre) |
+| Agilent Technologies | Channel Program Manager- APAC | Singapore | 5-7 yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4483157085) |
