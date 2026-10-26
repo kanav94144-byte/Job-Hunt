@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 42,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,13 +61,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 190,
+   "jobs": 192,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 96,
+   "jobs": 95,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -121,19 +121,19 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 27,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 129,
+   "jobs": 130,
    "errors": []
   },
   "portal:lever:CRED": {
    "ok": 1,
    "failed": 0,
-   "jobs": 8,
+   "jobs": 10,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -169,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 350,
+   "jobs": 349,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 93,
+   "jobs": 97,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 45,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -421,7 +421,7 @@
   "portal:ashby:Atlan": {
    "ok": 1,
    "failed": 0,
-   "jobs": 4,
+   "jobs": 5,
    "errors": []
   },
   "portal:keka:Spyne": {
@@ -619,7 +619,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 47,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -661,7 +661,7 @@
   "portal:darwinbox:Duroflex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 34,
    "errors": []
   },
   "portal:greenhouse:BlueStone": {
@@ -679,7 +679,7 @@
   "portal:smartrecruiters:AbbVie": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 32,
    "errors": []
   },
   "portal:ashby:Airbound": {
@@ -694,22 +694,10 @@
    "jobs": 10,
    "errors": []
   },
-  "portal:darwinbox:ClearTax": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 15,
-   "errors": []
-  },
-  "portal:smartrecruiters:Colliers": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 36,
-   "errors": []
-  },
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 151,
+   "jobs": 166,
    "errors": []
   },
   "portal:darwinbox:Doceree": {
@@ -727,13 +715,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
-   "errors": []
-  },
-  "portal:smartrecruiters:EVERSANA": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 1,
+   "jobs": 46,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -751,7 +733,7 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 29,
    "errors": []
   },
   "portal:keka:Fynd": {
@@ -763,19 +745,19 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 35,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 287,
+   "jobs": 294,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 78,
    "errors": []
   },
   "portal:keka:InXiteOut": {
@@ -793,7 +775,7 @@
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 152,
+   "jobs": 154,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -805,13 +787,13 @@
   "portal:keka:Nutrabay": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 31,
    "errors": []
   },
   "portal:smartrecruiters:Red Bull": {
    "ok": 1,
    "failed": 0,
-   "jobs": 13,
+   "jobs": 11,
    "errors": []
   },
   "portal:keka:Renee Cosmetics": {
@@ -859,7 +841,7 @@
   "portal:keka:TrueFan": {
    "ok": 1,
    "failed": 0,
-   "jobs": 15,
+   "jobs": 14,
    "errors": []
   },
   "portal:keka:Unicommerce": {
@@ -868,10 +850,16 @@
    "jobs": 2,
    "errors": []
   },
+  "portal:keka:VivaConnect Pvt Ltd": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 11,
+   "errors": []
+  },
   "portal:lever:Weekday": {
    "ok": 1,
    "failed": 0,
-   "jobs": 51,
+   "jobs": 52,
    "errors": []
   },
   "portal:workday:ZEISS Group": {
@@ -889,13 +877,13 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 51,
+   "jobs": 53,
    "errors": []
   },
   "portal:darwinbox:airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 63,
+   "jobs": 64,
    "errors": []
   },
   "portal:darwinbox:sugar.fit": {
@@ -913,19 +901,19 @@
   "linkedin": {
    "ok": 97,
    "failed": 0,
-   "jobs": 173,
+   "jobs": 163,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1350,
+   "jobs": 770,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 844,
+   "jobs": 884,
    "errors": []
   },
   "discovery:google": {
@@ -937,7 +925,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 625,
+   "jobs": 850,
    "errors": []
   },
   "naukri (browser)": {
@@ -948,74 +936,55 @@
   }
  },
  "descriptions": {
-  "careers portal": 54,
-  "linkedin": 146,
-  "iimjobs": 23
+  "careers portal": 40,
+  "linkedin": 78,
+  "iimjobs": 24
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4826,
-   "after_filters": 946,
-   "kept_new": 60
+   "raw": 4837,
+   "after_filters": 929,
+   "kept_new": 39
   },
   "linkedin": {
-   "raw": 1523,
-   "after_filters": 604,
-   "kept_new": 45
+   "raw": 933,
+   "after_filters": 449,
+   "kept_new": 36
   },
   "indeed": {
-   "raw": 844,
-   "after_filters": 252,
-   "kept_new": 6
+   "raw": 884,
+   "after_filters": 296,
+   "kept_new": 5
   },
   "iimjobs": {
-   "raw": 625,
-   "after_filters": 47,
-   "kept_new": 11
+   "raw": 850,
+   "after_filters": 86,
+   "kept_new": 9
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "NetSysCon Consulting",
-   "WTF",
-   "Digital Corridor",
-   "VisionOSH Technologies",
-   "The Hackett Group Inc.",
-   "BenAc Business Solutions Pvt Ltd",
-   "Vama Industries Limited",
-   "KVGGN SYNERGY PRIVATE LIMITED",
-   "The Bangalore Sales Corporation",
-   "GrowthAlly Advisors Private Limited",
-   "GrayQuest",
-   "MantraCare",
-   "The Convergence Foundation",
-   "Zydus Wellness",
-   "Infor",
-   "Encloud Tech Solutions Private Ltd",
-   "Intellect Design Arena Ltd",
-   "Revent Labs",
-   "Mobicule Technologies Pvt. Ltd.",
-   "CareMother by Doto Health",
-   "GoBoult",
-   "Cheq Digital Private Limited",
-   "IDfy",
-   "Sav Technologies",
-   "iD Fresh Food",
-   "VivaConnect Pvt Ltd",
-   "CSTEP"
+   "Filter You",
+   "Aspire Fertility Center",
+   "Pragma Edge Inc",
+   "YesMadam",
+   "Walk In Solutions",
+   "USHRAMEDGE TECHNOLOGIES PRIVATE LIMITED",
+   "Zoomies Petcare",
+   "Simera Sense"
   ],
-  "with_portal": 38
+  "with_portal": 37
  },
  "counts": {
-  "raw": 7818,
-  "after_filters": 1849,
-  "judged": 571,
-  "kept": 122,
+  "raw": 7504,
+  "after_filters": 1760,
+  "judged": 499,
+  "kept": 89,
   "duplicates_folded": 30,
-  "on_dashboard": 1342,
+  "on_dashboard": 1385,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
