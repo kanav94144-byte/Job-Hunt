@@ -316,7 +316,7 @@
  },
  "Anlage Infotech": {
   "type": null,
-  "checked": "2026-10-12"
+  "checked": "2026-10-27"
  },
  "Annapoorna": {
   "type": null,
@@ -474,7 +474,7 @@
  },
  "Bajaj Finserv": {
   "type": null,
-  "checked": "2026-10-12"
+  "checked": "2026-10-27"
  },
  "Bajaj Life": {
   "type": null,
@@ -2206,7 +2206,7 @@
  },
  "Infosys": {
   "type": null,
-  "checked": "2026-10-12"
+  "checked": "2026-10-27"
  },
  "Infra.Market": {
   "type": null,
@@ -2254,6 +2254,21 @@
  "IserveU": {
   "type": null,
   "checked": "2026-09-24"
+ },
+ "JLL": {
+  "type": "workday",
+  "tenant": "jll",
+  "wd": "wd1",
+  "site": "jllcareers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-27"
  },
  "JPMorganChase": {
   "type": null,
@@ -2369,7 +2384,7 @@
  },
  "KWAN VENTURES": {
   "type": null,
-  "checked": "2026-10-12"
+  "checked": "2026-10-27"
  },
  "Kaar Ventures": {
   "type": null,
@@ -3015,6 +3030,10 @@
   "type": null,
   "checked": "2026-09-25"
  },
+ "NTT DATA North America": {
+  "type": null,
+  "checked": "2026-10-27"
+ },
  "NVIDIA": {
   "type": "workday",
   "tenant": "nvidia",
@@ -3288,7 +3307,7 @@
  },
  "Okta": {
   "type": null,
-  "checked": "2026-10-01"
+  "checked": "2026-10-27"
  },
  "Ola": {
   "type": null,
@@ -3360,7 +3379,7 @@
  },
  "PW (PhysicsWallah)": {
   "type": null,
-  "checked": "2026-10-12"
+  "checked": "2026-10-27"
  },
  "Palette Hire": {
   "type": null,
@@ -4026,6 +4045,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Shine Infosoft": {
+  "type": null,
+  "checked": "2026-10-27"
+ },
  "Shinewell": {
   "type": null,
   "checked": "2026-09-24"
@@ -4110,7 +4133,7 @@
  },
  "SkillDzire": {
   "type": null,
-  "checked": "2026-10-12"
+  "checked": "2026-10-27"
  },
  "SkillLabs": {
   "type": null,
@@ -4676,7 +4699,7 @@
  },
  "Trail": {
   "type": null,
-  "checked": "2026-10-01"
+  "checked": "2026-10-27"
  },
  "TransCurators": {
   "type": null,
