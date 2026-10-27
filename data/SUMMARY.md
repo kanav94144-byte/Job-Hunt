@@ -1,71 +1,57 @@
-# Job Hunt – 2026-10-27 10:01 UTC
+# Job Hunt – 2026-10-27 15:35 UTC
 
-**44 new roles today** · 1328 active on the dashboard
+**30 new roles today** · 1381 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 4790 | 924 | 44 |
-| iimjobs | 732 | 112 | 5 |
-| indeed | 950 | 332 | 4 |
-| linkedin | 1164 | 567 | 37 |
+| careers portal | 5161 | 1007 | 42 |
+| iimjobs | 849 | 133 | 7 |
+| indeed | 1013 | 358 | 13 |
+| linkedin | 1037 | 459 | 29 |
 
-Auto-watchlist: 400 companies (37 with a readable portal) · added: Ziroh Labs, Ridhira Group - Building World's largest Wellness Communities, HoduSoft, EduRun Group, Maarque Up Media, Bakersville India Pvt. Ltd, Tata Realty And Infrastructure Ltd, ValuEnable, LehLah, EduVritti, Zepcruit, Helo.ai by VivaConnect, AJK Innovation Incubator Foundation, Peergrowth, Aretius Advisory
+Auto-watchlist: 400 companies (38 with a readable portal) · added: GlobalData Plc, Concret.io, Salesduo, Property 365
 
-## Tier A (16)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Wipro | Assistant Marketing Manager - AI‑Native Business & Platforms Unit | India | 3-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://careers.wipro.com/job/Assistant-Marketing-Manager-AI%E2%80%91Native-Business-&-Platforms-Unit/213730-en_US) |
-| LehLah | Brand Partnerships & Analysis Lead | Mumbai | 2-4 yrs | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481839792) |
-| Tata Realty And Infrastructure Ltd | Lead Strategy | Mumbai | 2-3 yrs | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481855963) |
-| Peergrowth | Chief of Staff | Dubai · United Arab Emirates | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4484023225) |
-| HoduSoft | Business Development Manager (VoIP) | Ahmedabad | 4+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481860233) |
-| AJK Innovation Incubator Foundation | Program Manager – Operations & Grants | Coimbatore | 3-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483608604) |
-| Ziroh Labs | Growth Marketing Manager | Bengaluru | 4-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483795937) |
-| ValuEnable | Business Development Manager - Gurgaon | Mumbai | 4-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481845696) |
-| Ridhira Group - Building World's largest Wellness Communities | Growth Marketing Manager | Hyderabad | 3-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483615155) |
-| Bakersville India Pvt. Ltd | Category Manager | Indore | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481876032) |
-| EduRun Group | Business Development Manager | Hyderabad | 3-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481834798) |
-| Dot & Key | Supply Planning Lead | Kolkata | not stated | Yes | ~₹28–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483298703) |
-| NTT DATA | Business Development Advisor | India | 2-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://careers.nttdata.com/global/en/job/393372) |
-| Maarque Up Media | Business Development Manager | Jaipur | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4482944428) |
-| Helo.ai by VivaConnect | Product Manager | Mumbai Metropolitan | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483246107) |
-| EduVritti | Business Development Manager (BDM) – Agency Channel | Haldwani | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483247880) |
-
-## Tier B (12)
+## Tier A (12)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Corenza | Founder Office | Bengaluru | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484012895) |
-| Urban Company | Category Manager - Copy | Bengaluru | 2+ yrs | – | ~₹25–40 LPA (est.) | [open](https://urbancompany.turbohire.co/job/publicjobs/6d411ece-6cd6-43b2-82d0-5bd2ad3ed7c9?utm_source=CareerPage) |
-| PwC India | IN_Associate_Forensic–Investigations & Disputes_Advisory_Mumbai | Mumbai Shivaji Park | not stated | – | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Mumbai-Shivaji-Park/IN-Associate--KYC-AML-FinCrime-Managed-Services--COE---KYC--Advisory-Bangalore_746210WD-1) |
-| Pocket FM | Associate Growth Manager | Bengaluru | 0-2 yrs | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481867439) |
-| Mastercard | Manager, Product Data & Analytics | Gurugram | not stated | – | ~₹30–50 LPA (est.) | [open](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Gurgaon-India/Manager--Product-Data---Analytics_R-294717) |
-| Gartner | Business Operations Specialist | Gurugram | 2+ yrs | – | ~₹10–20 LPA (est.) | [open](https://gartner.wd5.myworkdayjobs.com/EXT/job/Gurgaon/Business-Operations-Specialist_113589-1) |
-| Rippling India | Sales Development Manager (UK) | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483617174) |
-| Cult.fit | Launch Program Manager | Bengaluru | not stated | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481859185) |
-| Valarr | Founder's Office Associate | Delhi | 2-4 yrs | – | ~₹10–20 LPA (est.) | [open](https://www.iimjobs.com/j/founders-office-associate-d2c-1742125) |
-| Aretius Advisory | Product Manager - Demand | Bengaluru | 3-7 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/senior-product-manager-demand-ecommerce-1742112) |
-| Spyne | Founding Growth Lead (AI Agents) | Gurugram | not stated | – | ~₹30–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4189938323) |
-| Paytm | Product Manager | Bengaluru | 3-7 yrs | – | ~₹26–42 LPA (est.) | [open](https://www.iimjobs.com/j/paytm-product-manager-1742187) |
+| GlobalData Plc | Consultant | Hyderabad | 2-4 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481865887) |
+| Deloitte USI | Consultant - Standardized Strategic Support Services - Program Strategy - Hyderabad | Hyderabad | 4-6 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483626468) |
+| Property 365 | OEM Alliance & Business Development Manager | India | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://in.indeed.com/viewjob?jk=6d2a553a7493e376) |
+| PwC India | IN_Senior Associate_SAP Technical Consultant  _GCC_Advisory_Bangalore | Bengaluru Millenia | 2-4 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-SAP-ABAP-Hana-GCC-Advisory-Bangalore_725270WD-1) |
+| Standard Chartered Bank | Product Owner- Client Due Diligence, CLM | India | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://jobs.standardchartered.com/job/Product-Owner-Client-Due-Diligence%2C-CLM/64222-en_GB) |
+| EY GDS | Associate - Policy | Gurugram | 0-4 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483648114) |
+| Deloitte USI | Senior Analyst - Power & Utilities, Energy Resources & Industries (ER&I), R&I - Hyderabad/Mumbai | Hyderabad | 3-4 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-EH27-CS-G-R-I-L35-Senior-Analyst-Power-Utilities-Energy-Resources-Industries-ER-I-Hyderabad-Mumbai/371412) |
+| Bain & Company | Associate– AMS Tech | Gurugram | 2-5 yrs | Yes | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484061125) |
+| Bain & Company | Associate- AMS | Gurugram | 2-5 yrs | Yes | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484057285) |
+| Reckitt | R&D PDM Associate - Self Care | Gurugram | not stated | Yes | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484027898) |
+| JLL | Manager, Strategic Consulting | Mumbai | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://jll.wd1.myworkdayjobs.com/jllcareers/job/Mumbai-MH/Manager--Strategic-Consulting_REQ489781) |
+| JLL | Portfolio Consultant | Gurugram | 3-4 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://jll.wd1.myworkdayjobs.com/jllcareers/job/Gurugram-HR/Portfolio-Consultant_REQ495936) |
 
-## Tier C (16)
+## Tier B (11)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Mirchi | Product Manager | Noida | 5-10 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484022839) |
-| TGM SERVICES | Manager Strategic Partnerships | Noida | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483294533) |
-| PwC India | IN_Senior Associate_SAP MDG_GCC_Advisory_Bangalore | Bengaluru Millenia | 5-8 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Manager-SAP-MDG-GCC-Advisory-Bangalore_758168WD-1) |
-| STAQO | Business Development Manager | Noida | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483605559) |
-| FABINDIA LIMITED | Category Manager - Soft Home | Faridabad | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481857034) |
-| Salesforce | Lead Employee Success People Consultant (Fixed Term Contract - 12 Months) | India Hyderabad | 5-7 yrs | – | ~₹45–75 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Lead-Employee-Success-People-Consultant--Fixed-Term-Contract---12-Months-_JR365839) |
-| Booking Holdings (Agoda/Booking.com) | Customer Service, Escalation - Team Manager (Hindi) | Kochadhaman | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483609379) |
-| Booking Holdings (Agoda/Booking.com) | Team Manager, Customer Satisfaction & Incident (CSI) - English & Hindi Speaking | Kochadhaman | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483611286) |
-| PwC India | IN_Senior Associate_QA Automation Tester_GCC_Advisory_Bangalore | Bengaluru Millenia | 4-8 yrs | – | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Bengaluru-Millenia/IN-Senior-Associate-Automation-Test-Engineer-GCC-Advisory-Bangalore_746088WD-1) |
-| Amazon | Network Config Manager I, IN Network Engg & Optimization | Bengaluru | 2+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10589594/network-config-manager-i-in-network-engg-optimization) |
-| American Express | Analyst-Ops Risk Mgmt | Gurugram | 0-2 yrs | – | ~₹20–32 LPA (est.) | [open](https://careers.americanexpress.com/en/sites/CX_1/job/26015381) |
-| ReNew | Manager- Investment Committee | Gurugram | 4-8 yrs | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484020534) |
-| Udaan | Corporate Relation Manager | Gurugram · Greater Kolkata | not stated | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483292559) |
-| Yulu | Operations Associate | Bengaluru | not stated | – | ~₹12–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484021616) |
-| Cushman & Wakefield | Manager - Business Development | Bengaluru | 5+ yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483538424) |
-| High Impact Talent | National Key Account Manager | Bengaluru | 5-10 yrs | – | ₹20–25 LPA | [open](https://www.iimjobs.com/j/national-key-account-manager-quick-commerce-sales-marketing-1742199) |
+| JPMorganChase | Product Manager - Commercial Card Product | India | 4+ yrs | – | ~₹18–32 LPA (est.) | [open](https://JPMorganChase.contacthr.com/154035614) |
+| Accenture Strategy | I&P GN - I&E - Life Science Commercial Consultant - Process Excellence-PE | Gurugram | 3-7 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483627007) |
+| PayU | Product Manager - SMB Lending | Mumbai Metropolitan | 3+ yrs | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481874579) |
+| Google | Silicon Networking Lead, Google Cloud | Bengaluru | 2+ yrs | – | ~₹45–75 LPA (est.) | [open](https://www.google.com/about/careers/applications/jobs/results/93245922162418374-program-manager-ii-integrated-fleet-actions-and-systems) |
+| Razorpay | AI Builder | Bengaluru | not stated | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484041127) |
+| Bain & Company | Associate Full Stack – Consumer Products AI | India | 2-5 yrs | – | ~₹20–32 LPA (est.) | [open](https://careers.bain.com/jobs/FolderDetail/Associate-Full-Stack-Consumer-Products-AI/112008) |
+| Concret.io | BDE AI | Jaipur | 3-6 yrs | – | USD 15k–75k | [open](https://www.linkedin.com/jobs/view/4483631996) |
+| Sarvam AI | Product & Strategy Associate | Bengaluru | 2+ yrs | – | ~₹12–20 LPA (est.) | [open](https://jobs.ashbyhq.com/sarvam/786e9a1b-e52d-4075-932d-66e4ad8e06c2) |
+| EY GDS | Global C and I Strategic Operations Support | Kochi | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483639792) |
+| Tata 1mg | Consultant - Pharmacist || Gurgaon || Clinical Excellence | Gurugram | 2-4 yrs | – | ~₹16–26 LPA (est.) | [open](https://1mg.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6a90144d125bd) |
+| The Talent Keepers | Group Product Manager/Senior Product Manager/Product Manager |  | 4-15 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/group-product-managersenior-product-managerproduct-manager-ophthalmology-segment-pharma-1742204) |
+
+## Tier C (7)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Iscon Balaji Foods | Key Accounts Manager - QCom | Mumbai | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481839687) |
+| ZS Associates | Senior Identity & Access Management Analyst | Pune | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4481870590) |
+| ITC | Salesforce Data Cloud - Bangalore / Gurgaon / Hyderabad / Pune /Kolkata | Bengaluru | not stated | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483616639) |
+| Livspace | Interior Sales Lead | Bengaluru | 5-8 yrs | – | ~₹36–55 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483622246) |
+| Embark Group | Consultant - II - Product & Pricing |  | 5-9 yrs | – | ~₹10–20 LPA (est.) | [open](https://www.iimjobs.com/j/embark-group-product-pricing-consultant-bankingfinancial-services-1742286) |
+| GCC Nexus | Digital Growth and Marketing Manager | Bengaluru | 5-9 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/digital-growth-and-marketing-manager-internetonlineecommerce-1742301) |
+| Pepup HR Consulting | Lead - Strategy & Media Relations | Delhi | 5-11 yrs | – | ~₹28–45 LPA (est.) | [open](https://www.iimjobs.com/j/lead-strategy-media-relations-1742210) |
