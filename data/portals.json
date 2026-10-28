@@ -334,6 +334,10 @@
   "type": null,
   "checked": "2026-10-20"
  },
+ "Antal International India Network": {
+  "type": null,
+  "checked": "2026-10-28"
+ },
  "Antino": {
   "type": null,
   "checked": "2026-10-14"
@@ -428,6 +432,10 @@
  "Atlassian": {
   "type": null,
   "checked": "2026-10-23"
+ },
+ "Auric AI Labs": {
+  "type": null,
+  "checked": "2026-10-28"
  },
  "Autonex AI": {
   "type": null,
@@ -1342,6 +1350,10 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "Eli Lilly": {
+  "type": null,
+  "checked": "2026-10-28"
+ },
  "Elite Elevators": {
   "type": null,
   "checked": "2026-09-26"
@@ -1407,6 +1419,10 @@
  "Ennoventure Technologies": {
   "type": null,
   "checked": "2026-10-09"
+ },
+ "Envision Next": {
+  "type": null,
+  "checked": "2026-10-28"
  },
  "Epigamia": {
   "type": null,
@@ -3267,7 +3283,7 @@
  },
  "NextDimension AI": {
   "type": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-28"
  },
  "Nextbigbox": {
   "type": null,
@@ -3419,6 +3435,10 @@
   "type": null,
   "checked": "2026-10-23"
  },
+ "Olive Trees Consulting": {
+  "type": null,
+  "checked": "2026-10-28"
+ },
  "Oliveboard Comptech": {
   "type": null,
   "checked": "2026-09-24"
@@ -3453,7 +3473,7 @@
  },
  "Open Links Foundation": {
   "type": null,
-  "checked": "2026-10-06"
+  "checked": "2026-10-28"
  },
  "Optimized Solutions": {
   "type": null,
@@ -3694,8 +3714,19 @@
   "checked": "2026-10-23"
  },
  "Priceline": {
-  "type": null,
-  "checked": "2026-10-23"
+  "type": "workday",
+  "tenant": "priceline",
+  "wd": "wd1",
+  "site": "Priceline",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-28"
  },
  "Pristyn Care": {
   "type": "darwinbox",
@@ -3989,6 +4020,10 @@
  "Route Mobile Limited": {
   "type": null,
   "checked": "2026-10-24"
+ },
+ "Runmap Infotech": {
+  "type": null,
+  "checked": "2026-10-28"
  },
  "Rupeek": {
   "type": "darwinbox",
@@ -4554,7 +4589,7 @@
  },
  "TELUS Digital": {
   "type": null,
-  "checked": "2026-10-10"
+  "checked": "2026-10-28"
  },
  "TENCYS": {
   "type": null,
@@ -4669,6 +4704,10 @@
  "TechUp Labs": {
   "type": null,
   "checked": "2026-10-20"
+ },
+ "TechXR innovations Private Limited": {
+  "type": null,
+  "checked": "2026-10-28"
  },
  "Techdome": {
   "type": "keka",
@@ -5045,6 +5084,10 @@
  "Valarr": {
   "type": null,
   "checked": "2026-10-23"
+ },
+ "Valence Advanced Materials": {
+  "type": null,
+  "checked": "2026-10-28"
  },
  "ValetEZ": {
   "type": null,

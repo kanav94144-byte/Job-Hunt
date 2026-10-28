@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 52,
+   "jobs": 47,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,13 +61,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 194,
+   "jobs": 193,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 95,
+   "jobs": 94,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -127,7 +127,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 131,
+   "jobs": 130,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -169,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 357,
+   "jobs": 349,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 95,
+   "jobs": 91,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 44,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -697,7 +697,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 160,
+   "jobs": 155,
    "errors": []
   },
   "portal:darwinbox:Doceree": {
@@ -739,13 +739,13 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 40,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 294,
+   "jobs": 293,
    "errors": []
   },
   "portal:keka:HoduSoft": {
@@ -767,10 +767,12 @@
    "errors": []
   },
   "portal:workday:JLL": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 397,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 502 Server Error: Bad Gateway for url: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs"
+   ]
   },
   "portal:workday:MAERSK": {
    "ok": 1,
@@ -868,12 +870,6 @@
    "jobs": 60,
    "errors": []
   },
-  "portal:darwinbox:Zydus Group": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 53,
-   "errors": []
-  },
   "portal:darwinbox:sugar.fit": {
    "ok": 1,
    "failed": 0,
@@ -889,7 +885,7 @@
   "linkedin": {
    "ok": 97,
    "failed": 0,
-   "jobs": 326,
+   "jobs": 352,
    "errors": []
   },
   "discovery:linkedin": {
@@ -901,7 +897,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1019,
+   "jobs": 1022,
    "errors": []
   },
   "discovery:google": {
@@ -913,7 +909,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1363,
+   "jobs": 885,
    "errors": []
   },
   "naukri (browser)": {
@@ -924,60 +920,50 @@
   }
  },
  "descriptions": {
-  "careers portal": 47,
-  "linkedin": 128,
-  "iimjobs": 8
+  "careers portal": 25,
+  "linkedin": 47
  },
  "linkedin_detail_blocked": false,
- "portals_learned_from_links": 0,
+ "portals_learned_from_links": 1,
  "funnel": {
   "careers portal": {
-   "raw": 5062,
-   "after_filters": 999,
-   "kept_new": 39
+   "raw": 4587,
+   "after_filters": 879,
+   "kept_new": 29
   },
   "linkedin": {
-   "raw": 1676,
-   "after_filters": 778,
-   "kept_new": 42
+   "raw": 1702,
+   "after_filters": 779,
+   "kept_new": 27
   },
   "indeed": {
-   "raw": 1019,
-   "after_filters": 365,
-   "kept_new": 17
+   "raw": 1022,
+   "after_filters": 354,
+   "kept_new": 9
   },
   "iimjobs": {
-   "raw": 1363,
-   "after_filters": 130,
-   "kept_new": 5
+   "raw": 885,
+   "after_filters": 130
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Open Links Foundation",
-   "NextDimension AI",
-   "Auric AI Labs",
-   "Mobileye",
-   "Valence Advanced Materials",
-   "Olive Trees Consulting",
-   "Antino",
-   "Antal International India Network",
-   "Runmap Infotech",
-   "Envision Next",
-   "TechXR innovations Private Limited",
-   "TELUS Digital",
-   "Eli Lilly"
+   "Infidigit",
+   "San DaTrans Private Ltd.",
+   "Blue Matter",
+   "Heads Up For Tails",
+   "General Mills"
   ],
-  "with_portal": 35
+  "with_portal": 36
  },
  "counts": {
-  "raw": 9120,
-  "after_filters": 2272,
-  "judged": 498,
-  "kept": 103,
-  "duplicates_folded": 36,
-  "on_dashboard": 1448,
+  "raw": 8196,
+  "after_filters": 2142,
+  "judged": 178,
+  "kept": 65,
+  "duplicates_folded": 37,
+  "on_dashboard": 1465,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
