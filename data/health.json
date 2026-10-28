@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 52,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 195,
+   "jobs": 194,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -85,7 +85,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 118,
+   "jobs": 117,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -127,7 +127,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 130,
+   "jobs": 131,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -169,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 355,
+   "jobs": 357,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 93,
+   "jobs": 95,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -205,7 +205,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 52,
+   "jobs": 51,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -221,12 +221,10 @@
    "errors": []
   },
   "portal:workday:Diageo India": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 45,
+   "errors": []
   },
   "portal:darwinbox:Cars24": {
    "ok": 1,
@@ -237,7 +235,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 94,
+   "jobs": 98,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -429,7 +427,7 @@
   "portal:keka:Spyne": {
    "ok": 1,
    "failed": 0,
-   "jobs": 16,
+   "jobs": 10,
    "errors": []
   },
   "portal:ashby:Sarvam AI": {
@@ -621,7 +619,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 47,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -699,7 +697,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 161,
+   "jobs": 160,
    "errors": []
   },
   "portal:darwinbox:Doceree": {
@@ -711,13 +709,13 @@
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
    "ok": 1,
    "failed": 0,
-   "jobs": 7,
+   "jobs": 8,
    "errors": []
   },
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 49,
+   "jobs": 46,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -735,13 +733,7 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
-   "errors": []
-  },
-  "portal:keka:Fynd": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 57,
+   "jobs": 28,
    "errors": []
   },
   "portal:workday:Gartner": {
@@ -765,7 +757,7 @@
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 78,
+   "jobs": 79,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
@@ -777,13 +769,13 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 393,
+   "jobs": 397,
    "errors": []
   },
   "portal:workday:MAERSK": {
    "ok": 1,
    "failed": 0,
-   "jobs": 155,
+   "jobs": 153,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -867,7 +859,7 @@
   "portal:workday:ZEISS Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 78,
+   "jobs": 77,
    "errors": []
   },
   "portal:keka:Zippee": {
@@ -895,15 +887,15 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 98,
+   "ok": 97,
    "failed": 0,
-   "jobs": 338,
+   "jobs": 326,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1329,
+   "jobs": 1350,
    "errors": []
   },
   "discovery:indeed": {
@@ -921,7 +913,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1134,
+   "jobs": 1363,
    "errors": []
   },
   "naukri (browser)": {
@@ -932,59 +924,60 @@
   }
  },
  "descriptions": {
-  "careers portal": 38,
-  "linkedin": 109,
-  "iimjobs": 16
+  "careers portal": 47,
+  "linkedin": 128,
+  "iimjobs": 8
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5073,
-   "after_filters": 993,
-   "kept_new": 46
+   "raw": 5062,
+   "after_filters": 999,
+   "kept_new": 39
   },
   "linkedin": {
-   "raw": 1667,
-   "after_filters": 762,
-   "kept_new": 32
+   "raw": 1676,
+   "after_filters": 778,
+   "kept_new": 42
   },
   "indeed": {
    "raw": 1019,
-   "after_filters": 341,
-   "kept_new": 13
+   "after_filters": 365,
+   "kept_new": 17
   },
   "iimjobs": {
-   "raw": 1134,
-   "after_filters": 102,
-   "kept_new": 9
+   "raw": 1363,
+   "after_filters": 130,
+   "kept_new": 5
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "V2 Retail Ltd",
-   "United Descaler Private Limited",
-   "Lavina",
-   "TAXPERT PRO ACC",
-   "Akrys AI Healthcare Pvt Ltd.",
-   "Optimum Data Analytics",
-   "Ivy and Prime",
-   "r3 Consultant",
-   "Sortedhat",
-   "Irage Broking Services",
-   "Clinton Foundation",
-   "OFFICE STAG SOLUTIONS PVT. LTD."
+   "Open Links Foundation",
+   "NextDimension AI",
+   "Auric AI Labs",
+   "Mobileye",
+   "Valence Advanced Materials",
+   "Olive Trees Consulting",
+   "Antino",
+   "Antal International India Network",
+   "Runmap Infotech",
+   "Envision Next",
+   "TechXR innovations Private Limited",
+   "TELUS Digital",
+   "Eli Lilly"
   ],
-  "with_portal": 36
+  "with_portal": 35
  },
  "counts": {
-  "raw": 8893,
-  "after_filters": 2198,
-  "judged": 426,
-  "kept": 100,
-  "duplicates_folded": 31,
-  "on_dashboard": 1387,
+  "raw": 9120,
+  "after_filters": 2272,
+  "judged": 498,
+  "kept": 103,
+  "duplicates_folded": 36,
+  "on_dashboard": 1448,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
