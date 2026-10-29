@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 40,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -47,10 +47,12 @@
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 10,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "ReadTimeout: HTTPSConnectionPool(host='www.urbanclap.com', port=443): Read timed out. (read timeout=30)"
+   ]
   },
   "portal:google:Google": {
    "ok": 1,
@@ -61,13 +63,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 185,
+   "jobs": 180,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 96,
+   "jobs": 95,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -85,7 +87,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 116,
+   "jobs": 118,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -127,7 +129,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 127,
+   "jobs": 124,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -169,7 +171,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 356,
+   "jobs": 347,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +183,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 87,
+   "jobs": 82,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +225,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 38,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -673,13 +675,13 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 71,
+   "jobs": 75,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 31,
    "errors": []
   },
   "portal:ashby:Airbound": {
@@ -697,7 +699,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 150,
+   "jobs": 146,
    "errors": []
   },
   "portal:darwinbox:Doceree": {
@@ -715,7 +717,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 40,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -733,31 +735,25 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 28,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 40,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 295,
+   "jobs": 276,
    "errors": []
   },
   "portal:keka:HoduSoft": {
    "ok": 1,
    "failed": 0,
    "jobs": 7,
-   "errors": []
-  },
-  "portal:workday:Huron Consulting Group": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 80,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
@@ -769,19 +765,13 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 398,
-   "errors": []
-  },
-  "portal:workday:MAERSK": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 152,
+   "jobs": 379,
    "errors": []
   },
   "portal:workday:Priceline": {
    "ok": 1,
    "failed": 0,
-   "jobs": 21,
+   "jobs": 22,
    "errors": []
   },
   "portal:smartrecruiters:Red Bull": {
@@ -875,9 +865,9 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 97,
+   "ok": 98,
    "failed": 0,
-   "jobs": 336,
+   "jobs": 331,
    "errors": []
   },
   "discovery:linkedin": {
@@ -889,7 +879,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 993,
+   "jobs": 1002,
    "errors": []
   },
   "discovery:google": {
@@ -901,7 +891,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1418,
+   "jobs": 1072,
    "errors": []
   },
   "naukri (browser)": {
@@ -912,54 +902,48 @@
   }
  },
  "descriptions": {
-  "careers portal": 58,
-  "linkedin": 104,
-  "iimjobs": 8
+  "careers portal": 27,
+  "linkedin": 43,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4969,
-   "after_filters": 982,
-   "kept_new": 41
+   "raw": 4643,
+   "after_filters": 908,
+   "kept_new": 31
   },
   "linkedin": {
-   "raw": 1686,
-   "after_filters": 735,
-   "kept_new": 28
+   "raw": 1681,
+   "after_filters": 734,
+   "kept_new": 19
   },
   "indeed": {
-   "raw": 993,
-   "after_filters": 336,
+   "raw": 1002,
+   "after_filters": 311,
    "kept_new": 4
   },
   "iimjobs": {
-   "raw": 1418,
-   "after_filters": 136,
-   "kept_new": 5
+   "raw": 1072,
+   "after_filters": 140
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Dodo Payments",
-   "Ishan World",
-   "Makerspace Masters",
-   "DESRI",
-   "HCLTech",
-   "MIT ADT University",
-   "Anhad Edutrain Solutions",
-   "Incanus Technologies"
+   "Eurofins",
+   "Basil Health AI",
+   "Universal SignatureBlaze Private Ltd"
   ],
   "with_portal": 32
  },
  "counts": {
-  "raw": 9066,
-  "after_filters": 2189,
-  "judged": 487,
-  "kept": 78,
-  "duplicates_folded": 33,
+  "raw": 8398,
+  "after_filters": 2093,
+  "judged": 204,
+  "kept": 54,
+  "duplicates_folded": 34,
   "on_dashboard": 1414,
   "companies_scanned": {
    "curated": 138,
