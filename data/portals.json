@@ -168,7 +168,7 @@
  },
  "Aditya Birla Group": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "Aditya Birla Renewables Limited": {
   "type": null,
@@ -523,6 +523,10 @@
  "Baltic Control Middle East | Affirm Control": {
   "type": null,
   "checked": "2026-09-29"
+ },
+ "Basil Health AI": {
+  "type": null,
+  "checked": "2026-10-30"
  },
  "Be Seo Technologies": {
   "type": null,
@@ -891,7 +895,7 @@
  },
  "Chirix ERP": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "Circular Angle": {
   "type": null,
@@ -967,7 +971,7 @@
  },
  "Cognizant": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "CoinDCX": {
   "type": null,
@@ -1472,6 +1476,14 @@
   "type": null,
   "checked": "2026-10-24"
  },
+ "Eurofins": {
+  "type": "smartrecruiters",
+  "tenant": "Eurofins",
+  "harvested": true,
+  "company_id": "Eurofins",
+  "country": "in",
+  "checked": "2026-10-30"
+ },
  "Everpure": {
   "type": null,
   "checked": "2026-10-22"
@@ -1795,7 +1807,7 @@
  },
  "General Mills": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "Genius Minds Consulting & Services": {
   "type": null,
@@ -2561,7 +2573,7 @@
  },
  "Katyayani Organics": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "Kearney": {
   "type": null,
@@ -2678,7 +2690,7 @@
  },
  "Lagrange Point International": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "Lahori Zeera": {
   "type": null,
@@ -3386,7 +3398,7 @@
  },
  "NoBrokerHood": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "Noise": {
   "type": null,
@@ -3514,6 +3526,12 @@
  "OneMetric": {
   "type": null,
   "checked": "2026-10-22"
+ },
+ "Onelab Ventures": {
+  "type": "keka",
+  "tenant": "onelabventures",
+  "harvested": true,
+  "checked": "2026-10-30"
  },
  "Onfinity Technologies": {
   "type": null,
@@ -4035,6 +4053,21 @@
   "type": null,
   "checked": "2026-10-15"
  },
+ "Resmed": {
+  "type": "workday",
+  "tenant": "resmed",
+  "wd": "wd3",
+  "site": "ResMed_External_Careers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-10-30"
+ },
  "Revent Labs": {
   "type": null,
   "checked": "2026-10-26"
@@ -4213,7 +4246,7 @@
  },
  "Schneider Electric": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "Sciative - We Price Right": {
   "type": null,
@@ -4932,7 +4965,7 @@
  },
  "TransCurators": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-10-30"
  },
  "TransGanization": {
   "type": "keka",
@@ -5108,6 +5141,10 @@
  "United Descaler Private Limited": {
   "type": null,
   "checked": "2026-10-28"
+ },
+ "Universal SignatureBlaze Private Ltd": {
+  "type": null,
+  "checked": "2026-10-30"
  },
  "Uplers": {
   "type": null,
