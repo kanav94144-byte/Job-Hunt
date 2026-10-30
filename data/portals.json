@@ -162,6 +162,10 @@
   "type": null,
   "checked": "2026-10-20"
  },
+ "Adhar-AI Technologies": {
+  "type": null,
+  "checked": "2026-10-30"
+ },
  "Adisseo": {
   "type": null,
   "checked": "2026-10-30"
@@ -744,7 +748,7 @@
  },
  "Bunge": {
   "type": null,
-  "checked": "2026-10-02"
+  "checked": "2026-10-30"
  },
  "Business Sweden": {
   "type": null,
@@ -1250,6 +1254,10 @@
   "harvested": true,
   "checked": "2026-10-05"
  },
+ "Dr. B. Lal Clinical Laboratory": {
+  "type": null,
+  "checked": "2026-10-30"
+ },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "type": "keka",
   "tenant": "drblal",
@@ -1397,6 +1405,10 @@
  "Ember Cookware": {
   "type": null,
   "checked": "2026-10-12"
+ },
+ "Emergent": {
+  "type": null,
+  "checked": "2026-10-30"
  },
  "Emeritus": {
   "type": "darwinbox",
@@ -1551,7 +1563,7 @@
  },
  "FRND": {
   "type": null,
-  "checked": "2026-10-09"
+  "checked": "2026-10-30"
  },
  "FS Life (FABLE STREET| Pink Fort)": {
   "type": null,
@@ -2520,6 +2532,10 @@
   "type": null,
   "checked": "2026-10-09"
  },
+ "K12 Techno Services Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-10-30"
+ },
  "K7 Computing": {
   "type": null,
   "checked": "2026-09-28"
@@ -2849,6 +2865,10 @@
   "type": null,
   "checked": "2026-10-03"
  },
+ "Lodha": {
+  "type": null,
+  "checked": "2026-10-30"
+ },
  "Loop AI": {
   "type": null,
   "checked": "2026-10-16"
@@ -2970,6 +2990,10 @@
  "Makerspace Masters": {
   "type": null,
   "checked": "2026-10-29"
+ },
+ "Mandit Global": {
+  "type": null,
+  "checked": "2026-10-30"
  },
  "ManoRaksha\u2122": {
   "type": null,
@@ -4491,6 +4515,12 @@
   "type": null,
   "checked": "2026-10-12"
  },
+ "Social Pill": {
+  "type": "keka",
+  "tenant": "socialpill",
+  "probed": true,
+  "checked": "2026-10-30"
+ },
  "SoftSensor.ai": {
   "type": null,
   "checked": "2026-10-16"
@@ -4896,7 +4926,7 @@
  },
  "The Hackett Group": {
   "type": null,
-  "checked": "2026-10-06"
+  "checked": "2026-10-30"
  },
  "The Hackett Group Inc.": {
   "type": null,
@@ -5564,7 +5594,7 @@
  },
  "YourDOST": {
   "type": null,
-  "checked": "2026-10-07"
+  "checked": "2026-10-30"
  },
  "Youth for seva": {
   "type": null,
