@@ -1,47 +1,46 @@
-# Job Hunt – 2026-10-30 19:33 UTC
+# Job Hunt – 2026-10-31 10:43 UTC
 
-**20 new roles today** · 1413 active on the dashboard
+**19 new roles today** · 1266 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 5182 | 934 | 51 |
-| iimjobs | 1061 | 147 | 1 |
-| indeed | 970 | 325 | 4 |
-| linkedin | 1682 | 768 | 21 |
+| careers portal | 5154 | 919 | 41 |
+| iimjobs | 1203 | 100 | 4 |
+| indeed | 940 | 318 | 3 |
+| linkedin | 1629 | 739 | 20 |
 
-Auto-watchlist: 400 companies (33 with a readable portal) · added: Lupin, IndiGo (InterGlobe Aviation Ltd)
+Auto-watchlist: 400 companies (32 with a readable portal) · added: RapidBrains, Frost Free Ventures Private Limited, NetScale IT Services, ABS AGRO FOODS, Fibe.India (Formerly EarlySalary), Arnnima Solution, SM BROS GROUP, Xneeti Tech, DE WOUD, Aliqan Technologies
 
-## Tier A (1)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Accenture Strategy | S&C Global Network - AI - CDI -Agentic AI - Senior Manager | Mumbai Metropolitan | not stated | Yes | ~₹38–58 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4450698865) |
-
-## Tier B (8)
+## Tier A (11)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Amazon | Sr.Product Manager - Tech, Trustworthy Shopping Experience - Ops | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485398634) |
-| HYrEzy Tech Solutions | Digital Marketing Manager — U.S. B2B Payments & Merchant Solutions | Bengaluru | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484868644) |
-| EY GDS | RC FS-BT INS-Retirement - Domain SME-Senior Manager | India | not stated | – | ~₹38–58 LPA (est.) | [open](https://careers.ey.com/ey/job/Bengaluru-RC-FS-BT-INS-Retirement-Domain-SME-Senior-Manager-KA-560016/1452760233/) |
-| Lenovo | Category Manager -Premium Notebooks | Bengaluru | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484898670) |
-| McKinsey & Company | Delivery Consultant - Product Development & Procurement | Gurugram | 2+ yrs | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485395325) |
-| Airwallex | Sales Development Representative,  SME & Growth | Sg Singapore | not stated | – | not stated | [open](https://jobs.ashbyhq.com/airwallex/eb8926d0-842e-4229-9d57-7a666640c804) |
-| Airwallex | Account Executive, Partnerships – SME & Growth | Uk London | 3+ yrs | – | not stated | [open](https://jobs.ashbyhq.com/airwallex/32305bdb-a142-4f9a-96a7-b8f7e4ae6ebe) |
-| Airwallex | Manager, Revenue Strategy & Operations, UK | Uk London | 3-5 yrs | – | not stated | [open](https://jobs.ashbyhq.com/airwallex/d0ee1c45-2b64-4abe-ad5c-75e0efd8d91e) |
+| Arnnima Solution | Business Development Manager | Mumbai | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483938122) |
+| NetScale IT Services | Business Development Manager | Bengaluru South | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485127528) |
+| SM BROS GROUP | Business Development Manager – E-Commerce | Dubai · United Arab Emirates | 4+ yrs | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4483943095) |
+| ABS AGRO FOODS | Brand & Business Development Manager – FMCG / Healthy Snacks | Jaipur | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485684120) |
+| Fibe.India (Formerly EarlySalary) | Growth Manager-Hospital | Kolkata Metropolitan | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483928592) |
+| RapidBrains | Business Development Manager | Bengaluru | 4+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485136909) |
+| MG | GROWTH MARKETING MANAGER (FROM HEALTH INDUSTRY) | Bengaluru | 4-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485130614) |
+| DBS Bank | Officer, Branch Relationship Officer, Growth, Current Account, Consumer Banking Group | Basavangudi · Bengaluru | 2+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Basavangudi-Bengaluru/Officer--Branch-Relationship-Officer--Growth--Current-Account--Consumer-Banking-Group_WD90118) |
+| Amazon | Business Analyst, Network Strategy & Performance, Network Strategy and Preformance | India | 2+ yrs | Yes | ~₹20–32 LPA (est.) | [open](https://www.amazon.jobs/jobs/10593676/business-analyst-network-strategy--performance-network-strategy-and-preformance?cmpid=DA_INAD200785B) |
+| Deloitte USI | Growth & Purpose - GPS - Specialist, Market Research and Insights -Competitive Intelligence - Hyderabad | Hyderabad | 2+ yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4463831379) |
+| Standard Chartered Bank | Associate, People Insights, Workforce Strategy & Organisational Effectiveness | India | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://jobs.standardchartered.com/job/Associate%2C-People-Insights%2C-Workforce-Strategy-&-Organisational-Effectiveness/65155-en_GB) |
 
-## Tier C (11)
+## Tier B (5)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Okta | Senior Program Manager | Bengaluru | 5+ yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483481556) |
-| Amazon | Senior Program Manager, Seller Fees Science & Tech | Hyderabad | 5+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10582350/senior-program-manager-seller-fees-science-tech) |
-| EY GDS | Risk Analytics - AI Governance - Manager | India | 5+ yrs | – | ~₹26–42 LPA (est.) | [open](https://careers.ey.com/ey/job/Gurgaon-Risk-Analytics-AI-Governance-Manager-HR-122010/1452694933/) |
-| PepsiCo | Consumer Insights Assoc Analyst – FH Analyst | Hyderabad | 5-6 yrs | Yes | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4483489423) |
-| Schneider Electric | Specialist, Renewable Consulting | India | 5-10 yrs | – | ~₹10–20 LPA (est.) | [open](https://careers.se.com/jobs/130391/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f) |
-| Deloitte USI | QRM-New Client Acceptance (NCA) Specialist – Senior Analyst | Bengaluru | 3-5 yrs | – | ~₹16–24 LPA (est.) | [open](https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-EH27-Consulting-CMAT-QRM-New-Client-Acceptance-NCA-Specialist-Senior-Analyst/373708) |
-| EY GDS | New-ADN-Manager | India | 5-6 yrs | – | ~₹26–42 LPA (est.) | [open](https://careers.ey.com/ey/job/Bengaluru-New-ADN-Manager-KA-560016/1452766133/) |
-| Hindustan Unilever | Assistant Manager - T&E | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484863893) |
-| ITC | Project Manager | Bengaluru | not stated | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485330530) |
-| Airwallex | Staff / Senior Product Manager, Payments | Uk London | 5+ yrs | – | not stated | [open](https://jobs.ashbyhq.com/airwallex/fc1158b4-bbc3-4406-ae57-d85fb60bc613) |
-| Airwallex | GTM Partnerships Manager, SME & Growth | Sg Singapore | 5+ yrs | – | not stated | [open](https://jobs.ashbyhq.com/airwallex/b955a044-d70b-4cd7-8b86-1822bcc426f4) |
+| Aliqan Technologies | Manager - Business Development | India | 3-5 yrs | – | ₹22–25 LPA | [open](https://in.indeed.com/viewjob?jk=39523d83c9df9872) |
+| Ivy and Prime | Clinics & Beauty -Junior Venture Builder (Strategy and Partnership) | Delhi | 1-2 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485147571) |
+| DHL | Program Manager | Mumbai | 3+ yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485374192) |
+| Accenture Strategy | I&P GN - Talent – T&W - Manager - Enterprise Advisory | Gurugram | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485638011) |
+| DE WOUD | B2B Sales Specialist | Delhi | 2-5 yrs | – | ~₹10–20 LPA (est.) | [open](https://www.iimjobs.com/j/de-woud-b2b-sales-specialist-1743178) |
+
+## Tier C (3)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Eminentsoft Technologies | Business Strategist | Kochi | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485134351) |
+| Neuraleap Group | Partnerships and Growth Manager | Mumbai Metropolitan | 5+ yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485150276) |
+| BI Worldwide India Private Limited | Business Development Manager - Brand Merchandise | Hyderabad | 5-10 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/bi-worldwide-manager-business-development-brand-merchandise-1743189) |
