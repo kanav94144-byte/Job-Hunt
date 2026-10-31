@@ -145,7 +145,7 @@
  },
  "Airwallex": {
   "first_seen": "2026-10-05",
-  "hits": 17,
+  "hits": 18,
   "band": "unknown",
   "titles": [
    "Manager, Revenue Strategy, SG"
@@ -685,7 +685,7 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 248,
+  "hits": 251,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
@@ -766,7 +766,7 @@
  },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "first_seen": "2026-10-12",
-  "hits": 28,
+  "hits": 30,
   "band": "unknown",
   "titles": [
    "Business Development Manager/Area Business Manager - Kota"
@@ -820,12 +820,12 @@
  },
  "Eaton": {
   "first_seen": "2026-10-17",
-  "hits": 3,
+  "hits": 4,
   "band": "unknown",
   "titles": [
    "Program and Delivery Manager - AI and Data Delivery"
   ],
-  "last_hit": "2026-10-25"
+  "last_hit": "2026-10-31"
  },
  "EduRun Group": {
   "first_seen": "2026-10-27",
@@ -847,12 +847,12 @@
  },
  "Eli Lilly": {
   "first_seen": "2026-10-28",
-  "hits": 1,
+  "hits": 2,
   "band": "unknown",
   "titles": [
    "Consultant - SFO"
   ],
-  "last_hit": "2026-10-28"
+  "last_hit": "2026-10-31"
  },
  "Eloelo": {
   "first_seen": "2026-10-22",
@@ -1127,7 +1127,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 106,
+  "hits": 107,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1638,6 +1638,15 @@
   ],
   "last_hit": "2026-10-29"
  },
+ "Johnson & Johnson MedTech": {
+  "first_seen": "2026-10-31",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Senior Product Manager"
+  ],
+  "last_hit": "2026-10-31"
+ },
  "Joveo Technologies": {
   "first_seen": "2026-10-30",
   "hits": 1,
@@ -1883,7 +1892,7 @@
  },
  "MantraCare": {
   "first_seen": "2026-10-26",
-  "hits": 9,
+  "hits": 10,
   "band": "unknown",
   "titles": [
    "Business Development Manager"
@@ -2186,6 +2195,15 @@
    "Senior Sales Development Executive (Enterprise AI & Life Sciences)"
   ],
   "last_hit": "2026-10-28"
+ },
+ "Ortus Finance Private Limited": {
+  "first_seen": "2026-10-31",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Founder's Assistant"
+  ],
+  "last_hit": "2026-10-31"
  },
  "Ownly": {
   "first_seen": "2026-10-23",
@@ -2540,12 +2558,12 @@
  },
  "SUN PHARMA": {
   "first_seen": "2026-09-25",
-  "hits": 12,
+  "hits": 13,
   "band": "unknown",
   "titles": [
    "Product Manager"
   ],
-  "last_hit": "2026-10-29"
+  "last_hit": "2026-10-31"
  },
  "SVECTOR": {
   "first_seen": "2026-10-22",
@@ -2909,6 +2927,15 @@
   ],
   "last_hit": "2026-10-26"
  },
+ "TTM Healthcare Solutions": {
+  "first_seen": "2026-10-31",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Operations Specialist - Business Development"
+  ],
+  "last_hit": "2026-10-31"
+ },
  "TWF Flours": {
   "first_seen": "2026-10-23",
   "hits": 1,
@@ -3162,15 +3189,6 @@
   ],
   "last_hit": "2026-10-22"
  },
- "Tupperware India": {
-  "first_seen": "2026-10-21",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Product Sourcing and Category Marketing Assistant Manager, Dehradun"
-  ],
-  "last_hit": "2026-10-21"
- },
  "UDYOGTECH VENTURES PRIVATE LIMITED": {
   "first_seen": "2026-10-23",
   "hits": 1,
@@ -3335,23 +3353,14 @@
   ],
   "last_hit": "2026-10-26"
  },
- "Vortexify Solutions Private Limited": {
-  "first_seen": "2026-10-21",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Executive"
-  ],
-  "last_hit": "2026-10-21"
- },
  "WSP": {
   "first_seen": "2026-10-23",
-  "hits": 3,
+  "hits": 4,
   "band": "unknown",
   "titles": [
    "Consultant, Hydrology"
   ],
-  "last_hit": "2026-10-28"
+  "last_hit": "2026-10-31"
  },
  "WTF": {
   "first_seen": "2026-10-26",
@@ -3379,15 +3388,6 @@
    "National Key Account Manager - eCommerce & Quick Commerce"
   ],
   "last_hit": "2026-10-26"
- },
- "WeXL AI": {
-  "first_seen": "2026-10-21",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Regional Sales Manager - University Partnerships (Delhi NCR)"
-  ],
-  "last_hit": "2026-10-21"
  },
  "Wells Fargo": {
   "first_seen": "2026-10-07",
