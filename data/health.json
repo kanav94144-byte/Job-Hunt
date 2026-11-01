@@ -763,7 +763,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 355,
+   "jobs": 346,
    "errors": []
   },
   "portal:keka:Onelab Ventures": {
@@ -865,19 +865,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 115,
+   "jobs": 96,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 850,
+   "jobs": 440,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 817,
+   "jobs": 764,
    "errors": []
   },
   "discovery:google": {
@@ -889,7 +889,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 826,
+   "jobs": 290,
    "errors": []
   },
   "naukri (browser)": {
@@ -900,48 +900,46 @@
   }
  },
  "descriptions": {
-  "careers portal": 26,
-  "linkedin": 41,
-  "iimjobs": 6
+  "careers portal": 24,
+  "linkedin": 17
  },
- "linkedin_detail_blocked": true,
+ "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5005,
+   "raw": 4996,
    "after_filters": 903,
-   "kept_new": 36
+   "kept_new": 43
   },
   "linkedin": {
-   "raw": 965,
-   "after_filters": 409,
-   "kept_new": 20
+   "raw": 536,
+   "after_filters": 251,
+   "kept_new": 9
   },
   "indeed": {
-   "raw": 817,
-   "after_filters": 236
+   "raw": 764,
+   "after_filters": 211
   },
   "iimjobs": {
-   "raw": 826,
-   "after_filters": 41,
-   "kept_new": 5
+   "raw": 290,
+   "after_filters": 43
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Archer kids International education pvt ltd",
-   "Ruchs\u2122"
+   "Rusk Media",
+   "Colliers"
   ],
-  "with_portal": 32
+  "with_portal": 31
  },
  "counts": {
-  "raw": 7613,
-  "after_filters": 1589,
-  "judged": 241,
-  "kept": 61,
-  "duplicates_folded": 40,
-  "on_dashboard": 1278,
+  "raw": 6586,
+  "after_filters": 1408,
+  "judged": 97,
+  "kept": 52,
+  "duplicates_folded": 38,
+  "on_dashboard": 1292,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
