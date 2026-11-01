@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 184,
+   "jobs": 183,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -163,7 +163,7 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 18,
+   "jobs": 19,
    "errors": []
   },
   "portal:workday:PwC India": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 38,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -463,7 +463,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 35,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -763,7 +763,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 354,
+   "jobs": 355,
    "errors": []
   },
   "portal:keka:Onelab Ventures": {
@@ -865,19 +865,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 166,
+   "jobs": 115,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 780,
+   "jobs": 850,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 808,
+   "jobs": 817,
    "errors": []
   },
   "discovery:google": {
@@ -889,7 +889,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 721,
+   "jobs": 826,
    "errors": []
   },
   "naukri (browser)": {
@@ -900,49 +900,48 @@
   }
  },
  "descriptions": {
-  "careers portal": 30,
-  "linkedin": 32,
-  "iimjobs": 2
+  "careers portal": 26,
+  "linkedin": 41,
+  "iimjobs": 6
  },
- "linkedin_detail_blocked": false,
+ "linkedin_detail_blocked": true,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5002,
-   "after_filters": 902,
-   "kept_new": 48
+   "raw": 5005,
+   "after_filters": 903,
+   "kept_new": 36
   },
   "linkedin": {
-   "raw": 946,
-   "after_filters": 423,
-   "kept_new": 10
+   "raw": 965,
+   "after_filters": 409,
+   "kept_new": 20
   },
   "indeed": {
-   "raw": 808,
-   "after_filters": 253
+   "raw": 817,
+   "after_filters": 236
   },
   "iimjobs": {
-   "raw": 721,
-   "after_filters": 29,
-   "kept_new": 1
+   "raw": 826,
+   "after_filters": 41,
+   "kept_new": 5
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "The HEINEKEN Company",
-   "Midtronics",
-   "Gemba Concepts"
+   "Archer kids International education pvt ltd",
+   "Ruchs\u2122"
   ],
   "with_portal": 32
  },
  "counts": {
-  "raw": 7477,
-  "after_filters": 1607,
-  "judged": 185,
-  "kept": 59,
-  "duplicates_folded": 39,
-  "on_dashboard": 1264,
+  "raw": 7613,
+  "after_filters": 1589,
+  "judged": 241,
+  "kept": 61,
+  "duplicates_folded": 40,
+  "on_dashboard": 1278,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
