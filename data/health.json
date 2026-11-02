@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 53,
+   "jobs": 50,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,15 +59,17 @@
    "errors": []
   },
   "portal:workday:Walmart": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 177,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   ]
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 91,
+   "jobs": 90,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -682,12 +684,6 @@
    "jobs": 42,
    "errors": []
   },
-  "portal:ashby:Airbound": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 23,
-   "errors": []
-  },
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
@@ -703,7 +699,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 138,
+   "jobs": 139,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -751,13 +747,13 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 33,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 253,
+   "jobs": 255,
    "errors": []
   },
   "portal:keka:HoduSoft": {
@@ -862,12 +858,6 @@
    "jobs": 84,
    "errors": []
   },
-  "portal:darwinbox:sugar.fit": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 0,
-   "errors": []
-  },
   "portal:ashby:within": {
    "ok": 1,
    "failed": 0,
@@ -875,21 +865,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 98,
+   "ok": 99,
    "failed": 0,
-   "jobs": 186,
+   "jobs": 190,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1330,
+   "jobs": 1020,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 866,
+   "jobs": 834,
    "errors": []
   },
   "discovery:google": {
@@ -912,60 +902,42 @@
   }
  },
  "descriptions": {
-  "careers portal": 58,
-  "linkedin": 146,
-  "iimjobs": 1
+  "careers portal": 18,
+  "linkedin": 12
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5127,
-   "after_filters": 976,
-   "kept_new": 67
+   "raw": 4927,
+   "after_filters": 963,
+   "kept_new": 39
   },
   "linkedin": {
-   "raw": 1516,
-   "after_filters": 640,
-   "kept_new": 47
+   "raw": 1210,
+   "after_filters": 524,
+   "kept_new": 2
   },
   "indeed": {
-   "raw": 866,
-   "after_filters": 241,
-   "kept_new": 8
+   "raw": 834,
+   "after_filters": 236,
+   "kept_new": 3
   },
   "iimjobs": {
    "raw": 505,
-   "after_filters": 66,
-   "kept_new": 1
+   "after_filters": 66
   }
  },
  "watchlist": {
   "size": 400,
-  "added_this_run": [
-   "Larsen & Toubro",
-   "Intoglo",
-   "KOLADIYA INDUSTRIES PRIVATE LIMITED",
-   "Schindler Group",
-   "One75mb HRM Pvt Ltd.",
-   "Bluella\u2122",
-   "Proquiro",
-   "Milacron",
-   "Yabx",
-   "Credgenics",
-   "Matilda Cloud",
-   "PibyThree",
-   "Nexx Zeal Technologies Private Limited",
-   "Watchyourhealth.com",
-   "NEXTHIRE"
-  ],
+  "added_this_run": [],
   "with_portal": 32
  },
  "counts": {
-  "raw": 8014,
-  "after_filters": 1923,
-  "judged": 648,
-  "kept": 123,
+  "raw": 7476,
+  "after_filters": 1789,
+  "judged": 121,
+  "kept": 44,
   "duplicates_folded": 39,
   "on_dashboard": 1377,
   "companies_scanned": {
