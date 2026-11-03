@@ -1,17 +1,17 @@
 {
- "run_date": "2026-11-02",
+ "run_date": "2026-11-03",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
    "ok": 1,
    "failed": 0,
-   "jobs": 63,
+   "jobs": 65,
    "errors": []
   },
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 56,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -59,23 +59,21 @@
    "errors": []
   },
   "portal:workday:Walmart": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 183,
+   "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 90,
+   "jobs": 93,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
    "failed": 0,
-   "jobs": 18,
+   "jobs": 19,
    "errors": []
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -87,7 +85,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 134,
+   "jobs": 141,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -97,10 +95,12 @@
    "errors": []
   },
   "portal:darwinbox:Rapido": {
-   "ok": 1,
-   "failed": 0,
+   "ok": 0,
+   "failed": 1,
    "jobs": 0,
-   "errors": []
+   "errors": [
+    "HTTPError: 502 Server Error: Bad Gateway for url: https://rapido.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+   ]
   },
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
@@ -123,13 +123,13 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 30,
    "errors": []
   },
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 136,
+   "jobs": 138,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -171,7 +171,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 339,
+   "jobs": 350,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -183,13 +183,13 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 86,
    "errors": []
   },
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 36,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -207,7 +207,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 51,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -225,7 +225,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 43,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -237,7 +237,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 76,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -357,7 +357,7 @@
   "portal:darwinbox:LeadSquared": {
    "ok": 1,
    "failed": 0,
-   "jobs": 13,
+   "jobs": 14,
    "errors": []
   },
   "portal:darwinbox:HighRadius": {
@@ -405,13 +405,13 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 38,
    "errors": []
   },
   "portal:lever:Hevo Data": {
    "ok": 1,
    "failed": 0,
-   "jobs": 51,
+   "jobs": 40,
    "errors": []
   },
   "portal:keka:Zluri": {
@@ -429,19 +429,19 @@
   "portal:keka:Spyne": {
    "ok": 1,
    "failed": 0,
-   "jobs": 10,
+   "jobs": 11,
    "errors": []
   },
   "portal:ashby:Sarvam AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 48,
    "errors": []
   },
   "portal:greenhouse:Observe.AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 6,
+   "jobs": 5,
    "errors": []
   },
   "portal:darwinbox:Darwinbox": {
@@ -465,7 +465,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 35,
+   "jobs": 33,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -675,7 +675,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 73,
+   "jobs": 75,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
@@ -687,7 +687,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 170,
+   "jobs": 172,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -699,7 +699,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 139,
+   "jobs": 143,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -717,7 +717,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 58,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -729,31 +729,31 @@
   "portal:keka:Eloelo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 20,
    "errors": []
   },
   "portal:smartrecruiters:Eurofins": {
    "ok": 1,
    "failed": 0,
-   "jobs": 362,
+   "jobs": 364,
    "errors": []
   },
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 26,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 34,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 255,
+   "jobs": 254,
    "errors": []
   },
   "portal:keka:HoduSoft": {
@@ -765,19 +765,19 @@
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 78,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 50,
+   "jobs": 48,
    "errors": []
   },
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 370,
+   "jobs": 389,
    "errors": []
   },
   "portal:keka:Onelab Ventures": {
@@ -795,7 +795,7 @@
   "portal:workday:Priceline": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 21,
    "errors": []
   },
   "portal:smartrecruiters:Red Bull": {
@@ -825,7 +825,7 @@
   "portal:keka:TechDome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 29,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
@@ -855,7 +855,7 @@
   "portal:workday:ZEISS Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 84,
+   "jobs": 83,
    "errors": []
   },
   "portal:ashby:within": {
@@ -865,21 +865,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 99,
+   "ok": 98,
    "failed": 0,
-   "jobs": 190,
+   "jobs": 240,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1020,
+   "jobs": 1350,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 834,
+   "jobs": 948,
    "errors": []
   },
   "discovery:google": {
@@ -891,7 +891,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 505,
+   "jobs": 1004,
    "errors": []
   },
   "naukri (browser)": {
@@ -902,44 +902,64 @@
   }
  },
  "descriptions": {
-  "careers portal": 18,
-  "linkedin": 12
+  "careers portal": 46,
+  "linkedin": 158,
+  "iimjobs": 30
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4927,
-   "after_filters": 963,
-   "kept_new": 39
+   "raw": 5184,
+   "after_filters": 977,
+   "kept_new": 70
   },
   "linkedin": {
-   "raw": 1210,
-   "after_filters": 524,
-   "kept_new": 2
+   "raw": 1590,
+   "after_filters": 729,
+   "kept_new": 47
   },
   "indeed": {
-   "raw": 834,
-   "after_filters": 236,
-   "kept_new": 3
+   "raw": 948,
+   "after_filters": 294,
+   "kept_new": 11
   },
   "iimjobs": {
-   "raw": 505,
-   "after_filters": 66
+   "raw": 1004,
+   "after_filters": 122,
+   "kept_new": 17
   }
  },
  "watchlist": {
   "size": 400,
-  "added_this_run": [],
+  "added_this_run": [
+   "The Plus Size Store by Meera Creations",
+   "Dakons Engineering Pvt Ltd",
+   "Odyssey Technologies",
+   "PW (PhysicsWallah)",
+   "Nouryon",
+   "Xoxoday",
+   "Amrevx Pvt. Ltd.",
+   "BharatTender",
+   "Withum",
+   "Live Connections",
+   "OLX India",
+   "NextNation",
+   "Growing Product based Fintech - B2B",
+   "Climeverse Private Limited",
+   "TD SYNNEX",
+   "Inceptial Technologies",
+   "PUMA"
+  ],
   "with_portal": 32
  },
  "counts": {
-  "raw": 7476,
-  "after_filters": 1789,
-  "judged": 121,
-  "kept": 44,
-  "duplicates_folded": 39,
-  "on_dashboard": 1377,
+  "raw": 8726,
+  "after_filters": 2122,
+  "judged": 638,
+  "kept": 145,
+  "duplicates_folded": 41,
+  "on_dashboard": 1323,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
