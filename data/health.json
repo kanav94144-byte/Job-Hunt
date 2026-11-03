@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 60,
+   "jobs": 51,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 185,
+   "jobs": 184,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -163,7 +163,7 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 19,
    "errors": []
   },
   "portal:workday:PwC India": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 85,
+   "jobs": 78,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 43,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -619,7 +619,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 36,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -715,7 +715,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 60,
+   "jobs": 57,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -745,7 +745,7 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 37,
    "errors": []
   },
   "portal:workday:Genpact": {
@@ -775,7 +775,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 398,
+   "jobs": 395,
    "errors": []
   },
   "portal:keka:Onelab Ventures": {
@@ -832,12 +832,6 @@
    "jobs": 39,
    "errors": []
   },
-  "portal:keka:TransGanization": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 1,
-   "errors": []
-  },
   "portal:keka:TrueFan": {
    "ok": 1,
    "failed": 0,
@@ -865,7 +859,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 293,
+   "jobs": 306,
    "errors": []
   },
   "discovery:linkedin": {
@@ -877,7 +871,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 971,
+   "jobs": 976,
    "errors": []
   },
   "discovery:google": {
@@ -889,7 +883,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1125,
+   "jobs": 1000,
    "errors": []
   },
   "naukri (browser)": {
@@ -900,57 +894,48 @@
   }
  },
  "descriptions": {
-  "careers portal": 41,
-  "linkedin": 87,
-  "iimjobs": 11
+  "careers portal": 21,
+  "linkedin": 23
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5216,
-   "after_filters": 976,
-   "kept_new": 49
+   "raw": 5187,
+   "after_filters": 979,
+   "kept_new": 43
   },
   "linkedin": {
-   "raw": 1643,
+   "raw": 1656,
    "after_filters": 768,
-   "kept_new": 30
+   "kept_new": 9
   },
   "indeed": {
-   "raw": 971,
-   "after_filters": 265,
+   "raw": 976,
+   "after_filters": 320,
    "kept_new": 4
   },
   "iimjobs": {
-   "raw": 1125,
-   "after_filters": 139,
-   "kept_new": 5
+   "raw": 1000,
+   "after_filters": 139
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "NewBridge Fintech",
-   "Drishti IAS",
-   "Maxicus",
-   "Niva Bupa Health Insurance",
-   "Gretex Industries Limited",
-   "Reach",
-   "Allergan Aesthetics, an AbbVie Company",
-   "Boldfit",
-   "Pyrus Media",
-   "Visionkrid Studio Pvt Ltd"
+   "Zenlynx Technology",
+   "CareStack\u2122 - Dental Practice Management",
+   "JZ Edutech"
   ],
   "with_portal": 31
  },
  "counts": {
-  "raw": 8955,
-  "after_filters": 2148,
-  "judged": 358,
-  "kept": 88,
-  "duplicates_folded": 40,
-  "on_dashboard": 1364,
+  "raw": 8819,
+  "after_filters": 2206,
+  "judged": 177,
+  "kept": 56,
+  "duplicates_folded": 41,
+  "on_dashboard": 1377,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
