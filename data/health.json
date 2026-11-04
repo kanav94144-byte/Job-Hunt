@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 61,
+   "jobs": 57,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 200,
+   "jobs": 196,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -163,13 +163,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 17,
+   "jobs": 16,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 345,
+   "jobs": 339,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,13 +181,13 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 86,
+   "jobs": 84,
    "errors": []
   },
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 39,
+   "jobs": 38,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 43,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -673,7 +673,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 74,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
@@ -721,7 +721,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 77,
+   "jobs": 74,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -745,19 +745,19 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 26,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 36,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 258,
+   "jobs": 256,
    "errors": []
   },
   "portal:keka:HoduSoft": {
@@ -772,16 +772,10 @@
    "jobs": 77,
    "errors": []
   },
-  "portal:workday:Ingram Micro": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 49,
-   "errors": []
-  },
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 399,
+   "jobs": 390,
    "errors": []
   },
   "portal:keka:Onelab Ventures": {
@@ -853,7 +847,7 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 356,
+   "jobs": 367,
    "errors": []
   },
   "discovery:linkedin": {
@@ -865,7 +859,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 996,
+   "jobs": 1012,
    "errors": []
   },
   "discovery:google": {
@@ -877,7 +871,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1564,
+   "jobs": 1177,
    "errors": []
   },
   "naukri (browser)": {
@@ -888,52 +882,49 @@
   }
  },
  "descriptions": {
-  "careers portal": 55,
-  "linkedin": 76,
-  "iimjobs": 2
+  "careers portal": 23,
+  "linkedin": 28
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5300,
-   "after_filters": 1015,
-   "kept_new": 53
+   "raw": 5214,
+   "after_filters": 993,
+   "kept_new": 43
   },
   "linkedin": {
-   "raw": 1706,
-   "after_filters": 779,
-   "kept_new": 35
+   "raw": 1717,
+   "after_filters": 772,
+   "kept_new": 16
   },
   "indeed": {
-   "raw": 996,
-   "after_filters": 296,
-   "kept_new": 7
+   "raw": 1012,
+   "after_filters": 288,
+   "kept_new": 6
   },
   "iimjobs": {
-   "raw": 1564,
+   "raw": 1177,
    "after_filters": 155
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Krayr Solutions",
-   "Otavo.ai",
-   "Optum India",
-   "FloMobility",
-   "Buzil Rossari",
-   "DAVIES"
+   "Pinnacle Media",
+   "Global Digital Health Summit, Expo & Innovation Awards",
+   "Dozee",
+   "Commonwealth Bank of Australia"
   ],
-  "with_portal": 29
+  "with_portal": 30
  },
  "counts": {
-  "raw": 9566,
-  "after_filters": 2245,
-  "judged": 411,
-  "kept": 95,
-  "duplicates_folded": 42,
-  "on_dashboard": 1353,
+  "raw": 9120,
+  "after_filters": 2208,
+  "judged": 187,
+  "kept": 65,
+  "duplicates_folded": 44,
+  "on_dashboard": 1366,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
