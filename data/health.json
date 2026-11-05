@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 70,
+   "jobs": 67,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 191,
+   "jobs": 185,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -127,7 +127,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 139,
+   "jobs": 142,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -169,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 340,
+   "jobs": 338,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 86,
+   "jobs": 81,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 42,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -691,7 +691,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 174,
+   "jobs": 175,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -709,7 +709,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 156,
+   "jobs": 152,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -733,7 +733,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 68,
+   "jobs": 62,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -787,7 +787,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 391,
+   "jobs": 386,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -865,19 +865,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 338,
+   "jobs": 334,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1320,
+   "jobs": 1310,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 975,
+   "jobs": 938,
    "errors": []
   },
   "discovery:google": {
@@ -889,7 +889,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1732,
+   "jobs": 1147,
    "errors": []
   },
   "naukri (browser)": {
@@ -900,57 +900,47 @@
   }
  },
  "descriptions": {
-  "careers portal": 47,
-  "linkedin": 97,
-  "iimjobs": 6
+  "careers portal": 27,
+  "linkedin": 28,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5259,
-   "after_filters": 1000,
+   "raw": 5229,
+   "after_filters": 998,
    "kept_new": 46
   },
   "linkedin": {
-   "raw": 1658,
-   "after_filters": 750,
-   "kept_new": 35
+   "raw": 1644,
+   "after_filters": 734,
+   "kept_new": 13
   },
   "indeed": {
-   "raw": 975,
-   "after_filters": 321,
-   "kept_new": 12
+   "raw": 938,
+   "after_filters": 230,
+   "kept_new": 1
   },
   "iimjobs": {
-   "raw": 1732,
-   "after_filters": 144,
-   "kept_new": 4
+   "raw": 1147,
+   "after_filters": 149
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "MSC (MicroSave Consulting)",
-   "Techify Care",
-   "AARMTech Engineering Pvt. Ltd.",
-   "Fast&Up India",
-   "UltraTech Cement",
-   "Success Pact Consulting",
-   "N-Able",
-   "Quest Global",
-   "HDFC Bank",
-   "AppsForBharat"
+   "Raaisha Films Production LLP"
   ],
   "with_portal": 32
  },
  "counts": {
-  "raw": 9624,
-  "after_filters": 2215,
-  "judged": 442,
-  "kept": 97,
-  "duplicates_folded": 44,
-  "on_dashboard": 1370,
+  "raw": 8958,
+  "after_filters": 2111,
+  "judged": 122,
+  "kept": 60,
+  "duplicates_folded": 43,
+  "on_dashboard": 1383,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
