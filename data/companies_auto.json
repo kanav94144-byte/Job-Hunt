@@ -127,7 +127,7 @@
  },
  "Airwallex": {
   "first_seen": "2026-10-05",
-  "hits": 39,
+  "hits": 40,
   "band": "unknown",
   "titles": [
    "Manager, Revenue Strategy, SG"
@@ -442,12 +442,12 @@
  },
  "Boston Scientific": {
   "first_seen": "2026-10-23",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Strategic Account Manager, MENA - Healthcare Solutions & Partnerships (HS&P)"
   ],
-  "last_hit": "2026-10-28"
+  "last_hit": "2026-11-06"
  },
  "BrandMyHR": {
   "first_seen": "2026-10-21",
@@ -730,7 +730,7 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 305,
+  "hits": 308,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
@@ -847,7 +847,7 @@
  },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "first_seen": "2026-10-12",
-  "hits": 64,
+  "hits": 66,
   "band": "unknown",
   "titles": [
    "Business Development Manager/Area Business Manager - Kota"
@@ -1044,6 +1044,15 @@
   ],
   "last_hit": "2026-10-30"
  },
+ "FTI Consulting": {
+  "first_seen": "2026-11-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Engagement Manager, Strategy Consulting, TMT"
+  ],
+  "last_hit": "2026-11-06"
+ },
  "FactSet": {
   "first_seen": "2026-10-23",
   "hits": 2,
@@ -1154,7 +1163,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 126,
+  "hits": 127,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1181,7 +1190,7 @@
  },
  "Genpact": {
   "first_seen": "2026-09-23",
-  "hits": 32,
+  "hits": 33,
   "band": "unknown",
   "titles": [
    "Consultant - Enterprise Risk Advisory 4B"
@@ -1367,6 +1376,15 @@
    "Business Development Manager (VoIP)"
   ],
   "last_hit": "2026-10-27"
+ },
+ "Honeywell Technologies": {
+  "first_seen": "2026-11-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business Consultant COE"
+  ],
+  "last_hit": "2026-11-06"
  },
  "Human Touch": {
   "first_seen": "2026-10-29",
@@ -1755,6 +1773,15 @@
   ],
   "last_hit": "2026-11-04"
  },
+ "Kroll": {
+  "first_seen": "2026-11-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Consultant, Valuation Services"
+  ],
+  "last_hit": "2026-11-06"
+ },
  "Lagrange Point International": {
   "first_seen": "2026-09-30",
   "hits": 7,
@@ -2027,15 +2054,6 @@
   ],
   "last_hit": "2026-10-26"
  },
- "Mobicule Technologies Pvt. Ltd.": {
-  "first_seen": "2026-10-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Executive"
-  ],
-  "last_hit": "2026-10-26"
- },
  "Mobileye": {
   "first_seen": "2026-10-28",
   "hits": 1,
@@ -2081,15 +2099,6 @@
   ],
   "last_hit": "2026-10-30"
  },
- "NTT DATA North America": {
-  "first_seen": "2026-10-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Advisor"
-  ],
-  "last_hit": "2026-10-26"
- },
  "NationBuilding Foundation of India": {
   "first_seen": "2026-11-02",
   "hits": 1,
@@ -2125,15 +2134,6 @@
    "Business Development Manager"
   ],
   "last_hit": "2026-10-31"
- },
- "NetSysCon Consulting": {
-  "first_seen": "2026-10-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Founder's Office"
-  ],
-  "last_hit": "2026-10-26"
  },
  "NetVantage Systems Private Limited": {
   "first_seen": "2026-11-04",
@@ -2188,15 +2188,6 @@
    "Program Manager"
   ],
   "last_hit": "2026-11-03"
- },
- "Nextenti Tech Private Limited": {
-  "first_seen": "2026-10-26",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Executive"
-  ],
-  "last_hit": "2026-10-26"
  },
  "Nexx Zeal Technologies Private Limited": {
   "first_seen": "2026-11-02",
@@ -2431,6 +2422,15 @@
    "Chief of Staff"
   ],
   "last_hit": "2026-10-27"
+ },
+ "Phenom": {
+  "first_seen": "2026-11-06",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Associate Product Manager - Forward Deployment"
+  ],
+  "last_hit": "2026-11-06"
  },
  "PibyThree": {
   "first_seen": "2026-11-02",
@@ -3105,7 +3105,7 @@
  },
  "The/Nudge Institute": {
   "first_seen": "2026-10-14",
-  "hits": 18,
+  "hits": 19,
   "band": "unknown",
   "titles": [
    "Senior Associate, Corporate Partnerships, Fundraising"

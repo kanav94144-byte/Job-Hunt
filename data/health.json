@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 74,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,13 +61,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 193,
+   "jobs": 191,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 97,
+   "jobs": 98,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -109,7 +109,7 @@
   "portal:keka:SolarSquare": {
    "ok": 1,
    "failed": 0,
-   "jobs": 180,
+   "jobs": 181,
    "errors": []
   },
   "portal:darwinbox:Delhivery": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 83,
+   "jobs": 78,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 42,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -673,7 +673,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 71,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
@@ -691,7 +691,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 175,
+   "jobs": 174,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -733,7 +733,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 66,
+   "jobs": 60,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -763,7 +763,7 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 34,
    "errors": []
   },
   "portal:workday:Genpact": {
@@ -787,7 +787,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 398,
+   "jobs": 396,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -850,6 +850,12 @@
    "jobs": 84,
    "errors": []
   },
+  "portal:darwinbox:Zydus Group": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 39,
+   "errors": []
+  },
   "portal:ashby:within": {
    "ok": 1,
    "failed": 0,
@@ -859,19 +865,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 299,
+   "jobs": 289,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1340,
+   "jobs": 1180,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 965,
+   "jobs": 930,
    "errors": []
   },
   "discovery:google": {
@@ -883,7 +889,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1461,
+   "jobs": 905,
    "errors": []
   },
   "naukri (browser)": {
@@ -894,57 +900,49 @@
   }
  },
  "descriptions": {
-  "careers portal": 35,
-  "linkedin": 77,
-  "iimjobs": 6
+  "careers portal": 16,
+  "linkedin": 43
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5263,
-   "after_filters": 986,
-   "kept_new": 48
+   "raw": 5285,
+   "after_filters": 987,
+   "kept_new": 35
   },
   "linkedin": {
-   "raw": 1639,
-   "after_filters": 746,
-   "kept_new": 37
+   "raw": 1469,
+   "after_filters": 674,
+   "kept_new": 26
   },
   "indeed": {
-   "raw": 965,
-   "after_filters": 294,
+   "raw": 930,
+   "after_filters": 269,
    "kept_new": 4
   },
   "iimjobs": {
-   "raw": 1461,
-   "after_filters": 131,
-   "kept_new": 5
+   "raw": 905,
+   "after_filters": 131
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Sure",
-   "Seven N Half",
-   "CHIZRINZ INFOWAY PRIVATE LIMITED",
-   "Fashion i Paris",
-   "Zydus Group",
-   "Twor",
-   "Surepass Technologies",
-   "McGraw Hill",
-   "Space Experts Wealth Advisor",
-   "Veeco"
+   "Honeywell Technologies",
+   "Kroll",
+   "Phenom",
+   "FTI Consulting"
   ],
   "with_portal": 32
  },
  "counts": {
-  "raw": 9328,
-  "after_filters": 2157,
-  "judged": 283,
-  "kept": 94,
-  "duplicates_folded": 45,
-  "on_dashboard": 1350,
+  "raw": 8589,
+  "after_filters": 2061,
+  "judged": 147,
+  "kept": 65,
+  "duplicates_folded": 44,
+  "on_dashboard": 1367,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
