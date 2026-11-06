@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 74,
+   "jobs": 75,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 194,
+   "jobs": 193,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -85,7 +85,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 150,
+   "jobs": 152,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -163,13 +163,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 16,
+   "jobs": 17,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 338,
+   "jobs": 341,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 82,
+   "jobs": 83,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 44,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -355,7 +355,7 @@
   "portal:darwinbox:LeadSquared": {
    "ok": 1,
    "failed": 0,
-   "jobs": 15,
+   "jobs": 17,
    "errors": []
   },
   "portal:darwinbox:HighRadius": {
@@ -631,7 +631,7 @@
   "portal:keka:Eka Care": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 20,
    "errors": []
   },
   "portal:keka:The Souled Store": {
@@ -673,7 +673,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 73,
+   "jobs": 72,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
@@ -691,7 +691,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 174,
+   "jobs": 175,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -733,7 +733,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 64,
+   "jobs": 66,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -763,13 +763,13 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 35,
+   "jobs": 33,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 261,
+   "jobs": 259,
    "errors": []
   },
   "portal:keka:HoduSoft": {
@@ -787,7 +787,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 395,
+   "jobs": 398,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -829,7 +829,7 @@
   "portal:keka:TechDome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 28,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
@@ -844,16 +844,10 @@
    "jobs": 12,
    "errors": []
   },
-  "portal:keka:VivaConnect Pvt Ltd": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 11,
-   "errors": []
-  },
   "portal:workday:ZEISS Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 85,
+   "jobs": 84,
    "errors": []
   },
   "portal:ashby:within": {
@@ -865,13 +859,13 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 309,
+   "jobs": 299,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1280,
+   "jobs": 1340,
    "errors": []
   },
   "discovery:indeed": {
@@ -889,7 +883,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1395,
+   "jobs": 1461,
    "errors": []
   },
   "naukri (browser)": {
@@ -900,60 +894,57 @@
   }
  },
  "descriptions": {
-  "careers portal": 34,
-  "linkedin": 128,
-  "iimjobs": 28
+  "careers portal": 35,
+  "linkedin": 77,
+  "iimjobs": 6
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
    "raw": 5263,
-   "after_filters": 988,
-   "kept_new": 52
+   "after_filters": 986,
+   "kept_new": 48
   },
   "linkedin": {
-   "raw": 1589,
-   "after_filters": 725,
-   "kept_new": 48
+   "raw": 1639,
+   "after_filters": 746,
+   "kept_new": 37
   },
   "indeed": {
    "raw": 965,
-   "after_filters": 280,
-   "kept_new": 6
+   "after_filters": 294,
+   "kept_new": 4
   },
   "iimjobs": {
-   "raw": 1395,
-   "after_filters": 122,
-   "kept_new": 9
+   "raw": 1461,
+   "after_filters": 131,
+   "kept_new": 5
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Astam Diagnostics",
-   "Trigent Software Inc",
-   "Great Lakes Institute of Management Gurgaon",
-   "USV PRIVATE LIMITED",
-   "Masai",
-   "Magicbricks",
-   "Property Finder",
-   "M B M CONSULTING",
-   "Tata Elxsi",
-   "Summit Works",
-   "FirstClub",
-   "Neemtree",
-   "Basecraft"
+   "Sure",
+   "Seven N Half",
+   "CHIZRINZ INFOWAY PRIVATE LIMITED",
+   "Fashion i Paris",
+   "Zydus Group",
+   "Twor",
+   "Surepass Technologies",
+   "McGraw Hill",
+   "Space Experts Wealth Advisor",
+   "Veeco"
   ],
-  "with_portal": 31
+  "with_portal": 32
  },
  "counts": {
-  "raw": 9212,
-  "after_filters": 2115,
-  "judged": 438,
-  "kept": 115,
-  "duplicates_folded": 43,
-  "on_dashboard": 1308,
+  "raw": 9328,
+  "after_filters": 2157,
+  "judged": 283,
+  "kept": 94,
+  "duplicates_folded": 45,
+  "on_dashboard": 1350,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
