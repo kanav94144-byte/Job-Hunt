@@ -202,6 +202,10 @@
   "type": null,
   "checked": "2026-10-03"
  },
+ "Agile Connects Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-11-07"
+ },
  "AgniKul Cosmos": {
   "type": null,
   "checked": "2026-10-19"
@@ -318,7 +322,7 @@
  },
  "Amgen": {
   "type": null,
-  "checked": "2026-10-11"
+  "checked": "2026-11-07"
  },
  "Amneal Pharmaceuticals": {
   "type": null,
@@ -553,6 +557,10 @@
   "checked": "2026-10-15"
  },
  "Bain & Company": {
+  "type": null,
+  "checked": "2026-11-07"
+ },
+ "Bajaj Broking": {
   "type": null,
   "checked": "2026-11-07"
  },
@@ -2107,6 +2115,10 @@
   "type": null,
   "checked": "2026-10-12"
  },
+ "GoodWord": {
+  "type": null,
+  "checked": "2026-11-07"
+ },
  "GradRight Inc.": {
   "type": null,
   "checked": "2026-10-19"
@@ -2212,6 +2224,10 @@
  "HOT PACK PACKAGING INDUSTRIES L.L.C": {
   "type": null,
   "checked": "2026-09-29"
+ },
+ "HRGenie": {
+  "type": null,
+  "checked": "2026-11-07"
  },
  "HRforU": {
   "type": null,
@@ -3059,6 +3075,10 @@
   "type": null,
   "checked": "2026-10-17"
  },
+ "Light Hill Capital": {
+  "type": null,
+  "checked": "2026-11-07"
+ },
  "LightYears Health": {
   "type": null,
   "checked": "2026-09-30"
@@ -3307,6 +3327,10 @@
   "checked": "2026-11-02"
  },
  "McKinsey & Company": {
+  "type": null,
+  "checked": "2026-11-07"
+ },
+ "MedMaster Academy": {
   "type": null,
   "checked": "2026-11-07"
  },
@@ -4520,6 +4544,21 @@
   "harvested": true,
   "checked": "2026-10-09"
  },
+ "Rhenus A&O India Private Limited": {
+  "type": "workday",
+  "tenant": "rhe",
+  "wd": "wd3",
+  "site": "R1111",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-11-07"
+ },
  "Rhizobee Innovations Private Limited": {
   "type": null,
   "checked": "2026-09-25"
@@ -5250,7 +5289,7 @@
  },
  "Talengage": {
   "type": null,
-  "checked": "2026-10-23"
+  "checked": "2026-11-07"
  },
  "Talking Point Communications": {
   "type": null,
