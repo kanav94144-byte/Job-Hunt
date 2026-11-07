@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 71,
+   "jobs": 69,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -820,6 +820,12 @@
    "jobs": 6,
    "errors": []
   },
+  "portal:workday:Rhenus A&O India Private Limited": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 18,
+   "errors": []
+  },
   "portal:keka:Social Pill": {
    "ok": 1,
    "failed": 0,
@@ -865,19 +871,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 245,
+   "jobs": 140,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1200,
+   "jobs": 650,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 902,
+   "jobs": 894,
    "errors": []
   },
   "discovery:google": {
@@ -889,7 +895,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1021,
+   "jobs": 476,
    "errors": []
   },
   "naukri (browser)": {
@@ -900,48 +906,50 @@
   }
  },
  "descriptions": {
-  "careers portal": 21,
-  "linkedin": 55
+  "careers portal": 17,
+  "linkedin": 22,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5282,
-   "after_filters": 980,
-   "kept_new": 35
+   "raw": 5298,
+   "after_filters": 990,
+   "kept_new": 36
   },
   "linkedin": {
-   "raw": 1445,
-   "after_filters": 615,
-   "kept_new": 28
+   "raw": 790,
+   "after_filters": 378,
+   "kept_new": 17
   },
   "indeed": {
-   "raw": 902,
-   "after_filters": 290,
-   "kept_new": 2
+   "raw": 894,
+   "after_filters": 278,
+   "kept_new": 1
   },
   "iimjobs": {
-   "raw": 1021,
-   "after_filters": 70
+   "raw": 476,
+   "after_filters": 73,
+   "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Swastik Energies",
-   "Merck Group",
-   "Rhenus A&O India Private Limited"
+   "Nextenti Tech Private Limited",
+   "Flipped Classroom",
+   "HSBC"
   ],
   "with_portal": 33
  },
  "counts": {
-  "raw": 8650,
-  "after_filters": 1955,
-  "judged": 213,
-  "kept": 65,
-  "duplicates_folded": 40,
-  "on_dashboard": 1307,
+  "raw": 7458,
+  "after_filters": 1719,
+  "judged": 119,
+  "kept": 55,
+  "duplicates_folded": 41,
+  "on_dashboard": 1321,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
