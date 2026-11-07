@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-06",
+ "run_date": "2026-11-07",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 74,
+   "jobs": 71,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -103,7 +103,7 @@
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 35,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -169,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 341,
+   "jobs": 340,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -685,13 +685,13 @@
   "portal:darwinbox:Airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 57,
+   "jobs": 56,
    "errors": []
   },
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 174,
+   "jobs": 175,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -727,7 +727,7 @@
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
    "ok": 1,
    "failed": 0,
-   "jobs": 8,
+   "jobs": 9,
    "errors": []
   },
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
@@ -787,7 +787,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 396,
+   "jobs": 398,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -853,7 +853,7 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 39,
+   "jobs": 37,
    "errors": []
   },
   "portal:ashby:within": {
@@ -865,19 +865,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 289,
+   "jobs": 253,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1180,
+   "jobs": 1350,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 930,
+   "jobs": 918,
    "errors": []
   },
   "discovery:google": {
@@ -889,7 +889,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 905,
+   "jobs": 1015,
    "errors": []
   },
   "naukri (browser)": {
@@ -900,49 +900,55 @@
   }
  },
  "descriptions": {
-  "careers portal": 16,
-  "linkedin": 43
+  "careers portal": 17,
+  "linkedin": 95,
+  "iimjobs": 7
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5285,
-   "after_filters": 987,
-   "kept_new": 35
+   "raw": 5281,
+   "after_filters": 979,
+   "kept_new": 40
   },
   "linkedin": {
-   "raw": 1469,
-   "after_filters": 674,
-   "kept_new": 26
+   "raw": 1603,
+   "after_filters": 721,
+   "kept_new": 33
   },
   "indeed": {
-   "raw": 930,
-   "after_filters": 269,
-   "kept_new": 4
+   "raw": 918,
+   "after_filters": 279,
+   "kept_new": 2
   },
   "iimjobs": {
-   "raw": 905,
-   "after_filters": 131
+   "raw": 1015,
+   "after_filters": 70,
+   "kept_new": 4
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Honeywell Technologies",
-   "Kroll",
-   "Phenom",
-   "FTI Consulting"
+   "Agile Connects Pvt. Ltd.",
+   "MedMaster Academy",
+   "Bajaj Broking",
+   "Light Hill Capital",
+   "GoodWord",
+   "Talengage",
+   "Amgen",
+   "HRGenie"
   ],
   "with_portal": 32
  },
  "counts": {
-  "raw": 8589,
-  "after_filters": 2061,
-  "judged": 147,
-  "kept": 65,
-  "duplicates_folded": 44,
-  "on_dashboard": 1367,
+  "raw": 8817,
+  "after_filters": 2049,
+  "judged": 301,
+  "kept": 79,
+  "duplicates_folded": 43,
+  "on_dashboard": 1283,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
