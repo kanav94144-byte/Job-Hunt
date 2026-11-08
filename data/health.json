@@ -763,7 +763,7 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 32,
    "errors": []
   },
   "portal:workday:Genpact": {
@@ -871,19 +871,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 135,
+   "jobs": 110,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 800,
+   "jobs": 1220,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 766,
+   "jobs": 724,
    "errors": []
   },
   "discovery:google": {
@@ -895,7 +895,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 503,
+   "jobs": 186,
    "errors": []
   },
   "naukri (browser)": {
@@ -906,49 +906,56 @@
   }
  },
  "descriptions": {
-  "careers portal": 30,
-  "linkedin": 67
+  "careers portal": 17,
+  "linkedin": 71,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5295,
-   "after_filters": 989,
-   "kept_new": 35
+   "raw": 5294,
+   "after_filters": 988,
+   "kept_new": 34
   },
   "linkedin": {
-   "raw": 935,
-   "after_filters": 361,
-   "kept_new": 16
+   "raw": 1330,
+   "after_filters": 471,
+   "kept_new": 23
   },
   "indeed": {
-   "raw": 766,
-   "after_filters": 224,
+   "raw": 724,
+   "after_filters": 213,
    "kept_new": 3
   },
   "iimjobs": {
-   "raw": 503,
-   "after_filters": 22
+   "raw": 186,
+   "after_filters": 25
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "cargo-partner",
-   "AIMLEAP",
-   "ABC - Aditya Birla Housing Finance Limited",
-   "FELIX HOSPITAL"
+   "Halbex",
+   "GHC Growth Lab",
+   "Vybrix Engitech India Pvt Ltd",
+   "Jinavani Facilities Management Services Pvt Ltd",
+   "Qualcomm",
+   "Ingram Micro",
+   "NowPurchase",
+   "Act T Connect",
+   "Zessta Software Services Private Limited",
+   "Invesco"
   ],
-  "with_portal": 33
+  "with_portal": 34
  },
  "counts": {
-  "raw": 7499,
-  "after_filters": 1596,
-  "judged": 340,
-  "kept": 54,
-  "duplicates_folded": 40,
-  "on_dashboard": 1277,
+  "raw": 7534,
+  "after_filters": 1697,
+  "judged": 237,
+  "kept": 60,
+  "duplicates_folded": 37,
+  "on_dashboard": 1298,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
