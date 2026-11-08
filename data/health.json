@@ -871,19 +871,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 142,
+   "jobs": 135,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 559,
+   "jobs": 800,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 805,
+   "jobs": 766,
    "errors": []
   },
   "discovery:google": {
@@ -895,7 +895,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 504,
+   "jobs": 503,
    "errors": []
   },
   "naukri (browser)": {
@@ -906,45 +906,49 @@
   }
  },
  "descriptions": {
-  "careers portal": 24,
-  "linkedin": 22,
-  "iimjobs": 1
+  "careers portal": 30,
+  "linkedin": 67
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
    "raw": 5295,
-   "after_filters": 990,
-   "kept_new": 42
+   "after_filters": 989,
+   "kept_new": 35
   },
   "linkedin": {
-   "raw": 701,
-   "after_filters": 322,
-   "kept_new": 13
+   "raw": 935,
+   "after_filters": 361,
+   "kept_new": 16
   },
   "indeed": {
-   "raw": 805,
-   "after_filters": 247,
+   "raw": 766,
+   "after_filters": 224,
    "kept_new": 3
   },
   "iimjobs": {
-   "raw": 504,
+   "raw": 503,
    "after_filters": 22
   }
  },
  "watchlist": {
   "size": 400,
-  "added_this_run": [],
+  "added_this_run": [
+   "cargo-partner",
+   "AIMLEAP",
+   "ABC - Aditya Birla Housing Finance Limited",
+   "FELIX HOSPITAL"
+  ],
   "with_portal": 33
  },
  "counts": {
-  "raw": 7305,
-  "after_filters": 1581,
-  "judged": 188,
-  "kept": 58,
-  "duplicates_folded": 38,
-  "on_dashboard": 1264,
+  "raw": 7499,
+  "after_filters": 1596,
+  "judged": 340,
+  "kept": 54,
+  "duplicates_folded": 40,
+  "on_dashboard": 1277,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
