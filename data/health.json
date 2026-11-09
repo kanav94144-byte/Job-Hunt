@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-08",
+ "run_date": "2026-11-09",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 191,
+   "jobs": 188,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -127,7 +127,7 @@
   "portal:workday:Mastercard": {
    "ok": 1,
    "failed": 0,
-   "jobs": 142,
+   "jobs": 141,
    "errors": []
   },
   "portal:lever:CRED": {
@@ -163,13 +163,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 17,
+   "jobs": 18,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 342,
+   "jobs": 339,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,13 +181,13 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 77,
+   "jobs": 75,
    "errors": []
   },
   "portal:workday:Adobe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 36,
    "errors": []
   },
   "portal:darwinbox:Zepto": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 40,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -235,7 +235,7 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 84,
+   "jobs": 85,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
@@ -463,7 +463,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 27,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -475,7 +475,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 16,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -619,7 +619,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 43,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -673,7 +673,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 71,
+   "jobs": 69,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
@@ -709,7 +709,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 155,
+   "jobs": 156,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -721,7 +721,7 @@
   "portal:lever:Dozee": {
    "ok": 1,
    "failed": 0,
-   "jobs": 14,
+   "jobs": 15,
    "errors": []
   },
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
@@ -733,7 +733,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 60,
+   "jobs": 59,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -745,25 +745,25 @@
   "portal:keka:Eloelo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 27,
    "errors": []
   },
   "portal:smartrecruiters:Eurofins": {
    "ok": 1,
    "failed": 0,
-   "jobs": 369,
+   "jobs": 366,
    "errors": []
   },
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 24,
+   "jobs": 26,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 30,
    "errors": []
   },
   "portal:workday:Genpact": {
@@ -784,10 +784,16 @@
    "jobs": 77,
    "errors": []
   },
+  "portal:workday:Ingram Micro": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 41,
+   "errors": []
+  },
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 397,
+   "jobs": 383,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -859,7 +865,7 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 33,
    "errors": []
   },
   "portal:ashby:within": {
@@ -871,19 +877,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 110,
+   "jobs": 151,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1220,
+   "jobs": 870,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 724,
+   "jobs": 749,
    "errors": []
   },
   "discovery:google": {
@@ -895,7 +901,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 186,
+   "jobs": 285,
    "errors": []
   },
   "naukri (browser)": {
@@ -906,56 +912,57 @@
   }
  },
  "descriptions": {
-  "careers portal": 17,
-  "linkedin": 71,
-  "iimjobs": 1
+  "careers portal": 25,
+  "linkedin": 89,
+  "iimjobs": 7
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5294,
-   "after_filters": 988,
-   "kept_new": 34
+   "raw": 5301,
+   "after_filters": 994,
+   "kept_new": 49
   },
   "linkedin": {
-   "raw": 1330,
-   "after_filters": 471,
-   "kept_new": 23
+   "raw": 1021,
+   "after_filters": 411,
+   "kept_new": 31
   },
   "indeed": {
-   "raw": 724,
-   "after_filters": 213,
-   "kept_new": 3
+   "raw": 749,
+   "after_filters": 226,
+   "kept_new": 5
   },
   "iimjobs": {
-   "raw": 186,
-   "after_filters": 25
+   "raw": 285,
+   "after_filters": 20,
+   "kept_new": 6
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Halbex",
-   "GHC Growth Lab",
-   "Vybrix Engitech India Pvt Ltd",
-   "Jinavani Facilities Management Services Pvt Ltd",
-   "Qualcomm",
-   "Ingram Micro",
-   "NowPurchase",
-   "Act T Connect",
-   "Zessta Software Services Private Limited",
-   "Invesco"
+   "Handshake",
+   "AMCI Edtech Pvt. Ltd.",
+   "SPARTEK & NEYCER GROUP",
+   "Sum Lifesciences",
+   "Kodo",
+   "Empliance Technologies",
+   "OLIVER | The Brandtech Group",
+   "Anakin Skywalker",
+   "Qualysec Technologies Pvt Ltd",
+   "Bosch"
   ],
   "with_portal": 34
  },
  "counts": {
-  "raw": 7534,
-  "after_filters": 1697,
-  "judged": 237,
-  "kept": 60,
-  "duplicates_folded": 37,
-  "on_dashboard": 1298,
+  "raw": 7356,
+  "after_filters": 1651,
+  "judged": 426,
+  "kept": 91,
+  "duplicates_folded": 39,
+  "on_dashboard": 1297,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

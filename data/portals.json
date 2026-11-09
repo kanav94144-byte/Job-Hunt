@@ -77,11 +77,11 @@
  },
  "ALPLA Group": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
  },
  "AMD": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
  },
  "AMKA Aerospace and Defence Pvt. Ltd.": {
   "type": null,
@@ -140,7 +140,7 @@
  },
  "Abbott": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
  },
  "Acadvizen- Digital Marketing Institute": {
   "type": null,
@@ -153,6 +153,10 @@
  "Acko": {
   "type": null,
   "checked": "2026-11-07"
+ },
+ "Act T Connect": {
+  "type": null,
+  "checked": "2026-11-09"
  },
  "Acuitas360": {
   "type": null,
@@ -744,6 +748,14 @@
  "Booking Holdings (Agoda/Booking.com)": {
   "type": null,
   "checked": "2026-11-07"
+ },
+ "Bosch": {
+  "type": "smartrecruiters",
+  "tenant": "BoschGroup",
+  "harvested": true,
+  "company_id": "BoschGroup",
+  "country": "in",
+  "checked": "2026-11-09"
  },
  "Boston Consulting Group": {
   "type": null,
@@ -1486,7 +1498,7 @@
  },
  "Eaton": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
  },
  "Ebizon": {
   "type": null,
@@ -1968,6 +1980,10 @@
   "type": null,
   "checked": "2026-11-03"
  },
+ "GHC Growth Lab": {
+  "type": null,
+  "checked": "2026-11-09"
+ },
  "GIVA": {
   "type": null,
   "checked": "2026-11-07"
@@ -2251,7 +2267,11 @@
  },
  "HYrEzy Tech Solutions": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
+ },
+ "Halbex": {
+  "type": null,
+  "checked": "2026-11-09"
  },
  "Hancod Digital": {
   "type": null,
@@ -2653,6 +2673,10 @@
   "type": null,
   "checked": "2026-10-15"
  },
+ "Invesco": {
+  "type": null,
+  "checked": "2026-11-09"
+ },
  "Irage Broking Services": {
   "type": null,
   "checked": "2026-10-28"
@@ -2715,6 +2739,10 @@
  "Jhr Solutions": {
   "type": null,
   "checked": "2026-10-15"
+ },
+ "Jinavani Facilities Management Services Pvt Ltd": {
+  "type": null,
+  "checked": "2026-11-09"
  },
  "Jio": {
   "type": null,
@@ -2927,7 +2955,7 @@
  },
  "Kroll": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
  },
  "Krutrim": {
   "type": null,
@@ -3390,7 +3418,7 @@
  },
  "Meritto": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
  },
  "MetAntz": {
   "type": null,
@@ -3795,6 +3823,10 @@
  "Novus Insights": {
   "type": null,
   "checked": "2026-10-10"
+ },
+ "NowPurchase": {
+  "type": null,
+  "checked": "2026-11-09"
  },
  "Ntech IT Solutions Private Limited": {
   "type": null,
@@ -4328,6 +4360,10 @@
  "Qrata": {
   "type": null,
   "checked": "2026-10-21"
+ },
+ "Qualcomm": {
+  "type": null,
+  "checked": "2026-11-09"
  },
  "Qualitek Labs": {
   "type": null,
@@ -5081,7 +5117,7 @@
  },
  "Standard Chartered Bank": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-09"
  },
  "StarCharge APAC": {
   "type": null,
@@ -5974,6 +6010,10 @@
   "probed": true,
   "checked": "2026-09-23"
  },
+ "Vybrix Engitech India Pvt Ltd": {
+  "type": null,
+  "checked": "2026-11-09"
+ },
  "WHALEXY": {
   "type": null,
   "checked": "2026-09-30"
@@ -6256,6 +6296,10 @@
  "Zerodha": {
   "type": null,
   "checked": "2026-11-07"
+ },
+ "Zessta Software Services Private Limited": {
+  "type": null,
+  "checked": "2026-11-09"
  },
  "Zeta": {
   "type": null,
