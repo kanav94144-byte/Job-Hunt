@@ -181,7 +181,7 @@
  },
  "Airwallex": {
   "first_seen": "2026-10-05",
-  "hits": 49,
+  "hits": 50,
   "band": "unknown",
   "titles": [
    "Manager, Revenue Strategy, SG"
@@ -712,7 +712,7 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 332,
+  "hits": 335,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
@@ -811,7 +811,7 @@
  },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "first_seen": "2026-10-12",
-  "hits": 82,
+  "hits": 84,
   "band": "unknown",
   "titles": [
    "Business Development Manager/Area Business Manager - Kota"
@@ -1118,7 +1118,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 135,
+  "hits": 136,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1325,12 +1325,12 @@
  },
  "Huron Consulting Group": {
   "first_seen": "2026-11-02",
-  "hits": 7,
+  "hits": 11,
   "band": "unknown",
   "titles": [
    "Associate Consultant -HCM"
   ],
-  "last_hit": "2026-11-02"
+  "last_hit": "2026-11-09"
  },
  "HyrMe": {
   "first_seen": "2026-10-21",
@@ -1611,6 +1611,15 @@
   ],
   "last_hit": "2026-10-30"
  },
+ "K. Patel Phyto Extractions": {
+  "first_seen": "2026-11-09",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business Development Manager"
+  ],
+  "last_hit": "2026-11-09"
+ },
  "K12 Techno Services Pvt. Ltd.": {
   "first_seen": "2026-10-30",
   "hits": 1,
@@ -1646,6 +1655,15 @@
    "Manager - Strategy & Business Performance"
   ],
   "last_hit": "2026-11-04"
+ },
+ "KSPL ( Kambill Systems )": {
+  "first_seen": "2026-11-09",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business Development Manager"
+  ],
+  "last_hit": "2026-11-09"
  },
  "KVGGN SYNERGY PRIVATE LIMITED": {
   "first_seen": "2026-10-26",
@@ -2432,6 +2450,15 @@
   ],
   "last_hit": "2026-10-30"
  },
+ "Pawanpootra Infratrade Private Limited": {
+  "first_seen": "2026-11-09",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business Development Manager"
+  ],
+  "last_hit": "2026-11-09"
+ },
  "Phenom": {
   "first_seen": "2026-11-06",
   "hits": 1,
@@ -2842,12 +2869,12 @@
  },
  "Startoon Labs Pvt. Ltd": {
   "first_seen": "2026-10-22",
-  "hits": 3,
+  "hits": 4,
   "band": "unknown",
   "titles": [
    "International Business Development Manager"
   ],
-  "last_hit": "2026-10-31"
+  "last_hit": "2026-11-09"
  },
  "Steps India Technology": {
   "first_seen": "2026-11-05",
@@ -3141,7 +3168,7 @@
  },
  "The/Nudge Institute": {
   "first_seen": "2026-10-14",
-  "hits": 28,
+  "hits": 29,
   "band": "unknown",
   "titles": [
    "Senior Associate, Corporate Partnerships, Fundraising"
@@ -3293,15 +3320,6 @@
    "Commercial Pricing Strategy Lead"
   ],
   "last_hit": "2026-11-03"
- },
- "Valence Advanced Materials": {
-  "first_seen": "2026-10-28",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Founder's Office"
-  ],
-  "last_hit": "2026-10-28"
  },
  "Valeo Wellbeing": {
   "first_seen": "2026-10-29",
@@ -3548,12 +3566,12 @@
  },
  "cargo-partner": {
   "first_seen": "2026-11-08",
-  "hits": 1,
+  "hits": 2,
   "band": "unknown",
   "titles": [
    "Key Account Manager"
   ],
-  "last_hit": "2026-11-08"
+  "last_hit": "2026-11-09"
  },
  "eHealthBuddy HealthTech Solutions Pvt Ltd": {
   "first_seen": "2026-10-30",
@@ -3582,15 +3600,6 @@
   ],
   "last_hit": "2026-11-05"
  },
- "r3 Consultant": {
-  "first_seen": "2026-10-28",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Senior Associate - Corporate Strategy"
-  ],
-  "last_hit": "2026-10-28"
- },
  "rapyder cloud solutions": {
   "first_seen": "2026-11-04",
   "hits": 1,
@@ -3599,14 +3608,5 @@
    "AI Customer Success Manager - Tech Sales"
   ],
   "last_hit": "2026-11-04"
- },
- "within": {
-  "first_seen": "2026-10-17",
-  "hits": 34,
-  "band": "unknown",
-  "titles": [
-   "Business Development Representative Manager - US Market"
-  ],
-  "last_hit": "2026-10-27"
  }
 }

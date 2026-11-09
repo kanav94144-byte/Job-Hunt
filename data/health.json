@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 73,
+   "jobs": 72,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -205,7 +205,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 52,
+   "jobs": 51,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -775,16 +775,14 @@
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 258,
+   "jobs": 259,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 502 Server Error: Bad Gateway for url: https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 77,
+   "errors": []
   },
   "portal:workday:Ingram Micro": {
    "ok": 1,
@@ -879,19 +877,19 @@
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 155,
+   "jobs": 164,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1190,
+   "jobs": 1130,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 776,
+   "jobs": 784,
    "errors": []
   },
   "discovery:google": {
@@ -914,59 +912,48 @@
   }
  },
  "descriptions": {
-  "careers portal": 48,
-  "linkedin": 94,
-  "iimjobs": 2
+  "careers portal": 20,
+  "linkedin": 22
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5766,
-   "after_filters": 1013,
-   "kept_new": 40
+   "raw": 5842,
+   "after_filters": 1028,
+   "kept_new": 39
   },
   "linkedin": {
-   "raw": 1345,
-   "after_filters": 482,
-   "kept_new": 31
+   "raw": 1294,
+   "after_filters": 490,
+   "kept_new": 7
   },
   "indeed": {
-   "raw": 776,
-   "after_filters": 230,
-   "kept_new": 4
+   "raw": 784,
+   "after_filters": 233,
+   "kept_new": 1
   },
   "iimjobs": {
    "raw": 285,
-   "after_filters": 28,
-   "kept_new": 2
+   "after_filters": 28
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Origin",
-   "Ferrero",
-   "NIIT",
-   "AI CERTs\u00ae",
-   "Mardamed Healthcare",
-   "Projectstudio.ai",
-   "2Hats Logic Solutions",
-   "Muthoot Finance Ltd. - India",
-   "IndusInd Bank",
-   "Oliver Agency",
-   "SymphonyAI",
-   "Constems-AI"
+   "KSPL ( Kambill Systems )",
+   "K. Patel Phyto Extractions",
+   "Pawanpootra Infratrade Private Limited"
   ],
-  "with_portal": 34
+  "with_portal": 33
  },
  "counts": {
-  "raw": 8172,
-  "after_filters": 1753,
-  "judged": 451,
-  "kept": 77,
-  "duplicates_folded": 37,
-  "on_dashboard": 1328,
+  "raw": 8205,
+  "after_filters": 1779,
+  "judged": 103,
+  "kept": 47,
+  "duplicates_folded": 36,
+  "on_dashboard": 1339,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
