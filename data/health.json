@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 68,
+   "jobs": 63,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -163,13 +163,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 18,
+   "jobs": 19,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 339,
+   "jobs": 336,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 75,
+   "jobs": 73,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 38,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -253,7 +253,7 @@
   "portal:darwinbox:NoBroker": {
    "ok": 1,
    "failed": 0,
-   "jobs": 5,
+   "jobs": 6,
    "errors": []
   },
   "portal:darwinbox:Snabbit": {
@@ -403,7 +403,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 39,
+   "jobs": 38,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -700,16 +700,22 @@
    "jobs": 0,
    "errors": []
   },
+  "portal:smartrecruiters:Bosch": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 585,
+   "errors": []
+  },
   "portal:smartrecruiters:Colliers": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 39,
    "errors": []
   },
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 156,
+   "jobs": 152,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -733,7 +739,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 59,
+   "jobs": 55,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -763,26 +769,22 @@
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 27,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 259,
-   "errors": []
-  },
-  "portal:keka:HoduSoft": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 7,
+   "jobs": 258,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 77,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 502 Server Error: Bad Gateway for url: https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/jobs"
+   ]
   },
   "portal:workday:Ingram Micro": {
    "ok": 1,
@@ -793,7 +795,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 383,
+   "jobs": 369,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -847,7 +849,7 @@
   "portal:keka:The/Nudge Institute": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 41,
    "errors": []
   },
   "portal:keka:TrueFan": {
@@ -871,25 +873,25 @@
   "portal:ashby:within": {
    "ok": 1,
    "failed": 0,
-   "jobs": 5,
+   "jobs": 4,
    "errors": []
   },
   "linkedin": {
    "ok": 98,
    "failed": 0,
-   "jobs": 151,
+   "jobs": 155,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 870,
+   "jobs": 1190,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 749,
+   "jobs": 776,
    "errors": []
   },
   "discovery:google": {
@@ -912,57 +914,59 @@
   }
  },
  "descriptions": {
-  "careers portal": 25,
-  "linkedin": 89,
-  "iimjobs": 7
+  "careers portal": 48,
+  "linkedin": 94,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5301,
-   "after_filters": 994,
-   "kept_new": 49
+   "raw": 5766,
+   "after_filters": 1013,
+   "kept_new": 40
   },
   "linkedin": {
-   "raw": 1021,
-   "after_filters": 411,
+   "raw": 1345,
+   "after_filters": 482,
    "kept_new": 31
   },
   "indeed": {
-   "raw": 749,
-   "after_filters": 226,
-   "kept_new": 5
+   "raw": 776,
+   "after_filters": 230,
+   "kept_new": 4
   },
   "iimjobs": {
    "raw": 285,
-   "after_filters": 20,
-   "kept_new": 6
+   "after_filters": 28,
+   "kept_new": 2
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Handshake",
-   "AMCI Edtech Pvt. Ltd.",
-   "SPARTEK & NEYCER GROUP",
-   "Sum Lifesciences",
-   "Kodo",
-   "Empliance Technologies",
-   "OLIVER | The Brandtech Group",
-   "Anakin Skywalker",
-   "Qualysec Technologies Pvt Ltd",
-   "Bosch"
+   "Origin",
+   "Ferrero",
+   "NIIT",
+   "AI CERTs\u00ae",
+   "Mardamed Healthcare",
+   "Projectstudio.ai",
+   "2Hats Logic Solutions",
+   "Muthoot Finance Ltd. - India",
+   "IndusInd Bank",
+   "Oliver Agency",
+   "SymphonyAI",
+   "Constems-AI"
   ],
   "with_portal": 34
  },
  "counts": {
-  "raw": 7356,
-  "after_filters": 1651,
-  "judged": 426,
-  "kept": 91,
-  "duplicates_folded": 39,
-  "on_dashboard": 1297,
+  "raw": 8172,
+  "after_filters": 1753,
+  "judged": 451,
+  "kept": 77,
+  "duplicates_folded": 37,
+  "on_dashboard": 1328,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
