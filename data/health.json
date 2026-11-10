@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-09",
+ "run_date": "2026-11-10",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -11,7 +11,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 63,
+   "jobs": 70,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -61,13 +61,13 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 188,
+   "jobs": 190,
    "errors": []
   },
   "portal:workday:Visa": {
    "ok": 1,
    "failed": 0,
-   "jobs": 98,
+   "jobs": 97,
    "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
@@ -85,7 +85,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 152,
+   "jobs": 153,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -103,7 +103,7 @@
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 35,
+   "jobs": 36,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -169,7 +169,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 336,
+   "jobs": 338,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 72,
+   "jobs": 80,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -193,7 +193,7 @@
   "portal:darwinbox:Zepto": {
    "ok": 1,
    "failed": 0,
-   "jobs": 0,
+   "jobs": 1,
    "errors": []
   },
   "portal:darwinbox:BigBasket": {
@@ -205,7 +205,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 51,
+   "jobs": 49,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -271,7 +271,7 @@
   "portal:darwinbox:CaratLane": {
    "ok": 1,
    "failed": 0,
-   "jobs": 5,
+   "jobs": 6,
    "errors": []
   },
   "portal:darwinbox:Licious": {
@@ -289,7 +289,7 @@
   "portal:keka:Snitch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 35,
    "errors": []
   },
   "portal:darwinbox:Country Delight": {
@@ -331,13 +331,13 @@
   "portal:smartrecruiters:Freshworks": {
    "ok": 1,
    "failed": 0,
-   "jobs": 32,
+   "jobs": 34,
    "errors": []
   },
   "portal:workday:BrowserStack": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 28,
    "errors": []
   },
   "portal:smartrecruiters:Whatfix": {
@@ -349,7 +349,7 @@
   "portal:lever:Mindtickle": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 18,
    "errors": []
   },
   "portal:darwinbox:LeadSquared": {
@@ -463,7 +463,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 28,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -619,7 +619,7 @@
   "portal:darwinbox:Emeritus": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 42,
    "errors": []
   },
   "portal:keka:Truemeds": {
@@ -673,7 +673,7 @@
   "portal:workday:AVEVA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 69,
+   "jobs": 66,
    "errors": []
   },
   "portal:smartrecruiters:AbbVie": {
@@ -691,7 +691,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 175,
+   "jobs": 176,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -703,7 +703,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 585,
+   "jobs": 597,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -715,7 +715,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 152,
+   "jobs": 155,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -739,7 +739,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 55,
+   "jobs": 63,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -751,7 +751,7 @@
   "portal:keka:Eloelo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 28,
    "errors": []
   },
   "portal:smartrecruiters:Eurofins": {
@@ -763,25 +763,25 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 24,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 28,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 259,
+   "jobs": 260,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 77,
+   "jobs": 78,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
@@ -793,7 +793,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 369,
+   "jobs": 376,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -817,7 +817,7 @@
   "portal:workday:Priceline": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 22,
    "errors": []
   },
   "portal:workday:Resmed": {
@@ -847,7 +847,7 @@
   "portal:keka:The/Nudge Institute": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 39,
    "errors": []
   },
   "portal:keka:TrueFan": {
@@ -868,28 +868,22 @@
    "jobs": 33,
    "errors": []
   },
-  "portal:ashby:within": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 4,
-   "errors": []
-  },
   "linkedin": {
-   "ok": 98,
+   "ok": 97,
    "failed": 0,
-   "jobs": 164,
+   "jobs": 217,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1130,
+   "jobs": 920,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 784,
+   "jobs": 895,
    "errors": []
   },
   "discovery:google": {
@@ -901,7 +895,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 285,
+   "jobs": 508,
    "errors": []
   },
   "naukri (browser)": {
@@ -912,48 +906,67 @@
   }
  },
  "descriptions": {
-  "careers portal": 20,
-  "linkedin": 22
+  "careers portal": 40,
+  "linkedin": 114,
+  "iimjobs": 15
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5842,
-   "after_filters": 1028,
-   "kept_new": 39
+   "raw": 5886,
+   "after_filters": 1045,
+   "kept_new": 60
   },
   "linkedin": {
-   "raw": 1294,
-   "after_filters": 490,
-   "kept_new": 7
+   "raw": 1137,
+   "after_filters": 476,
+   "kept_new": 45
   },
   "indeed": {
-   "raw": 784,
-   "after_filters": 233,
-   "kept_new": 1
+   "raw": 895,
+   "after_filters": 275,
+   "kept_new": 4
   },
   "iimjobs": {
-   "raw": 285,
-   "after_filters": 28
+   "raw": 508,
+   "after_filters": 49,
+   "kept_new": 7
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "KSPL ( Kambill Systems )",
-   "K. Patel Phyto Extractions",
-   "Pawanpootra Infratrade Private Limited"
+   "Roligt",
+   "Varaha",
+   "Matri",
+   "Leadre Proptech",
+   "Vedantu",
+   "Pharmonix Biologicals Pvt. Ltd.",
+   "Quest Innovative Solutions Pvt Ltd",
+   "Coforge",
+   "Team Triguna",
+   "SolutionInn",
+   "iSpark Learning Solutions",
+   "KeyValue",
+   "VMock",
+   "emaratech",
+   "Monday",
+   "Aretius Advisory",
+   "PORCH TECHNOLOGIES PRIVATE LIMITED",
+   "Pfizer",
+   "Simply Vyapar Apps Private Limited",
+   "Multispecialty Hospital"
   ],
-  "with_portal": 33
+  "with_portal": 35
  },
  "counts": {
-  "raw": 8205,
-  "after_filters": 1779,
-  "judged": 103,
-  "kept": 47,
-  "duplicates_folded": 36,
-  "on_dashboard": 1339,
+  "raw": 8426,
+  "after_filters": 1845,
+  "judged": 427,
+  "kept": 116,
+  "duplicates_folded": 41,
+  "on_dashboard": 1280,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

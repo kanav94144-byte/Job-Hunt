@@ -2810,6 +2810,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "K. Patel Phyto Extractions": {
+  "type": null,
+  "checked": "2026-11-10"
+ },
  "K.R. Mangalam University": {
   "type": null,
   "checked": "2026-10-09"
@@ -2872,9 +2876,13 @@
   "type": null,
   "checked": "2026-09-28"
  },
+ "KSPL ( Kambill Systems )": {
+  "type": null,
+  "checked": "2026-11-10"
+ },
  "KVGGN SYNERGY PRIVATE LIMITED": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "KWAN VENTURES": {
   "type": null,
@@ -3323,7 +3331,7 @@
  },
  "MantraCare": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "MantriAI": {
   "type": null,
@@ -3799,7 +3807,7 @@
  },
  "Nextenti Tech Private Limited": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "Nextpower": {
   "type": null,
@@ -4119,6 +4127,10 @@
   "type": null,
   "checked": "2026-09-30"
  },
+ "Pawanpootra Infratrade Private Limited": {
+  "type": null,
+  "checked": "2026-11-10"
+ },
  "PayU": {
   "type": "darwinbox",
   "tenant": "payu",
@@ -4165,6 +4177,21 @@
  "Petverse": {
   "type": null,
   "checked": "2026-10-14"
+ },
+ "Pfizer": {
+  "type": "workday",
+  "tenant": "pfizer",
+  "wd": "wd1",
+  "site": "PfizerCareers",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-11-10"
  },
  "PharmEasy": {
   "type": null,
@@ -4763,7 +4790,7 @@
  },
  "SUN PHARMA": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "SVECTOR": {
   "type": null,
@@ -4965,6 +4992,12 @@
  "Simero Ceramic": {
   "type": null,
   "checked": "2026-10-11"
+ },
+ "Simply Vyapar Apps Private Limited": {
+  "type": "keka",
+  "tenant": "vyaparapp",
+  "harvested": true,
+  "checked": "2026-11-10"
  },
  "Simpplr": {
   "type": "greenhouse",
@@ -5329,7 +5362,7 @@
  },
  "TAAS Partners": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "TAXPERT PRO ACC": {
   "type": null,
@@ -5529,7 +5562,7 @@
  },
  "The Convergence Foundation": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "The Glove": {
   "type": null,
@@ -6181,7 +6214,7 @@
  },
  "Wife": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "Wigope": {
   "type": null,
@@ -6261,7 +6294,7 @@
  },
  "YesMadam": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "Yoga Bar": {
   "type": null,
@@ -6438,7 +6471,7 @@
  },
  "Zydus Wellness": {
   "type": null,
-  "checked": "2026-10-26"
+  "checked": "2026-11-10"
  },
  "Zyentara Solutions (Pvt) Limited": {
   "type": null,
