@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 190,
+   "jobs": 191,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -409,7 +409,7 @@
   "portal:lever:Hevo Data": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 40,
    "errors": []
   },
   "portal:keka:Zluri": {
@@ -685,13 +685,13 @@
   "portal:darwinbox:Airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 57,
    "errors": []
   },
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 176,
+   "jobs": 174,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -703,7 +703,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 597,
+   "jobs": 598,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -715,7 +715,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 155,
+   "jobs": 156,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -739,7 +739,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 63,
+   "jobs": 62,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -763,19 +763,19 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 24,
+   "jobs": 23,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 27,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 260,
+   "jobs": 259,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -793,7 +793,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 376,
+   "jobs": 380,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -806,6 +806,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 18,
+   "errors": []
+  },
+  "portal:workday:Pfizer": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 23,
    "errors": []
   },
   "portal:keka:Praxis Global Alliance": {
@@ -830,6 +836,12 @@
    "ok": 1,
    "failed": 0,
    "jobs": 18,
+   "errors": []
+  },
+  "portal:keka:Simply Vyapar Apps Private Limited": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 78,
    "errors": []
   },
   "portal:keka:Social Pill": {
@@ -871,19 +883,19 @@
   "linkedin": {
    "ok": 97,
    "failed": 0,
-   "jobs": 217,
+   "jobs": 237,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 920,
+   "jobs": 1100,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 895,
+   "jobs": 922,
    "errors": []
   },
   "discovery:google": {
@@ -895,7 +907,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 508,
+   "jobs": 544,
    "errors": []
   },
   "naukri (browser)": {
@@ -906,67 +918,51 @@
   }
  },
  "descriptions": {
-  "careers portal": 40,
-  "linkedin": 114,
-  "iimjobs": 15
+  "careers portal": 45,
+  "linkedin": 91,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5886,
-   "after_filters": 1045,
-   "kept_new": 60
+   "raw": 5988,
+   "after_filters": 1061,
+   "kept_new": 44
   },
   "linkedin": {
-   "raw": 1137,
-   "after_filters": 476,
-   "kept_new": 45
+   "raw": 1337,
+   "after_filters": 558,
+   "kept_new": 27
   },
   "indeed": {
-   "raw": 895,
-   "after_filters": 275,
-   "kept_new": 4
+   "raw": 922,
+   "after_filters": 284,
+   "kept_new": 1
   },
   "iimjobs": {
-   "raw": 508,
-   "after_filters": 49,
-   "kept_new": 7
+   "raw": 544,
+   "after_filters": 54
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Roligt",
-   "Varaha",
-   "Matri",
-   "Leadre Proptech",
-   "Vedantu",
-   "Pharmonix Biologicals Pvt. Ltd.",
-   "Quest Innovative Solutions Pvt Ltd",
-   "Coforge",
-   "Team Triguna",
-   "SolutionInn",
-   "iSpark Learning Solutions",
-   "KeyValue",
-   "VMock",
-   "emaratech",
-   "Monday",
-   "Aretius Advisory",
-   "PORCH TECHNOLOGIES PRIVATE LIMITED",
-   "Pfizer",
-   "Simply Vyapar Apps Private Limited",
-   "Multispecialty Hospital"
+   "Karma Primary Healthcare",
+   "UPLYFT - ORGANIZATIONAL LEARNING & DEVELOPMENT",
+   "Induckt Ventures",
+   "KISAN KA VIKAS",
+   "Buildesk"
   ],
   "with_portal": 35
  },
  "counts": {
-  "raw": 8426,
-  "after_filters": 1845,
-  "judged": 427,
-  "kept": 116,
-  "duplicates_folded": 41,
-  "on_dashboard": 1280,
+  "raw": 8791,
+  "after_filters": 1957,
+  "judged": 396,
+  "kept": 72,
+  "duplicates_folded": 38,
+  "on_dashboard": 1308,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
