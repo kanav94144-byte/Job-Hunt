@@ -452,7 +452,7 @@
  },
  "Aretius Advisory": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-11"
  },
  "Arise TechGlobal": {
   "type": null,
@@ -2656,7 +2656,7 @@
  },
  "Infosys": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-11"
  },
  "Infra.Market": {
   "type": null,
@@ -2706,8 +2706,19 @@
   "checked": "2026-10-15"
  },
  "Invesco": {
-  "type": null,
-  "checked": "2026-11-09"
+  "type": "workday",
+  "tenant": "invesco",
+  "wd": "wd1",
+  "site": "IVZ",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-11-11"
  },
  "Irage Broking Services": {
   "type": null,
@@ -2898,7 +2909,7 @@
  },
  "KWAN VENTURES": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-11"
  },
  "Kaar Ventures": {
   "type": null,
@@ -3670,7 +3681,7 @@
  },
  "NTT DATA": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-11"
  },
  "NTT DATA North America": {
   "type": null,
@@ -3993,7 +4004,7 @@
  },
  "Okta": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-11"
  },
  "Ola": {
   "type": null,
@@ -4127,7 +4138,7 @@
  },
  "PW (PhysicsWallah)": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-11"
  },
  "Palette Hire": {
   "type": null,
@@ -5121,6 +5132,10 @@
   "type": null,
   "checked": "2026-11-08"
  },
+ "SmartKids India Innovations Private Limited": {
+  "type": null,
+  "checked": "2026-11-11"
+ },
  "Smartsheet": {
   "type": null,
   "checked": "2026-10-22"
@@ -5510,7 +5525,7 @@
  },
  "Tascbusinesslearning": {
   "type": null,
-  "checked": "2026-10-21"
+  "checked": "2026-11-11"
  },
  "Tata Advanced Systems Limited": {
   "type": null,
@@ -6143,6 +6158,10 @@
   "type": null,
   "checked": "2026-10-14"
  },
+ "Vitalpro Consumer Pvt Ltd": {
+  "type": null,
+  "checked": "2026-11-11"
+ },
  "VivaConnect Pvt Ltd": {
   "type": "keka",
   "tenant": "viva",
@@ -6294,7 +6313,7 @@
  },
  "Wipro": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-11"
  },
  "Wiscon Pharmaceuticals pvt lmd": {
   "type": null,
