@@ -134,6 +134,15 @@
   ],
   "last_hit": "2026-11-04"
  },
+ "Abhibus": {
+  "first_seen": "2026-11-12",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Product Manager"
+  ],
+  "last_hit": "2026-11-12"
+ },
  "Act T Connect": {
   "first_seen": "2026-11-08",
   "hits": 1,
@@ -667,7 +676,7 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 365,
+  "hits": 368,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
@@ -775,7 +784,7 @@
  },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "first_seen": "2026-10-12",
-  "hits": 98,
+  "hits": 99,
   "band": "unknown",
   "titles": [
    "Business Development Manager/Area Business Manager - Kota"
@@ -1073,7 +1082,7 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 145,
+  "hits": 146,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
@@ -1163,16 +1172,16 @@
  },
  "HCLTech": {
   "first_seen": "2026-10-29",
-  "hits": 7,
+  "hits": 8,
   "band": "unknown",
   "titles": [
    "AI Advisory -Deputy Manager"
   ],
-  "last_hit": "2026-11-11"
+  "last_hit": "2026-11-12"
  },
  "HDFC Bank": {
   "first_seen": "2026-11-05",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Channel Mgr-Strategic Alliance-Unsecured"
@@ -1196,15 +1205,6 @@
    "Product Manager - Global Trade Solutions"
   ],
   "last_hit": "2026-11-11"
- },
- "HYrEzy Tech Solutions": {
-  "first_seen": "2026-10-24",
-  "hits": 2,
-  "band": "unknown",
-  "titles": [
-   "Sales & Channel Partnerships Manager (ERP / Supply Chain SaaS)"
-  ],
-  "last_hit": "2026-10-30"
  },
  "Halbex": {
   "first_seen": "2026-11-08",
@@ -1487,7 +1487,7 @@
  },
  "JioStar": {
   "first_seen": "2026-09-23",
-  "hits": 31,
+  "hits": 32,
   "band": "unknown",
   "titles": [
    "Senior Product Manager (Ads)"
@@ -1838,15 +1838,6 @@
   ],
   "last_hit": "2026-11-04"
  },
- "Marsh": {
-  "first_seen": "2026-10-22",
-  "hits": 2,
-  "band": "unknown",
-  "titles": [
-   "Senior Investment Consultant"
-  ],
-  "last_hit": "2026-10-30"
- },
  "Masai": {
   "first_seen": "2026-11-06",
   "hits": 1,
@@ -1970,6 +1961,15 @@
   "band": "unknown",
   "titles": [
    "office Business Development Executive"
+  ],
+  "last_hit": "2026-11-12"
+ },
+ "Ministry of Vocational Training & Education - Algeria": {
+  "first_seen": "2026-11-12",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business Development Manager"
   ],
   "last_hit": "2026-11-12"
  },
@@ -2452,7 +2452,7 @@
  },
  "Priceline": {
   "first_seen": "2026-11-12",
-  "hits": 1,
+  "hits": 2,
   "band": "unknown",
   "titles": [
    "Product Manager"
@@ -3141,7 +3141,7 @@
  },
  "The/Nudge": {
   "first_seen": "2026-11-12",
-  "hits": 1,
+  "hits": 5,
   "band": "unknown",
   "titles": [
    "Senior Associate, Prize ( AI Build) , Livelihood Ecosystem"
@@ -3150,7 +3150,7 @@
  },
  "The/Nudge Institute": {
   "first_seen": "2026-10-14",
-  "hits": 38,
+  "hits": 39,
   "band": "unknown",
   "titles": [
    "Senior Associate, Corporate Partnerships, Fundraising"
@@ -3404,7 +3404,7 @@
  },
  "Wells Fargo": {
   "first_seen": "2026-10-07",
-  "hits": 50,
+  "hits": 51,
   "band": "unknown",
   "titles": [
    "Senior Quantitative Analytics Specialist( Gen AI)"

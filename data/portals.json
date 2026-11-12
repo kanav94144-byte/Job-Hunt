@@ -41,7 +41,7 @@
  },
  "AB InBev India": {
   "type": null,
-  "checked": "2026-10-21"
+  "checked": "2026-11-12"
  },
  "ABC - Aditya Birla Housing Finance Limited": {
   "type": null,
@@ -161,6 +161,14 @@
  "Abbott": {
   "type": null,
   "checked": "2026-11-09"
+ },
+ "Abhibus": {
+  "type": "smartrecruiters",
+  "tenant": "AbhiBus",
+  "harvested": true,
+  "company_id": "AbhiBus",
+  "country": "in",
+  "checked": "2026-11-12"
  },
  "Acadvizen- Digital Marketing Institute": {
   "type": null,
@@ -3034,6 +3042,10 @@
   "type": null,
   "checked": "2026-11-06"
  },
+ "Kepler Aerospace Private Limited": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "Kerala Ayurveda Limited": {
   "type": null,
   "checked": "2026-11-12"
@@ -3317,6 +3329,10 @@
  "M B M CONSULTING": {
   "type": null,
   "checked": "2026-11-06"
+ },
+ "M&G": {
+  "type": null,
+  "checked": "2026-11-12"
  },
  "M2P Fintech": {
   "type": "darwinbox",
@@ -5838,6 +5854,12 @@
   "type": null,
   "checked": "2026-10-24"
  },
+ "The/Nudge": {
+  "type": "keka",
+  "tenant": "thenudge",
+  "probed": true,
+  "checked": "2026-11-12"
+ },
  "The/Nudge Institute": {
   "type": "keka",
   "tenant": "thenudge",
@@ -6873,7 +6895,7 @@
  },
  "r3 Consultant": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "rapyder cloud solutions": {
   "type": null,
