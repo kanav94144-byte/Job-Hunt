@@ -83,6 +83,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "ALLEN": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "ALPLA Group": {
   "type": null,
   "checked": "2026-11-09"
@@ -114,6 +118,10 @@
  "ASUS": {
   "type": null,
   "checked": "2026-09-28"
+ },
+ "ATLASS PARTNERS CONSULTING LLP": {
+  "type": null,
+  "checked": "2026-11-12"
  },
  "ATMA & Associates": {
   "type": null,
@@ -233,6 +241,10 @@
  "Agrizy": {
   "type": null,
   "checked": "2026-09-30"
+ },
+ "AiSteth": {
+  "type": null,
+  "checked": "2026-11-12"
  },
  "Air India": {
   "type": null,
@@ -482,6 +494,10 @@
   "type": null,
   "checked": "2026-10-24"
  },
+ "Assetz Property Group": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "Astam Diagno": {
   "type": null,
   "checked": "2026-10-18"
@@ -598,7 +614,7 @@
  },
  "Bakersville India Pvt. Ltd": {
   "type": null,
-  "checked": "2026-10-27"
+  "checked": "2026-11-12"
  },
  "Baltic Control Middle East | Affirm Control": {
   "type": null,
@@ -1206,6 +1222,10 @@
   "type": null,
   "checked": "2026-11-02"
  },
+ "Credit Saison India": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "Crux Creative Solutions Private Limited": {
   "type": null,
   "checked": "2026-10-29"
@@ -1578,6 +1598,10 @@
   "type": null,
   "checked": "2026-10-01"
  },
+ "Elgiva Business Solutions": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "Eli Lilly": {
   "type": null,
   "checked": "2026-11-12"
@@ -1646,7 +1670,7 @@
  },
  "EnergyBridge Tech India Pvt Ltd": {
   "type": null,
-  "checked": "2026-09-26"
+  "checked": "2026-11-12"
  },
  "Enking International": {
   "type": null,
@@ -1821,6 +1845,10 @@
  "Feemonk": {
   "type": null,
   "checked": "2026-09-23"
+ },
+ "Felicitus Developers Pvt. Ltd.": {
+  "type": null,
+  "checked": "2026-11-12"
  },
  "Ferrero": {
   "type": null,
@@ -2737,6 +2765,10 @@
   "type": null,
   "checked": "2026-11-02"
  },
+ "Intuit": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "Inventive Software Solutions Pvt. Ltd": {
   "type": null,
   "checked": "2026-09-29"
@@ -2841,7 +2873,7 @@
  },
  "Jolly Technologies": {
   "type": null,
-  "checked": "2026-10-15"
+  "checked": "2026-11-12"
  },
  "Joveo Technologies": {
   "type": null,
@@ -3001,6 +3033,10 @@
  "Kemin": {
   "type": null,
   "checked": "2026-11-06"
+ },
+ "Kerala Ayurveda Limited": {
+  "type": null,
+  "checked": "2026-11-12"
  },
  "Keshava Elite Projects": {
   "type": null,
@@ -3266,6 +3302,10 @@
   "type": null,
   "checked": "2026-10-16"
  },
+ "Loop subscription": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "Loyaltri": {
   "type": null,
   "checked": "2026-10-20"
@@ -3472,6 +3512,10 @@
  "Matri": {
   "type": null,
   "checked": "2026-11-10"
+ },
+ "Matrimony.com": {
+  "type": null,
+  "checked": "2026-11-12"
  },
  "Maven Fly Media": {
   "type": null,
@@ -4375,6 +4419,12 @@
  "PlanetLink Solutions": {
   "type": null,
   "checked": "2026-10-15"
+ },
+ "PlatinumRx": {
+  "type": "keka",
+  "tenant": "platinumrx",
+  "probed": true,
+  "checked": "2026-11-12"
  },
  "Plum": {
   "type": null,
@@ -5391,7 +5441,7 @@
  },
  "Strivex Consulting": {
   "type": null,
-  "checked": "2026-10-12"
+  "checked": "2026-11-12"
  },
  "Studiokon Ventures": {
   "type": null,
@@ -5404,6 +5454,12 @@
  "Sugar360": {
   "type": null,
   "checked": "2026-10-01"
+ },
+ "SugarFit": {
+  "type": "darwinbox",
+  "tenant": "sugarfit",
+  "probed": true,
+  "checked": "2026-11-12"
  },
  "Sukoon Health": {
   "type": null,
@@ -6335,6 +6391,10 @@
   "type": null,
   "checked": "2026-10-15"
  },
+ "WeGrowIT": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "WeRize": {
   "type": null,
   "checked": "2026-10-22"
@@ -6668,6 +6728,10 @@
   "type": null,
   "checked": "2026-10-24"
  },
+ "adjoe": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "airtel": {
   "type": "darwinbox",
   "tenant": "airtel",
@@ -6722,6 +6786,12 @@
  "eHealthBuddy HealthTech Solutions Pvt Ltd": {
   "type": null,
   "checked": "2026-10-30"
+ },
+ "eloelo": {
+  "type": "keka",
+  "tenant": "eloelo",
+  "probed": true,
+  "checked": "2026-11-12"
  },
  "emaratech": {
   "type": null,
