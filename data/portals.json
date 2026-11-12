@@ -472,7 +472,7 @@
  },
  "Ascendion": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "Aspire Fertility Center": {
   "type": null,
@@ -1313,6 +1313,10 @@
   "type": null,
   "checked": "2026-10-05"
  },
+ "Datamatics Global Services Ltd": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "DeHaat": {
   "type": null,
   "checked": "2026-11-07"
@@ -1576,7 +1580,7 @@
  },
  "Eli Lilly": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "Elite Elevators": {
   "type": null,
@@ -2502,7 +2506,7 @@
  },
  "IBM": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "IBR InfoTech": {
   "type": null,
@@ -2522,7 +2526,7 @@
  },
  "IDfy": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "IIE Network": {
   "type": null,
@@ -2770,7 +2774,7 @@
  },
  "Ivy and Prime": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "J.P. Morgan": {
   "type": null,
@@ -3479,7 +3483,7 @@
  },
  "McCain Foods": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "McGraw Hill": {
   "type": null,
@@ -5270,7 +5274,7 @@
  },
  "Sortedhat": {
   "type": null,
-  "checked": "2026-10-28"
+  "checked": "2026-11-12"
  },
  "Soultrove India Private Limited": {
   "type": null,
@@ -6270,6 +6274,10 @@
   "type": null,
   "checked": "2026-09-29"
  },
+ "Vrivon Intelligence\u2122": {
+  "type": null,
+  "checked": "2026-11-12"
+ },
  "Vyapar": {
   "type": "keka",
   "tenant": "vyaparapp",
@@ -6416,6 +6424,12 @@
  "Wonderchef Home Appliances Pvt Ltd.": {
   "type": null,
   "checked": "2026-09-26"
+ },
+ "WorkIndia": {
+  "type": "keka",
+  "tenant": "workindia",
+  "probed": true,
+  "checked": "2026-11-12"
  },
  "World Bank Group": {
   "type": null,
