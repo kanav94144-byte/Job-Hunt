@@ -1,17 +1,17 @@
 {
- "run_date": "2026-11-12",
+ "run_date": "2026-11-13",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
    "ok": 1,
    "failed": 0,
-   "jobs": 71,
+   "jobs": 72,
    "errors": []
   },
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 57,
+   "jobs": 61,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -29,7 +29,7 @@
   "portal:keka:The Whole Truth": {
    "ok": 1,
    "failed": 0,
-   "jobs": 22,
+   "jobs": 23,
    "errors": []
   },
   "portal:mynexthire:Swiggy": {
@@ -49,7 +49,7 @@
   "portal:urbancompany:Urban Company": {
    "ok": 1,
    "failed": 0,
-   "jobs": 9,
+   "jobs": 10,
    "errors": []
   },
   "portal:google:Google": {
@@ -61,7 +61,7 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 196,
+   "jobs": 198,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -85,7 +85,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 154,
+   "jobs": 157,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -97,13 +97,13 @@
   "portal:darwinbox:Rapido": {
    "ok": 1,
    "failed": 0,
-   "jobs": 1,
+   "jobs": 0,
    "errors": []
   },
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 39,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -121,7 +121,7 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 21,
+   "jobs": 23,
    "errors": []
   },
   "portal:workday:Mastercard": {
@@ -163,13 +163,13 @@
   "portal:workday:PayPal": {
    "ok": 1,
    "failed": 0,
-   "jobs": 19,
+   "jobs": 18,
    "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 326,
+   "jobs": 327,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -181,7 +181,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 81,
+   "jobs": 92,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -205,7 +205,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 48,
+   "jobs": 47,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -223,7 +223,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 47,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -235,13 +235,13 @@
   "portal:darwinbox:Ather Energy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 94,
+   "jobs": 95,
    "errors": []
   },
   "portal:smartrecruiters:ixigo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 8,
+   "jobs": 9,
    "errors": []
   },
   "portal:darwinbox:OYO": {
@@ -331,7 +331,7 @@
   "portal:smartrecruiters:Freshworks": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 33,
    "errors": []
   },
   "portal:workday:BrowserStack": {
@@ -403,7 +403,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 36,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -463,7 +463,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 28,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -475,7 +475,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 16,
+   "jobs": 17,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -676,6 +676,12 @@
    "jobs": 39,
    "errors": []
   },
+  "portal:smartrecruiters:Abhibus": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 6,
+   "errors": []
+  },
   "portal:ashby:Airbound": {
    "ok": 1,
    "failed": 0,
@@ -685,13 +691,13 @@
   "portal:darwinbox:Airtel": {
    "ok": 1,
    "failed": 0,
-   "jobs": 58,
+   "jobs": 62,
    "errors": []
   },
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 178,
+   "jobs": 177,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -703,7 +709,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 601,
+   "jobs": 593,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -715,7 +721,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 155,
+   "jobs": 154,
    "errors": []
   },
   "portal:smartrecruiters:Delivery Hero": {
@@ -733,7 +739,7 @@
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
    "ok": 1,
    "failed": 0,
-   "jobs": 11,
+   "jobs": 10,
    "errors": []
   },
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
@@ -751,31 +757,31 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 26,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 34,
+   "jobs": 33,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 268,
+   "jobs": 269,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 80,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 43,
    "errors": []
   },
   "portal:workday:Invesco": {
@@ -787,7 +793,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 353,
+   "jobs": 378,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -859,25 +865,25 @@
   "portal:keka:TechDome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 24,
    "errors": []
   },
   "portal:keka:The/Nudge": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 42,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 42,
    "errors": []
   },
   "portal:keka:TrueFan": {
    "ok": 1,
    "failed": 0,
-   "jobs": 11,
+   "jobs": 12,
    "errors": []
   },
   "portal:keka:WorkIndia": {
@@ -889,7 +895,7 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 31,
+   "jobs": 32,
    "errors": []
   },
   "portal:keka:eloelo": {
@@ -899,9 +905,9 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 96,
+   "ok": 97,
    "failed": 0,
-   "jobs": 321,
+   "jobs": 339,
    "errors": []
   },
   "discovery:linkedin": {
@@ -913,7 +919,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 966,
+   "jobs": 928,
    "errors": []
   },
   "discovery:google": {
@@ -925,7 +931,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 675,
+   "jobs": 1234,
    "errors": []
   },
   "naukri (browser)": {
@@ -936,49 +942,58 @@
   }
  },
  "descriptions": {
-  "careers portal": 21,
-  "linkedin": 30,
-  "iimjobs": 1
+  "careers portal": 32,
+  "linkedin": 151,
+  "iimjobs": 22
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5918,
-   "after_filters": 1044,
-   "kept_new": 45
+   "raw": 5981,
+   "after_filters": 1046,
+   "kept_new": 56
   },
   "linkedin": {
-   "raw": 1671,
-   "after_filters": 787,
-   "kept_new": 14
+   "raw": 1689,
+   "after_filters": 767,
+   "kept_new": 61
   },
   "indeed": {
-   "raw": 966,
-   "after_filters": 371,
-   "kept_new": 3
+   "raw": 928,
+   "after_filters": 336,
+   "kept_new": 6
   },
   "iimjobs": {
-   "raw": 675,
-   "after_filters": 103,
-   "kept_new": 1
+   "raw": 1234,
+   "after_filters": 124,
+   "kept_new": 7
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Ministry of Vocational Training & Education - Algeria",
-   "Abhibus"
+   "V2 Retail Ltd",
+   "SHYAM METALICS AND ENERGY LIMITED",
+   "Kraft Heinz",
+   "Moody's Corporation",
+   "USP",
+   "Bharat Serums and Vaccines Limited",
+   "Synergie",
+   "Highbrow Interactive",
+   "Fareportal",
+   "Arborvitae",
+   "hire22.a1"
   ],
-  "with_portal": 39
+  "with_portal": 38
  },
  "counts": {
-  "raw": 9230,
-  "after_filters": 2305,
-  "judged": 165,
-  "kept": 63,
-  "duplicates_folded": 41,
-  "on_dashboard": 1272,
+  "raw": 9832,
+  "after_filters": 2273,
+  "judged": 501,
+  "kept": 130,
+  "duplicates_folded": 42,
+  "on_dashboard": 1213,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
