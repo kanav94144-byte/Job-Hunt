@@ -1,53 +1,35 @@
-# Job Hunt – 2026-11-13 17:30 UTC
+# Job Hunt – 2026-11-13 21:23 UTC
 
-**26 new roles today** · 1255 active on the dashboard
+**8 new roles today** · 1272 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 5634 | 1032 | 42 |
-| iimjobs | 1350 | 141 | 10 |
-| indeed | 954 | 370 | 3 |
-| linkedin | 1683 | 762 | 40 |
+| careers portal | 5611 | 1030 | 39 |
+| iimjobs | 1078 | 142 | 2 |
+| indeed | 962 | 385 | 5 |
+| linkedin | 1684 | 761 | 16 |
 
-Auto-watchlist: 400 companies (38 with a readable portal) · added: Applied Materials India, Zavya, Havas Life Mumbai, DigitalChameleon.ai, Beco, The Education Alliance, Barosi, Livetree Retail, Doodhvale Farms, Bridge Associates, Shaadi.Com
+Auto-watchlist: 400 companies (40 with a readable portal) · added: ShopDeck, Infibeam Avenues Ltd., EVERSANA
 
-## Tier A (11)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Havas Life Mumbai | AI Adoption Strategist | Mumbai Metropolitan | 4-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4490725515) |
-| Doodhvale Farms | E-commerce Key Account Manager (KAM) | Bengaluru | 3-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4489566628) |
-| Beco | Business Development Manager - (FTL Logistics Sales) | Mumbai Metropolitan | 3-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4489576458) |
-| Zavya | Business Strategy & AI Analyst | Gurugram | 1-3 yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4489536972) |
-| Livetree Retail | Marketing Specialist & Co Founder | Bengaluru | not stated | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4488948112) |
-| Uplers | Product Manager | India | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4490743313) |
-| Applied Materials India | Chief of Staff, Applied Materials India | Bengaluru | not stated | Yes | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4489564901) |
-| Barosi | Key Account Management Quickcommerce | Gurugram | 2-4 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4489575481) |
-| Shaadi.Com | Product Manager | India | 2-4 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://openroles.peopleinteractive.in/apply?job=6179) |
-| The Education Alliance | Senior Program Manager | Dewas | 1-2 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4489559837) |
-| PwC India | IN_Senior Associate_SAP Ui5 Fiori/CAPM_GCC_Advisory_Gurgaon | Gurugram 10 C | 3-10 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Gurugram-10-C/IN-Senior-Associate-SAP-ABAP-Hana-GCC-Advisory-Bangalore_739796WD-1) |
-
-## Tier B (8)
+## Tier A (2)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| SM BROS GROUP | BDM - AMAZON GROWTH SPECIALIST | Dubai · United Arab Emirates | 4+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4488929899) |
-| Accenture Strategy | AADC-Industry & Functions-AI & Data-FS Insurance-Senior Manager | Gurugram | not stated | – | ~₹38–58 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4490757051) |
-| Paytm | Sales Manager | Vapi | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4488942526) |
-| HCLTech | Program Manager - Scrum, Agile Methodology | India | not stated | – | ~₹18–32 LPA (est.) | [open](https://career55.sapsf.eu/career?company=HCLPRD&career_ns=job_listing&career_job_req_id=193643&lang=en_US&source=Indeed) |
-| Web Spiders | Sales & Business Development Manager - IT | Rajarhat | 3-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4490510283) |
-| Bridge Associates | Regional Key Account Manager - Modern Trade | Chennai | 3-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/regional-key-account-manager-modern-trade-beauty-personal-care-1745536) |
-| Mindtickle | Program Manager - Services | Pune | 3-8 yrs | – | ~₹25–40 LPA (est.) | [open](https://www.iimjobs.com/j/mindtickle-program-manager-1745532) |
-| Nat Habit | Category Manager | Gurugram | 2-5 yrs | – | ~₹18–30 LPA (est.) | [open](https://www.iimjobs.com/j/nat-habit-category-manager-1745543) |
+| ShopDeck | Product Manager - II | Bengaluru | 3-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4490757670) |
+| Infibeam Avenues Ltd. | Jr. Assistant Manager- Business Development| Business Development| CCAvenue | India | 2-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://avenuesai.keka.com/careers/jobdetails/170007?source=indeed%20job%20posts) |
 
-## Tier C (7)
+## Tier B (5)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| American Express | Manager - Data Management Strategy & Product | Gurugram | 5+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://careers.americanexpress.com/en/sites/CX_1/job/26016253) |
-| Prime Video & Amazon MGM Studios | Senior Product Manager, PV Commerce & Int'l Product | Bengaluru | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4490705911) |
-| Pilgrim | Assistant Design Manager | Mumbai | 5-7 yrs | – | ~₹18–30 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4488946158) |
-| Reckitt | RTR Assistant Manager | Hyderabad | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4490748430) |
-| Google | Regional Process Manager | Bengaluru | 5+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.google.com/about/careers/applications/jobs/results/97021408063693510-software-engineering-manager-ii-google-cloud) |
-| CRESCENDO GLOBAL LEADERSHIP HIRING INDIA PRIVATE L | Strategy Lead - F2F Channel | Mumbai | 5-8 yrs | – | ~₹28–45 LPA (est.) | [open](https://www.iimjobs.com/j/strategy-lead-f2f-channel-life-insurance-1745548) |
-| Allianz | AI Engagement Manager | Pune | 5-10 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/allianz-ai-engagement-manager-1745528) |
+| Amazon | Regional Manager, Fleet Strategy, Planning and Programs, MEATR, MEATR DSP | Dubai · United Arab Emirates | 3+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4490769441) |
+| EY GDS | Senior Associate-Data Privacy | India | 3-5 yrs | – | ~₹16–24 LPA (est.) | [open](https://careers.ey.com/ey/job/Gurgaon-Senior-Associate-Data-Privacy-HR-122010/1457305733/) |
+| Infosys | AI Governance | India | not stated | – | ~₹18–32 LPA (est.) | [open](https://career.infosys.com/jobdesc?jobReferenceCode=INFSYS-INDEED1-256375&sourceId=4010) |
+| Bridge Associates | Key Account Manager | Mumbai | 3-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/key-account-manager-blinkit-fmcg-1745575) |
+| Barosi | D2C Growth Associate | Gurugram | not stated | – | ~₹10–20 LPA (est.) | [open](https://barosi.keka.com/careers/jobdetails/94118) |
+
+## Tier C (1)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Hindustan Unilever | Assistant Manager Intercompany PEC and Governance | Bengaluru | 2-4 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4489581780) |
