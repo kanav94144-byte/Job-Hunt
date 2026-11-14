@@ -65,12 +65,10 @@
    "errors": []
   },
   "portal:workday:Visa": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 91,
+   "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 1,
@@ -385,12 +383,10 @@
    "errors": []
   },
   "portal:workday:Sprinklr": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 16,
+   "errors": []
   },
   "portal:darwinbox:MoEngage": {
    "ok": 1,
@@ -722,10 +718,16 @@
    "jobs": 9,
    "errors": []
   },
+  "portal:keka:BharatNXT": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 23,
+   "errors": []
+  },
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 593,
+   "jobs": 592,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -761,7 +763,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 52,
+   "jobs": 54,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -777,12 +779,10 @@
    "errors": []
   },
   "portal:workday:Gartner": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 30,
+   "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
@@ -799,12 +799,10 @@
    ]
   },
   "portal:workday:Ingram Micro": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 42,
+   "errors": []
   },
   "portal:workday:Invesco": {
    "ok": 0,
@@ -859,7 +857,7 @@
   "portal:keka:Remidio": {
    "ok": 1,
    "failed": 0,
-   "jobs": 18,
+   "jobs": 19,
    "errors": []
   },
   "portal:workday:Resmed": {
@@ -935,21 +933,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 101,
+   "ok": 100,
    "failed": 0,
-   "jobs": 348,
+   "jobs": 294,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1268,
+   "jobs": 1240,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 943,
+   "jobs": 900,
    "errors": []
   },
   "discovery:google": {
@@ -961,7 +959,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1190,
+   "jobs": 1242,
    "errors": []
   },
   "naukri (browser)": {
@@ -972,66 +970,54 @@
   }
  },
  "descriptions": {
-  "careers portal": 18,
-  "linkedin": 89,
-  "iimjobs": 2
+  "careers portal": 33,
+  "linkedin": 72,
+  "iimjobs": 4
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 4712,
-   "after_filters": 775,
-   "kept_new": 37
+   "raw": 4916,
+   "after_filters": 835,
+   "kept_new": 51
   },
   "linkedin": {
-   "raw": 1616,
-   "after_filters": 731,
-   "kept_new": 37
+   "raw": 1534,
+   "after_filters": 664,
+   "kept_new": 30
   },
   "indeed": {
-   "raw": 943,
-   "after_filters": 385,
-   "kept_new": 5
+   "raw": 900,
+   "after_filters": 330,
+   "kept_new": 2
   },
   "iimjobs": {
-   "raw": 1190,
-   "after_filters": 93,
+   "raw": 1242,
+   "after_filters": 100,
    "kept_new": 2
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "13SQFT - India's largest Space, Infrastructure & Technology B2B Platform",
-   "BharatNXT",
-   "KRUNAL GROUP",
-   "Evolve Energy Group",
-   "Artnuma Private Limited",
-   "Calyx Interio",
-   "Lakhera Global Services Pvt. Ltd.",
-   "ManoRaksha\u2122",
-   "UnSugar Sweet Protein",
-   "DataCrops Software Private Limited",
-   "Kotak Mahindra Bank",
-   "Zeta",
-   "Route Mobile Limited",
-   "Muthoot FinCorp",
-   "pulsecrafts solutions pvt ltd"
+   "Square Yards",
+   "EXL",
+   "Truecruit"
   ],
-  "with_portal": 40
+  "with_portal": 42
  },
  "counts": {
-  "raw": 8461,
-  "after_filters": 1984,
-  "judged": 345,
-  "kept": 81,
-  "duplicates_folded": 39,
-  "on_dashboard": 1143,
+  "raw": 8592,
+  "after_filters": 1929,
+  "judged": 293,
+  "kept": 85,
+  "duplicates_folded": 40,
+  "on_dashboard": 1184,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
-   "auto": 400
+   "auto": 399
   }
  }
 }

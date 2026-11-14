@@ -694,7 +694,7 @@
  },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 380,
+  "hits": 383,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
@@ -802,7 +802,7 @@
  },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "first_seen": "2026-10-12",
-  "hits": 103,
+  "hits": 104,
   "band": "unknown",
   "titles": [
    "Business Development Manager/Area Business Manager - Kota"
@@ -833,6 +833,15 @@
   "band": "unknown",
   "titles": [
    "Associate Consultant-HTA"
+  ],
+  "last_hit": "2026-11-14"
+ },
+ "EXL": {
+  "first_seen": "2026-11-14",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Project Manager with AI Skills"
   ],
   "last_hit": "2026-11-14"
  },
@@ -1091,12 +1100,12 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 149,
+  "hits": 151,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
   ],
-  "last_hit": "2026-11-13"
+  "last_hit": "2026-11-14"
  },
  "Genpact": {
   "first_seen": "2026-09-23",
@@ -1307,12 +1316,12 @@
  },
  "IDFC FIRST Bank": {
   "first_seen": "2026-09-23",
-  "hits": 41,
+  "hits": 42,
   "band": "unknown",
   "titles": [
    "Senior Product Manager-Digital Lending (Consumer Loans)"
   ],
-  "last_hit": "2026-11-11"
+  "last_hit": "2026-11-14"
  },
  "IDfy": {
   "first_seen": "2026-10-26",
@@ -1397,12 +1406,12 @@
  },
  "Ingram Micro": {
   "first_seen": "2026-11-08",
-  "hits": 6,
+  "hits": 10,
   "band": "unknown",
   "titles": [
    "Client Manager - Business Development | AWS"
   ],
-  "last_hit": "2026-11-11"
+  "last_hit": "2026-11-14"
  },
  "Interbiz Consulting Pvt Ltd": {
   "first_seen": "2026-11-11",
@@ -1496,7 +1505,7 @@
  },
  "JioStar": {
   "first_seen": "2026-09-23",
-  "hits": 36,
+  "hits": 37,
   "band": "unknown",
   "titles": [
    "Senior Product Manager (Ads)"
@@ -1966,12 +1975,12 @@
  },
  "Meritto": {
   "first_seen": "2026-09-25",
-  "hits": 11,
+  "hits": 12,
   "band": "unknown",
   "titles": [
    "Sr.Analyst- Growth & Strategy"
   ],
-  "last_hit": "2026-11-11"
+  "last_hit": "2026-11-14"
  },
  "Milacron": {
   "first_seen": "2026-11-02",
@@ -2507,12 +2516,12 @@
  },
  "Qualcomm": {
   "first_seen": "2026-11-08",
-  "hits": 4,
+  "hits": 5,
   "band": "unknown",
   "titles": [
    "Sr HardWare Program Manager"
   ],
-  "last_hit": "2026-11-13"
+  "last_hit": "2026-11-14"
  },
  "Qualysec Technologies Pvt Ltd": {
   "first_seen": "2026-11-09",
@@ -2667,15 +2676,6 @@
   ],
   "last_hit": "2026-11-11"
  },
- "Schindler Group": {
-  "first_seen": "2026-11-02",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager - NI Sales"
-  ],
-  "last_hit": "2026-11-02"
- },
  "Schneider Electric": {
   "first_seen": "2026-09-29",
   "hits": 13,
@@ -2703,15 +2703,6 @@
    "Assistant Manager, Corporate Strategy"
   ],
   "last_hit": "2026-11-12"
- },
- "Servify": {
-  "first_seen": "2026-11-02",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Product Manager"
-  ],
-  "last_hit": "2026-11-02"
  },
  "Seven N Half": {
   "first_seen": "2026-11-06",
@@ -2803,6 +2794,15 @@
    "Strategy Consultant"
   ],
   "last_hit": "2026-11-06"
+ },
+ "Square Yards": {
+  "first_seen": "2026-11-14",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Senior Business Development Manager"
+  ],
+  "last_hit": "2026-11-14"
  },
  "Standard Chartered Bank": {
   "first_seen": "2026-10-24",
@@ -3105,7 +3105,7 @@
  },
  "The/Nudge": {
   "first_seen": "2026-11-12",
-  "hits": 9,
+  "hits": 10,
   "band": "unknown",
   "titles": [
    "Senior Associate, Prize ( AI Build) , Livelihood Ecosystem"
@@ -3114,7 +3114,7 @@
  },
  "The/Nudge Institute": {
   "first_seen": "2026-10-14",
-  "hits": 43,
+  "hits": 44,
   "band": "unknown",
   "titles": [
    "Senior Associate, Corporate Partnerships, Fundraising"
@@ -3157,6 +3157,15 @@
   ],
   "last_hit": "2026-11-02"
  },
+ "Truecruit": {
+  "first_seen": "2026-11-14",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Manager - Founder's Office"
+  ],
+  "last_hit": "2026-11-14"
+ },
  "Twor": {
   "first_seen": "2026-11-06",
   "hits": 1,
@@ -3186,7 +3195,7 @@
  },
  "USHRAMEDGE TECHNOLOGIES PRIVATE LIMITED": {
   "first_seen": "2026-10-26",
-  "hits": 15,
+  "hits": 16,
   "band": "unknown",
   "titles": [
    "Manager - Business Development/Sales",
@@ -3365,15 +3374,6 @@
    "Consultant, Hydrology"
   ],
   "last_hit": "2026-11-05"
- },
- "Watchyourhealth.com": {
-  "first_seen": "2026-11-02",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Sales Executive (B2B SaaS- Onsite)"
-  ],
-  "last_hit": "2026-11-02"
  },
  "WeGrowIT": {
   "first_seen": "2026-11-12",
