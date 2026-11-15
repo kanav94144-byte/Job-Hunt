@@ -187,7 +187,7 @@
   "portal:workday:PwC India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 328,
+   "jobs": 326,
    "errors": []
   },
   "portal:amazon:Amazon": {
@@ -199,7 +199,7 @@
   "portal:workday:Salesforce": {
    "ok": 1,
    "failed": 0,
-   "jobs": 87,
+   "jobs": 82,
    "errors": []
   },
   "portal:workday:Adobe": {
@@ -249,7 +249,7 @@
   "portal:workday:Diageo India": {
    "ok": 1,
    "failed": 0,
-   "jobs": 45,
+   "jobs": 43,
    "errors": []
   },
   "portal:darwinbox:Cars24": {
@@ -853,13 +853,7 @@
   "portal:workday:DBS Bank": {
    "ok": 1,
    "failed": 0,
-   "jobs": 154,
-   "errors": []
-  },
-  "portal:smartrecruiters:Delivery Hero": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 0,
+   "jobs": 152,
    "errors": []
   },
   "portal:lever:Dozee": {
@@ -877,7 +871,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 56,
+   "jobs": 53,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -897,19 +891,19 @@
   "portal:workday:FactSet": {
    "ok": 1,
    "failed": 0,
-   "jobs": 25,
+   "jobs": 24,
    "errors": []
   },
   "portal:workday:Gartner": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 24,
    "errors": []
   },
   "portal:workday:Genpact": {
    "ok": 1,
    "failed": 0,
-   "jobs": 260,
+   "jobs": 259,
    "errors": []
   },
   "portal:workday:Huron Consulting Group": {
@@ -927,13 +921,13 @@
   "portal:workday:Invesco": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 39,
    "errors": []
   },
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 358,
+   "jobs": 334,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -945,7 +939,7 @@
   "portal:workday:Pfizer": {
    "ok": 1,
    "failed": 0,
-   "jobs": 18,
+   "jobs": 15,
    "errors": []
   },
   "portal:keka:PlatinumRx": {
@@ -1049,7 +1043,7 @@
   "linkedin": {
    "ok": 112,
    "failed": 0,
-   "jobs": 186,
+   "jobs": 133,
    "errors": []
   },
   "discovery:linkedin": {
@@ -1061,7 +1055,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 827,
+   "jobs": 767,
    "errors": []
   },
   "discovery:google": {
@@ -1073,7 +1067,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 926,
+   "jobs": 245,
    "errors": []
   },
   "naukri (browser)": {
@@ -1084,51 +1078,47 @@
   }
  },
  "descriptions": {
-  "careers portal": 40,
-  "linkedin": 80
+  "careers portal": 18,
+  "linkedin": 44
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5116,
-   "after_filters": 949,
-   "kept_new": 38
+   "raw": 5070,
+   "after_filters": 935,
+   "kept_new": 35
   },
   "linkedin": {
-   "raw": 1536,
-   "after_filters": 558,
-   "kept_new": 25
+   "raw": 1483,
+   "after_filters": 533,
+   "kept_new": 18
   },
   "indeed": {
-   "raw": 827,
-   "after_filters": 295,
-   "kept_new": 1
+   "raw": 767,
+   "after_filters": 265
   },
   "iimjobs": {
-   "raw": 926,
+   "raw": 245,
    "after_filters": 30
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Scoutit",
-   "Milliman India",
-   "SHREE ABIRAMI ENGGINEERING WORKS",
-   "MBA BURGERWALA",
-   "TikTok",
-   "Crystal Group"
+   "Srikara Hospitals",
+   "Luna Technologies Pvt. Ltd.",
+   "Acadvizen- Digital Marketing Institute"
   ],
   "with_portal": 41
  },
  "counts": {
-  "raw": 8405,
-  "after_filters": 1832,
-  "judged": 348,
-  "kept": 64,
-  "duplicates_folded": 40,
-  "on_dashboard": 1198,
+  "raw": 7565,
+  "after_filters": 1763,
+  "judged": 150,
+  "kept": 53,
+  "duplicates_folded": 36,
+  "on_dashboard": 1205,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
