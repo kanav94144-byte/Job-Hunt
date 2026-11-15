@@ -841,7 +841,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 591,
+   "jobs": 594,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -933,7 +933,7 @@
   "portal:workday:JLL": {
    "ok": 1,
    "failed": 0,
-   "jobs": 359,
+   "jobs": 358,
    "errors": []
   },
   "portal:workday:Manulife": {
@@ -1037,7 +1037,7 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 35,
    "errors": []
   },
   "portal:keka:eloelo": {
@@ -1049,7 +1049,7 @@
   "linkedin": {
    "ok": 112,
    "failed": 0,
-   "jobs": 214,
+   "jobs": 186,
    "errors": []
   },
   "discovery:linkedin": {
@@ -1061,7 +1061,7 @@
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 855,
+   "jobs": 827,
    "errors": []
   },
   "discovery:google": {
@@ -1073,7 +1073,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 919,
+   "jobs": 926,
    "errors": []
   },
   "naukri (browser)": {
@@ -1084,57 +1084,51 @@
   }
  },
  "descriptions": {
-  "careers portal": 16,
-  "linkedin": 106,
-  "iimjobs": 1
+  "careers portal": 40,
+  "linkedin": 80
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 5112,
-   "after_filters": 948,
-   "kept_new": 34
+   "raw": 5116,
+   "after_filters": 949,
+   "kept_new": 38
   },
   "linkedin": {
-   "raw": 1564,
-   "after_filters": 609,
-   "kept_new": 36
+   "raw": 1536,
+   "after_filters": 558,
+   "kept_new": 25
   },
   "indeed": {
-   "raw": 855,
-   "after_filters": 303,
-   "kept_new": 2
+   "raw": 827,
+   "after_filters": 295,
+   "kept_new": 1
   },
   "iimjobs": {
-   "raw": 919,
-   "after_filters": 30,
-   "kept_new": 1
+   "raw": 926,
+   "after_filters": 30
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Foiwe Info Global Solutions",
-   "Softgel Healthcare Private Limited",
-   "SKS Enterpprises - Human Resource Planning and Management",
-   "strongmetrics",
-   "GoodSpace AI",
-   "GreyLabs AI",
-   "Admattic",
-   "Aakaar Medical Technologies Ltd",
-   "Concentrix",
-   "VAYUZ Technologies"
+   "Scoutit",
+   "Milliman India",
+   "SHREE ABIRAMI ENGGINEERING WORKS",
+   "MBA BURGERWALA",
+   "TikTok",
+   "Crystal Group"
   ],
-  "with_portal": 42
+  "with_portal": 41
  },
  "counts": {
-  "raw": 8450,
-  "after_filters": 1890,
-  "judged": 329,
-  "kept": 73,
+  "raw": 8405,
+  "after_filters": 1832,
+  "judged": 348,
+  "kept": 64,
   "duplicates_folded": 40,
-  "on_dashboard": 1174,
+  "on_dashboard": 1198,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
