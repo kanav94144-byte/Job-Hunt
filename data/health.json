@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 59,
+   "jobs": 66,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -315,10 +315,12 @@
    ]
   },
   "portal:darwinbox:Pristyn Care": {
-   "ok": 1,
-   "failed": 0,
+   "ok": 0,
+   "failed": 1,
    "jobs": 0,
-   "errors": []
+   "errors": [
+    "HTTPError: 500 Server Error: Internal Server Error for url: https://pristyncare.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+   ]
   },
   "portal:darwinbox:CaratLane": {
    "ok": 0,
@@ -487,7 +489,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 35,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -551,7 +553,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 29,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -833,7 +835,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 177,
+   "jobs": 176,
    "errors": []
   },
   "portal:darwinbox:Angel One": {
@@ -859,7 +861,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 592,
+   "jobs": 600,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -891,7 +893,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 54,
+   "jobs": 53,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -1053,19 +1055,13 @@
   "portal:keka:The/Nudge": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 43,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
-   "errors": []
-  },
-  "portal:keka:TrueFan": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 12,
+   "jobs": 43,
    "errors": []
   },
   "portal:keka:WorkIndia": {
@@ -1077,7 +1073,7 @@
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 39,
+   "jobs": 40,
    "errors": []
   },
   "portal:keka:eloelo": {
@@ -1089,19 +1085,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 157,
+   "jobs": 245,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 970,
+   "jobs": 830,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 839,
+   "jobs": 906,
    "errors": []
   },
   "discovery:google": {
@@ -1113,7 +1109,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 665,
+   "jobs": 520,
    "errors": []
   },
   "naukri (browser)": {
@@ -1124,68 +1120,51 @@
   }
  },
  "descriptions": {
-  "careers portal": 23,
-  "linkedin": 129,
-  "iimjobs": 36
+  "careers portal": 14,
+  "linkedin": 113,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3095,
-   "after_filters": 479,
-   "kept_new": 45
+   "raw": 3101,
+   "after_filters": 477,
+   "kept_new": 30
   },
   "linkedin": {
-   "raw": 1127,
-   "after_filters": 486,
-   "kept_new": 52
+   "raw": 1075,
+   "after_filters": 482,
+   "kept_new": 46
   },
   "indeed": {
-   "raw": 839,
-   "after_filters": 308,
-   "kept_new": 6
+   "raw": 906,
+   "after_filters": 340,
+   "kept_new": 5
   },
   "iimjobs": {
-   "raw": 665,
-   "after_filters": 65,
-   "kept_new": 17
+   "raw": 520,
+   "after_filters": 70,
+   "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Handypay Services Pvt Ltd",
-   "Soch Street",
-   "Blissclub",
-   "Wadhwani AI Global",
-   "GoodScore",
-   "Ericson Insurance TPA Pvt. Ltd.",
-   "Certisure India",
-   "MSM Unify",
-   "Newton School of Technology",
-   "Socio Impulse",
-   "Siemens",
-   "AAFT",
-   "Concret.io",
-   "CodeRound AI",
-   "ResourceTree Global Services Pvt Ltd",
-   "Flipspaces",
-   "T D Newton & Associates",
-   "Battery Smart",
-   "Virtual Construction Solutions",
-   "ASIAN Paints",
-   "Aedium Design"
+   "Pragma Edge Inc",
+   "BluAd Digital",
+   "6sense",
+   "Techademy"
   ],
   "with_portal": 40
  },
  "counts": {
-  "raw": 5726,
-  "after_filters": 1338,
-  "judged": 617,
-  "kept": 120,
-  "duplicates_folded": 27,
-  "on_dashboard": 1137,
+  "raw": 5602,
+  "after_filters": 1369,
+  "judged": 447,
+  "kept": 82,
+  "duplicates_folded": 24,
+  "on_dashboard": 1189,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
