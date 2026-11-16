@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 66,
+   "jobs": 67,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -1085,19 +1085,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 245,
+   "jobs": 306,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 830,
+   "jobs": 1350,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 906,
+   "jobs": 911,
    "errors": []
   },
   "discovery:google": {
@@ -1120,27 +1120,27 @@
   }
  },
  "descriptions": {
-  "careers portal": 14,
-  "linkedin": 113,
-  "iimjobs": 2
+  "careers portal": 11,
+  "linkedin": 71,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3101,
-   "after_filters": 477,
-   "kept_new": 30
+   "raw": 3102,
+   "after_filters": 480,
+   "kept_new": 31
   },
   "linkedin": {
-   "raw": 1075,
-   "after_filters": 482,
-   "kept_new": 46
+   "raw": 1656,
+   "after_filters": 675,
+   "kept_new": 14
   },
   "indeed": {
-   "raw": 906,
-   "after_filters": 340,
-   "kept_new": 5
+   "raw": 911,
+   "after_filters": 328,
+   "kept_new": 2
   },
   "iimjobs": {
    "raw": 520,
@@ -1151,20 +1151,18 @@
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Pragma Edge Inc",
-   "BluAd Digital",
-   "6sense",
-   "Techademy"
+   "Masters India Private Limited",
+   "Mars"
   ],
   "with_portal": 40
  },
  "counts": {
-  "raw": 5602,
-  "after_filters": 1369,
-  "judged": 447,
-  "kept": 82,
-  "duplicates_folded": 24,
-  "on_dashboard": 1189,
+  "raw": 6189,
+  "after_filters": 1553,
+  "judged": 201,
+  "kept": 48,
+  "duplicates_folded": 25,
+  "on_dashboard": 1211,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
