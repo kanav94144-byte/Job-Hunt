@@ -362,7 +362,7 @@
  },
  "Altera Institute": {
   "type": null,
-  "checked": "2026-11-02"
+  "checked": "2026-11-17"
  },
  "Altus Corp": {
   "type": null,
@@ -1644,6 +1644,12 @@
   "type": null,
   "checked": "2026-11-07"
  },
+ "Earthitects": {
+  "type": "keka",
+  "tenant": "earthitects",
+  "harvested": true,
+  "checked": "2026-11-17"
+ },
  "EaseMyTrip": {
   "type": null,
   "checked": "2026-11-07"
@@ -2034,7 +2040,7 @@
  },
  "Flipspaces": {
   "type": null,
-  "checked": "2026-11-02"
+  "checked": "2026-11-17"
  },
  "FlixStock": {
   "type": null,
@@ -3220,7 +3226,7 @@
  },
  "Kotak Securities Ltd": {
   "type": null,
-  "checked": "2026-11-02"
+  "checked": "2026-11-17"
  },
  "Kraft Heinz": {
   "type": null,
@@ -3663,6 +3669,10 @@
   "type": null,
   "checked": "2026-11-06"
  },
+ "Masters India Private Limited": {
+  "type": null,
+  "checked": "2026-11-17"
+ },
  "Masters Union": {
   "type": "darwinbox",
   "tenant": "mastersunion",
@@ -3695,7 +3705,7 @@
  },
  "McGraw Hill": {
   "type": null,
-  "checked": "2026-11-02"
+  "checked": "2026-11-17"
  },
  "McKinsey & Company": {
   "type": null,
@@ -4130,7 +4140,7 @@
  },
  "Nexx Zeal Technologies Private Limited": {
   "type": null,
-  "checked": "2026-11-02"
+  "checked": "2026-11-17"
  },
  "Neyyar Technologies Private Limited": {
   "type": null,
@@ -5767,7 +5777,7 @@
  },
  "SyncUp": {
   "type": null,
-  "checked": "2026-11-02"
+  "checked": "2026-11-17"
  },
  "Synergie": {
   "type": null,
@@ -7057,7 +7067,7 @@
  },
  "foodpanda": {
   "type": null,
-  "checked": "2026-11-02"
+  "checked": "2026-11-17"
  },
  "futurejobs.ai": {
   "type": null,
