@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 126,
+   "jobs": 128,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -33,7 +33,7 @@
   "portal:keka:The Whole Truth": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 24,
    "errors": []
   },
   "portal:mynexthire:Swiggy": {
@@ -95,7 +95,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 157,
+   "jobs": 158,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -151,7 +151,7 @@
   "portal:lever:CRED": {
    "ok": 1,
    "failed": 0,
-   "jobs": 13,
+   "jobs": 12,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -287,7 +287,7 @@
   "portal:smartrecruiters:ixigo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 9,
+   "jobs": 8,
    "errors": []
   },
   "portal:darwinbox:OYO": {
@@ -489,7 +489,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 37,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -809,7 +809,7 @@
   "portal:smartrecruiters:AbbVie": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 41,
    "errors": []
   },
   "portal:smartrecruiters:Abhibus": {
@@ -835,7 +835,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 178,
+   "jobs": 179,
    "errors": []
   },
   "portal:keka:Barosi": {
@@ -853,7 +853,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 669,
+   "jobs": 668,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -873,7 +873,7 @@
   "portal:lever:Dozee": {
    "ok": 1,
    "failed": 0,
-   "jobs": 16,
+   "jobs": 17,
    "errors": []
   },
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
@@ -932,6 +932,12 @@
     "HTTPError: 429 Client Error: Too Many Requests for url: https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/jobs"
    ]
   },
+  "portal:keka:Inc42 Media": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 28,
+   "errors": []
+  },
   "portal:workday:Ingram Micro": {
    "ok": 0,
    "failed": 1,
@@ -955,6 +961,12 @@
    "errors": [
     "HTTPError: 429 Client Error: Too Many Requests for url: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs"
    ]
+  },
+  "portal:keka:Knya": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 2,
+   "errors": []
   },
   "portal:workday:Manulife": {
    "ok": 0,
@@ -1069,19 +1081,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 326,
+   "jobs": 371,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 730,
+   "jobs": 810,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1016,
+   "jobs": 1031,
    "errors": []
   },
   "discovery:google": {
@@ -1093,7 +1105,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1552,
+   "jobs": 1613,
    "errors": []
   },
   "naukri (browser)": {
@@ -1104,59 +1116,51 @@
   }
  },
  "descriptions": {
-  "careers portal": 22,
-  "linkedin": 87,
-  "iimjobs": 36
+  "careers portal": 10,
+  "linkedin": 82,
+  "iimjobs": 9
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3247,
+   "raw": 3280,
    "after_filters": 493,
-   "kept_new": 35
+   "kept_new": 33
   },
   "linkedin": {
-   "raw": 1056,
-   "after_filters": 494,
-   "kept_new": 53
+   "raw": 1181,
+   "after_filters": 551,
+   "kept_new": 48
   },
   "indeed": {
-   "raw": 1016,
-   "after_filters": 424,
-   "kept_new": 5
+   "raw": 1031,
+   "after_filters": 418,
+   "kept_new": 6
   },
   "iimjobs": {
-   "raw": 1552,
-   "after_filters": 132,
-   "kept_new": 19
+   "raw": 1613,
+   "after_filters": 143,
+   "kept_new": 6
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "VirtuHR India",
-   "Prequate Advisory",
-   "Michael Page",
-   "International Luxury Group (ILG of Switzerland AG)",
-   "Digiaccel Learning",
-   "Fidius Advisory",
-   "Godrej Industries",
-   "Exploring Infinities Edtech",
-   "Select Brands",
-   "Knya",
-   "GALAXY OFFICE AUTOMATION",
-   "Inc42 Media"
+   "MSD",
+   "PeopleX Ventures",
+   "Curlscape",
+   "SUPPORTEX PRIVATE LIMITED"
   ],
-  "with_portal": 39
+  "with_portal": 40
  },
  "counts": {
-  "raw": 6871,
-  "after_filters": 1543,
-  "judged": 465,
-  "kept": 112,
-  "duplicates_folded": 31,
-  "on_dashboard": 1232,
+  "raw": 7105,
+  "after_filters": 1605,
+  "judged": 344,
+  "kept": 93,
+  "duplicates_folded": 34,
+  "on_dashboard": 1285,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,

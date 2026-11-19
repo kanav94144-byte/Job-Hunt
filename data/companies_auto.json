@@ -262,7 +262,7 @@
  },
  "Airwallex": {
   "first_seen": "2026-10-05",
-  "hits": 74,
+  "hits": 75,
   "band": "unknown",
   "titles": [
    "Manager, Revenue Strategy, SG"
@@ -376,15 +376,6 @@
    "Manager - Business Development and Land Acquisition"
   ],
   "last_hit": "2026-11-12"
- },
- "Astam Diagnostics": {
-  "first_seen": "2026-11-06",
-  "hits": 1,
-  "band": "unknown",
-  "titles": [
-   "Business Development Manager"
-  ],
-  "last_hit": "2026-11-06"
  },
  "BMC Software": {
   "first_seen": "2026-11-17",
@@ -595,12 +586,12 @@
  },
  "Cargill": {
   "first_seen": "2026-10-07",
-  "hits": 8,
+  "hits": 9,
   "band": "unknown",
   "titles": [
    "Strategic Agri & Trading Business Development Manager"
   ],
-  "last_hit": "2026-11-18"
+  "last_hit": "2026-11-19"
  },
  "Carnation Infotech": {
   "first_seen": "2026-11-18",
@@ -710,14 +701,23 @@
   ],
   "last_hit": "2026-11-15"
  },
+ "Curlscape": {
+  "first_seen": "2026-11-19",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "International Business Development Manager"
+  ],
+  "last_hit": "2026-11-19"
+ },
  "DBS Bank": {
   "first_seen": "2026-10-09",
-  "hits": 395,
+  "hits": 396,
   "band": "unknown",
   "titles": [
    "Senior Associate, Product Manager Loan Against Property , Consumer Banking Group"
   ],
-  "last_hit": "2026-11-15"
+  "last_hit": "2026-11-19"
  },
  "DESRI": {
   "first_seen": "2026-10-29",
@@ -802,7 +802,7 @@
  },
  "Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
   "first_seen": "2026-10-12",
-  "hits": 121,
+  "hits": 122,
   "band": "unknown",
   "titles": [
    "Business Development Manager/Area Business Manager - Kota"
@@ -983,12 +983,12 @@
  },
  "Fast&Up India": {
   "first_seen": "2026-11-05",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Growth Product Manager - Beverages"
   ],
-  "last_hit": "2026-11-13"
+  "last_hit": "2026-11-19"
  },
  "Felicitus Developers Pvt. Ltd.": {
   "first_seen": "2026-11-12",
@@ -1127,12 +1127,12 @@
  },
  "Gartner": {
   "first_seen": "2026-09-30",
-  "hits": 155,
+  "hits": 156,
   "band": "unknown",
   "titles": [
    "Consultant - Digital Strategy & AI Enabled Transformation"
   ],
-  "last_hit": "2026-11-15"
+  "last_hit": "2026-11-19"
  },
  "Genpact": {
   "first_seen": "2026-09-23",
@@ -1433,12 +1433,12 @@
  },
  "IDFC FIRST Bank": {
   "first_seen": "2026-09-23",
-  "hits": 45,
+  "hits": 46,
   "band": "unknown",
   "titles": [
    "Senior Product Manager-Digital Lending (Consumer Loans)"
   ],
-  "last_hit": "2026-11-16"
+  "last_hit": "2026-11-19"
  },
  "IDfy": {
   "first_seen": "2026-10-26",
@@ -1469,7 +1469,7 @@
  },
  "Inc42 Media": {
   "first_seen": "2026-11-19",
-  "hits": 1,
+  "hits": 2,
   "band": "unknown",
   "titles": [
    "Correspondent- AI"
@@ -1918,15 +1918,6 @@
   ],
   "last_hit": "2026-11-15"
  },
- "Lupin": {
-  "first_seen": "2026-10-30",
-  "hits": 2,
-  "band": "unknown",
-  "titles": [
-   "Manager - Strategy Cell"
-  ],
-  "last_hit": "2026-11-06"
- },
  "M&G": {
   "first_seen": "2026-11-12",
   "hits": 1,
@@ -1953,6 +1944,15 @@
    "Business Development Manager"
   ],
   "last_hit": "2026-11-17"
+ },
+ "MSD": {
+  "first_seen": "2026-11-19",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Manager Strategic Forecasting"
+  ],
+  "last_hit": "2026-11-19"
  },
  "MSM Unify": {
   "first_seen": "2026-11-16",
@@ -2361,15 +2361,6 @@
   ],
   "last_hit": "2026-11-16"
  },
- "Optum India": {
-  "first_seen": "2026-11-04",
-  "hits": 2,
-  "band": "unknown",
-  "titles": [
-   "Senior Technical Product Manager"
-  ],
-  "last_hit": "2026-11-06"
- },
  "Organo Eco Habitats": {
   "first_seen": "2026-11-11",
   "hits": 1,
@@ -2423,6 +2414,15 @@
    "Business Development Manager"
   ],
   "last_hit": "2026-11-09"
+ },
+ "PeopleX Ventures": {
+  "first_seen": "2026-11-19",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Business Development Manager"
+  ],
+  "last_hit": "2026-11-19"
  },
  "Pfizer": {
   "first_seen": "2026-11-10",
@@ -2498,7 +2498,7 @@
  },
  "Premier Sales Promotions": {
   "first_seen": "2026-11-18",
-  "hits": 2,
+  "hits": 3,
   "band": "unknown",
   "titles": [
    "Business Development Manager - Marketing"
@@ -2704,6 +2704,15 @@
   ],
   "last_hit": "2026-11-18"
  },
+ "SUPPORTEX PRIVATE LIMITED": {
+  "first_seen": "2026-11-19",
+  "hits": 1,
+  "band": "unknown",
+  "titles": [
+   "Product Manager"
+  ],
+  "last_hit": "2026-11-19"
+ },
  "SamAra consulting services": {
   "first_seen": "2026-11-11",
   "hits": 1,
@@ -2766,16 +2775,6 @@
    "Entrepreneur in Residence- Founder's Office"
   ],
   "last_hit": "2026-11-18"
- },
- "Seven N Half": {
-  "first_seen": "2026-11-06",
-  "hits": 2,
-  "band": "unknown",
-  "titles": [
-   "Manager Management Consulting",
-   "Strategy Consultant – Automotive, Industrial Goods, TMT, Consumer"
-  ],
-  "last_hit": "2026-11-06"
  },
  "Shaadi.Com": {
   "first_seen": "2026-11-13",
@@ -3122,7 +3121,7 @@
  },
  "The/Nudge": {
   "first_seen": "2026-11-12",
-  "hits": 24,
+  "hits": 25,
   "band": "unknown",
   "titles": [
    "Senior Associate, Prize ( AI Build) , Livelihood Ecosystem"
@@ -3131,7 +3130,7 @@
  },
  "The/Nudge Institute": {
   "first_seen": "2026-10-14",
-  "hits": 58,
+  "hits": 59,
   "band": "unknown",
   "titles": [
    "Senior Associate, Corporate Partnerships, Fundraising"
@@ -3241,12 +3240,12 @@
  },
  "Uplers": {
   "first_seen": "2026-10-05",
-  "hits": 12,
+  "hits": 13,
   "band": "unknown",
   "titles": [
    "Product Manager - AI Initiatives (Reggi)"
   ],
-  "last_hit": "2026-11-13"
+  "last_hit": "2026-11-19"
  },
  "V2 Retail Ltd": {
   "first_seen": "2026-11-13",
