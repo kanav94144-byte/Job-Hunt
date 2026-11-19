@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 128,
+   "jobs": 107,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -885,7 +885,7 @@
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 66,
+   "jobs": 61,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -1081,19 +1081,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 371,
+   "jobs": 375,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 810,
+   "jobs": 600,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1031,
+   "jobs": 1023,
    "errors": []
   },
   "discovery:google": {
@@ -1105,7 +1105,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1613,
+   "jobs": 937,
    "errors": []
   },
   "naukri (browser)": {
@@ -1116,51 +1116,48 @@
   }
  },
  "descriptions": {
-  "careers portal": 10,
-  "linkedin": 82,
-  "iimjobs": 9
+  "careers portal": 7,
+  "linkedin": 7,
+  "iimjobs": 4
  },
- "linkedin_detail_blocked": false,
+ "linkedin_detail_blocked": true,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3280,
-   "after_filters": 493,
-   "kept_new": 33
+   "raw": 3254,
+   "after_filters": 491,
+   "kept_new": 26
   },
   "linkedin": {
-   "raw": 1181,
-   "after_filters": 551,
-   "kept_new": 48
+   "raw": 975,
+   "after_filters": 520,
+   "kept_new": 25
   },
   "indeed": {
-   "raw": 1031,
-   "after_filters": 418,
-   "kept_new": 6
+   "raw": 1023,
+   "after_filters": 423,
+   "kept_new": 4
   },
   "iimjobs": {
-   "raw": 1613,
+   "raw": 937,
    "after_filters": 143,
-   "kept_new": 6
+   "kept_new": 4
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "MSD",
-   "PeopleX Ventures",
-   "Curlscape",
-   "SUPPORTEX PRIVATE LIMITED"
+   "Visnaix Private Limited"
   ],
   "with_portal": 40
  },
  "counts": {
-  "raw": 7105,
-  "after_filters": 1605,
-  "judged": 344,
-  "kept": 93,
-  "duplicates_folded": 34,
-  "on_dashboard": 1285,
+  "raw": 6189,
+  "after_filters": 1577,
+  "judged": 193,
+  "kept": 59,
+  "duplicates_folded": 35,
+  "on_dashboard": 1307,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
