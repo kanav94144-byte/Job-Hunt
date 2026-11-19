@@ -528,7 +528,7 @@
  },
  "Arise TechGlobal": {
   "type": null,
-  "checked": "2026-11-04"
+  "checked": "2026-11-19"
  },
  "Arnnima Solution": {
   "type": null,
@@ -1514,6 +1514,10 @@
   "type": null,
   "checked": "2026-09-24"
  },
+ "Deutsche Bank": {
+  "type": null,
+  "checked": "2026-11-19"
+ },
  "Digantara": {
   "type": null,
   "checked": "2026-09-27"
@@ -2164,7 +2168,7 @@
  },
  "Frost & Sullivan": {
   "type": null,
-  "checked": "2026-10-25"
+  "checked": "2026-11-19"
  },
  "Frost Free Ventures Private Limited": {
   "type": null,
@@ -2847,6 +2851,12 @@
   "tenant": "inxiteout",
   "probed": true,
   "checked": "2026-10-16"
+ },
+ "Inc42 Media": {
+  "type": "keka",
+  "tenant": "inc42",
+  "harvested": true,
+  "checked": "2026-11-19"
  },
  "Incanus Technologies": {
   "type": null,
@@ -3769,6 +3779,10 @@
   "type": null,
   "checked": "2026-11-07"
  },
+ "Mark8 IQ": {
+  "type": null,
+  "checked": "2026-11-19"
+ },
  "Marks and Spencer Reliance India Private Limited": {
   "type": null,
   "checked": "2026-11-04"
@@ -4500,7 +4514,7 @@
  },
  "Optum India": {
   "type": null,
-  "checked": "2026-11-04"
+  "checked": "2026-11-19"
  },
  "Opus Solutions": {
   "type": null,
@@ -6300,6 +6314,10 @@
   "type": null,
   "checked": "2026-10-10"
  },
+ "Times OOH": {
+  "type": null,
+  "checked": "2026-11-19"
+ },
  "Titan Company": {
   "type": null,
   "checked": "2026-11-07"
@@ -6557,7 +6575,7 @@
  },
  "Uplers": {
   "type": null,
-  "checked": "2026-11-04"
+  "checked": "2026-11-19"
  },
  "Urban Ladder": {
   "type": null,
@@ -6574,6 +6592,10 @@
  "VEGROW": {
   "type": null,
   "checked": "2026-09-30"
+ },
+ "VGreen Technology Solutions (VGreenTEK)": {
+  "type": null,
+  "checked": "2026-11-19"
  },
  "VIDYA.PORTAL": {
   "type": null,
@@ -7068,7 +7090,7 @@
  },
  "Zenlynx Technology": {
   "type": null,
-  "checked": "2026-11-04"
+  "checked": "2026-11-19"
  },
  "Zenopsys": {
   "type": null,
@@ -7086,7 +7108,7 @@
  },
  "Zepcruit": {
   "type": null,
-  "checked": "2026-11-04"
+  "checked": "2026-11-19"
  },
  "Zepto": {
   "type": "darwinbox",
