@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-20",
+ "run_date": "2026-11-21",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 106,
+   "jobs": 105,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -117,7 +117,7 @@
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 42,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -519,7 +519,7 @@
   "portal:ashby:Sarvam AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 43,
+   "jobs": 42,
    "errors": []
   },
   "portal:greenhouse:Observe.AI": {
@@ -853,7 +853,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 667,
+   "jobs": 666,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -909,10 +909,12 @@
    "errors": []
   },
   "portal:workday:Gartner": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 34,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://gartner.wd5.myworkdayjobs.com/wday/cxs/gartner/EXT/jobs"
+   ]
   },
   "portal:workday:Genpact": {
    "ok": 0,
@@ -985,7 +987,7 @@
   "portal:keka:PlatinumRx": {
    "ok": 1,
    "failed": 0,
-   "jobs": 8,
+   "jobs": 9,
    "errors": []
   },
   "portal:workday:Priceline": {
@@ -1057,19 +1059,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 293,
+   "jobs": 257,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 410,
+   "jobs": 590,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1032,
+   "jobs": 1008,
    "errors": []
   },
   "discovery:google": {
@@ -1081,7 +1083,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1032,
+   "jobs": 1219,
    "errors": []
   },
   "naukri (browser)": {
@@ -1089,62 +1091,57 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 2,
-   "jobs": 0,
-   "errors": [
-    "Gartner Business Development Executive: 429 Client Error: Too Many Requests for url: https://gartner.wd5.myworkdayjobs.com/wday/cxs/gartner/EXT/job/Mumbai/Business-Development-Executive_87913",
-    "Gartner Business Development Executive, HT: 429 Client Error: Too Many Requests for url: https://gartner.wd5.myworkdayjobs.com/wday/cxs/gartner/EXT/job/Bangalore/Business-Development-Executive--HT_100813"
-   ]
   }
  },
  "descriptions": {
-  "careers portal": 7,
-  "linkedin": 39,
-  "iimjobs": 1
+  "careers portal": 6,
+  "linkedin": 85,
+  "iimjobs": 15
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3239,
-   "after_filters": 492,
+   "raw": 3202,
+   "after_filters": 477,
    "kept_new": 28
   },
   "linkedin": {
-   "raw": 703,
-   "after_filters": 350,
-   "kept_new": 21
+   "raw": 847,
+   "after_filters": 476,
+   "kept_new": 37
   },
   "indeed": {
-   "raw": 1032,
-   "after_filters": 367,
-   "kept_new": 8
+   "raw": 1008,
+   "after_filters": 374,
+   "kept_new": 11
   },
   "iimjobs": {
-   "raw": 1032,
-   "after_filters": 154,
-   "kept_new": 1
+   "raw": 1219,
+   "after_filters": 100,
+   "kept_new": 11
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Aspiro Consulting LLP",
-   "Bunge",
-   "FigHire"
+   "Uday Infracon Realty Pvt. Ltd.",
+   "Success Pact",
+   "Sumosave Retail Ventures Pvt Ltd",
+   "FatakSecure",
+   "Withum",
+   "ConverseHR Business Solutions",
+   "Amtech Software India Pvt Ltd"
   ],
-  "with_portal": 37
+  "with_portal": 36
  },
  "counts": {
-  "raw": 6006,
-  "after_filters": 1363,
-  "judged": 161,
-  "kept": 58,
-  "duplicates_folded": 31,
-  "on_dashboard": 1277,
+  "raw": 6276,
+  "after_filters": 1427,
+  "judged": 353,
+  "kept": 87,
+  "duplicates_folded": 34,
+  "on_dashboard": 1179,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
