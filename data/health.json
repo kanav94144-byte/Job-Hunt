@@ -71,12 +71,10 @@
    ]
   },
   "portal:workday:Visa": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 99,
+   "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 0,
@@ -141,12 +139,10 @@
    "errors": []
   },
   "portal:workday:Mastercard": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 133,
+   "errors": []
   },
   "portal:lever:CRED": {
    "ok": 1,
@@ -455,12 +451,10 @@
    ]
   },
   "portal:workday:Sprinklr": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://sprinklr.wd1.myworkdayjobs.com/wday/cxs/sprinklr/careers/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 15,
+   "errors": []
   },
   "portal:darwinbox:MoEngage": {
    "ok": 0,
@@ -853,7 +847,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 666,
+   "jobs": 665,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -944,14 +938,6 @@
    "jobs": 0,
    "errors": [
     "HTTPError: 429 Client Error: Too Many Requests for url: https://ingrammicro.wd5.myworkdayjobs.com/wday/cxs/ingrammicro/IngramMicro/jobs"
-   ]
-  },
-  "portal:workday:Invesco": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs"
    ]
   },
   "portal:workday:JLL": {
@@ -1057,21 +1043,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 120,
+   "ok": 118,
    "failed": 0,
-   "jobs": 257,
+   "jobs": 272,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 590,
+   "jobs": 830,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1008,
+   "jobs": 974,
    "errors": []
   },
   "discovery:google": {
@@ -1083,7 +1069,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1219,
+   "jobs": 1268,
    "errors": []
   },
   "naukri (browser)": {
@@ -1091,57 +1077,67 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 14,
+   "jobs": 0,
+   "errors": [
+    "Mastercard Senior Economic Analyst: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Gurgaon-India/Senior-Economic-Analyst_R-294066",
+    "Mastercard Senior Specialist - Global Product Management - Data Analytics and Agentic AI: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Senior-Specialist---Global-Product-Management---Data-Analytics-and-Agent",
+    "Mastercard Manager / Managing Consultant, Services Business Development: 429 Client Error: Too Many Requests for url: https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Mumbai-India/Manager---Managing-Consultant--Services-Business-Development_R-294373"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 6,
-  "linkedin": 85,
-  "iimjobs": 15
+  "careers portal": 31,
+  "linkedin": 74,
+  "iimjobs": 2
  },
- "linkedin_detail_blocked": false,
+ "linkedin_detail_blocked": true,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3202,
-   "after_filters": 477,
-   "kept_new": 28
+   "raw": 3448,
+   "after_filters": 533,
+   "kept_new": 54
   },
   "linkedin": {
-   "raw": 847,
-   "after_filters": 476,
-   "kept_new": 37
+   "raw": 1102,
+   "after_filters": 546,
+   "kept_new": 39
   },
   "indeed": {
-   "raw": 1008,
-   "after_filters": 374,
-   "kept_new": 11
+   "raw": 974,
+   "after_filters": 347,
+   "kept_new": 8
   },
   "iimjobs": {
-   "raw": 1219,
-   "after_filters": 100,
-   "kept_new": 11
+   "raw": 1268,
+   "after_filters": 105
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Uday Infracon Realty Pvt. Ltd.",
-   "Success Pact",
-   "Sumosave Retail Ventures Pvt Ltd",
-   "FatakSecure",
-   "Withum",
-   "ConverseHR Business Solutions",
-   "Amtech Software India Pvt Ltd"
+   "DailyLiv India",
+   "Priority Technologies Inc.",
+   "Multidimensions",
+   "Gryphon Academy Pvt. Ltd.",
+   "K12 Techno Services Pvt. Ltd.",
+   "Orbisys Technology",
+   "Accordion India",
+   "Global Payments"
   ],
   "with_portal": 36
  },
  "counts": {
-  "raw": 6276,
-  "after_filters": 1427,
-  "judged": 353,
-  "kept": 87,
-  "duplicates_folded": 34,
-  "on_dashboard": 1179,
+  "raw": 6792,
+  "after_filters": 1531,
+  "judged": 371,
+  "kept": 101,
+  "duplicates_folded": 32,
+  "on_dashboard": 1247,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
