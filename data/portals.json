@@ -3201,7 +3201,7 @@
  },
  "Johnson & Johnson MedTech": {
   "type": null,
-  "checked": "2026-11-01"
+  "checked": "2026-11-22"
  },
  "Jolly Technologies": {
   "type": null,
@@ -5162,6 +5162,21 @@
  "RECRIVIO": {
   "type": null,
   "checked": "2026-10-30"
+ },
+ "RELX Group": {
+  "type": "workday",
+  "tenant": "relx",
+  "wd": "wd3",
+  "site": "relx",
+  "search": [
+   "India",
+   "Bengaluru",
+   "Gurugram",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "harvested": true,
+  "checked": "2026-11-22"
  },
  "REN\u00c9E Cosmetics": {
   "type": null,

@@ -1,39 +1,34 @@
-# Job Hunt – 2026-11-22 17:18 UTC
+# Job Hunt – 2026-11-22 21:09 UTC
 
-**12 new roles today** · 1222 active on the dashboard
+**7 new roles today** · 1235 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 3197 | 464 | 30 |
-| iimjobs | 779 | 43 | 3 |
-| indeed | 857 | 287 | 1 |
-| linkedin | 763 | 367 | 30 |
+| careers portal | 3187 | 464 | 26 |
+| iimjobs | 315 | 46 | 0 |
+| indeed | 841 | 281 | 2 |
+| linkedin | 894 | 412 | 17 |
 
-Auto-watchlist: 400 companies (36 with a readable portal) · added: Johnson & Johnson MedTech
+Auto-watchlist: 400 companies (37 with a readable portal) · added: CredFlow, UNIBUILD ALLIANCE LLP, Midtronics, MyAnatomy Integration, RELX Group
 
-## Tier A (1)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| K12 Techno Services Pvt. Ltd. | Business Development Manager | Pimpri Chinchwad | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4492343956) |
-
-## Tier B (5)
+## Tier A (4)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| PwC India | Product Management - Senior Associate | Bengaluru East | 4+ yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4466914015) |
-| r3 Consultant | Senior Growth Marketing Manager – Online | Hyderabad | 2-3 yrs | – | ₹40 LPA | [open](https://www.linkedin.com/jobs/view/4493377185) |
-| PwC India | Integration Analyst (IBM API Connect) - Associate | Bengaluru East | 2+ yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4458061892) |
-| CodeRound AI | Technical Program Manager | India | 3-5 yrs | – | ₹50 LPA | [open](https://www.linkedin.com/jobs/view/4493277054) |
-| OLIVER | The Brandtech Group | Social Marketing Insights & Strategy Manager | Gurugram | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4476265499) |
+| MyAnatomy Integration | Business Development Manager | Pune | 3-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4492347809) |
+| CredFlow | Founder’s Office - Investor Relations | Delhi | 3-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4492896093) |
+| UNIBUILD ALLIANCE LLP | Business Development Manager | Hyderabad | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4491976398) |
+| RELX Group | Product Manager, Input Zone | India | 4-6 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Chennai/Product-Manager--Input-Zone_R120867-2) |
 
-## Tier C (6)
+## Tier B (2)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| nVent | Product Manager | Bengaluru | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4469124682) |
-| Hindustan Unilever | Assistant Manager- Access Management | Bengaluru | 5-7 yrs | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493182840) |
-| PwC India | IN_Senior Associate_ Azure_Data and Analytics_Advisory_Bangalore | Bengaluru | 5-8 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493357935) |
-| PwC India | Assurance - Specialized Services - Associate (FTH) | Bengaluru East | not stated | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4410183754) |
-| NoBroker | Relationship Manager | Bengaluru | not stated | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493155488) |
-| Accenture Strategy | S&C GN - Tech Strategy & Transformation - Tech M&A - Consultant | Gurugram | 5-10 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493117029) |
+| Amazon | Innovation Programs Lead, APJ Innovation and Engagement | Mumbai · Gurugram | not stated | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4477837614) |
+| Salesforce | Customer Risk Manager | Dubai · United Arab Emirates | not stated | – | not stated | [open](https://www.linkedin.com/jobs/view/4477600627) |
+
+## Tier C (1)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Yulu | Analyst – Material Flow&Recovery (ReCircle) | Bengaluru | not stated | – | ~₹12–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493374991) |
