@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-21",
+ "run_date": "2026-11-22",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -181,7 +181,7 @@
   "portal:greenhouse:Groww": {
    "ok": 1,
    "failed": 0,
-   "jobs": 9,
+   "jobs": 8,
    "errors": []
   },
   "portal:workday:PayPal": {
@@ -241,7 +241,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 47,
+   "jobs": 46,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -489,7 +489,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 36,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -853,7 +853,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 665,
+   "jobs": 666,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
@@ -925,12 +925,10 @@
    ]
   },
   "portal:workday:Huron Consulting Group": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 87,
+   "errors": []
   },
   "portal:keka:Inc42 Media": {
    "ok": 1,
@@ -1051,19 +1049,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 243,
+   "jobs": 213,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 490,
+   "jobs": 789,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 967,
+   "jobs": 889,
    "errors": []
   },
   "discovery:google": {
@@ -1075,7 +1073,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 703,
+   "jobs": 722,
    "errors": []
   },
   "naukri (browser)": {
@@ -1083,52 +1081,62 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 2,
+   "jobs": 0,
+   "errors": [
+    "Huron Consulting Group Associate Consultant -HCM: 429 Client Error: Too Many Requests for url: https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/job/Bangalore-India---Outer-Ring-Road/Associate-Consultant--HCM_JR-0016882",
+    "Huron Consulting Group Associate Consultant-SCM: 429 Client Error: Too Many Requests for url: https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/job/Bangalore-India---Outer-Ring-Road/Associate-Consultant-SCM_JR-0016883"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 6,
-  "linkedin": 23
+  "careers portal": 8,
+  "linkedin": 79
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3197,
-   "after_filters": 478,
-   "kept_new": 26
+   "raw": 3282,
+   "after_filters": 481,
+   "kept_new": 27
   },
   "linkedin": {
-   "raw": 733,
-   "after_filters": 360,
-   "kept_new": 20
+   "raw": 1002,
+   "after_filters": 440,
+   "kept_new": 27
   },
   "indeed": {
-   "raw": 967,
-   "after_filters": 386,
-   "kept_new": 2
+   "raw": 889,
+   "after_filters": 312,
+   "kept_new": 5
   },
   "iimjobs": {
-   "raw": 703,
-   "after_filters": 105
+   "raw": 722,
+   "after_filters": 35
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Nextenti Tech Private Limited",
-   "Virya Autonomous Technologies",
-   "HYrEzy Tech Solutions",
-   "Adisseo"
+   "ComplyPlanet",
+   "OffensIQ",
+   "Internet and Mobile Association of India",
+   "Lupin",
+   "Elsevier"
   ],
   "with_portal": 36
  },
  "counts": {
-  "raw": 5600,
-  "after_filters": 1329,
-  "judged": 116,
-  "kept": 48,
-  "duplicates_folded": 28,
-  "on_dashboard": 1245,
+  "raw": 5895,
+  "after_filters": 1268,
+  "judged": 329,
+  "kept": 59,
+  "duplicates_folded": 29,
+  "on_dashboard": 1191,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
