@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-22",
+ "run_date": "2026-11-23",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 96,
+   "jobs": 112,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -47,7 +47,7 @@
   "portal:recruitee:Lenskart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 79,
+   "jobs": 77,
    "errors": []
   },
   "portal:urbancompany:Urban Company": {
@@ -95,7 +95,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 158,
+   "jobs": 161,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -151,7 +151,7 @@
   "portal:lever:CRED": {
    "ok": 1,
    "failed": 0,
-   "jobs": 11,
+   "jobs": 12,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -181,7 +181,7 @@
   "portal:greenhouse:Groww": {
    "ok": 1,
    "failed": 0,
-   "jobs": 8,
+   "jobs": 7,
    "errors": []
   },
   "portal:workday:PayPal": {
@@ -241,7 +241,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 46,
+   "jobs": 47,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -489,7 +489,7 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 35,
+   "jobs": 34,
    "errors": []
   },
   "portal:lever:Hevo Data": {
@@ -519,7 +519,7 @@
   "portal:ashby:Sarvam AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 40,
    "errors": []
   },
   "portal:greenhouse:Observe.AI": {
@@ -553,7 +553,7 @@
   "portal:keka:Kapture CX": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 29,
    "errors": []
   },
   "portal:darwinbox:Perfios": {
@@ -567,7 +567,7 @@
   "portal:keka:Signzy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 15,
+   "jobs": 16,
    "errors": []
   },
   "portal:darwinbox:M2P Fintech": {
@@ -581,7 +581,7 @@
   "portal:keka:Mintifi": {
    "ok": 1,
    "failed": 0,
-   "jobs": 3,
+   "jobs": 5,
    "errors": []
   },
   "portal:darwinbox:BharatPe": {
@@ -821,7 +821,7 @@
   "portal:ashby:Airbound": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 24,
    "errors": []
   },
   "portal:darwinbox:Airtel": {
@@ -835,7 +835,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 181,
+   "jobs": 179,
    "errors": []
   },
   "portal:keka:Barosi": {
@@ -853,13 +853,13 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 666,
+   "jobs": 677,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
    "ok": 1,
    "failed": 0,
-   "jobs": 42,
+   "jobs": 43,
    "errors": []
   },
   "portal:workday:DBS Bank": {
@@ -873,7 +873,7 @@
   "portal:lever:Dozee": {
    "ok": 1,
    "failed": 0,
-   "jobs": 17,
+   "jobs": 25,
    "errors": []
   },
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
@@ -891,7 +891,7 @@
   "portal:smartrecruiters:EVERSANA": {
    "ok": 1,
    "failed": 0,
-   "jobs": 9,
+   "jobs": 4,
    "errors": []
   },
   "portal:darwinbox:EXL": {
@@ -935,7 +935,7 @@
   "portal:keka:Inc42 Media": {
    "ok": 1,
    "failed": 0,
-   "jobs": 28,
+   "jobs": 27,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
@@ -957,7 +957,7 @@
   "portal:keka:Knya": {
    "ok": 1,
    "failed": 0,
-   "jobs": 2,
+   "jobs": 3,
    "errors": []
   },
   "portal:darwinbox:Masters Union": {
@@ -988,6 +988,14 @@
    "jobs": 0,
    "errors": [
     "HTTPError: 429 Client Error: Too Many Requests for url: https://priceline.wd1.myworkdayjobs.com/wday/cxs/priceline/Priceline/jobs"
+   ]
+  },
+  "portal:workday:RELX Group": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://relx.wd3.myworkdayjobs.com/wday/cxs/relx/relx/jobs"
    ]
   },
   "portal:keka:Remidio": {
@@ -1021,19 +1029,19 @@
   "portal:keka:TechDome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 29,
    "errors": []
   },
   "portal:keka:The/Nudge": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 41,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 41,
    "errors": []
   },
   "portal:keka:WorkIndia": {
@@ -1051,19 +1059,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 174,
+   "jobs": 177,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 720,
+   "jobs": 820,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 841,
+   "jobs": 904,
    "errors": []
   },
   "discovery:google": {
@@ -1075,7 +1083,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 315,
+   "jobs": 709,
    "errors": []
   },
   "naukri (browser)": {
@@ -1086,50 +1094,66 @@
   }
  },
  "descriptions": {
-  "careers portal": 6,
-  "linkedin": 50
+  "careers portal": 15,
+  "linkedin": 138,
+  "iimjobs": 29
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3187,
-   "after_filters": 464,
-   "kept_new": 26
+   "raw": 3211,
+   "after_filters": 461,
+   "kept_new": 43
   },
   "linkedin": {
-   "raw": 894,
-   "after_filters": 412,
-   "kept_new": 17
+   "raw": 997,
+   "after_filters": 459,
+   "kept_new": 57
   },
   "indeed": {
-   "raw": 841,
-   "after_filters": 281,
-   "kept_new": 2
+   "raw": 904,
+   "after_filters": 329,
+   "kept_new": 9
   },
   "iimjobs": {
-   "raw": 315,
-   "after_filters": 46
+   "raw": 709,
+   "after_filters": 74,
+   "kept_new": 16
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "CredFlow",
-   "UNIBUILD ALLIANCE LLP",
-   "Midtronics",
-   "MyAnatomy Integration",
-   "RELX Group"
+   "SkillYT",
+   "Zydus Group",
+   "Sion Advisors",
+   "RAH Infotech",
+   "Landmark Techedge Pvt. Ltd.",
+   "Pyngyn ClientSpace",
+   "Bajaj Broking",
+   "Intellect Design Arena Ltd",
+   "AIMLEAP",
+   "GRIPIT",
+   "Give",
+   "Tracxn Technologies Ltd",
+   "Apollo 24|7",
+   "xto10x",
+   "Prune",
+   "FIELDWRIGHT PARTNERS",
+   "ZYDUS LIFESCIENCES LTD",
+   "Tata Capital Ltd",
+   "Advitiix Technovate Pvt Ltd"
   ],
   "with_portal": 37
  },
  "counts": {
-  "raw": 5237,
-  "after_filters": 1203,
-  "judged": 179,
-  "kept": 45,
-  "duplicates_folded": 30,
-  "on_dashboard": 1235,
+  "raw": 5821,
+  "after_filters": 1323,
+  "judged": 663,
+  "kept": 125,
+  "duplicates_folded": 26,
+  "on_dashboard": 1257,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
