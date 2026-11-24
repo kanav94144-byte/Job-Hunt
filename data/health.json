@@ -455,10 +455,12 @@
    ]
   },
   "portal:workday:Sprinklr": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 15,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://sprinklr.wd1.myworkdayjobs.com/wday/cxs/sprinklr/careers/jobs"
+   ]
   },
   "portal:darwinbox:MoEngage": {
    "ok": 0,
@@ -973,10 +975,12 @@
    "errors": []
   },
   "portal:workday:Priceline": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 18,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://priceline.wd1.myworkdayjobs.com/wday/cxs/priceline/Priceline/jobs"
+   ]
   },
   "portal:workday:RELX Group": {
    "ok": 0,
@@ -991,20 +995,6 @@
    "failed": 0,
    "jobs": 30,
    "errors": []
-  },
-  "portal:workday:Seatrium": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 0,
-   "errors": []
-  },
-  "portal:darwinbox:SugarFit": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://sugarfit.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
-   ]
   },
   "portal:keka:TechDome": {
    "ok": 1,
@@ -1057,19 +1047,19 @@
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 349,
+   "jobs": 390,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 890,
+   "jobs": 660,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1001,
+   "jobs": 1002,
    "errors": []
   },
   "discovery:google": {
@@ -1092,53 +1082,49 @@
   }
  },
  "descriptions": {
-  "careers portal": 24,
-  "linkedin": 83,
-  "iimjobs": 3
+  "careers portal": 6,
+  "linkedin": 27,
+  "iimjobs": 1
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3354,
-   "after_filters": 506,
-   "kept_new": 40
+   "raw": 3321,
+   "after_filters": 494,
+   "kept_new": 24
   },
   "linkedin": {
-   "raw": 1239,
-   "after_filters": 616,
-   "kept_new": 33
+   "raw": 1050,
+   "after_filters": 550,
+   "kept_new": 16
   },
   "indeed": {
-   "raw": 1001,
-   "after_filters": 417,
-   "kept_new": 8
+   "raw": 1002,
+   "after_filters": 419,
+   "kept_new": 1
   },
   "iimjobs": {
    "raw": 1112,
    "after_filters": 135,
-   "kept_new": 2
+   "kept_new": 1
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "GEOFAST CARRIERS PVT LTD",
-   "Puretech Digital - A Genesis Company",
-   "Milacron",
-   "Sisir Radar Private Limited",
-   "heizen",
-   "Quick Infotech"
+   "Spore N Sprouts",
+   "Capgemini Invent"
   ],
-  "with_portal": 36
+  "with_portal": 35
  },
  "counts": {
-  "raw": 6706,
-  "after_filters": 1674,
-  "judged": 235,
-  "kept": 83,
-  "duplicates_folded": 31,
-  "on_dashboard": 1334,
+  "raw": 6485,
+  "after_filters": 1598,
+  "judged": 90,
+  "kept": 42,
+  "duplicates_folded": 30,
+  "on_dashboard": 1338,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
