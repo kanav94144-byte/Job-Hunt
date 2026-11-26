@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-25",
+ "run_date": "2026-11-26",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 93,
+   "jobs": 104,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -95,7 +95,7 @@
   "portal:smartrecruiters:PhonePe": {
    "ok": 1,
    "failed": 0,
-   "jobs": 162,
+   "jobs": 163,
    "errors": []
   },
   "portal:darwinbox:boAt": {
@@ -137,7 +137,7 @@
   "portal:keka:GoKwik": {
    "ok": 1,
    "failed": 0,
-   "jobs": 26,
+   "jobs": 22,
    "errors": []
   },
   "portal:workday:Mastercard": {
@@ -151,7 +151,7 @@
   "portal:lever:CRED": {
    "ok": 1,
    "failed": 0,
-   "jobs": 11,
+   "jobs": 10,
    "errors": []
   },
   "portal:darwinbox:Pine Labs": {
@@ -181,7 +181,7 @@
   "portal:greenhouse:Groww": {
    "ok": 1,
    "failed": 0,
-   "jobs": 8,
+   "jobs": 9,
    "errors": []
   },
   "portal:workday:PayPal": {
@@ -241,7 +241,7 @@
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 47,
+   "jobs": 49,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -349,7 +349,7 @@
   "portal:keka:Snitch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 36,
    "errors": []
   },
   "portal:darwinbox:Country Delight": {
@@ -399,7 +399,7 @@
   "portal:smartrecruiters:Freshworks": {
    "ok": 1,
    "failed": 0,
-   "jobs": 30,
+   "jobs": 31,
    "errors": []
   },
   "portal:workday:BrowserStack": {
@@ -419,7 +419,7 @@
   "portal:lever:Mindtickle": {
    "ok": 1,
    "failed": 0,
-   "jobs": 17,
+   "jobs": 16,
    "errors": []
   },
   "portal:darwinbox:LeadSquared": {
@@ -489,13 +489,13 @@
   "portal:greenhouse:Zenoti": {
    "ok": 1,
    "failed": 0,
-   "jobs": 33,
+   "jobs": 32,
    "errors": []
   },
   "portal:lever:Hevo Data": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 41,
    "errors": []
   },
   "portal:keka:Zluri": {
@@ -507,7 +507,7 @@
   "portal:ashby:Atlan": {
    "ok": 1,
    "failed": 0,
-   "jobs": 3,
+   "jobs": 4,
    "errors": []
   },
   "portal:keka:Spyne": {
@@ -823,7 +823,7 @@
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 185,
+   "jobs": 183,
    "errors": []
   },
   "portal:keka:Barosi": {
@@ -841,7 +841,7 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 687,
+   "jobs": 695,
    "errors": []
   },
   "portal:keka:CloudThat": {
@@ -853,7 +853,7 @@
   "portal:smartrecruiters:Colliers": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 41,
    "errors": []
   },
   "portal:workday:DBS Bank": {
@@ -867,19 +867,19 @@
   "portal:lever:Dozee": {
    "ok": 1,
    "failed": 0,
-   "jobs": 24,
+   "jobs": 25,
    "errors": []
   },
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
    "ok": 1,
    "failed": 0,
-   "jobs": 9,
+   "jobs": 10,
    "errors": []
   },
   "portal:smartrecruiters:Dr. Reddy's Laboratories": {
    "ok": 1,
    "failed": 0,
-   "jobs": 68,
+   "jobs": 76,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -929,14 +929,16 @@
   "portal:keka:Inc42 Media": {
    "ok": 1,
    "failed": 0,
-   "jobs": 27,
+   "jobs": 28,
    "errors": []
   },
   "portal:workday:Ingram Micro": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 26,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://ingrammicro.wd5.myworkdayjobs.com/wday/cxs/ingrammicro/IngramMicro/jobs"
+   ]
   },
   "portal:workday:JLL": {
    "ok": 0,
@@ -1037,37 +1039,37 @@
   "portal:darwinbox:ZYDUS LIFESCIENCES LTD": {
    "ok": 1,
    "failed": 0,
-   "jobs": 58,
+   "jobs": 59,
    "errors": []
   },
   "portal:darwinbox:Zydus Group": {
    "ok": 1,
    "failed": 0,
-   "jobs": 58,
+   "jobs": 59,
    "errors": []
   },
   "portal:keka:eloelo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 37,
    "errors": []
   },
   "linkedin": {
    "ok": 120,
    "failed": 0,
-   "jobs": 415,
+   "jobs": 322,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1000,
+   "jobs": 709,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 27,
    "failed": 0,
-   "jobs": 1021,
+   "jobs": 1017,
    "errors": []
   },
   "discovery:google": {
@@ -1079,7 +1081,7 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1239,
+   "jobs": 1706,
    "errors": []
   },
   "naukri (browser)": {
@@ -1090,48 +1092,62 @@
   }
  },
  "descriptions": {
-  "careers portal": 7,
-  "linkedin": 38,
-  "iimjobs": 1
+  "careers portal": 16,
+  "linkedin": 95,
+  "iimjobs": 34
  },
  "linkedin_detail_blocked": false,
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3393,
-   "after_filters": 523,
-   "kept_new": 26
+   "raw": 3398,
+   "after_filters": 527,
+   "kept_new": 39
   },
   "linkedin": {
-   "raw": 1415,
-   "after_filters": 681,
-   "kept_new": 18
+   "raw": 1031,
+   "after_filters": 449,
+   "kept_new": 43
   },
   "indeed": {
-   "raw": 1021,
-   "after_filters": 442
+   "raw": 1017,
+   "after_filters": 452,
+   "kept_new": 6
   },
   "iimjobs": {
-   "raw": 1239,
-   "after_filters": 158,
-   "kept_new": 1
+   "raw": 1706,
+   "after_filters": 152,
+   "kept_new": 18
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "EVRobotics Skill Coach India Pvt.Ltd.",
-   "Allergan Aesthetics, an AbbVie Company"
+   "BabySatwa | Ayurvedic Baby Care Brand | Suvarna Prashan & Natural Baby Products",
+   "Namma Yatri",
+   "Fidvia Consulting",
+   "Basil",
+   "Indian Agri Organic Company Pvt Ltd",
+   "Avanti Fellows",
+   "Rama vision limited",
+   "Doceree",
+   "YesMadam",
+   "Etrade Marketing",
+   "Innovatiview India Ltd",
+   "IndiaMART",
+   "Quadlabs Technologies",
+   "Qurabt Apparels Private limited",
+   "Hirezy"
   ],
   "with_portal": 37
  },
  "counts": {
-  "raw": 7068,
-  "after_filters": 1804,
-  "judged": 115,
-  "kept": 45,
-  "duplicates_folded": 27,
-  "on_dashboard": 1312,
+  "raw": 7152,
+  "after_filters": 1580,
+  "judged": 467,
+  "kept": 106,
+  "duplicates_folded": 24,
+  "on_dashboard": 1255,
   "companies_scanned": {
    "curated": 138,
    "seed": 122,
