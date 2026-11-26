@@ -1,47 +1,46 @@
-# Job Hunt – 2026-11-26 19:11 UTC
+# Job Hunt – 2026-11-26 23:23 UTC
 
-**20 new roles today** · 1287 active on the dashboard
+**19 new roles today** · 1326 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 3416 | 539 | 36 |
-| iimjobs | 1054 | 159 | 4 |
-| indeed | 1022 | 446 | 4 |
-| linkedin | 692 | 316 | 19 |
+| careers portal | 3390 | 536 | 26 |
+| iimjobs | 1054 | 158 | 1 |
+| indeed | 1021 | 432 | 1 |
+| linkedin | 1626 | 730 | 43 |
 
-Auto-watchlist: 400 companies (37 with a readable portal) · added: Zorpa.Ai, Chryselys Services, Intas Pharmaceuticals Ltd, Covalensedigital
+Auto-watchlist: 400 companies (37 with a readable portal) · added: Desolpower & Safety Private Limited, VOLT- AGE INFRA PVT. LTD., Enerparc Energy, JoraIQ.ai, ZEISS Group, Seddiqi Holding, M.E CONSULTING®
 
-## Tier A (5)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Intas Pharmaceuticals Ltd | Product Manager - Arron | India | 2-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.intasaccordcareers.com/intas/job/Head-Office%2C-Ahmedabad-Product-Manager-Arron-GJ-380054/61875244/) |
-| Intas Pharmaceuticals Ltd | Group Product Manager - Wish | India | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.intasaccordcareers.com/intas/job/Head-Office%2C-Ahmedabad-Group-Product-Manager-Wish-GJ-380054/61877444/) |
-| Covalensedigital | Business Development Manager | India | 4-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://covalensedigital.com/careers) |
-| Microsoft | Customer Success Account Mgmt | India | 4+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://apply.careers.microsoft.com/careers/job/1970393557075075?utm_source=indeed&domain=microsoft.com) |
-| Stap Management Consultants | Category Manager Apparel Bottom Woven Knits & Denim for retail brand  Gurgaon | Gurugram | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493800913) |
-
-## Tier B (11)
+## Tier A (8)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Trail | Founder's Office | Bengaluru | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4492411172) |
-| Meesho | Kirana Club : Manager - Performance Marketing | Bengaluru | not stated | – | ~₹25–40 LPA (est.) | [open](https://jobs.lever.co/meesho/97213f20-6160-4145-abef-281399ed4885) |
-| Rippling India | Benefits Operations Analyst, 401K Integration. | Bengaluru | 2-3 yrs | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495211759) |
-| Scaler | Assistant Manager - Business Strategy | India | 4-9 yrs | – | ~₹20–32 LPA (est.) | [open](https://www.iimjobs.com/j/assistant-manager-business-strategy-manufacturing-1748416) |
-| Spice HR | Strategy Manager | Mumbai | 1-4 yrs | – | ₹25–40 LPA | [open](https://www.iimjobs.com/j/strategy-manager-gpu-compute-1748420) |
-| Chryselys Services | Change Consultant - Change & Transformation | Hyderabad | 4-8 yrs | – | ₹30–50 LPA | [open](https://www.iimjobs.com/j/chryselys-change-consultant-change-transformation-1748418) |
-| Meesho | Assistant Program Manager – Fulfilment & Experience (Strategic Initiatives) ( Kirana Club) | Bengaluru | not stated | – | ~₹25–40 LPA (est.) | [open](https://jobs.lever.co/meesho/2779eb08-9997-4962-815b-c7d441759764) |
-| Meesho | Assistant Program Manager – Customer Experience & Automation (Kirana Club) | Bengaluru | 3-6 yrs | – | ~₹25–40 LPA (est.) | [open](https://jobs.lever.co/meesho/47e8e25f-1cef-44cd-b2fa-ad84ed5685f8) |
-| Meesho | Assistant Program Manager - Catalog (Kirana Club) | Bengaluru | 2-5 yrs | – | ~₹25–40 LPA (est.) | [open](https://jobs.lever.co/meesho/651ffa7c-cbef-4822-b4f8-68e403b5ac2a) |
-| Meesho | Assistant Program Manager - Growth (Kirana Club) | Bengaluru | 2-4 yrs | – | ~₹25–40 LPA (est.) | [open](https://jobs.lever.co/meesho/081a3505-e60b-46ed-bbf8-a6a0be5a933e) |
-| Meesho | Assistant Program Manager - Community (Kirana Club) | Bengaluru | 2-4 yrs | – | ~₹25–40 LPA (est.) | [open](https://jobs.lever.co/meesho/2d525344-3e5b-4a47-9af1-7629f0ffd34a) |
+| VOLT- AGE INFRA PVT. LTD. | Business Development Manager | Pune | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493831319) |
+| Seddiqi Holding | Manager, Strategic Projects – Executive Office | Dubai · United Arab Emirates | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4493483983) |
+| M.E CONSULTING® | Revenue Strategy Consultant | Dubai · United Arab Emirates | not stated | Yes | not stated | [open](https://www.linkedin.com/jobs/view/4495238613) |
+| Enerparc Energy | Strategy & Development | Bengaluru | 2-3 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493834127) |
+| JoraIQ.ai | University Partnerships Manager | Noida | 2-4 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493491705) |
+| Desolpower & Safety Private Limited | Business Development Manager | Chandigarh | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4494999263) |
+| PwC India | Data Analyst - Associate | Bengaluru East | 3-5 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485585480) |
+| PwC India | Business Analyst - Associate | Bengaluru East | 3-5 yrs | Yes | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485593270) |
 
-## Tier C (4)
+## Tier B (4)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Amazon | Sr. Product Manager, WW MFN CSBA | Bengaluru | 5+ yrs | – | ~₹30–50 LPA (est.) | [open](https://www.amazon.jobs/en/jobs/10609572/sr-product-manager-ww-mfn-csba) |
-| mCaffeine | Brand Manager | Mumbai | 3+ yrs | – | ~₹18–30 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493821692) |
-| KPMG India | Assistant Manager_Technology Risk | Bengaluru | 4-9 yrs | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4384594035) |
-| Alvarez & Marsal | Senior Associate, Change Management - Global Capability Center | Gurugram | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495287617) |
+| 6sense | Sr. Product Manager, Specialized Modeling & Verticals | Bengaluru | 4-6 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4479515581) |
+| Masai | Manager - Strategic Partnerships | Bengaluru | 2-4 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495025598) |
+| GrayQuest | Senior Business Development Manager - Enterprise Partnerships | Mumbai | not stated | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493494704) |
+| PwC India | IN_Associate_Blockchain _Digital Integration_Advisory_Kolkata | Greater Kolkata | 3-6 yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495294713) |
+
+## Tier C (7)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Blue Moon Corporation | Business Consultant | Gurugram | 5+ yrs | Yes | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493497424) |
+| MSD | Specialist - Brand Strategy Analytics (BSA) | Hyderabad | 5-7 yrs | – | ~₹10–20 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495520709) |
+| IBDIC (Indian Banks' Digital Infrastructure Company) | Ecosystem Partnerships & Growth Manager | Mumbai | 5-10 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495511582) |
+| Livspace | Operations Manager | Bengaluru | 4-5 yrs | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495018082) |
+| PwC India | Automation Tester - Senior Associate | Bengaluru East | 4+ yrs | – | ~₹16–24 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493807755) |
+| Accenture Strategy | Marketing Transformation Practitioner | Gurugram | 5+ yrs | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495218190) |
+| TikTok | Business Planning & Programs Manager - Trust & Safety | Singapore | 5+ yrs | – | not stated | [open](https://www.linkedin.com/jobs/view/4494941782) |
