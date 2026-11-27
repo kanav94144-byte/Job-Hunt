@@ -7,7 +7,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://porter.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:oracle_hcm:American Express": {
@@ -27,7 +27,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://cardekho.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:The Whole Truth": {
@@ -39,7 +39,7 @@
   "portal:smartrecruiters:Swiggy": {
    "ok": 1,
    "failed": 0,
-   "jobs": 149,
+   "jobs": 151,
    "errors": []
   },
   "portal:recruitee:Lenskart": {
@@ -57,7 +57,7 @@
   "portal:google:Google": {
    "ok": 1,
    "failed": 0,
-   "jobs": 160,
+   "jobs": 159,
    "errors": []
   },
   "portal:workday:Walmart": {
@@ -79,7 +79,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://1mg.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -99,7 +99,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://boat.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Rapido": {
@@ -107,7 +107,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://rapido.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:makemytrip:MakeMyTrip": {
@@ -127,7 +127,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://delhivery.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:GoKwik": {
@@ -155,7 +155,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://pinelabs.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Juspay": {
@@ -163,7 +163,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://juspay.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:PayU": {
@@ -171,7 +171,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://payu.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:greenhouse:Groww": {
@@ -181,19 +181,17 @@
    "errors": []
   },
   "portal:workday:PayPal": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 33,
+   "errors": []
   },
   "portal:workday:PwC India": {
    "ok": 0,
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs"
    ]
   },
   "portal:amazon:Amazon": {
@@ -207,7 +205,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
    ]
   },
   "portal:workday:Adobe": {
@@ -215,7 +213,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
    ]
   },
   "portal:darwinbox:Zepto": {
@@ -223,7 +221,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://zepto.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:BigBasket": {
@@ -231,7 +229,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://bigbasket.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:lever:Meesho": {
@@ -245,7 +243,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://purplle.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Kapiva": {
@@ -253,7 +251,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://kapiva.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:workday:Diageo India": {
@@ -269,7 +267,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://cars24.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Ather Energy": {
@@ -277,7 +275,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://atherenergy.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:smartrecruiters:ixigo": {
@@ -291,7 +289,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://oyo.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:NoBroker": {
@@ -299,7 +297,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://nobroker.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Snabbit": {
@@ -307,7 +305,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://snabbit.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Pristyn Care": {
@@ -323,7 +321,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://caratlane.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Licious": {
@@ -331,7 +329,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://licious.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Wakefit": {
@@ -339,7 +337,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://wakefit.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Snitch": {
@@ -353,7 +351,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://countrydelight.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Pocket FM": {
@@ -361,7 +359,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://pocketfm.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Udaan": {
@@ -369,7 +367,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://udaan.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Jupiter": {
@@ -383,7 +381,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://zolve.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Kuku FM": {
@@ -435,7 +433,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://leadsquaredhrms.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:HighRadius": {
@@ -443,7 +441,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://highradius.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Capillary Technologies": {
@@ -451,7 +449,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://capillarytech.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Gupshup": {
@@ -459,7 +457,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://gupshup.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:workday:Sprinklr": {
@@ -475,7 +473,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://moengage.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:CleverTap": {
@@ -483,7 +481,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://clevertap.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Uniphore": {
@@ -491,7 +489,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://uniphore.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:greenhouse:Zenoti": {
@@ -541,7 +539,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://darwinbox.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Lentra": {
@@ -549,7 +547,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://lentra.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Shipsy": {
@@ -569,7 +567,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://perfios.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Signzy": {
@@ -583,7 +581,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://m2p.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Mintifi": {
@@ -597,7 +595,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://bharatpe.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:lever:Fi Money": {
@@ -611,7 +609,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://smallcase.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:KreditBee": {
@@ -619,7 +617,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://kreditbee.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:smartrecruiters:Lendingkart": {
@@ -633,7 +631,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://rupeek.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Go Digit": {
@@ -641,7 +639,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://godigit.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Turtlemint": {
@@ -649,7 +647,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://turtlemint.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Vyapar": {
@@ -663,7 +661,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://bizongo.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Ninjacart": {
@@ -671,7 +669,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://ninjacart.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Games24x7": {
@@ -679,7 +677,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://games24x7.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:MPL": {
@@ -687,7 +685,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://mpl.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:ShareChat": {
@@ -695,7 +693,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://sharechat.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:greenhouse:VerSe Innovation (Dailyhunt)": {
@@ -715,7 +713,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://parkplus.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:CityMall": {
@@ -723,7 +721,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://citymall.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:upGrad": {
@@ -731,7 +729,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://upgrad.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Unacademy": {
@@ -739,7 +737,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://unacademy.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Scaler": {
@@ -747,7 +745,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://interviewbit.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Emeritus": {
@@ -755,7 +753,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://emeritus.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Truemeds": {
@@ -781,7 +779,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://bewakoof.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Hector Beverages (Paper Boat)": {
@@ -789,7 +787,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://hectorbeverages.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:The Sleep Company": {
@@ -797,7 +795,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://thesleepcompany.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:darwinbox:Duroflex": {
@@ -805,7 +803,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://duroflex.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:greenhouse:BlueStone": {
@@ -825,7 +823,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://airtel.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:ashby:Airwallex": {
@@ -834,16 +832,18 @@
    "jobs": 179,
    "errors": []
   },
-  "portal:keka:BharatNXT": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 23,
-   "errors": []
+  "portal:darwinbox:Angel One": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "AccessBlocked: Cloudflare refused the request (403) for https://angelone.darwinbox.in"
+   ]
   },
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 706,
+   "jobs": 704,
    "errors": []
   },
   "portal:keka:CloudThat": {
@@ -871,14 +871,8 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://doceree.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
-  },
-  "portal:lever:Dozee": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 25,
-   "errors": []
   },
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
    "ok": 1,
@@ -886,18 +880,12 @@
    "jobs": 11,
    "errors": []
   },
-  "portal:smartrecruiters:EVERSANA": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 4,
-   "errors": []
-  },
   "portal:darwinbox:EXL": {
    "ok": 0,
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://exl.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:keka:Earthitects": {
@@ -969,15 +957,21 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://mastersunion.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
+  },
+  "portal:keka:Material Depot": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 21,
+   "errors": []
   },
   "portal:darwinbox:MobiKwik": {
    "ok": 0,
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://mobikwik.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:workday:Philips": {
@@ -1019,13 +1013,13 @@
   "portal:keka:The/Nudge": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 38,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
    "ok": 1,
    "failed": 0,
-   "jobs": 40,
+   "jobs": 38,
    "errors": []
   },
   "portal:keka:TrueFan": {
@@ -1067,21 +1061,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 123,
+   "ok": 122,
    "failed": 0,
-   "jobs": 248,
+   "jobs": 174,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 30,
    "failed": 0,
-   "jobs": 869,
+   "jobs": 788,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 30,
    "failed": 0,
-   "jobs": 1103,
+   "jobs": 1092,
    "errors": []
   },
   "discovery:google": {
@@ -1093,13 +1087,13 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1273,
+   "jobs": 1304,
    "errors": []
   },
   "hirist": {
    "ok": 7,
    "failed": 0,
-   "jobs": 69,
+   "jobs": 70,
    "errors": []
   },
   "instahyre": {
@@ -1119,83 +1113,71 @@
    "failed": 2,
    "jobs": 0,
    "errors": [
-    "Walmart (IND) Manager, Administrative Support: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run",
-    "Walmart ANALYST II, TECHNOLOGY OPERATIONS: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "Walmart STAFF, TECHNICAL PROGRAM MANAGER: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run",
+    "PayPal Regulatory Reporting Senior Manager: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   }
  },
  "descriptions": {
-  "careers portal": 28,
-  "linkedin": 72,
-  "iimjobs": 21
+  "careers portal": 10,
+  "linkedin": 40,
+  "iimjobs": 4
  },
  "linkedin_detail_blocked": false,
  "workday": {
-  "got_429": 12,
+  "got_429": 21,
   "stopped_early": true
  },
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3663,
-   "after_filters": 525,
-   "kept_new": 50
+   "raw": 3660,
+   "after_filters": 524,
+   "kept_new": 27
   },
   "linkedin": {
-   "raw": 1117,
-   "after_filters": 546,
-   "kept_new": 33
+   "raw": 962,
+   "after_filters": 444,
+   "kept_new": 17
   },
   "indeed": {
-   "raw": 1103,
+   "raw": 1092,
    "after_filters": 459,
-   "kept_new": 9
+   "kept_new": 2
   },
   "iimjobs": {
-   "raw": 1273,
-   "after_filters": 112,
-   "kept_new": 14
+   "raw": 1304,
+   "after_filters": 115,
+   "kept_new": 3
   },
   "hirist": {
-   "raw": 69,
-   "after_filters": 14,
-   "kept_new": 3
+   "raw": 70,
+   "after_filters": 14
   },
   "instahyre": {
    "raw": 1443,
-   "after_filters": 485,
-   "kept_new": 66
+   "after_filters": 483,
+   "kept_new": 7
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Samarthya Financial Services Pvt Ltd",
-   "Zamp",
-   "MHP \u2013 A Porsche Company",
-   "Nexx Zeal Technologies Private Limited",
-   "Angel One",
-   "Atithi Foundation",
-   "Dhanzo",
-   "DNA Growth",
-   "Material Depot",
-   "Blue First Consulting",
-   "BitScale",
-   "THREATMODELER SOFTWARE INDIA PRIVATE LIMITED",
-   "Northrop Management Private limited",
-   "Niche Agriculture and Pharmaceuticals Ltd",
-   "Allkenso",
-   "Loan2grow Fincap Pvt Ltd"
+   "Morphogenesis",
+   "Scimplify",
+   "Ridhira Group - Building World's largest Wellness Communities",
+   "Forasoftware Group",
+   "Sunstone"
   ],
-  "with_portal": 35
+  "with_portal": 36
  },
  "counts": {
-  "raw": 8668,
-  "after_filters": 2141,
-  "judged": 925,
-  "kept": 175,
-  "duplicates_folded": 67,
-  "on_dashboard": 1255,
+  "raw": 8531,
+  "after_filters": 2039,
+  "judged": 190,
+  "kept": 56,
+  "duplicates_folded": 31,
+  "on_dashboard": 1274,
   "companies_scanned": {
    "curated": 145,
    "seed": 122,

@@ -4,6 +4,11 @@
   "tenant": "airtel",
   "since": "2026-11-27"
  },
+ "Angel One": {
+  "type": "darwinbox",
+  "tenant": "angelone",
+  "since": "2026-11-27"
+ },
  "Ather Energy": {
   "type": "darwinbox",
   "tenant": "atherenergy",
