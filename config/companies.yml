@@ -35,7 +35,7 @@ companies:
     aliases: ["Swiggy", "Instamart", "Bundl Technologies"]
     group: target
     band: listed_tech
-    ats: {type: mynexthire, tenant: swiggy, careers_url: "https://careers.swiggy.com/#/careers"}
+    ats: {type: smartrecruiters, company_id: SWIGGY, country: in}
   - {name: Nykaa, aliases: ["Nykaa", "FSN E-Commerce Ventures", "Nykaa Fashion"], group: target, band: listed_tech}
   - {name: Lenskart, aliases: ["Lenskart", "Lenskart.com", "Lenskart Solutions"], group: target, band: unicorn}
   - {name: Shiprocket, aliases: ["Shiprocket", "Bigfoot Retail Solutions"], group: target, band: unicorn}
