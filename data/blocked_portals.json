@@ -1,0 +1,312 @@
+{
+ "Airtel": {
+  "type": "darwinbox",
+  "tenant": "airtel",
+  "since": "2026-11-27"
+ },
+ "Ather Energy": {
+  "type": "darwinbox",
+  "tenant": "atherenergy",
+  "since": "2026-11-27"
+ },
+ "Bewakoof": {
+  "type": "darwinbox",
+  "tenant": "bewakoof",
+  "since": "2026-11-27"
+ },
+ "BharatPe": {
+  "type": "darwinbox",
+  "tenant": "bharatpe",
+  "since": "2026-11-27"
+ },
+ "BigBasket": {
+  "type": "darwinbox",
+  "tenant": "bigbasket",
+  "since": "2026-11-27"
+ },
+ "Bizongo": {
+  "type": "darwinbox",
+  "tenant": "bizongo",
+  "since": "2026-11-27"
+ },
+ "Capillary Technologies": {
+  "type": "darwinbox",
+  "tenant": "capillarytech",
+  "since": "2026-11-27"
+ },
+ "CarDekho": {
+  "type": "darwinbox",
+  "tenant": "cardekho",
+  "since": "2026-11-27"
+ },
+ "CaratLane": {
+  "type": "darwinbox",
+  "tenant": "caratlane",
+  "since": "2026-11-27"
+ },
+ "Cars24": {
+  "type": "darwinbox",
+  "tenant": "cars24",
+  "since": "2026-11-27"
+ },
+ "CityMall": {
+  "type": "darwinbox",
+  "tenant": "citymall",
+  "since": "2026-11-27"
+ },
+ "CleverTap": {
+  "type": "darwinbox",
+  "tenant": "clevertap",
+  "since": "2026-11-27"
+ },
+ "Country Delight": {
+  "type": "darwinbox",
+  "tenant": "countrydelight",
+  "since": "2026-11-27"
+ },
+ "Darwinbox": {
+  "type": "darwinbox",
+  "tenant": "darwinbox",
+  "since": "2026-11-27"
+ },
+ "Delhivery": {
+  "type": "darwinbox",
+  "tenant": "delhivery",
+  "since": "2026-11-27"
+ },
+ "Doceree": {
+  "type": "darwinbox",
+  "tenant": "doceree",
+  "since": "2026-11-27"
+ },
+ "Duroflex": {
+  "type": "darwinbox",
+  "tenant": "duroflex",
+  "since": "2026-11-27"
+ },
+ "EXL": {
+  "type": "darwinbox",
+  "tenant": "exl",
+  "since": "2026-11-27"
+ },
+ "Emeritus": {
+  "type": "darwinbox",
+  "tenant": "emeritus",
+  "since": "2026-11-27"
+ },
+ "Games24x7": {
+  "type": "darwinbox",
+  "tenant": "games24x7",
+  "since": "2026-11-27"
+ },
+ "Go Digit": {
+  "type": "darwinbox",
+  "tenant": "godigit",
+  "since": "2026-11-27"
+ },
+ "Gupshup": {
+  "type": "darwinbox",
+  "tenant": "gupshup",
+  "since": "2026-11-27"
+ },
+ "Hector Beverages (Paper Boat)": {
+  "type": "darwinbox",
+  "tenant": "hectorbeverages",
+  "since": "2026-11-27"
+ },
+ "HighRadius": {
+  "type": "darwinbox",
+  "tenant": "highradius",
+  "since": "2026-11-27"
+ },
+ "Juspay": {
+  "type": "darwinbox",
+  "tenant": "juspay",
+  "since": "2026-11-27"
+ },
+ "Kapiva": {
+  "type": "darwinbox",
+  "tenant": "kapiva",
+  "since": "2026-11-27"
+ },
+ "KreditBee": {
+  "type": "darwinbox",
+  "tenant": "kreditbee",
+  "since": "2026-11-27"
+ },
+ "LeadSquared": {
+  "type": "darwinbox",
+  "tenant": "leadsquaredhrms",
+  "since": "2026-11-27"
+ },
+ "Lentra": {
+  "type": "darwinbox",
+  "tenant": "lentra",
+  "since": "2026-11-27"
+ },
+ "Licious": {
+  "type": "darwinbox",
+  "tenant": "licious",
+  "since": "2026-11-27"
+ },
+ "M2P Fintech": {
+  "type": "darwinbox",
+  "tenant": "m2p",
+  "since": "2026-11-27"
+ },
+ "MPL": {
+  "type": "darwinbox",
+  "tenant": "mpl",
+  "since": "2026-11-27"
+ },
+ "Masters Union": {
+  "type": "darwinbox",
+  "tenant": "mastersunion",
+  "since": "2026-11-27"
+ },
+ "MoEngage": {
+  "type": "darwinbox",
+  "tenant": "moengage",
+  "since": "2026-11-27"
+ },
+ "MobiKwik": {
+  "type": "darwinbox",
+  "tenant": "mobikwik",
+  "since": "2026-11-27"
+ },
+ "Ninjacart": {
+  "type": "darwinbox",
+  "tenant": "ninjacart",
+  "since": "2026-11-27"
+ },
+ "NoBroker": {
+  "type": "darwinbox",
+  "tenant": "nobroker",
+  "since": "2026-11-27"
+ },
+ "OYO": {
+  "type": "darwinbox",
+  "tenant": "oyo",
+  "since": "2026-11-27"
+ },
+ "Park+": {
+  "type": "darwinbox",
+  "tenant": "parkplus",
+  "since": "2026-11-27"
+ },
+ "PayU": {
+  "type": "darwinbox",
+  "tenant": "payu",
+  "since": "2026-11-27"
+ },
+ "Perfios": {
+  "type": "darwinbox",
+  "tenant": "perfios",
+  "since": "2026-11-27"
+ },
+ "Pine Labs": {
+  "type": "darwinbox",
+  "tenant": "pinelabs",
+  "since": "2026-11-27"
+ },
+ "Pocket FM": {
+  "type": "darwinbox",
+  "tenant": "pocketfm",
+  "since": "2026-11-27"
+ },
+ "Porter": {
+  "type": "darwinbox",
+  "tenant": "porter",
+  "since": "2026-11-27"
+ },
+ "Purplle": {
+  "type": "darwinbox",
+  "tenant": "purplle",
+  "since": "2026-11-27"
+ },
+ "Rapido": {
+  "type": "darwinbox",
+  "tenant": "rapido",
+  "since": "2026-11-27"
+ },
+ "Rupeek": {
+  "type": "darwinbox",
+  "tenant": "rupeek",
+  "since": "2026-11-27"
+ },
+ "Scaler": {
+  "type": "darwinbox",
+  "tenant": "interviewbit",
+  "since": "2026-11-27"
+ },
+ "ShareChat": {
+  "type": "darwinbox",
+  "tenant": "sharechat",
+  "since": "2026-11-27"
+ },
+ "Snabbit": {
+  "type": "darwinbox",
+  "tenant": "snabbit",
+  "since": "2026-11-27"
+ },
+ "Tata 1mg": {
+  "type": "darwinbox",
+  "tenant": "1mg",
+  "since": "2026-11-27"
+ },
+ "The Sleep Company": {
+  "type": "darwinbox",
+  "tenant": "thesleepcompany",
+  "since": "2026-11-27"
+ },
+ "Turtlemint": {
+  "type": "darwinbox",
+  "tenant": "turtlemint",
+  "since": "2026-11-27"
+ },
+ "Udaan": {
+  "type": "darwinbox",
+  "tenant": "udaan",
+  "since": "2026-11-27"
+ },
+ "Unacademy": {
+  "type": "darwinbox",
+  "tenant": "unacademy",
+  "since": "2026-11-27"
+ },
+ "Uniphore": {
+  "type": "darwinbox",
+  "tenant": "uniphore",
+  "since": "2026-11-27"
+ },
+ "Wakefit": {
+  "type": "darwinbox",
+  "tenant": "wakefit",
+  "since": "2026-11-27"
+ },
+ "Zepto": {
+  "type": "darwinbox",
+  "tenant": "zepto",
+  "since": "2026-11-27"
+ },
+ "Zolve": {
+  "type": "darwinbox",
+  "tenant": "zolve",
+  "since": "2026-11-27"
+ },
+ "boAt": {
+  "type": "darwinbox",
+  "tenant": "boat",
+  "since": "2026-11-27"
+ },
+ "smallcase": {
+  "type": "darwinbox",
+  "tenant": "smallcase",
+  "since": "2026-11-27"
+ },
+ "upGrad": {
+  "type": "darwinbox",
+  "tenant": "upgrad",
+  "since": "2026-11-27"
+ }
+}

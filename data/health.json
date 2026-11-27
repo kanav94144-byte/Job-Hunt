@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-26",
+ "run_date": "2026-11-27",
  "first_run": false,
  "sources": {
   "portal:darwinbox:Porter": {
@@ -7,13 +7,13 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://porter.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://porter.darwinbox.in"
    ]
   },
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 90,
+   "jobs": 94,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -27,7 +27,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://cardekho.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://cardekho.darwinbox.in"
    ]
   },
   "portal:keka:The Whole Truth": {
@@ -36,13 +36,11 @@
    "jobs": 20,
    "errors": []
   },
-  "portal:mynexthire:Swiggy": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 402 Client Error: Payment Required for url: https://swiggy.mynexthire.com/employer/careers/reqlist/get"
-   ]
+  "portal:smartrecruiters:Swiggy": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 149,
+   "errors": []
   },
   "portal:recruitee:Lenskart": {
    "ok": 1,
@@ -63,12 +61,10 @@
    "errors": []
   },
   "portal:workday:Walmart": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://walmart.wd504.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 176,
+   "errors": []
   },
   "portal:workday:Visa": {
    "ok": 0,
@@ -83,7 +79,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://1mg.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://1mg.darwinbox.in"
    ]
   },
   "portal:smartrecruiters:Rebel Foods": {
@@ -103,7 +99,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://boat.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://boat.darwinbox.in"
    ]
   },
   "portal:darwinbox:Rapido": {
@@ -111,13 +107,13 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://rapido.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://rapido.darwinbox.in"
    ]
   },
   "portal:makemytrip:MakeMyTrip": {
    "ok": 1,
    "failed": 0,
-   "jobs": 44,
+   "jobs": 47,
    "errors": []
   },
   "portal:keka:SolarSquare": {
@@ -131,7 +127,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://delhivery.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://delhivery.darwinbox.in"
    ]
   },
   "portal:keka:GoKwik": {
@@ -159,7 +155,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://pinelabs.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://pinelabs.darwinbox.in"
    ]
   },
   "portal:darwinbox:Juspay": {
@@ -167,7 +163,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://juspay.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://juspay.darwinbox.in"
    ]
   },
   "portal:darwinbox:PayU": {
@@ -175,7 +171,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://payu.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://payu.darwinbox.in"
    ]
   },
   "portal:greenhouse:Groww": {
@@ -197,7 +193,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:amazon:Amazon": {
@@ -211,7 +207,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:workday:Adobe": {
@@ -219,7 +215,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:darwinbox:Zepto": {
@@ -227,7 +223,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://zepto.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://zepto.darwinbox.in"
    ]
   },
   "portal:darwinbox:BigBasket": {
@@ -235,13 +231,13 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://bigbasket.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://bigbasket.darwinbox.in"
    ]
   },
   "portal:lever:Meesho": {
    "ok": 1,
    "failed": 0,
-   "jobs": 59,
+   "jobs": 62,
    "errors": []
   },
   "portal:darwinbox:Purplle": {
@@ -249,7 +245,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://purplle.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://purplle.darwinbox.in"
    ]
   },
   "portal:darwinbox:Kapiva": {
@@ -257,7 +253,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://kapiva.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://kapiva.darwinbox.in"
    ]
   },
   "portal:workday:Diageo India": {
@@ -265,7 +261,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:darwinbox:Cars24": {
@@ -273,7 +269,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://cars24.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://cars24.darwinbox.in"
    ]
   },
   "portal:darwinbox:Ather Energy": {
@@ -281,7 +277,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://atherenergy.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://atherenergy.darwinbox.in"
    ]
   },
   "portal:smartrecruiters:ixigo": {
@@ -295,7 +291,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://oyo.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://oyo.darwinbox.in"
    ]
   },
   "portal:darwinbox:NoBroker": {
@@ -303,7 +299,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://nobroker.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://nobroker.darwinbox.in"
    ]
   },
   "portal:darwinbox:Snabbit": {
@@ -311,7 +307,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://snabbit.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://snabbit.darwinbox.in"
    ]
   },
   "portal:darwinbox:Pristyn Care": {
@@ -327,7 +323,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://caratlane.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://caratlane.darwinbox.in"
    ]
   },
   "portal:darwinbox:Licious": {
@@ -335,7 +331,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://licious.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://licious.darwinbox.in"
    ]
   },
   "portal:darwinbox:Wakefit": {
@@ -343,7 +339,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://wakefit.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://wakefit.darwinbox.in"
    ]
   },
   "portal:keka:Snitch": {
@@ -357,7 +353,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://countrydelight.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://countrydelight.darwinbox.in"
    ]
   },
   "portal:darwinbox:Pocket FM": {
@@ -365,7 +361,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://pocketfm.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://pocketfm.darwinbox.in"
    ]
   },
   "portal:darwinbox:Udaan": {
@@ -373,7 +369,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://udaan.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://udaan.darwinbox.in"
    ]
   },
   "portal:keka:Jupiter": {
@@ -387,13 +383,25 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://zolve.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://zolve.darwinbox.in"
    ]
   },
   "portal:keka:Kuku FM": {
    "ok": 1,
    "failed": 0,
    "jobs": 19,
+   "errors": []
+  },
+  "portal:keka:Wishlink": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 6,
+   "errors": []
+  },
+  "portal:keka:Meolaa": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 1,
    "errors": []
   },
   "portal:smartrecruiters:Freshworks": {
@@ -407,7 +415,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://browserstack.wd3.myworkdayjobs.com/wday/cxs/browserstack/External/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:smartrecruiters:Whatfix": {
@@ -427,7 +435,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://leadsquaredhrms.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://leadsquaredhrms.darwinbox.in"
    ]
   },
   "portal:darwinbox:HighRadius": {
@@ -435,7 +443,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://highradius.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://highradius.darwinbox.in"
    ]
   },
   "portal:darwinbox:Capillary Technologies": {
@@ -443,7 +451,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://capillarytech.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://capillarytech.darwinbox.in"
    ]
   },
   "portal:darwinbox:Gupshup": {
@@ -451,7 +459,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://gupshup.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://gupshup.darwinbox.in"
    ]
   },
   "portal:workday:Sprinklr": {
@@ -459,7 +467,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://sprinklr.wd1.myworkdayjobs.com/wday/cxs/sprinklr/careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:darwinbox:MoEngage": {
@@ -467,7 +475,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://moengage.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://moengage.darwinbox.in"
    ]
   },
   "portal:darwinbox:CleverTap": {
@@ -475,7 +483,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://clevertap.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://clevertap.darwinbox.in"
    ]
   },
   "portal:darwinbox:Uniphore": {
@@ -483,7 +491,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://uniphore.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://uniphore.darwinbox.in"
    ]
   },
   "portal:greenhouse:Zenoti": {
@@ -519,7 +527,7 @@
   "portal:ashby:Sarvam AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 38,
+   "jobs": 36,
    "errors": []
   },
   "portal:greenhouse:Observe.AI": {
@@ -533,7 +541,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://darwinbox.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://darwinbox.darwinbox.in"
    ]
   },
   "portal:darwinbox:Lentra": {
@@ -541,7 +549,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://lentra.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://lentra.darwinbox.in"
    ]
   },
   "portal:keka:Shipsy": {
@@ -561,7 +569,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://perfios.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://perfios.darwinbox.in"
    ]
   },
   "portal:keka:Signzy": {
@@ -575,7 +583,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://m2p.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://m2p.darwinbox.in"
    ]
   },
   "portal:keka:Mintifi": {
@@ -589,7 +597,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://bharatpe.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://bharatpe.darwinbox.in"
    ]
   },
   "portal:lever:Fi Money": {
@@ -603,7 +611,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://smallcase.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://smallcase.darwinbox.in"
    ]
   },
   "portal:darwinbox:KreditBee": {
@@ -611,7 +619,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://kreditbee.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://kreditbee.darwinbox.in"
    ]
   },
   "portal:smartrecruiters:Lendingkart": {
@@ -625,7 +633,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://rupeek.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://rupeek.darwinbox.in"
    ]
   },
   "portal:darwinbox:Go Digit": {
@@ -633,7 +641,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://godigit.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://godigit.darwinbox.in"
    ]
   },
   "portal:darwinbox:Turtlemint": {
@@ -641,7 +649,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://turtlemint.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://turtlemint.darwinbox.in"
    ]
   },
   "portal:keka:Vyapar": {
@@ -655,7 +663,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://bizongo.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://bizongo.darwinbox.in"
    ]
   },
   "portal:darwinbox:Ninjacart": {
@@ -663,7 +671,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://ninjacart.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://ninjacart.darwinbox.in"
    ]
   },
   "portal:darwinbox:Games24x7": {
@@ -671,7 +679,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://games24x7.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://games24x7.darwinbox.in"
    ]
   },
   "portal:darwinbox:MPL": {
@@ -679,7 +687,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://mpl.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://mpl.darwinbox.in"
    ]
   },
   "portal:darwinbox:ShareChat": {
@@ -687,7 +695,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://sharechat.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://sharechat.darwinbox.in"
    ]
   },
   "portal:greenhouse:VerSe Innovation (Dailyhunt)": {
@@ -707,7 +715,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://parkplus.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://parkplus.darwinbox.in"
    ]
   },
   "portal:darwinbox:CityMall": {
@@ -715,7 +723,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://citymall.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://citymall.darwinbox.in"
    ]
   },
   "portal:darwinbox:upGrad": {
@@ -723,7 +731,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://upgrad.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://upgrad.darwinbox.in"
    ]
   },
   "portal:darwinbox:Unacademy": {
@@ -731,7 +739,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://unacademy.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://unacademy.darwinbox.in"
    ]
   },
   "portal:darwinbox:Scaler": {
@@ -739,7 +747,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://interviewbit.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://interviewbit.darwinbox.in"
    ]
   },
   "portal:darwinbox:Emeritus": {
@@ -747,7 +755,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://emeritus.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://emeritus.darwinbox.in"
    ]
   },
   "portal:keka:Truemeds": {
@@ -773,7 +781,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://bewakoof.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://bewakoof.darwinbox.in"
    ]
   },
   "portal:darwinbox:Hector Beverages (Paper Boat)": {
@@ -781,7 +789,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://hectorbeverages.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://hectorbeverages.darwinbox.in"
    ]
   },
   "portal:darwinbox:The Sleep Company": {
@@ -789,7 +797,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://thesleepcompany.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://thesleepcompany.darwinbox.in"
    ]
   },
   "portal:darwinbox:Duroflex": {
@@ -797,7 +805,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://duroflex.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://duroflex.darwinbox.in"
    ]
   },
   "portal:greenhouse:BlueStone": {
@@ -817,13 +825,13 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://airtel.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://airtel.darwinbox.in"
    ]
   },
   "portal:ashby:Airwallex": {
    "ok": 1,
    "failed": 0,
-   "jobs": 184,
+   "jobs": 179,
    "errors": []
   },
   "portal:keka:BharatNXT": {
@@ -835,19 +843,19 @@
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 694,
+   "jobs": 706,
    "errors": []
   },
   "portal:keka:CloudThat": {
    "ok": 1,
    "failed": 0,
-   "jobs": 91,
+   "jobs": 92,
    "errors": []
   },
   "portal:smartrecruiters:Colliers": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 40,
    "errors": []
   },
   "portal:workday:DBS Bank": {
@@ -855,7 +863,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://dbs.wd3.myworkdayjobs.com/wday/cxs/dbs/DBS_Careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:darwinbox:Doceree": {
@@ -863,7 +871,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://doceree.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://doceree.darwinbox.in"
    ]
   },
   "portal:lever:Dozee": {
@@ -875,13 +883,7 @@
   "portal:keka:Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
    "ok": 1,
    "failed": 0,
-   "jobs": 10,
-   "errors": []
-  },
-  "portal:smartrecruiters:Dr. Reddy's Laboratories": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 67,
+   "jobs": 11,
    "errors": []
   },
   "portal:smartrecruiters:EVERSANA": {
@@ -895,7 +897,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://exl.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://exl.darwinbox.in"
    ]
   },
   "portal:keka:Earthitects": {
@@ -915,7 +917,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://gartner.wd5.myworkdayjobs.com/wday/cxs/gartner/EXT/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:workday:Genpact": {
@@ -923,7 +925,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://genpact.wd108.myworkdayjobs.com/wday/cxs/genpact/External_Careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:workday:Huron Consulting Group": {
@@ -931,7 +933,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:keka:Inc42 Media": {
@@ -945,7 +947,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://ingrammicro.wd5.myworkdayjobs.com/wday/cxs/ingrammicro/IngramMicro/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:workday:JLL": {
@@ -953,7 +955,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:keka:Knya": {
@@ -967,7 +969,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://mastersunion.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://mastersunion.darwinbox.in"
    ]
   },
   "portal:darwinbox:MobiKwik": {
@@ -975,7 +977,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 403 Client Error: Forbidden for url: https://mobikwik.darwinbox.in/ms/candidateapi/job/alljobs?companyId=main"
+    "AccessBlocked: Cloudflare refused the request (403) for https://mobikwik.darwinbox.in"
    ]
   },
   "portal:workday:Philips": {
@@ -983,7 +985,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://philips.wd3.myworkdayjobs.com/wday/cxs/philips/jobs-and-careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:workday:Priceline": {
@@ -991,7 +993,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://priceline.wd1.myworkdayjobs.com/wday/cxs/priceline/Priceline/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:workday:RELX Group": {
@@ -999,7 +1001,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://relx.wd3.myworkdayjobs.com/wday/cxs/relx/relx/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:keka:Reward360 Global Services Private Limited": {
@@ -1011,19 +1013,19 @@
   "portal:keka:TechDome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 29,
+   "jobs": 23,
    "errors": []
   },
   "portal:keka:The/Nudge": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 40,
    "errors": []
   },
   "portal:keka:The/Nudge Institute": {
    "ok": 1,
    "failed": 0,
-   "jobs": 41,
+   "jobs": 40,
    "errors": []
   },
   "portal:keka:TrueFan": {
@@ -1037,6 +1039,14 @@
    "failed": 0,
    "jobs": 54,
    "errors": []
+  },
+  "portal:workday:ZEISS Group": {
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+   ]
   },
   "portal:darwinbox:ZYDUS LIFESCIENCES LTD": {
    "ok": 1,
@@ -1057,25 +1067,25 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 120,
+   "ok": 123,
    "failed": 0,
-   "jobs": 456,
+   "jobs": 248,
    "errors": []
   },
   "discovery:linkedin": {
-   "ok": 27,
+   "ok": 30,
    "failed": 0,
-   "jobs": 1170,
+   "jobs": 869,
    "errors": []
   },
   "discovery:indeed": {
-   "ok": 27,
+   "ok": 30,
    "failed": 0,
-   "jobs": 1021,
+   "jobs": 1103,
    "errors": []
   },
   "discovery:google": {
-   "ok": 27,
+   "ok": 30,
    "failed": 0,
    "jobs": 0,
    "errors": []
@@ -1083,7 +1093,19 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1054,
+   "jobs": 1273,
+   "errors": []
+  },
+  "hirist": {
+   "ok": 7,
+   "failed": 0,
+   "jobs": 69,
+   "errors": []
+  },
+  "instahyre": {
+   "ok": 30,
+   "failed": 0,
+   "jobs": 1443,
    "errors": []
   },
   "naukri (browser)": {
@@ -1091,61 +1113,93 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 2,
+   "jobs": 0,
+   "errors": [
+    "Walmart (IND) Manager, Administrative Support: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run",
+    "Walmart ANALYST II, TECHNOLOGY OPERATIONS: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 7,
-  "linkedin": 101,
-  "iimjobs": 1
+  "careers portal": 28,
+  "linkedin": 72,
+  "iimjobs": 21
  },
  "linkedin_detail_blocked": false,
+ "workday": {
+  "got_429": 12,
+  "stopped_early": true
+ },
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3390,
-   "after_filters": 536,
-   "kept_new": 26
+   "raw": 3663,
+   "after_filters": 525,
+   "kept_new": 50
   },
   "linkedin": {
-   "raw": 1626,
-   "after_filters": 730,
-   "kept_new": 43
+   "raw": 1117,
+   "after_filters": 546,
+   "kept_new": 33
   },
   "indeed": {
-   "raw": 1021,
-   "after_filters": 432,
-   "kept_new": 1
+   "raw": 1103,
+   "after_filters": 459,
+   "kept_new": 9
   },
   "iimjobs": {
-   "raw": 1054,
-   "after_filters": 158,
-   "kept_new": 1
+   "raw": 1273,
+   "after_filters": 112,
+   "kept_new": 14
+  },
+  "hirist": {
+   "raw": 69,
+   "after_filters": 14,
+   "kept_new": 3
+  },
+  "instahyre": {
+   "raw": 1443,
+   "after_filters": 485,
+   "kept_new": 66
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Desolpower & Safety Private Limited",
-   "VOLT- AGE INFRA PVT. LTD.",
-   "Enerparc Energy",
-   "JoraIQ.ai",
-   "ZEISS Group",
-   "Seddiqi Holding",
-   "M.E CONSULTING\u00ae"
+   "Samarthya Financial Services Pvt Ltd",
+   "Zamp",
+   "MHP \u2013 A Porsche Company",
+   "Nexx Zeal Technologies Private Limited",
+   "Angel One",
+   "Atithi Foundation",
+   "Dhanzo",
+   "DNA Growth",
+   "Material Depot",
+   "Blue First Consulting",
+   "BitScale",
+   "THREATMODELER SOFTWARE INDIA PRIVATE LIMITED",
+   "Northrop Management Private limited",
+   "Niche Agriculture and Pharmaceuticals Ltd",
+   "Allkenso",
+   "Loan2grow Fincap Pvt Ltd"
   ],
-  "with_portal": 37
+  "with_portal": 35
  },
  "counts": {
-  "raw": 7091,
-  "after_filters": 1856,
-  "judged": 211,
-  "kept": 71,
-  "duplicates_folded": 27,
-  "on_dashboard": 1326,
+  "raw": 8668,
+  "after_filters": 2141,
+  "judged": 925,
+  "kept": 175,
+  "duplicates_folded": 67,
+  "on_dashboard": 1255,
   "companies_scanned": {
-   "curated": 138,
+   "curated": 145,
    "seed": 122,
-   "auto": 399
+   "auto": 400
   }
  }
 }
