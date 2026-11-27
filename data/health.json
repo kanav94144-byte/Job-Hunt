@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 96,
+   "jobs": 90,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -63,16 +63,14 @@
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 175,
+   "jobs": 173,
    "errors": []
   },
   "portal:workday:Visa": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 95,
+   "errors": []
   },
   "portal:darwinbox:Tata 1mg": {
    "ok": 0,
@@ -203,12 +201,10 @@
    "errors": []
   },
   "portal:workday:Salesforce": {
-   "ok": 0,
-   "failed": 1,
-   "jobs": 0,
-   "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
-   ]
+   "ok": 1,
+   "failed": 0,
+   "jobs": 96,
+   "errors": []
   },
   "portal:workday:Adobe": {
    "ok": 0,
@@ -467,7 +463,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://sprinklr.wd1.myworkdayjobs.com/wday/cxs/sprinklr/careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:darwinbox:MoEngage": {
@@ -865,7 +861,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "HTTPError: 429 Client Error: Too Many Requests for url: https://dbs.wd3.myworkdayjobs.com/wday/cxs/dbs/DBS_Careers/jobs"
+    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
    ]
   },
   "portal:darwinbox:Doceree": {
@@ -1069,21 +1065,21 @@
    "errors": []
   },
   "linkedin": {
-   "ok": 123,
+   "ok": 121,
    "failed": 0,
-   "jobs": 235,
+   "jobs": 283,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 30,
    "failed": 0,
-   "jobs": 809,
+   "jobs": 560,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 30,
    "failed": 0,
-   "jobs": 1089,
+   "jobs": 1084,
    "errors": []
   },
   "discovery:google": {
@@ -1115,38 +1111,48 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
+  },
+  "descriptions": {
+   "ok": 0,
+   "failed": 32,
+   "jobs": 0,
+   "errors": [
+    "Salesforce Customer Success Manager (Salesforce Commerce Cloud / Demandware exp mandatory): skipped: Workday kept answering 429 (Too Many Requests) earlier in this run",
+    "Salesforce Senior Technical Consultant -Migration-Marketing Cloud: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run",
+    "Salesforce Senior Technical Consultant - B2B: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+   ]
   }
  },
  "descriptions": {
-  "careers portal": 7,
-  "linkedin": 57,
-  "iimjobs": 3
+  "careers portal": 6,
+  "linkedin": 25,
+  "iimjobs": 2
  },
  "linkedin_detail_blocked": false,
  "workday": {
-  "got_429": 41,
+  "got_429": 32,
   "stopped_early": true
  },
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3733,
-   "after_filters": 532,
-   "kept_new": 25
+   "raw": 3916,
+   "after_filters": 574,
+   "kept_new": 55
   },
   "linkedin": {
-   "raw": 1044,
-   "after_filters": 481,
-   "kept_new": 22
+   "raw": 843,
+   "after_filters": 404,
+   "kept_new": 20
   },
   "indeed": {
-   "raw": 1089,
-   "after_filters": 442,
-   "kept_new": 2
+   "raw": 1084,
+   "after_filters": 438,
+   "kept_new": 1
   },
   "iimjobs": {
    "raw": 841,
-   "after_filters": 120,
+   "after_filters": 118,
    "kept_new": 2
   },
   "hirist": {
@@ -1162,18 +1168,19 @@
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "FTI Consulting",
-   "YASH Technologies"
+   "PATH IN AI",
+   "Dhurin",
+   "KITES INDIA"
   ],
   "with_portal": 37
  },
  "counts": {
-  "raw": 8194,
-  "after_filters": 2074,
-  "judged": 191,
-  "kept": 58,
-  "duplicates_folded": 34,
-  "on_dashboard": 1291,
+  "raw": 8171,
+  "after_filters": 2033,
+  "judged": 125,
+  "kept": 85,
+  "duplicates_folded": 33,
+  "on_dashboard": 1339,
   "companies_scanned": {
    "curated": 145,
    "seed": 122,
