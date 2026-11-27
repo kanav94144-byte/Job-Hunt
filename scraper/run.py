@@ -135,6 +135,7 @@ def main():
     auto = load(DATA / "companies_auto.json", {})
     rejected = load(DATA / "rejected.json", {})
     portals_cache = load(DATA / "portals.json", {})
+    blocked = load(DATA / "blocked_portals.json", {})    # careers sites that refused us: company -> {type, tenant, since}
     first = args.first_run or not seen or os.environ.get("FULL_SCAN") == "true"
     hours = profile["recency_hours_first_run"] if first else profile["recency_hours_daily"]
     health = {"run_date": t, "first_run": first, "sources": {}}
@@ -177,21 +178,36 @@ def main():
         except Exception:
             return None, True
 
+    blocked_from = src.days_ago(profile.get("blocked_recheck_days", 7))
+
     def portal_work(c):
         ats, probed = resolve_ats(c)
         res = {"c": c, "ats": ats, "probed": probed, "jobs": [], "err": None}
         if ats and ats.get("type") in src.ATS:
+            b = blocked.get(c["name"]) or {}
+            if (b.get("type"), b.get("tenant")) == (ats["type"], ats.get("tenant")) and b.get("since", "") > blocked_from:
+                res["err"] = f"skipped: careers site refused automated requests on {b['since']}"
+                return res
             try:
                 js = src.ATS[ats["type"]][0](ats)
                 if ats["type"] in LOCATION_FILTERED_ATS:
                     js = [j for j in js if in_scope_location(j.location, profile)]
                 res["jobs"] = js
+                blocked.pop(c["name"], None)
+            except src.AccessBlocked as e:
+                blocked[c["name"]] = {"type": ats["type"], "tenant": ats.get("tenant"), "since": t}
+                res["err"] = f"{type(e).__name__}: {e}"
             except Exception as e:
                 res["err"] = f"{type(e).__name__}: {e}"
         return res
 
-    with ThreadPoolExecutor(max_workers=profile.get("portal_workers", 8)) as pool:
-        results = list(pool.map(portal_work, universe))
+    # Workday requests are paced one at a time (sources.py), so those companies get their own single worker
+    # instead of tying up the others while they wait their turn.
+    with ThreadPoolExecutor(max_workers=profile.get("portal_workers", 8)) as pool, \
+            ThreadPoolExecutor(max_workers=1) as workday_pool:
+        futures = [(workday_pool if (c.get("ats") or portals_cache.get(c["name"]) or {}).get("type") == "workday"
+                    else pool).submit(portal_work, c) for c in universe]
+        results = [f.result() for f in futures]
 
     linkedin_fallback = []
     new_portals = 0
@@ -402,6 +418,7 @@ def main():
             record("descriptions", err=f"{j.company} {j.title}: {e}")
     health["descriptions"] = dict(detail_counts)
     health["linkedin_detail_blocked"] = src.LINKEDIN["blocked"]
+    health["workday"] = {"got_429": src.WORKDAY["got_429"], "stopped_early": src.WORKDAY["stopped"]}
 
     # ---------------------------------------------------------------- 7) learn portals from job / apply links
     harvested: dict[str, dict] = {}
@@ -526,6 +543,7 @@ def main():
     rejected = {k: d for k, d in rejected.items() if d >= rej_from}
     (DATA / "jobs.json").write_text(json.dumps(payload, indent=1, ensure_ascii=False))
     (DOCS / "jobs.json").write_text(json.dumps(payload, ensure_ascii=False))
+    (DATA / "blocked_portals.json").write_text(json.dumps(dict(sorted(blocked.items())), indent=1, ensure_ascii=False))
     (DATA / "portals.json").write_text(json.dumps(dict(sorted(portals_cache.items())), indent=1))
     (DATA / "companies_auto.json").write_text(json.dumps(dict(sorted(auto.items())), indent=1, ensure_ascii=False))
     (DATA / "rejected.json").write_text(json.dumps(rejected, indent=0))
