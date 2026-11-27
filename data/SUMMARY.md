@@ -1,42 +1,39 @@
-# Job Hunt – 2026-11-27 13:56 UTC
+# Job Hunt – 2026-11-27 19:31 UTC
 
-**13 new roles today** · 1274 active on the dashboard
+**10 new roles today** · 1291 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 3660 | 524 | 27 |
-| hirist | 70 | 14 | 0 |
-| iimjobs | 1304 | 115 | 3 |
-| indeed | 1092 | 459 | 2 |
-| instahyre | 1443 | 483 | 7 |
-| linkedin | 962 | 444 | 17 |
+| careers portal | 3733 | 532 | 25 |
+| hirist | 44 | 14 | 0 |
+| iimjobs | 841 | 120 | 2 |
+| indeed | 1089 | 442 | 2 |
+| instahyre | 1443 | 485 | 7 |
+| linkedin | 1044 | 481 | 22 |
 
-Auto-watchlist: 400 companies (36 with a readable portal) · added: Morphogenesis, Scimplify, Ridhira Group - Building World's largest Wellness Communities, Forasoftware Group, Sunstone
+Auto-watchlist: 400 companies (37 with a readable portal) · added: FTI Consulting, YASH Technologies
 
-## Tier A (4)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| Ridhira Group - Building World's largest Wellness Communities | B2B Outreach Partners | Hyderabad | 4-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495086518) |
-| Morphogenesis | Manager, Founder's Office | Delhi | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495584571) |
-| Scimplify | Manager – Strategy | Bengaluru East | 3-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495094820) |
-| MakeMyTrip | Supply Category | Gurugram | not stated | Yes | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495804640) |
-
-## Tier B (6)
+## Tier A (2)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Licious | Assistant Operations Manager | Programme Manager : Last Mile | Hub Operations | Bengaluru | 2-5 yrs | – | ~₹25–40 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495310117) |
-| GIVA | Analytics Manager | Bengaluru | 4-7 yrs | – | ~₹18–30 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495807043) |
-| GIVA | Technical Program Manager | Bengaluru | 3-6 yrs | – | ~₹18–30 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495599287) |
-| Sunstone | Growth Marketing Manager | Gurugram | 4-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/sunstone-growth-marketing-manager-1748600) |
-| Material Depot | Program Manager | Bengaluru | 2-4 yrs | – | ₹20–25 LPA | [open](https://materialdepot.keka.com/careers/jobdetails/96075) |
-| Walmart | STAFF, TECHNICAL PROGRAM MANAGER | In Ka Bangalore Home Office Building 10 | not stated | – | ~₹30–50 LPA (est.) | [open](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/IN-KA-BANGALORE-Home-Office-Building-10/STAFF--TECHNICAL-PROGRAM-MANAGER_R-2625851) |
+| YASH Technologies | Manager - Strategic Account Management | India | 2-5 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://careers.yash.com/job/Bangalore-Manager-Strategic-Account-Management-Job-KA/1371011766/) |
+| PepsiCo | Associate Manager - GSS | Hyderabad | not stated | Yes | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4485826355) |
 
-## Tier C (3)
+## Tier B (4)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Rocket Learning | Senior Program Manager - Odisha | India | 5-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495587461) |
-| PwC India | Azure Databricks Manager | Kolkata | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495083614) |
-| GIVA | Customer Support Team Lead | Jaipur | 3-5 yrs | – | ~₹28–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495594899) |
+| Scimplify | Program Manager – Strategy | India | 3-5 yrs | – | ~₹18–32 LPA (est.) | [open](https://scimplify.keka.com/careers/jobdetails/98213) |
+| Masai | Founder's Office - Sales & Marketing | Bengaluru | 3-5 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495083309) |
+| mCaffeine | Product Manager | Mumbai Metropolitan | 2+ yrs | – | ~₹18–30 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493897761) |
+| The/Nudge | Senior Manager, New Business and Partnerships, Fundraising | Bengaluru | not stated | – | ~₹28–45 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4394387351) |
+
+## Tier C (4)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Golden Opportunities | Events & Partnerships Manager - Noida - GO/JC/5115/2026 | Noida | 5-8 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495084748) |
+| Microsoft | Commercial Sales | Bengaluru | 5+ yrs | Yes | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495827376) |
+| Diageo India | Senior Analyst - Process Modelling | Bengaluru | not stated | – | ~₹20–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495806498) |
+| Nykaa | Assistant It Manager | Gurugram | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495082742) |

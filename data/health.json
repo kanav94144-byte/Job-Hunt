@@ -13,7 +13,7 @@
   "portal:oracle_hcm:American Express": {
    "ok": 1,
    "failed": 0,
-   "jobs": 94,
+   "jobs": 96,
    "errors": []
   },
   "portal:avature:Deloitte USI": {
@@ -57,13 +57,13 @@
   "portal:google:Google": {
    "ok": 1,
    "failed": 0,
-   "jobs": 159,
+   "jobs": 160,
    "errors": []
   },
   "portal:workday:Walmart": {
    "ok": 1,
    "failed": 0,
-   "jobs": 176,
+   "jobs": 175,
    "errors": []
   },
   "portal:workday:Visa": {
@@ -181,10 +181,12 @@
    "errors": []
   },
   "portal:workday:PayPal": {
-   "ok": 1,
-   "failed": 0,
-   "jobs": 33,
-   "errors": []
+   "ok": 0,
+   "failed": 1,
+   "jobs": 0,
+   "errors": [
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs"
+   ]
   },
   "portal:workday:PwC India": {
    "ok": 0,
@@ -259,7 +261,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/jobs"
    ]
   },
   "portal:darwinbox:Cars24": {
@@ -413,7 +415,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://browserstack.wd3.myworkdayjobs.com/wday/cxs/browserstack/External/jobs"
    ]
   },
   "portal:smartrecruiters:Whatfix": {
@@ -465,7 +467,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://sprinklr.wd1.myworkdayjobs.com/wday/cxs/sprinklr/careers/jobs"
    ]
   },
   "portal:darwinbox:MoEngage": {
@@ -525,7 +527,7 @@
   "portal:ashby:Sarvam AI": {
    "ok": 1,
    "failed": 0,
-   "jobs": 36,
+   "jobs": 35,
    "errors": []
   },
   "portal:greenhouse:Observe.AI": {
@@ -837,13 +839,13 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "AccessBlocked: Cloudflare refused the request (403) for https://angelone.darwinbox.in"
+    "skipped: careers site refused automated requests on 2026-11-27"
    ]
   },
   "portal:smartrecruiters:Bosch": {
    "ok": 1,
    "failed": 0,
-   "jobs": 704,
+   "jobs": 701,
    "errors": []
   },
   "portal:keka:CloudThat": {
@@ -863,7 +865,7 @@
    "failed": 1,
    "jobs": 0,
    "errors": [
-    "RuntimeError: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
+    "HTTPError: 429 Client Error: Too Many Requests for url: https://dbs.wd3.myworkdayjobs.com/wday/cxs/dbs/DBS_Careers/jobs"
    ]
   },
   "portal:darwinbox:Doceree": {
@@ -1004,10 +1006,16 @@
    "jobs": 31,
    "errors": []
   },
+  "portal:keka:Scimplify": {
+   "ok": 1,
+   "failed": 0,
+   "jobs": 105,
+   "errors": []
+  },
   "portal:keka:TechDome": {
    "ok": 1,
    "failed": 0,
-   "jobs": 23,
+   "jobs": 24,
    "errors": []
   },
   "portal:keka:The/Nudge": {
@@ -1057,25 +1065,25 @@
   "portal:keka:eloelo": {
    "ok": 1,
    "failed": 0,
-   "jobs": 37,
+   "jobs": 39,
    "errors": []
   },
   "linkedin": {
-   "ok": 122,
+   "ok": 123,
    "failed": 0,
-   "jobs": 174,
+   "jobs": 235,
    "errors": []
   },
   "discovery:linkedin": {
    "ok": 30,
    "failed": 0,
-   "jobs": 788,
+   "jobs": 809,
    "errors": []
   },
   "discovery:indeed": {
    "ok": 30,
    "failed": 0,
-   "jobs": 1092,
+   "jobs": 1089,
    "errors": []
   },
   "discovery:google": {
@@ -1087,13 +1095,13 @@
   "iimjobs": {
    "ok": 26,
    "failed": 0,
-   "jobs": 1304,
+   "jobs": 841,
    "errors": []
   },
   "hirist": {
    "ok": 7,
    "failed": 0,
-   "jobs": 70,
+   "jobs": 44,
    "errors": []
   },
   "instahyre": {
@@ -1107,77 +1115,65 @@
    "failed": 0,
    "jobs": 0,
    "errors": []
-  },
-  "descriptions": {
-   "ok": 0,
-   "failed": 2,
-   "jobs": 0,
-   "errors": [
-    "Walmart STAFF, TECHNICAL PROGRAM MANAGER: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run",
-    "PayPal Regulatory Reporting Senior Manager: skipped: Workday kept answering 429 (Too Many Requests) earlier in this run"
-   ]
   }
  },
  "descriptions": {
-  "careers portal": 10,
-  "linkedin": 40,
-  "iimjobs": 4
+  "careers portal": 7,
+  "linkedin": 57,
+  "iimjobs": 3
  },
  "linkedin_detail_blocked": false,
  "workday": {
-  "got_429": 21,
+  "got_429": 41,
   "stopped_early": true
  },
  "portals_learned_from_links": 0,
  "funnel": {
   "careers portal": {
-   "raw": 3660,
-   "after_filters": 524,
-   "kept_new": 27
+   "raw": 3733,
+   "after_filters": 532,
+   "kept_new": 25
   },
   "linkedin": {
-   "raw": 962,
-   "after_filters": 444,
-   "kept_new": 17
+   "raw": 1044,
+   "after_filters": 481,
+   "kept_new": 22
   },
   "indeed": {
-   "raw": 1092,
-   "after_filters": 459,
+   "raw": 1089,
+   "after_filters": 442,
    "kept_new": 2
   },
   "iimjobs": {
-   "raw": 1304,
-   "after_filters": 115,
-   "kept_new": 3
+   "raw": 841,
+   "after_filters": 120,
+   "kept_new": 2
   },
   "hirist": {
-   "raw": 70,
+   "raw": 44,
    "after_filters": 14
   },
   "instahyre": {
    "raw": 1443,
-   "after_filters": 483,
+   "after_filters": 485,
    "kept_new": 7
   }
  },
  "watchlist": {
   "size": 400,
   "added_this_run": [
-   "Morphogenesis",
-   "Scimplify",
-   "Ridhira Group - Building World's largest Wellness Communities",
-   "Forasoftware Group",
-   "Sunstone"
+   "FTI Consulting",
+   "YASH Technologies"
   ],
-  "with_portal": 36
+  "with_portal": 37
  },
  "counts": {
-  "raw": 8531,
-  "after_filters": 2039,
-  "judged": 190,
-  "kept": 56,
-  "duplicates_folded": 31,
-  "on_dashboard": 1274,
+  "raw": 8194,
+  "after_filters": 2074,
+  "judged": 191,
+  "kept": 58,
+  "duplicates_folded": 34,
+  "on_dashboard": 1291,
   "companies_scanned": {
    "curated": 145,
    "seed": 122,
