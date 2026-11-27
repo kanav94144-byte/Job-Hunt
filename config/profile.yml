@@ -28,8 +28,78 @@ salary_floor:                      # annual, stated OR estimated
   USD: 55000
   EUR: 40000
 
+# Dropped at source (scraper/core.py). A listing with several cities is kept, with these cities removed;
+# it is dropped only when no other city is left.
+exclude_cities: [chennai, madras, ambattur, sholinganallur, guindy, perungudi, taramani, adambakkam]
+
+# Banks, NBFCs and insurers only. Fintech, payments, broking, wealth and finance consulting stay in.
+exclude_industry:
+  linkedin_industries: [banking, insurance]       # exact values from LinkedIn's "Industries" field
+  company_patterns:                               # matched against the company name
+    - "\\bbank\\b"
+    - "\\binsurance\\b"
+    - "\\bassurance (co|company|ltd|limited)\\b"
+    - "\\bfincorp\\b"
+    - "\\b(small|housing) finance\\b"
+    # banks
+    - "\\bhdfc(?! securities)"
+    - "\\bicici(?! (securities|direct))"
+    - "\\baxis (bank|max life|finance)\\b"
+    - "\\bsbi\\b(?! securities)"
+    - "\\bkotak (mahindra (bank|life|general|prime)|bank|life|general)\\b"
+    - "\\bindusind\\b"
+    - "\\bidfc\\b"
+    - "\\bj\\.?p\\.? ?morgan"
+    - "\\bwells fargo\\b"
+    - "\\bciti(bank|group|corp)?\\b"
+    - "\\bhsbc\\b"
+    - "\\bstandard chartered\\b"
+    - "\\bbarclays\\b"
+    - "\\bdbs\\b"
+    - "\\bbnp paribas\\b"
+    - "\\bgoldman sachs\\b"
+    - "\\bmorgan stanley\\b"
+    - "\\bubs\\b"
+    - "\\bbank of\\b"
+    - "\\bnatwest\\b"
+    - "\\bemirates nbd\\b"
+    - "\\bmashreq\\b"
+    - "\\bsoci[eé]t[eé] g[eé]n[eé]rale\\b"
+    - "\\bbny\\b"
+    # insurers
+    - "\\bbajaj (allianz|general|life)\\b"
+    - "\\btata aia\\b"
+    - "\\bmax life\\b"
+    - "\\bbharti axa\\b"
+    - "\\bstar health\\b"
+    - "\\bniva bupa\\b"
+    - "\\bcare health insurance\\b"
+    - "\\blic\\b"
+    - "\\bgo digit\\b"
+    - "\\backo\\b"
+    - "\\baditya birla (sun life|capital|finance)\\b"
+    - "\\bpnb metlife\\b"
+    # NBFCs
+    - "\\bbajaj (finance|finserv)\\b(?! (markets|health))"
+    - "\\btata capital\\b"
+    - "\\bmuthoot\\b"
+    - "\\bmanappuram\\b"
+    - "\\bshriram (finance|life|general)\\b"
+    - "\\bcholamandalam\\b"
+    - "\\bmahindra (&|and)? ?mahindra financial\\b|\\bmahindra finance\\b"
+    - "\\bl ?& ?t finance\\b"
+    - "\\btvs credit\\b"
+    - "\\bhdb financial\\b"
+    - "\\bpiramal (finance|capital)\\b"
+    - "\\biifl finance\\b"
+    - "\\bsmfg\\b"
+    - "\\bcapri global\\b"
+    - "\\bgodrej capital\\b"
+    - "\\baavas\\b"
+    - "\\bdmi finance\\b"
+
 locations:
-  india: [india, bengaluru, bangalore, gurugram, gurgaon, mumbai, delhi, new delhi, noida, pune, hyderabad, chennai, kolkata, ahmedabad, jaipur, chandigarh, remote]
+  india: [india, bengaluru, bangalore, gurugram, gurgaon, mumbai, delhi, new delhi, noida, pune, hyderabad, kolkata, ahmedabad, jaipur, chandigarh, remote]
   international: [dubai, abu dhabi, united arab emirates, uae, singapore, london, united kingdom]
 
 # Title must match at least one of these (case-insensitive regex fragments)
@@ -46,6 +116,8 @@ title_keywords:
   - "\\bai\\b"
   - genai
   - founder
+  - "entrepreneur[- ]in[- ]residence"
+  - "\\beir\\b"
   - generalist
   - chief of staff
   - business operations
@@ -107,6 +179,10 @@ title_exclude:
   - accounts payable
   - accounts receivable
   - audit
+  - bancassurance
+  - "\\bnbfc\\b"
+  - "\\bcasa\\b"
+  - "\\b(retail|branch|corporate|consumer|wholesale|transaction) banking\\b"
   - credit (risk|analyst|underwriting)
   - "\\btax\\b"
   - treasury

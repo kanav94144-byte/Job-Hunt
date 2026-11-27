@@ -277,6 +277,24 @@ def main():
             except Exception as e:
                 record("iimjobs", err=f"{term}: {type(e).__name__}: {e}")
             src.nap(1, 3)
+        for term in cfg.get("hirist_searches", []):
+            try:
+                js = [assign(j) for j in src.hirist(term, days)]
+                raw += js
+                record("hirist", len(js))
+            except Exception as e:
+                record("hirist", err=f"{term}: {type(e).__name__}: {e}")
+            src.nap(1, 3)
+        ih = cfg.get("instahyre") or {}
+        for skill in ih.get("skills", []):
+            for city in ih.get("cities", []):
+                try:
+                    js = [assign(j) for j in src.instahyre(skill, city, ih.get("years", 2)) if j.company]
+                    raw += js
+                    record("instahyre", len(js))
+                except Exception as e:
+                    record("instahyre", err=f"{skill} {city}: {type(e).__name__}: {e}")
+                src.nap(1, 3)
         try:
             js = [assign(j) for j in src.naukri_inbox(DATA / "naukri_inbox.json", max_age_days=3)]
             raw += js
@@ -301,11 +319,17 @@ def main():
                 return bool(rule.search(title or ""))
         return True
 
+    undated_from = src.days_ago(profile.get("max_age_days_on_dashboard", 7))
     stage = []
     for j in raw:
         if not ev.title_ok(j.title) or not company_rule_ok(j.company, j.title):
             continue
+        if ev.company_excluded(j.company) or ev.allowed_location(j.location) is None:
+            continue
         if j.posted and j.posted < (portal_cutoff if j.source == "careers portal" else cutoff):
+            continue
+        # Instahyre gives no posting date: drop a role once we've been seeing it for longer than the dashboard window
+        if j.source == "instahyre" and not j.posted and seen.get(dedupe_key(j), t) < undated_from:
             continue
         stage.append(j)
 
@@ -481,6 +505,13 @@ def main():
     # final cross-check for repeats: same opening on several websites / cities / slightly different titles
     before = len(out)
     rows = collapse(list(out.values()))
+    # exclusions apply to rows kept from earlier scans too, and to cities merged in from other listings
+    allowed = []
+    for d in rows:
+        loc = ev.allowed_location(d.get("location", ""))
+        if loc is not None and not ev.company_excluded(d.get("company", "")):
+            allowed.append(dict(d, location=loc))
+    rows = allowed
     for d in rows:
         seen[d["key"]] = d.get("first_seen") or t
     print(f"cross-source duplicates folded: {before - len(rows)}", flush=True)

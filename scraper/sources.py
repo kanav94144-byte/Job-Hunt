@@ -124,12 +124,21 @@ def linkedin_detail(job: Job) -> None:
     r.raise_for_status()
     LINKEDIN["consecutive_429"] = 0
     LINKEDIN["fetched"] += 1
+    job._industries = linkedin_industries(r.text)
     mm = re.search(r'show-more-less-html__markup[^>]*>(.*?)</div>', r.text, re.S)
     job.description = html_to_text(mm.group(1)) if mm else ""
     am = re.search(r'id="applyUrl"[^>]*>\s*<!--\s*"?([^"<]+)', r.text)
     if am:
         q = parse_qs(urlparse(am.group(1)).query).get("url")
         job._apply_url = unquote(q[0]) if q else am.group(1)
+
+
+def linkedin_industries(page: str) -> list[str]:
+    """['Banking'] or ['Software Development', 'Financial Services'] from the 'Industries' job criterion."""
+    m = re.search(r"Industries\s*</h3>\s*<span[^>]*>(.*?)</span>", page, re.S)
+    if not m:
+        return []
+    return [x.strip() for x in re.split(r",\s*(?:and\s+)?|\s+and\s+(?=[A-Z])", html_unescape(m.group(1)).strip()) if x.strip()]
 
 
 def linkedin_description(job_url: str) -> str:      # kept for backwards compatibility
@@ -674,19 +683,29 @@ def ashby(cfg: dict) -> list[Job]:
 
 # ------------------------------------------------------------ iimjobs (public search)
 def iimjobs(term: str, days: int) -> list[Job]:
+    return _gladiator("iimjobs.com", "iimjobs", term, days)
+
+
+# ------------------------------------------------------------ Hirist (sister site of iimjobs, same search API, tech-side roles)
+def hirist(term: str, days: int) -> list[Job]:
+    # Search results only: Hirist job pages don't give a usable description, so none is fetched.
+    return _gladiator("hirist.tech", "hirist", term, days)
+
+
+def _gladiator(domain: str, source: str, term: str, days: int) -> list[Job]:
     posting = 1 if days <= 1 else (3 if days <= 3 else 7)
     out = []
     for page in range(0, 5):
-        d = get("https://gladiator.iimjobs.com/job/search",
+        d = get(f"https://gladiator.{domain}/job/search",
                 params={"query": term, "page": page, "posting": posting, "industry": ""},
-                headers={"Origin": "https://www.iimjobs.com", "Referer": "https://www.iimjobs.com/"}).json()
+                headers={"Origin": f"https://www.{domain}", "Referer": f"https://www.{domain}/"}).json()
         for p in d.get("data") or []:
             co = ((p.get("companyData") or {}).get("companyName") or "").strip()
             title = (p.get("jobdesignation") or p.get("title") or "").strip()
             locs = [l.get("name", "") for l in p.get("locations") or [] if l.get("name") not in ("Others", "Anywhere in India")]
             ts = p.get("createdTime") or p.get("createdTimeMs")
             j = Job(company=co or (p.get("title", "").split(" - ")[0]), title=title,
-                    location=", ".join(locs[:1]) if locs else "India", url=p.get("jobDetailUrl", ""), source="iimjobs",
+                    location=", ".join(locs) if locs else "India", url=p.get("jobDetailUrl", ""), source=source,
                     posted=datetime.fromtimestamp(ts / 1000, timezone.utc).date().isoformat() if ts else None,
                     description=(p.get("title", "") + ". " + ", ".join(t.get("name", "") for t in p.get("tags") or [])),
                     exp_text=f"{p.get('min')}-{p.get('max')} years experience" if p.get("max") else "")
@@ -695,6 +714,27 @@ def iimjobs(term: str, days: int) -> list[Job]:
             j._all_locations = locs
             out.append(j)
         if not d.get("hasMore"):
+            break
+        nap(1, 2)
+    return out
+
+
+# ------------------------------------------------------------ Instahyre (public search; no posting date or description)
+def instahyre(skill: str, city: str, years: int) -> list[Job]:
+    """Only the search endpoint is used. Instahyre's job pages refuse automated requests, so they are not fetched."""
+    out, offset = [], 0
+    while offset < 105:
+        d = get("https://www.instahyre.com/api/v1/job_search",
+                params={"company_size": 0, "isLandingPage": "true", "job_type": 0, "skills": skill,
+                        "jobLocations": city, "years": years, "limit": 35, "offset": offset}).json()
+        rows = d.get("objects") or []
+        for p in rows:
+            out.append(Job(company=((p.get("employer") or {}).get("company_name") or "").strip(),
+                           title=(p.get("title") or "").strip(), location=p.get("locations") or city,
+                           url=p.get("public_url") or "", source="instahyre",
+                           description=", ".join(p.get("keywords") or [])))
+        offset += len(rows)
+        if not rows or not (d.get("meta") or {}).get("next"):
             break
         nap(1, 2)
     return out

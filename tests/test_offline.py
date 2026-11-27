@@ -15,7 +15,7 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
 from scraper import run, sources as src          # noqa: E402
-from scraper.core import Job, in_scope_location   # noqa: E402
+from scraper.core import Evaluator, Job, in_scope_location   # noqa: E402
 
 PROFILE = yaml.safe_load((REPO / "config/profile.yml").read_text())
 TODAY = src.days_ago(0)
@@ -72,6 +72,32 @@ def test_jsonld():
     finally:
         src.get = old_get
     assert "MBA preferred" in j.description and "postgraduate" in j.description and j.exp_text.startswith("3+"), j
+
+
+def test_exclusions():
+    ev = Evaluator(PROFILE)
+    for name in ["HDFC Bank", "ICICI Prudential", "Hdfc Life Ltd", "Tata Capital Ltd", "Bajaj Finserv", "IDFC FIRST Bank",
+                 "Airtel Payments Bank", "JPMorganChase", "DMI Finance Private Limited", "Acko"]:
+        assert ev.company_excluded(name), name
+    for name in ["Groww", "BharatPe", "Juspay", "Mastercard", "Accordion India", "Scapia", "PhonePe", "Bajaj Broking",
+                 "HDFC Securities", "BankBazaar", "CarDekho", "InsuranceDekho", "Bajaj Consumer Care"]:
+        assert not ev.company_excluded(name), name
+    assert ev.company_excluded("Some Lender", ["Banking"])
+    assert not ev.company_excluded("Some Fintech", ["Financial Services"])
+    page = '<h3 class="x">\n Industries\n </h3>\n <span class="y">\n Banking and Financial Services\n </span>'
+    assert src.linkedin_industries(page) == ["Banking", "Financial Services"]
+    for loc, want in [("Chennai", None), ("Chennai, Tamil Nadu, India", None), ("Bengaluru · Chennai", "Bengaluru"),
+                      ("India", "India")]:
+        assert ev.allowed_location(loc) == want, (loc, ev.allowed_location(loc))
+
+
+def test_ceo_office_titles():
+    ev = Evaluator(PROFILE)
+    for title in ["CEO’s Office – Strategy", "CEO Office", "CXO Office", "Chief of Staff, Office of CEO",
+                  "Entrepreneur in Residence (EIR)"]:
+        assert ev.title_ok(title), title
+    for title in ["CEO", "Deputy CEO", "Chief Marketing Officer", "Founder's Office Trainee"]:
+        assert not ev.title_ok(title), title
 
 
 def test_tenant_similarity():
@@ -156,7 +182,7 @@ def fake_sources():
 
     patches = {"jobspy_search": jobspy_search, "linkedin_detail": linkedin_detail, "iimjobs": iimjobs, "get": get,
                "probe_portals": probe, "nap": lambda *a, **k: None,
-               "naukri_inbox": lambda *a, **k: []}
+               "naukri_inbox": lambda *a, **k: [], "hirist": lambda *a, **k: [], "instahyre": lambda *a, **k: []}
     ats = {k: (quiet, None) for k in src.ATS}
     ats["greenhouse"] = (greenhouse, None)
     ats["lever"] = (lever, None)

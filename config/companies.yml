@@ -33,8 +33,6 @@ companies:
   - {name: SuperYou, aliases: ["SuperYou", "Super You"], group: target, band: d2c}
   - name: Swiggy
     aliases: ["Swiggy", "Instamart", "Bundl Technologies"]
-    # only Program Manager / Senior Manager roles for Swiggy, Zepto, Zomato
-    title_only: "\\bprogram(me)?\\s+manager\\b|\\bsenior\\s+manager\\b|\\bsr\\.?\\s+manager\\b"
     group: target
     band: listed_tech
     ats: {type: mynexthire, tenant: swiggy, careers_url: "https://careers.swiggy.com/#/careers"}
@@ -56,7 +54,7 @@ companies:
     aliases: ["Walmart", "Walmart Global Tech India", "Walmart Global Tech"]
     group: target
     band: mnc_top
-    ats: {type: workday, tenant: walmart, site: WalmartExternal, wd: wd504, search: ["strategy Bangalore", "program manager Bangalore", "manager Bangalore", "analyst Bangalore", "business Bangalore", "manager Chennai", "manager Gurgaon", "sourcing India"]}
+    ats: {type: workday, tenant: walmart, site: WalmartExternal, wd: wd504, search: ["strategy Bangalore", "program manager Bangalore", "manager Bangalore", "analyst Bangalore", "business Bangalore", "manager Gurgaon", "sourcing India"]}
   - name: Visa
     aliases: ["Visa", "Visa Inc."]
     group: target
@@ -115,7 +113,7 @@ companies:
   - {name: PayU, aliases: ["PayU", "PayU India"], group: similar, band: unicorn}
   - {name: Groww, aliases: ["Groww"], group: similar, band: unicorn}
   - {name: PayPal, aliases: ["PayPal"], group: similar, band: mnc_top,
-     ats: {type: workday, tenant: paypal, site: jobs, wd: wd1, search: ["India", "Bengaluru", "Chennai", "Hyderabad"]}}  # unverified
+     ats: {type: workday, tenant: paypal, site: jobs, wd: wd1, search: ["India", "Bengaluru", "Hyderabad"]}}  # unverified
   # consulting (Deloitte USI)
   - {name: EY GDS, aliases: ["EY", "EY GDS", "Ernst & Young", "EY Global Delivery Services"], group: similar, band: big4}
   - {name: PwC India, aliases: ["PwC", "PwC India", "PwC Acceleration Centers in India"], group: similar, band: big4}
@@ -138,8 +136,8 @@ companies:
      ats: {type: workday, tenant: adobe, site: external_experienced, wd: wd5, search: ["India", "Noida", "Bengaluru", "Mumbai"]}}  # unverified
   - {name: Atlassian, aliases: ["Atlassian"], group: similar, band: mnc_top}
   # quick commerce / food delivery / cloud kitchens (Swiggy, Rebel Foods)
-  - {name: Zepto, aliases: ["Zepto", "Kiranakart Technologies"], group: similar, band: unicorn, title_only: "\\bprogram(me)?\\s+manager\\b|\\bsenior\\s+manager\\b|\\bsr\\.?\\s+manager\\b"}
-  - {name: Blinkit / Zomato (Eternal), aliases: ["Blinkit", "Zomato", "Eternal", "District by Zomato"], linkedin_query: "Zomato", group: similar, band: listed_tech, title_only: "\\bprogram(me)?\\s+manager\\b|\\bsenior\\s+manager\\b|\\bsr\\.?\\s+manager\\b"}
+  - {name: Zepto, aliases: ["Zepto", "Kiranakart Technologies"], group: similar, band: unicorn}
+  - {name: Blinkit / Zomato (Eternal), aliases: ["Blinkit", "Zomato", "Eternal", "District by Zomato"], linkedin_query: "Zomato", group: similar, band: listed_tech}
   - {name: BigBasket, aliases: ["bigbasket", "BigBasket", "bigbasket.com"], group: similar, band: unicorn}
   - {name: Curefoods, aliases: ["Curefoods"], group: similar, band: funded_startup}
   - {name: EatClub, aliases: ["EatClub", "EatClub Brands"], group: similar, band: funded_startup}
@@ -235,6 +233,15 @@ companies:
   - {name: InMobi / Glance, aliases: ["InMobi", "Glance"], linkedin_query: "InMobi", group: startup, band: unicorn}
   - {name: Rippling India, aliases: ["Rippling"], group: startup, band: mnc_top}
 
+  # ======================= ADDED FROM APPLICATION HISTORY (applied 3+ times) =======================
+  - {name: Wishlink, aliases: ["Wishlink"], group: startup, band: funded_startup}
+  - {name: Lodha, aliases: ["Lodha", "Lodha Group", "Macrotech Developers"], linkedin_query: "Lodha Group", group: similar, band: large_indian}
+  - {name: noon, aliases: ["noon"], linkedin_query: "noon e-commerce", group: similar, band: unicorn}
+  - {name: Havells, aliases: ["Havells", "Havells India", "Havells India Ltd"], group: similar, band: large_indian}
+  - {name: GobbleCube, aliases: ["GobbleCube"], group: startup, band: funded_startup}
+  - {name: Faym, aliases: ["Faym"], group: startup, band: funded_startup}
+  - {name: Meolaa, aliases: ["Meolaa"], group: startup, band: funded_startup}
+
 # Open searches (not tied to a company) to discover other companies. Kept only if they mention MBA/tier-1 OR state pay >= floor.
 # Each search runs on every site below; the number is how many results to read per search on that site.
 # (LinkedIn used to read only 25 per search, so busy searches like "category manager" showed the same top 25 every run.)
@@ -267,6 +274,9 @@ discovery_searches:
     - "growth product manager"
     - "strategy associate startup"
     - "chief of staff CEO office"
+    - "CEO office strategy"
+    - "entrepreneur in residence"
+    - "retention marketing manager"
     # consumer / D2C / e-commerce (same sectors as your list)
     - "brand manager D2C"
     - "category lead e-commerce"
@@ -275,6 +285,22 @@ discovery_searches:
     - {term: "strategy manager MBA", location: "Dubai, United Arab Emirates"}
     - {term: "strategy manager MBA", location: "Singapore"}
     - {term: "chief of staff", location: "Singapore"}
+
+# Hirist (same company as iimjobs, tech-side listings) and Instahyre. Neither gives a job description here, so roles at
+# companies you don't already track are kept only if the search result itself states pay or an MBA.
+hirist_searches:
+  - program manager
+  - product manager
+  - growth
+  - strategy
+  - chief of staff
+  - founder's office
+  - business operations
+
+instahyre:
+  years: 2
+  skills: ["Chief of Staff", "Growth Strategy", "Business Strategy", "Program Management", "Growth Marketing", "Category Management"]
+  cities: ["Bangalore", "Gurgaon", "Delhi", "Noida", "Mumbai"]
 
 # Searched on iimjobs every day (roles from any company; your list/competitors are recognised automatically)
 board_searches:

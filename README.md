@@ -19,6 +19,11 @@ Every morning at 9am IST, GitHub scans careers portals, LinkedIn and Naukri for 
 2. **LinkedIn** by company name, for companies on your list without a readable careers site.
 3. **Open searches** on LinkedIn, Indeed and Google Jobs (`discovery_searches` / `discovery_sites`).
 4. **iimjobs** (full job description read for each role) and **Naukri** (collected in the browser).
+5. **Hirist** and **Instahyre** public search results (`hirist_searches` / `instahyre`). No job description is available from
+   either here, so roles at companies you don't already track are kept only if the result states pay or an MBA.
+
+**Always dropped:** banks, NBFCs and insurers (`exclude_industry`; fintech, payments and broking stay in) and
+Chennai-only roles (`exclude_cities`; a multi-city role stays, with Chennai removed). Both are in `config/profile.yml`.
 
 ## What to edit
 - `config/companies.yml` – your list (gets its own LinkedIn search), open searches, iimjobs searches
