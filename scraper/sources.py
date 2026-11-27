@@ -41,6 +41,14 @@ def nap(a=2.0, b=5.0):
     time.sleep(random.uniform(a, b))
 
 
+class AccessBlocked(RuntimeError):
+    """The site refuses automated requests. We don't work around it; the runner asks again only after a while."""
+
+
+def cloudflare_block(r) -> bool:
+    return r.status_code == 403 and "cloudflare" in r.headers.get("server", "").lower()
+
+
 def get(url, **kw):
     for attempt in range(3):
         r = S.get(url, timeout=30, **kw)
@@ -243,15 +251,49 @@ def smartrecruiters_detail(job: Job) -> None:
 
 
 # ------------------------------------------------------------ Workday (Walmart)
+# Every tenant is a different host name, but 429s hit them all together, so the pace is shared: one Workday request
+# at a time with a gap in between. If it keeps answering 429, stop asking for the rest of the run.
+WORKDAY_GAP = (1.5, 2.5)            # seconds between two Workday requests
+WORKDAY_RETRY_WAITS = (20, 45)      # used when the 429 has no Retry-After header
+WORKDAY_MAX_RETRY_AFTER = 90        # asked to wait longer than this: give up on that request
+WORKDAY_GIVE_UP_AFTER = 3           # requests in a row that were still 429 after retrying
+WORKDAY = {"gave_up_in_a_row": 0, "stopped": False, "next_at": 0.0, "got_429": 0}
+_WORKDAY_LOCK = threading.Lock()
+
+
+def _workday_request(method: str, url: str, **kw):
+    with _WORKDAY_LOCK:
+        if WORKDAY["stopped"]:
+            raise RuntimeError("skipped: Workday kept answering 429 (Too Many Requests) earlier in this run")
+        for wait in (*WORKDAY_RETRY_WAITS, None):
+            time.sleep(max(0.0, WORKDAY["next_at"] - time.monotonic()))
+            r = getattr(S, method)(url, timeout=30, **kw)
+            WORKDAY["next_at"] = time.monotonic() + random.uniform(*WORKDAY_GAP)
+            if r.status_code != 429:
+                WORKDAY["gave_up_in_a_row"] = 0
+                r.raise_for_status()
+                return r
+            WORKDAY["got_429"] += 1
+            asked = (r.headers.get("Retry-After") or "").strip()
+            if asked.isdigit() and wait is not None:
+                wait = int(asked)
+            if wait is None or wait > WORKDAY_MAX_RETRY_AFTER:
+                break
+            time.sleep(wait)
+        WORKDAY["gave_up_in_a_row"] += 1
+        WORKDAY["stopped"] = WORKDAY["gave_up_in_a_row"] >= WORKDAY_GIVE_UP_AFTER
+        r.raise_for_status()
+
+
 def workday(cfg: dict) -> list[Job]:
     t, site, wd = cfg["tenant"], cfg["site"], cfg.get("wd", "wd5")
     base = f"https://{t}.{wd}.myworkdayjobs.com/wday/cxs/{t}/{site}"
     seen, out = set(), []
     for term in cfg.get("search", [""]):
         for offset in range(0, 100, 20):
-            r = S.post(f"{base}/jobs", json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": term},
-                       headers={"Content-Type": "application/json", "Accept": "application/json"}, timeout=30)
-            r.raise_for_status()
+            r = _workday_request("post", f"{base}/jobs",
+                                 json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": term},
+                                 headers={"Content-Type": "application/json", "Accept": "application/json"})
             posts = r.json().get("jobPostings", [])
             for p in posts:
                 path = p.get("externalPath")
@@ -284,7 +326,7 @@ def _workday_posted(s: str):
 
 
 def workday_detail(job: Job) -> None:
-    d = get(job._detail, headers={"Accept": "application/json"}).json()
+    d = _workday_request("get", job._detail, headers={"Accept": "application/json"}).json()
     info = d.get("jobPostingInfo", {})
     job.description = html_to_text(info.get("jobDescription", ""))
     job.location = info.get("location") or job.location
@@ -372,6 +414,8 @@ def darwinbox(cfg: dict) -> list[Job]:
     for page in range(1, 11):
         r = S.post(f"{base}/ms/candidateapi/job/alljobs?companyId=main", json={"page": page, "limit": 100},
                    headers={"Content-Type": "application/json", "Accept": "application/json"}, timeout=40)
+        if cloudflare_block(r):
+            raise AccessBlocked(f"Cloudflare refused the request (403) for {base}")
         r.raise_for_status()
         d = r.json()
         rows = d.get("data") or []
@@ -524,6 +568,11 @@ def google_detail(job: Job) -> None:
 GLOBAL_ATS = ("greenhouse", "lever", "ashby", "workable", "recruitee", "smartrecruiters")
 
 
+# once Darwinbox has refused this many discovery probes in a run, stop probing it for the rest of the run
+DARWINBOX_PROBE_LIMIT = 3
+DARWINBOX_PROBES = {"blocked": 0}
+
+
 def probe_portals(slugs: list[str], global_ats: bool = False) -> dict | None:
     """Try common ATS hosts for a company slug. Returns an ats cfg or None.
     Indian ATSs (Darwinbox, Keka) are always tried; global ones only when the company has explicit slugs,
@@ -544,8 +593,12 @@ def probe_portals(slugs: list[str], global_ats: bool = False) -> dict | None:
         for kind, call in tries:
             if kind in GLOBAL_ATS and not global_ats:
                 continue
+            if kind == "darwinbox" and DARWINBOX_PROBES["blocked"] >= DARWINBOX_PROBE_LIMIT:
+                continue
             try:
                 r = call()
+                if kind == "darwinbox" and cloudflare_block(r):
+                    DARWINBOX_PROBES["blocked"] += 1
                 if r.status_code != 200 or "json" not in r.headers.get("content-type", ""):
                     continue
                 d = r.json()
