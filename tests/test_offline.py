@@ -119,6 +119,128 @@ def test_company_matching():
     assert idx.find("Porterhouse") is None
 
 
+# ------------------------------------------------------------------ rate limits and refusals
+class Resp:
+    def __init__(self, status=200, headers=None, body=None):
+        self.status_code, self.headers, self.body = status, headers or {}, body or {}
+
+    def json(self):
+        return self.body
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise RuntimeError(f"HTTP {self.status_code}")
+
+
+def with_fake_http(responses, fn):
+    """Run fn with the HTTP session returning `responses` in order and sleeping disabled -> (sleeps, requests made)."""
+    sleeps, made, queue = [], [], list(responses)
+
+    def send(url, **kw):
+        made.append(url)
+        return queue.pop(0)
+
+    saved = src.S, src.time.sleep, dict(src.WORKDAY), dict(src.DARWINBOX_PROBES)
+    try:
+        src.S = type("S", (), {"get": staticmethod(send), "post": staticmethod(send)})()
+        src.time.sleep = sleeps.append
+        src.WORKDAY.update(gave_up_in_a_row=0, stopped=False, next_at=0.0, got_429=0)
+        src.DARWINBOX_PROBES["blocked"] = 0
+        fn()
+    finally:
+        src.S, src.time.sleep = saved[0], saved[1]
+        src.WORKDAY.update(saved[2])
+        src.DARWINBOX_PROBES.update(saved[3])
+    return sleeps, made
+
+
+def raises(fn, text):
+    try:
+        fn()
+    except Exception as e:
+        assert text in str(e), e
+        return e
+    raise AssertionError("expected an error")
+
+
+def test_workday_waits_then_succeeds():
+    def check():
+        assert src._workday_request("post", "u").status_code == 200
+    sleeps, made = with_fake_http([Resp(429, {"Retry-After": "7"}), Resp(429), Resp()], check)
+    assert len(made) == 3 and 7 in sleeps and src.WORKDAY_RETRY_WAITS[1] in sleeps, sleeps
+
+
+def test_workday_stops_after_repeated_429():
+    tries = len(src.WORKDAY_RETRY_WAITS) + 1
+
+    def check():
+        for _ in range(src.WORKDAY_GIVE_UP_AFTER):
+            raises(lambda: src._workday_request("post", "u"), "429")
+        raises(lambda: src._workday_request("post", "u"), "skipped")
+    _, made = with_fake_http([Resp(429)] * tries * src.WORKDAY_GIVE_UP_AFTER, check)
+    assert len(made) == tries * src.WORKDAY_GIVE_UP_AFTER, len(made)
+
+
+def test_workday_does_not_wait_out_a_long_retry_after():
+    sleeps, made = with_fake_http([Resp(429, {"Retry-After": "3600"})],
+                                  lambda: raises(lambda: src._workday_request("post", "u"), "429"))
+    assert len(made) == 1 and 3600 not in sleeps
+
+
+def test_darwinbox_block_is_reported():
+    def check():
+        e = raises(lambda: src.darwinbox({"tenant": "acme"}), "refused")
+        assert isinstance(e, src.AccessBlocked)
+    _, made = with_fake_http([Resp(403, {"server": "cloudflare"})], check)
+    assert len(made) == 1
+    # a 403 that isn't Cloudflare's block page stays an ordinary error and is retried next run
+    def other():
+        assert not isinstance(raises(lambda: src.darwinbox({"tenant": "acme"}), "403"), src.AccessBlocked)
+    with_fake_http([Resp(403)], other)
+
+
+def test_darwinbox_probes_stop_after_refusals():
+    slugs = [f"co{i}" for i in range(src.DARWINBOX_PROBE_LIMIT + 2)]
+    blocked = Resp(403, {"server": "cloudflare"})
+
+    def send_all():
+        assert src.probe_portals(slugs) is None
+    # every slug is still tried on Keka; Darwinbox only until the limit
+    n = src.DARWINBOX_PROBE_LIMIT
+    _, made = with_fake_http([blocked, Resp(404)] * n + [Resp(404)] * (len(slugs) - n), send_all)
+    assert sum("darwinbox" in u for u in made) == n and sum("keka" in u for u in made) == len(slugs), made
+
+
+def test_blocked_portal_is_left_alone_for_a_while():
+    calls = []
+
+    def refuses(cfg):
+        calls.append(cfg["tenant"])
+        raise src.AccessBlocked("Cloudflare refused the request (403)")
+
+    patches, ats, _ = fake_sources()
+    ats["darwinbox"] = (refuses, None)
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        for d in ("config", "data", "docs"):
+            shutil.copytree(REPO / d, root / d)
+        (root / "data/blocked_portals.json").unlink(missing_ok=True)
+        data = lambda f: json.loads((root / "data" / f).read_text())
+        run_scan(root, ats)
+        assert "porter" in calls and data("blocked_portals.json")["Porter"]["since"] == TODAY
+        calls.clear()
+        run_scan(root, ats)
+        assert calls == [], calls                  # not asked again straight away
+        h = data("health.json")["sources"]["portal:darwinbox:Porter"]
+        assert h["failed"] == 1 and "skipped" in h["errors"][0], h
+        # once the wait is over it is asked again, and a success clears the record
+        old = {k: dict(v, since=src.days_ago(30)) for k, v in data("blocked_portals.json").items()}
+        (root / "data/blocked_portals.json").write_text(json.dumps(old))
+        ats["darwinbox"] = (lambda cfg: calls.append(cfg["tenant"]) or [], None)
+        run_scan(root, ats)
+        assert "porter" in calls and "Porter" not in data("blocked_portals.json")
+
+
 # ------------------------------------------------------------------ end-to-end run with fake sources
 def fake_sources():
     calls = {"linkedin_detail": 0, "probe": [], "portal": []}
@@ -189,8 +311,9 @@ def fake_sources():
     return patches, ats, calls
 
 
-def run_scan(root: Path):
+def run_scan(root: Path, ats_override: dict | None = None):
     patches, ats, calls = fake_sources()
+    ats.update(ats_override or {})
     saved = {k: getattr(src, k) for k in patches}
     saved_ats = dict(src.ATS)
     saved_paths = (run.ROOT, run.DATA, run.DOCS, run.CONFIG)

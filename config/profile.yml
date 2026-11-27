@@ -4,7 +4,8 @@ recency_hours_daily: 48           # daily runs look back 48h (overlap so nothing
 max_age_days_on_dashboard: 7      # roles older than this drop off the "active" view
 portal_max_age_days: 30           # careers portals list only open roles: show ones posted up to 30 days ago
 portal_recheck_days: 14           # a company with no readable portal is re-checked after this many days
-portal_workers: 8                 # portals read in parallel (different websites, so no rate-limit issue)
+portal_workers: 8                 # portals read in parallel (Workday ones are read one at a time, see sources.py)
+blocked_recheck_days: 7           # a careers site that refused automated requests is asked again after this many days
 rejected_memory_days: 5           # a role judged "not relevant" is not fetched / judged again for this long
 
 # Auto-watchlist: a company found through open searches that posts a Tier A/B role is remembered in
