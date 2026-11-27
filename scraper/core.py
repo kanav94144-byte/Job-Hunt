@@ -164,6 +164,10 @@ def in_scope_location(loc: str, profile) -> bool:
     return any(k in l for k in profile["locations"]["international"])
 
 
+# "CEO's Office", "Office of the CEO", "CXO Office" are founder's-office roles, not C-level jobs.
+_CXO_OFFICE = re.compile(r"\b(?:c[eotfmx]o|founder)(?:['’]?s)?[\s-]*office\b|\boffice of (?:the )?(?:c[eotfmx]o|founder)\b", re.I)
+
+
 # ----------------------------------------------------------------- evaluation
 class Evaluator:
     def __init__(self, profile: dict):
@@ -171,6 +175,12 @@ class Evaluator:
         self.kw = re.compile("|".join(profile["title_keywords"]), re.I)
         self.ex = re.compile("|".join(profile["title_exclude"]), re.I)
         self.mba = re.compile("|".join(profile["mba_patterns"]), re.I)
+        ind = profile.get("exclude_industry") or {}
+        pats = ind.get("company_patterns") or []
+        self.bad_company = re.compile("|".join(f"(?:{x})" for x in pats), re.I) if pats else None
+        self.bad_industries = {x.lower() for x in ind.get("linkedin_industries") or []}
+        cities = profile.get("exclude_cities") or []
+        self.bad_city = re.compile(r"\b(?:" + "|".join(map(re.escape, cities)) + r")\b", re.I) if cities else None
         self.cv = {k.lower(): v for k, v in profile["cv_keywords"].items()}
         self.strong_title = re.compile(
             r"strateg|growth|founder|chief of staff|program|business operations|biz ?ops|partnership|alliances|"
@@ -178,7 +188,22 @@ class Evaluator:
             r"product owner|product manager|key account|b2b|generalist|transformation|category", re.I)
 
     def title_ok(self, title: str) -> bool:
-        return bool(self.kw.search(title or "")) and not self.ex.search(title or "")
+        t = _CXO_OFFICE.sub("founder office", title or "")
+        return bool(self.kw.search(t)) and not self.ex.search(t)
+
+    def company_excluded(self, company: str, industries=()) -> bool:
+        """Banks, NBFCs and insurers, by company name or the job board's industry label."""
+        if self.bad_company and self.bad_company.search(company or ""):
+            return True
+        return any((i or "").strip().lower() in self.bad_industries for i in industries or ())
+
+    def allowed_location(self, location: str) -> Optional[str]:
+        """The location with excluded cities removed, or None if no other city is left."""
+        if not self.bad_city or not self.bad_city.search(location or ""):
+            return location
+        cities = cities_of(location)
+        left = [c for c in cities if not self.bad_city.search(c)]
+        return " · ".join(left) if left else None
 
     @staticmethod
     def gate(job) -> str:
@@ -194,6 +219,12 @@ class Evaluator:
         p = self.p
         if not self.title_ok(job.title):
             return False
+        if self.company_excluded(job.company, getattr(job, "_industries", ())):
+            return False
+        loc = self.allowed_location(job.location)
+        if loc is None:
+            return False
+        job.location = loc
         job.region = classify_location(job.location, p) or ""
         if not job.region:
             return False
@@ -388,7 +419,7 @@ def merge_locations(a: str, b: str) -> str:
     return " · ".join(cities)
 
 
-SOURCE_RANK = {"careers portal": 0, "linkedin": 1, "iimjobs": 2, "naukri": 3, "indeed": 4, "google": 5}
+SOURCE_RANK = {"careers portal": 0, "linkedin": 1, "iimjobs": 2, "hirist": 3, "instahyre": 3, "naukri": 3, "indeed": 4, "google": 5}
 
 
 def _src_rank(d: dict) -> int:
