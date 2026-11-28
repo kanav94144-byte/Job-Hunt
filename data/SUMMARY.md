@@ -1,48 +1,45 @@
-# Job Hunt – 2026-11-27 23:14 UTC
+# Job Hunt – 2026-11-28 13:13 UTC
 
-**19 new roles today** · 1339 active on the dashboard
+**16 new roles today** · 1202 active on the dashboard
 
 | Source | Raw | After filters | New kept |
 |---|---|---|---|
-| careers portal | 3916 | 574 | 55 |
-| hirist | 44 | 14 | 0 |
-| iimjobs | 841 | 118 | 2 |
-| indeed | 1084 | 438 | 1 |
-| instahyre | 1443 | 485 | 7 |
-| linkedin | 843 | 404 | 20 |
+| careers portal | 3778 | 539 | 33 |
+| hirist | 48 | 6 | 0 |
+| iimjobs | 1014 | 62 | 6 |
+| indeed | 1034 | 387 | 4 |
+| instahyre | 1458 | 488 | 10 |
+| linkedin | 747 | 331 | 25 |
 
-Auto-watchlist: 400 companies (37 with a readable portal) · added: PATH IN AI, Dhurin, KITES INDIA
+Auto-watchlist: 400 companies (36 with a readable portal) · added: Cadila Pharmaceuticals Limited, YourHRfolks, E2M Solutions, Poonam IT Consulting Services, Verbaflo, TD SYNNEX, Ntech IT Solutions Private Limited
 
-## Tier A (3)
-
-| Company | Role | Location | Exp | MBA | Pay | Link |
-|---|---|---|---|---|---|---|
-| PATH IN AI | Business Development Manager | Noida | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495089100) |
-| KITES INDIA | CSR & Partnership Manager | Kochi | 0-1 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495835972) |
-| Dhurin | Manager – Client Engagement & Growth | Mumbai Metropolitan | 3-7 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495260751) |
-
-## Tier B (4)
+## Tier A (2)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Visa | Senior Manager - Data, AI and Analytics, VCA-X, Visa Consulting and Analytics | In Bengaluru | not stated | – | ~₹45–75 LPA (est.) | [open](https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Senior-Manager---Data--AI-and-Analytics--VCA-X--Visa-Consulting-and-Analytics_REF090509W) |
-| Salesforce | Manager, Technical Consulting - Revenue Cloud | India Bangalore | not stated | – | ~₹30–50 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Senior-Manager--Technical-Consulting_JR325976) |
-| Salesforce | Sr. Manager, AI Builder | India Bangalore | not stated | – | ~₹45–75 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Sr-Manager--AI-Builder_JR369425) |
-| Salesforce | Manager/Senior Manager, Technical Consulting  (Salesforce Exp mandatory) | India Hyderabad · India Bangalore | not stated | – | ~₹45–75 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Manager--Technical-Consulting--Salesforce-Lifesciences-exp-mandatory-_JR361157) |
+| Cadila Pharmaceuticals Limited | Product Manager | Ahmedabad | not stated | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4494245133) |
+| TD SYNNEX | Business Development Manager | Ch | 1-3 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://careers.tdsynnex.com/us/en/job/R58265) |
 
-## Tier C (12)
+## Tier B (6)
 
 | Company | Role | Location | Exp | MBA | Pay | Link |
 |---|---|---|---|---|---|---|
-| Machine Maker | SALES MANAGER –  B2B MEDIA & DEVELOPMENT | Pune · Pimpri Chinchwad | 5+ yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493875534) |
-| EY GDS | EYP-DnA-Assistant Manager | Bengaluru | 5+ yrs | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4494202651) |
-| Uber | Manager II, Science, Tech - Science | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495824750) |
-| EY GDS | EYP - DnA - Associate Manager | Hyderabad | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493880648) |
-| Hindustan Unilever | Senior Manager – Agentic FinOps | Bengaluru | not stated | – | ~₹45–75 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495323431) |
-| Salesforce | Customer Success Manager -Marketing Cloud | India Hyderabad | not stated | – | ~₹30–50 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Customer-Success-Manager--Marketing-Cloud_JR358525-1) |
-| EY GDS | Manager-Rewards and Recogniton | Gurugram | not stated | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4484353102) |
-| Salesforce | Capacity Management Analyst (Immediate joiners preferred) | India Bangalore | not stated | – | ~₹20–32 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Capacity-Management-Analyst--Immediate-joiners-preferred-_JR368964) |
-| Salesforce | Agentforce Technical Manager (Salesforce experience mandatory) | India Hyderabad | not stated | – | ~₹30–50 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Agentforce-Technical-Manager--Salesforce-experience-mandatory-_JR356385) |
-| Visa | Sr. Manager, Government Affairs | In Mumbai | not stated | – | ~₹45–75 LPA (est.) | [open](https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Mumbai-India/Sr-Manager--Government-Affairs_REF090743W) |
-| Salesforce | Customer Success Manager (Salesforce Commerce Cloud / Demandware exp mandatory) | India Hyderabad | not stated | – | ~₹30–50 LPA (est.) | [open](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Customer-Success-Manager--Salesforce-Commerce-Cloud---Demandware-exp-mandatory-_JR331777) |
-| Visa | Sr. Systems Analyst | In Bengaluru | not stated | – | ~₹20–32 LPA (est.) | [open](https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Systems-Analyst_REF088843W) |
+| Ntech IT Solutions Private Limited | Power Platform AI SME | India | 4-5 yrs | – | ₹15–25 LPA | [open](https://in.indeed.com/viewjob?jk=c11294d98574bc7f) |
+| Poonam IT Consulting Services | Deputy Manager - Sales & Business Development | Bengaluru | 3-10 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/deputy-manager-sales-business-development-ev-3-10-yrs-1748689) |
+| Verbaflo | Key Account Manager - Enterprise Product | Gurugram | 3-7 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/verbaflo-key-account-manager-enterprise-product-1748635) |
+| YourHRfolks | Chief of Staff - MD Office | Delhi | 2-5 yrs | – | ~₹28–45 LPA (est.) | [open](https://www.iimjobs.com/j/chief-of-staff-mds-office-1748670) |
+| E2M Solutions | Chief of Staff | Ahmedabad | 3-10 yrs | – | ~₹28–45 LPA (est.) | [open](https://www.iimjobs.com/j/chief-of-staff-business-operation-3-10-yrs-1748688) |
+| Yo Hr Consultancy | Business Development Manager | Remote | 2-8 yrs | – | ~₹18–32 LPA (est.) | [open](https://www.iimjobs.com/j/manager-business-development-us-sales-it-1748666) |
+
+## Tier C (8)
+
+| Company | Role | Location | Exp | MBA | Pay | Link |
+|---|---|---|---|---|---|---|
+| Deloitte USI | T&T- Customer- CS&D- Project Management | Mumbai | Senior Consultant | India | 5+ yrs | Yes | ~₹26–42 LPA (est.) | [open](https://southasiacareers.deloitte.com/job/Mumbai-T&T-Customer-CS&D-Project-Management-Mumbai-Senior-Consultant/61919444/) |
+| YesMadam | Founder Office – Tech | Noida | 5-10 yrs | Yes | ~₹18–32 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495361776) |
+| ITC | Sales Executive | Hyderabad | 2+ yrs | Yes | ~₹10–16 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4495369131) |
+| Deloitte USI | Senior Team Lead, F&A Operate: Order to Cash | Delhi | not stated | – | ~₹38–58 LPA (est.) | [open](https://www.instahyre.com/job-505675-senior-team-lead-fa-operate-order-to-cash-at-deloitte-delhi/) |
+| Deloitte USI | Senior Team Lead, T&T-FT, Order to Cash | Delhi | not stated | – | ~₹38–58 LPA (est.) | [open](https://www.instahyre.com/job-505673-senior-team-lead-tt-ft-order-to-cash-at-deloitte-delhi/) |
+| Delhivery | Salesperson | Mayang | 5+ yrs | – | ~₹26–42 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493882084) |
+| Diageo India | Manager, Process Excellence & Change | Bengaluru | not stated | – | ~₹30–50 LPA (est.) | [open](https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Bangalore-India/Manager--Process-Excellence---Change_JR1128284) |
+| Delhivery | Associate/Senior Associate- Inside Sales | India | not stated | – | ~₹16–26 LPA (est.) | [open](https://www.linkedin.com/jobs/view/4493876609) |
